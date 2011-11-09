@@ -1,0 +1,30 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from outmail129174.authsmtp.net (outmail129174.authsmtp.net [62.13.129.174])
+	by ns1 (Postfix) with ESMTP id A338E88688
+	for <support@doap.com>; Tue, 27 Sep 2011 08:05:34 -0700 (PDT)
+Received: from mail-c193.authsmtp.com (mail-c193.authsmtp.com [62.13.128.118])
+	by punt8.authsmtp.com (8.14.2/8.14.2/Kp) with ESMTP id p8RF5XT5048656
+	for <support@doap.com>; Tue, 27 Sep 2011 16:05:33 +0100 (BST)
+Received: from [192.168.137.221] (WiMax160-105.yota.com.ni [190.181.160.105] (may be forged))
+	(authenticated bits=0)
+	by mail.authsmtp.com (8.14.2/8.14.2) with ESMTP id p8RF5QYG015471
+	for <support@doap.com>; Tue, 27 Sep 2011 16:05:28 +0100 (BST)
+From: David Menache <dmenache@thehvac.net>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Subject: .bashrc disabled
+Date: Tue, 27 Sep 2011 09:05:28 -0600
+Message-Id: <4A86240A-ECF6-4F9A-944B-4789A819BC5A@thehvac.net>
+To: "Doap.com Support Team" <support@doap.com>
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+X-Mailer: Apple Mail (2.1244.3)
+X-Server-Quench: 232e80ae-e91a-11e0-97bb-002264978518
+X-AuthReport-Spam: If SPAM / abuse - report it at: http://www.authsmtp.com/abuse
+X-AuthRoute: OCd2aAodClZZSQkc AygEAQdcSQglOBRH RxkOMR1BPUIRUh5N GkpdJ0IVO1oZUwsG HAVeG0tWUFxwSWJz YQpUZwdVLEtHXxtr WElXQ1RSCgRoBAMD AwEeHFl6FXNDGRcH ZUdnWndaEkB/dQh/ QUwBHW1XMHo1YWFO TUFZIgNJeQQYLAJF alJ9UncEZm0CZ3Iu WQU6JDArNn1TKT9c SAUAIToA
+X-Authentic-SMTP: 61633538323839.1014:706
+X-AuthFastPath: 0 (Was 255)
+X-AuthVirus-Status: No virus detected - but ensure you scan with your own anti-virus system.
+
+.bashrc has been disabled on the root account so clients connect via rsh

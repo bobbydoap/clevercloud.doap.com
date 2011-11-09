@@ -1,0 +1,106 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yi0-f54.google.com (mail-yi0-f54.google.com [209.85.218.54])
+	by ns1 (Postfix) with ESMTP id 92CDB886FF
+	for <support@doap.com>; Fri, 30 Sep 2011 05:20:29 -0700 (PDT)
+Received: by yia13 with SMTP id 13so1837633yia.13
+        for <support@doap.com>; Fri, 30 Sep 2011 05:20:29 -0700 (PDT)
+Received: by 10.236.192.197 with SMTP id i45mr34149053yhn.128.1317385229333;
+        Fri, 30 Sep 2011 05:20:29 -0700 (PDT)
+Received: from [192.168.137.221] ([190.181.180.89])
+        by mx.google.com with ESMTPS id o48sm6213496yhl.4.2011.09.30.05.20.26
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 30 Sep 2011 05:20:27 -0700 (PDT)
+From: David Menache <dmenache@thehvac.net>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_90168E0F-49AD-449F-BE6B-F0335FF8CECA"
+Subject: a query
+Date: Fri, 30 Sep 2011 06:20:22 -0600
+Message-Id: <6C60FAE5-FDD5-458B-9A34-DD27F4B46C28@thehvac.net>
+To: "Doap.com Support Team" <support@doap.com>
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+X-Mailer: Apple Mail (2.1244.3)
+
+
+--Apple-Mail=_90168E0F-49AD-449F-BE6B-F0335FF8CECA
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+SELECT concat(wp_users.first_name, ' ', wp_users.last_name) AS Name      =
+, wp_users.ID AS ID      , title.title AS Title      , title.esp_title =
+AS Titulo      , count(websites.dev_id) AS `Sites Built`      , =
+wp_users.mentor AS `Is A Mentor?`      , concat('Level: ', =
+lessons.lesson_level) AS `Lesson Title`      , lessons.lesson_level AS =
+`Skill Level`      , lessons.lesson_name AS `Lesson Name`      , =
+test_scores.score AS Score      , lessons.lesson_desc AS `Lesson =
+Description`      , wp_usermeta.meta_value AS `About The Developer`      =
+, wp_users.lat AS Latitude      , wp_users.`lon` AS Longitude      , =
+wp_users.gravatar AS Pic      , wp_users.last_login AS `Last Login`      =
+, wp_users_1.first_name
+FROM wp_users LEFT OUTER JOIN test_scores ON test_scores.user_id =3D =
+wp_users.ID LEFT OUTER JOIN lessons ON lessons.lesson_id =3D =
+test_scores.lesson_id LEFT OUTER JOIN wp_usermeta ON wp_usermeta.user_id =
+=3D wp_users.ID LEFT OUTER JOIN websites ON websites.dev_id =3D =
+wp_users.ID LEFT OUTER JOIN title ON title.title_id =3D wp_users.ID LEFT =
+OUTER JOIN wp_users wp_users_1 ON wp_users_1.ID =3D wp_users.mentored_by
+WHERE wp_usermeta.meta_key =3D 'description' && lessons.lesson_level =3D =
+2
+GROUP BY wp_users.ID , test_scores.lesson_id , test_scores.user_id , =
+lessons.lesson_id , lessons.lesson_level , lessons.lesson_name , =
+lessons.lesson_desc , wp_usermeta.user_id , wp_usermeta.meta_key , =
+wp_usermeta.meta_value , test_scores.score , wp_users.mentor , =
+wp_users.first_name , wp_users.last_name , title.title , title.esp_title =
+, wp_users.lat , wp_users.`lon` , wp_users.gravatar , =
+wp_users.last_login , title.title_id , wp_users_1.first_name
+ORDER BY Name=
+
+--Apple-Mail=_90168E0F-49AD-449F-BE6B-F0335FF8CECA
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; "><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 10px/normal 'Lucida =
+Grande'; ">SELECT concat(wp_users.first_name, ' ', wp_users.last_name) =
+AS Name&nbsp; &nbsp; &nbsp; , wp_users.ID AS ID&nbsp; &nbsp; &nbsp; , =
+title.title AS Title&nbsp; &nbsp; &nbsp; , title.esp_title AS =
+Titulo&nbsp; &nbsp; &nbsp; , count(websites.dev_id) AS `Sites =
+Built`&nbsp; &nbsp; &nbsp; , wp_users.mentor AS `Is A Mentor?`&nbsp; =
+&nbsp; &nbsp; , concat('Level: ', lessons.lesson_level) AS `Lesson =
+Title`&nbsp; &nbsp; &nbsp; , lessons.lesson_level AS `Skill Level`&nbsp; =
+&nbsp; &nbsp; , lessons.lesson_name AS `Lesson Name`&nbsp; &nbsp; &nbsp; =
+, test_scores.score AS Score&nbsp; &nbsp; &nbsp; , lessons.lesson_desc =
+AS `Lesson Description`&nbsp; &nbsp; &nbsp; , wp_usermeta.meta_value AS =
+`About The Developer`&nbsp; &nbsp; &nbsp; , wp_users.lat AS =
+Latitude&nbsp; &nbsp; &nbsp; , wp_users.`lon` AS Longitude&nbsp; &nbsp; =
+&nbsp; , wp_users.gravatar AS Pic&nbsp; &nbsp; &nbsp; , =
+wp_users.last_login AS `Last Login`&nbsp; &nbsp; &nbsp; , =
+wp_users_1.first_name</div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal =
+10px/normal 'Lucida Grande'; ">FROM wp_users LEFT OUTER JOIN test_scores =
+ON test_scores.user_id =3D wp_users.ID LEFT OUTER JOIN lessons ON =
+lessons.lesson_id =3D test_scores.lesson_id LEFT OUTER JOIN wp_usermeta =
+ON wp_usermeta.user_id =3D wp_users.ID LEFT OUTER JOIN websites ON =
+websites.dev_id =3D wp_users.ID LEFT OUTER JOIN title ON title.title_id =
+=3D wp_users.ID LEFT OUTER JOIN wp_users wp_users_1 ON wp_users_1.ID =3D =
+wp_users.mentored_by</div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal =
+10px/normal 'Lucida Grande'; ">WHERE wp_usermeta.meta_key =3D =
+'description' &amp;&amp; lessons.lesson_level =3D 2</div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 10px/normal 'Lucida =
+Grande'; ">GROUP BY wp_users.ID , test_scores.lesson_id , =
+test_scores.user_id , lessons.lesson_id , lessons.lesson_level , =
+lessons.lesson_name , lessons.lesson_desc , wp_usermeta.user_id , =
+wp_usermeta.meta_key , wp_usermeta.meta_value , test_scores.score , =
+wp_users.mentor , wp_users.first_name , wp_users.last_name , title.title =
+, title.esp_title , wp_users.lat , wp_users.`lon` , wp_users.gravatar , =
+wp_users.last_login , title.title_id , wp_users_1.first_name</div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 10px/normal 'Lucida =
+Grande'; ">ORDER BY Name</div></body></html>=
+
+--Apple-Mail=_90168E0F-49AD-449F-BE6B-F0335FF8CECA--

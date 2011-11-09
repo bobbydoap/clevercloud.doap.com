@@ -1,0 +1,50 @@
+Return-Path: <donotreply@gravatar.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from smtp3.luv.wordpress.com (smtp3.luv.wordpress.com [72.233.119.196])
+	by ns1 (Postfix) with ESMTP id 440DD8862A
+	for <bobby@doap.com>; Sun, 25 Sep 2011 03:02:23 -0700 (PDT)
+Received: from smtp3.luv.wordpress.com (localhost.localdomain [127.0.0.1])
+	by smtp3.luv.wordpress.com (Postfix) with ESMTP id 092A55001C04E
+	for <bobby@doap.com>; Sun, 25 Sep 2011 10:02:23 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=gravatar.com; h=date:to
+	:from:subject:message-id:mime-version:content-transfer-encoding:
+	content-type; s=my3; bh=wHbI1KLC6rsXt04xVxyk+SXlU1w=; b=IhqM1O9h
+	j2tVU0gVC5gvsCNxWTrOSHdhr6n7AB6kNbnXLaOLdUUhnwFZAImde6GS6P/2DwPA
+	AemyFtBIw/EzQQ==
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gravatar.com; h=date:to:from
+	:subject:message-id:mime-version:content-transfer-encoding:
+	content-type; q=dns; s=my3; b=bf6NAEWPLoEe5A7W4JFOju2+k27XBiaCl0
+	Sf+S8cI9AUdaCLNXvcEPZhAFE3JEOMdmqkJ/3KCNt21oIrbj3r+Q==
+Received: from en.gravatar.com (22.61.233.72.static.reverse.ltdomains.com [72.233.61.22])
+	by smtp3.luv.wordpress.com (Postfix) with ESMTP id F11845001BE88
+	for <bobby@doap.com>; Sun, 25 Sep 2011 10:02:22 +0000 (UTC)
+Date: Sun, 25 Sep 2011 10:02:22 +0000
+To: bobby@doap.com
+From: Gravatar <donotreply@gravatar.com>
+Subject: Welcome to Gravatar
+Message-ID: <a69b307fef95f98abf46fb980cec2af2@en.gravatar.com>
+X-Priority: 3
+X-Mailer: PHPMailer (phpmailer.sourceforge.net) [version 2.0.3]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="iso-8859-1"
+
+Welcome to Gravatar!
+
+To activate your account, simply click on the link below or paste into the url field on your favorite browser:
+
+http://en.gravatar.com/accounts/activate/bobby%40doap.com/2589ca3d20 
+
+By signing up for a Gravatar account I acknowledge that I have read and agree to the Terms of Use and Privacy Policy located at the following link:
+
+http://en.gravatar.com/site/terms-of-service
+
+The activation link will only be good for 2 weeks, after that you will have to try again from the beginning. When you visit the above page, you'll be able to set your password and create as many gravatars as you like, all for free!
+
+If you have any questions about the system, feel free to contact us anytime at support@gravatar.com.
+
+The Gravatar Team,
+An Automattic joint.
+
+

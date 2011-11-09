@@ -1,0 +1,80 @@
+Return-Path: <3zNaHTgcTBBM67Ax84Hv0xv37DC.z77z4x.v75Cxv0w7t8.v75@cbg.bounces.google.com>
+X-Original-To: tech@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-qw0-f72.google.com (mail-qw0-f72.google.com [209.85.216.72])
+	by ns1 (Postfix) with ESMTP id CD205886D1
+	for <tech@doap.com>; Sat,  1 Oct 2011 20:13:16 -0700 (PDT)
+Received: by qabg27 with SMTP id g27so3573821qab.7
+        for <tech@doap.com>; Sat, 01 Oct 2011 20:13:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=date:from:to:message-id:subject:mime-version:content-type;
+        bh=7ctFuCgf7RfNuwz++aXWLy+zBGQhBhozL4mfyZtmxkU=;
+        b=UZJ+6fLcCUvdFK4Eaf7rp7rM4daukGCp6pkGTvQBGz4OTQ0Zbtlcaqzz6xLNPp+rgA
+         1jVQrkH/L7TWNkfAt+/A==
+Received: by 10.224.107.193 with SMTP id c1mr3425252qap.11.1317525196578;
+        Sat, 01 Oct 2011 20:13:16 -0700 (PDT)
+Date: Sun, 2 Oct 2011 03:13:16 +0000 (UTC)
+From: Google Checkout <noreply@checkout.google.com>
+To: tech@doap.com
+Message-ID: <1317525196255.f371796f-d40d-4372-aa95-1ebfd6578525@checkout.google.com>
+Subject: Attention required: order notification failing
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_54760_13085681.1317525196576"
+
+------=_Part_54760_13085681.1317525196576
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello tech@doap.com,
+
+We've made several unsuccessful attempts to send order notifications to
+your notification callback URL, https://invoice.zoho.com/gnh.ma As a
+result, you aren't receiving order status, risk, or other notifications.
+
+
+To help you identify the issue with your callback URL, please review
+the errors we encountered while sending notifications to you. To review
+this error information:
+
+- Sign in to Google Checkout.
+- Click on the Tools tab.
+- Click Integration Console.
+Error messages will appear under 'Integration Issues.' If necessary,
+you can also update your callback URL in the 'API callback URL' box on
+the same page.
+
+For more information about receiving notifications via the notification
+API, visit
+http://code.google.com/apis/checkout/developer/index.html#notification.
+
+
+Need help? Visit the Google Checkout help center. Please do not reply
+to this message.
+
+=C2=A92011 Google
+------=_Part_54760_13085681.1317525196576
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td align="left" valign="top" style="border-bottom: none;"><img src="https://checkout.google.com/img/checkout_logo_sm.png" border="0" alt="Google Checkout"></td>
+<td style="width: 1%; border-bottom: none;"></td></tr></table>
+Hello tech@doap.com,
+<br>
+<p>We&#39;ve made several unsuccessful attempts to send order notifications to your notification callback URL,  https://invoice.zoho.com/gnh.ma 
+As a result, you aren&#39;t receiving order status, risk, or other notifications.</p>
+<br>
+<p>To help you identify the issue with your callback URL, please review the errors we encountered while sending notifications to you. To review this error information:</p>
+<ol><li>Sign in to Google Checkout.</li>
+<li>Click on the <b>Tools</b> tab.</li>
+<li>Click <b>Integration Console</b>.</li></ol>
+<p>Error messages will appear under &#39;Integration Issues.&#39; If necessary, you can also update your callback URL in the &#39;API callback URL&#39; box on the same page.</p>
+<p>For more information about receiving notifications via the notification API, visit
+<a href="http://code.google.com/apis/checkout/developer/index.html#notification">http://code.google.com/apis/checkout/developer/index.html#notification</a>.</p>
+<p><div style="padding: 2px; border-top: 1px solid #3366CC"><center><font color="#676767" size="-2"><br>
+Need help? Visit the  <a href="https://checkout.google.com/support/sell?hl=en_US">Google Checkout help center</a>.
+Please do not reply to this message.
+<br><br>
+&copy;2011&nbsp;Google</font></center></div></p>
+------=_Part_54760_13085681.1317525196576--

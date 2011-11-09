@@ -1,0 +1,73 @@
+Return-Path: <glendoraaircon+caf_=sales=doap.com@thehvac.net>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yi0-f54.google.com (mail-yi0-f54.google.com [209.85.218.54])
+	by ns1 (Postfix) with ESMTP id B88B1887A6
+	for <sales@doap.com>; Fri,  9 Sep 2011 18:56:24 -0700 (PDT)
+Received: by yib19 with SMTP id 19so1607652yib.13
+        for <sales@doap.com>; Fri, 09 Sep 2011 18:56:24 -0700 (PDT)
+Received: by 10.236.181.196 with SMTP id l44mr15589705yhm.37.1315619784150;
+        Fri, 09 Sep 2011 18:56:24 -0700 (PDT)
+X-Forwarded-To: sales@doap.com
+X-Forwarded-For: glendoraaircon@thehvac.net sales@doap.com
+Delivered-To: glendoraaircon@thehvac.net
+Received: by 10.146.254.14 with SMTP id b14cs8953yai;
+        Fri, 9 Sep 2011 18:56:23 -0700 (PDT)
+Received: by 10.91.83.14 with SMTP id k14mr2470749agl.35.1315619783494;
+        Fri, 09 Sep 2011 18:56:23 -0700 (PDT)
+Received: from mail-qw0-f71.google.com (mail-qw0-f71.google.com [209.85.216.71])
+        by mx.google.com with ESMTPS id v8si4872511anf.113.2011.09.09.18.56.23
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 09 Sep 2011 18:56:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3xsNqTg8KDnEPSldgSh-cdgTeanVddVaT.RdbVaTcSdgPPXgRdciWTWkPR.cTi@usercomm.bounces.google.com designates 209.85.216.71 as permitted sender) client-ip=209.85.216.71;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of 3xsNqTg8KDnEPSldgSh-cdgTeanVddVaT.RdbVaTcSdgPPXgRdciWTWkPR.cTi@usercomm.bounces.google.com designates 209.85.216.71 as permitted sender) smtp.mail=3xsNqTg8KDnEPSldgSh-cdgTeanVddVaT.RdbVaTcSdgPPXgRdciWTWkPR.cTi@usercomm.bounces.google.com; dkim=pass (test mode) header.i=@google.com
+Received: by qwg2 with SMTP id 2so3251062qwg.10
+        for <glendoraaircon@thehvac.net>; Fri, 09 Sep 2011 18:56:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:message-id:date:subject:from:to:content-type;
+        bh=6QQN5XKT6MGDfhEavR7oAbWH1fuIezqDF02XxedlEP0=;
+        b=bzXZ+FsjZQ9HT93MyLmHRxZBvs2X9P+L4kLdyohHWFHM9a6UxQap2ecfBICMmpxRZD
+         gS6DtbfTvJS8x84JPncg==
+MIME-Version: 1.0
+Received: by 10.42.179.199 with SMTP id br7mr144067icb.1.1315619782956; Fri,
+ 09 Sep 2011 18:56:22 -0700 (PDT)
+Message-ID: <1315619782931.2790e759-c315-4412-8dc3-395583334796@google.com>
+Date: Sat, 10 Sep 2011 01:56:22 +0000
+Subject: Getting Started with Google AdWords
+From: adwords-noreply@google.com
+To: glendoraaircon@thehvac.net
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Congratulations, you've successfully activated your AdWords account. You  
+can now reach your customers with targeted, relevant advertising.
+
+For help with your new account, visit our Getting Started Guide  
+(http://www.google.com/adwords/beginnersguide/en-US ) to learn:
+
+- How AdWords works
+
+- How you can manage your costs
+
+- How to write compelling ads and choose effective keywords
+
+- How to find answers to your questions and discover other helpful resources
+
+Sign in to your account now!
+
+Sincerely,
+
+The Google AdWords Team
+
+------------------------
+
+This message was sent from a notification-only email address that does not  
+accept incoming email. Please do not reply to this message. If you have any  
+questions after following the steps above, please visit the Google AdWords  
+Help Center at http://adwords.google.com/support/aw/?hl=en_US to find  
+answers to frequently asked questions and a 'contact us' link near the  
+bottom of the page.
+
+------------------------
+
+Your AdWords account number: 721-878-4655

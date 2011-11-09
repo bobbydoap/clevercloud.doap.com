@@ -1,0 +1,25 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: tech@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yi0-f54.google.com (mail-yi0-f54.google.com [209.85.218.54])
+	by ns1 (Postfix) with ESMTP id 0BC9288895
+	for <tech@doap.com>; Mon, 26 Sep 2011 08:40:18 -0700 (PDT)
+Received: by yia13 with SMTP id 13so5596641yia.13
+        for <tech@doap.com>; Mon, 26 Sep 2011 08:40:18 -0700 (PDT)
+Received: by 10.101.217.4 with SMTP id u4mr6092591anq.19.1317051618638;
+        Mon, 26 Sep 2011 08:40:18 -0700 (PDT)
+Received: from [192.168.137.221] ([190.181.160.105])
+        by mx.google.com with ESMTPS id u13sm69853043anf.14.2011.09.26.08.40.17
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 26 Sep 2011 08:40:17 -0700 (PDT)
+From: David Menache <dmenache@thehvac.net>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Subject: test from thehvac thru relay
+Date: Mon, 26 Sep 2011 09:40:13 -0600
+Message-Id: <9FF30E1C-D8B0-4651-B1ED-2F247FFA2F39@thehvac.net>
+To: tech@doap.com
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+X-Mailer: Apple Mail (2.1244.3)
+
+test thru relay 9:40am

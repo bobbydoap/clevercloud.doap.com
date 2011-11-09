@@ -1,0 +1,251 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yw0-f54.google.com (mail-yw0-f54.google.com [209.85.213.54])
+	by ns1 (Postfix) with ESMTP id 707AA885CD
+	for <support@doap.com>; Thu, 29 Sep 2011 17:58:08 -0700 (PDT)
+Received: by ywp17 with SMTP id 17so1362741ywp.13
+        for <support@doap.com>; Thu, 29 Sep 2011 17:58:08 -0700 (PDT)
+Received: by 10.236.76.170 with SMTP id b30mr69498943yhe.32.1317344288248;
+        Thu, 29 Sep 2011 17:58:08 -0700 (PDT)
+Received: from [192.168.137.221] ([190.181.180.89])
+        by mx.google.com with ESMTPS id p68sm4283136yhj.16.2011.09.29.17.58.06
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 29 Sep 2011 17:58:07 -0700 (PDT)
+Subject: data uploads
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_264FCE9A-2A50-4374-A96E-3A5FD597E3A8"
+From: David Menache <dmenache@thehvac.net>
+Date: Thu, 29 Sep 2011 18:58:02 -0600
+Cc: Laura Birch <lbirch@hvac-marketing.com>
+Message-Id: <2DE83671-4265-424C-9CD6-9D83EC014E24@thehvac.net>
+References: <715FA0AF41D04E53B2FB6D759FCD7109@global.local>
+To: Pat Santana <psantana@globalhvac.com>
+X-Mailer: Apple Mail (2.1244.3)
+
+
+--Apple-Mail=_264FCE9A-2A50-4374-A96E-3A5FD597E3A8
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=windows-1252
+
+Hi Pat,
+
+Check out this post=85 =20
+http://www.doap.com/2011/09/how-to-upload-files-to-thehvac-net/
+Look for the link just above the video that says upload a spreadsheet =
+here.  You'll need the psantana@thehvac.net credentials.  The video is =
+also very helpful in understanding how to upload if you have any =
+troubles.
+
+Also, once uploaded, there is a share function, if you could add me =
+there that would be terrific.
+
+Thanks=20
+Dave
+
+Begin forwarded message:
+
+> From: "Pat Santana" <psantana@globalhvac.com>
+> Subject: RE: progress report, products table
+> Date: September 29, 2011 2:35:27 PM CST
+> To: <dave@doap.com>, "'Pat Santana'" <psantana@thehvac.net>
+> Cc: "'Laura Birch'" <Lbirch@hvac-marketing.com>
+>=20
+> Hi David
+> =20
+> I will need some help in loading the price level file into your amazon =
+bucket =96 I logged into globalhvac.net but don=92t see any amazon =
+bucket.  Please tell me where to locate the feature so that I can load =
+the file
+> =20
+> Thanks
+> Pat
+> =20
+> From: David Menache [mailto:dmenache@thehvac.net]=20
+> Sent: Wednesday, September 28, 2011 11:03 AM
+> To: Pat Santana
+> Cc: Laura Birch
+> Subject: progress report, products table
+> =20
+> Hi Pat,
+> =20
+> It's coming right along.  I think you'll be really happy.  You are =
+right, it is a big job with lots of moving pieces.  We have a new =
+globalhvac.net user list built with default passwords for all 2500 =
+customers and a framework for them to log in with price levels.  I'm =
+ready for product lists beyond the test list ya gave me.  The limited =
+lists arent sufficient to get the front end paging properly.  Also, I =
+noticed there are no prices.  I'm suspecting there is a table with =
+columns similar to (SKU, PRICE, STORE_ID)  ...I just made these up as an =
+example.  The previous exports you sent me were great and you really =
+seem to know whats going on with this stuff so I have complete =
+confidence.   Oh, if the files are too big to mail, i have an =
+amazonglobalhvac.net bucket that can handle up to 4TB files!  Ok cheers, =
+thanks for the help.
+> =20
+> Dave    =20
+
+
+--Apple-Mail=_264FCE9A-2A50-4374-A96E-3A5FD597E3A8
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=windows-1252
+
+<html><head><base href=3D"x-msg://62/"></head><body style=3D"word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space; "><div>Hi Pat,</div><div><br></div><div>Check out =
+this post=85 &nbsp;</div><div><div><a =
+href=3D"http://www.doap.com/2011/09/how-to-upload-files-to-thehvac-net/">h=
+ttp://www.doap.com/2011/09/how-to-upload-files-to-thehvac-net/</a></div><d=
+iv>Look for the link just above the video that says upload a spreadsheet =
+here. &nbsp;You'll need the <a =
+href=3D"mailto:psantana@thehvac.net">psantana@thehvac.net</a> =
+credentials. &nbsp;The video is also very helpful in understanding how =
+to upload if you have any troubles.</div><div><br></div><div>Also, once =
+uploaded, there is a share function, if you could add me there that =
+would be =
+terrific.</div><div><br></div><div>Thanks&nbsp;</div><div>Dave</div><div><=
+br><div>Begin forwarded message:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>From: </b></span><span =
+style=3D"font-family:'Helvetica'; font-size:medium;">"Pat Santana" =
+&lt;<a =
+href=3D"mailto:psantana@globalhvac.com">psantana@globalhvac.com</a>&gt;<br=
+></span></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>Subject: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;"><b>RE: progress report, products =
+table</b><br></span></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>Date: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;">September 29, 2011 2:35:27 PM =
+CST<br></span></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>To: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;">&lt;<a =
+href=3D"mailto:dave@doap.com">dave@doap.com</a>&gt;, "'Pat Santana'" =
+&lt;<a =
+href=3D"mailto:psantana@thehvac.net">psantana@thehvac.net</a>&gt;<br></spa=
+n></div><div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: =
+0px; margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>Cc: </b></span><span =
+style=3D"font-family:'Helvetica'; font-size:medium;">"'Laura Birch'" =
+&lt;<a =
+href=3D"mailto:Lbirch@hvac-marketing.com">Lbirch@hvac-marketing.com</a>&gt=
+;<br></span></div><br><div lang=3D"EN-US" link=3D"blue" =
+vlink=3D"blue"><div class=3D"Section1" style=3D"page: Section1; "><div =
+style=3D"margin-top: 0in; margin-right: 0in; margin-left: 0in; =
+margin-bottom: 0.0001pt; font-size: 12pt; font-family: 'Times New =
+Roman'; "><font size=3D"2" color=3D"navy" face=3D"Arial"><span =
+style=3D"font-size: 10pt; font-family: Arial; color: navy; ">Hi =
+David<o:p></o:p></span></font></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+12pt; font-family: 'Times New Roman'; "><font size=3D"2" color=3D"navy" =
+face=3D"Arial"><span style=3D"font-size: 10pt; font-family: Arial; =
+color: navy; "><o:p>&nbsp;</o:p></span></font></div><div =
+style=3D"margin-top: 0in; margin-right: 0in; margin-left: 0in; =
+margin-bottom: 0.0001pt; font-size: 12pt; font-family: 'Times New =
+Roman'; "><font size=3D"2" color=3D"navy" face=3D"Arial"><span =
+style=3D"font-size: 10pt; font-family: Arial; color: navy; ">I will need =
+some help in loading the price level file into your amazon bucket =96 I =
+logged into<span class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"http://globalhvac.net" style=3D"color: blue; text-decoration: =
+underline; ">globalhvac.net</a><span =
+class=3D"Apple-converted-space">&nbsp;</span>but don=92t see any amazon =
+bucket.&nbsp; Please tell me where to locate the feature so that I can =
+load the file<o:p></o:p></span></font></div><div style=3D"margin-top: =
+0in; margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; =
+font-size: 12pt; font-family: 'Times New Roman'; "><font size=3D"2" =
+color=3D"navy" face=3D"Arial"><span style=3D"font-size: 10pt; =
+font-family: Arial; color: navy; =
+"><o:p>&nbsp;</o:p></span></font></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+12pt; font-family: 'Times New Roman'; "><font size=3D"2" color=3D"navy" =
+face=3D"Arial"><span style=3D"font-size: 10pt; font-family: Arial; =
+color: navy; ">Thanks<o:p></o:p></span></font></div><div =
+style=3D"margin-top: 0in; margin-right: 0in; margin-left: 0in; =
+margin-bottom: 0.0001pt; font-size: 12pt; font-family: 'Times New =
+Roman'; "><font size=3D"2" color=3D"navy" face=3D"Arial"><span =
+style=3D"font-size: 10pt; font-family: Arial; color: navy; =
+">Pat<o:p></o:p></span></font></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+12pt; font-family: 'Times New Roman'; "><font size=3D"2" color=3D"navy" =
+face=3D"Arial"><span style=3D"font-size: 10pt; font-family: Arial; =
+color: navy; "><o:p>&nbsp;</o:p></span></font></div><div><div =
+class=3D"MsoNormal" align=3D"center" style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+12pt; font-family: 'Times New Roman'; text-align: center; "><font =
+size=3D"3" face=3D"Times New Roman"><span style=3D"font-size: 12pt; =
+"><hr size=3D"2" width=3D"100%" align=3D"center" =
+tabindex=3D"-1"></span></font></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+12pt; font-family: 'Times New Roman'; "><b><font size=3D"2" =
+face=3D"Tahoma"><span style=3D"font-size: 10pt; font-family: Tahoma; =
+font-weight: bold; ">From:</span></font></b><font size=3D"2" =
+face=3D"Tahoma"><span style=3D"font-size: 10pt; font-family: Tahoma; =
+"><span class=3D"Apple-converted-space">&nbsp;</span>David Menache =
+[mailto:dmenache@thehvac.net]<span =
+class=3D"Apple-converted-space">&nbsp;</span><br><b><span =
+style=3D"font-weight: bold; ">Sent:</span></b><span =
+class=3D"Apple-converted-space">&nbsp;</span>Wednesday, September 28, =
+2011 11:03 AM<br><b><span style=3D"font-weight: bold; =
+">To:</span></b><span class=3D"Apple-converted-space">&nbsp;</span>Pat =
+Santana<br><b><span style=3D"font-weight: bold; ">Cc:</span></b><span =
+class=3D"Apple-converted-space">&nbsp;</span>Laura Birch<br><b><span =
+style=3D"font-weight: bold; ">Subject:</span></b><span =
+class=3D"Apple-converted-space">&nbsp;</span>progress report, products =
+table</span></font><o:p></o:p></div></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+12pt; font-family: 'Times New Roman'; "><font size=3D"3" face=3D"Times =
+New Roman"><span style=3D"font-size: 12pt; =
+"><o:p>&nbsp;</o:p></span></font></div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+12pt; font-family: 'Times New Roman'; "><font size=3D"3" face=3D"Times =
+New Roman"><span style=3D"font-size: 12pt; ">Hi =
+Pat,<o:p></o:p></span></font></div><div><div style=3D"margin-top: 0in; =
+margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; font-size: =
+12pt; font-family: 'Times New Roman'; "><font size=3D"3" face=3D"Times =
+New Roman"><span style=3D"font-size: 12pt; =
+"><o:p>&nbsp;</o:p></span></font></div></div><div><div =
+style=3D"margin-top: 0in; margin-right: 0in; margin-left: 0in; =
+margin-bottom: 0.0001pt; font-size: 12pt; font-family: 'Times New =
+Roman'; "><font size=3D"3" face=3D"Times New Roman"><span =
+style=3D"font-size: 12pt; ">It's coming right along. &nbsp;I think =
+you'll be really happy. &nbsp;You are right, it is a big job with lots =
+of moving pieces. &nbsp;We have a new<span =
+class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"http://globalhvac.net" style=3D"color: blue; text-decoration: =
+underline; ">globalhvac.net</a><span =
+class=3D"Apple-converted-space">&nbsp;</span>user list built with =
+default passwords for all 2500 customers and a framework for them to log =
+in with price levels. &nbsp;I'm ready for product lists beyond the test =
+list ya gave me. &nbsp;The limited lists arent sufficient to get the =
+front end paging properly. &nbsp;Also, I noticed there are no prices. =
+&nbsp;I'm suspecting there is a table with columns similar to (SKU, =
+PRICE, STORE_ID) &nbsp;...I just made these up as an example. &nbsp;The =
+previous exports you sent me were great and you really seem to know =
+whats going on with this stuff so I have complete confidence. &nbsp; Oh, =
+if the files are too big to mail, i have an amazon<a =
+href=3D"http://globalhvac.net" style=3D"color: blue; text-decoration: =
+underline; ">globalhvac.net</a><span =
+class=3D"Apple-converted-space">&nbsp;</span>bucket that can handle up =
+to 4TB files! &nbsp;Ok cheers, thanks for the =
+help.<o:p></o:p></span></font></div></div><div><div style=3D"margin-top: =
+0in; margin-right: 0in; margin-left: 0in; margin-bottom: 0.0001pt; =
+font-size: 12pt; font-family: 'Times New Roman'; "><font size=3D"3" =
+face=3D"Times New Roman"><span style=3D"font-size: 12pt; =
+"><o:p>&nbsp;</o:p></span></font></div></div><div><div =
+style=3D"margin-top: 0in; margin-right: 0in; margin-left: 0in; =
+margin-bottom: 0.0001pt; font-size: 12pt; font-family: 'Times New =
+Roman'; "><font size=3D"3" face=3D"Times New Roman"><span =
+style=3D"font-size: 12pt; ">Dave &nbsp; =
+&nbsp;&nbsp;<o:p></o:p></span></font></div></div></div></div></blockquote>=
+</div><br></div></body></html>=
+
+--Apple-Mail=_264FCE9A-2A50-4374-A96E-3A5FD597E3A8--

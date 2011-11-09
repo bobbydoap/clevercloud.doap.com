@@ -1,0 +1,262 @@
+Return-Path: <tech+bncCOKrwsOaDRC4s8LzBBoEgH0r4A@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yw0-f72.google.com (mail-yw0-f72.google.com [209.85.213.72])
+	by ns1 (Postfix) with ESMTP id 423E088659;
+	Wed, 14 Sep 2011 05:10:33 -0700 (PDT)
+Received: by ywm21 with SMTP id 21sf2179261ywm.7
+        for <multiple recipients>; Wed, 14 Sep 2011 05:10:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=B/x9qmgR4I3CW4lsiZ3QSueiyjfzfMzh/8r3b82wcUw=;
+        b=ZiqHosDH/CYzGyGS6vqVPPqb+0qebjDN8Qn7KuxmgDRzLwfADWfPJq54jnlvqAD5xB
+         h8MxRpKXGuq3RSW1lc7Q==
+Received: by 10.236.191.74 with SMTP id f50mr32942183yhn.1.1316002232953;
+        Wed, 14 Sep 2011 05:10:32 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.231.65.148 with SMTP id j20ls444870ibi.6.gmail; Wed, 14 Sep
+ 2011 05:10:32 -0700 (PDT)
+Received: by 10.231.0.80 with SMTP id 16mr10985821iba.93.1316002232611;
+        Wed, 14 Sep 2011 05:10:32 -0700 (PDT)
+Received: by 10.231.0.80 with SMTP id 16mr10985735iba.93.1316002227934;
+        Wed, 14 Sep 2011 05:10:27 -0700 (PDT)
+Received: from mail-iy0-f199.google.com (mail-iy0-f199.google.com [209.85.210.199])
+        by mx.google.com with ESMTPS id w11si604ibw.81.2011.09.14.05.10.26
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 14 Sep 2011 05:10:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3rJlwThEKBBsEFI5GCP+6554GIFOP7FF7C5.3FDu538K858M13.E5K@feedburner.bounces.google.com designates 209.85.210.199 as permitted sender) client-ip=209.85.210.199;
+Received: by iaen33 with SMTP id n33so99018iae.10
+        for <Tech@thehvac.net>; Wed, 14 Sep 2011 05:10:26 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.43.47.198 with SMTP id ut6mt3306240icb.14.1316002220711; Wed,
+ 14 Sep 2011 05:10:20 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <bcaec52e5e3be3a77804ace5a4af@google.com>
+Date: Wed, 14 Sep 2011 12:10:26 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3rJlwThEKBBsEFI5GCP+6554GIFOP7FF7C5.3FDu538K858M13.E5K@feedburner.bounces.google.com
+ designates 209.85.210.199 as permitted sender) smtp.mail=3rJlwThEKBBsEFI5GCP+6554GIFOP7FF7C5.3FDu538K858M13.E5K@feedburner.bounces.google.com;
+ dkim=pass (test mode) header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=bcaec52e5e3b40a39a04ace5a51e
+
+--bcaec52e5e3b40a39a04ace5a51e
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+
+Amazon Web Services Blog
+
+///////////////////////////////////////////
+AWS Media and Entertainment Summit - This Coming October in Los Angeles
+
+Posted: 13 Sep 2011 05:38 AM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/GWQzyBuLhNc/aws-media-and-entertainment-summit-this-coming-october-in-los-angeles.html?utm_source=feedburner&utm_medium=email
+
+
+We are hosting an AWS Media and Entertainment Summit at the Sofitel hotel  
+in Los Angeles in early October.This half-day event will give you the  
+information that you need to use AWS on your own cloud computing projects.  
+Weve put together an action-packed agenda to make the best possible use of  
+your time:
+
+The event will feature customer presentations from PBS, Ooyala, and  
+Netflix. After they have presented, youll have the opportunity to ask them  
+questions as part of a customer panel.
+
+Michelle Munson, CEO of Aspera, will talk about media ingestion and high  
+speed data transfer, an essential element of any cloud-based media  
+architecture.
+
+Following Michelles presentation, you will get to hear from three senior  
+members of our product teams:
+
+S3 Senior Manager Dan Winn will talk about storage.
+EC2 Principal Product Manager Deepak Singh will discuss transcoding and  
+rendering.
+CloudFront General Manager Tal Saraf will discuss content delivery.
+
+
+Ariel Kelman, Director of AWS Marketing, will emcee the event.
+
+The event is free, but seating is limited, so register now.
+
+-- Jeff;
+
+
+
+
+
+--
+You are subscribed to email updates from "Amazon Web Services Blog."
+To stop receiving these emails, you may unsubscribe now:  
+http://feedburner.google.com/fb/a/mailunsubscribe?k=WYlqsHgFmj4AaMxCIo4DpqGJl_Y
+
+Email delivery powered by Google.
+Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+
+--bcaec52e5e3b40a39a04ace5a51e
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/GWQzy=
+BuLhNc/aws-media-and-entertainment-summit-this-coming-october-in-los-angele=
+s.html?utm_source=3Dfeedburner&utm_medium=3Demail">AWS Media and Entertainm=
+ent Summit - This Coming October in Los Angeles</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 13 Sep 2011 05:38 AM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>We are hosting an AWS Media a=
+nd Entertainment Summit at the Sofitel hotel in Los Angeles in early Octobe=
+r.This half-day event will give you the information that you need to use AW=
+S on your own cloud computing projects. We&#39;ve put together an action-pa=
+cked agenda to make the best possible use of your time:</p>
+<p>The event will feature customer presentations from <a href=3D"http://aws=
+.amazon.com/solutions/case-studies/pbs/" target=3D"_self">PBS</a>, <a href=
+=3D"http://aws.amazon.com/solutions/case-studies/ooyala/" target=3D"_self">=
+Ooyala</a>, and <a href=3D"http://techblog.netflix.com/2010/12/5-lessons-we=
+ve-learned-using-aws.html" target=3D"_self">Netflix</a>. After they have pr=
+esented, you&#39;ll have the opportunity to ask them questions as part of a=
+ customer panel.</p>
+<p>Michelle Munson, CEO of <a href=3D"http://www.asperasoft.com/" target=3D=
+"_self">Aspera</a>, will talk about media ingestion and high speed data tra=
+nsfer, an essential element of any cloud-based media architecture.</p>
+<p>Following Michelle&#39;s presentation, you will get to hear from three s=
+enior members of our product teams:</p>
+<ul>
+<li>S3 Senior Manager Dan Winn will talk about storage.</li>
+<li>EC2 Principal Product Manager Deepak Singh will discuss transcoding and=
+ rendering.</li>
+<li>CloudFront General Manager Tal Saraf will discuss content delivery.</li=
+>
+</ul>
+<p>Ariel Kelman, Director of AWS Marketing, will emcee the event.</p>
+<p>The event is free, but seating is limited, so <a href=3D"http://aws.amaz=
+on.com/mediaevent/registration/" target=3D"_self">register now</a>.</p>
+<p>-- Jeff;</p>
+<p>&#0160;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DGWQzyB=
+uLhNc:p-D_FwKzPh0:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DGWQzyBuLhNc:p-D_Fw=
+KzPh0:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DGWQzyBuLhNc:p-D_FwKzPh0:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/G=
+WQzyBuLhNc?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--bcaec52e5e3b40a39a04ace5a51e--

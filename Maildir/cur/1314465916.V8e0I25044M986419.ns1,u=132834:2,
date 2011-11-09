@@ -1,0 +1,15 @@
+Return-Path: <root@doap.com>
+X-Original-To: tech@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 0)
+	id E92D188A3C; Sat, 27 Aug 2011 10:25:16 -0700 (PDT)
+Date: Sat, 27 Aug 2011 10:25:16 -0700
+To: tech@doap.com
+User-Agent: Heirloom mailx 12.2 01/07/07
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-Id: <20110827172516.E92D188A3C@ns1>
+From: root@doap.com (root)
+
+should be good now jim

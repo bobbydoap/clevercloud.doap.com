@@ -1,0 +1,339 @@
+Return-Path: <tech+bncCOKrwsOaDRDtyfjyBBoEOOfPwA@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yw0-f72.google.com (mail-yw0-f72.google.com [209.85.213.72])
+	by ns1 (Postfix) with ESMTP id DFADC88918;
+	Wed, 31 Aug 2011 05:11:25 -0700 (PDT)
+Received: by ywm3 with SMTP id 3sf787502ywm.7
+        for <multiple recipients>; Wed, 31 Aug 2011 05:11:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=wCYXfb0piYj01dpscPiPcRT5c3ksLR8nM9k7it3Jlg4=;
+        b=R/Ln/sdlkATdtjei/yj22MN3TbHIz4w8YMOtnPnKU/cLNEG4fUEVj7In/1fDAwY8Kd
+         Lo1/P/MmVG6AjTfU2zxg==
+Received: by 10.100.234.20 with SMTP id g20mr203265anh.50.1314792685484;
+        Wed, 31 Aug 2011 05:11:25 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.90.190.12 with SMTP id n12ls23726005agf.2.gmail; Wed, 31 Aug
+ 2011 05:11:25 -0700 (PDT)
+Received: by 10.236.152.74 with SMTP id c50mr1490646yhk.90.1314792685253;
+        Wed, 31 Aug 2011 05:11:25 -0700 (PDT)
+Received: by 10.236.152.74 with SMTP id c50mr1490642yhk.90.1314792685232;
+        Wed, 31 Aug 2011 05:11:25 -0700 (PDT)
+Received: from mail-gy0-f199.google.com (mail-gy0-f199.google.com [209.85.160.199])
+        by mx.google.com with ESMTPS id b29si8728095yhe.77.2011.08.31.05.11.25
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 31 Aug 2011 05:11:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 35yReThEKBCILMPCNJW+DCCBNPMVWEMMEJC.AMK1CAFRFCFT8A.LCR@feedburner.bounces.google.com designates 209.85.160.199 as permitted sender) client-ip=209.85.160.199;
+Received: by gyd10 with SMTP id 10so734771gyd.10
+        for <Tech@thehvac.net>; Wed, 31 Aug 2011 05:11:25 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.96.193 with SMTP id k1mt545382icn.12.1314792679068; Wed, 31
+ Aug 2011 05:11:19 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <20cf30363af596dae104abcc06c9@google.com>
+Date: Wed, 31 Aug 2011 12:11:24 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 35yReThEKBCILMPCNJW+DCCBNPMVWEMMEJC.AMK1CAFRFCFT8A.LCR@feedburner.bounces.google.com
+ designates 209.85.160.199 as permitted sender) smtp.mail=35yReThEKBCILMPCNJW+DCCBNPMVWEMMEJC.AMK1CAFRFCFT8A.LCR@feedburner.bounces.google.com;
+ dkim=pass (test mode) header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=20cf30363af5f0f02504abcc0684
+
+--20cf30363af5f0f02504abcc0684
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+
+Amazon Web Services Blog
+
+///////////////////////////////////////////
+Elastic Load Balancer SSL Support Options
+
+Posted: 30 Aug 2011 08:31 PM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/2Ogl6Ux8udw/elastic-load-balancer-ssl-support-options.html?utm_source=feedburner&utm_medium=email
+
+
+Weve added some additional flexibility to Amazon EC2s Elastic Load  
+Balancing feature:
+
+You can now terminate SSL sessions at the load balancer and then re-encrypt  
+them before they are sent to the back-end EC2 instances.
+You can now configure the set of ciphers and SSL protocols accepted by the  
+load balancer.
+You can now configure HTTPS health checks.
+
+
+Terminate and Re-Encrypt
+The Elastic Load Balancer has supported SSL for a while. Heres the original  
+model:
+
+
+Were enhancing this feature to allow you to terminate a request at the load  
+balancer and then re-encrypt it before it is sent to an EC2 instance:
+
+
+This provides additional protection for your data, a must for PCI  
+compliance, among other scenarios. As a bonus feature, the Elastic Load  
+Balancer can now verify the authenticity of the EC2 server before sending  
+the request. By allowing the ELB to handle the termination and  
+re-encryption, developers can now take advantage of features like session  
+affinity (sticky sessions) while still using HTTPS.
+
+You can set this up from the AWS Management Console, the Command Line  
+tools, or the Elastic Load Balancer APIs.
+
+Configurable Ciphers
+You may not know it, but SSL can use a variety of different algorithms  
+(also known as ciphers) to encrypt and decrypt requests and responses. The  
+algorithms vary in the level of protection that they offer and in the  
+computational load required to do the work.
+
+Developers have told us that they need additional control over the set of  
+ciphers used by their Load Balancers. In some cases they need to support  
+archaic clients using equally archaic ciphers. More commonly, they want to  
+use only the most recent ciphers as part of a compliance effort. For  
+example, they might want to stick with 256 bit AES, a cipher that the US  
+Government has approved for the protection of top secret information.
+
+You can now control the set of ciphers that each of your Load Balancers  
+presents to its clients. You can do this using the command-line tools, the  
+APIs, or the AWS Management Console:
+
+
+HTTPS Health Checks
+You can (and definitely should) configure your Load Balancers to perform  
+periodic health checks on the EC2 instances under their purview. Up until  
+now these health checks had to be done via HTTP. As of this release, you  
+can now configure HTTPS health checks. This means that you can configure  
+your instances such that they respond only to requests on port 443.
+
+Keep Going
+Read more about these new features in the Elastic Load Balancing Developer  
+Guide.
+
+Were Hiring
+We have the following jobs open on the ELB team:
+
+Senior Software Development Engineer - AWS Elastic Load Balancing
+
+System Administrator / Engineer- Amazon Elastic Compute Cloud
+
+
+-- Jeff;
+
+
+
+
+
+--
+You are subscribed to email updates from "Amazon Web Services Blog."
+To stop receiving these emails, you may unsubscribe now:  
+http://feedburner.google.com/fb/a/mailunsubscribe?k=WYlqsHgFmj4AaMxCIo4DpqGJl_Y
+
+Email delivery powered by Google.
+Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+
+--20cf30363af5f0f02504abcc0684
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/2Ogl6=
+Ux8udw/elastic-load-balancer-ssl-support-options.html?utm_source=3Dfeedburn=
+er&utm_medium=3Demail">Elastic Load Balancer SSL Support Options</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 30 Aug 2011 08:31 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>We&#39;ve added some addition=
+al flexibility to Amazon EC2&#39;s <a href=3D"http://aws.amazon.com/elastic=
+loadbalancing/" target=3D"_self">Elastic Load Balancing</a> feature:</p>
+<ol>
+<li>You can now terminate SSL sessions at the load balancer and then re-enc=
+rypt them before they are sent to the back-end EC2 instances.</li>
+<li>You can now configure the set of ciphers and SSL protocols accepted by =
+the load balancer.</li>
+<li>You can now configure HTTPS health checks.</li>
+</ol>
+<p><span style=3D"text-decoration: underline;"><strong>Terminate and Re-Enc=
+rypt</strong></span><br />The Elastic Load Balancer has supported SSL for a=
+ while. Here&#39;s the original model:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/elb_ssl_http_1.png" /></div>
+<p>We&#39;re enhancing this feature to allow you to terminate a request at =
+the load balancer and then re-encrypt it before it is sent to an EC2 instan=
+ce:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/elb_ssl_https_1.png" /></div>
+<p>This provides additional protection for your data, a must for PCI compli=
+ance, among other scenarios. As a bonus feature, the Elastic Load Balancer =
+can now verify the authenticity of the EC2 server before sending the reques=
+t. By allowing the ELB to handle the termination and re-encryption, develop=
+ers can now take advantage of features like session affinity (sticky sessio=
+ns) while still using HTTPS.</p>
+<p>You can set this up from the AWS Management Console, the Command Line to=
+ols, or the Elastic Load Balancer APIs.</p>
+<p><span style=3D"text-decoration: underline;"><strong>Configurable Ciphers=
+</strong></span><br />You may not know it, but SSL can use a variety of dif=
+ferent algorithms (also known as ciphers) to encrypt and decrypt requests a=
+nd responses. The algorithms vary in the level of protection that they offe=
+r and in the computational load required to do the work.</p>
+<p>Developers have told us that they need additional control over the set o=
+f ciphers used by their Load Balancers. In some cases they need to support =
+archaic clients using equally archaic ciphers. More commonly, they want to =
+use only the most recent ciphers as part of a compliance effort. For exampl=
+e, they might want to stick with 256 bit <a href=3D"http://en.wikipedia.org=
+/wiki/Advanced_Encryption_Standard" target=3D"_self">AES</a>, a cipher that=
+ the US Government has approved for the protection of top secret informatio=
+n.</p>
+<p>You can now control the set of ciphers that each of your Load Balancers =
+presents to its clients. You can do this using the command-line tools, the =
+APIs, or the AWS Management Console:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/elb_configure_ciphers_1.png" /></div>
+<p><span style=3D"text-decoration: underline;"><strong>HTTPS Health Checks<=
+/strong></span><br />You can (and definitely should) configure your Load Ba=
+lancers to perform periodic health checks on the EC2 instances under their =
+purview. Up until now these health checks had to be done via HTTP. As of th=
+is release, you can now configure HTTPS health checks. This means that you =
+can configure your instances such that they respond only to requests on por=
+t 443.</p>
+<p><span style=3D"text-decoration: underline;"><strong>Keep Going</strong><=
+/span><br />Read more about these new features in the <a href=3D"http://doc=
+s.amazonwebservices.com/ElasticLoadBalancing/latest/DeveloperGuide/" target=
+=3D"_self">Elastic Load Balancing Developer Guide</a>.</p>
+<p><span style=3D"text-decoration: underline;"><strong>We&#39;re Hiring</st=
+rong></span><br />We have the following jobs open on the ELB team:</p>
+<ul>
+<li><a href=3D"http://www.amazon.com/gp/jobs/124005" target=3D"_self">Senio=
+r Software Development Engineer - AWS Elastic Load Balancing</a><a href=3D"=
+http://www.amazon.com/gp/jobs/124005" target=3D"_self"><br /></a></li>
+<li><a href=3D"http://www.amazon.com/gp/jobs/138315" target=3D"_self">Syste=
+m Administrator / Engineer- Amazon Elastic Compute Cloud</a></li>
+</ul>
+<p>-- Jeff;</p>
+<p>&#0160;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3D2Ogl6U=
+x8udw:GH8CfM2SIHU:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3D2Ogl6Ux8udw:GH8CfM=
+2SIHU:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3D2Ogl6Ux8udw:GH8CfM2SIHU:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/2=
+Ogl6Ux8udw?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--20cf30363af5f0f02504abcc0684--

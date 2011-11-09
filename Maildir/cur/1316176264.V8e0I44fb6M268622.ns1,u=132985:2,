@@ -1,0 +1,276 @@
+Return-Path: <tech+bncCOKrwsOaDRCHg83zBBoEG2HBKw@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gw0-f72.google.com (mail-gw0-f72.google.com [74.125.83.72])
+	by ns1 (Postfix) with ESMTP id C8BD18890B;
+	Fri, 16 Sep 2011 05:31:03 -0700 (PDT)
+Received: by gwj23 with SMTP id 23sf5340756gwj.7
+        for <multiple recipients>; Fri, 16 Sep 2011 05:31:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=WTjevHX88ITpDf0ZzUdZOQl7CW1SdrUOzIydUBpP3S8=;
+        b=PzqJHs91XzWNcCj4b/0PYRcup/vE5qZLH1ehfQ0j8BXx2dXUvANCZMYcb9qhN88IEu
+         MPMBf+4zpB2mH+Fd0PDQ==
+Received: by 10.100.243.30 with SMTP id q30mr1728736anh.32.1316176263378;
+        Fri, 16 Sep 2011 05:31:03 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.150.173.9 with SMTP id v9ls6899840ybe.6.gmail; Fri, 16 Sep
+ 2011 05:31:03 -0700 (PDT)
+Received: by 10.150.62.2 with SMTP id k2mr2540577yba.376.1316176263007;
+        Fri, 16 Sep 2011 05:31:03 -0700 (PDT)
+Received: by 10.150.62.2 with SMTP id k2mr2540576yba.376.1316176262982;
+        Fri, 16 Sep 2011 05:31:02 -0700 (PDT)
+Received: from mail-gy0-f199.google.com (mail-gy0-f199.google.com [209.85.160.199])
+        by mx.google.com with ESMTPS id d3si666691ybf.43.2011.09.16.05.31.02
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 16 Sep 2011 05:31:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3gEFzThEKBEkyz2p0w9+qppo02z89rzzrwp.nzxepns4sps6ln.yp4@feedburner.bounces.google.com designates 209.85.160.199 as permitted sender) client-ip=209.85.160.199;
+Received: by gye5 with SMTP id 5so5247553gye.10
+        for <Tech@thehvac.net>; Fri, 16 Sep 2011 05:31:02 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.157.9 with SMTP id b9mt1057560icx.19.1316176256488; Fri, 16
+ Sep 2011 05:30:56 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <90e6ba6e83103adf4b04ad0e2aa2@google.com>
+Date: Fri, 16 Sep 2011 12:31:02 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3gEFzThEKBEkyz2p0w9+qppo02z89rzzrwp.nzxepns4sps6ln.yp4@feedburner.bounces.google.com
+ designates 209.85.160.199 as permitted sender) smtp.mail=3gEFzThEKBEkyz2p0w9+qppo02z89rzzrwp.nzxepns4sps6ln.yp4@feedburner.bounces.google.com;
+ dkim=pass header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=90e6ba6e831098103604ad0e2aae
+
+--90e6ba6e831098103604ad0e2aae
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+
+Amazon Web Services Blog
+
+///////////////////////////////////////////
+FISMA Moderate for AWS
+
+Posted: 15 Sep 2011 09:31 AM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/ieblMOyJCUQ/adding-iso-27001-and-fisma-moderate.html?utm_source=feedburner&utm_medium=email
+
+
+Our compliance team has been working non-stop to make sure that AWS  
+qualifies for and receives a number of important certifications and  
+accreditations. In the last year or so I have blogged about SAS 70 Type II,  
+FISMA Low, and ISO 27001.
+
+After receiving our FISMA Low level certification and accreditation, we  
+took the next step and started to pursue the far more stringent FISMA  
+Moderate level. This work has been completed and the door is now open for a  
+much wider range of US Government agencies to use AWS as their cloud  
+provider. Based on detailed security baselines established by the National  
+Institute of Standards and Technology (NIST), FISMA Moderate certification  
+and  accreditation required us to address an extensive set of security   
+configuration and controls.
+
+We receive requests for many different types of reports and certifications  
+and we   are doing our best to prioritize and to respond to as many of them  
+as   possible. Please let me know (comments are fine) which certifications  
+would let you make even better use of AWS.
+
+You can read about our security certfications and practices at the AWS  
+Security Center. To learn more about how our team works with agencies of  
+the federal government, visit our Federal Government page.
+
+Relevant AWS jobs include:
+
+Security Engineer
+Software Development Engineer - AWS Security
+Software Development Engineer - Security Platform
+Solutions Architect - Security (Slough, UK)
+
+
+-- Jeff;
+
+
+
+
+
+--
+You are subscribed to email updates from "Amazon Web Services Blog."
+To stop receiving these emails, you may unsubscribe now:  
+http://feedburner.google.com/fb/a/mailunsubscribe?k=WYlqsHgFmj4AaMxCIo4DpqGJl_Y
+
+Email delivery powered by Google.
+Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+
+--90e6ba6e831098103604ad0e2aae
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/ieblM=
+OyJCUQ/adding-iso-27001-and-fisma-moderate.html?utm_source=3Dfeedburner&utm=
+_medium=3Demail">FISMA Moderate for AWS</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 15 Sep 2011 09:31 AM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>Our compliance team has been =
+working non-stop to make sure that AWS qualifies for and receives a number =
+of important certifications and accreditations. In the last year or so I ha=
+ve blogged about <a href=3D"http://aws.amazon.com/about-aws/whats-new/2009/=
+11/11/aws-completes-sas70-type-ii-audit/" target=3D"_self">SAS 70 Type II</=
+a>, <a href=3D"http://aws.typepad.com/aws/2010/08/appian-anywhere-authority=
+-to-operate.html" target=3D"_self">FISMA Low</a>, and <a href=3D"http://aws=
+.typepad.com/aws/2010/11/aws-receives-iso-27001-certification.html" target=
+=3D"_self">ISO 27001</a>.</p>
+<p>After receiving our FISMA Low level certification and accreditation, we =
+took the next step and started to pursue the far more stringent <strong>FIS=
+MA Moderate</strong> level. This work has been completed and the door is no=
+w open for a much wider range of US Government agencies to use <a href=3D"h=
+ttp://aws.amazon.com/" target=3D"_self">AWS</a> as their cloud provider. Ba=
+sed on detailed security baselines established by the National Institute of=
+ Standards and Technology (NIST), FISMA Moderate certification and  accredi=
+tation required us to address an extensive set of security  configuration a=
+nd controls.&#0160;</p>
+<p>We receive requests for many different types of reports and certificatio=
+ns and we   are doing our best to prioritize and to respond to as many of t=
+hem as   possible. Please let me know (comments are fine) which certificati=
+ons would let you make even better use of AWS.</p>
+<p>You can read about our security certfications and practices at the <a hr=
+ef=3D"http://aws.amazon.com/security" target=3D"_self">AWS Security Center<=
+/a>. To learn more about how our team works with agencies of the federal go=
+vernment, visit our <a href=3D"http://aws.amazon.com/federal/" target=3D"_s=
+elf">Federal Government</a> page.</p>
+<p>Relevant AWS jobs include:</p>
+<ul>
+<li><a href=3D"https://us-amazon.icims.com/jobs/141707/job?in_iframe=3D1" t=
+arget=3D"_self">Security Engineer</a></li>
+<li><a href=3D"https://us-amazon.icims.com/jobs/108187/job?in_iframe=3D1" t=
+arget=3D"_self">Software Development Engineer - AWS Security</a></li>
+<li><a href=3D"https://us-amazon.icims.com/jobs/129005/job?in_iframe=3D1" t=
+arget=3D"_self">Software Development Engineer - Security Platform</a></li>
+<li><a href=3D"https://uk-amazon.icims.com/jobs/150207/job?in_iframe=3D1" t=
+arget=3D"_self">Solutions Architect - Security</a> (Slough, UK)</li>
+</ul>
+<p>-- Jeff;</p>
+<p>&#0160;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DieblMO=
+yJCUQ:bRoNpylDh4o:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DieblMOyJCUQ:bRoNpy=
+lDh4o:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DieblMOyJCUQ:bRoNpylDh4o:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/i=
+eblMOyJCUQ?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--90e6ba6e831098103604ad0e2aae--

@@ -1,0 +1,23 @@
+Return-Path: <wwwrun@doap.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 30)
+	id C023C88D0F; Mon,  3 Oct 2011 04:55:50 -0700 (PDT)
+To: support@doap.com
+Subject: [Global HVAC Parts Lists] Your new password
+X-PHP-Originating-Script: 1046:class-phpmailer.php
+Date: Mon, 3 Oct 2011 11:55:50 +0000
+From: WordPress <wordpress@purchasingtool.ghvac-dealers.com>
+Message-ID: <4c2454bab4f001f2ace1aa36d249d2fa@purchasingtool.ghvac-dealers.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+The site administrator of http://purchasingtool.ghvac-dealers.com has automatically changed your password.
+
+Username: FOOTHI
+Password: abc123
+http://purchasingtool.ghvac-dealers.com/?page_id=4
+

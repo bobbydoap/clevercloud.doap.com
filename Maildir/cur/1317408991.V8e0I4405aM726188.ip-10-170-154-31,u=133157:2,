@@ -1,0 +1,1623 @@
+Return-Path: <psantana@globalhvac.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail35a.att-webhosting.com (mail35a.att-webhosting.com [161.58.104.130])
+	by ns1 (Postfix) with SMTP id 2CC4D8874F
+	for <support@doap.com>; Fri, 30 Sep 2011 11:56:31 -0700 (PDT)
+Received: from mx12.stngva01.us.mxservers.net (204.202.242.5)
+	by mail35a.att-webhosting.com (RS ver 1.0.95vs) with SMTP id 1-0880558991
+	for <support@doap.com>; Fri, 30 Sep 2011 14:56:31 -0400 (EDT)
+Received: from unknown [198.66.164.84] (EHLO mxw3502.att-webhosting.com)
+	by va1-mx12.stngva01.us.mxservers.net (mxl_mta-3.1.0-05)
+	with ESMTP id fd0168e4.1108343712.1796252.00-009.va1-mx12.stngva01.us.mxservers.net (envelope-from <psantana@globalhvac.com>);
+	Fri, 30 Sep 2011 14:56:31 -0400 (EDT)
+Received: (qmail 99690 invoked from network); 30 Sep 2011 18:56:15 -0000
+Received: from unknown (HELO 31676c1) (65.113.98.193)
+  by  with SMTP; 30 Sep 2011 18:56:15 -0000
+From: "Pat Santana" <psantana@globalhvac.com>
+To: "'David Menache'" <dmenache@thehvac.net>
+Cc: "'Doap.com Support Team'" <support@doap.com>
+References: <715FA0AF41D04E53B2FB6D759FCD7109@global.local> <2DE83671-4265-424C-9CD6-9D83EC014E24@thehvac.net> <5331A46740FB475EA05F71458DD5B214@global.local> <5B437CF4-F81C-4A68-BCFA-455898A06FE4@thehvac.net> <26A1B367403A4752B431227511AAC978@global.local> <EFDD5948-CA6E-4C6D-850D-D65FE5C3A2C9@thehvac.net>
+Subject: RE: data uploads
+Date: Fri, 30 Sep 2011 11:42:03 -0700
+Message-ID: <7E602F2546B14AAF825D87F6EC456DD0@global.local>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0022_01CC7F65.FC11A120"
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: Acx/oZAKZqyMLSPLSgyMZC3p8uIP2wAAPohg
+In-Reply-To: <EFDD5948-CA6E-4C6D-850D-D65FE5C3A2C9@thehvac.net>
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.6109
+X-Spam: [F=0.2000000000; S=0.200(2010122901); MH=0.500(2011093018)]
+X-MAIL-FROM: <psantana@globalhvac.com>
+X-SOURCE-IP: [198.66.164.84]
+X-SF-Loop: 1
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0022_01CC7F65.FC11A120
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+I uploaded without conversion and thought it didn't work but it did - I
+shared the file with you
+
+ 
+
+Pat
+
+ 
+
+  _____  
+
+From: David Menache [mailto:dmenache@thehvac.net] 
+Sent: Friday, September 30, 2011 11:49 AM
+To: Pat Santana
+Cc: Doap.com Support Team
+Subject: Re: data uploads
+
+ 
+
+Doh,
+
+ 
+
+Sure theres lots of stuff we can try.   First, try again to google but
+without conversion.  If that fails,  save it as a zip file and try the
+upload.  Do you know how to create a zip file?  Right click the file and
+save as zip i believe does it.  Then try the upload again.  Google has no
+limit before 250 Meg and the file looks to only be 61M so that is fine...
+
+ 
+
+If none of these methods work, i'll get ya an ftp server account to drop it
+into.  
+
+ 
+
+Thanks
+
+Dave
+
+ 
+
+ 
+
+On Sep 30, 2011, at 12:23 PM, Pat Santana wrote:
+
+
+
+
+
+Sorry David but the server rejected it, I did a retry and got the same
+results - help
+
+<image001.jpg>
+
+<image002.jpg>
+
+ 
+
+Here's the file and how large it is
+
+<image003.jpg>
+
+Any other ideas
+
+ 
+
+Thanks
+
+Pat
+
+ 
+
+ 
+
+ 
+
+  _____  
+
+From: David Menache [mailto:dmenache@thehvac.net] 
+Sent: Friday, September 30, 2011 11:16 AM
+To: Pat Santana
+Cc: Doap.com Support Team
+Subject: Re: data uploads
+
+ 
+
+yes indeed that will be great
+
+ 
+
+Thanks
+
+ 
+
+On Sep 30, 2011, at 10:35 AM, Pat Santana wrote:
+
+
+
+
+
+
+Thanks Dave
+
+ 
+
+I will try it - but the file is not a spreadsheet it is too large - it is a
+.txt file and in fixed column - will that be OK?
+
+ 
+
+Pat
+
+ 
+
+  _____  
+
+From: David Menache [mailto:dmenache@thehvac.net] 
+Sent: Thursday, September 29, 2011 5:58 PM
+To: Pat Santana
+Cc: Laura Birch
+Subject: data uploads
+
+ 
+
+Hi Pat,
+
+ 
+
+Check out this post.  
+
+http://www.doap.com/2011/09/how-to-upload-files-to-thehvac-net/
+
+Look for the link just above the video that says upload a spreadsheet here.
+You'll need the psantana@thehvac.net credentials.  The video is also very
+helpful in understanding how to upload if you have any troubles.
+
+ 
+
+Also, once uploaded, there is a share function, if you could add me there
+that would be terrific.
+
+ 
+
+Thanks 
+
+Dave
+
+ 
+
+Begin forwarded message:
+
+
+
+
+
+
+
+From: "Pat Santana" <psantana@globalhvac.com>
+
+Subject: RE: progress report, products table
+
+Date: September 29, 2011 2:35:27 PM CST
+
+To: <dave@doap.com>, "'Pat Santana'" <psantana@thehvac.net>
+
+Cc: "'Laura Birch'" <Lbirch@hvac-marketing.com>
+
+ 
+
+Hi David
+
+ 
+
+I will need some help in loading the price level file into your amazon
+bucket - I logged into globalhvac.net but don't see any amazon bucket.
+Please tell me where to locate the feature so that I can load the file
+
+ 
+
+Thanks
+
+Pat
+
+ 
+
+  _____  
+
+From: David Menache [mailto:dmenache@thehvac.net] 
+Sent: Wednesday, September 28, 2011 11:03 AM
+To: Pat Santana
+Cc: Laura Birch
+Subject: progress report, products table
+
+ 
+
+Hi Pat,
+
+ 
+
+It's coming right along.  I think you'll be really happy.  You are right, it
+is a big job with lots of moving pieces.  We have a new globalhvac.net user
+list built with default passwords for all 2500 customers and a framework for
+them to log in with price levels.  I'm ready for product lists beyond the
+test list ya gave me.  The limited lists arent sufficient to get the front
+end paging properly.  Also, I noticed there are no prices.  I'm suspecting
+there is a table with columns similar to (SKU, PRICE, STORE_ID)  ...I just
+made these up as an example.  The previous exports you sent me were great
+and you really seem to know whats going on with this stuff so I have
+complete confidence.   Oh, if the files are too big to mail, i have an
+amazonglobalhvac.net bucket that can handle up to 4TB files!  Ok cheers,
+thanks for the help.
+
+ 
+
+Dave     
+
+ 
+
+ 
+
+
+------=_NextPart_000_0022_01CC7F65.FC11A120
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<base href=3D"x-msg://62/">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:Arial;
+	color:navy;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dblue style=3D'word-wrap: =
+break-word;-webkit-nbsp-mode: space;
+-webkit-line-break: after-white-space'>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>I uploaded without conversion and =
+thought
+it didn&#8217;t work but it did &#8211; I shared the file with =
+you<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Pat<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+face=3D"Times New Roman"><span style=3D'font-size:12.0pt'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter tabindex=3D-1>
+
+</span></font></div>
+
+<p class=3DMsoNormal><b><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:10.0pt;
+font-family:Tahoma;font-weight:bold'>From:</span></font></b><font =
+size=3D2
+face=3DTahoma><span style=3D'font-size:10.0pt;font-family:Tahoma'> David =
+Menache
+[mailto:dmenache@thehvac.net] <br>
+<b><span style=3D'font-weight:bold'>Sent:</span></b> Friday, September =
+30, 2011
+11:49 AM<br>
+<b><span style=3D'font-weight:bold'>To:</span></b> Pat Santana<br>
+<b><span style=3D'font-weight:bold'>Cc:</span></b> Doap.com Support =
+Team<br>
+<b><span style=3D'font-weight:bold'>Subject:</span></b> Re: data =
+uploads</span></font><o:p></o:p></p>
+
+</div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Doh,<o:p></o:p></span></font></p>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Sure theres lots of stuff we can try. &nbsp; First, try again to =
+google
+but without conversion. &nbsp;If that fails, &nbsp;save it as a zip file =
+and
+try the upload. &nbsp;Do you know how to create a zip file? &nbsp;Right =
+click
+the file and save as zip i believe does it. &nbsp;Then try the upload =
+again.
+&nbsp;Google has no limit before 250 Meg and the file looks to only be =
+61M so
+that is fine...<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>If none of these methods work, i'll get ya an ftp server account =
+to
+drop it into. &nbsp;<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Thanks<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Dave<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>On Sep 30, 2011, at 12:23 PM, Pat Santana =
+wrote:<o:p></o:p></span></font></p>
+
+</div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><br>
+<br>
+<o:p></o:p></span></font></p>
+
+<span style=3D'orphans: 2;text-align:-webkit-auto;widows: =
+2;-webkit-border-horizontal-spacing: 0px;
+-webkit-border-vertical-spacing: 0px;-webkit-text-decorations-in-effect: =
+none;
+-webkit-text-size-adjust: auto;-webkit-text-stroke-width: =
+0px;word-spacing:
+0px'>
+
+<div link=3Dblue vlink=3Dblue style=3D'word-wrap: =
+break-word;-webkit-nbsp-mode: space;
+-webkit-line-break: after-white-space'>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Sorry David but the server rejected =
+it, I
+did a retry and got the same results &#8211; =
+help<u1:p></u1:p></span></font><o:p></o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>&lt;image001.jpg&gt;<u1:p></u1:p></s=
+pan></font><o:p></o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>&lt;image002.jpg&gt;<u1:p></u1:p></s=
+pan></font><o:p></o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Here&#8217;s the file and how large =
+it is<u1:p></u1:p></span></font><o:p></o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>&lt;image003.jpg&gt;<u1:p></u1:p></s=
+pan></font><o:p></o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Any other =
+ideas<u1:p></u1:p></span></font><o:p></o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Thanks<u1:p></u1:p></span></font><o:=
+p></o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Pat<u1:p></u1:p></span></font><o:p><=
+/o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+</div>
+
+<div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+face=3D"Times New Roman"><span style=3D'font-size:12.0pt'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter tabindex=3D-1>
+
+</span></font></div>
+
+<div>
+
+<p class=3DMsoNormal><b><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:10.0pt;
+font-family:Tahoma;font-weight:bold'>From:</span></font></b><span
+class=3Dapple-converted-space><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:
+10.0pt;font-family:Tahoma'>&nbsp;</span></font></span><font size=3D2 =
+face=3DTahoma><span
+style=3D'font-size:10.0pt;font-family:Tahoma'>David Menache
+[mailto:dmenache@thehvac.net]<span =
+class=3Dapple-converted-space>&nbsp;</span><br>
+<b><span style=3D'font-weight:bold'>Sent:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span>Friday, September 30, 2011 =
+11:16 AM<br>
+<b><span style=3D'font-weight:bold'>To:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span>Pat Santana<br>
+<b><span style=3D'font-weight:bold'>Cc:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span><a =
+href=3D"http://Doap.com">Doap.com</a>
+Support Team<br>
+<b><span style=3D'font-weight:bold'>Subject:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span>Re: data =
+uploads</span></font><o:p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u1:p>&nbsp;</u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>yes indeed that will be =
+great<u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u1:p>&nbsp;</u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Thanks<u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u1:p>&nbsp;</u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>On Sep 30, 2011, at 10:35 AM, Pat Santana =
+wrote:<u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><br>
+<br>
+<br>
+<o:p></o:p></span></font></p>
+
+</div>
+
+<u1:p></u1:p><span style=3D'orphans: 2;text-align:-webkit-auto;widows: =
+2;
+-webkit-border-horizontal-spacing: 0px;-webkit-border-vertical-spacing: =
+0px;
+-webkit-text-decorations-in-effect: none;-webkit-text-size-adjust: auto;
+-webkit-text-stroke-width: 0px;word-spacing:0px'>
+
+<div link=3Dblue vlink=3Dblue style=3D'word-wrap: =
+break-word;-webkit-nbsp-mode: space;
+-webkit-line-break: after-white-space'>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Thanks =
+Dave<u2:p></u2:p></span></font><o:p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u2:p>&nbsp;</u2:p></span></font><o:=
+p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>I will try it &#8211; but the file =
+is not a
+spreadsheet it is too large &#8211; it is a .txt file and in fixed =
+column &#8211; will that
+be OK?<u2:p></u2:p></span></font><o:p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u2:p>&nbsp;</u2:p></span></font><o:=
+p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Pat<u2:p></u2:p></span></font><o:p><=
+/o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u2:p>&nbsp;</u2:p></span></font><o:=
+p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+<div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+face=3D"Times New Roman"><span style=3D'font-size:12.0pt'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter tabindex=3D-1>
+
+</span></font></div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><b><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:10.0pt;
+font-family:Tahoma;font-weight:bold'>From:</span></font></b><span
+class=3Dapple-converted-space><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:
+10.0pt;font-family:Tahoma'>&nbsp;</span></font></span><font size=3D2 =
+face=3DTahoma><span
+style=3D'font-size:10.0pt;font-family:Tahoma'>David Menache
+[mailto:dmenache@thehvac.net]<span =
+class=3Dapple-converted-space>&nbsp;</span><br>
+<b><span style=3D'font-weight:bold'>Sent:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span>Thursday, September 29, 2011 =
+5:58 PM<br>
+<b><span style=3D'font-weight:bold'>To:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span>Pat Santana<br>
+<b><span style=3D'font-weight:bold'>Cc:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span>Laura Birch<br>
+<b><span style=3D'font-weight:bold'>Subject:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span>data =
+uploads</span></font><o:p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+</div>
+
+<u2:p></u2:p>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u2:p>&nbsp;</u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Hi Pat,<u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u2:p>&nbsp;</u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Check out this post&#8230; =
+&nbsp;<u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><a
+href=3D"http://www.doap.com/2011/09/how-to-upload-files-to-thehvac-net/">=
+http://www.doap.com/2011/09/how-to-upload-files-to-thehvac-net/</a><u2:p>=
+</u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Look for the link just above the video that says upload a =
+spreadsheet
+here. &nbsp;You'll need the<span =
+class=3Dapple-converted-space>&nbsp;</span><a
+href=3D"mailto:psantana@thehvac.net">psantana@thehvac.net</a><span
+class=3Dapple-converted-space>&nbsp;</span>credentials. &nbsp;The video =
+is also
+very helpful in understanding how to upload if you have any =
+troubles.<u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u2:p>&nbsp;</u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Also, once uploaded, there is a share function, if you could add =
+me
+there that would be =
+terrific.<u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u2:p>&nbsp;</u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Thanks&nbsp;<u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></font></=
+p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Dave<u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u2:p>&nbsp;</u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Begin forwarded =
+message:<u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><br>
+<br>
+<br>
+<br>
+<o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+<u1:p></u1:p>
+
+<div><u2:p></u2:p>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><b><font size=3D4 color=3Dblack =
+face=3DHelvetica><span
+style=3D'font-size:13.5pt;font-family:Helvetica;color:black;font-weight:b=
+old'>From:<span
+class=3Dapple-converted-space>&nbsp;</span></span></font></b><font =
+size=3D4
+color=3Dblack face=3DHelvetica><span =
+style=3D'font-size:13.5pt;font-family:Helvetica;
+color:black'>&quot;Pat Santana&quot; &lt;<a
+href=3D"mailto:psantana@globalhvac.com">psantana@globalhvac.com</a>&gt;</=
+span></font><o:p></o:p></p>
+
+</div>
+
+</div>
+
+</div>
+
+<u1:p></u1:p>
+
+<div><u2:p></u2:p>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><b><font size=3D4 color=3Dblack =
+face=3DHelvetica><span
+style=3D'font-size:13.5pt;font-family:Helvetica;color:black;font-weight:b=
+old'>Subject:<span
+class=3Dapple-converted-space>&nbsp;</span>RE: progress report, products =
+table</span></font></b><o:p></o:p></p>
+
+</div>
+
+</div>
+
+</div>
+
+<u1:p></u1:p>
+
+<div><u2:p></u2:p>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><b><font size=3D4 color=3Dblack =
+face=3DHelvetica><span
+style=3D'font-size:13.5pt;font-family:Helvetica;color:black;font-weight:b=
+old'>Date:<span
+class=3Dapple-converted-space>&nbsp;</span></span></font></b><font =
+size=3D4
+color=3Dblack face=3DHelvetica><span =
+style=3D'font-size:13.5pt;font-family:Helvetica;
+color:black'>September 29, 2011 2:35:27 PM =
+CST</span></font><o:p></o:p></p>
+
+</div>
+
+</div>
+
+</div>
+
+<u1:p></u1:p>
+
+<div><u2:p></u2:p>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><b><font size=3D4 color=3Dblack =
+face=3DHelvetica><span
+style=3D'font-size:13.5pt;font-family:Helvetica;color:black;font-weight:b=
+old'>To:<span
+class=3Dapple-converted-space>&nbsp;</span></span></font></b><font =
+size=3D4
+color=3Dblack face=3DHelvetica><span =
+style=3D'font-size:13.5pt;font-family:Helvetica;
+color:black'>&lt;<a href=3D"mailto:dave@doap.com">dave@doap.com</a>&gt;,
+&quot;'Pat Santana'&quot; &lt;<a =
+href=3D"mailto:psantana@thehvac.net">psantana@thehvac.net</a>&gt;</span><=
+/font><o:p></o:p></p>
+
+</div>
+
+</div>
+
+</div>
+
+<u1:p></u1:p>
+
+<div><u2:p></u2:p>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><b><font size=3D4 color=3Dblack =
+face=3DHelvetica><span
+style=3D'font-size:13.5pt;font-family:Helvetica;color:black;font-weight:b=
+old'>Cc:<span
+class=3Dapple-converted-space>&nbsp;</span></span></font></b><font =
+size=3D4
+color=3Dblack face=3DHelvetica><span =
+style=3D'font-size:13.5pt;font-family:Helvetica;
+color:black'>&quot;'Laura Birch'&quot; &lt;<a
+href=3D"mailto:Lbirch@hvac-marketing.com">Lbirch@hvac-marketing.com</a>&g=
+t;</span></font><o:p></o:p></p>
+
+</div>
+
+</div>
+
+</div>
+
+<u1:p></u1:p>
+
+<div><u2:p></u2:p>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u2:p>&nbsp;</u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+<div link=3Dblue vlink=3Dblue>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Hi =
+David<u3:p></u3:p></span></font><o:p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+</div>
+
+<u2:p></u2:p>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u3:p>&nbsp;</u3:p></span></font><o:=
+p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+</div>
+
+<u2:p></u2:p>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>I will need some help in loading =
+the price
+level file into your amazon bucket &#8211; I logged into<span
+class=3Dapple-converted-space>&nbsp;</span><a =
+href=3D"http://globalhvac.net">globalhvac.net</a><span
+class=3Dapple-converted-space>&nbsp;</span>but don&#8217;t see any =
+amazon bucket.&nbsp;
+Please tell me where to locate the feature so that I can load the =
+file<u3:p></u3:p></span></font><o:p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+</div>
+
+<u2:p></u2:p>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u3:p>&nbsp;</u3:p></span></font><o:=
+p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+</div>
+
+<u2:p></u2:p>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Thanks<u3:p></u3:p></span></font><o:=
+p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+</div>
+
+<u2:p></u2:p>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Pat<u3:p></u3:p></span></font><o:p><=
+/o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+</div>
+
+<u2:p></u2:p>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u3:p>&nbsp;</u3:p></span></font><o:=
+p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+</div>
+
+<u2:p></u2:p>
+
+<div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+face=3D"Times New Roman"><span style=3D'font-size:12.0pt'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter tabindex=3D-1>
+
+</span></font></div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><b><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:10.0pt;
+font-family:Tahoma;font-weight:bold'>From:</span></font></b><span
+class=3Dapple-converted-space><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:
+10.0pt;font-family:Tahoma'>&nbsp;</span></font></span><font size=3D2 =
+face=3DTahoma><span
+style=3D'font-size:10.0pt;font-family:Tahoma'>David Menache
+[mailto:dmenache@thehvac.net]<span =
+class=3Dapple-converted-space>&nbsp;</span><br>
+<b><span style=3D'font-weight:bold'>Sent:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span>Wednesday, September 28, 2011 =
+11:03 AM<br>
+<b><span style=3D'font-weight:bold'>To:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span>Pat Santana<br>
+<b><span style=3D'font-weight:bold'>Cc:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span>Laura Birch<br>
+<b><span style=3D'font-weight:bold'>Subject:</span></b><span
+class=3Dapple-converted-space>&nbsp;</span>progress report, products =
+table</span></font><o:p></o:p></p>
+
+<u1:p></u1:p></div>
+
+</div>
+
+</div>
+
+</div>
+
+<u2:p></u2:p>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u3:p><u3:p></u3:p>&nbsp;</u3:p><u2:p></u2:p><u1:p></u1:p><o:p></=
+o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Hi =
+Pat,<u3:p></u3:p><u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u3:p>&nbsp;</u3:p><u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></=
+font></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>It's coming right along. &nbsp;I think you'll be really happy.
+&nbsp;You are right, it is a big job with lots of moving pieces. =
+&nbsp;We have
+a new<span class=3Dapple-converted-space>&nbsp;</span><a
+href=3D"http://globalhvac.net">globalhvac.net</a><span
+class=3Dapple-converted-space>&nbsp;</span>user list built with default =
+passwords
+for all 2500 customers and a framework for them to log in with price =
+levels.
+&nbsp;I'm ready for product lists beyond the test list ya gave me. =
+&nbsp;The
+limited lists arent sufficient to get the front end paging properly.
+&nbsp;Also, I noticed there are no prices. &nbsp;I'm suspecting there is =
+a
+table with columns similar to (SKU, PRICE, STORE_ID) &nbsp;...I just =
+made these
+up as an example. &nbsp;The previous exports you sent me were great and =
+you
+really seem to know whats going on with this stuff so I have complete
+confidence. &nbsp; Oh, if the files are too big to mail, i have an =
+amazon<a
+href=3D"http://globalhvac.net">globalhvac.net</a><span
+class=3Dapple-converted-space>&nbsp;</span>bucket that can handle up to =
+4TB
+files! &nbsp;Ok cheers, thanks for the =
+help.<u3:p></u3:p><u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></font></p>=
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u3:p>&nbsp;</u3:p><u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></=
+font></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Dave &nbsp; =
+&nbsp;&nbsp;<u3:p></u3:p><u2:p></u2:p><u1:p></u1:p><o:p></o:p></span></fo=
+nt></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u2:p>&nbsp;</u2:p><u1:p></u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</span>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'></span><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0022_01CC7F65.FC11A120--
+
+

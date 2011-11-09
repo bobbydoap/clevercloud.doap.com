@@ -1,0 +1,53 @@
+Return-Path: <20111002183308520f5b928e00430babfbeed75a7b1dc2@bounces.amazon.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mm-notify-out-1101.amazon.com (mm-notify-out-1101.amazon.com [207.171.164.35])
+	by ns1 (Postfix) with ESMTP id 0CD2288873
+	for <support@doap.com>; Sun,  2 Oct 2011 11:33:07 -0700 (PDT)
+Date: Sun, 2 Oct 2011 18:33:08 +0000 (UTC)
+From: AWS Notifications <no-reply@sns.amazonaws.com>
+To: "support@doap.com" <support@doap.com>
+Message-ID: <urn.correios.msg.20111002183308520f5b928e00430babfbeed75a7b1dc2@1317580388018.rte-svc-na-1010.vdc.amazon.com>
+Subject: ALARM: "db-load-over-90%-for-1-minute" in US - N.California
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Bounces-to: 20111002183308520f5b928e00430babfbeed75a7b1dc2@bounces.amazon.com
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-AMAZON-RTE-VERSION: 2.0
+
+You are receiving this email because your Amazon CloudWatch Alarm "db-load-over-90%-for-1-minute" in the US - N.California region has entered the ALARM state, because "Threshold Crossed: 1 datapoint (99.53) was greater than or equal to the threshold (90.0)." at "Sunday 02 October, 2011 18:33:07 UTC".
+
+View this alarm in the AWS Management Console:
+https://console.aws.amazon.com/cloudwatch/home?region=us-west-1#s=Alarms&alarm=db-load-over-90%25-for-1-minute
+
+Alarm Details:
+- Name:                       db-load-over-90%-for-1-minute
+- Description:                db-load-over-90%-for-1-minute
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint (99.53) was greater than or equal to the threshold (90.0).
+- Timestamp:                  Sunday 02 October, 2011 18:33:07 UTC
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 90.0 for 60 seconds. 
+
+Monitored Metric:
+- MetricNamespace:            AWS/RDS
+- MetricName:                 CPUUtilization
+- Dimensions:                 [DBInstanceIdentifier = doap-restore]
+- Period:                     60 seconds
+- Statistic:                  Average
+- Unit:                       not specified
+
+State Change Actions:
+- OK: 
+- ALARM: [arn:aws:sns:us-west-1:700756930873:db-load-over-90percent-for-1-minute]
+- INSUFFICIENT_DATA: 
+
+
+--
+If you wish to stop receiving notifications from this topic, please click or visit the link below to unsubscribe:
+https://sns.us-west-1.amazonaws.com/unsubscribe.html?SubscriptionArn=arn:aws:sns:us-west-1:700756930873:db-load-over-90percent-for-1-minute:075c2f2a-0672-4144-a687-48cc4356f3ec&Endpoint=support@doap.com
+
+Please do not reply directly to this e-mail. If you have any questions or comments regarding this email, please contact us at sns-question@amazon.com
+

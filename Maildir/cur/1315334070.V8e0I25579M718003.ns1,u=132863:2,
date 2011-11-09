@@ -1,0 +1,108 @@
+Return-Path: <promotions+caf_=promotions=globalhvac.net@thehvac.net>
+X-Original-To: promotions@globalhvac.net
+Delivered-To: bobby@doap.com
+Received: from mail-gy0-f175.google.com (mail-gy0-f175.google.com [209.85.160.175])
+	by ns1 (Postfix) with ESMTP id 7BE0A88556
+	for <promotions@globalhvac.net>; Tue,  6 Sep 2011 11:34:30 -0700 (PDT)
+Received: by gyg4 with SMTP id 4so4654681gyg.34
+        for <promotions@globalhvac.net>; Tue, 06 Sep 2011 11:34:30 -0700 (PDT)
+Received: by 10.43.44.195 with SMTP id uh3mr5032566icb.196.1315334069747;
+        Tue, 06 Sep 2011 11:34:29 -0700 (PDT)
+X-Forwarded-To: promotions@globalhvac.net
+X-Forwarded-For: promotions@thehvac.net promotions@globalhvac.net
+Delivered-To: promotions@thehvac.net
+Received: by 10.42.179.73 with SMTP id bp9cs103953icb;
+        Tue, 6 Sep 2011 11:34:29 -0700 (PDT)
+Received: by 10.236.161.33 with SMTP id v21mr26352558yhk.82.1315334068882;
+        Tue, 06 Sep 2011 11:34:28 -0700 (PDT)
+Received: from smtp-out.google.com (wpay11.hot.corp.google.com [172.24.198.11])
+        by mx.google.com with ESMTPS id l47si4081267yhm.5.2011.09.06.11.34.28
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 06 Sep 2011 11:34:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3sWdmTjEoAJIPEsz8p2ugYBeVWbQNgOWWOTM.KWUXZWUWbQWVabPMPdIK.VMbG94140z-9AF414ywF4A9E.xAG9y0E.2AA270.yA8@unified-notifications.bounces.google.com designates 172.24.198.11 as permitted sender)
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of 3sWdmTjEoAJIPEsz8p2ugYBeVWbQNgOWWOTM.KWUXZWUWbQWVabPMPdIK.VMbG94140z-9AF414ywF4A9E.xAG9y0E.2AA270.yA8@unified-notifications.bounces.google.com designates 172.24.198.11 as permitted sender) smtp.mail=3sWdmTjEoAJIPEsz8p2ugYBeVWbQNgOWWOTM.KWUXZWUWbQWVabPMPdIK.VMbG94140z-9AF414ywF4A9E.xAG9y0E.2AA270.yA8@unified-notifications.bounces.google.com; dkim=pass (test mode) header.i=@google.com
+Received: from hpaq2.eem.corp.google.com (hpaq2.eem.corp.google.com [172.25.149.2])
+	by smtp-out.google.com with ESMTP id p86IYQ9o029613
+	for <promotions@thehvac.net>; Tue, 6 Sep 2011 11:34:27 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=google.com; s=beta;
+	t=1315334067; bh=7FJbjAilC82lyr2NZQgb/VZvvdI=;
+	h=MIME-Version:Date:Message-ID:Subject:From:To:Content-Type;
+	b=k67HQqAEjhz8poe7G9bjut4vsE976ADD44bh/Ei127HdjgZHlxM8aoWgYVUoHQuAR
+	 a1PCzZU2r0Kwq5YN3q1Qg==
+DomainKey-Signature: a=rsa-sha1; s=beta; d=google.com; c=nofws; q=dns;
+	h=dkim-signature:mime-version:x-notifications:date:message-id:
+	subject:from:to:content-type;
+	b=gXULhufgRb9qPjkiYnoc5GN8a48c8Ov5gFS1WGHVifCz04/o5ukWKcGUnZcGj3qbz
+	sY601w+rWFKfZgI4tDWSA==
+Received: from ywf9 (ywf9.prod.google.com [10.192.6.9])
+	by hpaq2.eem.corp.google.com with ESMTP id p86IX1kP013352
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=NOT)
+	for <promotions@thehvac.net>; Tue, 6 Sep 2011 11:34:26 -0700
+Received: by ywf9 with SMTP id 9so7100637ywf.2
+        for <promotions@thehvac.net>; Tue, 06 Sep 2011 11:34:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:x-notifications:date:message-id:subject:from:to
+         :content-type;
+        bh=LTvcWUCLohEuS2uwZEkCgqNugq8KI+lJ7VWTcbK47No=;
+        b=xF1L3XTwlju69IEbQxUfyiLT8Rlqvd+RdlNilQQ864DFNRim3QRim3ngsrUOXrZiHT
+         dNHQV9gPieYjlzN2yNPw==
+Received: by 10.52.116.106 with SMTP id jv10mr2351559vdb.28.1315334065496;
+        Tue, 06 Sep 2011 11:34:25 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.52.116.106 with SMTP id jv10mr2351556vdb.28.1315334065424;
+ Tue, 06 Sep 2011 11:34:25 -0700 (PDT)
+X-Notifications: XEAAAACicCIx2mnomuNR6jPUbvMg
+Date: Tue, 06 Sep 2011 11:34:25 -0700 (PDT)
+Message-ID: <NWSoJeHCWwe5oFGV3DMVTQ@notifications.google.com>
+Subject: "Free Radius Mailer Program" was edited recently
+From: Google Docs <notify@google.com>
+To: promotions@thehvac.net
+Content-Type: multipart/alternative; boundary=bcaec548aa55bb09c004ac4a1306
+
+--bcaec548aa55bb09c004ac4a1306
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+See the changes in your Google Document "Free Radius Mailer Program":  
+http://docs.google.com/a/thehvac.net/spreadsheet/ver?key=tFIjF8y3bZ6WQRg3vLzpuFQ&t=1315334012978000&pt=1315333992978000&diffWidget=true&s=AJVazbUl9x36rpM3nvKpoUuYpVMFbrqG1Q
+
+ccuriel made changes from 9/6/11 12:33 PM to 12:33 PM (Galapagos Time)
+  Table changed
+
+
+Open the current version of your Google Document "Free Radius Mailer  
+Program":  
+http://docs.google.com/a/thehvac.net/spreadsheet/ccc?key=tFIjF8y3bZ6WQRg3vLzpuFQ
+
+Powered by Google Docs
+---
+Want to stop receiving this email?  
+http://docs.google.com/a/thehvac.net/spreadsheet/nt?key=tFIjF8y3bZ6WQRg3vLzpuFQ&r=-2588577892082728599
+
+--bcaec548aa55bb09c004ac4a1306
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+See the changes in your Google Document "Free Radius Mailer Program":&nbsp;=
+<a href=3D"http://docs.google.com/a/thehvac.net/spreadsheet/ver?key=3DtFIjF=
+8y3bZ6WQRg3vLzpuFQ&t=3D1315334012978000&pt=3D1315333992978000&diffWidget=3D=
+true&s=3DAJVazbUl9x36rpM3nvKpoUuYpVMFbrqG1Q" target=3D"_blank">Click here</=
+a><br>
+<br>
+ccuriel made changes from 9/6/11 12:33 PM to 12:33 PM (Galapagos Time)<br>
+<ul>
+<li>Table changed=20
+</ul>
+<br>
+<br>
+Open the current version of your Google Document "Free Radius Mailer Progra=
+m":&nbsp;<a href=3D"http://docs.google.com/a/thehvac.net/spreadsheet/ccc?ke=
+y=3DtFIjF8y3bZ6WQRg3vLzpuFQ" target=3D"_blank">Click here</a><br>
+<br>
+Powered by Google Docs<br>
+---<br>
+<span style=3D"color:#606060;">Want to stop receiving this email?&nbsp;<a h=
+ref=3D"http://docs.google.com/a/thehvac.net/spreadsheet/nt?key=3DtFIjF8y3bZ=
+6WQRg3vLzpuFQ&r=3D-2588577892082728599" target=3D"_blank">Click here</a></s=
+pan>
+--bcaec548aa55bb09c004ac4a1306--

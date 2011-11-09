@@ -1,0 +1,52 @@
+Return-Path: <30JxqTg8KBS0JMfXaMb-WXaNYUhPXXPUN.LXVbJUNbMXJY.LXV@usercomm.bounces.google.com>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-pz0-f70.google.com (mail-pz0-f70.google.com [209.85.210.70])
+	by ns1 (Postfix) with ESMTP id 1D18D88783
+	for <sales@doap.com>; Fri,  9 Sep 2011 16:10:09 -0700 (PDT)
+Received: by pzk37 with SMTP id 37so7415828pzk.1
+        for <sales@doap.com>; Fri, 09 Sep 2011 16:10:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:message-id:date:subject:from:to:content-type;
+        bh=Cu7IoI8Y/50uRaBKbeM1hawoxP/sRclBBvaJz2sE80U=;
+        b=AnAmn4bi60v98sFl0xIo1ODCVV0s5gvtHmldVQRhFOPpSlXboCX91NmwVhgS3jevjn
+         IjcgLiso2fQ5l0h1M1KA==
+MIME-Version: 1.0
+Received: by 10.68.34.166 with SMTP id a6mr1441516pbj.2.1315609808972; Fri, 09
+ Sep 2011 16:10:08 -0700 (PDT)
+Message-ID: <1315609808969.ece5b2e7-e412-40b1-b94b-f2983e166936@google.com>
+Date: Fri, 09 Sep 2011 23:10:08 +0000
+Subject: Google AdWords Account Verification Email
+From: adwords-noreply@google.com
+To: sales@doap.com
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Welcome to Google AdWords!
+
+We're glad you've joined us. To verify your email address and sign in to  
+your new AdWords account, please click this link:
+
+https://www.google.com/accounts/VE?service=adwords&hl=en_US&c=CN2JruOosczbDhCPtrjj4OvcyeEB
+
+Your AdWords account number: 314-556-1797
+
+This will take you directly to the AdWords email verification page. (If it  
+doesn't, please copy the URL and paste it into the address box on your  
+browser. Then hit 'Enter' on your keyboard.)
+
+Sincerely,
+
+The Google AdWords Team
+
+
+------------------------
+
+This message was sent from a notification-only email address that does not  
+accept incoming email. Please do not reply to this message. If you have any  
+questions after following the steps above, please visit the Google AdWords  
+Help Center at http://adwords.google.com/support/aw/?hl=en_US to find  
+answers to frequently asked questions and a 'contact us' link near the  
+bottom of the page.
+
+------------------------

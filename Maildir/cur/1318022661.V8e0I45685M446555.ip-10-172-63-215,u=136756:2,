@@ -1,0 +1,74 @@
+Return-Path: <bounce-20-885928822@trakken.google.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from smtp-out.google.com (smtp-out.google.com [216.239.44.51])
+	by ns1 (Postfix) with ESMTP id 4651B88872
+	for <bobby@doap.com>; Fri,  7 Oct 2011 14:24:21 -0700 (PDT)
+Received: from hpaq12.eem.corp.google.com (hpaq12.eem.corp.google.com [172.25.149.12])
+	by smtp-out.google.com with ESMTP id p97LOKik004832
+	for <bobby@doap.com>; Fri, 7 Oct 2011 14:24:21 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=google.com; s=beta;
+	t=1318022661; bh=HVttYG79cMxjvUxZK+TiNl7tECw=;
+	h=Date:From:To:Subject:Message-ID:MIME-Version:Content-Type;
+	b=ssLfsswW7/HsgdIWMLc1Fy/H+3NNccvWXMdKBxgpFHSvDvNQBXicyXtV9wE+u6Es8
+	 Rti2hw7xkVz+2Xa86AyQw==
+DomainKey-Signature: a=rsa-sha1; s=beta; d=google.com; c=nofws; q=dns;
+	h=dkim-signature:date:from:to:subject:message-id:
+	mime-version:content-type:user-agent;
+	b=Y0942Asqrl5BK0NQJ00OLs0N1EUPP5njSxFTpG6L3GVxZer302q5gKO/shF4o7/VH
+	XBqTJzT0rjZbXTMzoimYg==
+Received: from ggnq2 (ggnq2.prod.google.com [10.218.98.130])
+	by hpaq12.eem.corp.google.com with ESMTP id p97LNmfR011985
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=NOT)
+	for <bobby@doap.com>; Fri, 7 Oct 2011 14:24:20 -0700
+Received: by ggnq2 with SMTP id q2so11586ggn.2
+        for <bobby@doap.com>; Fri, 07 Oct 2011 14:24:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=date:from:to:subject:message-id:mime-version:content-type
+         :user-agent;
+        bh=S8FDO1def63bvMkQpLoxECvmqH5e7rK6HLXWpl7s4Sk=;
+        b=tO8MxPer/ZoTEcMZl5phXN8IKq4Mmbzk4ixdAyZChpKD83LoX8n4JRS688nLJfrkMq
+         9L+jTktoptPg9t4ZLy1w==
+Received: by 10.101.28.2 with SMTP id f2mr2084675anj.7.1318022659429;
+        Fri, 07 Oct 2011 14:24:19 -0700 (PDT)
+Date: Fri, 07 Oct 2011 21:18:51 -0000
+From: "Thomas C. Berry" <t.berry@google.com>
+To: bobby@doap.com
+Subject: Google AdWords - My Contact Info
+Message-ID: <#14.34ce3376.e8c38262.4e8f6cbb.261@google.trakken.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+User-Agent: Neotonic Trakken/combo_frontend-trakken/3.5.5-RC7
+
+Bobby,
+
+I am your Google representative for the AdWords account setup under
+thehvac.net. I look forward to working with you to set up your campaign. 
+Please find my contact information below, as well as some great resources
+to learn more about AdWords.
+
+Sincerely,
+
+Thomas C. Berry
+Google AdWords Specialist
+Google AdWords
+t.berry@google.com
+1(800) 826-9988 x23626
+
+----------------
+To access your AdWords account, please log in at:
+https://adwords.google.com
+AdWords Help Center - http://adwords.google.com/support/aw/?hl=en
+AdWords Help Forum - http://www.google.com/support/forum?hl=en
+AdWords Success Stories -
+https://www.google.com/intl/en_us/adwords/select/success.html
+
+This email and the information it contains are confidential and may be
+privileged. If you have received this email in error please notify me
+immediately. You should not copy it for any purpose, or disclose its
+contents to any other person. Internet communications are not secure and,
+therefore, Google does not accept legal responsibility for the contents of
+this message as it has been transmitted over a public network. If you
+suspect the message may have been intercepted or amended please call me.
+

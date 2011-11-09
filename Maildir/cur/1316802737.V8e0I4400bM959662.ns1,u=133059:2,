@@ -1,0 +1,846 @@
+Return-Path: <psantana@globalhvac.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail35c.att-webhosting.com (mail35c.att-webhosting.com [161.58.104.132])
+	by ns1 (Postfix) with SMTP id 7DF3488738
+	for <support@doap.com>; Fri, 23 Sep 2011 11:32:17 -0700 (PDT)
+Received: from mx87.stngva01.us.mxservers.net (198.173.112.4)
+	by mail35c.att-webhosting.com (RS ver 1.0.95vs) with SMTP id 2-0814942737
+	for <support@doap.com>; Fri, 23 Sep 2011 14:32:17 -0400 (EDT)
+Received: from unknown [198.66.164.84] (EHLO mxw3502.att-webhosting.com)
+	by va1-mx87.stngva01.us.mxservers.net (mxl_mta-3.1.0-05)
+	with ESMTP id 1b0dc7e4.2330975136.192145.00-007.va1-mx87.stngva01.us.mxservers.net (envelope-from <psantana@globalhvac.com>);
+	Fri, 23 Sep 2011 14:32:17 -0400 (EDT)
+Received: (qmail 92272 invoked from network); 23 Sep 2011 18:32:16 -0000
+Received: from unknown (HELO 31676c1) (65.113.98.193)
+  by  with SMTP; 23 Sep 2011 18:32:16 -0000
+From: "Pat Santana" <psantana@globalhvac.com>
+To: "'David Menache'" <dave@doap.com>,
+	<psantana@globalhvac.net>
+Cc: "'Larry Andreson'" <larryandreson@sbcglobal.net>,
+	"'Laura Birch'" <lbirch@hvac-marketing.com>,
+	"'Support Staff'" <support@doap.com>
+References: <SNT128-W64D85489960532C60C98D9C20A0@phx.gbl> <B66BB2F59D35452ABA803CA394CB6CD3@global.local> <335DBF90-28BF-4DF6-93FC-3B4D12306578@hvac-marketing.com> <0BF19789-068B-473E-82CF-DF37511B5ED6@doap.com>
+Subject: RE: purchasing tool
+Date: Fri, 23 Sep 2011 11:18:09 -0700
+Message-ID: <CB8BB91214574C11852420610E9CDCC2@global.local>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0019_01CC79E2.7D11A560"
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: Acx6HQX8cBa9ANFVQNaNR48ZhONGtQAAAC3w
+In-Reply-To: <0BF19789-068B-473E-82CF-DF37511B5ED6@doap.com>
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.6109
+X-Spam: [F=0.2000000000; S=0.200(2010122901); MH=0.500(2011092332)]
+X-MAIL-FROM: <psantana@globalhvac.com>
+X-SOURCE-IP: [198.66.164.84]
+X-SF-Loop: 1
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0019_01CC79E2.7D11A560
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_001A_01CC79E2.7D11A560"
+
+
+------=_NextPart_001_001A_01CC79E2.7D11A560
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Here is the Price levels with descriptions
+
+ 
+
+  _____  
+
+From: David Menache [mailto:dave@doap.com] 
+Sent: Friday, September 23, 2011 11:39 AM
+To: psantana@globalhvac.net
+Cc: Larry Andreson; Laura Birch; Support Staff
+Subject: purchasing tool
+
+ 
+
+thank you so much pat, this is all excellent info!  i will definitely take
+you up on the offer to shape up the employee list later on.  the purchasing
+tool is a big project and you've given me all i need to get it going!
+...except for one thing...  there is a code for each dealer price level.
+is there a table of price level descriptions?  that would be helpful to make
+things more readable for the user but is not really required.
+
+ 
+
+again, thanks a lot.   ill get back to ya shortly with a purchasing app!
+
+ 
+
+cheers
+
+dave
+
+David Menache
+
+dave@doap.com
+
+Skype:dmenache
+
+http://doap.com
+
+ 
+
+
+On Sep 22, 2011, at 6:39 PM, Laura Birch <lbirch@hvac-marketing.com> wrote:
+
+Thanks, that was very helpful!  
+
+Laura
+
+ 
+
+925-323-8833
+
+ 
+
+
+On Sep 22, 2011, at 4:06 PM, "Pat Santana" <
+<mailto:psantana@globalhvac.com> psantana@globalhvac.com> wrote:
+
+Hi David
+
+ 
+
+I wanted to let you know that Global San Jose is no longer.  We do have
+product at the Fix Air site in San Jose but you should remove San Jose from
+your intro pages.
+
+ 
+
+Also, on the employee IT Help Desk I wouldn't have you listed as support
+because our wonderful employees will make all kinds of requests.  Generally
+they go through me and I either contact you for assistance or help them
+myself.  We really don't want our 80+ employee's contacting you for
+programming and help assistance.
+
+ 
+
+I checked your Employee Director and I'm not sure who all these people are -
+also you have a lot of term employee's on the list.  I might presume that
+you retrieved this list from the old website.  If you give it to me in a CSV
+format I can edit it for you adding new employees and removing termed
+employees.  It might be a good idea if I gave you the sales force, their
+mobile numbers and their territories.  You might also like the names of the
+Sales Managers for Northern and Southern California and their contact
+information.  I'm not sure as we would want all employees of Global listed.
+I would think only those in sales maybe?
+
+ 
+
+I clicked on the contractor-ordering.  We don't usual use shipping
+calculators.
+
+ 
+
+Just and FYI it looks really nice.  Currently I don't believe I have given
+you enough information to be useful.  According to Laura you want to be able
+to take orders from customers and send a note to whichever location to
+fulfill the order.  Great idea and very complex, Global has over 50 price
+levels and almost 10,000 items.  I will try and help you all I can.  Let me
+know when you have the items and customers loaded.
+
+ 
+
+I sure hope this helps
+
+Pat
+
+ 
+
+ 
+
+
+  _____  
+
+
+From:  <mailto:dmenache@hotmail.com> dmenache@hotmail.com
+[mailto:dmenache@hotmail.com] On Behalf Of David Menache
+Sent: Tuesday, September 20, 2011 12:01 PM
+To: Pat Santana
+Cc: Support Staff
+Subject: account access
+
+ 
+
+ <https://accounts.google.com/ManageAccount>
+https://accounts.google.com/ManageAccount
+
+login with santp@thehvac.net pass: santana1 and have fun exploring.  Give me
+a call to get you going if it gets overwhelming.
+
+the santp@thehvac.net is temporary and will go away in place of
+psantana@globalhvac.com once all is moved to where it should be.
+
+it was great to 'meet' ya :)
+
+thanks,
+dave
+
+
+
+
+
+  <http://doap.com/images/dave.jpg> 
+
+David Menache
+ <mailto:dave@doap.com> dave@doap.com
+US:805-426-5216
+
+  <http://doap.com/images/d5.png> 
+
+ 
+
+
+------=_NextPart_001_001A_01CC79E2.7D11A560
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:st1=3D"urn:schemas-microsoft-com:office:smarttags" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><o:SmartTagType
+ namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags" =
+name=3D"City"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"place"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"PersonName"/>
+<!--[if !mso]>
+<style>
+st1\:*{behavior:url(#default#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:Arial;
+	color:navy;}
+span.EmailStyle21
+	{mso-style-type:personal-reply;
+	font-family:Arial;
+	color:navy;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=3Dwhite lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Here is the Price levels with =
+descriptions<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+<div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+face=3D"Times New Roman"><span style=3D'font-size:12.0pt'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter tabindex=3D-1>
+
+</span></font></div>
+
+<p class=3DMsoNormal><b><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:10.0pt;
+font-family:Tahoma;font-weight:bold'>From:</span></font></b><font =
+size=3D2
+face=3DTahoma><span style=3D'font-size:10.0pt;font-family:Tahoma'> David =
+Menache
+[mailto:dave@doap.com] <br>
+<b><span style=3D'font-weight:bold'>Sent:</span></b> Friday, September =
+23, 2011
+11:39 AM<br>
+<b><span style=3D'font-weight:bold'>To:</span></b> =
+psantana@globalhvac.net<br>
+<b><span style=3D'font-weight:bold'>Cc:</span></b> <st1:PersonName =
+w:st=3D"on">Larry
+ Andreson</st1:PersonName>; Laura Birch; Support Staff<br>
+<b><span style=3D'font-weight:bold'>Subject:</span></b> purchasing =
+tool</span></font><o:p></o:p></p>
+
+</div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>thank you so much pat, this is all excellent info! &nbsp;i will
+definitely take you up on the offer to shape up the employee list later =
+on.
+&nbsp;the purchasing tool is a big project and you've given me all i =
+need to
+get it going! &nbsp;...except for one thing... &nbsp;there is a code for =
+each
+dealer price level. &nbsp; is there a table of price level descriptions?
+&nbsp;that would be helpful to make things more readable for the user =
+but is
+not really required.<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>again, thanks a lot. &nbsp; ill get back to ya shortly with a
+purchasing app!<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>cheers<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><font size=3D3
+face=3D"Times New Roman"><span =
+style=3D'font-size:12.0pt'>dave<o:p></o:p></span></font></p>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>David Menache<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><a =
+href=3D"mailto:dave@doap.com">dave@doap.com</a><o:p></o:p></span></font><=
+/p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Skype:dmenache<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><a =
+href=3D"http://doap.com">http://doap.com</a><o:p></o:p></span></font></p>=
+
+
+</div>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><font size=3D3
+face=3D"Times New Roman"><span style=3D'font-size:12.0pt'><br>
+On Sep 22, 2011, at 6:39 PM, Laura Birch &lt;<a
+href=3D"mailto:lbirch@hvac-marketing.com">lbirch@hvac-marketing.com</a>&g=
+t;
+wrote:<o:p></o:p></span></font></p>
+
+</div>
+
+<blockquote style=3D'margin-top:5.0pt;margin-bottom:5.0pt' type=3Dcite>
+
+<div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Thanks, that was very helpful! =
+&nbsp;<o:p></o:p></span></font></p>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>Laura<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'>925-323-8833<o:p></o:p></span></font></p>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+</div>
+
+<div>
+
+<p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><font size=3D3
+face=3D"Times New Roman"><span style=3D'font-size:12.0pt'><br>
+On Sep 22, 2011, at 4:06 PM, &quot;Pat Santana&quot; &lt;<a
+href=3D"mailto:psantana@globalhvac.com"></a><a
+href=3D"mailto:psantana@globalhvac.com">psantana@globalhvac.com</a>&gt; =
+wrote:<o:p></o:p></span></font></p>
+
+</div>
+
+<blockquote style=3D'margin-top:5.0pt;margin-bottom:5.0pt' type=3Dcite>
+
+<div><u1:smarttagtype =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags" =
+name=3D"City"><u1:smarttagtype =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags" =
+name=3D"place">
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><!--[if gte mso 9]><xml>
+   <u1:shapedefaults u2:ext=3D"edit" spidmax=3D"1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+   <u1:shapelayout u3:ext=3D"edit">
+    <u1:idmap u3:ext=3D"edit" data=3D"1"/>
+   </u1:shapelayout>
+</xml><![endif]-->Hi David<u1:p></u1:p></span></font><o:p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>I wanted to let you know that =
+Global San
+Jose is no longer.&nbsp; We do have product at the Fix Air site in =
+<st1:city u4:st=3D"on"><st1:City
+w:st=3D"on">San Jose</st1:city></st1:City> but you should remove =
+<st1:place u4:st=3D"on"><st1:city u4:st=3D"on"><st1:City
+w:st=3D"on"><st1:place w:st=3D"on">San =
+Jose</st1:city></st1:place></st1:place></st1:City>
+from your intro pages.<u1:p></u1:p></span></font><o:p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Also, on the employee IT Help Desk =
+I
+wouldn&#8217;t have you listed as support because our wonderful =
+employees will make
+all kinds of requests.&nbsp; Generally they go through me and I either =
+contact
+you for assistance or help them myself.&nbsp; We really don&#8217;t want =
+our 80+
+employee&#8217;s contacting you for programming and help =
+assistance.<u1:p></u1:p></span></font><o:p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>I checked your Employee Director =
+and I&#8217;m
+not sure who all these people are &#8211; also you have a lot of term =
+employee&#8217;s on
+the list.&nbsp; I might presume that you retrieved this list from the =
+old
+website.&nbsp; If you give it to me in a CSV format I can edit it for =
+you
+adding new employees and removing termed employees.&nbsp; It might be a =
+good
+idea if I gave you the sales force, their mobile numbers and their
+territories.&nbsp; You might also like the names of the Sales Managers =
+for
+Northern and <st1:place u4:st=3D"on"><st1:place w:st=3D"on">Southern =
+California</st1:place></st1:place>
+and their contact information.&nbsp; I&#8217;m not sure as we would want =
+all
+employees of Global listed.&nbsp; I would think only those in sales =
+maybe?<u1:p></u1:p></span></font><o:p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>I clicked on the
+contractor-ordering.&nbsp; We don&#8217;t usual use shipping =
+calculators.<u1:p></u1:p></span></font><o:p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Just and FYI it looks really =
+nice.&nbsp;
+Currently I don&#8217;t believe I have given you enough information to =
+be
+useful.&nbsp; According to Laura you want to be able to take orders from
+customers and send a note to whichever location to fulfill the =
+order.&nbsp;
+Great idea and very complex, Global has over 50 price levels and almost =
+10,000
+items.&nbsp; I will try and help you all I can.&nbsp; Let me know when =
+you have
+the items and customers =
+loaded.<u1:p></u1:p></span></font><o:p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>I sure hope this =
+helps<u1:p></u1:p></span></font><o:p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'>Pat<u1:p></u1:p></span></font><o:p><=
+/o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><u1:p>&nbsp;</u1:p></span></font><o:=
+p></o:p></p>
+
+<div>
+
+<div class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+face=3D"Times New Roman"><span style=3D'font-size:12.0pt'>
+
+<hr size=3D2 width=3D"100%" align=3Dcenter tabindex=3D-1>
+
+</span></font></div>
+
+<p class=3DMsoNormal><b><font size=3D2 face=3DTahoma><span =
+style=3D'font-size:10.0pt;
+font-family:Tahoma;font-weight:bold'>From:</span></font></b><font =
+size=3D2
+face=3DTahoma><span style=3D'font-size:10.0pt;font-family:Tahoma'> <a
+href=3D"mailto:dmenache@hotmail.com"></a><a =
+href=3D"mailto:dmenache@hotmail.com">dmenache@hotmail.com</a>
+[mailto:dmenache@hotmail.com] <b><span style=3D'font-weight:bold'>On =
+Behalf Of </span></b>David
+Menache<br>
+<b><span style=3D'font-weight:bold'>Sent:</span></b> Tuesday, September =
+20, 2011
+12:01 PM<br>
+<b><span style=3D'font-weight:bold'>To:</span></b> Pat Santana<br>
+<b><span style=3D'font-weight:bold'>Cc:</span></b> Support Staff<br>
+<b><span style=3D'font-weight:bold'>Subject:</span></b> account =
+access</span></font><u1:p></u1:p><o:p></o:p></p>
+
+</div>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u1:p>&nbsp;</u1:p><o:p></o:p></span></font></p>
+
+<div>
+
+<p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><font size=3D2 =
+face=3DTahoma><span
+style=3D'font-size:10.0pt;font-family:Tahoma'><a
+href=3D"https://accounts.google.com/ManageAccount"></a><a
+href=3D"https://accounts.google.com/ManageAccount">https://accounts.googl=
+e.com/ManageAccount</a><br>
+<br>
+login with <a href=3D"mailto:santp@thehvac.net">santp@thehvac.net</a> =
+pass:
+santana1 and have fun exploring.&nbsp; Give me a call to get you going =
+if it
+gets overwhelming.<br>
+<br>
+the <a href=3D"mailto:santp@thehvac.net">santp@thehvac.net</a> is =
+temporary and
+will go away in place of <a =
+href=3D"mailto:psantana@globalhvac.com">psantana@globalhvac.com</a>
+once all is moved to where it should be.<br>
+<br>
+it was great to 'meet' ya :)<br>
+<br>
+thanks,<br>
+dave<br>
+<br>
+<br>
+</span></font><o:p></o:p></p>
+
+<u1:p></u1:p>
+
+<table class=3DMsoNormalTable border=3D0 cellspacing=3D5 cellpadding=3D0
+ bgcolor=3D"#DDDDDD" style=3D'background:#DDDDDD;text-shadow:2px 2px 2px =
+#000;
+ border-radius:8px'>
+ <tr>
+  <td style=3D'padding:3.75pt 3.75pt 3.75pt 3.75pt'>
+  <p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+  style=3D'font-size:12.0pt'><img border=3D0 width=3D74 height=3D74 =
+id=3D"_x0000_i1025"
+  src=3D"http://doap.com/images/dave.jpg"><o:p></o:p></span></font></p>
+  </td>
+  <u1:p></u1:p>
+  <td style=3D'padding:3.75pt 3.75pt 3.75pt 3.75pt'>
+  <p class=3DMsoNormal><strong><b><font size=3D5 face=3DVerdana><span
+  style=3D'font-size:20.0pt;font-family:Verdana'>David =
+Menache</span></font></b></strong><font
+  face=3DVerdana><span style=3D'font-family:Verdana'><br>
+  <em><i><font face=3DVerdana><span style=3D'font-family:Verdana'><a
+  href=3D"mailto:dave@doap.com"></a><a =
+href=3D"mailto:dave@doap.com">dave@doap.com</a></span></font></i></em><br=
+>
+  US:805-426-5216</span></font><u1:p></u1:p><o:p></o:p></p>
+  </td>
+  <td style=3D'padding:3.75pt 3.75pt 3.75pt 3.75pt'>
+  <p class=3DMsoNormal><b><font size=3D3 face=3D"Times New Roman"><span
+  style=3D'font-size:12.0pt;font-weight:bold'><img border=3D0 =
+width=3D388 height=3D72
+  id=3D"_x0000_i1026" =
+src=3D"http://doap.com/images/d5.png"></span></font></b><o:p></o:p></p>
+  </td>
+ </tr>
+ <u1:p></u1:p>
+</table>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span =
+style=3D'font-size:
+12.0pt'><u1:p>&nbsp;</u1:p><o:p></o:p></span></font></p>
+
+</div>
+
+</div>
+
+</blockquote>
+
+</div>
+
+</blockquote>
+
+</u1:smarttagtype></u1:smarttagtype></div>
+
+</body>
+
+</html>
+
+------=_NextPart_001_001A_01CC79E2.7D11A560--
+
+------=_NextPart_000_0019_01CC79E2.7D11A560
+Content-Type: application/vnd.ms-excel;
+	name="pricelevel.csv"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+	filename="pricelevel.csv"
+
+"System:","9/23/2011","11:30:06 AM","Global HVAC Distributors, =
+Inc","Page:","1"
+"User Date:","9/23/2011","PRICE LEVEL LIST","User ID:","psantana"
+"Inventory Control"
+"Ranges:","From:","To:"
+"Price Level","First","Last"
+"Description","First","Last"
+"Sort:","Price Level"
+"Price Level","Description"
+"-----------","------------"
+"ACDIRECT","AC Direct Pricing"
+"ACUNLMTD","AC Unlimited Customer"
+"AIRTIME2","Air Time 2 Quote pricing"
+"AIRTIMEA","Airtime Class A group"
+"AIRTIMEB","Airtime class B group"
+"ANDERSON","Anderson Heating Pricing"
+"ARMSAIRCND","Arms Air Conditiong pricing"
+"BELL-PACIF","Bell Brothers & Pacific Aire"
+"BELL-SERV","Bell Bros Service Champ prices"
+"BREEZEAIR","Breeze Air Customer"
+"COMFORT","Comfort Air Pricing Steve Evan"
+"COMMOD2.0","Commodities@2 plus Dlr price"
+"COMMOD2.5","Commodities@2.5 plus Dlr price"
+"COMMOD3.0","Commodities@3 plus Dlr price"
+"COMMOD3.5","Commodities@3.5 plus Dlr price"
+"COOPER","72 degrees Cooper Brothers"
+"CYPRESS","Cypress Heating & AC"
+"DELTA-AC","Delta AC Supply Pricing"
+"DIALONE","Diaal One Balard Svc Stars"
+"DJLECON","DJL Econ"
+"DLR","Dealer Lowest Price"
+"DLRMINUS5","Dealer Minus 5%"
+"ECONOAIR","Econo Air A/C & Htg"
+"ELCAJON","El Cajon pricing"
+"GILMO","Gilmore North pricing"
+"GOMEZ","Gomerz Heating & Air"
+"HAJOCA","Hajoca Corp"
+"HONEYS","Honeys pricing"
+"JSTEELE","John Steele special customer"
+"JWHEAT","JW Heat & Air pricing"
+"KILOWATT","Kilowatt special pricing"
+"LAVINE","Lavine Price List"
+"LUSKIN","Luskin-Clarke pricing"
+"NINETYFIVE","Ninety Five Pricing"
+"OCC","Occasional - Highest Price"
+"PRE","Premier - 2nd Highest Price"
+"RANCHO","Rancho Sheet Metal Pricing"
+"RAYOCOOK","Ray O'Cook pricing"
+"ROWLANDAIR","pricing for Rowland Air Inc"
+"SAC-QUOTE","Sac Quote pricing"
+"SAWYER","Sawyers Heating & Air"
+"SEASON","Season customer pricing"
+"SERVICESR","Service Star Pricing"
+"SOGOOD","So Good by Eric Regan"
+"STANAPPL","Standard Appl Sacto pricing"
+"STEVEPATRK","Steve Patrick Pricing"
+"STOCKTON","Pricing for Stockton Area"
+"SUBDIST","Subdistributor pricing"
+"TEMPERF","Temperature Perfection pricing"
+"VENDR","Vendor"
+"WESTCOAST","West Coast pricing"
+"WHITEAC","White A/C in Palmdale"
+"52","Price Levels"
+
+------=_NextPart_000_0019_01CC79E2.7D11A560--
+
+

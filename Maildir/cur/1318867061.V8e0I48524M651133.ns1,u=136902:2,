@@ -1,0 +1,48 @@
+Return-Path: <dave@myworldtransfers.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yx0-f176.google.com (mail-yx0-f176.google.com [209.85.213.176])
+	by ns1 (Postfix) with ESMTP id 777F888B3F
+	for <support@doap.com>; Mon, 17 Oct 2011 08:57:41 -0700 (PDT)
+Received: by yxk30 with SMTP id 30so4263127yxk.35
+        for <support@doap.com>; Mon, 17 Oct 2011 08:57:41 -0700 (PDT)
+Received: by 10.151.8.1 with SMTP id l1mr10624694ybi.24.1318867061374;
+        Mon, 17 Oct 2011 08:57:41 -0700 (PDT)
+Received: from [192.168.137.61] ([190.181.174.132])
+        by mx.google.com with ESMTPS id 19sm22446714and.8.2011.10.17.08.57.35
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 17 Oct 2011 08:57:37 -0700 (PDT)
+Sender: dave menache <dave@myworldtransfers.com>
+From: David Menache <dave@doap.com>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_585D3D54-A4A0-4654-B0C2-F69362510A0C"
+Subject: db unavailable
+Date: Mon, 17 Oct 2011 09:57:33 -0600
+Message-Id: <F0632D9E-BC0C-42FB-982A-F2836DD6B129@doap.com>
+To: "Doap.com Support Team" <support@doap.com>
+Mime-Version: 1.0 (Apple Message framework v1251.1)
+X-Mailer: Apple Mail (2.1251.1)
+
+
+--Apple-Mail=_585D3D54-A4A0-4654-B0C2-F69362510A0C
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+not sure if it's recent dns adjustments or something worse.
+all doap.com sites using db services are affected
+
+David Menache
+dave@doap.com
+http://doap.com
+
+
+--Apple-Mail=_585D3D54-A4A0-4654-B0C2-F69362510A0C
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; ">not sure if it's recent dns adjustments or something worse.<div>all <a href="http://doap.com">doap.com</a> sites using db services are affected</div><div><br><div apple-content-edited="true">
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div>David Menache</div><div><a href="mailto:dave@doap.com">dave@doap.com</a></div><div><a href="http://doap.com">http://doap.com</a></div></span>
+</div>
+<br></div></body></html>
+--Apple-Mail=_585D3D54-A4A0-4654-B0C2-F69362510A0C--

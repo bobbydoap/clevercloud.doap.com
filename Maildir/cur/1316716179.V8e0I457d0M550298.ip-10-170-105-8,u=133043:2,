@@ -1,0 +1,87 @@
+Return-Path: <noreply-gtalk@google.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from smtp-out.google.com (smtp-out.google.com [74.125.121.67])
+	by ns1 (Postfix) with ESMTP id DB61488663
+	for <bobby@doap.com>; Thu, 22 Sep 2011 11:29:38 -0700 (PDT)
+Received: from wpaz21.hot.corp.google.com (wpaz21.hot.corp.google.com [172.24.198.85])
+	by smtp-out.google.com with ESMTP id p8MITZhx023055
+	for <bobby@doap.com>; Thu, 22 Sep 2011 11:29:38 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=google.com; s=beta;
+	t=1316716178; bh=OXIF4dPDNXUFrzIUMtZJS0Ck35c=;
+	h=Date:From:Sender:To:Message-ID:Subject:MIME-Version:Content-Type;
+	b=Y5U4Gh0J+Z95jDcI+bPuJCDvaGa6Hdqf97X9N8VPBYB8uhq8QJvKQEXjLzpPXSXQV
+	 F7BTROPQMDU7f5AD7C3UA==
+DomainKey-Signature: a=rsa-sha1; s=beta; d=google.com; c=nofws; q=dns;
+	h=date:dkim-signature:from:sender:to:message-id:subject:
+	mime-version:content-type;
+	b=G7UyDqfQnBB6c7RxugrAixgW4EHe5z+WGSQdftQc+2I5TdZfenqV4Pkw4/Fto2/iG
+	j5Z9AdL/k8r8F+8rIb0XQ==
+Received: from qyk34 (qyk34.prod.google.com [10.241.83.162])
+	by wpaz21.hot.corp.google.com with ESMTP id p8MIPAdR031632
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=NOT)
+	for <bobby@doap.com>; Thu, 22 Sep 2011 11:29:34 -0700
+Date: Thu, 22 Sep 2011 11:29:34 -0700
+Received: by qyk34 with SMTP id 34so4250480qyk.10
+        for <bobby@doap.com>; Thu, 22 Sep 2011 11:29:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=from:sender:to:message-id:subject:mime-version:content-type;
+        bh=VjqJrMLfNpeXZk3nQxk47eH8Bej2/0k/0z+D6+x/v9Q=;
+        b=tVTT27GZQoBH6HuWfkTkUpW/1mnl+1XRnVXBEzuf0D2Rl5u9H7mUFTQzEcKeeUqcpF
+         O3AtAjgAkZvmJLIbAAbg==
+Received: by 10.229.100.201 with SMTP id z9mr1968404qcn.170.1316716172165;
+        Thu, 22 Sep 2011 11:29:32 -0700 (PDT)
+From: David Menache <dmenache@thehvac.net>
+Sender: noreply-gtalk@google.com
+To:  <bobby@doap.com>
+Message-ID: <26231323.1817463.1316716172164.chat@gmail.com>
+Subject: David Menache has invited you to use Google Talk
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1817462_17438605.1316716172164"
+
+------=_Part_1817462_17438605.1316716172164
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+------------------------------------------------------------------------
+
+
+David Menache has invited you to sign up for Google Talk so you can talk to each other for free over your computers.
+
+To sign-up, go to:
+http://www.google.com/accounts/NewAccount?service=talk&sendvemail=true&skipvpage=true&reqemail=bobby@doap.com&continue=http://www.google.com/talk/service/handleinvite?p%3DhKviYTQBAAA.WIn6JAcL6pIcC_neZ-3JcFsbLZi7iPceZoWubxc4g87CKspi2IRceyLIYEhiA9BJ.-taUDcfkI0rOWegUEhL7PA&followup=http://www.google.com/talk/service/HandleEmailVerified?ee%3DhKviYTQBAAA.7uc1YUDjy2_J0GbsUrI57Q.vCk0ZxrQkzV8CNh_FS_xxw%26p%3DhKviYTQBAAA.WIn6JAcL6pIcC_neZ-3JcFsbLZi7iPceZoWubxc4g87CKspi2IRceyLIYEhiA9BJ.-taUDcfkI0rOWegUEhL7PA
+
+Google Talk is a downloadable Windows* application that offers:
+- Free calls over your computer anytime, from anywhere, and for as long as you want
+- A simple and intuitive user interface for sending instant messages or making calls--no clutter, pop-ups or ads
+- Superior voice quality through just a microphone and computer speaker
+- Fast file transfers with no restrictions on file type
+
+After signing-up, download Google Talk and sign in with your new Google Account username and password.
+You can then begin inviting anyone you want to talk to for free.
+
+Google Talk works with any computer speaker and microphone, such as the ones built-in to many PC laptops today,
+as well as with wired and wireless headsets and USB phones. Google Talk also works across all firewalls.
+
+Google Talk is still in beta. Just like with Gmail, we're working hard to add features and make improvements,
+so we might also ask for your comments and suggestions periodically. We appreciate your help in making it even better!
+
+Thanks,
+
+The Google Talk Team
+
+To learn more about Google Talk before signing up, visit:
+
+http://www.google.com/talk/about.html
+
+(If clicking the URLs in this message does not work, copy and paste them into the address bar of your browser).
+
+* Not a Windows user? No problem. You can also connect to the Google Talk service from any platform using third-party clients
+(http://www.google.com/talk/otherclients.html).
+
+  
+------=_Part_1817462_17438605.1316716172164--

@@ -1,0 +1,613 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gy0-f182.google.com (mail-gy0-f182.google.com [209.85.160.182])
+	by ns1 (Postfix) with ESMTP id C19C58872A
+	for <support@doap.com>; Fri,  7 Oct 2011 05:01:47 -0700 (PDT)
+Received: by gyf2 with SMTP id 2so4504682gyf.13
+        for <support@doap.com>; Fri, 07 Oct 2011 05:01:48 -0700 (PDT)
+Received: by 10.236.76.136 with SMTP id b8mr9413559yhe.9.1317988907570;
+        Fri, 07 Oct 2011 05:01:47 -0700 (PDT)
+Received: from [192.168.137.221] ([190.181.180.89])
+        by mx.google.com with ESMTPS id o17sm24070880anj.3.2011.10.07.05.01.42
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 07 Oct 2011 05:01:45 -0700 (PDT)
+From: David Menache <dmenache@thehvac.net>
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_08936645-B536-4561-A8C1-525F0369B9DD"
+Subject: Re: mysql security
+Date: Fri, 7 Oct 2011 06:01:39 -0600
+In-Reply-To: <CCB24C75-C4E9-4F92-9A54-204E6703990D@thehvac.net>
+To: "Doap.com Support Team" <support@doap.com>
+References: <CCB24C75-C4E9-4F92-9A54-204E6703990D@thehvac.net>
+Message-Id: <A4F5007B-4111-4421-8525-619A8EE58C5D@thehvac.net>
+X-Mailer: Apple Mail (2.1244.3)
+
+
+--Apple-Mail=_08936645-B536-4561-A8C1-525F0369B9DD
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+one down
+ doap-restore2.clrweg9qtztw.us-west-1.rds.amazonaws.com:3306
+$cfg['Servers'][$i]['pmadb'] ...	OK
+$cfg['Servers'][$i]['relation'] ...	not OK [ Documentation ]
+General relation features: Disabled
+ 
+$cfg['Servers'][$i]['table_info'] ...	not OK [ Documentation ]
+Display Features: Disabled
+ 
+$cfg['Servers'][$i]['table_coords'] ...	not OK [ Documentation ]
+$cfg['Servers'][$i]['pdf_pages'] ...	not OK [ Documentation ]
+Creation of PDFs: Disabled
+ 
+$cfg['Servers'][$i]['column_info'] ...	not OK [ Documentation ]
+Displaying Column Comments: Disabled
+Browser transformation: Disabled
+ 
+$cfg['Servers'][$i]['bookmarktable'] ...	not OK [ Documentation ]
+Bookmarked SQL query: Disabled
+ 
+$cfg['Servers'][$i]['history'] ...	not OK [ Documentation ]
+SQL history: Disabled
+ 
+$cfg['Servers'][$i]['designer_coords'] ...	not OK [ Documentation ]
+Designer: Disabled
+ 
+$cfg['Servers'][$i]['tracking'] ...	not OK [ Documentation ]
+Tracking: Disabled
+ 
+
+On Oct 7, 2011, at 5:35 AM, David Menache wrote:
+
+> to enable security on our mysql we need to resolve these issues
+> 
+>  doap-restore2.clrweg9qtztw.us-west-1.rds.amazonaws.com:3306
+> $cfg['Servers'][$i]['pmadb'] ...	not OK [ Documentation ]
+> $cfg['Servers'][$i]['relation'] ...	not OK [ Documentation ]
+> General relation features: Disabled
+>  
+> $cfg['Servers'][$i]['table_info'] ...	not OK [ Documentation ]
+> Display Features: Disabled
+>  
+> $cfg['Servers'][$i]['table_coords'] ...	not OK [ Documentation ]
+> $cfg['Servers'][$i]['pdf_pages'] ...	not OK [ Documentation ]
+> Creation of PDFs: Disabled
+>  
+> $cfg['Servers'][$i]['column_info'] ...	not OK [ Documentation ]
+> Displaying Column Comments: Disabled
+> Browser transformation: Disabled
+>  
+> $cfg['Servers'][$i]['bookmarktable'] ...	not OK [ Documentation ]
+> Bookmarked SQL query: Disabled
+>  
+> $cfg['Servers'][$i]['history'] ...	not OK [ Documentation ]
+> SQL history: Disabled
+>  
+> $cfg['Servers'][$i]['designer_coords'] ...	not OK [ Documentation ]
+> Designer: Disabled
+>  
+> $cfg['Servers'][$i]['tracking'] ...	not OK [ Documentation ]
+> Tracking: Disabled
+>  
+> 
+
+
+--Apple-Mail=_08936645-B536-4561-A8C1-525F0369B9DD
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=us-ascii
+
+<html><head></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; ">one =
+down<div><div id=3D"serverinfo" style=3D"font-weight: bold; =
+margin-bottom: 0.5em; color: rgb(0, 0, 0); font-family: sans-serif; =
+font-size: 13px; font-style: normal; font-variant: normal; =
+letter-spacing: normal; line-height: normal; orphans: 2; text-align: =
+-webkit-auto; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; =
+-webkit-text-stroke-width: 0px; background-color: rgb(245, 245, 245); =
+"><a =
+href=3D"http://mysql.doap.com/main.php?token=3D9c72f394d38efbb440857cf01e0=
+b6e5f" class=3D"item" style=3D"text-decoration: none; color: rgb(0, 0, =
+255); white-space: nowrap; "><img class=3D"icon" =
+src=3D"http://mysql.doap.com/themes/original/img/s_host.png" width=3D"16" =
+height=3D"16" alt=3D"" style=3D"vertical-align: middle; =
+border-top-width: 0px; border-right-width: 0px; border-bottom-width: =
+0px; border-left-width: 0px; border-style: initial; border-color: =
+initial; margin-right: 0.1em; margin-left: 0.2em; margin-top: 0px; =
+margin-bottom: 0px; =
+">&nbsp;doap-restore2.clrweg9qtztw.us-west-1.rds.amazonaws.com:3306</a></d=
+iv><table style=3D"color: rgb(0, 0, 0); font-family: sans-serif; =
+font-size: 13px; font-style: normal; font-variant: normal; font-weight: =
+normal; letter-spacing: normal; line-height: normal; orphans: 2; =
+text-align: -webkit-auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; =
+background-color: rgb(245, 245, 245); position: static; z-index: auto; =
+"><tbody><tr><th align=3D"left" style=3D"font-weight: bold; color: =
+rgb(0, 0, 0); background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; ">$cfg['Servers'][$i]['pmadb'] =
+...</th><td align=3D"right" style=3D"padding-top: 0.1em; padding-right: =
+0.5em; padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; "><font =
+color=3D"green"><strong>OK</strong></font></td></tr><tr><th align=3D"left"=
+ style=3D"font-weight: bold; color: rgb(0, 0, 0); background-image: =
+initial; background-attachment: initial; background-origin: initial; =
+background-clip: initial; background-color: rgb(211, 220, 227); =
+padding-top: 0.1em; padding-right: 0.5em; padding-bottom: 0.1em; =
+padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; =
+background-position: initial initial; background-repeat: initial =
+initial; ">$cfg['Servers'][$i]['relation'] ...</th><td align=3D"right" =
+style=3D"padding-top: 0.1em; padding-right: 0.5em; padding-bottom: =
+0.1em; padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; "><font =
+color=3D"red"><strong>not OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#relation" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">General relation features:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; ">$cfg['Servers'][$i]['table_info'] =
+...</th><td align=3D"right" style=3D"padding-top: 0.1em; padding-right: =
+0.5em; padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; "><font color=3D"red"><strong>not =
+OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#table_info" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Display Features:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; =
+">$cfg['Servers'][$i]['table_coords'] ...</th><td align=3D"right" =
+style=3D"padding-top: 0.1em; padding-right: 0.5em; padding-bottom: =
+0.1em; padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; "><font =
+color=3D"red"><strong>not OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#table_coords" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><th align=3D"left" =
+style=3D"font-weight: bold; color: rgb(0, 0, 0); background-image: =
+initial; background-attachment: initial; background-origin: initial; =
+background-clip: initial; background-color: rgb(211, 220, 227); =
+padding-top: 0.1em; padding-right: 0.5em; padding-bottom: 0.1em; =
+padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; =
+background-position: initial initial; background-repeat: initial =
+initial; ">$cfg['Servers'][$i]['pdf_pages'] ...</th><td align=3D"right" =
+style=3D"padding-top: 0.1em; padding-right: 0.5em; padding-bottom: =
+0.1em; padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; "><font =
+color=3D"red"><strong>not OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#table_coords" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Creation of PDFs:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; ">$cfg['Servers'][$i]['column_info'] =
+...</th><td align=3D"right" style=3D"padding-top: 0.1em; padding-right: =
+0.5em; padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; "><font color=3D"red"><strong>not =
+OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#col_com" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Displaying Column Comments:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Browser transformation:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; =
+">$cfg['Servers'][$i]['bookmarktable'] ...</th><td align=3D"right" =
+style=3D"padding-top: 0.1em; padding-right: 0.5em; padding-bottom: =
+0.1em; padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; "><font =
+color=3D"red"><strong>not OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#bookmark" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Bookmarked SQL query:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; ">$cfg['Servers'][$i]['history'] =
+...</th><td align=3D"right" style=3D"padding-top: 0.1em; padding-right: =
+0.5em; padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; "><font color=3D"red"><strong>not =
+OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#history" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">SQL history:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; =
+">$cfg['Servers'][$i]['designer_coords'] ...</th><td align=3D"right" =
+style=3D"padding-top: 0.1em; padding-right: 0.5em; padding-bottom: =
+0.1em; padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; "><font =
+color=3D"red"><strong>not OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#designer_coords" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Designer:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; ">$cfg['Servers'][$i]['tracking'] =
+...</th><td align=3D"right" style=3D"padding-top: 0.1em; padding-right: =
+0.5em; padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; "><font color=3D"red"><strong>not =
+OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#tracking" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Tracking:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; =
+">&nbsp;<br><br></td></tr></tbody></table><div><div>On Oct 7, 2011, at =
+5:35 AM, David Menache wrote:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><div =
+style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; ">to enable security on our mysql =
+we need to resolve these issues<div><br></div><div><div id=3D"serverinfo" =
+style=3D"font-weight: bold; margin-bottom: 0.5em; color: rgb(0, 0, 0); =
+font-family: sans-serif; font-size: 13px; font-style: normal; =
+font-variant: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; =
+background-color: rgb(245, 245, 245); "><a =
+href=3D"http://mysql.doap.com/main.php?token=3D9434bc828690a020f9282787cfc=
+5fae4" class=3D"item" style=3D"text-decoration: none; color: rgb(0, 0, =
+255); white-space: nowrap; "><img class=3D"icon" =
+src=3D"http://mysql.doap.com/themes/original/img/s_host.png" width=3D"16" =
+height=3D"16" alt=3D"" style=3D"vertical-align: middle; =
+border-top-width: 0px; border-right-width: 0px; border-bottom-width: =
+0px; border-left-width: 0px; border-style: initial; border-color: =
+initial; margin-right: 0.1em; margin-left: 0.2em; margin-top: 0px; =
+margin-bottom: 0px; =
+">&nbsp;doap-restore2.clrweg9qtztw.us-west-1.rds.amazonaws.com:3306</a></d=
+iv><table style=3D"color: rgb(0, 0, 0); font-family: sans-serif; =
+font-size: 13px; font-style: normal; font-variant: normal; font-weight: =
+normal; letter-spacing: normal; line-height: normal; orphans: 2; =
+text-align: -webkit-auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; =
+background-color: rgb(245, 245, 245); position: static; z-index: auto; =
+"><tbody><tr><th align=3D"left" style=3D"font-weight: bold; color: =
+rgb(0, 0, 0); background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; ">$cfg['Servers'][$i]['pmadb'] =
+...</th><td align=3D"right" style=3D"padding-top: 0.1em; padding-right: =
+0.5em; padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; "><font color=3D"red"><strong>not =
+OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#pmadb" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><th align=3D"left" =
+style=3D"font-weight: bold; color: rgb(0, 0, 0); background-image: =
+initial; background-attachment: initial; background-origin: initial; =
+background-clip: initial; background-color: rgb(211, 220, 227); =
+padding-top: 0.1em; padding-right: 0.5em; padding-bottom: 0.1em; =
+padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; =
+background-position: initial initial; background-repeat: initial =
+initial; ">$cfg['Servers'][$i]['relation'] ...</th><td align=3D"right" =
+style=3D"padding-top: 0.1em; padding-right: 0.5em; padding-bottom: =
+0.1em; padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; "><font =
+color=3D"red"><strong>not OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#relation" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">General relation features:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; ">$cfg['Servers'][$i]['table_info'] =
+...</th><td align=3D"right" style=3D"padding-top: 0.1em; padding-right: =
+0.5em; padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; "><font color=3D"red"><strong>not =
+OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#table_info" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Display Features:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; =
+">$cfg['Servers'][$i]['table_coords'] ...</th><td align=3D"right" =
+style=3D"padding-top: 0.1em; padding-right: 0.5em; padding-bottom: =
+0.1em; padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; "><font =
+color=3D"red"><strong>not OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#table_coords" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><th align=3D"left" =
+style=3D"font-weight: bold; color: rgb(0, 0, 0); background-image: =
+initial; background-attachment: initial; background-origin: initial; =
+background-clip: initial; background-color: rgb(211, 220, 227); =
+padding-top: 0.1em; padding-right: 0.5em; padding-bottom: 0.1em; =
+padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; =
+background-position: initial initial; background-repeat: initial =
+initial; ">$cfg['Servers'][$i]['pdf_pages'] ...</th><td align=3D"right" =
+style=3D"padding-top: 0.1em; padding-right: 0.5em; padding-bottom: =
+0.1em; padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; "><font =
+color=3D"red"><strong>not OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#table_coords" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Creation of PDFs:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; ">$cfg['Servers'][$i]['column_info'] =
+...</th><td align=3D"right" style=3D"padding-top: 0.1em; padding-right: =
+0.5em; padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; "><font color=3D"red"><strong>not =
+OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#col_com" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Displaying Column Comments:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Browser transformation:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; =
+">$cfg['Servers'][$i]['bookmarktable'] ...</th><td align=3D"right" =
+style=3D"padding-top: 0.1em; padding-right: 0.5em; padding-bottom: =
+0.1em; padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; "><font =
+color=3D"red"><strong>not OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#bookmark" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Bookmarked SQL query:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; ">$cfg['Servers'][$i]['history'] =
+...</th><td align=3D"right" style=3D"padding-top: 0.1em; padding-right: =
+0.5em; padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; "><font color=3D"red"><strong>not =
+OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#history" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">SQL history:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; =
+">$cfg['Servers'][$i]['designer_coords'] ...</th><td align=3D"right" =
+style=3D"padding-top: 0.1em; padding-right: 0.5em; padding-bottom: =
+0.1em; padding-left: 0.5em; margin-top: 0.1em; margin-right: 0.1em; =
+margin-bottom: 0.1em; margin-left: 0.1em; vertical-align: top; "><font =
+color=3D"red"><strong>not OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#designer_coords" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Designer:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; ">&nbsp;</td></tr><tr><th =
+align=3D"left" style=3D"font-weight: bold; color: rgb(0, 0, 0); =
+background-image: initial; background-attachment: initial; =
+background-origin: initial; background-clip: initial; background-color: =
+rgb(211, 220, 227); padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; background-position: initial initial; =
+background-repeat: initial initial; ">$cfg['Servers'][$i]['tracking'] =
+...</th><td align=3D"right" style=3D"padding-top: 0.1em; padding-right: =
+0.5em; padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; "><font color=3D"red"><strong>not =
+OK</strong></font>&nbsp;[&nbsp;<a =
+href=3D"http://mysql.doap.com/Documentation.html#tracking" =
+target=3D"documentation" style=3D"text-decoration: none; color: rgb(0, =
+0, 255); ">Documentation</a>&nbsp;]</td></tr><tr><td colspan=3D"2" =
+align=3D"right" style=3D"padding-top: 0.1em; padding-right: 0.5em; =
+padding-bottom: 0.1em; padding-left: 0.5em; margin-top: 0.1em; =
+margin-right: 0.1em; margin-bottom: 0.1em; margin-left: 0.1em; =
+vertical-align: top; ">Tracking:&nbsp;<font =
+color=3D"red">Disabled</font></td></tr><tr><td style=3D"padding-top: =
+0.1em; padding-right: 0.5em; padding-bottom: 0.1em; padding-left: 0.5em; =
+margin-top: 0.1em; margin-right: 0.1em; margin-bottom: 0.1em; =
+margin-left: 0.1em; vertical-align: top; =
+">&nbsp;<br><br></td></tr></tbody></table></div></div></blockquote></div><=
+br></div></body></html>=
+
+--Apple-Mail=_08936645-B536-4561-A8C1-525F0369B9DD--

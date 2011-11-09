@@ -1,0 +1,674 @@
+Return-Path: <tech+bncCOKrwsOaDRDgsa3zBBoE0dlS5g@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gx0-f200.google.com (mail-gx0-f200.google.com [209.85.161.200])
+	by ns1 (Postfix) with ESMTP id 95B52885BF;
+	Sat, 10 Sep 2011 05:32:33 -0700 (PDT)
+Received: by gxk22 with SMTP id 22sf2522191gxk.7
+        for <multiple recipients>; Sat, 10 Sep 2011 05:32:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=VE9SXQw/YQMxqfKVu/U0zW9KZposPbfDaGnLq+7ovOc=;
+        b=b1+jk8ZsgKx3D6fXqNI++QyAqdaHozlQkvsxHRF9jsKfDrlxT21Mmzg5Brf16N5Io2
+         kQsJcmvosBYhHiw6P8hg==
+Received: by 10.100.19.14 with SMTP id 14mr2643016ans.31.1315657952918;
+        Sat, 10 Sep 2011 05:32:32 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.101.185.9 with SMTP id m9ls6836286anp.3.gmail; Sat, 10 Sep
+ 2011 05:32:32 -0700 (PDT)
+Received: by 10.236.76.41 with SMTP id a29mr17830117yhe.40.1315657952484;
+        Sat, 10 Sep 2011 05:32:32 -0700 (PDT)
+Received: by 10.236.76.41 with SMTP id a29mr17830115yhe.40.1315657952456;
+        Sat, 10 Sep 2011 05:32:32 -0700 (PDT)
+Received: from mail-yx0-f199.google.com (mail-yx0-f199.google.com [209.85.213.199])
+        by mx.google.com with ESMTPS id c2si1883088yhe.153.2011.09.10.05.32.32
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sat, 10 Sep 2011 05:32:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 32lhrThEKBLEefiVgcp+WVVUgifopXffXcV.TfdKVTYkYVYmRT.eVk@feedburner.bounces.google.com designates 209.85.213.199 as permitted sender) client-ip=209.85.213.199;
+Received: by yxk36 with SMTP id 36so3630270yxk.10
+        for <Tech@thehvac.net>; Sat, 10 Sep 2011 05:32:32 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.43.134.65 with SMTP id ib1mt371932icc.0.1315657946102; Sat, 10
+ Sep 2011 05:32:26 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <20cf307f351886009904ac957cdd@google.com>
+Date: Sat, 10 Sep 2011 12:32:32 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 32lhrThEKBLEefiVgcp+WVVUgifopXffXcV.TfdKVTYkYVYmRT.eVk@feedburner.bounces.google.com
+ designates 209.85.213.199 as permitted sender) smtp.mail=32lhrThEKBLEefiVgcp+WVVUgifopXffXcV.TfdKVTYkYVYmRT.eVk@feedburner.bounces.google.com;
+ dkim=pass (test mode) header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=20cf307f3518e266a604ac957c3b
+
+--20cf307f3518e266a604ac957c3b
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+
+Amazon Web Services Blog
+
+///////////////////////////////////////////
+Introducing: VC Judges for AWS Startup Challenge
+
+Posted: 09 Sep 2011 02:41 PM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/oiTuiInb-38/introducing-vc-judges-for-aws-startup-challenge.html?utm_source=feedburner&utm_medium=email
+
+
+Were very excited to announce this years AWS Start-up Challenge VC judges:  
+Accel Partners, Andreessen Horowitz (A16Z), Draper Fisher Jurvetson (DFJ),  
+Madrona Venture Group,NEA, and Sequoia!
+
+Representatives from all these firms will be present at our final event in  
+California, where our AWS executive team will meet and select one global,  
+grand prize winner.
+
+All finalists will have an opportunity to meet these VCs in a lightning  
+round or "speed dating" round and then during social events. VCs will  
+confer their thoughts and recommendations to our AWS executive team, who  
+will weigh their feedback before making the final decision. You can read  
+more about each one below.
+
+Enter the AWS Start-up Challenge Today!
+
+If you havent entered the contest yet - what are you waiting for? :)  
+Deadline is fast approaching on October 2nd, at11:59:59 P.M. (PT).
+
+
+
+Read the Official Rules
+Enter if youre in Americas (North, South, Central, etc.)
+Enter if youre in Asia Pacific (including Japan)
+Enter if youre in Europe, Middle East, of Africa
+
+
+
+
+
+
+Accel Partners
+
+
+
+For over 25 years, Accel and its entrepreneurs have shared a common vision:  
+be first. First to see the opportunity, first to define a category, and  
+first to transform the industry. We partner with entrepreneurs around the  
+world who have unique, breakthrough ideas and the courage to be first.Accel  
+Partners
+
+
+
+
+Andreessen Horowitz
+
+Andreessen-Horowitz is a stage-agnostic venture capital firm that provides  
+seed, venture and growth stage funding to the best new technology  
+companies. Founded by Marc Andreessen and Ben Horowitz, Andreessen Horowitz  
+helps entrepreneurs become successful CEOs and build important and enduring  
+companies. Its general partners are Marc Andreessen, Ben Horowitz, John  
+OFarrell and Scott Weiss, all widely recognized experts in the creation,  
+scaling, and operation of high growth technology companies.The firm has  
+$1.2 billion under management across two funds. Among its 30 investments  
+are Facebook, Foursquare, Groupon, Skype, Twitter, and Zynga. The firm was  
+established in June 2009 and is located in Menlo Park, CA.
+
+
+
+
+Draper Fisher Jurvetson
+
+
+
+DFJ backs extraordinary entrepreneurs everywhere who set out to change the  
+world. DFJ achieves its mission through its DFJ Global Network of Partner  
+Funds with operations in the US, China, India, Korea, Vietnam, Russia,  
+Europe, Israel, Brazil, and Japan. Over the past 25 years, DFJ and its  
+partners have backed over 600 companies, and have pioneered the way in  
+emerging technology markets including the Internet, mobile communications,  
+clean energy and health care
+
+
+
+
+Madrona Venture Group
+
+Madrona has been investing in early-stage technology companies in the  
+Pacific Northwest since 1995 and has been privileged to play a role in some  
+of the regions most successful technology ventures. The firm invests  
+predominately in seed and Series A rounds across the information technology  
+spectrum including consumer Internet, commercial software and services,  
+digital media and advertising, networking and infrastructure, and wireless.  
+Madrona currently manages over $650 million and was an early investor in  
+companies such as Amazon.com, Isilon Systems, Farecast, iConclude, World  
+Wide Packets and ShareBuilder. To learn more, visitwww.madrona.com.
+
+
+
+
+NEA
+
+
+
+NEA provides venture capital to help innovative entrepreneurs and business  
+leaders build transformational, industry-leading companies around the world.
+
+
+
+
+
+
+Sequoia Capital
+
+Sequoia Capital providesventure capital fundingto founders of startups who  
+want to turnbusiness ideasinto enduring companies. As the "Entrepreneurs  
+Behind the Entrepreneurs", Sequoia Capitals Partners have worked with  
+innovators such as Steve Jobs of Apple Computer, Larry Ellison of Oracle,  
+Bob Swanson of Linear Technology, Sandy Lerner and Len Bozack of Cisco  
+Systems, Dan Warmenhoven of NetApp, Jerry Yang and David Filo of Yahoo!,  
+Jen-Hsun Huang of NVIDIA, Michael Marks of Flextronics, Larry Page and  
+Sergey Brin of Google, Chad Hurley and Steve Chen of YouTube, Dominic Orr  
+and Keerti Melkote of Aruba Networks, Tony Hsieh of Zappos, Omar Hamoui of  
+AdMob, Steve Streit of Green Dot and Reid Hoffman and Jeff Weiner of  
+LinkedIn. To learn more about Sequoia Capital visitwww.sequoiacap.com.
+
+-rodica
+  @AWSstartups
+
+
+
+///////////////////////////////////////////
+AWS Events for September 2011
+
+Posted: 09 Sep 2011 08:47 AM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/4zoLWhaV0tU/aws-events-for-september-2011.html?utm_source=feedburner&utm_medium=email
+
+
+Heres what we are doing this month in AWS-land:
+
+Webinars:
+
+September 7 - Introducing AWS GovCloud (US) - 1:00 PM EST
+September 13 - Microsoft License Mobility for Windows Server Applications  
+on the AWS Cloud - 9:00 AM PST
+September 20 - Provide a details of EC2 & EBS - 5:00 PM
+September 27 - Provide a details of S3 - 5:00 PM
+September 28 - Amazon Simple Email Service 101 - 9:00 AM PDT
+
+
+Talks:
+
+September 7 - How has Amazon engaged in the earthquake disaster  
+reconstruction assistance? - Hiromi Watanabe (Amazon.co.jp) & Hideki Ojima  
+- (PACIFICO YOKOHAMA Conference Center)
+September 7 - Whats AWS? Lets start from scratch! - Ken Tamagawa - (Amazon  
+Japan Shibuya Office 7F)
+September 8 - Why social games are hosted by Cloud? - Ken Tamagawa -  
+(PACIFICO YOKOHAMA Conference Center)
+September 8 - Characteristics and practical use of Amazon Cloud (Amazon Web  
+Services) for Game Developer and Operators. - Hideki Ojima & Yasuhiro Araki  
+- (PACIFICO YOKOHAMA Conference Center)
+September 8 - In terms of the database, how do we think about the cloud &  
+its future? - Ken Tamagawa - (Pasona Hall)
+September 13 - Amazon Web Services - Jeff Barr - (Accelrys Tech Summit)
+September 13 - CRV Enterprise Summit - Jinesh Varia - (CRV Office)
+September 14 - How to operate the business system on cloud - Hideki Ojima -  
+(Toyo Engineering Presentation Room)
+September 14 - The latest information about AWS - Ken Tamagawa -  
+(Nishitetsu Grand Hotel)
+September 15 - Introduce AWS with technology demonstration - Ken Tamagawa -  
+(Aoyama Diamond Hall)
+September 17 - AWS Programming With PHP - Jeff Barr - (TechGate)
+September 17 - Introduction to the Amazon Web Services - Jeff Barr -  
+(TechGate)
+September 19 - Cloud Computing - How We Got Here, Where We Are, and Where  
+We Are Heading - Jeff Barr - (Bio-IT Cloud Summit)
+September 22 - Cloud Computing - How We Got Here, Where We Are, and Where  
+We Are Heading - Jeff Barr - (San Diego Cloud Computing Conference)
+
+
+Conferences:
+
+September 6-8 - CEDEC 2011 (Computer Entertainment Developers Conference  
+2011) - Yokohama, Japan (PACIFICO YOKOHAMA Conference Center)
+September 14 - Introducing AWS GovCloud (US) - Herndon, Virginia (AWS  
+Office)
+September 15 - COMPANY Forum 2011 - Tokyo, Japan (ANA Intercontinental  
+Tokyo)
+September 19-22 - Building a Web Application on AWS - Seattle, Washington  
+(Amazon Campus)
+September 21 - AWS Building Blocks for Startups, Helsinki - Helsinki,  
+Finland (Helsinki Exhibition & Convention Centre, Holiday Inn Hotel  
+Entrance, Messuaukio 1, 00520 Helsinki,)
+September 23-24 - PuppetConf - Portland, OR (Portland Center of Performing  
+arts)
+September 26 - Introduction to AWS Cloud - London, UK (Congress Centre, 28  
+Great Russell Street, London, WC1B 3LS)
+September 27 - Start-Up Masterclass - London - London, UK (London and  
+Partners, 2 More London Riverside, London, SE1 2RR)
+
+
+User Groups:
+
+September 2 - JAWS-UG Cloud Girls Meeting - Hideki Ojima - Tokyo, Japan  
+(Shinjuku MAYNDS Tower)
+September 7 - AWS UK North AWS User Group -  - Manchester, UK
+September 13 - JAWS-UG Fukuoka - Ken Tamagawa - Fukuoka, Japan (Fukuoka  
+Ruby Content Industry Promotion Center)
+September 14 - AWS User Group, NYC -Amazon Elastic MapReduce featuring a  
+discussion with Foursquare & Didit
+September 16 - JAWS-UG Miyazaki - Ken Tamagawa - Miyazaki, Japan (Pall Star  
+Bldg.)
+September 17 - JAWS-UG Kagoshima - Ken Tamagawa - Kagoshima, Japan  
+(Kagoshima Kenmin Center)
+
+
+
+
+--
+You are subscribed to email updates from "Amazon Web Services Blog."
+To stop receiving these emails, you may unsubscribe now:  
+http://feedburner.google.com/fb/a/mailunsubscribe?k=WYlqsHgFmj4AaMxCIo4DpqGJl_Y
+
+Email delivery powered by Google.
+Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+
+--20cf307f3518e266a604ac957c3b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/oiTui=
+Inb-38/introducing-vc-judges-for-aws-startup-challenge.html?utm_source=3Dfe=
+edburner&utm_medium=3Demail">Introducing: VC Judges for AWS Startup Challen=
+ge</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 09 Sep 2011 02:41 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>We&#39;re very excited to ann=
+ounce this year&#39;s <a href=3D"http://aws.amazon.com/startupchallenge" ta=
+rget=3D"_blank">AWS Start-up Challenge</a> VC judges: <strong><a href=3D"ht=
+tp://www.accel.com/" target=3D"_blank">Accel Partners</a></strong>, <strong=
+><a href=3D"http://a16z.com/" target=3D"_blank">Andreessen Horowitz</a></st=
+rong> (A16Z), <strong><a href=3D"http://www.dfj.com/index.shtml" target=3D"=
+_blank">Draper Fisher Jurvetson</a></strong> (DFJ), <strong><a href=3D"http=
+://www.madrona.com/" target=3D"_blank">Madrona Venture Group</a></strong>,&=
+#0160;&#0160;<strong><a href=3D"http://www.nea.com/" target=3D"_blank">NEA<=
+/a></strong>, and <strong><a href=3D"Sequoia Capital" target=3D"_blank">Seq=
+uoia&#0160;</a></strong>!</p>
+<p>Representatives from all these firms will be present at our final event =
+in California, where our AWS executive team will meet and select one global=
+, grand prize winner.</p>
+<p>All finalists will have an opportunity to meet these VCs in a lightning =
+round or &quot;speed dating&quot; round and then during social events. VCs =
+will confer their thoughts and recommendations to our AWS executive team, w=
+ho will weigh their feedback before making the final decision. You can read=
+ more about each one below.</p>
+<p><strong>Enter the AWS Start-up Challenge Today!</strong></p>
+<p>If you haven&#39;t entered the contest yet - what are you waiting for? :=
+) Deadline is fast approaching on October 2nd, at&#0160;11:59:59 P.M. (PT).=
+&#0160;</p>
+<p>&#0160;</p>
+<ul>
+<li>Read the <a href=3D"http://aws.amazon.com/startupchallenge/rules/" targ=
+et=3D"_blank">Official Rules</a></li>
+<li><a href=3D"https://e.younoodle.com/c/aws_2011/er/aws_americas/submit?la=
+ng=3Daws-en" target=3D"_blank">Enter if you&#39;re in Americas (North, Sout=
+h, Central, etc.)</a></li>
+<li><a href=3D"https://e.younoodle.com/c/aws_2011/er/aws_asia/submit?lang=
+=3Daws-en" target=3D"_blank">Enter if you&#39;re in Asia Pacific (including=
+ Japan)</a></li>
+<li><a href=3D"https://e.younoodle.com/c/aws_2011/er/aws_emea/submit?lang=
+=3Daws-en" target=3D"_blank">Enter if you&#39;re in Europe, Middle East, of=
+ Africa</a></li>
+</ul>
+<p>&#0160;</p>
+<p><a href=3D"http://www.accel.com/" target=3D"_blank"><img alt=3D"Accel Pa=
+rtners" src=3D"http://awsmedia.s3.amazonaws.com/aws-sc2011/accel.png" title=
+=3D"Accel Partners" /></a></p>
+<p><a href=3D"http://www.accel.com/" target=3D"_blank">Accel Partners</a></=
+p>
+<p>&#0160;</p>
+<p>For over 25 years, Accel and its entrepreneurs have shared a common visi=
+on: be first. First to see the opportunity, first to define a category, and=
+ first to transform the industry. We partner with entrepreneurs around the =
+world who have unique, breakthrough ideas and the courage to be first.&#016=
+0;<a href=3D"http://www.accel.com/" target=3D"_blank">Accel Partners</a></p=
+>
+<hr />
+<p><a href=3D"http://a16z.com/" target=3D"_blank"><img alt=3D"Andreessen Ho=
+rowitz" src=3D"http://awsmedia.s3.amazonaws.com/aws-sc2011/a16z.png" title=
+=3D"Andreessen Horowitz" /></a></p>
+<p><a href=3D"http://a16z.com/" target=3D"_blank">Andreessen Horowitz</a></=
+p>
+<p>Andreessen-Horowitz is a stage-agnostic venture capital firm that provid=
+es seed, venture and growth stage funding to the best new technology compan=
+ies. Founded by Marc Andreessen and Ben Horowitz, Andreessen Horowitz helps=
+ entrepreneurs become successful CEOs and build important and enduring comp=
+anies. Its general partners are Marc Andreessen, Ben Horowitz, John O&#39;F=
+arrell and Scott Weiss, all widely recognized experts in the creation, scal=
+ing, and operation of high growth technology companies.The firm has $1.2 bi=
+llion under management across two funds. Among its 30 investments are Faceb=
+ook, Foursquare, Groupon, Skype, Twitter, and Zynga. The firm was establish=
+ed in June 2009 and is located in Menlo Park, CA.</p>
+<hr />
+<p><a href=3D"http://www.dfj.com/index.shtml" target=3D"_blank"><img alt=3D=
+"Draper Fisher Jurvetson" src=3D"http://awsmedia.s3.amazonaws.com/aws-sc201=
+1/dfj.png" title=3D"Draper Fisher Jurvetson" /></a></p>
+<p><a href=3D"http://www.dfj.com/index.shtml" target=3D"_blank">Draper Fish=
+er Jurvetson</a></p>
+<p>&#0160;</p>
+<p>DFJ backs extraordinary entrepreneurs everywhere who set out to change t=
+he world. DFJ achieves its mission through its DFJ Global Network of Partne=
+r Funds with operations in the US, China, India, Korea, Vietnam, Russia, Eu=
+rope, Israel, Brazil, and Japan. Over the past 25 years, DFJ and its partne=
+rs have backed over 600 companies, and have pioneered the way in emerging t=
+echnology markets including the Internet, mobile communications, clean ener=
+gy and health care</p>
+<hr />
+<p><a href=3D"http://www.madrona.com/" target=3D"_blank"><img alt=3D"Madron=
+a Venture Group" src=3D"http://awsmedia.s3.amazonaws.com/aws-sc2011/Madrona=
+.png" /></a></p>
+<p><a href=3D"http://www.madrona.com/" target=3D"_blank">Madrona Venture Gr=
+oup</a></p>
+<p>Madrona has been investing in early-stage technology companies in the Pa=
+cific Northwest since 1995 and has been privileged to play a role in some o=
+f the region&#39;s most successful technology ventures. The firm invests pr=
+edominately in seed and Series A rounds across the information technology s=
+pectrum including consumer Internet, commercial software and services, digi=
+tal media and advertising, networking and infrastructure, and wireless. Mad=
+rona currently manages over $650 million and was an early investor in compa=
+nies such as Amazon.com, Isilon Systems, Farecast, iConclude, World Wide Pa=
+ckets and ShareBuilder. To learn more, visit&#0160;<a href=3D"http://www.ma=
+drona.com/" target=3D"_blank">www.madrona.com</a>.</p>
+<hr />
+<p><a href=3D"http://www.nea.com/" target=3D"_blank"><img alt=3D"NEA" src=
+=3D"http://awsmedia.s3.amazonaws.com/aws-sc2011/NEA.png" title=3D"NEA" /></=
+a></p>
+<p><a href=3D"http://www.nea.com/" target=3D"_blank">NEA</a></p>
+<p>&#0160;</p>
+<p>NEA provides venture capital to help innovative entrepreneurs and busine=
+ss leaders build transformational, industry-leading companies around the wo=
+rld.</p>
+<p>&#0160;</p>
+<hr />
+<p><a href=3D"http://www.sequoiacap.com/" target=3D"_blank"><img alt=3D"Seq=
+uoia Capital" src=3D"http://awsmedia.s3.amazonaws.com/aws-sc2011/sequoia.pn=
+g" title=3D"Sequoia Capital" /></a></p>
+<p><a href=3D"http://www.sequoiacap.com/" target=3D"_blank">Sequoia Capital=
+</a></p>
+<p>Sequoia Capital provides&#0160;<a href=3D"http://www.sequoiacap.com/" ta=
+rget=3D"_blank">venture capital funding</a>&#0160;to founders of startups w=
+ho want to turn&#0160;<a href=3D"http://www.sequoiacap.com/ideas" target=3D=
+"_blank">business ideas</a>&#0160;into enduring companies. As the &quot;Ent=
+repreneurs Behind the Entrepreneurs&quot;, Sequoia Capital&#39;s Partners h=
+ave worked with innovators such as Steve Jobs of Apple Computer, Larry Elli=
+son of Oracle, Bob Swanson of Linear Technology, Sandy Lerner and Len Bozac=
+k of Cisco Systems, Dan Warmenhoven of NetApp, Jerry Yang and David Filo of=
+ Yahoo!, Jen-Hsun Huang of NVIDIA, Michael Marks of Flextronics, Larry Page=
+ and Sergey Brin of Google, Chad Hurley and Steve Chen of YouTube, Dominic =
+Orr and Keerti Melkote of Aruba Networks, Tony Hsieh of Zappos, Omar Hamoui=
+ of AdMob, Steve Streit of Green Dot and Reid Hoffman and Jeff Weiner of Li=
+nkedIn. To learn more about Sequoia Capital visit&#0160;<a href=3D"http://w=
+ww.sequoiacap.com/" target=3D"_blank">www.sequoiacap.com</a>.</p>
+<p>-rodica<br /> <a href=3D"http://twitter.com/AWSstartups" target=3D"_blan=
+k">@AWSstartups</a></p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DoiTuiI=
+nb-38:1oPmh9RQCtA:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DoiTuiInb-38:1oPmh9=
+RQCtA:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DoiTuiInb-38:1oPmh9RQCtA:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/o=
+iTuiInb-38?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"2" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/4zoLW=
+haV0tU/aws-events-for-september-2011.html?utm_source=3Dfeedburner&utm_mediu=
+m=3Demail">AWS Events for September 2011</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 09 Sep 2011 08:47 AM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>Here&#39;s what we are doing =
+this month in AWS-land:</p>
+<p>Webinars:</p>
+<ul>
+<li class=3D"litight">September 7 - <a href=3D"http://aws.amazon.com/govclo=
+ud-for-the-government-event/">Introducing AWS GovCloud (US)</a> - 1:00 PM E=
+ST</li>
+<li class=3D"litight">September 13 - <a href=3D"https://www2.gotomeeting.co=
+m/register/629776994">Microsoft License Mobility for Windows Server Applica=
+tions on the AWS Cloud</a> - 9:00 AM PST</li>
+<li class=3D"litight">September 20 - <a href=3D"https://www2.gotomeeting.co=
+m/register/617288930">Provide a details of EC2 &amp; EBS</a> - 5:00 PM</li>
+<li class=3D"litight">September 27 - <a href=3D"https://www2.gotomeeting.co=
+m/register/137139442">Provide a details of S3</a> - 5:00 PM</li>
+<li class=3D"litight">September 28 - <a href=3D"https://www2.gotomeeting.co=
+m/register/521274666">Amazon Simple Email Service 101</a> - 9:00 AM PDT</li=
+>
+</ul>
+<p>Talks:</p>
+<ul>
+<li class=3D"litight">September 7 - <a href=3D"http://cedec.cesa.or.jp/2011=
+/program/SP/C11_D0002.html">How has Amazon engaged in the earthquake disast=
+er reconstruction assistance?</a> - Hiromi Watanabe (Amazon.co.jp) &amp; Hi=
+deki Ojima - (PACIFICO YOKOHAMA Conference Center)</li>
+<li class=3D"litight">September 7 - <a href=3D"http://kokucheese.com/event/=
+index/14524/">What&#39;s AWS? Let&#39;s start from scratch!</a> - Ken Tamag=
+awa - (Amazon Japan Shibuya Office 7F)</li>
+<li class=3D"litight">September 8 - <a href=3D"http://cedec.cesa.or.jp/2011=
+/program/NW/C11_PR0025.html">Why social games are hosted by Cloud?</a> - Ke=
+n Tamagawa - (PACIFICO YOKOHAMA Conference Center)</li>
+<li class=3D"litight">September 8 - <a href=3D"http://cedec.cesa.or.jp/2011=
+/program/NW/C11_PR0028.html">Characteristics and practical use of Amazon Cl=
+oud (Amazon Web Services) for Game Developer and Operators.</a> - Hideki Oj=
+ima &amp; Yasuhiro Araki - (PACIFICO YOKOHAMA Conference Center)</li>
+<li class=3D"litight">September 8 - <a href=3D"http://www.pasonatech.co.jp/=
+event/index.jsp?mode=3D2&amp;d=3Don&amp;no=3D3123">In terms of the database=
+, how do we think about the cloud &amp; its future?</a> - Ken Tamagawa - (P=
+asona Hall)</li>
+<li class=3D"litight">September 13 - <a href=3D"https://community.accelrys.=
+com/groups/it-dev/blog/2011/07/18/accelrys-tech-summit-2-its-official">Amaz=
+on Web Services</a> - Jeff Barr - (Accelrys Tech Summit)</li>
+<li class=3D"litight">September 13 - <a href=3D"http://crv.com">CRV Enterpr=
+ise Summit</a> - Jinesh Varia - (CRV Office)</li>
+<li class=3D"litight">September 14 - <a href=3D"http://www.ta-c.co.jp/semin=
+ar0914.html">How to operate the business system on cloud</a> - Hideki Ojima=
+ - (Toyo Engineering Presentation Room)</li>
+<li class=3D"litight">September 14 - The latest information about AWS - Ken=
+ Tamagawa - (Nishitetsu Grand Hotel)</li>
+<li class=3D"litight">September 15 - Introduce AWS with technology demonstr=
+ation - Ken Tamagawa - (Aoyama Diamond Hall)</li>
+<li class=3D"litight">September 17 - <a href=3D"http://techgate.cloudapp.ne=
+t/">AWS Programming With PHP</a> - Jeff Barr - (TechGate)</li>
+<li class=3D"litight">September 17 - <a href=3D"http://techgate.cloudapp.ne=
+t/">Introduction to the Amazon Web Services</a> - Jeff Barr - (TechGate)</l=
+i>
+<li class=3D"litight">September 19 - <a href=3D"http://www.bio-itcloudsummi=
+t.com/">Cloud Computing - How We Got Here, Where We Are, and Where We Are H=
+eading</a> - Jeff Barr - (Bio-IT Cloud Summit)</li>
+<li class=3D"litight">September 22 - <a href=3D"http://www.sdcloudcomputing=
+.com/">Cloud Computing - How We Got Here, Where We Are, and Where We Are He=
+ading</a> - Jeff Barr - (San Diego Cloud Computing Conference)</li>
+</ul>
+<p>Conferences:</p>
+<ul>
+<li class=3D"litight">September 6-8 - <a href=3D"http://cedec.cesa.or.jp/20=
+11/en/index.html">CEDEC 2011 (Computer Entertainment Developers Conference =
+2011)</a> - Yokohama, Japan (PACIFICO YOKOHAMA Conference Center)</li>
+<li class=3D"litight">September 14 - <a href=3D"http://aws.amazon.com/govcl=
+oud-for-the-government-event/">Introducing AWS GovCloud (US)</a> - Herndon,=
+ Virginia (AWS Office)</li>
+<li class=3D"litight">September 15 - <a href=3D"http://www.event-web.net/cf=
+2011/index.html">COMPANY Forum 2011</a> - Tokyo, Japan (ANA Intercontinenta=
+l Tokyo)</li>
+<li class=3D"litight">September 19-22 - <a href=3D"http://aws.amazon.com/am=
+azon-web-services-university/training-classroom/">Building a Web Applicatio=
+n on AWS</a> - Seattle, Washington (Amazon Campus)</li>
+<li class=3D"litight">September 21 - <a href=3D"http://aws.amazon.com/about=
+-aws/aws-building-blocks-for-startups-helsinki/">AWS Building Blocks for St=
+artups, Helsinki</a> - Helsinki, Finland (Helsinki Exhibition &amp; Convent=
+ion Centre, Holiday Inn Hotel Entrance, Messuaukio 1, 00520 Helsinki,)</li>
+<li class=3D"litight">September 23-24 - <a href=3D"http://wwww.puppetconf.c=
+om">PuppetConf</a> - Portland, OR (Portland Center of Performing arts)</li>
+<li class=3D"litight">September 26 - <a href=3D"http://aws.amazon.com/about=
+-aws/aws-cloud-introduction/">Introduction to AWS Cloud</a> - London, UK (C=
+ongress Centre, 28 Great Russell Street, London, WC1B 3LS)</li>
+<li class=3D"litight">September 27 - <a href=3D"http://aws.amazon.com/about=
+-aws/aws-start-up-masterclass-london/">Start-Up Masterclass - London</a> - =
+London, UK (London and Partners, 2 More London Riverside, London, SE1 2RR)<=
+/li>
+</ul>
+<p>User Groups:</p>
+<ul>
+<li class=3D"litight">September 2 - <a href=3D"http://atnd.org/events/18810=
+">JAWS-UG Cloud Girls Meeting</a> - Hideki Ojima - Tokyo, Japan (Shinjuku M=
+AYNDS Tower)</li>
+<li class=3D"litight">September 7 - <a href=3D"http://www.meetup.com/AWS-Us=
+er-Group-North/">AWS UK North AWS User Group</a> -  - Manchester, UK </li>
+<li class=3D"litight">September 13 - <a href=3D"http://kokucheese.com/event=
+/index/16141/">JAWS-UG Fukuoka</a> - Ken Tamagawa - Fukuoka, Japan (Fukuoka=
+ Ruby Content Industry Promotion Center)</li>
+<li class=3D"litight">September 14 - <a href=3D"http://www.meetup.com/AWSne=
+wyork/events/30697081/" target=3D"_blank">AWS User Group, NYC</a> -&#0160;A=
+mazon Elastic MapReduce featuring a discussion with Foursquare &amp; Didit<=
+/li>
+<li class=3D"litight">September 16 - <a href=3D"http://kokucheese.com/event=
+/index/15918/">JAWS-UG Miyazaki</a> - Ken Tamagawa - Miyazaki, Japan (Pall =
+Star Bldg.)</li>
+<li class=3D"litight">September 17 - <a href=3D"http://www.zusaar.com/event=
+/agZ6dXNhYXJyDQsSBUV2ZW50GNetBgw">JAWS-UG Kagoshima</a> - Ken Tamagawa - Ka=
+goshima, Japan (Kagoshima Kenmin Center)</li>
+</ul><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3D4zoLWh=
+aV0tU:-EK7ER6RkOQ:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3D4zoLWhaV0tU:-EK7ER=
+6RkOQ:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3D4zoLWhaV0tU:-EK7ER6RkOQ:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/4=
+zoLWhaV0tU?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--20cf307f3518e266a604ac957c3b--

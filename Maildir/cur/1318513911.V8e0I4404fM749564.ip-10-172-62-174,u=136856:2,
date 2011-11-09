@@ -1,0 +1,326 @@
+Return-Path: <esupport@google.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from smtp-out.google.com (smtp-out.google.com [74.125.121.67])
+	by ns1 (Postfix) with ESMTP id 36736889DB
+	for <support@doap.com>; Thu, 13 Oct 2011 06:51:51 -0700 (PDT)
+Received: from hpaq3.eem.corp.google.com (hpaq3.eem.corp.google.com [172.25.149.3])
+	by smtp-out.google.com with ESMTP id p9DDpn3T031144
+	for <support@doap.com>; Thu, 13 Oct 2011 06:51:49 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=google.com; s=beta;
+	t=1318513910; bh=2LPuCSWSzdblNgPz9Imd1B5SpQE=;
+	h=Date:From:To:Cc:Message-ID:Subject:MIME-Version:Content-Type:
+	 Content-Transfer-Encoding;
+	b=CCkjbQF0FOshT1u/MQ2D3qtc80Gm/OuwjZcCZQRI62xOSwmXrgYJW4lCGGGncPwRX
+	 yNNKhwCD84qD2rTrdgX9A==
+DomainKey-Signature: a=rsa-sha1; s=beta; d=google.com; c=nofws; q=dns;
+	h=dkim-signature:x-sfdc-interface:date:from:to:cc:message-id:
+	subject:mime-version:content-type:
+	content-transfer-encoding:x-sfdc-lk:x-sfdc-user:x-sender:
+	x-mail_abuse_inquiries:x-sfdcorgrelay:x-sfdcrelayaddr:x-sfdcrelayport:x-sfdctls:
+	x-sfdc-tls-norelay:x-sfdc-binding;
+	b=Qq7ealZy6CXV5sLP0mXIlGW8cXZlO0QtmoadrHG6InjPkMaRy4nyzpqIwuCknNnfT
+	dZVNjqqBS/xV9AufZvvlg==
+Received: from gyd10 (gyd10.prod.google.com [10.243.49.202])
+	by hpaq3.eem.corp.google.com with ESMTP id p9DDjJ0c004390
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=NOT)
+	for <support@doap.com>; Thu, 13 Oct 2011 06:51:48 -0700
+Received: by gyd10 with SMTP id 10so1815gyd.0
+        for <support@doap.com>; Thu, 13 Oct 2011 06:51:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-sfdc-interface:date:from:to:cc:message-id:subject:mime-version
+         :content-type:content-transfer-encoding:x-sfdc-lk:x-sfdc-user
+         :x-sender:x-mail_abuse_inquiries:x-sfdcorgrelay:x-sfdcrelayaddr
+         :x-sfdcrelayport:x-sfdctls:x-sfdc-tls-norelay:x-sfdc-binding;
+        bh=WlvukCHpxSLhQCKy6QXJk0gehgirmC08dxfXPltTxiE=;
+        b=SA/qgqR+HhEREGV0eoRej+XSiegVjapC+yv/Ou5OVg7LKXj2PpA7IVixO2uWJR5A1U
+         7g0J7EcRHViJzTdM+7RQ==
+Received: by 10.52.240.204 with SMTP id wc12mr2836495vdc.2.1318513908006;
+        Thu, 13 Oct 2011 06:51:48 -0700 (PDT)
+Received: by 10.52.240.204 with SMTP id wc12mr2836489vdc.2.1318513907964;
+        Thu, 13 Oct 2011 06:51:47 -0700 (PDT)
+Received: from smtp02-asg.mta.salesforce.com (smtp02-asg.mta.salesforce.com. [204.14.232.65])
+        by gmr-mx.google.com with ESMTP id dz6si1436065vdb.0.2011.10.13.06.51.47;
+        Thu, 13 Oct 2011 06:51:47 -0700 (PDT)
+X-SFDC-Interface: internal
+Received: from [10.228.94.9] ([10.228.94.9:54910] helo=na4-app1-8-asg.ops.sfdc.net)
+	by mx1-asg.mta.salesforce.com (envelope-from <esupport@google.com>)
+	(ecelerity 2.2.2.45 r()) with ESMTP
+	id AB/81-02831-3FCE69E4; Thu, 13 Oct 2011 13:51:47 +0000
+Received: from  [92.51.192.66] by na4.salesforce.com via HTTP; Thu, 13 Oct 2011 06:51:47 -0700
+Date: Thu, 13 Oct 2011 13:51:47 +0000 (GMT)
+From: CianM <esupport@google.com>
+To: "dmenache@thehvac.net" <dmenache@thehvac.net>
+Cc: "support@doap.com" <support@doap.com>
+Message-ID: <522771206.62943.1318513907685.JavaMail.sfdc@na4-app1-8-asg.ops.sfdc.net>
+Subject: RE: Re: [#01649427] Added an email addresses and now cant access
+ superuser panel [ ref:00D0VNwG.    [ ref:00D0VNwG.5006FIO0G:ref ]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-SFDC-LK: 00D00000000VNwG
+X-SFDC-User: 00560000001bLX9
+X-Sender: postmaster@salesforce.com
+X-mail_abuse_inquiries: http://www.salesforce.com/company/abuse.jsp
+X-SFDCOrgRelay: 00D00000000VNwG
+X-SFDCRelayAddr: gmr-smtp-in.l.google.com
+X-SFDCRelayPort: 25
+X-SFDCTLS: 0
+X-SFDC-TLS-NoRelay: 1
+X-SFDC-Binding: 1WrIRBV94myi25uB
+
+Hello David,
+
+I am delighted to hear that your issue has been resolved, I will now go ahead and close the case. You will receive a customer feedback form in the coming days and I would hugely appreciate it if you could fill this out and send it back.
+
+Thank you for your continuing support,
+
+
+Sincerely,
+
+CianOM
+Enterprise Support 
+
+--------------- Original Message ---------------
+From: David Menache [dmenache@thehvac.net]
+Sent: 10/13/2011 2:03 PM
+To: esupport@google.com
+Cc: support@doap.com
+Subject: Re: [#01649427] Added an email addresses and now cant access superuser panel [ ref:00D0VNwG.    [ ref:00D0VNwG.5006FIO0G:ref ]
+
+I'm in!   Thank you for your time and effort!   
+It is hugely appreciated!
+
+dave
+
+On Oct 13, 2011, at 2:27 AM, CianM wrote:
+
+> Hello David,
+> 
+> I have investigated the matter of the disabled account and found that the account jobs@myworldtransfers.com was suspended for abuse. I have now gone ahead and reset the password for the following account and given them admin privilages :
+> 
+> dave@myworldtransfers.com     temporary password - 3Z4y>4NK
+> 
+> Please respond to this mail and advise me as to whether the solution I have provided works.
+> 
+> I look forward to hearing from you soon,
+> 
+> 
+> Sincerely,
+> 
+> CianOM
+> Enterprise Support
+> 
+> --------------- Original Message ---------------
+> From: David Menache [dmenache@thehvac.net]
+> Sent: 10/12/2011 5:05 PM
+> To: esupport@google.com
+> Subject: Re: [#01649427] Added an email addresses and now cant access superuser panel [ ref:00D0VNwG.    [ ref:00D0VNwG.5006FIO0G:ref ]
+> 
+> could you 'un-disable' that jobs account?
+> On Oct 12, 2011, at 9:57 AM, CianM wrote:
+> 
+>> Hello David,
+>> 
+>> Thank you again for your quick response with the information I asked for. I have gone ahead and reset the password for the following user :
+>> jobs@myworldtransfers.com - Your temporary password is 5j>ab8E>
+>> You should now be able to access the Control Panel with this user.
+>> 
+>> Also I would just like to advise you that you cannot make a secondary domain your primary domain. Your only option for a new primary domain is to create a new account and migrate your data to the new account.
+>> 
+>> Please respond to this mail and advise me as to whether the solution I have provided works. Should you require further assistance with this matter, please do not hesitate to get back in contact with me and I will be delighted to assist.
+>> 
+>> I look forward to hearing from you soon.
+>> 
+>> 
+>> Sincerely,
+>> 
+>> CianOM
+>> Enterprise Support
+>> 
+>> --------------- Original Message ---------------
+>> From: David Menache [dave@doap.com]
+>> Sent: 10/12/2011 4:20 PM
+>> To: esupport@google.com
+>> Subject: Re: Re: [#01649427] Added an email addresses and now cant access superuser panel [ ref:00D0VNwG.5006 [ ref:00D0VNwG.5006FIO0G:ref ]
+>> 
+>> that would be great!  I've added a CNAME
+>> 
+>> nslookup 21779401.myworldtransfers.com
+>> Server:        50.18.110.179
+>> Address:    50.18.110.179#53
+>> 
+>> Non-authoritative answer:
+>> 21779401.myworldtransfers.com    canonical name = ghs.google.com.
+>> ghs.google.com    canonical name = ghs.l.google.com.
+>> Name:    ghs.l.google.com
+>> Address: 74.125.127.121
+>> 
+>> Hopefully that proves i'm me!
+>> 
+>> THank you!!!!!
+>> David Menache
+>> 
+>> On Wed, Oct 12, 2011 at 9:10 AM, CianM <esupport@google.com> wrote:
+>> 
+>>> Hello David,
+>>> 
+>>> Thank you for your reply. After investigating this issue further I can see
+>>> that you do have users on your myworldtransfers.com account. As you
+>>> suggested, you can use dmenache@doap.com as a user but just to advise
+>>> David that this user is set-up to your secondary account and therefore you
+>>> will not be able to access the Control Panel.
+>>> 
+>>> What I would suggest is that I provide you with access to an existing user
+>>> Account with a myworldtransfer.com address which will allow you to access
+>>> the Control Panel, but in order for me to do this I must firstly ask you to
+>>> verify that your are the owner of the domain. You can verify this by doing
+>>> either of the following :
+>>> 
+>>> Verification Option #1: Create a special CNAME record
+>>> 1. Create the following CNAME record for your domain through your domain
+>>> hosting provider:[ticket number found in the subject of the email from
+>>> Google] points to ghs.google.com
+>>> *Example: 21779401 points to ghs.google.com*
+>>> 2. If your domain host is separate from your domain registrar, make sure
+>>> you're modifying the CNAME record with your domain host. For help creating
+>>> this CNAME record, follow the CNAME instructions at
+>>> http://www.google.com/support/a/bin/answer.py?hl=en&answer=47283
+>>> 
+>>> Verification Option #2: Upload a special HTML file
+>>> 1. Create an HTML file and name it gafyd.html.
+>>> 2. Enter the following characters anywhere in the HTML file: [ticket number
+>>> found in the subject of the email from Google. *Example: 21779401*
+>>> 3. Save and upload this HTML file to your website. Be sure to upload the
+>>> file to your root directory.
+>>> 4. Check http://your-domain.com/gafyd.html to make sure the file was
+>>> uploaded properly.
+>>> Note: Your extension may vary (e.g. .com, .net, .org). Be sure to replace '
+>>> your_domain.com' with your actual domain name.
+>>> 
+>>> Once you've completed one of the verification options, reply to this
+>>> message and I'll be happy to assist you further.
+>>> 
+>>> 
+>>> Sincerely,
+>>> 
+>>> CianOM
+>>> Enterprise Support
+>>> 
+>>> --------------- Original Message ---------------
+>>> From: David Menache [dave@doap.com]
+>>> Sent: 10/12/2011 3:01 PM
+>>> To: esupport@google.com
+>>> Subject: Re: [#01649427] Added an email addresses and now cant access
+>>> superuser panel [ ref:00D0VNwG.5006FIO0G:ref ]
+>>> 
+>>> dmenache@myworldtransfers.com was the admin account so that is the big
+>>> problem.  even though those other new doap.com sub-accounts were granted
+>>> superuser access, they cant administer so how to regain admin access to the
+>>> domain?
+>>> 
+>>> thx
+>>> 
+>>> On Wed, Oct 12, 2011 at 7:22 AM, CianM <esupport@google.com> wrote:
+>>> 
+>>>> Hello David ,
+>>>> 
+>>>> Thank you for your message. My name is Cian and I will be assisting you
+>>>> with your issue today. It is my understanding that you are trying to
+>>> access
+>>>> the Control Panel for the domain doap.com. Unfortunately because this
+>>>> domain is set up as a secondary domain it is expected behaviour that you
+>>>> would not be able to access the Control Panel for this, as secondary
+>>> domains
+>>>> are controlled by the primary.
+>>>> 
+>>>> To confirm David, myworldtransfers.com is set-up as your primary domain
+>>>> and doap.com  is set-up as your secondary domain. This means that
+>>> doap.cominherits the settings from that are configured for your primary
+>>> domain. I
+>>>> hope the information that I have provided helps you with your issue. If
+>>> you
+>>>> have any other queries regarding this case please do not hesitate to
+>>> contact
+>>>> me again.
+>>>> 
+>>>> 
+>>>> Sincerely,
+>>>> 
+>>>> CianM
+>>>> Enterprise Support
+>>>> 
+>>>> ------
+>>>> Check out 'whatsnew.googleapps.com' for up-to-date launches and product
+>>>> improvements.
+>>>> 
+>>>> Learn more about the life of a support case at http://goo.gl/xbJq
+>>>> 
+>>>> Get timely updates on new features in Google Apps by subscribing to our
+>>>> feed at
+>>>> http://feeds.feedburner.com/GoogleAppsUpdates or email alerts at
+>>>> http://www.google.com/apps/admin-updates
+>>>> ------
+>>>> 
+>>>> 
+>>>> ____________________________________________________
+>>>> Case:  #01649427
+>>>> Subject:  Added an email addresses and now cant access superuser panel
+>>>> ref:00D0VNwG.5006FIO0G:ref
+>>>> I had dmenache@myworldtransfers.com and added  dave@doap.com while
+>>> adding
+>>>> the doap.com domain name as well and switching mx records for doap.comand
+>>>> gettting all setup.   i even made dave@doap.com a superadmin but cant
+>>> seem
+>>>> to get at the admin panels to adminster the domains and users and groups
+>>> and
+>>>> add apps  to my org and of course my websites!  Anyhow, the best case
+>>> would
+>>>> be dave@doap.com was my primary email for administering doap.com and
+>>>> myworldtransfers.com and was somehow re-associated with my currently
+>>>> inaccessible dmenache@myworldtransfers.com admin account and to have
+>>>> superadmin priveledges once again.  this is scary!  i've had that account
+>>>> forever!
+>>>> Thank you in advance!
+>>>> 
+>>>> dave@doap.com and backup dmenache@hotmail.com
+>>>> thanks
+>>>> 
+>>>> 
+>>>> 
+>>> 
+>>> 
+>>> --
+>>> David Menache
+>>> dave@doap.com
+>>> <Dave@doap.com>http://doap.com
+>>> .-.
+>>> : :
+>>> .-' : .--.  .--.  .---.    .--.  .--. ,-.,-.,-.
+>>> ' .; :' .; :' .; ; : .; ` _'  ..'' .; :: ,. ,. :
+>>> `.__.'`.__.'`.__,_;: ._.':_;`.__.'`.__.':_;:_;:_;
+>>>                 : :
+>>>                 :_;
+>>> 
+>>> 
+>>> 
+>> 
+>> 
+>> -- 
+>> David Menache
+>> dave@doap.com
+>> <Dave@doap.com>http://doap.com
+>>  .-.
+>>  : :
+>> .-' : .--.  .--.  .---.    .--.  .--. ,-.,-.,-.
+>> ' .; :' .; :' .; ; : .; ` _'  ..'' .; :: ,. ,. :
+>> `.__.'`.__.'`.__,_;: ._.':_;`.__.'`.__.':_;:_;:_;
+>>                  : :
+>>                  :_;
+>> 
+>> 
+> 
+>
+
+

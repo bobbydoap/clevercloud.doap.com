@@ -1,0 +1,22 @@
+Return-Path: <dave@doap.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from s3.ipwalk.com (s3.ipwalk.com [212.247.189.13])
+	by ns1 (Postfix) with SMTP id 584E788857
+	for <support@doap.com>; Fri, 14 Oct 2011 07:20:20 -0700 (PDT)
+Received: (qmail 42699 invoked from network); 14 Oct 2011 14:20:18 -0000
+Received: from unknown (HELO pingdom-vm-03) (tools@pingdom.com@83.140.19.25)
+  by s3.ipwalk.com with SMTP; 14 Oct 2011 14:20:18 -0000
+MIME-Version: 1.0
+From: dave@doap.com
+To: support@doap.com
+Date: 14 Oct 2011 16:23:02 +0200
+Subject: Pingdom Tools load time test
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Hi,=0AI just used Pingdom Tools to test: http://www.doap.com/=0A=0AYou can=
+ see the load time, size and other information regarding this URL and all=
+ objects linked to it.=0A=0AView the saved test:=0Ahttp://tools.pingdom.com/fpt/?url=3Dhttp://www.doap.com//&id=3D5994113=
+=0A=0AOr perform your own free test at:=0Ahttp://tools.pingdom.com/fpt/
+

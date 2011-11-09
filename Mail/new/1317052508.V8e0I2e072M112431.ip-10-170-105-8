@@ -1,0 +1,30 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from outmail137092.authsmtp.com (outmail137092.authsmtp.com [62.13.137.92])
+	by ns1 (Postfix) with ESMTP id BFC3F88890
+	for <support@doap.com>; Mon, 26 Sep 2011 08:55:07 -0700 (PDT)
+Received: from mail-c193.authsmtp.com (mail-c193.authsmtp.com [62.13.128.118])
+	by punt12.authsmtp.com (8.14.2/8.14.2/Kp) with ESMTP id p8QFt6dq072294
+	for <support@doap.com>; Mon, 26 Sep 2011 16:55:06 +0100 (BST)
+Received: from [192.168.137.221] (WiMax160-105.yota.com.ni [190.181.160.105] (may be forged))
+	(authenticated bits=0)
+	by mail.authsmtp.com (8.14.2/8.14.2) with ESMTP id p8QFt3j3020344
+	for <support@doap.com>; Mon, 26 Sep 2011 16:55:04 +0100 (BST)
+From: David Menache <dmenache@thehvac.net>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Subject: issues again
+Date: Mon, 26 Sep 2011 09:55:01 -0600
+Message-Id: <A35791EF-02C2-49A7-961D-5F6F44940766@thehvac.net>
+To: "Doap.com Tech Team" <support@doap.com>
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+X-Mailer: Apple Mail (2.1244.3)
+X-Server-Quench: e6e20a58-e857-11e0-97bb-002264978518
+X-AuthReport-Spam: If SPAM / abuse - report it at: http://www.authsmtp.com/abuse
+X-AuthRoute: OCd2aAodClZZSQkc AygEAQdcSQglOBRH RxkOMR1BPUIRUh5N GkpdJ0IVO1oZUwsH HAVeG0tWUFxwSWJz YQ9UZwVYLEtHXxtr WElXQ1RSCgRoBAMD AwEeHFl6FnMCeyRz ZURiXXRfEkdydQgo RBtWFTwDbXo1YGUY TUFZIgNJeQQYLAJF alJ9UncEZm0CZ3Iu HhQoIj0qdTxQISVT KgAA
+X-Authentic-SMTP: 61633538323839.1014:706
+X-AuthFastPath: 0 (Was 255)
+X-AuthVirus-Status: No virus detected - but ensure you scan with your own anti-virus system.
+
+ignore me

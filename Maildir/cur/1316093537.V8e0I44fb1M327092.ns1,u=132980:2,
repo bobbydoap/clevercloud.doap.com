@@ -1,0 +1,415 @@
+Return-Path: <dave@doap.com>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from [192.168.137.12] (unknown [190.181.160.105])
+	(Authenticated sender: dave)
+	by ns1 (Postfix) with ESMTPA id D10E88875C
+	for <sales@doap.com>; Thu, 15 Sep 2011 06:32:15 -0700 (PDT)
+Subject: Fwd: The Latest from Amazon Web Services Blog
+References: <90e6ba6e8bccaed87b04acf9cff7@google.com>
+From: David Menache <dave@doap.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-4-632703792
+X-Mailer: iPad Mail (8C148)
+Message-Id: <B5A2512B-1E3C-4772-A742-01D10AF65788@doap.com>
+Date: Thu, 15 Sep 2011 07:53:53 -0600
+To: Doap Sales <sales@doap.com>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (iPad Mail 8C148)
+
+
+--Apple-Mail-4-632703792
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Holy shit these guys are doing  something very similar to our idea!  I think=
+ it validates Doap.com!!
+
+David Menache
+dave@doap.com
+Skype:dmenache
+805-426-5216
+
+
+Begin forwarded message:
+
+> From: Amazon Web Services Blog <awseditor@amazon.com>
+> Date: September 15, 2011 6:14:04 AM CST
+> To: Tech@thehvac.net
+> Subject: The Latest from Amazon Web Services Blog
+>=20
+
+> The Latest from Amazon Web Services Blog=20
+> =20
+> AWS Summer Startups: Classle
+> Posted: 14 Sep 2011 01:01 PM PDT
+>=20
+> Over the summer months, we'd like to share a few stories from startups aro=
+und the world: what are they working on and how they are using the cloud to g=
+et things done. Today, we're profiling Classle, from Chennai, India!
+>=20
+>=20
+>=20
+> I recently read Mark Suster=E2=80=99s blog on Avoiding Monoculture - which=
+ is why I=E2=80=99m happy to share with you what I=E2=80=99ve learned about C=
+lassle, a  startup from India, focused on solving education problems for are=
+as of the world that experience serious resource constraints. Classle has th=
+e big goal of changing the world around them by encouraging students and exp=
+erts to share knowledge and expertise, and using the AWS cloud to facilitate=
+ this exchange.=20
+>=20
+> I reached out to Vaidya Nathan, Founder and CEO of Classle:
+>=20
+> About Classle
+> Classle is a Social Learning infrastructure company with specific focus on=
+ Education, Learning and Knowledge communities. Using the main Classle produ=
+ct, Cloud Campus platform, Classle creates and manages private and public so=
+cial learning environments and offers services based on it.
+>=20
+>=20
+> Classle helps rural students access higher education and reach opportuniti=
+es unavailable before. Our company partners with a wide network of colleges t=
+hroughout India, which act as internet-connected "learning nodes" that distr=
+ibute educational materials to students. When the student goes home for the d=
+ay with their downloaded lectures and other materials from the library, Clas=
+sle makes use of mobile technology and SMS-based quizzes to keep students en=
+gaged and actively learning. The entire system was designed to work with sim=
+ple, $10 phones, not smartphones, and the students are entirely addicted to t=
+hese quizzes - they can=E2=80=99t get enough of them.
+>=20
+> All these services are provided free of charge to both students and colleg=
+es. Classle monetizes by partnering with companies who are looking to hire t=
+op talent from among the students, and by selling their cloud-based learning=
+ platform for training purposes within companies.
+>=20
+> Starting Small and Growing with Business
+> We are using AWS since our inception in early 2009. Our first steps involv=
+ed two small Amazon EC2 instances and Amazon EBS to store our database. Over=
+ the years, our use has expanded to match our business growth. Our selection=
+ criteria covered tactical as well as strategic points. =46rom a tactical pe=
+rspective, we wanted a quicker time for provisioning, which AWS on-demand in=
+stances enabled, and the option to secure our resource needs through Reserve=
+d Instances.
+>=20
+> At a strategic level, we wanted to provide the best experience for our cus=
+tomers and it was key to build Classle on top of services, products, and inf=
+rastructure designed for growth and scale. To date, we have established rela=
+tionships with over 30 educational organizations and that list is constantly=
+ growing. Thanks to AWS, we are effectively competing with some large and st=
+rong players in the e-learning space.
+>=20
+> Sharing the AWS Lessons:
+>=20
+> We are a small, LAMP stack team and we started using AWS in 2009. Currentl=
+y, the products we are using are below. For reference, we are also happy to s=
+hare our Classle architecture diagram, which is included in our case study w=
+ith AWS.
+>=20
+> Amazon Elastic Compute Cloud (EC2)
+> Elastic Load Balancing (ELB)
+> AutoscalingAmazon Elastic Bock Storage (EBS)
+> Amazon Simple Storage Service (S3)
+> Amazon Reduced Redundancy Storage (RRS)
+> Amazon CloudFront with both streaming and download
+> Amazon Cloud Watch
+> Amazon Relational Database Service (Amazon RDS) with Multi-AZ and Read rep=
+lication.
+> Amazon SimpleDB
+> Amazon Simple Notification Service (Amazon SNS)
+> Amazon Route 53
+> Pretty soon, we would be using Amazon Elastic Map-Reduce clusters for our a=
+nalytics requirements..
+>=20
+> Words of Wisdom to Startups
+>=20
+> Starting a company is always hard, whether you=E2=80=99re from India or an=
+ywhere else. However, it=E2=80=99s worth to keep in mind that it=E2=80=99s n=
+ever been easier to go out there and try things out -  with Open Source for r=
+obust software and cloud service providers like AWS for infrastructure, you c=
+an test your ideas and run a business at very low cost.
+>=20
+> Being from in India, where we don=E2=80=99t have a strong start-up mentali=
+ty like in the U.S., certainly poses some unique challenges. There are many m=
+ore problems to solve, and it is exciting to try and translate the existing l=
+imitations into innovations, solutions and hence opportunities.
+>=20
+> If I had to boil down my advice, I would say to my fellow entrepreneurs to=
+: venture with confidence, design for scale, start small & architect for gro=
+wth.
+>=20
+> ------------------------------------------------------
+>=20
+> Enter Your Startup in the AWS Start-up Challenge!
+> This year's AWS Start-up Challenge is a worldwide competition with prizes a=
+t all levels, including up to $100,000 in cash, AWS credits, and more for th=
+e grand prize winner. Learn more and enter today!
+>=20
+> You can also follow @AWSStartups on Twitter for updates.
+>=20
+>  -rodica
+>=20
+>  =20
+>=20
+> You are subscribed to email updates from Amazon Web Services Blog=20
+> To stop receiving these emails, you may unsubscribe now.	Email deliv=
+ery powered by Google
+> Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+--Apple-Mail-4-632703792
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><body bgcolor=3D"#FFFFFF"><div>Holy shit these guys are doing &nbsp;so=
+mething very similar to our idea! &nbsp;I think it validates <a href=3D"http=
+://Doap.com">Doap.com</a>!!<br><br><div><div>David Menache</div><div><a href=
+=3D"mailto:dave@doap.com">dave@doap.com</a></div><div>Skype:dmenache</div><d=
+iv>805-426-5216</div><div><div><br></div></div></div></div><div><br>Begin fo=
+rwarded message:<br><br></div><blockquote type=3D"cite"><div><b>From:</b> Am=
+azon Web Services Blog &lt;<a href=3D"mailto:awseditor@amazon.com">awseditor=
+@amazon.com</a>&gt;<br><b>Date:</b> September 15, 2011 6:14:04 AM CST<br><b>=
+To:</b> <a href=3D"mailto:Tech@thehvac.net"><a href=3D"mailto:Tech@thehvac.n=
+et">Tech@thehvac.net</a></a><br><b>Subject:</b> <b>The Latest from Amazon We=
+b Services Blog</b><br><br></div></blockquote><div></div><blockquote type=3D=
+"cite"><div>
+
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impor=
+tant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div blockq=
+uote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconten=
+tlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylist l=
+i a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margin=
+:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;font-=
+size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tbody><tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-ser=
+if;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.com/=
+aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web Ser=
+vices Blog</a>
+<br>
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://f=
+eeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules.=
+com/ig/images/plus_google.gif">
+</a>
+</h1>
+</td>
+<td width=3D"1%">
+</td></tr>
+</tbody></table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0">
+<table id=3D"itemcontentlist">
+<tbody><tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:18=
+px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/pVX52oG=
+LHJY/aws-summer-startups-classle.html?utm_source=3Dfeedburner&amp;utm_medium=
+=3Demail">AWS Summer Startups: Classle</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgia=
+,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 14 Sep 2011 01:01 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-h=
+eight:140%;font-size:13px;color:#000000;"><div>
+<div style=3D"padding-left: 30px;"><a href=3D"http://aws.amazon.com/startupc=
+hallenge/?utm_source=3Dawsblog&amp;utm_medium=3Dbanner&amp;utm_campaign=3DSM=
+_awsblog_summerstartup_title&amp;trk=3DSM_awsblog_ summerstartup" target=3D"=
+_blank"><img alt=3D"" src=3D"http://aws.typepad.com/.a/6a00d8341c534853ef015=
+4335da1f3970c-800wi" style=3D"display: block; margin-left: auto; margin-righ=
+t: auto;"></a></div>
+<p>Over the summer months, we'd like to share a few stories from startups ar=
+ound the world: what are they working on and how they are using the cloud to=
+ get things done. Today, we're profiling <a href=3D"http://www.classle.net/"=
+ target=3D"_blank">Classle</a>, from Chennai, India!</p>
+<a href=3D"http://www.classle.net/" target=3D"_blank"><img alt=3D"Classle te=
+am" src=3D"http://awsmedia.s3.amazonaws.com/aws-sc2011/Classle Team-v2.jpg" s=
+tyle=3D"display: block; margin-left: auto; margin-right: auto;"></a></div>
+<div><em><br></em></div>
+<p>I recently read&nbsp;<a href=3D"http://www.bothsidesofthetable.com/2011/0=
+8/25/avoid-monoculture-travel-read-widely-let-experience-be-your-compass/" t=
+arget=3D"_blank">Mark Suster=E2=80=99s blog on Avoiding Monoculture</a>&nbsp=
+;- which is why I=E2=80=99m happy to share with you what I=E2=80=99ve learne=
+d about Classle, a &nbsp;startup from India, focused on solving education pr=
+oblems for areas of the world that experience serious resource constraints. C=
+lassle has the big goal of changing the world around them by encouraging stu=
+dents and experts to share knowledge and expertise, and using the AWS cloud t=
+o facilitate this exchange.&nbsp;</p>
+<p>I reached out to <strong>Vaidya Nathan, Founder and CEO of Classle</stron=
+g>:</p>
+<div><strong>
+<div style=3D"display: inline !important;">About <a href=3D"http://www.class=
+le.net/" target=3D"_blank">Classle</a></div>
+</strong></div>
+<p dir=3D"ltr"><a href=3D"http://www.classle.net/" target=3D"_blank">Classle=
+ </a>is a Social Learning infrastructure company with specific focus on Educ=
+ation, Learning and Knowledge communities. Using the main Classle product, C=
+loud Campus platform, Classle creates and manages private and public social l=
+earning environments and offers services based on it.</p>
+<div style=3D"padding-left: 30px;"><br><em><a href=3D"http://www.classle.net=
+/" target=3D"_blank">Classle </a>helps rural students access higher educatio=
+n and reach opportunities unavailable before. Our company partners with a wi=
+de network of colleges throughout India, which act as internet-connected "le=
+arning nodes" that distribute educational materials to students. When the st=
+udent goes home for the day with their downloaded lectures and other materia=
+ls from the library, Classle makes use of mobile technology and SMS-based qu=
+izzes to keep students engaged and actively learning. The entire system was d=
+esigned to work with simple, $10 phones, not smartphones, and the students a=
+re entirely addicted to these quizzes - they can=E2=80=99t get enough of the=
+m.</em></div>
+<div style=3D"padding-left: 30px;"><br><em>All these services are provided f=
+ree of charge to both students and colleges. <a href=3D"http://www.classle.n=
+et/" target=3D"_blank">Classle </a>monetizes by partnering with companies wh=
+o are looking to hire top talent from among the students, and by selling the=
+ir cloud-based learning platform for training purposes within companies.</em=
+></div>
+<div style=3D"padding-left: 30px;"><em><br></em></div>
+<div><strong>Starting Small and Growing with Business</strong></div>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>We are using AWS since our i=
+nception in early 2009. Our first steps involved two small <a href=3D"http:/=
+/aws.amazon.com/ec2/" target=3D"_blank">Amazon EC2</a> instances and <a href=
+=3D"http://aws.amazon.com/ebs/" target=3D"_blank">Amazon EBS</a> to store ou=
+r database. Over the years, our use has expanded to match our business growt=
+h. Our selection criteria covered tactical as well as strategic points. =46rom=
+ a tactical perspective, we wanted a quicker time for provisioning, which AW=
+S on-demand instances enabled, and the option to secure our resource needs t=
+hrough<a href=3D"http://aws.amazon.com/ec2/reserved-instances/" target=3D"_b=
+lank"> Reserved Instances</a>.</em></p>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>At a strategic level, we wa=
+nted to provide the best experience for our customers and it was key to buil=
+d Classle on top of services, products, and infrastructure designed for grow=
+th and scale. To date, we have established relationships with over 30 educat=
+ional organizations and that list is constantly growing. Thanks to AWS, we a=
+re effectively competing with some large and strong players in the e-learnin=
+g space.</em></p>
+<p><strong>Sharing the AWS Lessons:</strong></p>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>We are a small, LAMP stack t=
+eam and we started using AWS in 2009. Currently, the products we are using a=
+re below. For reference, we are also happy to share <a href=3D"http://aws.am=
+azon.com/solutions/case-studies/classle/" target=3D"_blank">our Classle arch=
+itecture diagram, which is included in our case study with AWS</a>.</em></p>=
+
+<div>
+<ul>
+<li><em>Amazon Elastic Compute Cloud (EC2)</em></li>
+<li><em>Elastic Load Balancing (ELB)</em></li>
+<li><em>AutoscalingAmazon Elastic Bock Storage (EBS)</em></li>
+<li><em>Amazon Simple Storage Service (S3)</em></li>
+<li><em>Amazon Reduced Redundancy Storage (RRS)</em></li>
+<li><em>Amazon CloudFront with both streaming and download</em></li>
+<li><em>Amazon Cloud Watch</em></li>
+<li><em>Amazon Relational Database Service (Amazon RDS) with Multi-AZ and Re=
+ad replication.</em></li>
+<li><em>Amazon SimpleDB</em></li>
+<li><em>Amazon Simple Notification Service (Amazon SNS)</em></li>
+<li><em>Amazon Route 53</em></li>
+</ul>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>Pretty soon, we would be us=
+ing <a href=3D"http://aws.amazon.com/elasticmapreduce/" target=3D"_blank">Am=
+azon Elastic Map-Reduce</a> clusters for our analytics requirements..</em></=
+p>
+<p><strong>Words of Wisdom to Startups</strong></p>
+<p dir=3D"ltr" id=3D"internal-source-marker_0.8193495112936944" style=3D"pad=
+ding-left: 30px;"><em>Starting a company is always hard, whether you=E2=80=99=
+re from India or anywhere else. However, it=E2=80=99s worth to keep in mind t=
+hat it=E2=80=99s never been easier to go out there and try things out - &nbs=
+p;with Open Source for robust software and cloud service providers like AWS f=
+or infrastructure, you can test your ideas and run a business at very low co=
+st.</em></p>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>Being from in India, where w=
+e don=E2=80=99t have a strong start-up mentality like in the U.S., certainly=
+ poses some unique challenges. There are many more problems to solve, and it=
+ is exciting to try and translate the existing limitations into innovations,=
+ solutions and hence opportunities.</em></p>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>If I had to boil down my ad=
+vice, I would say to my fellow entrepreneurs to: venture with confidence, de=
+sign for scale, start small &amp; architect for growth.</em></p>
+</div>
+<p>------------------------------------------------------</p>
+<p><strong>Enter Your Startup in the AWS Start-up Challenge!</strong><br>Thi=
+s year's <a href=3D"http://aws.amazon.com/startupchallenge/?utm_source=3Daws=
+blog&amp;utm_medium=3Dbanner&amp;utm_campaign=3DSM_awsblog_summerstartup_tit=
+le&amp;trk=3DSM_awsblog_ summerstartup" target=3D"_blank">AWS Start-up Chall=
+enge</a> is a worldwide competition with prizes at all levels, including up t=
+o $100,000 in cash, AWS credits, and more for the grand prize winner. <a hre=
+f=3D"http://aws.amazon.com/startupchallenge/?utm_source=3Dawsblog&amp;utm_me=
+dium=3Dbanner&amp;utm_campaign=3DSM_awsblog_summerstartup_title&amp;trk=3DSM=
+_awsblog_ summerstartup" target=3D"_blank"> Learn more and enter today!</a><=
+/p>
+<p>You can also follow&nbsp;<a href=3D"http://twitter.com/#!/awsstartups" ta=
+rget=3D"_self">@AWSStartups</a>&nbsp;on Twitter for updates.</p>
+<p>&nbsp;-rodica</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DpVX52oG=
+LHJY:Nj72mD8o5vA:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/Am=
+azonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></a> <a href=3D"http://fee=
+ds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DpVX52oGLHJY:Nj72mD8o5vA:dnMX=
+MwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3DdnMXMwOfBR0" border=3D"0"></a> <a href=3D"http://feeds.feedburner.com/~ff=
+/AmazonWebServicesBlog?a=3DpVX52oGLHJY:Nj72mD8o5vA:7Q72WNTAKBA"><img src=3D"=
+http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=3D7Q72WNTAKBA" borde=
+r=3D"0"></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/pV=
+X52oGLHJY?utm_source=3Dfeedburner&amp;utm_medium=3Demail" height=3D"1" width=
+=3D"1"></div>
+</td>
+</tr>
+</tbody></table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;w=
+idth:100%" id=3D"footer">
+<tbody><tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-siz=
+e:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updates=
+ from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a>
+<br>To stop receiving these emails, you may <a href=3D"http://feedburner.goo=
+gle.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscribe no=
+w</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0 6=
+px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery po=
+wered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans-=
+Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 West K=
+inzie, Chicago IL USA 60610</td>
+</tr>
+</tbody></table>
+</div>
+
+
+</div></blockquote></body></html>=
+
+--Apple-Mail-4-632703792--

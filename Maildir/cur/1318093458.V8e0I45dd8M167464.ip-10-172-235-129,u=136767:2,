@@ -1,0 +1,54 @@
+Return-Path: <do_not_reply@example.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from sugarcrm.doap.com (doap.com [50.18.110.179])
+	(Authenticated sender: crm)
+	by ns1 (Postfix) with ESMTPA id 0E54C886DF
+	for <bobby@doap.com>; Sat,  8 Oct 2011 10:04:18 -0700 (PDT)
+Date: Sat, 8 Oct 2011 10:04:17 -0700
+To: bobby@doap.com
+From: SugarCRM <do_not_reply@example.com>
+Subject: New account information
+Message-ID: <0435e1d26994d6ac7fb529ac29124df4@sugarcrm.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer (phpmailer.codeworxtech.com) [version 2.3]
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_0435e1d26994d6ac7fb529ac29124df4"
+
+
+--b1_0435e1d26994d6ac7fb529ac29124df4
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: base64
+
+SGVyZSBpcyB5b3VyIGFjY291bnQgdXNlcm5hbWUgYW5kIHRlbXBvcmFyeSBwYXNzd29yZDoNClVz
+ZXJuYW1lIDogd2lsbA0KUGFzc3dvcmQgOiBDQTBKblQNCg0KaHR0cDovL3N1Z2FyY3JtLmRvYXAu
+Y29tDQoNCkFmdGVyIHlvdSBsb2cgaW4gdXNpbmcgdGhlIGFib3ZlIHBhc3N3b3JkLCB5b3UgbWF5
+IGJlIHJlcXVpcmVkIHRvIHJlc2V0IHRoZSBwYXNzd29yZCB0byBvbmUgb2YgeW91ciBvd24gY2hv
+aWNlLg0K
+
+
+--b1_0435e1d26994d6ac7fb529ac29124df4
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: base64
+
+PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgVHJhbnNpdGlvbmFs
+Ly9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXRyYW5zaXRpb25h
+bC5kdGQiPgo8aHRtbCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCI+CjxoZWFk
+PgoJPG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNo
+YXJzZXQ9VVRGLTgiIC8+Cjx0aXRsZT5OZXcgYWNjb3VudCBpbmZvcm1hdGlvbjwvdGl0bGU+Cjwv
+aGVhZD4KPGJvZHk+PGRpdj48dGFibGUgYm9yZGVyPVwiMFwiIGNlbGxzcGFjaW5nPVwiMFwiIGNl
+bGxwYWRkaW5nPVwiMFwiIHdpZHRoPSI1NTAiIGFsaWduPVwiXCJcImNlbnRlclwiXCJcIj48dGJv
+ZHk+PHRyPjx0ZCBjb2xzcGFuPVwiMlwiPjxwPkhlcmUgaXMgeW91ciBhY2NvdW50IHVzZXJuYW1l
+IGFuZCB0ZW1wb3JhcnkgcGFzc3dvcmQ6PC9wPjxwPlVzZXJuYW1lIDogd2lsbCA8L3A+PHA+UGFz
+c3dvcmQgOiBDQTBKblQgPC9wPjxicj48cD5odHRwOi8vc3VnYXJjcm0uZG9hcC5jb208L3A+PGJy
+PjxwPkFmdGVyIHlvdSBsb2cgaW4gdXNpbmcgdGhlIGFib3ZlIHBhc3N3b3JkLCB5b3UgbWF5IGJl
+IHJlcXVpcmVkIHRvIHJlc2V0IHRoZSBwYXNzd29yZCB0byBvbmUgb2YgeW91ciBvd24gY2hvaWNl
+LjwvcD4gICA8L3RkPiAgICAgICAgIDwvdHI+PHRyPjx0ZCBjb2xzcGFuPVwiMlwiPjwvdGQ+ICAg
+ICAgICAgPC90cj4gPC90Ym9keT48L3RhYmxlPiA8L2Rpdj48L2JvZHk+PC9odG1sPg==
+
+
+
+--b1_0435e1d26994d6ac7fb529ac29124df4--
+
+

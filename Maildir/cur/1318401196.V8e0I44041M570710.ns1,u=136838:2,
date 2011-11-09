@@ -1,0 +1,69 @@
+Return-Path: <kelly@picassodreams.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from node-iweb137.smtp.com (node-iweb137.smtp.com [67.205.87.246])
+	by ns1 (Postfix) with ESMTP id 6EE3B88580
+	for <bobby@doap.com>; Tue, 11 Oct 2011 23:33:16 -0700 (PDT)
+Received: from [192.168.15.25] (unknown [190.212.230.55])
+	by node-iweb137.smtp.com (Postfix) with ESMTP id C6ED912E009E
+	for <bobby@doap.com>; Wed, 12 Oct 2011 02:33:15 -0400 (EDT)
+X-SMTPCOM-Spam-Policy: SMTP.com is a paid relay service.
+	We do not tolerate UCE of any kind.
+	Please report it ASAP to abuse@smtp.com
+X-SMTPCOM-Sender-ID: 13148
+X-SMTPCOM-Tracking-Number: 321145659
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=smtp.com;
+	s=smtpcomcustomers; t=1318401196;
+	bh=08aLC/KOslvwqLLKd+KG4EjNaaIsXOngzY4meZ75RV0=;
+	h=Message-Id:From:To:In-Reply-To:Content-Type:
+	 Content-Transfer-Encoding:Mime-Version:Subject:Date:References:
+	 X-Mailer;
+	b=PdhS10T6UwyO5gbbj1eVJTFGCnOD76a0hmbu28dsD1Kz7/8gKTzFKpU/hKmW8G06+
+	 jm//KPbnwrio6RfYuFgT3VieJNNqa/9nHSY+TFP4cIlOTLMrKz6bRwjpWs4jPRnnCY
+	 i/BxxK5Qm4KiWAf6EHiRNOjQVwrJoQ6I6fTRxCbQ=
+Message-Id: <D02D5679-B7C5-4CD8-B8AE-B725D6A0478D@picassodreams.com>
+From: Kelly Thomas <kelly@picassodreams.com>
+To: Bobby Damery <bobby@doap.com>
+In-Reply-To: <CAAN24KwX6i4h1fSN_fNDW5H+Ngex_GaFmshpip1upYnZyrSChA@mail.gmail.com>
+Content-Type: text/plain; charset=US-ASCII; format=flowed; delsp=yes
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Subject: Re: Rescued your site :)
+Date: Wed, 12 Oct 2011 00:33:14 -0600
+References: <CAAN24KwX6i4h1fSN_fNDW5H+Ngex_GaFmshpip1upYnZyrSChA@mail.gmail.com>
+X-Mailer: Apple Mail (2.936)
+
+Dear bobby,
+
+Thank you so much for your help.  Now you can see why a little bit of  
+programming knowledge is a bad thing - it took me to places I  
+shouldn't have gone!  I am very good with graphics , but terrible with  
+code.  Thank you for getting me up and running.  I will paste the  
+content in tomorrow - if you can help with one other small detail.  I  
+cannot log in!  When I go to the wordpress.doap.com page and enter  
+kelly and the password as kelly, I get nothing!  If I click on  
+Wordpress, it takes me to the Install Wordpress Page, which I have  
+already done several times and I am afraid that if I do it again, I  
+might delete everything that has been created!
+
+
+Can you please tell me how to log into my site?  Thank you so much.
+
+gracias,
+
+Kelly
+
+
+On Oct 11, 2011, at 9:12 PM, Bobby Damery wrote:
+
+> Hey, I'm Bobby, I'm a student/developer that works with Dave. I saw  
+> that your site was in a bit of a state and since it looked like you  
+> had done a lot of work we thought we ought to save it for you :) We  
+> recovered all your posts and quotes (295 wow) and also set you up  
+> with a daily backup of the system!
+>
+> If you hear about customers needing websites remember us, enjoy!
+>
+> Bobby Damery
+> Doap.com
+

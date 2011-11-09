@@ -1,0 +1,113 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gy0-f182.google.com (mail-gy0-f182.google.com [209.85.160.182])
+	by ns1 (Postfix) with ESMTP id EB0D988854
+	for <sales@doap.com>; Fri,  7 Oct 2011 11:26:41 -0700 (PDT)
+Received: by gyf2 with SMTP id 2so4960403gyf.13
+        for <sales@doap.com>; Fri, 07 Oct 2011 11:26:42 -0700 (PDT)
+Received: by 10.101.137.22 with SMTP id p22mr1772133ann.59.1318012002003;
+        Fri, 07 Oct 2011 11:26:42 -0700 (PDT)
+Received: from [192.168.137.221] ([190.181.180.89])
+        by mx.google.com with ESMTPS id o17sm26861730anj.3.2011.10.07.11.26.39
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 07 Oct 2011 11:26:41 -0700 (PDT)
+From: David Menache <dmenache@thehvac.net>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+Subject: integration of inventory
+Date: Fri, 7 Oct 2011 12:26:36 -0600
+Message-Id: <B7938331-1BA0-4F3A-996F-0FDEF8DE2132@thehvac.net>
+Cc: Laura Birch <lbirch@hvac-marketing.com>,
+ sales@doap.com
+To: Larry Andreson <larryandreson@sbcglobal.net>
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+X-Mailer: Apple Mail (2.1244.3)
+
+Hi Larry,
+
+Good chat yesterday=85   =20
+
+To follow up,  I believe that your new parts locator tools which i =
+introduced you to yesterday ought to integrated with your live inventory =
+so customers can check availability per warehouse and also not be =
+bothered with items not offered and also see if backordering is =
+necessary, also, of course, up to the minute pricing for all items =
+including commodity based stuff, shopping cart, order processing, =
+invoicing, etc.
+
+I need to review your current systems so we know exactly what needs to =
+be done to make things sync.   After that 'sync' is functioning, the =
+rest of the bits like shopping cart functions are relatively easy to get =
+going.   Before end of year launch target is perfectly reasonable if we =
+get the bureaucratic stuff out of the way.
+
+I know we've got to figure out how to compensate us for all of this and =
+I appreciate your desire to be fair to all involved.   Also, the last =
+thing i want is for you to feel 'gouged'.   We're in the process of =
+trying to get bids from competitors now just to get a better idea of the =
+market for this type of project.  As you know,  it is a huge job with =
+lots of moving parts and without knowing for sure just yet, i am =
+guessing the estimates will probably be approaching six figures.   I =
+understand those kinds of prices are non-starters for you and i'm trying =
+to figure out other ways to get it done for significantly less.  Just =
+getting the competitor quotes is a difficult task  considering it takes =
+quite technical people who understand this stuff to spend the time to =
+fully understand the job so it can be properly bid.   =20
+
+
+Would you guys be interested in paying a fee per transaction to avoid =
+the headaches of managing  a system as complex as this?  You would still =
+own the platform.   I would be an intermediary for all internet based =
+sales and assume responsibility for all aspects of database =
+administration, website development and maintenance, transaction flow =
+and reporting back into your existing systems in exchange for some =
+agreed upon service charge per online sale?    Ideally the fee would =
+also take care of all hosting and ongoing maintenance of which there =
+will always be a need.  (likely $300-$500/mo just for hosting plus =
+developer time for system changes)  I could also be responsible for =
+customer service during the order process and would staff a call center =
+just for this.  Of course, figuring out what kind of per transaction fee =
+is appropriate will be about as tricky as bidding the entire project.    =
+If the agreed upon fee ended up not covering costs, we'd have to adjust. =
+ It's really tricky to estimate without concrete info about sales.  =20
+
+One thing I'm sure of, with 2500 dealer customers, hundreds of thousands =
+of potential retail customers, and a parts database of half a million =
+items, this is an enormous job with huge upside potential.  I'm really =
+anxious to get this implemented!
+
+These are just some initial thoughts.   I'm open to ideas and will let =
+ya know what the quote hunting leads to.  Hopefully, you guys can do the =
+same and we can compare notes.     As always, being completely fair, =
+open, and straightforward with you guys is extremely important to me. =20=
+
+
+Oh one more thing, I just got off the phone with Laura, she suggested =
+that we bill you for the 'GOPERT' Parts Locator tools that have been =
+deployed on your website.  We've got 40 hrs. into it.  20 sr. developer =
+hrs, and 20 junior developer hrs.
+
+We've delivered the parts database with sign on functions, unique =
+passwords, automated password recovery functions,  and unique price =
+levels for all 2500 dealers.  There are also  parts locator tools =
+embedded in each of the primary websites: globalhvac.net, =
+ghvac-sylmar.com, ghvac-manetca.com, ghvac-orange.com =
+ghvac-employees.com, ghvac-dealers.com.  We've also built an admin area =
+for employees to browse prices per customer as you saw yesterday.  I =
+think it is pretty well good to go.=20
+
+Here are our costs for that project.
+20 * 80/hr
+20 * 50/hr
+Balance due: $2600
+
+If it all looks good, I'd like to send an invoice for this work.  I =
+understand if we agree on some kind of a fee based system I would be =
+responsible for these kinds of development costs going forward.=20
+
+Thanks
+Dave Menache
+dave@doap.com
+
+

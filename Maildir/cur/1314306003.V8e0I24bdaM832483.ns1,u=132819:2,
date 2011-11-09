@@ -1,0 +1,23 @@
+Return-Path: <wwwrun@doap.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 30)
+	id C6FBE88816; Thu, 25 Aug 2011 14:00:03 -0700 (PDT)
+To: bobby@doap.com
+Subject: [Play] New User Registration
+X-PHP-Originating-Script: 33:class-phpmailer.php
+Date: Thu, 25 Aug 2011 21:00:03 +0000
+From: WordPress <wordpress@play.doap.com>
+Message-ID: <06a8f744f70c5b84cd0cb3965897324e@play.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+New user registration on your site Play:
+
+Username: jon
+
+E-mail: jon@doap.com
+

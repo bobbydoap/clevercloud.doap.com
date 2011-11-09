@@ -1,0 +1,97 @@
+Return-Path: <mike_menache@yahoo.com>
+X-Original-To: tech@doap.com
+Delivered-To: bobby@doap.com
+Received: from nm19-vm0.bullet.mail.sp2.yahoo.com (nm19-vm0.bullet.mail.sp2.yahoo.com [98.139.91.216])
+	by ns1 (Postfix) with SMTP id 6056E886EE
+	for <tech@doap.com>; Wed, 17 Aug 2011 19:55:40 -0700 (PDT)
+Received: from [98.139.91.64] by nm19.bullet.mail.sp2.yahoo.com with NNFMP; 18 Aug 2011 02:55:40 -0000
+Received: from [208.71.42.195] by tm4.bullet.mail.sp2.yahoo.com with NNFMP; 18 Aug 2011 02:55:40 -0000
+Received: from [127.0.0.1] by smtp206.mail.gq1.yahoo.com with NNFMP; 18 Aug 2011 02:55:40 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1313636140; bh=eOkpFiqKuettWSPCgJSrfeKIecwfmaKGtG0WbG4h7bU=; h=X-Yahoo-Newman-Id:X-Yahoo-Newman-Property:X-YMail-OSG:X-Yahoo-SMTP:Received:Message-ID:Date:From:User-Agent:MIME-Version:To:CC:Subject:References:In-Reply-To:Content-Type:Content-Transfer-Encoding; b=JzH5YccvSc6OhscRDobkLHKTgcjE2CfeRYeKlKqoBcwdDG3MWhDEAD8XJWtkuTWz9kXrDyKte5JgqR4Hr7aj0pZzkN+ptjXRhlGwU8G15aBOz8NZueuq5OgI2+HBAwso6xyPK5i/ZzE/7+3IPJvxvt4sqle4BLU5Kbf5cZ6bXzo=
+X-Yahoo-Newman-Id: 517879.6588.bm@smtp206.mail.gq1.yahoo.com
+X-Yahoo-Newman-Property: ymail-3
+X-YMail-OSG: wKhyb9YVM1lz03xyN0HGXOu47DeOG.Bqjny8tjB9e3pOvSe
+ Rd9WqLy09dOwDeR4bgk5fG6ziuXx7MeRWcv9WiwE0QaOGOp1ru5imi7yTf1P
+ qP8BKR.FDYikOwRZ6efV.YetW3uR6gbW3IpCZOwp6pm2PCkHBoB776bXJ1DH
+ bidTQqrT4fQz5IxpC22IgABIIN9ZkETVnIw0Z16dOLUBVAULHRdepRPN2Uhd
+ 1f5N3MiNCxbFu_o0HjmsLyc3HZSJKpXM65MN3h4sCHxCyXLpe4zOTRXxYecO
+ EAn46bYXpL_mYf8skQfjBhp_7c.0PyKV_WjYNduz3R1R7OpQ_1A6FT_rReoZ
+ ATX89NvAj19Iw_n3zlVXMmKU3X6B.a7HF1aHSZEOBUmmqAfkVQvr17.L5GyK
+ vUOfBAPdYAm3M3tZIqyjwTYZpFsfx_1pEaiJ1t84NL6YUNCtzUX9qXHjY8en
+ t
+X-Yahoo-SMTP: fFDe3UaswBBSXfcqFitaOK.q37ar9DUvCQ--
+Received: from [127.0.0.1] (mike_menache@99.151.2.218 with plain)
+        by smtp206.mail.gq1.yahoo.com with SMTP; 17 Aug 2011 19:55:40 -0700 PDT
+Message-ID: <4E4C7EED.7090406@yahoo.com>
+Date: Wed, 17 Aug 2011 19:54:37 -0700
+From: Michael Menache <mike_menache@yahoo.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.18) Gecko/20110616 Thunderbird/3.1.11
+MIME-Version: 1.0
+To: David Menache <dave@doap.com>
+CC: "tech@doap.com" <tech@doap.com>
+Subject: Re: How much have your monthly fees been without the .04 per min?
+References: <F10FB77B-5087-47FA-850D-F5F099ADAE0E@doap.com>
+In-Reply-To: <F10FB77B-5087-47FA-850D-F5F099ADAE0E@doap.com>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+I'm running about 60/month right now. One venture I am working on is a 
+small startup of about 10 people 7 of which are sales! The business 
+model is sales get commision and I get profit sharing. So as the company 
+grows checks just show up in my mailbox. It is pretty sweet since 
+everything is done in the cloud I could work from anywhere and the 
+checks roll in!
+
+m
+
+On 8/17/2011 1:52 PM, David Menache wrote:
+> Cool stuff Mike!
+>
+> How are you handling billing when you sell a server?  Metered or flat rates?  Are you indie?  Partnering with anyone...? We have a staff on a 24/7 help desk you can bundle as a value added service with your systems...!
+>
+> Also, I'm anxious to see what my data and transfer costs will be....!  Shit adds up fast.  How have yours been so far?
+>
+> Cheers
+>
+> David Menache
+> dave@doap.com
+> Skype:dmenache
+> 805-426-5216
+>
+>
+> On Aug 17, 2011, at 1:45 PM, "Mike Menache"<mike_menache@yahoo.com>  wrote:
+>
+>> I ran into the same issue when I rolled our IT infrastructure for another startup I am doing!
+>> The EC2 reserved is the best long term value, and it is much faster. Hopefully, I will be selling many more of these as well going forward. The cool thing is that Amazon lowers the price and passes the savings directly to us when they figure out ways to save $$$$.
+>>
+>> L8,
+>> m
+>>   -=Mike Menache
+>>
+>> On 8/16/2011 7:25 PM, David Menache wrote:
+>>>
+>>> Hi everyone,
+>>>
+>>> Big news for doap.com today!  We subscribed to a three year term for a bigger server today to help alleviate the slowdowns we were constantly experiencing.  So far it is working beautifully!   The chart below shows a comparison between the estimated annual costs of doing it yourself, Reserved Instances and On-Demand Instances for a customer running 35 m1.small and 10 m1.large Linux/UNIX instances at steady state for 1 year.
+>>>
+>>> Annual Cost Comparison (100% utilization)
+>>>   	
+>>> Do-It-Yourself	
+>>> EC2 On-Demand	EC2 Reserved
+>>> (1 Year Term)	 EC2 Reserved
+>>> (3 Year Term)
+>>> Usage Costs	-	$ 55,845	$ 36,772.50	$ 28,460
+>>> Server Hardware	$ 20,129	-	-	-
+>>> Network Hardware	$ 4,026	-	-	-
+>>> Hardware Maintenance	$ 9,662	-	-	-
+>>> Operating System	$ –	-	-	-
+>>> Facility Expense	$ 43,794	-	-	-
+>>> Remote Hands Support	$ 338	-	-	-
+>>> Data Transfer Costs	$ 3,357	$ 2,106	$ 2,106	$ 2,106
+>>> TOTAL COST	$ 81,305	$ 57,951	$ 38,878.50	$ 30,566
+>>>
+>>> 	David Menache
+>>> dave@doap.com
+>>> US:805-426-5216	
+>>
+>

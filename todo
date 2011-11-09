@@ -1,0 +1,12 @@
+1 name your website
+2 register for doap.com create a hostname-nicapiscina.doap.com
+3 create user id and home directory and public_html folder in doap.com
+4 usradd -m nicapiscina
+5 mkdir /home/nicapiscina/public_html
+6 tar -xzvf /root/new_site.tar.gz /home/nicapiscina/public_html
+7 mysqladmin -u root -pfr1ck0ff create nicapiscina
+cp /home/nicapiscina/public_html/wp-config.php.sample /home/nicapiscina/public_html/wp-config.php
+edit wp-config.php and change db name to nicapiscina
+put the name nicapiscina.doap.com into named dns servers
+restart webserver and dns server
+

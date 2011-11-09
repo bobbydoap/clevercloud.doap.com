@@ -1,0 +1,389 @@
+<!DOCTYPE html><!-- HTML 5 -->
+<html dir="ltr" lang="en-US">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="pingback" href="http://doap.com/xmlrpc.php" />
+	
+	<title>http://doap.com - deploy on any platform</title>
+
+<link rel="alternate" type="application/rss+xml" title="http://doap.com &raquo; Feed" href="http://doap.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="http://doap.com &raquo; Comments Feed" href="http://doap.com/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="http://doap.com &raquo; Put your website on doap.com Comments Feed" href="http://doap.com/welcome-to-our-home-page/feed" />
+<link rel='stylesheet' id='zee_stylesheet-css'  href='http://doap.com/wp-content/themes/zeedisplay/style.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='zee_color_style-css'  href='http://doap.com/wp-content/themes/zeedisplay/includes/styles/orange.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://doap.com/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://doap.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://doap.com/wp-includes/js/jquery/jquery.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://doap.com/wp-content/themes/zeedisplay/includes/js/jquery-ui-1.8.11.custom.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://doap.com/wp-content/themes/zeedisplay/includes/js/jquery.easing.1.3.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://doap.com/wp-content/themes/zeedisplay/includes/js/jquery.cycle.all.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='http://doap.com/wp-content/themes/zeedisplay/includes/js/jquery.slidemenu.js?ver=3.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://doap.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://doap.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='http://doap.com' href='http://doap.com' />
+<link rel='prev' title='Welcome' href='http://doap.com/welcome-page-1' />
+<link rel='next' title='HTML5' href='http://doap.com/html5' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='canonical' href='http://doap.com/' />
+<script type="text/javascript">
+				//<![CDATA[
+					// Fade Slider
+					jQuery(document).ready(function($) {
+						$('#slideshow')
+							.cycle({
+							fx: 'fade',
+							speed: 'slow',
+							timeout: 8000,
+							next:   '#slide_next', 
+							prev:   '#slide_prev'
+						});
+					});
+				//]]>
+				</script><style type="text/css"></style><style type="text/css">
+body { background-color: #38B0DE; }
+</style>
+<style type="text/css">
+        #custom_header img {
+			margin-top: 0px;
+			width: 900px;
+            height: 140px;
+        }
+    </style>
+<script>
+var surface;
+var cloud2;
+var happy;
+var sunshine;
+var sx = 650;
+var sy = 20;
+
+var tx = 0;
+var ty = 90;
+
+var x = 50;
+var y = 0;
+
+
+var dirSX = .1;
+var dirSY = .1;
+var dirTX = .1;
+var dirTY = .1;
+var dirX = .1;
+var dirY = .1;
+var sun1x = 231;
+var sun1y = 218;
+
+function drawCanvas() {
+    // Get our Canvas element
+    surface = document.getElementById("aCanvas");
+
+    if (surface.getContext) {
+        // If Canvas is supported, load the images
+        sunshine = new Image();
+        sunshine.onload = loadingComplete;
+        sunshine.src = "images/sun.gif";
+    }
+
+
+    if (surface.getContext) {
+        // If Canvas is supported, load the images
+        happy = new Image();
+        happy.onload = loadingComplete;
+        happy.src = "images/puffy_cloud.gif";
+    }
+
+if (surface.getContext) {
+        // If Canvas is supported, load the images
+        cloud2 = new Image();
+        cloud2.onload = loadingComplete;
+        cloud2.src = "images/puffy_cloud.gif";
+    }
+
+}
+
+function loadingComplete(e) {
+    // When the image has loaded begin the loop
+    setInterval(loop, 25);
+}
+
+function loop() {
+    // Each loop we move the image by altering its x/y position
+
+    // Grab the context
+    var surfaceContext = surface.getContext('2d');
+    // Clear the canvas to White
+    //surfaceContext.fillStyle = "rgb(157,234,77)"; //oldgreen
+    surfaceContext.fillStyle = "rgb(57,176,222)"; //sky
+    //surfaceContext.fillStyle = "rgba(0, 0, 200, 0.0)"; //transparency
+
+    surfaceContext.fillRect(0, 0, surface.width, surface.height);
+
+    // Draw the images
+
+surfaceContext.moveTo(sx, sy);
+surfaceContext.drawImage(sunshine, sx, sy);
+surfaceContext.moveTo(x, y);
+surfaceContext.globalAlpha=0.8;
+surfaceContext.drawImage(happy, x, y);
+surfaceContext.globalAlpha=1;
+surfaceContext.moveTo(tx, ty);
+surfaceContext.drawImage(cloud2, tx, ty);
+
+    x += dirX;
+    y += dirY;
+
+    sx += dirSX;
+    sy += dirSY;
+
+
+    tx += dirTX;
+    ty += dirTY;
+
+    if (x <= 0 || x > 1260 - 700) {
+        dirX = -dirX;
+    }
+    if (y <= 0 || y > 195- 187) {
+        dirY = -dirY;
+    }
+
+    if (sx <= 0 || sx > 1260 - 700) {
+        dirSX = -dirSX;
+    }
+    if (sy <= 0 || sy > 200 - 187) {
+        dirSY = -dirSY;
+    }
+
+    if (tx <= 0 || tx > 1260 - 700) {
+        dirTX = -dirTX;
+    }
+    if (ty <= 0 || ty > 200 - 187) {
+        dirTY = -dirTY;
+    }
+
+
+
+}
+//Math.round(Math.random() * 100) / 100) rgba randomizer i think
+</script>
+
+
+</head>
+
+<body  onload="drawCanvas();" class="home page page-id-873 page-template-default">
+
+<div id="wrapper">
+
+	<div id="header">
+
+<div id="animation">
+<canvas id="aCanvas" width="880" height="600"></canvas>
+</div>
+		<div id="head">
+			<div id="logo">
+
+
+									<a href="http://doap.com"><img src="http://doap.com/images/d5.png" alt="Logo" /></a>
+							</div>
+			<div id="topnavi">
+				<ul id="menu-deploy-a-site" class="menu"><li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="http://doap.com/name-your-site">Name your website</a></li>
+<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a></a></li>
+<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="http://doap.com/get-welcome-kit">Start Developing!</a></li>
+</ul>			</div>
+		</div>
+	</div>
+	
+	<div id="wrap">
+		<div id="navi">
+			<ul id="menu-main-menu" class="menu"><li id="menu-item-493" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-493"><a title="Deploy a professional website on your favorite CMS in moments with the QuickLaunch tool." href="http://doap.com/">Web Hosting</a>
+<ul class="sub-menu">
+	<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="http://doap.com/name-your-site">Name your website</a>
+	<ul class="sub-menu">
+		<li id="menu-item-370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-370"><a href="http://doap.com/choose-a-domain-name">Choose a free domain name</a></li>
+		<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="http://doap.com/use-established-domain-names">I already own a name</a></li>
+		<li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="http://doap.com/whois">Register domain names</a></li>
+	</ul>
+</li>
+	<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="http://doap.com/quick-start">Website Deploy Tool</a></li>
+</ul>
+</li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="http://doap.com/get-welcome-kit">Developers</a>
+<ul class="sub-menu">
+	<li id="menu-item-3411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3411"><a href="http://doap.com/my-account">Login</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1830" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1830"><a href="/job-board">Developer Job Board</a></li>
+	</ul>
+</li>
+	<li id="menu-item-3352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3352"><a href="http://doap.com/about-webdav">About WebDAV</a></li>
+	<li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a href="http://doap.com/sftp-access">Sftp access</a></li>
+	<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://doap.com/backup">Backup</a></li>
+	<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://doap.com/uploads">Uploads</a></li>
+	<li id="menu-item-466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-466"><a href="http://doap.com/html-color-picker">HTML Color Picker</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2171"><a href="http://doap.com/color-wheel">Color Wheel</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1244"><a href="http://doap.com/html5">HTML5</a>
+	<ul class="sub-menu">
+		<li id="menu-item-569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-569"><a href="http://doap.com/plugins-widgits">Plugins &#038; Widgits</a></li>
+		<li id="menu-item-1277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1277"><a href="http://doap.com/meters-and-monitors">Meters</a></li>
+		<li id="menu-item-1265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1265"><a href="http://doap.com/horizontal-progress-bar">Horizontal Progress Bar</a></li>
+		<li id="menu-item-1259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1259"><a href="http://doap.com/progress-bars">Vertical Progress Bar</a></li>
+		<li id="menu-item-2156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2156"><a href="http://doap.com/2011/06/color-schemes">Creating a Color Scheme</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a title="Managed and Unmanaged" href="http://doap.com/doap-is-an-isp">Servers</a>
+<ul class="sub-menu">
+	<li id="menu-item-608" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-608"><a href="http://doap.com/global-infrastructure-map">Private Global Infrastructure</a></li>
+	<li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420"><a href="http://doap.com/unix-servers">Unix &#038; Windows Servers</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1914" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1914"><a href="http://doap.com/unix-servers/more-detailed-unix-server-pricing">Detailed Unix Server Prices</a></li>
+		<li id="menu-item-1919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1919"><a href="http://doap.com/more-detailed-windows-server-pricing">Detailed Windows Server Prices</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1295"><a href="http://doap.com/database-servers">Databases and DB  Servers</a></li>
+	<li id="menu-item-3306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3306"><a href="http://doap.com/awesome-diagnostic-tools">Awesome Diagnostic Tools</a></li>
+</ul>
+</li>
+<li id="menu-item-411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a title="Search Engine Marketing" href="http://doap.com/doap-is-an-advertising-agency">S.E.M.</a>
+<ul class="sub-menu">
+	<li id="menu-item-1839" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1839"><a>TheHVAC.net</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2805"><a href="http://doap.com/southern-california-ruud-ac-ad-campaign">Southern California Ruud A/C Ad Campaign</a>
+		<ul class="sub-menu">
+			<li id="menu-item-2813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2813"><a href="http://doap.com/glendora-ac-sale-1-800-413-0715">Glendora Air Conditioning</a></li>
+			<li id="menu-item-2806" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2806"><a href="http://doap.com/irvine-air-conditioning-sale-1-800-319-4613">Irvine Air Conditioning</a></li>
+			<li id="menu-item-2808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2808"><a href="http://doap.com/northridge-ac-sale-1-800-517-9651">Northridge Air Conditioning</a></li>
+			<li id="menu-item-2816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2816"><a href="http://doap.com/oxnard-air-conditining-sale-1-800-517-9026">Oxnard Air Conditioning</a></li>
+			<li id="menu-item-2817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2817"><a href="http://doap.com/palm-desert-air-conditioning-sale-1-800-319-5421">Palm Desert Air Conditioning</a></li>
+			<li id="menu-item-2820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2820"><a href="http://doap.com/simi-valley-ac-sale-1-800-461-9178">Simi Valley Air Conditioning</a></li>
+			<li id="menu-item-2819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2819"><a href="http://doap.com/stanton-air-conditioning-sale-1-800-514-4680">Stanton Air Conditioning</a></li>
+			<li id="menu-item-2807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2807"><a href="http://doap.com/southern-california-ruud-ac-ad-campaign/sun-valley-ac-sale-1-800-541-2904">Sun Valley Air Conditioning</a></li>
+			<li id="menu-item-2814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2814"><a href="http://doap.com/tarzana-ca-ac-sale-1-800-517-8049-1-800-461-9014">Tarzana Air Conditioning</a></li>
+			<li id="menu-item-2818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2818"><a href="http://doap.com/thousand-palms-air-conditioning-sale-1-800-319-5417">Thousand Palms Air Conditioning</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1845" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1845"><a href="http://doap.com/bay-area-heating-websites">Bay Area Heating Ad Campaign</a></li>
+		<li id="menu-item-1846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1846"><a href="http://doap.com/bay-area-air-conditioning-websites">Bay Area A/C Websites</a></li>
+	</ul>
+</li>
+	<li id="menu-item-477" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-477"><a title="Regardless of what you are selling, optimized landing pages are critical to your success." href="http://doap.com/doap-is-an-advertising-agency/starter-landing-pages">Starter Landing Pages</a></li>
+	<li id="menu-item-373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-373"><a href="http://doap.com/ad-words">Ad-Words Campaign Management</a></li>
+	<li id="menu-item-414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-414"><a href="http://doap.com/facebook-ad-campaign-management">Facebook Ad Campaign Management</a></li>
+	<li id="menu-item-382" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-382"><a href="http://doap.com/custom-dealer-locators">Custom Dealer Locators</a></li>
+</ul>
+</li>
+<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a title="Review various site lists.">Site lists</a>
+<ul class="sub-menu">
+	<li id="menu-item-1831" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1831"><a href="/website-list">Public Websites</a></li>
+</ul>
+</li>
+<li id="menu-item-650" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-650"><a href="http://doap.com/southern-california-hvac/contact-us">Our blog</a></li>
+</ul>		</div>
+		<div class="clear"></div>
+		
+	
+	<div id="content">
+		
+				
+			<div id="page-873" class="post-873 page type-page status-publish hentry">
+				 
+				<h2>Put your website on doap.com</h2>
+				
+				<div class="entry">
+										<iframe class="" src="homepage.php" style="width: 550px; height: 620px; " frameborder="0" scrolling="" onload="scro11me(this)"></iframe><script type="text/javascript">function scro11me(f){f.contentWindow.scrollTo(0,0); }</script>
+					<div class="clear"></div>
+									</div>
+
+			</div>
+
+		
+				
+		
+<!-- You can start editing here. -->
+
+
+	
+		
+	</div>
+
+	
+<div id="sidebar">
+	<ul>
+
+<li id="tag_cloud-3" class="widget widget_tag_cloud"><h2 class="widgettitle">Doap Tag Cloud</h2>
+<div class="tagcloud"><a href='http://doap.com/category/articles' class='tag-link-13' title='13 topics' style='font-size: 20.395833333333pt;'>Articles</a>
+<a href='http://doap.com/category/articles/cloud-computing' class='tag-link-14' title='1 topic' style='font-size: 8pt;'>Cloud Computing</a>
+<a href='http://doap.com/category/cms-2' class='tag-link-17' title='2 topics' style='font-size: 10.625pt;'>CMS</a>
+<a href='http://doap.com/category/developers' class='tag-link-26' title='1 topic' style='font-size: 8pt;'>Developers</a>
+<a href='http://doap.com/category/glossary' class='tag-link-33' title='2 topics' style='font-size: 10.625pt;'>Glossary</a>
+<a href='http://doap.com/category/open-source' class='tag-link-18' title='2 topics' style='font-size: 10.625pt;'>Open source</a>
+<a href='http://doap.com/category/sample-landing-pages' class='tag-link-11' title='1 topic' style='font-size: 8pt;'>Sample landing pages</a>
+<a href='http://doap.com/category/socal-ruud' class='tag-link-36' title='17 topics' style='font-size: 22pt;'>Southern Ca Ruud Dealers</a>
+<a href='http://doap.com/category/cms-2/top-ranked-cms' class='tag-link-29' title='2 topics' style='font-size: 10.625pt;'>Top ranked CMS</a>
+<a href='http://doap.com/category/uncategorized' class='tag-link-1' title='2 topics' style='font-size: 10.625pt;'>Uncategorized</a>
+<a href='http://doap.com/category/web-design' class='tag-link-25' title='2 topics' style='font-size: 10.625pt;'>Web Design</a></div>
+</li>
+<li id="nav_menu-4" class="widget widget_nav_menu"><h2 class="widgettitle">SoCal Air Conditioning</h2>
+<div class="menu-maps-container"><ul id="menu-maps" class="menu"><li id="menu-item-3433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3433"><a title="Brea Air Conditioning 1-800-319-5128" href="http://doap.com/southern-california-ruud-ac-ad-campaign/brea-air-conditioning-%e2%80%93-1-800-319-5128">Brea Air Conditioning 1-800-319-5128</a></li>
+<li id="menu-item-3177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3177"><a title="Canyon Country Air Conditioning 1-800-413-0714 " href="http://doap.com/canyon-country-ac-sale-1-800-413-0714">Canyon Country Air Conditioning 1-800-413-0714</a></li>
+<li id="menu-item-3173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3173"><a title="Costa Mesa Air Conditioning 1-800-561-6703 " href="http://doap.com/costa-mesa-air-condiotioning-sale-1-800-561-6703">Costa Mesa Air Conditioning 1-800-561-6703</a></li>
+<li id="menu-item-3176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3176"><a title="Garden Grove Air Conditioning 1-800-419-3157" href="http://doap.com/garden-grove-air-conditioniong-sale-1-800-419-3157">Garden Grove Air Conditioning 1-800-419-3157</a></li>
+<li id="menu-item-2845" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2845"><a title="Glendora Air Conditioning 1-800-319-4613" href="http://doap.com/glendora-ac-sale-1-800-413-0715">Glendora Air Conditioning 1-800-319-4613</a></li>
+<li id="menu-item-2838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2838"><a title="Irvine Air Conditioning 1-800-319-4613" href="http://doap.com/irvine-air-conditioning-sale-1-800-319-4613">Irvine Air Conditioning 1-800-319-4613</a></li>
+<li id="menu-item-2840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2840"><a href="http://doap.com/northridge-ac-sale-1-800-517-9651">Northridge Air Conditioning 1-800-517-9651</a></li>
+<li id="menu-item-2971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2971"><a href="http://doap.com/orange-air-conditioning-sale-1-800-217-1052">Orange Air Conditioning 1-800-217-1052</a></li>
+<li id="menu-item-2841" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2841"><a href="http://doap.com/oxnard-air-conditining-sale-1-800-517-9026">Oxnard Air Conditioning 1-800-517-9026</a></li>
+<li id="menu-item-2842" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2842"><a href="http://doap.com/palm-desert-air-conditioning-sale-1-800-319-5421">Palm Desert Air Conditioning 1-800-319-5421</a></li>
+<li id="menu-item-2847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2847"><a href="http://doap.com/simi-valley-ac-sale-1-800-461-9178">Simi Valley Air Conditioning 1-800-461-2831</a></li>
+<li id="menu-item-2839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839"><a href="http://doap.com/southern-california-ruud-ac-ad-campaign/sun-valley-ac-sale-1-800-541-2904">Sun Valley Air Conditioning 1-800-319-5421</a></li>
+<li id="menu-item-2844" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2844"><a href="http://doap.com/stanton-air-conditioning-sale-1-800-514-4680">Stanton Air Conditioning 1-800-514-4680</a></li>
+<li id="menu-item-3459" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3459"><a href="http://doap.com/southern-california-ruud-ac-ad-campaign/sylmar-air-conditioining-1-800-351-1735">Sylmar Air Conditioining 1-800-351-1735</a></li>
+<li id="menu-item-2846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2846"><a href="http://doap.com/tarzana-ca-ac-sale-1-800-517-8049-1-800-461-9014">Tarzana Air Conditioning 1-800-517-8049</a></li>
+<li id="menu-item-2843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2843"><a href="http://doap.com/thousand-palms-air-conditioning-sale-1-800-319-5417">Thousand Palms Air Conditioning 1-800-319-5417</a></li>
+<li id="menu-item-3175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3175"><a href="http://doap.com/yorba-linda-air-conditioning-sale-1-800-315-8159">Yorba Linda Air Conditioning 1-800-315-8159</a></li>
+</ul></div></li>
+<li id="theme_socialmedia-2" class="widget theme_socialmedia">			<div id="socialmedia_buttons">
+			
+								
+									<a href="http://doap.com/feed/"><img src="http://doap.com/wp-content/themes/zeedisplay/images/icons/rss.png" alt="rss" /></a>
+								
+									<a href="mailto:support@doap.com"><img src="http://doap.com/wp-content/themes/zeedisplay/images/icons/email.png" alt="email" /></a>
+								
+									<a href="http://twitter.com/dmenache"><img src="http://doap.com/wp-content/themes/zeedisplay/images/icons/twitter.png" alt="twitter" /></a>
+								
+									<a href="http://facebook.com/davidmenache"><img src="http://doap.com/wp-content/themes/zeedisplay/images/icons/facebook.png" alt="facebook" /></a>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+							</div>
+		</li>
+	
+	</ul>
+</div>	<div class="clear"></div>
+		
+				<div id="bottombar">
+			<ul>
+				<li id="text-2" class="widget widget_text">			<div class="textwidget"><a href=http://doap.com/wp-admin/>Administrator Login</a></div>
+		</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+				
+		<div id="footer">
+			Doap v0.9.9.1  works with IE 6.0+, Firefox 3+, Safari 3.1+, Opera 9.6+, and Google Chrome.			<div class="credit_link">Theme by <a href="http://themezee.com/zeedisplay">ThemeZee.com</a></div>
+			<div class="clear"></div>
+		</div>
+	
+	</div>
+</div>
+	</body>
+</html>	

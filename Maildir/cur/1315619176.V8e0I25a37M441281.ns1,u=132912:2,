@@ -1,0 +1,73 @@
+Return-Path: <costamesaaircon+caf_=sales=doap.com@thehvac.net>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gw0-f49.google.com (mail-gw0-f49.google.com [74.125.83.49])
+	by ns1 (Postfix) with ESMTP id 45C228879D
+	for <sales@doap.com>; Fri,  9 Sep 2011 18:46:16 -0700 (PDT)
+Received: by gwb1 with SMTP id 1so2035712gwb.22
+        for <sales@doap.com>; Fri, 09 Sep 2011 18:46:15 -0700 (PDT)
+Received: by 10.236.80.9 with SMTP id j9mr15454411yhe.94.1315619175733;
+        Fri, 09 Sep 2011 18:46:15 -0700 (PDT)
+X-Forwarded-To: sales@doap.com
+X-Forwarded-For: costamesaaircon@thehvac.net sales@doap.com
+Delivered-To: costamesaaircon@thehvac.net
+Received: by 10.147.41.1 with SMTP id t1cs17818yaj;
+        Fri, 9 Sep 2011 18:46:14 -0700 (PDT)
+Received: by 10.236.77.162 with SMTP id d22mr15612157yhe.24.1315619174851;
+        Fri, 09 Sep 2011 18:46:14 -0700 (PDT)
+Received: from mail-yi0-f71.google.com (mail-yi0-f71.google.com [209.85.218.71])
+        by mx.google.com with ESMTPS id d61si3479467yhn.94.2011.09.09.18.46.14
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 09 Sep 2011 18:46:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3ZsFqTg8KDw0nq914q5-014r2yBt11tyr.p1zp156nzr5nnv4p106uru8np.0r6@usercomm.bounces.google.com designates 209.85.218.71 as permitted sender) client-ip=209.85.218.71;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of 3ZsFqTg8KDw0nq914q5-014r2yBt11tyr.p1zp156nzr5nnv4p106uru8np.0r6@usercomm.bounces.google.com designates 209.85.218.71 as permitted sender) smtp.mail=3ZsFqTg8KDw0nq914q5-014r2yBt11tyr.p1zp156nzr5nnv4p106uru8np.0r6@usercomm.bounces.google.com; dkim=pass (test mode) header.i=@google.com
+Received: by yie30 with SMTP id 30so2110359yie.10
+        for <costamesaaircon@thehvac.net>; Fri, 09 Sep 2011 18:46:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:message-id:date:subject:from:to:content-type;
+        bh=RS0c/8iPkRciEP1E/XsAtBT+FVAD/nzxY28Y0q6oC20=;
+        b=eMDEIuc//j4ZxWYy8mjikfqcdYFCkVUfAzRapm+psVonzLVu4T0opl2O1QIsOVEa/T
+         JmWunvlbUWSPntVUyKNw==
+MIME-Version: 1.0
+Received: by 10.42.153.8 with SMTP id k8mr88704icw.22.1315619174450; Fri, 09
+ Sep 2011 18:46:14 -0700 (PDT)
+Message-ID: <1315619174425.1f52d613-8084-4b12-9e9f-1fe63940f002@google.com>
+Date: Sat, 10 Sep 2011 01:46:14 +0000
+Subject: Getting Started with Google AdWords
+From: adwords-noreply@google.com
+To: costamesaaircon@thehvac.net
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Congratulations, you've successfully activated your AdWords account. You  
+can now reach your customers with targeted, relevant advertising.
+
+For help with your new account, visit our Getting Started Guide  
+(http://www.google.com/adwords/beginnersguide/en-US ) to learn:
+
+- How AdWords works
+
+- How you can manage your costs
+
+- How to write compelling ads and choose effective keywords
+
+- How to find answers to your questions and discover other helpful resources
+
+Sign in to your account now!
+
+Sincerely,
+
+The Google AdWords Team
+
+------------------------
+
+This message was sent from a notification-only email address that does not  
+accept incoming email. Please do not reply to this message. If you have any  
+questions after following the steps above, please visit the Google AdWords  
+Help Center at http://adwords.google.com/support/aw/?hl=en_US to find  
+answers to frequently asked questions and a 'contact us' link near the  
+bottom of the page.
+
+------------------------
+
+Your AdWords account number: 497-577-4091

@@ -1,0 +1,388 @@
+Return-Path: <tech+bncCOKrwsOaDRCO4KLzBBoENnqYoQ@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gy0-f200.google.com (mail-gy0-f200.google.com [209.85.160.200])
+	by ns1 (Postfix) with ESMTP id EEC86886C0;
+	Thu,  8 Sep 2011 05:07:42 -0700 (PDT)
+Received: by gyh3 with SMTP id 3sf357656gyh.7
+        for <multiple recipients>; Thu, 08 Sep 2011 05:07:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=fYoA+F+Loc3Sa5+ZMnJLTrD6dOcrxIamkdlGaAOKYmQ=;
+        b=HrYZJB+AkbjROn82NjnjNupHS8FqcpRQiykpfRlwgRD8FtiW92p9FEn1A67qytG+rk
+         b5Z0lyniKNZE/xoccmyw==
+Received: by 10.101.97.13 with SMTP id z13mr489751anl.44.1315483662557;
+        Thu, 08 Sep 2011 05:07:42 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.101.189.5 with SMTP id r5ls7507042anp.6.gmail; Thu, 08 Sep
+ 2011 05:07:42 -0700 (PDT)
+Received: by 10.236.177.73 with SMTP id c49mr3558477yhm.89.1315483662313;
+        Thu, 08 Sep 2011 05:07:42 -0700 (PDT)
+Received: by 10.236.177.73 with SMTP id c49mr3558472yhm.89.1315483662290;
+        Thu, 08 Sep 2011 05:07:42 -0700 (PDT)
+Received: from mail-qw0-f71.google.com (mail-qw0-f71.google.com [209.85.216.71])
+        by mx.google.com with ESMTPS id d61si3593693yhn.123.2011.09.08.05.07.42
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 08 Sep 2011 05:07:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3B7BoThEKBIItuxkvr4+lkkjvxu34muumrk.iusZkinznkn1gi.tkz@feedburner.bounces.google.com designates 209.85.216.71 as permitted sender) client-ip=209.85.216.71;
+Received: by qwg2 with SMTP id 2so878422qwg.10
+        for <Tech@thehvac.net>; Thu, 08 Sep 2011 05:07:41 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.132.74 with SMTP id c10mt866355ict.35.1315483655601; Thu,
+ 08 Sep 2011 05:07:35 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <90e6ba3fcd6d0004c204ac6ce813@google.com>
+Date: Thu, 08 Sep 2011 12:07:41 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3B7BoThEKBIItuxkvr4+lkkjvxu34muumrk.iusZkinznkn1gi.tkz@feedburner.bounces.google.com
+ designates 209.85.216.71 as permitted sender) smtp.mail=3B7BoThEKBIItuxkvr4+lkkjvxu34muumrk.iusZkinznkn1gi.tkz@feedburner.bounces.google.com;
+ dkim=pass (test mode) header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=90e6ba3fcd6d5c943904ac6ce8b4
+
+--90e6ba3fcd6d5c943904ac6ce8b4
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+
+Amazon Web Services Blog
+
+///////////////////////////////////////////
+Updated Mobile SDKs for AWS - Improved Credential Management
+
+Posted: 07 Sep 2011 05:54 PM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/kXmc0vL-ZDM/updated-mobile-sdks-for-aws-improved-credential-management.html?utm_source=feedburner&utm_medium=email
+
+
+We have updated the AWS SDK for iOS and the AWS SDK for Android to make it  
+easier for you to build applications that need to make calls to AWS using  
+your AWS credentials.
+
+Until now, your AWS credentials would have to be stored on the device. If  
+your credentials are embedded in a mobile application there is no  
+straightforward way to rotate them without updating every installed copy of  
+the application. Alternatively, each installed copy of the application  
+could require entry of an individual set of AWS credentials. This option  
+would add some friction to the installation process.
+
+The SDK now includes support for using temporary security credentials  
+provided by the AWS Security Token Service. The SDK provides two sample  
+applications that demonstrate how to connect to a token vending machine  
+which serves as an interface to the AWS Security Token Service. See the  
+Credential Management in Mobile Applications article for more details.
+
+Applications that make use of the token vending machine can obtain AWS  
+credentials on an as-needed basis. You can use the token vending machines  
+that we supply, or you can implement your own.
+
+Our token vending machines are distributed as WAR files that can be run  
+with AWS Elastic Beanstalk, preferably using the credentials of an IAM  
+(Identity and Access Management) user. We have provided two versions of  
+each token vending machine, Anonymous and Identity.
+
+Anonymous Token Vending Machine
+The Anonymous token vending machine is designed to support registration at  
+the device level. It supports two principal functions - registerdevice and  
+gettoken. Here is the basic request and response flow:
+
+
+Identity Token Vending Machine
+The Identity token vending machine is designed to support registration and  
+login at the user level. It supports three principal functions:  
+registeruser, login, and gettoken. Heres the basic request and response  
+flow:
+
+
+Read more by reading our Getting Started Guides for iOS and Android.
+
+If you have used one of our SDKs to build a mobile application, Id enjoy  
+hearing about it. Please feel free to post a comment or to send me some  
+email (awseditor@amazon.com).
+
+-- Jeff;
+
+
+
+///////////////////////////////////////////
+Build an Android App and Submit it to the Amazon Appstore for Android; Get  
+$50 AWS Credit
+
+Posted: 07 Sep 2011 11:38 AM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/lhzWD5J9sec/build-an-android-app-and-submit-it-to-the-amazon-appstore-get-50-aws-credit.html?utm_source=feedburner&utm_medium=email
+
+
+Do you have an idea for a cool and powerful Android application that can  
+make use of one or more AWS services (preferably using the AWS SDK for  
+Android)?
+
+If so, now is the time to design and code the application and submit it to  
+the Amazon Appstore via the Appstore Developer Program. All valid Android  
+apps submitted between now and November 15, 2011 are eligible to receive a  
+$50 promotion code (AWS credit).
+
+The AWS SDK for Android gives you access to the storage, database, and  
+messaging services that you'll need to build some very interesting apps.
+
+AWS Evangelist Matt Wood has recorded a really nice video with more  
+information about developing applications for Android:
+
+
+
+
+Read more about the promotion, and get going now!
+
+-- Jeff;
+
+PS - I'm looking forward to see what you come up with. I recently traded in  
+my well-worn BlackBerry for a shiny new Droid 3 and I need some really  
+interesting stuff to run on it.
+
+
+
+--
+You are subscribed to email updates from "Amazon Web Services Blog."
+To stop receiving these emails, you may unsubscribe now:  
+http://feedburner.google.com/fb/a/mailunsubscribe?k=WYlqsHgFmj4AaMxCIo4DpqGJl_Y
+
+Email delivery powered by Google.
+Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+
+--90e6ba3fcd6d5c943904ac6ce8b4
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/kXmc0=
+vL-ZDM/updated-mobile-sdks-for-aws-improved-credential-management.html?utm_=
+source=3Dfeedburner&utm_medium=3Demail">Updated Mobile SDKs for AWS - Impro=
+ved Credential Management</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 07 Sep 2011 05:54 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>We have updated the <a href=
+=3D"http://aws.amazon.com/sdkforios/" target=3D"_self">AWS SDK for iOS</a> =
+and the <a href=3D"http://aws.amazon.com/sdkforandroid/" target=3D"_self">A=
+WS SDK for Android</a> to make it easier for you to build applications that=
+ need to make calls to AWS using your AWS credentials.</p>
+<p>Until now, your AWS credentials would have to be stored on the device. I=
+f your credentials are embedded in a mobile application there is no straigh=
+tforward way to rotate them without updating every installed copy of the ap=
+plication. Alternatively, each installed copy of the application could requ=
+ire entry of an individual set of AWS credentials. This option would add so=
+me friction to the installation process.</p>
+<p>The SDK now includes support for using temporary security credentials pr=
+ovided by the AWS Security Token Service. The SDK provides two sample appli=
+cations that demonstrate how to connect to a <em>token vending machine</em>=
+ which serves as an interface to the AWS Security Token Service.&#0160; See=
+ the <a href=3D"http://aws.amazon.com/articles/4611615499399490" target=3D"=
+_self">Credential Management in Mobile Applications</a> article for more de=
+tails.</p>
+<p>Applications that make use of the token vending machine can obtain AWS c=
+redentials on an as-needed basis. You can use the token vending machines th=
+at we supply, or you can implement your own.</p>
+<p>Our token vending machines are distributed as WAR files that can be run =
+with <a href=3D"http://aws.amazon.com/elasticbeanstalk/" target=3D"_self">A=
+WS Elastic Beanstalk</a>, preferably using the credentials of an IAM (<a hr=
+ef=3D"http://aws.amazon.com/iam/" target=3D"_self">Identity and Access Mana=
+gement</a>) user. We have provided two versions of each token vending machi=
+ne, Anonymous and Identity.</p>
+<p><span style=3D"text-decoration: underline;"><strong>Anonymous Token Vend=
+ing Machine</strong></span><br />The Anonymous token vending machine is des=
+igned to support registration at the device level. It supports two principa=
+l functions - <strong>registerdevice</strong> and <strong>gettoken</strong>=
+. Here is the basic request and response flow:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/mobile_sdk_tvm_anon_1.png" /></div>
+<p><span style=3D"text-decoration: underline;"><strong>Identity Token Vendi=
+ng Machine</strong></span><br />The Identity token vending machine is desig=
+ned to support registration and login at the user level. It supports three =
+principal functions: <strong>registeruser</strong>, <strong>login</strong>,=
+ and<strong> gettoken</strong>. Here&#39;s the basic request and response f=
+low:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/mobile_sdk_tvm_identity_1.png" /></div>
+<p>Read more by reading our Getting Started Guides for <a href=3D"http://aw=
+s.amazon.com/articles/5127796662758927" target=3D"_self">iOS</a> and <a hre=
+f=3D"http://aws.amazon.com/articles/4225549089557252" target=3D"_self">Andr=
+oid</a>.</p>
+<p>If you have used one of our SDKs to build a mobile application, I&#39;d =
+enjoy hearing about it. Please feel free to post a comment or to send me so=
+me email (<a href=3D"mailto:awseditor@amazon.com" target=3D"_self">awsedito=
+r@amazon.com</a>).</p>
+<p>-- Jeff;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DkXmc0v=
+L-ZDM:PMFvt08eRW0:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DkXmc0vL-ZDM:PMFvt0=
+8eRW0:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DkXmc0vL-ZDM:PMFvt08eRW0:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/k=
+Xmc0vL-ZDM?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"2" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/lhzWD=
+5J9sec/build-an-android-app-and-submit-it-to-the-amazon-appstore-get-50-aws=
+-credit.html?utm_source=3Dfeedburner&utm_medium=3Demail">Build an Android A=
+pp and Submit it to the Amazon Appstore for Android; Get $50 AWS Credit</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 07 Sep 2011 11:38 AM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>Do you have an idea for a coo=
+l and powerful Android application that can make use of one or more AWS ser=
+vices (preferably using the <a href=3D"http://aws.amazon.com/sdkforandroid/=
+" target=3D"_self">AWS SDK for Android</a>)?</p>
+<p>If so, now is the time to design and code the application and submit it =
+to the Amazon Appstore via the <a href=3D"https://developer.amazon.com/home=
+.html" target=3D"_self">Appstore Developer Program</a>. All valid Android a=
+pps submitted between now and November 15, 2011 are eligible to receive a $=
+50 promotion code (AWS credit).</p>
+<p>The AWS SDK for Android gives you access to the storage, database, and m=
+essaging services that you'll need to build some very interesting apps.</p>
+<p>AWS Evangelist Matt Wood has recorded a really nice video with more info=
+rmation about developing applications for Android:</p>
+<p style=3D"text-align: center;">
+
+<iframe width=3D"480" height=3D"390" src=3D"http://www.youtube.com/embed/kJ=
+ap3OTbFuY" frameborder=3D"0" allowfullscreen></iframe></p>
+<p><a href=3D"http://aws.amazon.com/Android-development-with-AWS/?utm_sourc=
+e=3Dawsblog&amp;utm_medium=3Dbanner&amp;utm_campaign=3DSM_awsblog-appstore&=
+amp;trk=3DSM_awsblog-appstore" target=3D"_self">Read more about the promoti=
+on</a>, and get going now!</p>
+<p>-- Jeff;</p>
+<p>PS - I'm looking forward to see what you come up with. I recently traded=
+ in my well-worn BlackBerry for a shiny new Droid 3 and I need some really =
+interesting stuff to run on it.</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DlhzWD5=
+J9sec:Lb5i6miijYw:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DlhzWD5J9sec:Lb5i6m=
+iijYw:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DlhzWD5J9sec:Lb5i6miijYw:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/l=
+hzWD5J9sec?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--90e6ba3fcd6d5c943904ac6ce8b4--

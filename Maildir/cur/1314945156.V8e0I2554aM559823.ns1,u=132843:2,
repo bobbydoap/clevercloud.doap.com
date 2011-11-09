@@ -1,0 +1,51 @@
+Return-Path: <mysql-webmaster@sun.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from http1.web.mysql.com (www.mysql.com [213.136.52.29])
+	by ns1 (Postfix) with ESMTP id 2F19788707
+	for <support@doap.com>; Thu,  1 Sep 2011 23:32:36 -0700 (PDT)
+Received: from http1.web.mysql.com (localhost [127.0.0.1])
+	by http1.web.mysql.com (8.14.4/8.14.3) with ESMTP id p826WZmV030882
+	for <support@doap.com>; Fri, 2 Sep 2011 06:32:35 GMT
+Received: (from apache@localhost)
+	by http1.web.mysql.com (8.14.4/8.14.4/Submit) id p826WZX7030879;
+	Fri, 2 Sep 2011 06:32:35 GMT
+Date: Fri, 2 Sep 2011 06:32:35 GMT
+Message-Id: <201109020632.p826WZX7030879@http1.web.mysql.com>
+To: support@doap.com
+Subject: Welcome to MySQL!
+From: MySQL <webmaster@mysql.com>
+
+
+Welcome to MySQL.com!
+
+Thank you for registering with MySQL. You've joined a community of more than 2 million registered MySQL users and developers!
+
+Your new account gives you access to many important features on our 
+websites, including:
+
+    - Our free monthly newsletter with important announcments and tips
+    - Timely notification of updates to our Developer Zone
+	- Add your comments to our online manuals
+	- Quick signups for white papers, case studies, and more!
+	- Report bugs using our online bug tracker
+	- Easy access to our online shop
+
+
+Please save this email for future reference.
+
+Your account information:
+Name: dave menache
+Email: support@doap.com
+Password: gaeproubou
+You can log in to your new account and edit your profile options at:
+  http://www.mysql.com/login.php
+
+
+
+-- MySQL Webmaster <webmaster@mysql.com> 
+
+                               ----
+
+If you wish to unsubscribe from future email communication from MySQL
+please visit http://www.mysql.com/unsubscribe and enter your email address.

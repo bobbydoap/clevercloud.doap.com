@@ -1,0 +1,666 @@
+Return-Path: <tech+bncCOKrwsOaDRCurefzBBoELzFuOg@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gx0-f200.google.com (mail-gx0-f200.google.com [209.85.161.200])
+	by ns1 (Postfix) with ESMTP id 132D38895A;
+	Wed, 21 Sep 2011 05:21:03 -0700 (PDT)
+Received: by gxk24 with SMTP id 24sf1363336gxk.7
+        for <multiple recipients>; Wed, 21 Sep 2011 05:21:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=KBtLviK76mp/mCYtrXR2XTN/c9kiblo/ljf0gz8Eepk=;
+        b=gB2EWPWL1bAxi0tPXWh5yD5Rt7JBcijtjc6VHI40+qm04pFQNiESz3A2SP+q4E1ug5
+         CMsOGPtcsAIcQ2QCxjlQ==
+Received: by 10.101.188.13 with SMTP id q13mr632628anp.33.1316607662484;
+        Wed, 21 Sep 2011 05:21:02 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.150.109.16 with SMTP id h16ls2454288ybc.3.gmail; Wed, 21 Sep
+ 2011 05:21:02 -0700 (PDT)
+Received: by 10.150.188.3 with SMTP id l3mr930374ybf.120.1316607662214;
+        Wed, 21 Sep 2011 05:21:02 -0700 (PDT)
+Received: by 10.150.188.3 with SMTP id l3mr930371ybf.120.1316607662150;
+        Wed, 21 Sep 2011 05:21:02 -0700 (PDT)
+Received: from mail-yx0-f199.google.com (mail-yx0-f199.google.com [209.85.213.199])
+        by mx.google.com with ESMTPS id f11si2372223ybf.84.2011.09.21.05.21.02
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 21 Sep 2011 05:21:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3p9Z5ThEKBLQhilYjfs+ZYYXjlirsaiiafY.WigNYWbnbYbpUW.hYn@feedburner.bounces.google.com designates 209.85.213.199 as permitted sender) client-ip=209.85.213.199;
+Received: by yxk36 with SMTP id 36so2115956yxk.10
+        for <Tech@thehvac.net>; Wed, 21 Sep 2011 05:21:01 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.101.164.4 with SMTP id r4mt953250ano.48.1316607655742; Wed, 21
+ Sep 2011 05:20:55 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <0016e68cc0d4a1191304ad729b9f@google.com>
+Date: Wed, 21 Sep 2011 12:21:01 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3p9Z5ThEKBLQhilYjfs+ZYYXjlirsaiiafY.WigNYWbnbYbpUW.hYn@feedburner.bounces.google.com
+ designates 209.85.213.199 as permitted sender) smtp.mail=3p9Z5ThEKBLQhilYjfs+ZYYXjlirsaiiafY.WigNYWbnbYbpUW.hYn@feedburner.bounces.google.com;
+ dkim=pass header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=0016e68cc0d4fe4d4604ad729b0f
+
+--0016e68cc0d4fe4d4604ad729b0f
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+QW1hem9uIFdlYiBTZXJ2aWNlcyBCbG9nDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8NCkFXUyBTdW1tZXIgU3RhcnR1cHM6IFBlcml0b3IvU2NhbGFyaXVtDQoN
+ClBvc3RlZDogMjAgU2VwIDIwMTEgMTE6MDUgUE0gUERUDQpodHRwOi8vZmVlZHByb3h5Lmdvb2ds
+ZS5jb20vfnIvQW1hem9uV2ViU2VydmljZXNCbG9nL34zL2FZdEpVZjcyQVdRL2F3cy1zdW1tZXIt
+c3RhcnR1cHMtcGVyaXRvcnNjYWxhcml1bS5odG1sP3V0bV9zb3VyY2U9ZmVlZGJ1cm5lciZ1dG1f
+bWVkaXVtPWVtYWlsDQoNCg0KDQoNCk92ZXIgdGhlIHN1bW1lciBtb250aHMsIHdlZCBsaWtlIHRv
+IHNoYXJlIGEgZmV3IHN0b3JpZXMgZnJvbSBzdGFydHVwcyAgDQphcm91bmQgdGhlIHdvcmxkOiB3
+aGF0IGFyZSB0aGV5IHdvcmtpbmcgb24gYW5kIGhvdyB0aGV5IGFyZSB1c2luZyB0aGUgY2xvdWQg
+IA0KdG8gZ2V0IHRoaW5ncyBkb25lLlRvZGF5IEnigJltIHNwZWFraW5nIHRvIEpvbmF0aGFuIGFu
+ZCBUaG9tYXMsIHR3byBvZiB0aGUgIA0KY3JlYXRvcnMgb2ZTY2FsYXJpdW0sIGZyb20gQmVybGlu
+LCBHZXJtYW55IQ0KDQoNCg0KDQpSOiBIaSBndXlzLCBjb3VsZCB5b3UgYnJpZWZseSBkZXNjcmli
+ZSBTY2FsYXJpdW0gYW5kIHRoZSBiYWNrZ3JvdW5kIG9mIHlvdXIgIA0KdGVhbT8NClRob21hczoN
+CldpdGggU2NhbGFyaXVtLCB3ZXZlIGNyZWF0ZWQgYW4gZWFzeSBtYW5hZ2VtZW50IHNlcnZpY2Ug
+Zm9yIEVDMiBjbHVzdGVycy4gIA0KU2NhbGFyaXVtIGhlbHBzIG91ciBjdXN0b21lcnMgZGVwbG95
+IFJhaWxzLCBOb2RlLmpzLCBQSFAsIEphdmEsIFB5dGhvbiBvciAgDQphbnkgb3RoZXIgc3RhY2su
+IEl0IGF1dG9tYXRlcyB0aGUgaW5pdGlhbCBzZXR1cCBhbmQgY29udGludW91cyAgDQpjb25maWd1
+cmF0aW9uIG9mIHNlcnZlcnMuIFNjYWxhcml1bSBhbHNvIHRha2VzIGNhcmUgb2Ygc2NhbGluZywg
+c2VjdXJpdHksICANCm1vbml0b3JpbmcsIGFuZCBhIGxvdCBtb3JlLg0KDQpXZSBzdGFydGVkIGFz
+IGFuIElUIGNvbnN1bHRhbmN5IGluIDIwMDUgYW5kIHVzZWQgRUMyIGZyb20gdGhlIGVhcmx5IGRh
+eXMgb24gIA0KdG8gaGVscCBvdXIgY2xpZW50cyBzY2FsZSBvdXQuIERvaW5nIHNvLCB3ZSByZWFs
+aXplZCB0aGF0IHdlIHJlcGVhdGVkICANCm91cnNlbHZlcyBpbiB0aGlzIGtpbmQgb2YgcHJvamVj
+dHMuIFNvIHdlIGNyZWF0ZWQgU2NhbGFyaXVtIGFzIGEgZnJhbWV3b3JrICANCnRoYXQgaGVscHMg
+Y3VzdG9tZXJzIGF1dG9tYXRlIEVDMiBkZXBsb3ltZW50cy4NCg0KDQpSOiBIb3cgaGF2ZSB5b3Ug
+aW5jb3Jwb3JhdGVkIEFtYXpvbiBXZWIgU2VydmljZXMgYXMgcGFydCBvZiB5b3VyIG93biAgDQph
+cmNoaXRlY3R1cmU/IFdoYXQgc2VydmljZXMgYXJlIHlvdSB1c2luZyBhbmQgaG93Pw0KDQpKb25h
+dGhhbjoNCldlIGhlYXZpbHkgdXNlIEVDMiwgRUJTIGFuZCBTMy4gQW5kIGluIG91ciBzdGFjayB5
+b3Ugd2lsbCBmaW5kIFJ1YnksICANCkNvdWNoREIsIFJlZGlzLCBSYWJiaXRNUSwgQ2hlZiBhbmQg
+b3RoZXIgbmljZSBhbmQgc2hpbnkgc3R1ZmYuIFdlIGJyb3VnaHQgIA0KeW91IGEgbGl0dGxlIGls
+bHVzdHJhdGlvbiB0aGF0IHNob3dzIHlvdSBob3cgd2UgcnVuIFNjYWxhcml1bSBvbiBFQzIuIEJ1
+dCAgDQpiZWZvcmUgdGhhdCwgeW91IHdpbGwgbmVlZCB0byB1bmRlcnN0YW5kIGEgbGl0dGxlIG1v
+cmUgYWJvdXQgd2hhdCB3ZSBkby4NCg0KQXMgc2FpZCwgU2NhbGFyaXVtIGhlbHBzIGN1c3RvbWVy
+cyBydW4gYXBwcyBvbiBFQzIuIEJ1dCBpbnN0ZWFkIG9mIG9mZmVyaW5nICANCnlvdSBzb21lIHJl
+c3RyaWN0aXZlIGFuZCBleHBlbnNpdmUgUGFhUyBzb2x1dGlvbiwgd2Ugb2ZmZXIgeW91IGFuIGVs
+ZWdhbnQgIA0Kd2F5IHRvIGF1dG9tYXRlIGV2ZXJ5dGhpbmcgb24geW91ciBzZXJ2ZXJzLiBTbyB5
+b3Ugd2lsbCBzdGlsbCBtYWludGFpbiByb290ICANCmFjY2VzcyB0byBhbGwgc2VydmVycyBhbmQg
+YXJlIGFibGUgdG8gY29uZmlndXJlIGVhY2ggYW5kIGV2ZXJ5IHNldHRpbmcuDQoNCg0KUjogSG93
+IGRvZXMgU2NhbGFyaXVtIGhlbHAgY3VzdG9tZXJzIHJ1biBhcHBzIG9uIEFXUz8NCg0KVGhvbWFz
+Og0KSW4gdGhlIGNsb3VkLCBlYWNoIHNlcnZlciBnb2VzIHRocm91Z2ggc29tZXRoaW5nIHRoYXQg
+d2Ugd291bGQgZGVzY3JpYmUgYXMgIA0KYSBzZXJ2ZXIgbGlmZSBjeWNsZS4gRWFjaCBhbmQgZXZl
+cnkgc2VydmVyIGluIHlvdXIgY2x1c3RlciBjb21lcyB0byAgDQpleGlzdGVuY2UgYXQgc29tZSB0
+aW1lLCBpdCBleHBlcmllbmNlcyBzb21lIGNoYW5nZXMgYW5kIGl0IGdvZXMgYXQgc29tZSAgDQpw
+b2ludCBsYXRlci4gU29tZSBvZiB0aGVtIGhhdmUgYSByYXRoZXIgc2hvcnQgbGlmZXNwYW4gbGlr
+ZSBhcHBsaWNhdGlvbiAgDQpzZXJ2ZXJzIHRoYXQgYXJlIHVzZWQgdG8gYnVyc3Qgb3V0LCBvdGhl
+cnMgaGF2ZSBsb25nIGxpZmVzcGFucyBsaWtlICANCmRhdGFiYXNlIHNlcnZlcnMuIEJ1dCBhbGwg
+b2YgdGhlbSBnbyB0cm91Z2ggdGhpcyBjeWNsZS4NCg0KV2UgZGVmaW5lZCBldmVudHMgaW4gdGhp
+cyBsaWZlIGN5Y2xlIHdoaWNoIHdlIGFuZCB5b3UgY2FuIGhvb2sgaW50byB0byAgDQpleGVjdXRl
+IHNjcmlwdHMgb24gdGhlIHNlcnZlcnMuIFRoZSBsaWZlIGN5Y2xlIGV2ZW50cyB0aGF0IGFyZSB1
+c2VkIGluICANClNjYWxhcml1bSBhcmUgdGhlIGZvbGxvd2luZyBvbmVzLg0KDQoNCg0KU2V0dXAg
+aXMgdXNlZCB0byB1cGRhdGUgYSBiYXNlIGltYWdlIGFuZCBpbnN0YWxsIGV2ZXJ5dGhpbmcgeW91
+IG5lZWQgb24gdGhlICANCmZseSBhcyBzb29uIGFzIHRoZSBzZXJ2ZXIgY29tZXMgaW50byBleGlz
+dGVuY2UuDQpDb25maWd1cmUgaXMgdHJpZ2dlcmVkIGJ5IGFueSBjaGFuZ2UgaW4gdGhlIGNsdXN0
+ZXIgLSBuZXcgc2VydmVycyBjb21pbmcgb3IgIA0Kb2xkIG9uZXMgZ29pbmcuDQpEZXBsb3kgZXhl
+Y3V0ZXMgc2NyaXB0cyB0aGF0IHNob3VsZCBydW4gZHVyaW5nIHRoZSBkZXBsb3ltZW50IG9mIGFu
+ICANCmFwcGxpY2F0aW9uIG9uIHRoZSBzZXJ2ZXJzLiBZb3UgY2FuIGhvb2sgaW50byB0aGUgZGVw
+bG95bWVudCB3aXRoICANCmJlZm9yZV9taWdyYXRlIG9yIGFueSBvdGhlciBob29rIHlvdSBrbm93
+IGZyb20gQ2FwaXN0cmFuby4NClVuZGVwbG95IC0gdGhpcyBpcyB0cmlnZ2VyZWQgaWYgeW91IHdh
+bnQgdG8gcmVtb3ZlIGFuIGFwcGxpY2F0aW9uLg0KU2h1dGRvd24gaXMgdHJpZ2dlcmVkIGlmIHlv
+dSBncmFjZWZ1bGx5IHN0b3AgYSBzZXJ2ZXIuIFlvdSBjYW4gY29weSBzdHVmZiAgDQphcm91bmQg
+b3IgaW5mb3JtIG90aGVyIHNlcnZlcnMgYWJvdXQgdGhlIGFic2VuY2Ugb2YgdGhlIHNlcnZlciBp
+biBhZHZhbmNlLg0KDQoNCk5vdyBpbWFnaW5lIGEgdmVyeSBiYXNpYyBzZXR1cCB3aXRoIG9uZSBs
+b2FkIGJhbGFuY2VyLCBhIGNvdXBsZSBvZiBhcHAgIA0Kc2VydmVycyBhbmQgYSBzaW5nbGUgZGF0
+YWJhc2UuV2hhdCB3b3VsZCB5b3UgbmVlZCB0byBkbyBpZiB5b3Ugd2FudGVkIHRvICANCmFkZCBh
+bm90aGVyIGFwcCBzZXJ2ZXIgdG8geW91ciBzdGFjaz8NCg0KWW91IHdvdWxkIG5lZWQgdG8gYm9v
+dCBhbiBBTUkgKEFtYXpvbiBNYWNoaW5lIEltYWdlKSwgbG9nIGluIHRvIHRoZSAgDQptYWNoaW5l
+LCBpbnN0YWxsIHVwZGF0ZXMgYW5kIGRlcGVuZGVuY2llcywgY29uZmlndXJlIGFsbCBzZXJ2aWNl
+cywgY3JvbiAgDQpqb2JzIGFuZCBzbyBvbiBhbmQgbGFzdCBidXQgbm90IGxlYXN0IGRlcGxveSB5
+b3VyIGFwcGxpY2F0aW9uLiBCdXQgeW91IGFyZSAgDQpub3QgZG9uZSB5ZXQuIFlvdSBhbHNvIG5l
+ZWQgdG8gbG9nIGluIHRvIHRoZSBkYXRhYmFzZSBzZXJ2ZXIgYW5kIGdyYW50ICANCmFjY2VzcyB0
+byB0aGUgbmV3IGFwcCBzZXJ2ZXIgYnkgYWRkaW5nIHRoZSBJUCB0byB5b3VyIEFDTC4gQWZ0ZXIg
+dGhhdCB5b3UgIA0KaGF2ZSB0byBsb2cgaW4gdG8geW91ciBsb2FkIGJhbGFuY2VyIGFuZCBhZGQg
+dGhlIGFwcCBzZXJ2ZXIgdG8gdGhlIGxvYWQgIA0KY3ljbGUuDQoNClRoaXMgcHJvY2VkdXJlIGlz
+IHJhdGhlciB0ZWRpb3VzIGV2ZW4gZm9yIGVhc3kgYW5kIGJhc2ljIHNldHVwcyBsaWtlIHRoaXMs
+ICANCmJ1dCBhcyB5b3UgY2FuIGltYWdpbmUsIHRoZSBudW1iZXIgb2YgZGVwZW5kZW5jaWVzIGFu
+ZCB0YXNrcyBncm93cyB2ZXJ5ICANCmZhc3QgYXMgc29vbiBhcyB5b3UgaGF2ZSBtb3JlIHRpZXJz
+IGFuZCBzZXJ2ZXJzIGluIHlvdXIgY2x1c3Rlci4NCg0KV2hhdCB3b3VsZCB5b3UgZG8gaWYgb25l
+IG9mIHlvdXIgc2VydmVycyBkaWVzIG9yIGlzbuKAmXQgcmVhY2hhYmxlIGR1ZSB0byAgDQpzb21l
+IHRlbXBvcmFyeSBuZXR3b3JrIGlzc3Vlcz8gSGF2ZSBhIGxvb2sgYXQgdGhlIE5ldGZsaXggVGVj
+aCBCbG9nIGFuZCAgDQpsZWFybiBhYm91dCB0aGUgY2hhb3MgbW9ua2V5IGFuZCBoaXMgZnJpZW5k
+cyBpZiB5b3UgdGhpbmsgeW91ciBzZXJ2ZXJzIHdpbGwgIA0KYmUgYWx3YXlzIG9uIGFuZCBmbGF3
+bGVzcyBmb3JldmVyLg0KDQpXZSBjcmVhdGVkIFNjYWxhcml1bSB0byB0YWtlIGNhcmUgb2YgdGhp
+cyB0eXBlIG9mIGNvbmNlcm5zIGF1dG9tYXRpY2FsbHkuICANCllvdSBjYW4gZXh0ZW5kIHRoZSBh
+YmlsaXRpZXMgb2YgU2NhbGFyaXVtIGFzIHlvdSBsaWtlIGJlY2F1c2UgeW91IGNhbiByZWFjdCAg
+DQp0byBhbGwgbGlmZSBjeWNsZSBldmVudHMgYW5kIGhvb2sgaW50byB0aGVtLiBUaGlzIGVuYWJs
+ZXMgeW91IHRvIGRvIGp1c3QgIA0KYWJvdXQgZXZlcnl0aGluZy4gWW91IGFsd2F5cyBzdGFydCB3
+aXRoIGEg4oCcdmFuaWxsYeKAnSBPUyBhbmQgaW4gdGhlIGVuZCB5b3UgIA0KaGF2ZSBhIHRvdGFs
+bHkgY3VzdG9taXplZCBzZXR1cCBvbiB5b3VyIHNlcnZlciBhbmQgYWxsIG90aGVyIHNlcnZlcnMg
+aW4gdGhlICANCmNsdXN0ZXIga25vdyBob3cgdG8gcmVhY3QgYW5kIHJlY29uZmlndXJlIHRoZW1z
+ZWx2ZXMuIFdlIG9mZmVyIGEgYnJvYWQgIA0Kc2VsZWN0aW9uIG9mIHByZWRlZmluZWQgc3RhY2tz
+IGFuZCBleGFtcGxlcy4gWW91IGNhbiBjaGFuZ2UgdGhlbSBlYXNpbHkgb3IgIA0KYWRkIHlvdXIg
+b3duIG9uZXMuDQoNCg0KUjogSG93IGRvZXMgdGhlIGJvb3RzdHJhcHBpbmcgb2YgYW4gaW5zdGFu
+Y2Ugd29yaz8NCg0KSm9uYXRoYW46DQpJbiB0aGlzIHBpY3R1cmUgeW91IHNlZSByb3VnaGx5IHdo
+YXQgaGFwcGVucyBiZWhpbmQgdGhlIGN1cnRhaW5zIGlmIGEgbmV3ICANCnNlcnZlciBpcyBhZGRl
+ZCB0byBhIGNsdXN0ZXIgKGNsaWNrIGltYWdlIHRvIGVubGFyZ2UpOg0KDQpBcyBzb29uIGFzIGEg
+bmV3IHNlcnZlciBpcyByZXF1ZXN0ZWQsIHdlIGFzayBBbWF6b24gZm9yIGl0LiBPbmNlIHRoZSBz
+ZXJ2ZXIgIA0KZmluaXNoZWQgYm9vdGluZyBpdCBkb3dubG9hZHMgdGhlIFNjYWxhcml1bSBhZ2Vu
+dCBhbmQgYSBjdXN0b20gY2VydGlmaWNhdGUsICANCmluc3RhbGxzIHRoZSBhZ2VudCBhbmQgY29u
+bmVjdHMgYmFjayB0byBTY2FsYXJpdW0gaW4gYW4gZW5jcnlwdGVkIGFuZCAgDQpzaWduZWQgd2F5
+LiBXZSBjaGVjayB3aGF0IGtpbmQgb2Ygc2VydmVyIHlvdSBpbnN0cnVjdGVkIGl0IHRvIGJlIGFu
+ZCAgDQpleGVjdXRlIHRoZSBhcHByb3ByaWF0ZSBDaGVmIHJlY2lwZXMuIENoZWYgaXMgYW4gb3Bl
+bi1zb3VyY2Ugc3lzdGVtICANCmludGVncmF0aW9uIGZyYW1ld29yaywgc2ltaWxhciB0byBQdXBw
+ZXQgb3IgQ0ZFbmdpbmUuIENoZWNrIG91dCBvdXIgZXhhbXBsZSAgDQpjb29rYm9va3Mgb24gZ2l0
+aHViIHRvIGdldCBhIGZlZWxpbmcgYWJvdXQgaG93IGVhc3kgaXQgaXMgdG8gdXNlIENoZWYuIFlv
+dSAgDQp3aWxsIGZpbmQgdGhlIG1haW4gU2NhbGFyaXVtIGNvb2tib29rcyB0aGVyZSB0b28uDQoN
+ClRoZSBzZXJ2ZXIgYm9vdHN0cmFwcyBhbmQgd2lsbCBiZSB5b3VyIG5ldyBhcHAgc2VydmVyLCBk
+YXRhYmFzZSBvciB3aGF0ZXZlciAgDQp5b3Ugd2FudGVkIGl0IHRvIGJlLiBUaGlzIHByb2Nlc3Mg
+dXN1YWxseSB0YWtlcyBqdXN0IG9uZSBvciB0d28gbWludXRlcyAgDQpkZXBlbmRpbmcgb24gdGhl
+IHN0YWNrIHlvdSB3YW50IHRvIGluc3RhbGwgYW5kIHRoZSBzaXplIG9mIHRoZSBzZXJ2ZXIuDQoN
+CkFmdGVyIHN1Y2Nlc3NmdWwgYm9vdHN0cmFwcGluZyBvZiBhIG5ldyBzZXJ2ZXIsIGFsbCBleGlz
+dGluZyBzZXJ2ZXJzIGluIHRoZSAgDQpjbHVzdGVyIGdldCBpbmZvcm1lZC4gVGhpcyBzdGVwIGlz
+IHZlcnkgaW1wb3J0YW50LiBCZWNhdXNlIG5vdywgcmVjaXBlcyAgDQpib3VuZCB0byB0aGUgY29u
+ZmlndXJlIGV2ZW50IGFyZSBleGVjdXRlZCBvbiBlYWNoIHNlcnZlciBpbiB0aGUgY2x1c3Rlci4g
+IA0KVGhhdCB3YXksIGxvYWQgYmFsYW5jZXJzIGNhbiBleGVjdXRlIHJlY2lwZXMgdGhhdCBlbnN1
+cmUgdGhhdCB0aGV5IGFyZSAgDQphd2FyZSBvZiBhbGwgcnVubmluZyBhcHAgc2VydmVycyBhbmQg
+dGhhdCB0aGV5IGNhbiBzYWZlbHkgcmVtb3ZlIHN0b3BwZWQgIA0KYXBwIHNlcnZlcnMgZnJvbSB0
+aGVpciBsb2FkIGN5Y2xlLiBBIGRhdGFiYXNlIHNlcnZlciBjYW4gY2hlY2sgaWYgaXQgaGFzICAN
+CmdyYW50ZWQgYWNjZXNzIHRvIHRoZSBhdmFpbGFibGUgYXBwIHNlcnZlcnMuIEJ1dCBvZiBjb3Vy
+c2UgeW91IGFsc28gY291bGQgIA0KZG8gYWR2YW5jZWQgdGhpbmdzIGxpa2UgYWRkaW5nIG5ldyBk
+YXRhYmFzZSBzZXJ2ZXJzIGFuZCByZS1iYWxhbmNlIHlvdXIgIA0KZGF0YSwgdXBkYXRlIHlvdXIg
+bmFnaW9zIGFsZXJ0aW5nIG9yIHlvdXIgZ3JheWxvZzIgc2VydmVyIHRvIGNhdGNoIGFsbCB0aGUg
+IA0KbG9ncyB5b3Ugd2FudC4NCg0KSWYgeW91IGFyZSBkb25lIHdpdGggeW91ciBiYXNpYyBzZXR1
+cCB5b3UgY2FuIGVhc2lseSBhZGQgdGltZSBvciBsb2FkIGJhc2VkICANCnNlcnZlcnMsIGFkZCBh
+bmQgZGVwbG95IGFwcGxpY2F0aW9ucyB0byB5b3VyIGNsdXN0ZXIgb3IgY2xvbmUgdGhlIGNvbXBs
+ZXRlICANCmVudmlyb25tZW50IHRvIGNyZWF0ZSBhIHN0YWdpbmcgc3lzdGVtLiBBbGwgdGhhdCBj
+YW4gYmUgZG9uZSB2aWEgdGhlIFVJIG9yICANCnRoZSBTY2FsYXJpdW0gQVBJLg0KDQpSOiBIb3cg
+ZG8geW91IHJ1biBvbiBBV1MgeW91cnNlbGY/DQpUaG9tYXM6DQoNCkJlbG93IGlzIGEgc2ltcGxp
+ZmllZCB2aXN1YWxpemF0aW9uIG9mIG91ciBvd24gYXJjaGl0ZWN0dXJlLiBXZSB1c2UgdHdvICAN
+Cm1haW4gZGF0YWJhc2VzIGZvciBTY2FsYXJpdW0uIE9uZSBpcyBDb3VjaERCLCB1c2VkIHRvIHN0
+b3JlIGluZm9ybWF0aW9uICANCmxpa2UgdGhlIGNsdXN0ZXIgY29uZmlndXJhdGlvbnMsIHNlcnZl
+ciBkZXNjcmlwdGlvbnMgYW5kIGN1cnJlbnQgc3RhdGUsICANCmFwcGxpY2F0aW9ucywgZGVwbG95
+bWVudCBkZWZpbml0aW9ucy4gVGhlIG90aGVyIG9uZSBpcyBSZWRpcywgdXNlZCBmb3IgIA0KYWNj
+b3VudGluZywgZXZlbnRzLCBtb25pdG9yaW5nIGFuZCBtZXRlcmluZyBkYXRhLg0KDQpXZSBjaG9z
+ZSBDb3VjaERCIGZvciBoaWdoIGF2YWlsYWJpbGl0eSwgZWFzeSByZXBsaWNhdGlvbiwgY2x1c3Rl
+cmluZywgIA0Kcm9idXN0bmVzcywgYW5kIGEgc2hvcnQgcmVjb3ZlcnkgdGltZS4gUmVkaXMgaXMg
+YXdlc29tZSBmb3IgdGhlIHZlcnkgIA0KZHluYW1pYywgZmFzdCBncm93aW5nLCBhbmQgbm9uIGNy
+aXRpY2FsIGRhdGEgd2UgaGF2ZS4NCg0KU2NhbGFyaXVtIGl0c2VsZiBhIFJhaWxzIGFwcCwgdGhl
+IFNjYWxhcml1bSBBUEkgaXMgYSBTaW5hdHJhIGFwcC4gV29ya2VycyAgDQphcmUgYmFzZWQgb24g
+UmFiYml0TVEvTmFuaXRlLg0KDQpPdXIgc2V0dXAgc3BhbnMgbXVsdGlwbGUgcmVnaW9ucyBhbmQg
+YXZhaWxhYmlsaXR5IHpvbmVzIHRvIGd1YXJhbnRlZSBhIGhpZ2ggIA0KdXB0aW1lLiBDb3VjaERC
+4oCZcyBhd2Vzb21lIHJlcGxpY2F0aW9uIGZlYXR1cmVzIGFyZSB1c2VkIHRvIGhhdmUgYSAgDQpt
+YXN0ZXIvbWFzdGVyIHJlcGxpY2F0aW9uIGFjcm9zcyByZWdpb25zLiBSZWRpcyB1c2VzIGEgbWFz
+dGVyL3NsYXZlIHNldHVwICANCmZvciBkYXRhIHJlcGxpY2F0aW9uLiAoY2xpY2sgaW1hZ2UgYmVs
+b3cgdG8gZW5sYXJnZSkNCg0KDQpSOiBXaHkgZGlkIHlvdSBkZWNpZGUgdG8gdXNlIEFXUz8NClRo
+b21hczoNCg0KVGhhdOKAmXMgc2ltcGxlLiBXZSB1c2UgQVdTIGJlY2F1c2UgaXTigJlzIHRoZSBv
+bmx5IGJpZywgZ2xvYmFsIGRpc3RyaWJ1dGVkIGFuZCAgDQpyZWxpYWJsZSBzb3VyY2UgZm9yIElh
+YVMgb3V0IHRoZXJlLiBBbWF6b24ga2lja3Mgc29tZSBzZXJpb3VzIGFzcyBhbmQgIA0KZGV2ZWxv
+cHMgdG9ucyBvZiBuZXcgZmVhdHVyZXMgYW5kIHNlcnZpY2VzLiBMYXN0IGJ1dCBub3QgbGVhc3Qg
+d2UgZWF0IG91ciAgDQpvd24gZG9nIGZvb2QgLSBTY2FsYXJpdW0gcnVucyBvbiBBbWF6b24gYW5k
+IGlzIG1hbmFnZWQgd2l0aCBTY2FsYXJpdW0uDQoNCkJ5IHVzaW5nIEFXUyBhbmQgU2NhbGFyaXVt
+IHdlIGNhbiBncm93IGluIG5vIHRpbWUgdG8gaGFuZGxlIGFzIG1hbnkgIA0KY3VzdG9tZXJzIHdl
+IGxpa2UsIHNwaW4gdXAgc3RhZ2luZyBlbnZpcm9ubWVudHMsIGRlcGxveSBmYXN0IGFuZCBvZnRl
+biBhbmQgIA0KZG8gYWxsIHRoYXQgY29tcGxldGVseSBhdXRvbWF0ZWQuIEFsbCBmYWlsIG92ZXIs
+IHNjYWxpbmcsIGJhY2t1cCB0YXNrcywgIA0KbW9uaXRvcmluZyBhbmQgc28gb24gaXMgYXV0b21h
+dGVkLiBZb3Ugd2lsbCBsb3ZlIGRvaW5nIHRoYXQuIFlvdSBjYW4gIA0KY29uY2VudHJhdGUgb24g
+ZGV2ZWxvcGluZyB5b3VyIGFwcCB3aXRob3V0IGhhc3NsaW5nIHdpdGggZGF0YSBjZW50ZXJzIGFu
+ZCAgDQpzZXJ2ZXJzLg0KDQpBbWF6b24gZW5hYmxlcyB1cyB0byBoYXZlIGNsaWVudHMgcmFuZ2lu
+ZyBmcm9tIHN0YXJ0IHVwcyB3aXRoIG9uZSBzZXJ2ZXIsICANCm92ZXIgU2FhUyBvZmZlcmluZ3Mg
+YW5kIGFnZW5jaWVzIHdpdGggYSBjb3VwbGUgb2Ygc2VydmVycywgdG8gdGhlIHdvcmxk4oCZcyAg
+DQpiaWdnZXN0IHNvY2lhbCBnYW1lIHByb3ZpZGVycyBsaWtlIHdvb2dhIG9yIFBsaW5nYSB3aXRo
+IGFuIGluY3JlZGlibGUgIA0KbnVtYmVyIG9mIHNlcnZlcnMgcnVubmluZyB0aGVpciBnYW1lcyBh
+bGwgb3ZlciB0aGUgZ2xvYmUuDQoNCklmIHlvdSBsaWtlIHlvdSBjYW4gc2VlIGEgcmF0aGVyIG9s
+ZCB2aWRlbyBpbiB3aGljaCBKb25hdGhhbiBleHBsYWlucyB0aGUgIA0KY29tcGxldGUgcHJvY2Vz
+cyB0byBjcmVhdGUgYSBSYWlscyBjbHVzdGVyLCBhZGQgYSBSYWlscyBhcHAgYW5kIGRlcGxveSBp
+dC4gIA0KT3IgZXZlbiBiZXR0ZXIsIHNpZ24gdXAgYW5kIHRyeSBTY2FsYXJpdW0gZm9yIHlvdXJz
+ZWxmLg0KDQpSOiBBbnkgbGFzdCB3b3Jkcz8NClRob21hczoNCg0KWWVzLiBUYWtlIHBhcnQgaW4g
+dGhlIEdsb2JhbCBBV1MgU3RhcnQtVXAgQ2hhbGxlbmdlISBJdCBpcyBhIHNob3J0ICANCmFwcGxp
+Y2F0aW9uIGZvcm0uIFlvdSBjYW4gd2luIGNhc2gsIEFXUyBjcmVkaXRzIGFuZCBnZXQgYSBsb3Qg
+b2YgIA0KdmlzaWJpbGl0eS4gQW5kIGlmIHRoYXTigJlzIG5vdCBlbm91Z2ggd2UgZ2l2ZSBldmVy
+eSBzZW1pIGZpbmFsaXN0IGhhbGYgYSAgDQp5ZWFyIGZyZWUgU2NhbGFyaXVtIG9uIHRvcC4NCg0K
+U28gYXBwbHkgZm9yIHRoZSBTdGFydC1VcCBDaGFsbGVuZ2Ugbm93IQ0KDQotcm9kaWNhDQoNCg0K
+DQovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vDQpBbWF6b24gUkRT
+IFVwZGF0ZXMgLSBPcmFjbGUgSW1wcm92ZW1lbnRzIGFuZCBhIE5ldyBNaW5vciBWZXJzaW9uDQoN
+ClBvc3RlZDogMjAgU2VwIDIwMTEgMDc6NDIgUE0gUERUDQpodHRwOi8vZmVlZHByb3h5Lmdvb2ds
+ZS5jb20vfnIvQW1hem9uV2ViU2VydmljZXNCbG9nL34zLzhaWTQxTG1VTXJJL2FtYXpvbi1yZHMt
+dXBkYXRlcy1vcmFjbGUtaW1wcm92ZW1lbnRzLWFuZC1hLW5ldy1taW5vci12ZXJzaW9uLmh0bWw/
+dXRtX3NvdXJjZT1mZWVkYnVybmVyJnV0bV9tZWRpdW09ZW1haWwNCg0KDQpXZXZlIG1hZGUgdHdv
+IGltcG9ydGFudCB1cGRhdGVzIHRvIEFtYXpvbiBSRFMgZm9yIE9yYWNsZSBEYXRhYmFzZToNCg0K
+QSBuZXcgbWlub3IgdmVyc2lvbiAoY29udGFpbmluZyBzb21lIGNyaXRpY2FsIHNlY3VyaXR5IGZp
+eGVzKSBpcyBub3cgIA0KYXZhaWxhYmxlLg0KQWRkaXRpb25hbCBhY2Nlc3MgcHJpdmlsZWdlcyBh
+cmUgbm93IGF2YWlsYWJsZSAodmlhIHRoZSBuZXcgbWlub3IgdmVyc2lvbikgIA0KdG8gYXBwbGlj
+YXRpb25zLg0KDQoNCk5ldyBNaW5vciBWZXJzaW9uDQpPcmFjbGUgRGF0YWJhc2UgdmVyc2lvbiAx
+MS4yLjAuMi52MyBpcyBub3cgYXZhaWxhYmxlLiBPcmFjbGUgcmVjb21tZW5kcyBhbiAgDQppbW1l
+ZGlhdGUgdXBncmFkZSB0byB0aGlzIHZlcnNpb24gZHVlIHRvIHRoZSBjcml0aWNhbCBzZWN1cml0
+eSBmaXhlcyB0aGF0ICANCml0IGNvbnRhaW5zLg0KDQpEdWUgdG8gdGhlIGNyaXRpY2FsIG5hdHVy
+ZSBvZiB0aGUgZml4ZXMgY29udGFpbmVkIGluIHRoaXMgcmVsZWFzZSAocmVsZWFzZSAgDQpub3Rl
+cyBoZXJlKSwgd2UgcGxhbiB0byBwZXJmb3JtIGFuIGF1dG9tYXRpYyBtaW5vciB2ZXJzaW9uIHVw
+Z3JhZGUgdG8gYWxsICANCmFwcGxpY2FibGUgUkRTIERCIEluc3RhbmNlcyBpbiB0aGUgbmVhciBm
+dXR1cmUgKHJlZmVyIHRvIHRoZSBSRFMgRm9ydW0gIA0KYW5ub3VuY2VtZW50IGZvciB0aGUgZXhh
+Y3QgdGltaW5nKS4gWW91IGNhbiBhbHNvIHVwZ3JhZGUgbm93IGJ5IG9wZW5pbmcgdGhlICANClJE
+UyBwYWdlIG9mIHRoZSBBV1MgTWFuYWdlbWVudCBDb25zb2xlLCBjaG9vc2luZyB0aGUgTW9kaWZ5
+IERCIEluc3RhbmNlICANCm9wdGlvbiwgYW5kIHNlbGVjdGluZyB0aGUgbmV3IERCIEVuZ2luZSBW
+ZXJzaW9uOg0KDQoNClNlbGVjdCBBcHBseSBJbW1lZGlhdGVseSB0byBtYWtlIHRoZSBjaGFuZ2Ug
+cmlnaHQgYXdheSwgb3IgbGVhdmUgaXQgIA0KdW5jaGVja2VkIHRvIGRlZmVyIHRoZSB1cGRhdGUg
+dW50aWwgdGhlIG5leHQgbWFpbnRlbmFuY2Ugd2luZG93IGZvciB5b3VyIERCICANCkluc3RhbmNl
+Lg0KDQpBZGRpdGlvbmFsIEFjY2VzcyBQcml2aWxlZ2VzDQpPdXIgY3VzdG9tZXJzIGhhdmUgYmVl
+biBhc2tpbmcgZm9yIGFkZGl0aW9uYWwgYWNjZXNzIHByaXZpbGVnZXMgYW5kIHdlIGFyZSAgDQpo
+YXBweSB0byBhbm5vdW5jZSB0aGF0IHRoZSBmb2xsb3dpbmcgcHJpdmlsZWdlcyBhcmUgbm93IGF2
+YWlsYWJsZSBpbiB0aGUgIA0KbmV3IG1pbm9yIHZlcnNpb24gKDExLjIuMC4yLnYzKToNCg0KRXhl
+Y3V0ZSBwcml2aWxlZ2VzIHRvIGEgbnVtYmVyIG9mIERCTVMgcGFja2FnZXMgaW5jbHVkaW5nIERC
+TVNfQ1JZUFRPLCAgDQpEQk1TX0FMRVJULCBEQk1TX0xPQ0ssIGFuZCBEQk1TX1BJUEUgYXJlIG5v
+dyBhdmFpbGFibGUsIGFzIGFyZSBwcml2aWxlZ2VzICANCnRvIGdyYW50IERCQSwgQ09OTkVDVCwg
+YW5kIFJFU09VUkNFUyByb2xlcyB0byBvdGhlciB1c2Vycy4NClRoZSBDVFhBUFAgcm9sZSBpcyBu
+b3cgYXZhaWxhYmxlLCBhbmQgY2FuIGFsc28gYmUgZ3JhbnRlZCB0byBvdGhlciB1c2Vycy4NClRo
+ZSBzeXN0ZW0gcHJpdmlsZWdlcyBSRVNUUklDVEVEIFNFU1NJT04gYW5kIEdSQU5UIEFOWSBPQkpF
+Q1QgUFJJVklMRUdFIGFyZSAgDQpub3cgYXZhaWxhYmxlLg0KDQoNCi0tIEplZmY7DQoNCg0KDQoN
+Cg0KLS0NCllvdSBhcmUgc3Vic2NyaWJlZCB0byBlbWFpbCB1cGRhdGVzIGZyb20gIkFtYXpvbiBX
+ZWIgU2VydmljZXMgQmxvZy4iDQpUbyBzdG9wIHJlY2VpdmluZyB0aGVzZSBlbWFpbHMsIHlvdSBt
+YXkgdW5zdWJzY3JpYmUgbm93OiAgDQpodHRwOi8vZmVlZGJ1cm5lci5nb29nbGUuY29tL2ZiL2Ev
+bWFpbHVuc3Vic2NyaWJlP2s9V1lscXNIZ0ZtajRBYU14Q0lvNERwcUdKbF9ZDQoNCkVtYWlsIGRl
+bGl2ZXJ5IHBvd2VyZWQgYnkgR29vZ2xlLg0KR29vZ2xlIEluYy4sIDIwIFdlc3QgS2luemllLCBD
+aGljYWdvIElMIFVTQSA2MDYxMA0KDQo=
+--0016e68cc0d4fe4d4604ad729b0f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/aYtJU=
+f72AWQ/aws-summer-startups-peritorscalarium.html?utm_source=3Dfeedburner&ut=
+m_medium=3Demail">AWS Summer Startups: Peritor/Scalarium</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 20 Sep 2011 11:05 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><div>
+<div style=3D"padding-left: 30px;"><a href=3D"http://aws.amazon.com/startup=
+challenge/?utm_source=3Dawsblog&amp;utm_medium=3Dbanner&amp;utm_campaign=3D=
+SM_awsblog_summerstartup_title&amp;trk=3DSM_awsblog_ summerstartup" target=
+=3D"_blank"><img alt=3D"" src=3D"http://aws.typepad.com/.a/6a00d8341c534853=
+ef0154335da1f3970c-800wi" style=3D"display: block; margin-left: auto; margi=
+n-right: auto;" /></a></div>
+<p>Over the summer months, we&#39;d like to share a few stories from startu=
+ps around the world: what are they working on and how they are using the cl=
+oud to get things done.&#0160;Today I=E2=80=99m speaking to Jonathan and Th=
+omas, two of the creators of&#0160;<a href=3D"http://www.scalarium.com/" ta=
+rget=3D"_blank">Scalarium</a>, from Berlin, Germany!&#0160;</p>
+<a href=3D"http://www.scalarium.com/" target=3D"_blank"><img alt=3D"Peritor=
+ team" src=3D"http://awsmedia.s3.amazonaws.com/aws-sc2011/peritor-team.jpg"=
+ style=3D"display: block; margin-left: auto; margin-right: auto;" /></a></d=
+iv>
+<div><em><br /></em></div>
+<p><strong>R: Hi guys, could you briefly describe Scalarium and the backgro=
+und of your team?</strong></p>
+<div><em>Thomas:</em></div>
+<div>With Scalarium, we&#39;ve created an easy management service for EC2 c=
+lusters. Scalarium helps our customers deploy Rails, Node.js, PHP, Java, Py=
+thon or any other stack. It automates the initial setup and continuous conf=
+iguration of servers. Scalarium also takes care of scaling, security, monit=
+oring, and a lot more.</div>
+<div><br />We started as an IT consultancy in 2005 and used EC2 from the ea=
+rly days on to help our clients scale out. Doing so, we realized that we re=
+peated ourselves in this kind of projects. So we created Scalarium as a fra=
+mework that helps customers automate EC2 deployments.</div>
+<p>&#0160;</p>
+<div><strong>R: How have you incorporated Amazon Web Services as part of yo=
+ur own architecture? What services are you using and how?</strong></div>
+<div><strong>&#0160;</strong><br /><em>Jonathan:</em></div>
+<div>We heavily use EC2, EBS and S3. And in our stack you will find Ruby, C=
+ouchDB, Redis, RabbitMQ, Chef and other nice and shiny stuff. We brought yo=
+u a little illustration that shows you how we run Scalarium on EC2. But bef=
+ore that, you will need to understand a little more about what we do.</div>
+<div><br />As said, Scalarium helps customers run apps on EC2. But instead =
+of offering you some restrictive and expensive PaaS solution, we offer you =
+an elegant way to automate everything on your servers. So you will still ma=
+intain root access to all servers and are able to configure each and every =
+setting.</div>
+<p>&#0160;</p>
+<div><strong>R: How does Scalarium help customers run apps on AWS?</strong>=
+</div>
+<div><strong>&#0160;</strong><br /><em>Thomas:</em></div>
+<div>In the cloud, each server goes through something that we would describ=
+e as a server life cycle. Each and every server in your cluster comes to ex=
+istence at some time, it experiences some changes and it goes at some point=
+ later. Some of them have a rather short lifespan like application servers =
+that are used to burst out, others have long lifespans like database server=
+s. But all of them go trough this cycle.</div>
+<div><br />We defined events in this life cycle which we and you can hook i=
+nto to execute scripts on the servers. The life cycle events that are used =
+in Scalarium are the following ones.&#0160;</div>
+<div><a href=3D"http://aws.typepad.com/.a/6a00d8341c534853ef0154359661ce970=
+c-pi" style=3D"display: inline;"><img alt=3D"Ec2-lifecycle-thumb" border=3D=
+"0" class=3D"asset  asset-image at-xid-6a00d8341c534853ef0154359661ce970c" =
+src=3D"http://aws.typepad.com/.a/6a00d8341c534853ef0154359661ce970c-800wi" =
+title=3D"Ec2-lifecycle-thumb" /></a> <br />=20
+<ul>
+<li>Setup is used to update a base image and install everything you need on=
+ the fly as soon as the server comes into existence.</li>
+<li>Configure is triggered by any change in the cluster - new servers comin=
+g or old ones going.</li>
+<li>Deploy executes scripts that should run during the deployment of an app=
+lication on the servers. You can hook into the deployment with before_migra=
+te or any other hook you know from Capistrano.</li>
+<li>Undeploy - this is triggered if you want to remove an application.</li>
+<li>Shutdown is triggered if you gracefully stop a server. You can copy stu=
+ff around or inform other servers about the absence of the server in advanc=
+e.</li>
+</ul>
+</div>
+<div>Now imagine a very basic setup with one load balancer, a couple of app=
+ servers and a single database.What would you need to do if you wanted to a=
+dd another app server to your stack?</div>
+<div><a href=3D"http://aws.typepad.com/.a/6a00d8341c534853ef015435966696970=
+c-pi" style=3D"display: inline;"><img alt=3D"Peritor-img2" border=3D"0" cla=
+ss=3D"asset  asset-image at-xid-6a00d8341c534853ef015435966696970c image-fu=
+ll" src=3D"http://aws.typepad.com/.a/6a00d8341c534853ef015435966696970c-800=
+wi" title=3D"Peritor-img2" /></a> <br />You would need to boot an AMI (Amaz=
+on Machine Image), log in to the machine, install updates and dependencies,=
+ configure all services, cron jobs and so on and last but not least deploy =
+your application. But you are not done yet. You also need to log in to the =
+database server and grant access to the new app server by adding the IP to =
+your ACL. After that you have to log in to your load balancer and add the a=
+pp server to the load cycle.</div>
+<div><br />This procedure is rather tedious even for easy and basic setups =
+like this, but as you can imagine, the number of dependencies and tasks gro=
+ws very fast as soon as you have more tiers and servers in your cluster.</d=
+iv>
+<div><br />What would you do if one of your servers dies or isn=E2=80=99t r=
+eachable due to some temporary network issues? Have a look at the Netflix T=
+ech Blog and learn about the <a href=3D"http://techblog.netflix.com/2011/07=
+/netflix-simian-army.html" target=3D"_blank">chaos monkey</a> and his frien=
+ds if you think your servers will be always on and flawless forever.</div>
+<div><br />We created Scalarium to take care of this type of concerns autom=
+atically. You can extend the abilities of Scalarium as you like because you=
+ can react to all life cycle events and hook into them. This enables you to=
+ do just about everything. You always start with a =E2=80=9Cvanilla=E2=80=
+=9D OS and in the end you have a totally customized setup on your server an=
+d all other servers in the cluster know how to react and reconfigure themse=
+lves. We offer a broad selection of predefined stacks and examples. You can=
+ change them easily or add your own ones.</div>
+<p>&#0160;</p>
+<div><strong>R: How does the bootstrapping of an instance work?</strong></d=
+iv>
+<div><br /><em>Jonathan:</em></div>
+<div>In this picture you see roughly what happens behind the curtains if a =
+new server is added to a cluster (click image to enlarge):</div>
+<div><a href=3D"http://aws.typepad.com/.a/6a00d8341c534853ef015435966873970=
+c-pi" style=3D"display: inline;"><img alt=3D"Scalarium-lifecylce" border=3D=
+"0" class=3D"asset  asset-image at-xid-6a00d8341c534853ef015435966873970c i=
+mage-full" src=3D"http://aws.typepad.com/.a/6a00d8341c534853ef0154359668739=
+70c-800wi" title=3D"Scalarium-lifecylce" /></a> <br />As soon as a new serv=
+er is requested, we ask Amazon for it. Once the server finished booting it =
+downloads the Scalarium agent and a custom certificate, installs the agent =
+and connects back to Scalarium in an encrypted and signed way. We check wha=
+t kind of server you instructed it to be and execute the appropriate Chef r=
+ecipes. <a href=3D"http://wiki.opscode.com/display/chef/Resources" target=
+=3D"_blank">Chef </a>is an open-source system integration framework, simila=
+r to Puppet or CFEngine. Check out <a href=3D"https://github.com/scalarium/=
+example-cookbooks" target=3D"_blank">our example cookbooks</a> on github to=
+ get a feeling about how easy it is to use Chef. You will find the main <a =
+href=3D"https://github.com/scalarium/cookbooks" target=3D"_blank">Scalarium=
+ cookbooks</a> there too.</div>
+<div><br />The server bootstraps and will be your new app server, database =
+or whatever you wanted it to be. This process usually takes just one or two=
+ minutes depending on the stack you want to install and the size of the ser=
+ver.</div>
+<div><br />After successful bootstrapping of a new server, all existing ser=
+vers in the cluster get informed. This step is very important. Because now,=
+ recipes bound to the configure event are executed on each server in the cl=
+uster. That way, load balancers can execute recipes that ensure that they a=
+re aware of all running app servers and that they can safely remove stopped=
+ app servers from their load cycle. A database server can check if it has g=
+ranted access to the available app servers. But of course you also could do=
+ advanced things like adding new database servers and re-balance your data,=
+ update your nagios alerting or your graylog2 server to catch all the logs =
+you want.</div>
+<div><br />If you are done with your basic setup you can easily add time or=
+ load based servers, add and deploy applications to your cluster or clone t=
+he complete environment to create a staging system. All that can be done vi=
+a the UI or the Scalarium API.</div>
+<p><strong>R: How do you run on AWS yourself?</strong><br /><em>Thomas</em>=
+:</p>
+<p>Below is a simplified visualization of our own architecture. We use two =
+main databases for Scalarium. One is <a href=3D"http://www.couchbase.com/" =
+target=3D"_blank">CouchDB</a>, used to store information like the cluster c=
+onfigurations, server descriptions and current state, applications, deploym=
+ent definitions. The other one is <a href=3D"http://redis.io/" target=3D"_b=
+lank">Redis</a>, used for accounting, events, monitoring and metering data.=
+</p>
+<p>We chose CouchDB for high availability, easy replication, clustering, ro=
+bustness, and a short recovery time. Redis is awesome for the very dynamic,=
+ fast growing, and non critical data we have.</p>
+<p>Scalarium itself a <a href=3D"http://rubyonrails.org/" target=3D"_blank"=
+>Rails </a>app, the Scalarium API is a <a href=3D"http://www.sinatrarb.com/=
+" target=3D"_blank">Sinatra</a> app. Workers are based on <a href=3D"http:/=
+/www.rabbitmq.com/" target=3D"_blank">RabbitMQ/</a><a href=3D"https://githu=
+b.com/ezmobius/nanite" target=3D"_blank">Nanite</a>.</p>
+<p>Our setup spans multiple regions and availability zones to guarantee a h=
+igh uptime. CouchDB=E2=80=99s awesome replication features are used to have=
+ a master/master replication across regions. Redis uses a master/slave setu=
+p for data replication. (click image below to enlarge)</p>
+<p><a href=3D"http://aws.typepad.com/.a/6a00d8341c534853ef015435966e90970c-=
+pi" style=3D"display: inline;"><img alt=3D"Scalarium-architecture" border=
+=3D"0" class=3D"asset  asset-image at-xid-6a00d8341c534853ef015435966e90970=
+c image-full" src=3D"http://aws.typepad.com/.a/6a00d8341c534853ef015435966e=
+90970c-800wi" title=3D"Scalarium-architecture" /></a> <br /><strong>R: Why =
+did you decide to use AWS?</strong><br /><em>Thomas</em>:</p>
+<p>That=E2=80=99s simple. We use AWS because it=E2=80=99s the only big, glo=
+bal distributed and reliable source for IaaS out there. Amazon kicks some s=
+erious ass and develops tons of new features and services. Last but not lea=
+st we eat our own dog food - Scalarium runs on Amazon and is managed with S=
+calarium.</p>
+<p>By using AWS and Scalarium we can grow in no time to handle as many cust=
+omers we like, spin up staging environments, deploy fast and often and do a=
+ll that completely automated. All fail over, scaling, backup tasks, monitor=
+ing and so on is automated. You will love doing that. You can concentrate o=
+n developing your app without hassling with data centers and servers.</p>
+<p>Amazon enables us to have clients ranging from start ups with one server=
+, over SaaS offerings and agencies with a couple of servers, to the world=
+=E2=80=99s biggest social game providers like wooga or Plinga with an incre=
+dible number of servers running their games all over the globe.</p>
+<p>If you like you can see a rather old <a href=3D"http://www.youtube.com/w=
+atch?v=3DF2UzrYOZNM4" target=3D"_blank">video </a>in which Jonathan explain=
+s the complete process to create a Rails cluster, add a Rails app and deplo=
+y it. Or even better, <a href=3D"https://manage.scalarium.com/account/new" =
+target=3D"_blank">sign up and try Scalarium for yourself</a>.</p>
+<p><strong>R: Any last words?</strong><br /><em>Thomas:</em></p>
+<p><em>&#0160;</em>Yes. Take part in the <a href=3D"http://aws.amazon.com/s=
+tartupchallenge/?utm_source=3Dawsblog&amp;utm_medium=3Dbanner&amp;utm_campa=
+ign=3DSM_awsblog_summerstartup_title&amp;trk=3DSM_awsblog_%20summerstartup"=
+ target=3D"_blank">Global AWS Start-Up Challenge</a>! It is a short applica=
+tion form. You can win cash, AWS credits and get a lot of visibility. And i=
+f that=E2=80=99s not enough we give every semi finalist half a year free Sc=
+alarium on top.</p>
+<p>So <a href=3D"http://aws.amazon.com/startupchallenge/?utm_source=3Dawsbl=
+og&amp;utm_medium=3Dbanner&amp;utm_campaign=3DSM_awsblog_summerstartup_titl=
+e&amp;trk=3DSM_awsblog_%20summerstartup" target=3D"_blank">apply for the St=
+art-Up Challenge</a> now!</p>
+<p>&#0160;-rodica</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DaYtJUf=
+72AWQ:M9NiwvL-prI:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DaYtJUf72AWQ:M9Niwv=
+L-prI:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DaYtJUf72AWQ:M9NiwvL-prI:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/a=
+YtJUf72AWQ?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"2" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/8ZY41=
+LmUMrI/amazon-rds-updates-oracle-improvements-and-a-new-minor-version.html?=
+utm_source=3Dfeedburner&utm_medium=3Demail">Amazon RDS Updates - Oracle Imp=
+rovements and a New Minor Version</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 20 Sep 2011 07:42 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>We&#39;ve made two important =
+updates to <a href=3D"http://aws.amazon.com/rds/oracle/" target=3D"_self">A=
+mazon RDS for Oracle Database</a>:</p>
+<ol>
+<li>A new minor version (containing some critical security fixes) is now av=
+ailable.</li>
+<li>Additional access privileges are now available (via the new minor versi=
+on) to applications.</li>
+</ol>
+<p><span style=3D"text-decoration: underline;"><strong>New Minor Version</s=
+trong></span><br />Oracle Database version 11.2.0.2.v3 is now available. <a=
+ href=3D"http://www.oracle.com/technetwork/topics/security/cpujuly2011-3133=
+28.html" target=3D"_self">Oracle recommends</a> an immediate upgrade to thi=
+s version due to the critical security fixes that it contains.</p>
+<p>Due to the critical nature of the fixes contained in this release (relea=
+se notes here), we plan to perform an automatic minor version upgrade to al=
+l applicable RDS DB Instances in the near future (refer to the <a href=3D"h=
+ttps://forums.aws.amazon.com/forum.jspa?forumID=3D60&amp;start=3D0" target=
+=3D"_self">RDS Forum</a> announcement for the exact timing). You can also u=
+pgrade now by opening the <a href=3D"https://console.aws.amazon.com/rds/hom=
+e?" target=3D"_self">RDS page of the AWS Management Console</a>, choosing t=
+he <strong>Modify DB Instance</strong> option, and selecting the new DB Eng=
+ine Version:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/console_rds_oracle_upgrade_1.png" /></div>
+<p>Select Apply Immediately to make the change right away, or leave it unch=
+ecked to defer the update until the next maintenance window for your DB Ins=
+tance.</p>
+<p><span style=3D"text-decoration: underline;"><strong>Additional Access Pr=
+ivileges</strong></span><br />Our customers have been asking for additional=
+ access privileges and we are happy to announce that the following privileg=
+es are now available in the new minor version (11.2.0.2.v3):</p>
+<ol>
+<li>Execute privileges to a number of DBMS packages including DBMS_CRYPTO, =
+DBMS_ALERT, DBMS_LOCK, and DBMS_PIPE are now available, as are privileges t=
+o grant DBA, CONNECT, and RESOURCES roles to other users.</li>
+<li>The CTXAPP role is now available, and can also be granted to other user=
+s.</li>
+<li>The system privileges RESTRICTED SESSION and GRANT ANY OBJECT PRIVILEGE=
+ are now available.</li>
+</ol>
+<p>&#0160;-- Jeff;</p>
+<p>&#0160;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3D8ZY41L=
+mUMrI:14-YDyGinc0:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3D8ZY41LmUMrI:14-YDy=
+Ginc0:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3D8ZY41LmUMrI:14-YDyGinc0:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/8=
+ZY41LmUMrI?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--0016e68cc0d4fe4d4604ad729b0f--

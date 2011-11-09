@@ -1,0 +1,65 @@
+Return-Path: <glendoraaircon+caf_=sales=doap.com@thehvac.net>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yi0-f54.google.com (mail-yi0-f54.google.com [209.85.218.54])
+	by ns1 (Postfix) with ESMTP id F222F8865C
+	for <sales@doap.com>; Mon, 12 Sep 2011 02:55:06 -0700 (PDT)
+Received: by yib19 with SMTP id 19so2813507yib.13
+        for <sales@doap.com>; Mon, 12 Sep 2011 02:55:06 -0700 (PDT)
+Received: by 10.236.195.3 with SMTP id o3mr24339563yhn.67.1315821306504;
+        Mon, 12 Sep 2011 02:55:06 -0700 (PDT)
+X-Forwarded-To: sales@doap.com
+X-Forwarded-For: glendoraaircon@thehvac.net sales@doap.com
+Delivered-To: glendoraaircon@thehvac.net
+Received: by 10.147.168.20 with SMTP id v20cs47375yao;
+        Mon, 12 Sep 2011 02:55:06 -0700 (PDT)
+Received: by 10.90.250.34 with SMTP id x34mr3819486agh.167.1315821305869;
+        Mon, 12 Sep 2011 02:55:05 -0700 (PDT)
+Received: from mail-yi0-f71.google.com (mail-yi0-f71.google.com [209.85.218.71])
+        by mx.google.com with ESMTPS id w3si7306232anf.12.2011.09.12.02.55.04
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 12 Sep 2011 02:55:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3-NZtTg8KDtU14NFI4J-EFI5GCP7FF7C5.3FD7C5E4FI119I3FEK858M13.E5K@usercomm.bounces.google.com designates 209.85.218.71 as permitted sender) client-ip=209.85.218.71;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of 3-NZtTg8KDtU14NFI4J-EFI5GCP7FF7C5.3FD7C5E4FI119I3FEK858M13.E5K@usercomm.bounces.google.com designates 209.85.218.71 as permitted sender) smtp.mail=3-NZtTg8KDtU14NFI4J-EFI5GCP7FF7C5.3FD7C5E4FI119I3FEK858M13.E5K@usercomm.bounces.google.com; dkim=pass (test mode) header.i=@google.com
+Received: by yie30 with SMTP id 30so4257061yie.10
+        for <glendoraaircon@thehvac.net>; Mon, 12 Sep 2011 02:55:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:x-google-ads-special-bin:message-id:date:subject:from
+         :to:content-type;
+        bh=/NsG1NTJbMVuYiodFlBixfU8mxjVY42Rqs/g9zlJxF0=;
+        b=aGRtBlDc5UGlCGjvoeLYQn9+psTigda6yAe/uoO1XCoesVF26QpE8GBS/vvBQtwava
+         pPutuXOJOPM5OkeOLSIw==
+MIME-Version: 1.0
+Received: by 10.101.198.27 with SMTP id a27mr3709140anq.12.1315821304477; Mon,
+ 12 Sep 2011 02:55:04 -0700 (PDT)
+X-Google-Ads-Special-Bin: AdWords Account Snapshot
+Message-ID: <1315821304474.4c960384-9a08-4e45-b9c1-37884badbe23@google.com>
+Date: Mon, 12 Sep 2011 09:55:04 +0000
+Subject: Your AdWords Account: Account Suspended
+From: adwords-noreply@google.com
+To: glendoraaircon@thehvac.net
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+
+This message was sent from a notification-only email address that does not  
+accept incoming email. Please do not reply to this message. If you have any  
+questions, please feel free to email us through the AdWords Help Center at   
+https://adwords.google.com/support/bin/request.py.
+
+
+
+Dear AdWords Advertiser,
+
+We periodically review accounts for security purposes and to verify billing  
+information. As a result of this review, your account and any related  
+accounts have been suspended, and your ads are no longer running on Google.  
+If you believe your account was suspended in error, please contact us  
+through the AdWords Help Center.
+
+Sincerely,
+The Google AdWords Team
+
+
+------------------------
+Your AdWords account number: 721-878-4655

@@ -1,0 +1,65 @@
+Return-Path: <costamesaaircon+caf_=sales=doap.com@thehvac.net>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yx0-f182.google.com (mail-yx0-f182.google.com [209.85.213.182])
+	by ns1 (Postfix) with ESMTP id 1D3FB8887A
+	for <sales@doap.com>; Tue, 13 Sep 2011 02:40:18 -0700 (PDT)
+Received: by yxk36 with SMTP id 36so331892yxk.13
+        for <sales@doap.com>; Tue, 13 Sep 2011 02:40:17 -0700 (PDT)
+Received: by 10.146.95.6 with SMTP id s6mr907934yab.2.1315906817485;
+        Tue, 13 Sep 2011 02:40:17 -0700 (PDT)
+X-Forwarded-To: sales@doap.com
+X-Forwarded-For: costamesaaircon@thehvac.net sales@doap.com
+Delivered-To: costamesaaircon@thehvac.net
+Received: by 10.147.41.1 with SMTP id t1cs104380yaj;
+        Tue, 13 Sep 2011 02:40:16 -0700 (PDT)
+Received: by 10.150.69.41 with SMTP id r41mr2627861yba.342.1315906815216;
+        Tue, 13 Sep 2011 02:40:15 -0700 (PDT)
+Received: from mail-vw0-f71.google.com (mail-vw0-f71.google.com [209.85.212.71])
+        by mx.google.com with ESMTPS id z4si2760554ybe.100.2011.09.13.02.40.13
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 13 Sep 2011 02:40:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3_SRvTg8KD3wfi1twix-stwjuq3lttlqj.htrhtxyfrjxffnwhtsymjm0fh.sjy@usercomm.bounces.google.com designates 209.85.212.71 as permitted sender) client-ip=209.85.212.71;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of 3_SRvTg8KD3wfi1twix-stwjuq3lttlqj.htrhtxyfrjxffnwhtsymjm0fh.sjy@usercomm.bounces.google.com designates 209.85.212.71 as permitted sender) smtp.mail=3_SRvTg8KD3wfi1twix-stwjuq3lttlqj.htrhtxyfrjxffnwhtsymjm0fh.sjy@usercomm.bounces.google.com; dkim=pass (test mode) header.i=@google.com
+Received: by vws8 with SMTP id 8so465112vws.10
+        for <costamesaaircon@thehvac.net>; Tue, 13 Sep 2011 02:40:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:x-google-ads-special-bin:message-id:date:subject:from
+         :to:content-type;
+        bh=q4yALu7L8f738wi+dEELTslMXnn/aY1w5mw84t8OnDk=;
+        b=uWJSbTjP3HWIT0iJbxANxwAxseT8BrT/RYDcaRxy5OEV6dhMgAKRCXtbzwscY/PNAn
+         NykimezskP74mb8UbGQg==
+MIME-Version: 1.0
+Received: by 10.101.188.13 with SMTP id q13mr1493834anp.33.1315906813670; Tue,
+ 13 Sep 2011 02:40:13 -0700 (PDT)
+X-Google-Ads-Special-Bin: AdWords Account Snapshot
+Message-ID: <1315906813666.e33dadef-a2f1-4f52-8f15-385540019d11@google.com>
+Date: Tue, 13 Sep 2011 09:40:13 +0000
+Subject: Your AdWords Account: Account Suspended
+From: adwords-noreply@google.com
+To: costamesaaircon@thehvac.net
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+
+This message was sent from a notification-only email address that does not  
+accept incoming email. Please do not reply to this message. If you have any  
+questions, please feel free to email us through the AdWords Help Center at   
+https://adwords.google.com/support/bin/request.py.
+
+
+
+Dear AdWords Advertiser,
+
+We periodically review accounts for security purposes and to verify billing  
+information. As a result of this review, your account and any related  
+accounts have been suspended, and your ads are no longer running on Google.  
+If you believe your account was suspended in error, please contact us  
+through the AdWords Help Center.
+
+Sincerely,
+The Google AdWords Team
+
+
+------------------------
+Your AdWords account number: 497-577-4091

@@ -1,0 +1,33 @@
+Return-Path: <20110929150542a4f00fb1fa2e4976b9e10b5661b4ba2d@bounces.amazon.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from smtp-out-212-35.amazon.com (smtp-out-212-35.amazon.com [72.21.212.35])
+	by ns1 (Postfix) with ESMTP id 2D23D888BC
+	for <support@doap.com>; Thu, 29 Sep 2011 08:14:43 -0700 (PDT)
+Date: Thu, 29 Sep 2011 15:05:42 +0000 (UTC)
+From: AWS Notifications <no-reply@sns.amazonaws.com>
+To: "support@doap.com" <support@doap.com>
+Message-ID: <urn.correios.msg.20110929150542a4f00fb1fa2e4976b9e10b5661b4ba2d@1317308742297.rte-svc-na-1001.vdc.amazon.com>
+Subject: AWS Notification - Subscription Confirmation
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_471677_10883624.1317308742295"
+Bounces-to: 20110929150542a4f00fb1fa2e4976b9e10b5661b4ba2d@bounces.amazon.com
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-AMAZON-RTE-VERSION: 2.0
+
+------=_Part_471677_10883624.1317308742295
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+	<body>
+		<p>You have chosen to subscribe to the topic:
+		<br /><b>arn:aws:sns:us-west-1:700756930873:db-load-over-90percent-for-1-minute</b></p>
+		<p>To confirm this subscription, click or visit the link below (If this was in error no action is necessary):
+		<br /><a href="https://sns.us-west-1.amazonaws.com/confirmation.html?TopicArn=arn:aws:sns:us-west-1:700756930873:db-load-over-90percent-for-1-minute&Token=2336412f37fb687f5d51e6e241d3b4d5c8d13ecd2cc8fdacb452aa56edb6c230e5392819b41dc03f7a3f34413e4817f514b2d187db716ad0dfbf40001417b1a3a37f28d0062f6b9d97f8db3afdf4570f073ebdab3c8ac8e8bb56832c86a8848428680c7603d4e5d7bbae988de94471cfd2ceea21306f525c378ff13c023a3fa73b17838d994ab095ba43e3da87a8327c&Endpoint=support@doap.com">Confirm subscription</a></p>
+		<p><small>Please do not reply directly to this e-mail. If you wish to remove yourself from receiving all future SNS subscription confirmation requests please send email to <a href="mailto:sns-opt-out@amazon.com">sns-opt-out</a></small></p>
+	</body>
+</html>
+------=_Part_471677_10883624.1317308742295--
+

@@ -1,0 +1,215 @@
+Return-Path: <bounce-20-888255789@trakken.google.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from smtp-out.google.com (smtp-out.google.com [216.239.44.51])
+	by ns1 (Postfix) with ESMTP id A039788BB4
+	for <support@doap.com>; Wed, 19 Oct 2011 18:02:09 -0700 (PDT)
+Received: from wpaz13.hot.corp.google.com (wpaz13.hot.corp.google.com [172.24.198.77])
+	by smtp-out.google.com with ESMTP id p9K129iJ005740
+	for <support@doap.com>; Wed, 19 Oct 2011 18:02:09 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=google.com; s=beta;
+	t=1319072529; bh=U1FHMuFBI2f0pgKUugI5IlyWsPQ=;
+	h=Date:From:To:Cc:Subject:Message-ID:MIME-Version:Content-Type:
+	 Content-Transfer-Encoding:In-Reply-To;
+	b=n9y6JWAn4G+SzCirIomF/u4tFi4fEs6FGQ6sEB9jwe9UfVX3wt7hdRtQKNCAU6qhr
+	 ubKR0aQYgpFm7EZU8c40w==
+DomainKey-Signature: a=rsa-sha1; s=beta; d=google.com; c=nofws; q=dns;
+	h=dkim-signature:date:from:to:cc:subject:message-id:
+	mime-version:content-type:content-transfer-encoding:in-reply-to:user-agent;
+	b=G8LTKPzyxwCj1CoapS/zIIY6nIeVneSX21YKNvfm95sX0+qcIgx4YKnTkFi1dsWgT
+	rAhCSgx6fQrj4zYQWJWgQ==
+Received: from pzk32 (pzk32.prod.google.com [10.243.19.160])
+	by wpaz13.hot.corp.google.com with ESMTP id p9K11bNt006122
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=NOT)
+	for <support@doap.com>; Wed, 19 Oct 2011 18:02:09 -0700
+Received: by pzk32 with SMTP id 32so510387pzk.4
+        for <support@doap.com>; Wed, 19 Oct 2011 18:02:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=date:from:to:cc:subject:message-id:mime-version:content-type
+         :content-transfer-encoding:in-reply-to:user-agent;
+        bh=MPCY5XxwR110s8py+oeHG9JjNbl4qETSvUUe22PszKI=;
+        b=iDGzsulhZJZ/ul+VGGEBqwRZjz0Fpw9Mox5uT34ir4e3dIaMD5C3ZBgiZkg3uaVbmI
+         4A0giXjqJsba+PnpoBgA==
+Received: by 10.68.35.68 with SMTP id f4mr5933517pbj.5.1319072528771;
+        Wed, 19 Oct 2011 18:02:08 -0700 (PDT)
+Date: Thu, 20 Oct 2011 00:56:49 -0000
+From: "Google Help" <fullaccountsquestions@google.com>
+To: "David Menache" <dmenache@thehvac.net>
+Cc: "Doap.com Support Team" <support@doap.com>
+Subject: Re: [#888255789] Questions regarding your conflicting account
+Message-ID: <#14.34f1b52d.5debd9ad.4e9f71d1.441@google.trakken.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+In-Reply-To: <BA509D20-A580-4912-9399-6207990BFFE3@thehvac.net>
+User-Agent: Neotonic Trakken/combo_frontend-trakken/3.5.5-RC7
+
+Hello David,
+
+Thank you for your report.
+
+You've reached the Google Accounts Help Center for users. Since your issue =
+is related to administering your domain, we are unable to assist you furthe=
+r. For assistance, you will be able to find additional help in the Google A=
+pps for Admins Help Center at: http://www.google.com/support/a/bin/topic.py=
+?hl=3Den&topic=3D28917
+
+We apologize for any inconvenience this may have caused and appreciate your=
+ understanding and cooperation.
+
+Sincerely,
+
+The Google Team
+
+
+
+Original Message Follows:
+------------------------
+From: David Menache <dmenache@thehvac.net>
+Subject: Re: [#888255789] Questions regarding your conflicting account
+Date: Tue, 11 Oct 2011 07:47:33 -0600
+
+>=20
+> how on earth can i manage my domain now?! =20
+> thank you for any help with this matter.
+>=20
+>=20
+>=20
+>=20
+> On Oct 11, 2011, at 7:04 AM, Google Help wrote:
+>=20
+> > Hello,=20
+> >=20
+> > Thanks for your report. This is an automated message with information r=
+elating to your inquiry. You might be seeing a page with =E2=80=98An update=
+ to your account is required=E2=80=99 when you try to sign in with your Goo=
+gle Apps account. If you have never seen =E2=80=98An update to your account=
+ is required=E2=80=99 message before, you can ignore this email.=20
+> >=20
+> > If you have seen this message, you have a conflicting account. Previous=
+ly, you could only use your Google Apps account to sign into Gmail, Calenda=
+r, and Google Docs. When you used other products such as AdWords, Analytics=
+, or YouTube using your Apps account email address, you were using a person=
+al Google Account based on the same email address. This personal Google Acc=
+ount is also known as a conflicting account.=20
+> >=20
+> > Now, two separate accounts with the same username can no longer exist. =
+As a result, your conflicting Google Account that was used to access produc=
+ts like YouTube, AdWords, or Blogger was renamed to a different, temporary,=
+ sign in address. If your Google Apps email address was username@domain.com=
+, then your conflicting account has been renamed to username%domain.com@gte=
+mpaccount.com.=20
+> >=20
+> > To sign in to your conflicting account, sign in with the @gtempaccount.=
+com address using your original password. You=E2=80=99ll then be prompted t=
+o update your account, which can be done in two easy steps. First, you need=
+ to decide where the data in your conflicting account belongs. In some case=
+s, you may be able to move some product data to your Google Apps account. N=
+ext, you need to choose a new name for your conflicting account.=20
+> >=20
+> > If you are wondering what products you had used with your conflicting a=
+ccount, you can check the Google Dashboard at http://www.google.com/dashboa=
+rd while signed in to your conflicting account.=20
+> >=20
+> > If you have any further questions, please browse the Help Center at htt=
+p://www.google.com/support/accounts/go/fullaccounts. You can read more abou=
+t conflicting accounts specifically at http://www.google.com/support/accoun=
+ts/bin/topic.py?hl=3Den&topic=3D28707.=20
+> >=20
+> > We appreciate your understanding. If you are still having problems with=
+ your conflicting account, please reply to this message and we will respond=
+ to your shortly.=20
+> >=20
+> > Regards,
+> > The Google Team
+> >=20
+> >=20
+> >=20
+> > Original Message Follows:
+> > ------------------------
+> > From: dave@doap.com
+> > Subject: Questions regarding your conflicting account
+> > Date: Tue, 11 Oct 2011 13:04:12 +0000
+> >=20
+> > I created this account and made it superuser. but cannont manage the =20
+> > domain.  Now i have no superuser accounts for =20
+> > myworldtransfers.com/deployonanyplatform.com/doap.com apps domain and i=
+t is =20
+> > my live business website.    Why are super user priveleges not availabl=
+e on =20
+> > the users i granted superuser access to.  ie:bobby@doap.com and =20
+> > dave@doap.com? The problems started when i switched my old email admin =20
+> > account to the new domain name doap.com : You can't rename your account=
+ to =20
+> > an email address already associated with an existing Google Account. Yo=
+u =20
+> > also won't be able to change it back to your original @my-domain.com em=
+ail =20
+> > address. Lastly, the email address that you choose needs to be an activ=
+e, =20
+> > valid email address that you can access.
+> >=20
+> >=20
+> > AutoDetectedBrowser: Google Chrome
+> > AutoDetectedOS: Intel Macintosh OS X
+> > IIILanguage: en
+> > IssueType: conflict_questions
+> > Language: en
+> >=20
+> >=20
+>=20
+>=20
+> [img]how on earth can i manage my domain now?!  thank you for any help wi=
+th this matter.
+>=20
+>=20
+>=20
+> On Oct 11, 2011, at 7:04 AM, Google Help wrote:
+> Hello,
+>=20
+> Thanks for your report. This is an automated message with information rel=
+ating to your inquiry. You might be seeing a page with =E2=80=98An update t=
+o your account is required=E2=80=99 when you try to sign in with your Googl=
+e Apps account. If you have never seen =E2=80=98An update to your account i=
+s required=E2=80=99 message before, you can ignore this email.
+>=20
+> If you have seen this message, you have a conflicting account. Previously=
+, you could only use your Google Apps account to sign into Gmail, Calendar,=
+ and Google Docs. When you used other products such as AdWords, Analytics, =
+or YouTube using your Apps account email address, you were using a personal=
+ Google Account based on the same email address. This personal Google Accou=
+nt is also known as a conflicting account.
+>=20
+> Now, two separate accounts with the same username can no longer exist. As=
+ a result, your conflicting Google Account that was used to access products=
+ like YouTube, AdWords, or Blogger was renamed to a different, temporary, s=
+ign in address. If your Google Apps email address was username@domain.com, =
+then your conflicting account has been renamed to username%domain.com@gtemp=
+account.com.
+>=20
+> To sign in to your conflicting account, sign in with the @gtempaccount.co=
+m address using your original password. You=E2=80=99ll then be prompted to =
+update your account, which can be done in two easy steps. First, you need t=
+o decide where the data in your conflicting account belongs. In some cases,=
+ you may be able to move some product data to your Google Apps account. Nex=
+t, you need to choose a new name for your conflicting account.
+>=20
+> If you are wondering what products you had used with your conflicting acc=
+ount, you can check the Google Dashboard at http://www.google.com/dashboard=
+ while signed in to your conflicting account.
+>=20
+> If you have any further questions, please browse the Help Center at http:=
+//www.google.com/support/accounts/go/fullaccounts. You can read more about =
+conflicting accounts specifically at http://www.google.com/support/accounts=
+/bin/topic.py?hl=3Den&topic=3D28707.
+>=20
+> We appreciate your understanding. If you are still having problems with y=
+our conflicting account, please reply to this message and we will respond t=
+o your shortly.
+>=20
+> Regards,
+> The Google Team
+>=20
+>
+

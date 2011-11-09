@@ -1,0 +1,44 @@
+Return-Path: <3_O6QThEKBZcEFI5GCP+6554GIFOP7FF7C5.3FD2F22P4F1G.3FD@feedburner.bounces.google.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-vw0-f72.google.com (mail-vw0-f72.google.com [209.85.212.72])
+	by ns1 (Postfix) with ESMTP id AF85288735
+	for <bobby@doap.com>; Sat,  8 Oct 2011 17:46:52 -0700 (PDT)
+Received: by vws14 with SMTP id 14so7189959vws.7
+        for <bobby@doap.com>; Sat, 08 Oct 2011 17:46:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:sender:message-id:date:subject:from:to:content-type;
+        bh=JMOCTGOjsWKNIrFEQjZE0E8SfZVy8aozLRsUp9utNII=;
+        b=X7mCl21WBZk3JdAGtVdnh8UL5VxQNQwfD5XDjotmLO/M+Lop1wUo3TUoya4Y36A0ue
+         dsrHn6jZ9u2nqMe2eJTw==
+MIME-Version: 1.0
+Received: by 10.236.185.4 with SMTP id t4mr18081242yhm.3.1318121212140; Sat,
+ 08 Oct 2011 17:46:52 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Message-ID: <20cf303f67fa9edd6904aed30229@google.com>
+Date: Sun, 09 Oct 2011 00:46:52 +0000
+Subject: Activate your Email Subscription to: Joomla! Security News
+From: FeedBurner Email Subscriptions <noreply+feedproxy@google.com>
+To: bobby@doap.com
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Hello there,
+
+You recently requested an email subscription to Joomla! Security News. We  
+can't wait to send the updates you want via email, so please click the  
+following link to activate your subscription immediately:
+
+http://feedburner.google.com/fb/a/mailconfirm?k=lfzDGvdCKoVNuTppilrnBY-eoFs
+
+(If the link above does not appear clickable or does not open a browser  
+window when you click it, copy it and paste it into your web browser's  
+Location bar.)
+
+--
+This message was sent to you by FeedBurner (feedburner.google.com)
+You received this message because you requested a subscription to the feed,  
+Joomla! Security News.
+If you received this in error, please disregard.  Do not reply directly to  
+this email.
+

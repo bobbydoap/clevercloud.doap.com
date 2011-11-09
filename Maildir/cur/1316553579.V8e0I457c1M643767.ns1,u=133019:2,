@@ -1,0 +1,154 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gw0-f49.google.com (mail-gw0-f49.google.com [74.125.83.49])
+	by ns1 (Postfix) with ESMTP id 6E336888E4
+	for <sales@doap.com>; Tue, 20 Sep 2011 14:19:39 -0700 (PDT)
+Received: by gwb20 with SMTP id 20so1013784gwb.36
+        for <sales@doap.com>; Tue, 20 Sep 2011 14:19:39 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.231.83.19 with SMTP id d19mr2156294ibl.7.1316553578676; Tue,
+ 20 Sep 2011 14:19:38 -0700 (PDT)
+Reply-To: dave@doap.com
+Sender: dmenache@thehvac.net
+Received: by 10.42.229.74 with HTTP; Tue, 20 Sep 2011 14:19:38 -0700 (PDT)
+X-Originating-IP: [190.181.160.105]
+Date: Tue, 20 Sep 2011 15:19:38 -0600
+X-Google-Sender-Auth: WRVAAqNVoRP5PJ3AA9BEh17sD3Q
+Message-ID: <CANCpuCmxVHUn1T_e15_1HAkHnA2X+QxGQ=8PNoSRUk+GOgNzOg@mail.gmail.com>
+Subject: markus.from-ca.com server deployed
+From: David Menache <dave@doap.com>
+To: companyx@markus.from-ca.com
+Content-Type: multipart/mixed; boundary=000e0cd4b40a62814204ad6604b4
+
+--000e0cd4b40a62814204ad6604b4
+Content-Type: multipart/alternative; boundary=000e0cd4b40a62813c04ad6604b2
+
+--000e0cd4b40a62813c04ad6604b2
+Content-Type: text/plain; charset=ISO-8859-1
+
+Markus,
+
+Here is a new 30Gig  windows server micro instance.  it is the smallest
+possible and runs min $50/mo + metered rates.if exceed a certain limit.
+I create
+
+remote desktop to
+markus.from-ca.com
+
+it has been assigned a static IP: 50.18.105.25
+i opened the firewall up wide open.  it has total fine grained control and
+also uptime and performance monitoring, scheduled backups at the vmware
+level.  the customer
+
+
+the attached rdp file should get you in with a click.  password is stored.
+login as  Administrator
+pass      x.ZchBqcf7
+
+private key attached
+
+also, check out the speed test screenshot on the desktop.,
+
+you will like :)
+
+give me a ring,
+dave
+
+--000e0cd4b40a62813c04ad6604b2
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Markus,<br><br>Here is a new 30Gig=A0 windows server micro instance.=A0 it =
+is the smallest possible and runs min $50/mo + metered rates.if exceed a ce=
+rtain limit.<br>I create<br><br>remote desktop to<br><a href=3D"http://mark=
+us.from-ca.com" target=3D"_blank">markus.from-ca.com</a> <br>
+
+
+<br>it has been assigned a static IP: 50.18.105.25<br>i opened the firewall=
+ up wide open.=A0 it has total fine grained control and also uptime and per=
+formance monitoring, scheduled backups at the vmware level.=A0 the customer=
+<br>
+
+
+<br><br>the attached rdp file should get you in with a click.=A0 password i=
+s stored.<br>login as=A0 Administrator<br>pass=A0=A0=A0=A0=A0 x.ZchBqcf7<br=
+><br>private key attached<br><br>also, check out the speed test screenshot =
+on the desktop.,=A0 <br>
+<br>you will like :)<br><br>give me a ring,<br>dave<br>
+
+--000e0cd4b40a62813c04ad6604b2--
+--000e0cd4b40a62814204ad6604b4
+Content-Type: application/octet-stream; name="markus.pem"
+Content-Disposition: attachment; filename="markus.pem"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_gstc3wwh0
+
+LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQ0KTUlJRXBBSUJBQUtDQVFFQWhLM1MydExQ
+VE1tVFhNY2FHWENMMFR6aFFEZ2J6MDBNWm9JRzE3UkpCdkkzTG9hNWJKWGlPaXVHeE5rVw0KZFY5
+V3VuRFJrYWJPUEhZN0JCT2hLRDE0ZzNkQUg4cHByY3paMmdYRTJ0UU8yNmlrczIzcVZxbUFhWE9s
+bkE3TTUwTVBNUHEyZ0RnaQ0KZ3Rid1FzeS8rTnBLR1pUeHd2czQ5djc2YjZmL1VLR2src0tLM2E1
+eHZuU2NOVStJWjUxcmhCVGFIYWE5ajhTdTJsK2lJdGZlQnJpVg0KVVI4emtjcHd5eTNvRnhUTWJS
+WGVOaUx3UWQ2ODdsVDZ4R0hRTUROYXBONGF0TzdFM2toRWlhSElpaFc1MmNZMEhTU2dKWlFDWkF4
+dg0KeVBMY0J4b3RHcm5YNklZWFMrS0U3dWFpMWI0Y2RWQUJRa0daeUVpY2NKT0phSWtoZmU0QkN3
+SURBUUFCQW9JQkFCS2VoaUdaUmVnag0Kdlo5ZWZZWW1haWloMzRad21VNTlKSWxhSS9XdllqUXNW
+NXdhNGZpZ0RCQlh2V0R3aWh0TWx0SXhOT2U0dmVaMFBSSDBZMEJQYUJNaQ0KOEFmR0V4Q0YxK2ls
+dUp0dytPalFnTlNCVDBwOEhQNHZjWVUxK29GVnd0TC96QTZ3VWYrRWhGRUxoTUU2ZVAyZ0RsRnJp
+ZkgzbEZPSg0KQXVaZzJOTXJ0YjhnNmovYWVPenYzS1NDcVRseUFFTVdETWVLam1WS2pCSVFlZDRn
+Z3grQ0VtNW1HL3dmSW1Ycnd5OWExY2RudUU0RA0KMCt1eDdRM0JtMnlRWnhpZGg0UnpralhMY0tw
+WEZtVjVic1dZZElMbi9xMCtod2V6VCtxSlpIUFNWbGEwZDhwQmRnQ1pVR2Zpemp5ag0KTTQzK05X
+YVBxM1JMOUxMMFdmRWZzMkV2dUxrQ2dZRUErbGNXVGJxTnFXT3UyQmM2YWtnakZqdld3bHI5WThu
+bXZLQzlRS1VwZ2RMMg0Kby9aeTFvRXdHc2VNTEIzdWtoSTM4bVloQmpFdzNXUW1URjdETFpWbytG
+WVNKMU5xdEM5dGRtK0VVZVpVYnUwdnAyL2x2LzNac2RqWg0KdjlBVENad3RZQzdUZDV4K0ZEcE5h
+OHlLVWVWTnBjUm1EdXpLN3JaMSs4dUhoRmJxekRVQ2dZRUFoNjI5YmVWdUxZb25KTzdZQi83Qg0K
+cFhTd25XS2RHTXhjZDN5VHo1dFZpSzJqeWZiTElzSW5DZ3VqcHJWQW1JcUlSTFRMeGJvNC80U0My
+ZmFUT3QyNS9xaVlPOXZSNDF6cA0KU05Hc0poZVlrY3NtMWY0YUpBMXpQeWNsdjJnVVROc3dnNnlp
+MVlSRVVYOG1LemkwYVlZVUloTDM5akRTZHZNdEZveVF6OURHd0Q4Qw0KZ1lFQWpBemNkVy9BZ05z
+N25iaWcvWVNOM0lwdGd4M1VWRmRIdG85V1VTd1ZKSVFaWjNFZ25kQjRVUU1COEV4dWcxbWQ0d1l2
+dzM4Ug0KajBuUUF6bWdoNGZteWNlZE1GTUNodnRoaWJpcGxnZjloSEU5RDdjU0dXNnlzMFJWelhG
+aXRTV2lYUVRWV1QwN2E2V1NXcFI3YllXVA0KQXdIMDlyU1NjeW13cDhVZGMzUU10MkVDZ1lBU0cw
+T09hUEhkTGZTdlh4aUJhS1FiR29sL1YydXpwWUlwaC95SjFpY0NDSG8xTjdSQQ0KUFR6TWdHVWtt
+RWU0azdRL3h3anlxRGwzRUE0T1hIT2xoWFdPNEowQVVBT2duZ09iN2k5VkhnMEVWK0lrNkxaQVhY
+TWwyR21YTTZLUg0KNXlhQVRBZW5Ddkc3Rm9iWGVjZkoxVlRXZjBXTUcxUGEvL1RpYjN2YjMvYkdM
+UUtCZ1FETHhDN0ZyVlg0NnZ0SjBMcWk0LzBjN2VRcA0KQWFrK1U2QUs4dnZmdm1FblRxdE9xVkN3
+MzlJZ3d2VkVLd3Q5ZmplSExYMzQrQTNjLy9WOXZsZWxFL2JnYjJkZ2p5RDVkenlmVUpzcA0KYUdP
+OHlUbGNRd2p5dGtMWmFpaGt4MHVJUWtMVEV3Q1U2Uyt4bk1PV1dUMlFPa2Ivd3pXeU5xZ1luY0tP
+OXZmak1tYm4ydz09DQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQ==
+--000e0cd4b40a62814204ad6604b4
+Content-Type: application/octet-stream; name="markus.from-ca..com.rdp"
+Content-Disposition: attachment; filename="markus.from-ca..com.rdp"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_gstdwxl71
+
+//5zAGMAcgBlAGUAbgAgAG0AbwBkAGUAIABpAGQAOgBpADoAMgANAAoAZABlAHMAawB0AG8AcAB3
+AGkAZAB0AGgAOgBpADoAMQAzADYANgANAAoAZABlAHMAawB0AG8AcABoAGUAaQBnAGgAdAA6AGkA
+OgA3ADYAOAANAAoAcwBlAHMAcwBpAG8AbgAgAGIAcABwADoAaQA6ADMAMgANAAoAdwBpAG4AcABv
+AHMAcwB0AHIAOgBzADoAMAAsADMALAAwACwAMAAsADgAMAAwACwANgAwADAADQAKAGMAbwBtAHAA
+cgBlAHMAcwBpAG8AbgA6AGkAOgAxAA0ACgBrAGUAeQBiAG8AYQByAGQAaABvAG8AawA6AGkAOgAy
+AA0ACgBkAGkAcwBwAGwAYQB5AGMAbwBuAG4AZQBjAHQAaQBvAG4AYgBhAHIAOgBpADoAMQANAAoA
+ZABpAHMAYQBiAGwAZQAgAHcAYQBsAGwAcABhAHAAZQByADoAaQA6ADEADQAKAGQAaQBzAGEAYgBs
+AGUAIABmAHUAbABsACAAdwBpAG4AZABvAHcAIABkAHIAYQBnADoAaQA6ADEADQAKAGEAbABsAG8A
+dwAgAGQAZQBzAGsAdABvAHAAIABjAG8AbQBwAG8AcwBpAHQAaQBvAG4AOgBpADoAMAANAAoAYQBs
+AGwAbwB3ACAAZgBvAG4AdAAgAHMAbQBvAG8AdABoAGkAbgBnADoAaQA6ADAADQAKAGQAaQBzAGEA
+YgBsAGUAIABtAGUAbgB1ACAAYQBuAGkAbQBzADoAaQA6ADEADQAKAGQAaQBzAGEAYgBsAGUAIAB0
+AGgAZQBtAGUAcwA6AGkAOgAwAA0ACgBkAGkAcwBhAGIAbABlACAAYwB1AHIAcwBvAHIAIABzAGUA
+dAB0AGkAbgBnADoAaQA6ADAADQAKAGIAaQB0AG0AYQBwAGMAYQBjAGgAZQBwAGUAcgBzAGkAcwB0
+AGUAbgBhAGIAbABlADoAaQA6ADEADQAKAGYAdQBsAGwAIABhAGQAZAByAGUAcwBzADoAcwA6AG0A
+YQByAGsAdQBzAC4AZgByAG8AbQAtAGMAYQAuAGMAbwBtAA0ACgBhAHUAZABpAG8AbQBvAGQAZQA6
+AGkAOgAwAA0ACgByAGUAZABpAHIAZQBjAHQAcAByAGkAbgB0AGUAcgBzADoAaQA6ADEADQAKAHIA
+ZQBkAGkAcgBlAGMAdABjAG8AbQBwAG8AcgB0AHMAOgBpADoAMAANAAoAcgBlAGQAaQByAGUAYwB0
+AHMAbQBhAHIAdABjAGEAcgBkAHMAOgBpADoAMQANAAoAcgBlAGQAaQByAGUAYwB0AGMAbABpAHAA
+YgBvAGEAcgBkADoAaQA6ADEADQAKAHIAZQBkAGkAcgBlAGMAdABwAG8AcwBkAGUAdgBpAGMAZQBz
+ADoAaQA6ADAADQAKAGEAdQB0AG8AcgBlAGMAbwBuAG4AZQBjAHQAaQBvAG4AIABlAG4AYQBiAGwA
+ZQBkADoAaQA6ADEADQAKAGEAdQB0AGgAZQBuAHQAaQBjAGEAdABpAG8AbgAgAGwAZQB2AGUAbAA6
+AGkAOgAyAA0ACgBwAHIAbwBtAHAAdAAgAGYAbwByACAAYwByAGUAZABlAG4AdABpAGEAbABzADoA
+aQA6ADAADQAKAG4AZQBnAG8AdABpAGEAdABlACAAcwBlAGMAdQByAGkAdAB5ACAAbABhAHkAZQBy
+ADoAaQA6ADEADQAKAHIAZQBtAG8AdABlAGEAcABwAGwAaQBjAGEAdABpAG8AbgBtAG8AZABlADoA
+aQA6ADAADQAKAGEAbAB0AGUAcgBuAGEAdABlACAAcwBoAGUAbABsADoAcwA6AA0ACgBzAGgAZQBs
+AGwAIAB3AG8AcgBrAGkAbgBnACAAZABpAHIAZQBjAHQAbwByAHkAOgBzADoADQAKAGcAYQB0AGUA
+dwBhAHkAaABvAHMAdABuAGEAbQBlADoAcwA6AA0ACgBnAGEAdABlAHcAYQB5AHUAcwBhAGcAZQBt
+AGUAdABoAG8AZAA6AGkAOgA0AA0ACgBnAGEAdABlAHcAYQB5AGMAcgBlAGQAZQBuAHQAaQBhAGwA
+cwBzAG8AdQByAGMAZQA6AGkAOgA0AA0ACgBnAGEAdABlAHcAYQB5AHAAcgBvAGYAaQBsAGUAdQBz
+AGEAZwBlAG0AZQB0AGgAbwBkADoAaQA6ADAADQAKAHAAcgBvAG0AcAB0AGMAcgBlAGQAZQBuAHQA
+aQBhAGwAbwBuAGMAZQA6AGkAOgAxAA0ACgA=
+--000e0cd4b40a62814204ad6604b4--

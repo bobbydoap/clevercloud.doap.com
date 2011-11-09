@@ -1,0 +1,31 @@
+Return-Path: <wwwrun@doap.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 30)
+	id 12A6F88716; Sat, 17 Sep 2011 10:23:19 -0700 (PDT)
+To: support@doap.com
+Subject: New WordPress Site
+X-PHP-Originating-Script: 0:class-phpmailer.php
+Date: Sat, 17 Sep 2011 17:23:18 +0000
+From: WordPress <wordpress@cuevadelbuzo.doap.com>
+Message-ID: <2ffe168fcd0bab076b5a1664a85e3a57@cuevadelbuzo.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer (phpmailer.sourceforge.net) [version 2.0.4]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+Your new WordPress site has been successfully set up at:
+
+http://cuevadelbuzo.doap.com
+
+You can log in to the administrator account with the following information:
+
+Username: admin
+Password: The password you chose during the install.
+
+We hope you enjoy your new site. Thanks!
+
+--The WordPress Team
+http://wordpress.org/
+

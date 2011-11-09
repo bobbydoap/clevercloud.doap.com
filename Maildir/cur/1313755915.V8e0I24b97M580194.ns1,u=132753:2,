@@ -1,0 +1,605 @@
+Return-Path: <tech+bncCOKrwsOaDRCDprnyBBoEgcHSEQ@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-qw0-f72.google.com (mail-qw0-f72.google.com [209.85.216.72])
+	by ns1 (Postfix) with ESMTP id 05EFF889AB;
+	Fri, 19 Aug 2011 05:11:54 -0700 (PDT)
+Received: by qwf6 with SMTP id 6sf4046972qwf.7
+        for <multiple recipients>; Fri, 19 Aug 2011 05:11:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=17qGCQuVeQYfdwwiPtte5c+N9ff+baLSNEyGVzjf4qo=;
+        b=Bb9w0goLaIP08V+X1Y4GSDjUzFZWalkiM7IGOkNMDdPmNIcrDEF6BSg0d7GMKAhdeg
+         tTvtyM1zYa7l7mstsiWA==
+Received: by 10.236.179.104 with SMTP id g68mr5002786yhm.9.1313755907426;
+        Fri, 19 Aug 2011 05:11:47 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.151.93.12 with SMTP id v12ls6308416ybl.1.gmail; Fri, 19 Aug
+ 2011 05:11:47 -0700 (PDT)
+Received: by 10.150.47.40 with SMTP id u40mr2085970ybu.161.1313755906988;
+        Fri, 19 Aug 2011 05:11:46 -0700 (PDT)
+Received: by 10.150.47.40 with SMTP id u40mr2085968ybu.161.1313755906926;
+        Fri, 19 Aug 2011 05:11:46 -0700 (PDT)
+Received: from mail-yi0-f71.google.com (mail-yi0-f71.google.com [209.85.218.71])
+        by mx.google.com with ESMTPS id g2si4287999ybf.65.2011.08.19.05.11.46
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 19 Aug 2011 05:11:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3_VJOThEKBFQ9AD0B7K+100zBDAJK2AA270.yA8p0y3F303Hwy.90F@feedburner.bounces.google.com designates 209.85.218.71 as permitted sender) client-ip=209.85.218.71;
+Received: by yie30 with SMTP id 30so4110470yie.10
+        for <Tech@thehvac.net>; Fri, 19 Aug 2011 05:11:46 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.101.130.18 with SMTP id h18mt2615131ann.37.1313755901180; Fri,
+ 19 Aug 2011 05:11:41 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <001636ed6fd2cfc9b304aadaa198@google.com>
+Date: Fri, 19 Aug 2011 12:11:46 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3_VJOThEKBFQ9AD0B7K+100zBDAJK2AA270.yA8p0y3F303Hwy.90F@feedburner.bounces.google.com
+ designates 209.85.218.71 as permitted sender) smtp.mail=3_VJOThEKBFQ9AD0B7K+100zBDAJK2AA270.yA8p0y3F303Hwy.90F@feedburner.bounces.google.com;
+ dkim=pass (test mode) header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=001636ed6fd225a2b304aadaa21b
+
+--001636ed6fd225a2b304aadaa21b
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+QW1hem9uIFdlYiBTZXJ2aWNlcyBCbG9nDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8NCkZvdXIgTmV3IEFtYXpvbiBFQzIgU3BvdCBJbnN0YW5jZSBWaWRlb3MN
+Cg0KUG9zdGVkOiAxOCBBdWcgMjAxMSAwODo0OSBQTSBQRFQNCmh0dHA6Ly9mZWVkcHJveHkuZ29v
+Z2xlLmNvbS9+ci9BbWF6b25XZWJTZXJ2aWNlc0Jsb2cvfjMvUUw3OFdCV1lTbm8vbmV3LWFtYXpv
+bi1lYzItc3BvdC1pbnN0YW5jZS12aWRlb3MuaHRtbD91dG1fc291cmNlPWZlZWRidXJuZXImdXRt
+X21lZGl1bT1lbWFpbA0KDQoNCklmIHlvdSBoYXZlIHJlYWQgYWJvdXQgdGhlIEFtYXpvbiBFQzIg
+U3BvdCBJbnN0YW5jZXMgYnV0IGFyZSBub3QgcXVpdGUgc3VyZSAgDQpob3cgdG8gZ2V0IHN0YXJ0
+ZWQsIGhvdyB0byBtYWtlIGNvc3QtZWZmZWN0aXZlIGJpZHMsIG9yIGhvdyB0byBidWlsZCAgDQph
+cHBsaWNhdGlvbnMgdGhhdCBjYW4gbWFuYWdlIGludGVycnVwdGlvbnMsIEl2ZSBnb3QgYSB0cmVh
+dCBmb3IgeW91LiBXZXZlICANCnB1dCB0b2dldGhlciBhIHRyaW8gb2Ygc2hvcnQgdmlkZW9zIHRo
+YXQgc2hvdWxkIGdpdmUgeW91IGFsbCBvZiB0aGUgIA0KaW5mb3JtYXRpb24geW91bGwgbmVlZCB0
+byBnZXQgc3RhcnRlZC4gSGVyZSBpcyB3aGF0IHdlIGhhdmU6DQoNCkdldHRpbmcgU3RhcnRlZCB3
+aXRoIEVDMiBTcG90IEluc3RhbmNlcyAtIFRoaXMgdmlkZW8gc2hvd3MgeW91IGhvdyB0byAgDQps
+YXVuY2gsIHZpZXcsIGFuZCBjYW5jZWwgc3BvdCBpbnN0YW5jZSByZXF1ZXN0cyB1c2luZyB0aGUg
+QVdTIE1hbmFnZW1lbnQgIA0KQ29uc29sZS4gWW91IHdpbGwgc2VlIGhvdyB0byBsb2cgaW4gdG8g
+dGhlIGNvbnNvbGUsIHNlbGVjdCBhbiBBTUksIGFuZCAgDQpjcmVhdGUgYSBiaWQuDQoNCg0KICAg
+U3BvdCBJbnN0YW5jZSBCaWRkaW5nIFN0cmF0ZWdpZXMgLSBUaGlzIHZpZGVvIHNob3dzIGhvdyBj
+dXN0b21lcnMgY2hvb3NlICANCmJpZCBzdHJhdGVnaWVzIHRoYXQgaGF2ZSByZXN1bHRlZCBpbiBz
+YXZpbmdzIG9mIDUwLTY2JSBmcm9tIHRoZSBPbi1EZW1hbmQgIA0KcHJpY2luZy4gRm91ciBzdHJh
+dGVnaWVzIGFyZSBjb3ZlcmVkOiBiaWRkaW5nIG5lYXIgdGhlIGhvdXJseSByYXRlIGZvciAgDQpS
+ZXNlcnZlZCBJbnN0YW5jZXMsIGJpZGRpbmcgYmFzZWQgb24gcHJldmlvdXMgdHJlbmRzLCBiaWRk
+aW5nIGF0IHRoZSAgDQpPbi1EZW1hbmQgcHJpY2UsIGFuZCBiaWRkaW5nIGhpZ2hlciB0aGFuIHRo
+ZSBPbi1EZW1hbmQgcHJpY2UuIFdhdGNoIHRoaXMgIA0KdmlkZW8gdG8gbGVhcm4gd2hlbiBpdCBp
+cyBhcHByb3ByaWF0ZSB0byB1c2UgZWFjaCBvZiB0aGVzZSBzdHJhdGVnaWVzLiBUaGUgIA0Kdmlk
+ZW8gYWxzbyByZWZlcmVuY2VzIGEgcGFydGljbGUgcGh5c2ljcyBwcm9qZWN0IHJ1biBieSB0aGUg
+VW5pdmVyc2l0eSBvZiAgDQpNZWxib3VybmUgYW5kIHRoZSBVbml2ZXJzaXR5IG9mIEJhcmNlbG9u
+YSBvbiBTcG90IEluc3RhbmNlcy4gTW9yZSAgDQppbmZvcm1hdGlvbiBhYm91dCB0aGlzIHByb2pl
+Y3QgaXMgYXZhaWxhYmxlIGluIGEgcmVjZW50IGNhc2Ugc3R1ZHkuDQoNCg0KICBTcG90IEluc3Rh
+bmNlIEludGVycnVwdGlvbiBNYW5hZ2VtZW50IC0gVGhpcyB2aWRlbyBvdXRsaW5lcyBtdWx0aXBs
+ZSB3YXlzICANCnRvIGNyZWF0ZSBhcHBsaWNhdGlvbnMgdGhhdCBjYW4gcnVuIGluIGFuIGVudmly
+b25tZW50IHdoZXJlIHRoZXkgbWF5IGJlICANCmludGVycnVwdGVkIGFuZCBzdWJzZXF1ZW50bHkg
+cmVzdGFydGVkLiBTdHJhdGVnaWVzIGluY2x1ZGUgdXNpbmcgRWxhc3RpYyAgDQpNYXBSZWR1Y2Ug
+b3IgSGFkb29wLCBjaGVja3BvaW50aW5nLCB1c2luZyBhIGdyaWQgYXJjaGl0ZWN0dXJlLCBvciBk
+cml2aW5nICANCmFsbCBwcm9jZXNzaW5nIGZyb20gYSBtZXNzYWdlIHF1ZXVlLg0KDQoNCiAgVXNp
+bmcgRUMyIFNwb3QgSW5zdGFuY2VzIFdpdGggRU1SIC0gVGhpcyB2aWRlbyBzaG93cyBob3cgdG8g
+cnVuIEVsYXN0aWMgIA0KTWFwUmVkdWNlIGpvYnMgb24gYSBjb21iaW5hdGlvbiBvZiBPbi1EZW1h
+bmQgYW5kIFNwb3QgSW5zdGFuY2VzIHRvIGdldCB3b3JrICANCmRvbmUgbW9yZSBxdWlja2x5IGFu
+ZCBhdCBhIGxvd2VyIGNvc3QuIFRoZSBpbmNsdWRlcyBndWlkZWxpbmVzIGZvciBjaG9vc2luZyAg
+DQp0aGUgcmlnaHQgdHlwZSBvZiBpbnN0YW5jZSBmb3IgdGhlIE1hc3RlciwgQ29yZSwgYW5kIFRh
+c2sgaW5zdGFuY2UgZ3JvdXBzLg0KDQoNCg0KDQoNCkkgaG9wZSB0aGF0IHlvdSBmaW5kIHRoZXNl
+IHZpZGVvcyB0byBiZSBpbnRlcmVzdGluZyBhbmQgaW5mb3JtYXRpdmUsIGFuZCAgDQp0aGF0IHlv
+dSBhcmUgbm93IHJlYWR5IHRvIG1ha2UgdXNlIG9mIEVDMiBTcG90IEluc3RhbmNlcyBpbiB5b3Vy
+IG93biAgDQphcHBsaWNhdGlvbi4NCg0KLS0gSmVmZjsNCg0KDQoNCg0KDQovLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vDQpSdW4gQW1hem9uIEVsYXN0aWMgTWFwUmVk
+dWNlIG9uIEVDMiBTcG90IEluc3RhbmNlcw0KDQpQb3N0ZWQ6IDE4IEF1ZyAyMDExIDA4OjQ2IFBN
+IFBEVA0KaHR0cDovL2ZlZWRwcm94eS5nb29nbGUuY29tL35yL0FtYXpvbldlYlNlcnZpY2VzQmxv
+Zy9+My9zWURNbml6aW1oMC9ydW4tYW1hem9uLWVsYXN0aWMtbWFwcmVkdWNlLW9uLWVjMi1zcG90
+LWluc3RhbmNlcy5odG1sP3V0bV9zb3VyY2U9ZmVlZGJ1cm5lciZ1dG1fbWVkaXVtPWVtYWlsDQoN
+Cg0KICBXZXZlIGNvbWJpbmVkIHR3byBwb3B1bGFyIEFtYXpvbiBFQzIgZmVhdHVyZXMg4oCUIFNw
+b3QgSW5zdGFuY2VzIGFuZCBFbGFzdGljICANCk1hcFJlZHVjZSDigJR0byBhbGxvdyB5b3UgdG8g
+bGF1bmNoIG1hbmFnZWQgSGFkb29wIGNsdXN0ZXJzIHVzaW5nIHVudXNlZCBFQzIgIA0KY2FwYWNp
+dHkuIFlvdSB3aWxsIGJlIGFibGUgdG8gcnVuIGxvbmctcnVubmluZyBqb2JzLCBjb3N0LWRyaXZl
+biB3b3JrbG9hZHMsICANCmRhdGEtY3JpdGljYWwgd29ya2xvYWRzLCBhbmQgYXBwbGljYXRpb24g
+dGVzdGluZyBhdCBhIGRpc2NvdW50IHRoYXQgaGFzICANCmhpc3RvcmljYWxseSByYW5nZWQgYmV0
+d2VlbiA1MCUgYW5kIDY2JS4NCg0KV2hhdA0KVGhlIEVDMiBpbnN0YW5jZXMgdXNlZCB0byBydW4g
+YW4gRWxhc3RpYyBNYXBSZWR1Y2Ugam9iIGZsb3cgZmFsbCBpbiB0byBvbmUgIA0Kb2YgdGhyZWUg
+Y2F0ZWdvcmllcyBvciBpbnN0YW5jZSBncm91cHM6DQoNCk1hc3Rlci0gVGhlIE1hc3RlciBpbnN0
+YW5jZSBncm91cCBjb250YWlucyBhIHNpbmdsZSBFQzIgaW5zdGFuY2UuIFRoaXMgIA0KaW5zdGFu
+Y2Ugc2NoZWR1bGVzIEhhZG9vcCB0YXNrcyBvbiB0aGUgQ09SRSBhbmQgVEFTSyBub2Rlcy4NCg0K
+Q29yZSAtIFRoZSBDb3JlIGluc3RhbmNlIGdyb3VwIGNvbnRhaW5zIG9uZSBvciBtb3JlIEVDMiBp
+bnN0YW5jZXMuIFRoZXNlICANCmluc3RhbmNlcyB1c2UgSERGUyB0byBzdG9yZSB0aGUgZGF0YSBm
+b3IgdGhlIGpvYiBmbG93LiBUaGV5IGFsc28gcnVuIG1hcHBlciAgDQphbmQgcmVkdWNlciB0YXNr
+cyBhcyBzcGVjaWZpZWQgaW4gdGhlIGpvYiBmbG93LiBUaGlzIGdyb3VwIGNhbiBiZSBleHBhbmRl
+ZCAgDQppbiBvcmRlciB0byBhY2NlbGVyYXRlIGEgcnVubmluZyBqb2IgZmxvdy4NCg0KVGFzayAt
+IFRoZSBUYXNrIGluc3RhbmNlIGdyb3VwIGNvbnRhaW5zIHplcm8gb3IgbW9yZSBFQzIgaW5zdGFu
+Y2VzIGFuZCBydW5zICANCm1hcHBlciBhbmQgcmVkdWNlIHRhc2tzLiBTaW5jZSB0aGV5IGRvbnQg
+c3RvcmUgYW55IGRhdGEsIHRoaXMgZ3JvdXAgY2FuICANCmV4cGFuZCBvciBjb250cmFjdCBkdXJp
+bmcgdGhlIGNvdXJzZSBvZiBhIGpvYiBmbG93Lg0KDQpZb3UgY2FuIGNob29zZSB0byB1c2UgZWl0
+aGVyIE9uLURlbWFuZCBvciBTcG90IEluc3RhbmNlcyBmb3IgZWFjaCBvZiB5b3VyICANCmpvYiBm
+bG93cy4gSWYgeW91IHJ1biB5b3VyIE1hc3RlciBvciBDb3JlIGdyb3VwcyBvbiBTcG90IEluc3Rh
+bmNlcywgdGhlc2UgIA0KaW5zdGFuY2VzIHdpbGwgYmUgdGVybWluYXRlZCBpZiB0aGUgbWFya2V0
+IHByaWNlIHJpc2VzIGFib3ZlIHlvdXIgYmlkICANCnByaWNlLCBhbmQgdGhlIGVudGlyZSBqb2Ig
+ZmxvdyB3aWxsIGZhaWwuIElmIHlvdSBydW4geW91ciBUYXNrIGdyb3VwIG9uICANClNwb3QgSW5z
+dGFuY2VzLCB0aGUgdW5maW5pc2hlZCB3b3JrIHJ1bm5pbmcgb24gdGhvc2UgaW5zdGFuY2VzIHdp
+bGwgYmUgIA0KcmV0dXJuZWQgdG8gdGhlIHByb2Nlc3NpbmcgcXVldWUuDQoNCklmIHlvdSBoYXZl
+IHB1cmNoYXNlZCBvbmUgb3IgbW9yZSBFQzIgUmVzZXJ2ZWQgSW5zdGFuY2VzLCBFbGFzdGljIE1h
+cFJlZHVjZSAgDQp3aWxsIGFsc28gdGFrZSBhZHZhbnRhZ2Ugb2YgdGhlbSAodGhpcyBpcyBub3Qg
+bmV3IGJ1dCBJIHdhbnRlZCB0byBtYWtlIHN1cmUgIA0KdGhhdCB5b3Uga25ldyBhYm91dCBpdCku
+DQoNCldoZW4NCkhlcmUgYXJlIHNvbWUgZ3VpZGVsaW5lcyB0byBnZXQgeW91IHN0YXJ0ZWQgd2l0
+aCBFbGFzdGljIE1hcFJlZHVjZSBvbiBTcG90ICANCkluc3RhbmNlczoNCg0KTG9uZy1ydW5uaW5n
+IEpvYiBGbG93cyBhbmQgRGF0YSBXYXJlaG91c2VzIC0gSWYgeW91IG1haW50YWluIGEgbG9uZy1y
+dW5uaW5nICANCkVsYXN0aWMgTWFwUmVkdWNlIGNsdXN0ZXIgd2l0aCBzb21lIHByZWRpY3RhYmxl
+IHZhcmlhdGlvbnMgaW4gbG9hZCwgeW91IGNhbiAgDQpoYW5kbGUgcGVhayBkZW1hbmQgYXQgbG93
+ZXIgY29zdCB1c2luZyBTcG90IEluc3RhbmNlcy4gUnVuIHRoZSBNYXN0ZXIgYW5kICANCkNvcmUg
+aW5zdGFuY2UgZ3JvdXBzIG9uIE9uLURlbWFuZCBpbnN0YW5jZXMgYW5kIHN1cHBsZW1lbnQgdGhl
+IGNsdXN0ZXIgd2l0aCAgDQpTcG90IEluc3RhbmNlcyBpbiBhIFRhc2sgaW5zdGFuY2UgZ3JvdXAg
+YXQgcGVhayB0aW1lcy4NCg0KQ29zdC1Ecml2ZW4gV29ya2xvYWRzIC0gSWYgeW91ciBqb2JzIGFy
+ZSByZWxhdGl2ZWx5IHNob3J0LWxpdmVkIChnZW5lcmFsbHkgIA0Kc2V2ZXJhbCBob3VycyBvciBs
+ZXNzKSwgdGhlIHRpbWUgdG8gY29tcGxldGlvbiBpcyBsZXNzIGltcG9ydGFudCB0aGFuIHRoZSAg
+DQpjb3N0LCBhbmQgbG9zaW5nIHBhcnRpYWwgd29yayBpcyBhY2NlcHRhYmxlLCBydW4gdGhlIGVu
+dGlyZSBqb2IgZmxvdyBvbiAgDQpTcG90IEluc3RhbmNlcyBmb3IgdGhlIGxhcmdlc3QgcG90ZW50
+aWFsIGNvc3Qgc2F2aW5ncy4NCg0KRGF0YS1Dcml0aWNhbCBXb3JrbG9hZHMgLSBJZiB0aGUgb3Zl
+cmFsbCBjb3N0IGlzIG1vcmUgaW1wb3J0YW50IHRoYW4gdGhlICANCnRpbWUgdG8gY29tcGxldGlv
+aG4gYW5kIHlvdSBkb250IHdhbnQgdG8gbG9zZSBhbnkgcGFydGlhbCB3b3JrLCBydW4gdGhlICAN
+Ck1hc3RlciBhbmQgQ29yZSBpbnN0YW5jZSBncm91cHMgb24gT24tRGVtYW5kIGluc3RhbmNlcywg
+bWFraW5nIHN1cmUgdGhhdCAgDQp5b3UgcnVuIGVub3VnaCBDb3JlIGluc3RhbmNlIGdyb3VwcyB0
+byBob2xkIGFsbCBvZiB5b3VyIGRhdGEgaW4gSERGUy4gQWRkICANClNwb3QgSW5zdGFuY2VzIGFz
+IG5lZWRlZCB0byByZWR1Y2UgdGhlIG92ZXJhbGwgcHJvY2Vzc2luZyBzcGVlZCBhbmQgdGhlICAN
+CnRvdGFsIGNvc3QuDQoNCkFwcGxpY2F0aW9uIFRlc3RpbmcgLSBJZiB5b3Ugd2FudCB0byB0ZXN0
+IGFuIGVudGlyZSBhcHBsaWNhdGlvbiBiZWZvcmUgIA0KbW92aW5nIGl0IHRvIHByb2R1Y3Rpb24s
+IHJ1biB0aGUgZW50aXJlIGpvYiAoTWFzdGVyIGFuZCBDb3JlIGluc3RhbmNlICANCmdyb3Vwcykg
+b24gU3BvdCBJbnN0YW5jZXMuDQoNCkhvdw0KWW91IGNhbiBzdGFydCB0byB1c2UgU3BvdCBJbnN0
+YW5jZXMgZm9yIGFsbCBvciBwYXJ0IG9mIGEgam9iIGZsb3cgYnkgIA0Kc3BlY2lmeWluZyBhIGJp
+ZCBwcmljZSBmb3Igb25lIG9yIG1vcmUgb2YgdGhlIGZsb3dzIGluc3RhbmNlIGdyb3Vwcy4gWW91
+ICANCmNhbiBkbyB0aGlzIGZyb20gdGhlIEFXUyBNYW5hZ2VtZW50IENvbnNvbGUsIHRoZSBjb21t
+YW5kIGxpbmUsIG9yIHRoZSAgDQpFbGFzdGljIE1hcFJlZHVjZSBBUElzLiBUbyBkZXRlcm1pbmUg
+aG93IHRoYXQgbWF4aW11bSBwcmljZSBjb21wYXJlcyB0byAgDQpwYXN0IFNwb3QgUHJpY2VzLCB0
+aGUgU3BvdCBQcmljZSBoaXN0b3J5IGZvciB0aGUgcGFzdCA5MCBkYXlzIGlzIGF2YWlsYWJsZSAg
+DQp2aWEgdGhlIEVDMiBBUEkgYW5kIHRoZSBBV1MgTWFuYWdlbWVudCBDb25zb2xlLiBIZXJlcyBh
+IHNjcmVlbiBzaG90IG9mIHRoZSAgDQpBV1MgTWFuYWdlbWVudCBDb25zb2xlLiBBcyB5b3UgY2Fu
+IHNlZSwgYWxsIHlvdSBuZWVkIHRvIGRvIGlzIHRvICANCmNoZWNrICJSZXF1ZXN0IFNwb3QgSW5z
+dGFuY2VzIGFuZCBlbnRlciBhIFNwb3QgQmlkIFByaWNlIHRvIGJlbmVmaXQgZnJvbSAgDQpTcG90
+IEluc3RhbmNlczoNCg0KDQpZb3UgY2FuIGFsc28gYWRkIGFkZGl0aW9uYWwgVEFTSyBpbnN0YW5j
+ZSBncm91cHMgdG8gYSBydW5uaW5nIGpvYiBmbG93IGFuZCAgDQp5b3UgY2FuIHNwZWNpZnkgYSBi
+aWQgcHJpY2UgZm9yIHRoZSBpbnN0YW5jZXMgYXMgeW91IGFkZCBlYWNoIGdyb3VwLiBZb3UgIA0K
+Y291bGQgdXNlIHRoaXMgZmVhdHVyZSB0byBjcmVhdGUgYSBsYXllcmVkIHNldCBvZiBiaWRzIGlm
+IHlvdWQgbGlrZS4gQXMgeW91ICANCnByb2JhYmx5IGtub3csIGVhY2ggam9iIGZsb3cgaXMgbGlt
+aXRlZCB0byAyMCBFQzIgaW5zdGFuY2VzIGJ5IGRlZmF1bHQuIElmICANCnlvdSB3b3VsZCBsaWtl
+IHRvIHJ1biBsYXJnZXIgam9iIGZsb3dzLCB5b3UgbmVlZCB0byBmaWxsIG91dCB0aGUgaW5zdGFu
+Y2UgIA0KcmVxdWVzdCBmb3JtLg0KDQpXaG8NCldlIGV4cGVjdCB0aGF0IEVsYXN0aWMgTWFwUmVk
+dWNlIHVzZXJzIHdpdGggc2V2ZXJhbCB0eXBlcyBvZiBqb2IgZmxvd3Mgd2lsbCAgDQpyZWFsbHkg
+ZW5qb3kgYW5kIG1ha2UgZ29vZCB1c2Ugb2YgU3BvdCBJbnN0YW5jZXMuIFR3byBhcmVhcyB0aGF0
+IGNvbWUgdG8gIA0KbWluZCBhcmU6DQoNCkJhdGNoLXByb2Nlc3Npbmcgd29ya2xvYWRzIHRoYXQg
+YXJlIG5vdCBwYXJ0aWN1bGFybHkgdGltZS1zZW5zaXRpdmUgc3VjaCBhcyAgDQppbWFnZSBhbmQg
+dmlkZW8gcHJvY2Vzc2luZywgZGF0YSBwcm9jZXNzaW5nIGZvciBzY2llbnRpZmljIHJlc2VhcmNo
+LCAgDQpmaW5hbmNpYWwgbW9kZWxpbmcsIGFuZCBmaW5hbmNpYWwgYW5hbHlzaXMuDQoNCg0KRGF0
+YSB3YXJlaG91c2VzIHRoYXQgaGF2ZSBhIHJlY3VycmluZyB3b3JrbG9hZCB2YXJpYW5jZSBhdCBw
+ZWFrIHRpbWVzLg0KDQoNCk91ciBjdXN0b21lcnMgaGF2ZSBiZWVuIHVzaW5nIEVsYXN0aWMgTWFw
+UmVkdWNlIHRvIHByb2Nlc3MgbGFyZ2Ugdm9sdW1lcyBvZiAgDQpkYXRhIHF1aWNrbHkgYW5kIGVj
+b25vbWljYWxseS4gRm9yIGV4YW1wbGU6DQoNCkZsaXB0b3AgKGZ1bGwgY2FzZSBzdHVkeSkgaGVs
+cHMgYnJhbmRzIGNvbnZlcnQgZW1haWwgbGlzdHMgaW50byBzb2NpYWwgIA0KbWVkaWEgcHJvZmls
+ZXMuIFRoZXkgYXJlIGFibGUgdG8gZG8gdGhpcyB1c2luZyBTcG90IEluc3RhbmNlcyBhbmQgaGF2
+ZSAgDQpyZWFsaXplZCBhIGNvc3Qgc2F2aW5ncyBvZiBvdmVyIDUwJS4NCg0KRm91cnNxdWFyZSAo
+ZnVsbCBjYXNlIHN0dWR5KSBwZXJmb3JtcyBhbmFseXRpY3MgYWNyb3NzIG1vcmUgdGhhbiAzIG1p
+bGxpb24gIA0KZGFpbHkgY2hlY2staW5zIHVzaW5nIEVsYXN0aWMgTWFwUmVkdWNlLCBTcG90IElu
+c3RhbmNlcywgQW1hem9uIFMzLCAgDQpNb25nb0RCLCBhbmQgQXBhY2hlIEZsdW1lLiBUaGlzIGlz
+IHdoYXQgTWF0dGhldyBSYXRoYm9uZSBvZiBGb3Vyc3F1YXJlIHRvbGQgIA0KdXM6DQpFbGFzdGlj
+IE1hcFJlZHVjZSBoYWQgYWxyZWFkeSBzaWduaWZpY2FudGx5IHJlZHVjZWQgdGhlIHRpbWUsIGVm
+Zm9ydCwgYW5kICANCmNvc3Qgb2YgdXNpbmcgSGFkb29wIHRvIGdlbmVyYXRlIGN1c3RvbWVyIGlu
+c2lnaHRzLiBOb3csIGJ5IGV4cGFuZGluZyBvdXIgIA0KY2x1c3RlcnMgd2l0aCBTcG90IEluc3Rh
+bmNlcywgd2UgaGF2ZSByZWR1Y2VkIG91ciBhbmFseXRpY3MgY29zdHMgYnkgb3ZlciAgDQo1MCUg
+d2hpbGUgZGVjcmVhc2luZyBwcm9jZXNzaW5nIHRpbWUgZm9yIHVyZ2VudCBkYXRhLWFuYWx5c2lz
+LCBhbGwgd2l0aG91dCAgDQpyZXF1aXJpbmcgYWRkaXRpb25hbCBhcHBsaWNhdGlvbiBkZXZlbG9w
+bWVudCBvciBhZGRpbmcgcmlzayB0byBvdXIgIA0KYW5hbHl0aWNzLg0KDQpXYXRjaA0KV2UgaGF2
+ZSBwdXQgdG9nZXRoZXIgYSBuZXcgdmlkZW8sIHVzaW5nIEVDMiBTcG90IEluc3RhbmNlcyB3aXRo
+IEVNUiwgdG8gIA0Kc2hvdyB5b3UgaG93IHRvIHJ1biBhbiBFbGFzdGljIE1hcFJlZHVjZSBqb2Ig
+dXNpbmcgYSBjb21iaW5hdGlvbiBvZiAgDQpPbi1EZW1hbmQgYW5kIFNwb3QgSW5zdGFuY2VzLg0K
+DQoNClJlYWQgTW9yZQ0KDQpXZXJuZXIgVm9nZWxzOiBEcml2aW5nIERvd24gdGhlIENvc3Qgb2Yg
+QmlnIERhdGEgQW5hbHl0aWNzDQpFbGFzdGljIE1hcFJlZHVjZQ0KU3BvdCBJbnN0YW5jZXMNCg0K
+DQpGaW5hbGx5DQpJICBhbSBhIGJpZyBmYW4gb2Ygb3VyIFNwb3QgSW5zdGFuY2VzIGFuZCBJIGFt
+IHJlYWxseSBsb29raW5nIGZvcndhcmQgdG8gICANCmhlYXJpbmcgYWJvdXQgbmV3IGFuZCBpbnRl
+cmVzdGluZyB3YXlzIHRoYXQgb3VyIGN1c3RvbWVycyBwdXQgdGhlbSB0byAgdXNlLiAgDQpZb3Ug
+bm93IGhhdmUgdGhlIG9wcG9ydHVuaXR5IHRvIGZpbmUtdHVuZSB5b3VyIGJ1c2luZXNzIHByb2Nl
+c3NlcyAgdG8gIA0KcmVkdWNlIHlvdXIgY29zdHMsIGFuZCB5b3UgY2FuIG5vdyBtYWtlIHNvbWUg
+dmVyeSBleHBsaWNpdCB0cmFkZW9mZnMgICANCmJldHdlZW4gY29zdCwgdGltZSB0byBjb21wbGV0
+aW9uLCBhbmQgd2hhdCBoYXBwZW5zIGlmIHRoZSBtYXJrZXQgcHJpY2UgICANCnJpc2VzIGFib3Zl
+IHlvdXIgYmlkLiBJZiB5b3UgYXJlIGFuIElUIHByb2Zlc3Npb25hbCwgeW91IGhhdmUgc29tZSBz
+aGlueSAgIA0KbmV3IHRvb2xzIHRoYXQgd2lsbCBhbGxvdyB5b3UgdG8gcmVkdWNlIGNvc3RzIHdo
+aWxlIGdldHRpbmcgd29yayBkb25lICBtb3JlICANCnF1aWNrbHkuDQoNCkFuZCB3aGF0IGRvIHlv
+dSB0aGluaz8NCg0KLS0gSmVmZjsNCg0KDQoNCg0KDQotLQ0KWW91IGFyZSBzdWJzY3JpYmVkIHRv
+IGVtYWlsIHVwZGF0ZXMgZnJvbSAiQW1hem9uIFdlYiBTZXJ2aWNlcyBCbG9nLiINClRvIHN0b3Ag
+cmVjZWl2aW5nIHRoZXNlIGVtYWlscywgeW91IG1heSB1bnN1YnNjcmliZSBub3c6ICANCmh0dHA6
+Ly9mZWVkYnVybmVyLmdvb2dsZS5jb20vZmIvYS9tYWlsdW5zdWJzY3JpYmU/az1XWWxxc0hnRm1q
+NEFhTXhDSW80RHBxR0psX1kNCg0KRW1haWwgZGVsaXZlcnkgcG93ZXJlZCBieSBHb29nbGUuDQpH
+b29nbGUgSW5jLiwgMjAgV2VzdCBLaW56aWUsIENoaWNhZ28gSUwgVVNBIDYwNjEwDQoNCg==
+--001636ed6fd225a2b304aadaa21b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/QL78W=
+BWYSno/new-amazon-ec2-spot-instance-videos.html?utm_source=3Dfeedburner&utm=
+_medium=3Demail">Four New Amazon EC2 Spot Instance Videos</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 18 Aug 2011 08:49 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>If you have read about the <a=
+ href=3D"http://aws.amazon.com/ec2/spot-instances/" target=3D"_self">Amazon=
+ EC2 Spot Instances</a> but are not quite sure how to get started, how to m=
+ake cost-effective bids, or how to build applications that can manage inter=
+ruptions, I&#39;ve got a treat for you. We&#39;ve put together a trio of sh=
+ort videos that should give you all of the information you&#39;ll need to g=
+et started. Here is what we have:</p>
+<ol>
+<li><a href=3D"http://aws.amazon.com/resources/webinars/?f=3Dhowto/spot_get=
+ting_started9&amp;t=3Dmp4&amp;s=3Ds1i8hyopmhj1ma&amp;p=3Dplaylists/all_play=
+list.xml&amp;state=3Dplay&amp;parent=3Dhttp://aws.amazon.com/resources/webi=
+nars/?f&amp;d=3Dall_playlist.xml" target=3D"_self"><img alt=3D"" src=3D"htt=
+p://media.amazonwebservices.com/blog/get_started_spot_1.png" style=3D"float=
+: right; border: 1px dotted black; margin-left: 5px; margin-bottom: 20px;" =
+/></a><a href=3D"http://aws.amazon.com/resources/webinars/?f=3Dhowto/spot_g=
+etting_started9&amp;t=3Dmp4&amp;s=3Ds1i8hyopmhj1ma&amp;p=3Dplaylists/all_pl=
+aylist.xml&amp;state=3Dplay&amp;parent=3Dhttp://aws.amazon.com/resources/we=
+binars/?f&amp;d=3Dall_playlist.xml" target=3D"_self">Getting Started with E=
+C2 Spot Instances</a> - This video shows you how to launch, view, and cance=
+l spot instance requests using the <a href=3D"http://console.aws.amazon.com=
+" target=3D"_self">AWS Management Console</a>. You will see how to log in t=
+o the console, select an AMI, and create a bid.
+<div style=3D"clear: both; height: 1px;">&#0160;</div>
+</li>
+<li> <a href=3D"http://aws.amazon.com/resources/webinars/?f=3Darchitecture/=
+spot_bidding_strategyv3&amp;t=3Dmp4&amp;s=3Ds1i8hyopmhj1ma&amp;p=3Dplaylist=
+s/architecture_playlist.xml&amp;state=3Dplay&amp;parent=3Dhttp://aws.amazon=
+.com/resources/webinars/?f&amp;d=3Darchitecture_playlist.xml" target=3D"_se=
+lf"><img alt=3D"" src=3D"http://media.amazonwebservices.com/blog/spot_biddi=
+ng_strategies_1.png" style=3D"float: right; border: 1px dotted black; margi=
+n-left: 5px; margin-bottom: 20px;" /></a> <a href=3D"http://aws.amazon.com/=
+resources/webinars/?f=3Darchitecture/spot_bidding_strategyv3&amp;t=3Dmp4&am=
+p;s=3Ds1i8hyopmhj1ma&amp;p=3Dplaylists/architecture_playlist.xml&amp;state=
+=3Dplay&amp;parent=3Dhttp://aws.amazon.com/resources/webinars/?f&amp;d=3Dar=
+chitecture_playlist.xml">Spot Instance Bidding Strategies</a> - This video =
+shows how customers choose bid strategies that have resulted in savings of =
+50-66% from the On-Demand pricing. Four strategies are covered: bidding nea=
+r the hourly rate for Reserved Instances, bidding based on previous trends,=
+ bidding at the On-Demand price, and bidding higher than the On-Demand pric=
+e. Watch this video to learn when it is appropriate to use each of these st=
+rategies. The video also references a particle physics project run by the U=
+niversity of Melbourne and the University of Barcelona on Spot Instances. M=
+ore information about this project is available in a <a href=3D"http://aws.=
+amazon.com/solutions/case-studies/university-melbourne-barcelona/" target=
+=3D"_self">recent case study</a>.
+<div style=3D"clear: both; height: 1px;">&#0160;</div>
+</li>
+<li><a href=3D"http://aws.amazon.com/resources/webinars/?f=3Darchitecture/s=
+pot_interruption_management&amp;t=3Dmp4&amp;s=3Ds1i8hyopmhj1ma&amp;p=3Dplay=
+lists/architecture_playlist.xml&amp;state=3Dplay&amp;parent=3Dhttp://aws.am=
+azon.com/resources/webinars/?f&amp;d=3Darchitecture_playlist.xml" target=3D=
+"_self"><img alt=3D"" src=3D"http://media.amazonwebservices.com/blog/spot_i=
+nterruption_1.png" style=3D"float: right; border: 1px dotted black; margin-=
+left: 5px; margin-bottom: 20px;" /></a> <a href=3D"http://aws.amazon.com/re=
+sources/webinars/?f=3Darchitecture/spot_interruption_management&amp;t=3Dmp4=
+&amp;s=3Ds1i8hyopmhj1ma&amp;p=3Dplaylists/architecture_playlist.xml&amp;sta=
+te=3Dplay&amp;parent=3Dhttp://aws.amazon.com/resources/webinars/?f&amp;d=3D=
+architecture_playlist.xml">Spot Instance Interruption Management</a> - This=
+ video outlines multiple ways to create applications that can run in an env=
+ironment where they may be interrupted and subsequently restarted. Strategi=
+es include using Elastic MapReduce or Hadoop, checkpointing, using a grid a=
+rchitecture, or driving all processing from a message queue.
+<div style=3D"clear: both; height: 1px;">&#0160;</div>
+</li>
+<li><a href=3D"http://aws.amazon.com/resources/webinars/?f=3Dhowto/UsingSpo=
+tWithEMR&amp;t=3Dmp4&amp;s=3Ds1i8hyopmhj1ma&amp;p=3Dplaylists/how2_playlist=
+.xml&amp;state=3Dplay&amp;parent=3Dhttp://aws.amazon.com/resources/webinars=
+/?f&amp;d=3Dhow2_playlist.xml" target=3D"_self"><img alt=3D"" src=3D"http:/=
+/media.amazonwebservices.com/blog/use_spot_and_emr_video_2.png" style=3D"fl=
+oat: right; border: 1px dotted black; margin-left: 5px; margin-bottom: 20px=
+;" /></a> <a href=3D"http://aws.amazon.com/resources/webinars/?f=3Dhowto/Us=
+ingSpotWithEMR&amp;t=3Dmp4&amp;s=3Ds1i8hyopmhj1ma&amp;p=3Dplaylists/how2_pl=
+aylist.xml&amp;state=3Dplay&amp;parent=3Dhttp://aws.amazon.com/resources/we=
+binars/?f&amp;d=3Dhow2_playlist.xml">Using EC2 Spot Instances With EMR</a> =
+- This video shows how to run Elastic MapReduce jobs on a combination of On=
+-Demand and Spot Instances to get work done more quickly and at a lower cos=
+t. The includes guidelines for choosing the right type of instance for the =
+Master, Core, and Task instance groups.<br />
+<div style=3D"clear: both; height: 1px;">&#0160;</div>
+</li>
+</ol>
+<p>I hope that you find these videos to be interesting and informative, and=
+ that you are now ready to make use of EC2 Spot Instances in your own appli=
+cation.</p>
+<p>-- Jeff;</p>
+<p>&#0160;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DQL78WB=
+WYSno:ZWPpznRXNGw:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DQL78WBWYSno:ZWPpzn=
+RXNGw:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DQL78WBWYSno:ZWPpznRXNGw:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/Q=
+L78WBWYSno?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"2" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/sYDMn=
+izimh0/run-amazon-elastic-mapreduce-on-ec2-spot-instances.html?utm_source=
+=3Dfeedburner&utm_medium=3Demail">Run Amazon Elastic MapReduce on EC2 Spot =
+Instances</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 18 Aug 2011 08:46 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p><img alt=3D"" src=3D"http://m=
+edia.amazonwebservices.com/blog/emr_spot_console_price_history_1.png" style=
+=3D"float: right; margin-left: 10px; margin-bottom: 10px;" /> We&#39;ve com=
+bined two popular Amazon EC2 features =E2=80=94 <a href=3D"http://aws.amazo=
+n.com/ec2/spot-instances/" target=3D"_self">Spot Instances</a> and <a href=
+=3D"http://aws.amazon.com/elasticmapreduce/" target=3D"_self">Elastic MapRe=
+duce</a> =E2=80=94to allow you to launch managed <a href=3D"http://hadoop.a=
+pache.org/" target=3D"_self">Hadoop</a> clusters using unused EC2 capacity.=
+ You will be able to run long-running jobs, cost-driven workloads, data-cri=
+tical workloads, and application testing at a discount that has historicall=
+y ranged between 50% and 66%.</p>
+<p><span style=3D"text-decoration: underline;"><strong>What</strong></span>=
+<br />The EC2 instances used to run an Elastic MapReduce job flow fall in t=
+o one of three categories or <em>instance groups</em>:</p>
+<p><strong>Master</strong>- The Master instance group contains a single EC2=
+ instance. This instance schedules Hadoop tasks on the CORE and TASK nodes.=
+</p>
+<p><strong>Core</strong> - The Core instance group contains one or more EC2=
+ instances. These instances use <a href=3D"http://hadoop.apache.org/hdfs/" =
+target=3D"_self">HDFS</a> to store the data for the job flow. They also run=
+ mapper and reducer tasks as specified in the job flow. This group can be e=
+xpanded in order to accelerate a running job flow.</p>
+<p><strong>Task</strong> - The Task instance group contains zero or more EC=
+2 instances and runs mapper and reduce tasks. Since they don&#39;t store an=
+y data, this group can expand or contract during the course of a job flow.<=
+/p>
+<p>You can choose to use either On-Demand or Spot Instances for each of you=
+r job flows. If you run your Master or Core groups on Spot Instances, these=
+ instances will be terminated if the market price rises above your bid pric=
+e, and the entire job flow will fail. If you run your Task group on Spot In=
+stances, the unfinished work running on those instances will be returned to=
+ the processing queue.</p>
+<p>If you have purchased one or more <a href=3D"http://aws.amazon.com/ec2/r=
+eserved-instances/" target=3D"_self">EC2 Reserved Instances</a>, Elastic Ma=
+pReduce will also take advantage of them (this is not new but I wanted to m=
+ake sure that you knew about it).</p>
+<p><span style=3D"text-decoration: underline;"><strong>When</strong></span>=
+<br />Here are some guidelines to get you started with Elastic MapReduce on=
+ Spot Instances:</p>
+<p><strong>Long-running Job Flows and Data Warehouses</strong> - If you mai=
+ntain a long-running Elastic MapReduce cluster with some predictable variat=
+ions in load, you can handle peak demand at lower cost using Spot Instances=
+. Run the Master and Core instance groups on On-Demand instances and supple=
+ment the cluster with Spot Instances in a Task instance group at peak times=
+.</p>
+<p><strong>Cost-Driven Workloads</strong> - If your jobs are relatively sho=
+rt-lived (generally several hours or less), the time to completion is less =
+important than the cost, and losing partial work is acceptable, run the ent=
+ire job flow on Spot Instances for the largest potential cost savings.</p>
+<p><strong>Data-Critical Workloads</strong> - If the overall cost is more i=
+mportant than the time to completiohn and you don&#39;t want to lose any pa=
+rtial work, run the Master and Core instance groups on On-Demand instances,=
+ making sure that you run enough Core instance groups to hold all of your d=
+ata in HDFS. Add Spot Instances as needed to reduce the overall processing =
+speed and the total cost.</p>
+<p><strong>Application Testing</strong> - If you want to test an entire app=
+lication before moving it to production, run the entire job (Master and Cor=
+e instance groups) on Spot Instances.</p>
+<p><span style=3D"text-decoration: underline;"><strong>How</strong></span><=
+br />You can start to use Spot Instances for all or part of a job flow by s=
+pecifying a bid price for one or more of the flow&#39;s instance groups. Yo=
+u can do this from the AWS Management Console, the command line, or the Ela=
+stic MapReduce APIs. To determine how that maximum price compares to past S=
+pot Prices, the Spot Price history for the past 90 days is available via th=
+e EC2 API and the AWS Management Console. Here&#39;s a screen shot of the A=
+WS Management Console. As you can see, all you need to do is to check &quot=
+;Request Spot Instances and enter a Spot Bid Price to benefit from Spot Ins=
+tances:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/aws_console_emr_spot_bid_2.png" /></div>
+<p>You can also add additional TASK instance groups to a running job flow a=
+nd you can specify a bid price for the instances as you add each group. You=
+ could use this feature to create a layered set of bids if you&#39;d like. =
+As you probably know, each job flow is limited to 20 EC2 instances by defau=
+lt. If you would like to run larger job flows, you need to fill out the <a =
+href=3D"http://aws.amazon.com/contact-us/ec2-request" target=3D"_self">inst=
+ance request form</a>.</p>
+<p><span style=3D"text-decoration: underline;"><strong>Who</strong></span><=
+br />We expect that Elastic MapReduce users with several types of job flows=
+ will really enjoy and make good use of Spot Instances. Two areas that come=
+ to mind are:</p>
+<ol>
+<li><strong>Batch-processing workloads </strong>that are not particularly t=
+ime-sensitive such as image and video processing, data processing for scien=
+tific research, financial modeling, and financial analysis.<br /><br /></li=
+>
+<li><strong>Data warehouses </strong>that have a recurring workload varianc=
+e at peak times.</li>
+</ol>
+<p>Our customers have been using Elastic MapReduce to process large volumes=
+ of data quickly and economically. For example:</p>
+<p><a href=3D"http://www.fliptop.com/" target=3D"_self">Fliptop</a> (<a hre=
+f=3D"http://aws.amazon.com/solutions/case-studies/fliptop/" target=3D"_self=
+">full case study</a>) helps brands convert email lists into social media p=
+rofiles. They are able to do this using Spot Instances and have realized a =
+cost savings of over 50%.</p>
+<p><a href=3D"https://foursquare.com/" target=3D"_self">Foursquare</a> (<a =
+href=3D"https://aws-cms.integ.amazon.com/solutions/case-studies/foursquare"=
+ target=3D"_self">full case study</a>) performs analytics across more than =
+3 million daily check-ins using Elastic MapReduce, Spot Instances, Amazon S=
+3, <a href=3D"http://www.mongodb.org/" target=3D"_self">MongoDB</a>, and <a=
+ href=3D"https://cwiki.apache.org/FLUME/" target=3D"_self">Apache Flume</a>=
+. This is what&#0160; Matthew Rathbone of Foursquare told us:</p>
+<p style=3D"padding-left: 30px;"><em>Elastic MapReduce had already signific=
+antly reduced the time, effort, and cost of using Hadoop to generate custom=
+er insights</em><em>. Now, by expanding our clusters with Spot Instances, w=
+e have reduced our analytics costs by over 50% while decreasing processing =
+time for urgent data-analysis, all without requiring additional application=
+ development or adding risk to our analytics.</em></p>
+<p><span style=3D"text-decoration: underline;"><strong>Watch</strong></span=
+><br />We have put together a new video, using <a href=3D"http://aws.amazon=
+.com/resources/webinars/?f=3Dhowto/UsingSpotWithEMR&amp;t=3Dmp4&amp;s=3Ds1i=
+8hyopmhj1ma&amp;p=3Dplaylists/how2_playlist.xml&amp;state=3Dplay&amp;parent=
+=3Dhttp://aws.amazon.com/resources/webinars/?f&amp;d=3Dhow2_playlist.xml" t=
+arget=3D"_self">EC2 Spot Instances with EMR</a>, to show you how to run an =
+Elastic MapReduce job using a combination of On-Demand and Spot Instances.<=
+/p>
+<div style=3D"text-align: center;"><a href=3D"http://aws.amazon.com/resourc=
+es/webinars/?f=3Dhowto/UsingSpotWithEMR&amp;t=3Dmp4&amp;s=3Ds1i8hyopmhj1ma&=
+amp;p=3Dplaylists/how2_playlist.xml&amp;state=3Dplay&amp;parent=3Dhttp://aw=
+s.amazon.com/resources/webinars/?f&amp;d=3Dhow2_playlist.xml" target=3D"_se=
+lf"><img alt=3D"" src=3D"http://media.amazonwebservices.com/blog/use_spot_a=
+nd_emr_video_2.png" style=3D"border: 1px dotted black;" /></a></div>
+<p><span style=3D"text-decoration: underline;"><strong>Read More</strong></=
+span></p>
+<ul>
+<li>Werner Vogels: <a href=3D"http://www.allthingsdistributed.com/2011/08/a=
+mazon-emr-on-ec2-spot-instances.html" target=3D"_self">Driving Down the Cos=
+t of Big Data Analytics</a></li>
+<li><a href=3D"http://aws.amazon.com/elasticmapreduce/" target=3D"_self">El=
+astic MapReduce</a></li>
+<li><a href=3D"http://aws.amazon.com/ec2/spot-instances/" target=3D"_self">=
+Spot Instances</a></li>
+</ul>
+<p><strong>Finally</strong><br />I  am a big fan of our Spot Instances and =
+I am really looking forward to  hearing about new and interesting ways that=
+ our customers put them to  use. You now have the opportunity to fine-tune =
+your business processes  to reduce your costs, and you can now make some ve=
+ry explicit tradeoffs  between cost, time to completion, and what happens i=
+f the market price  rises above your bid. If you are an IT professional, yo=
+u have some shiny  new tools that will allow you to reduce costs while gett=
+ing work done  more quickly.</p>
+<p>And what do you think?</p>
+<p>&#0160;-- Jeff;</p>
+<p>&#0160;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DsYDMni=
+zimh0:Gi1A2ER0PRo:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DsYDMnizimh0:Gi1A2E=
+R0PRo:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DsYDMnizimh0:Gi1A2ER0PRo:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/s=
+YDMnizimh0?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--001636ed6fd225a2b304aadaa21b--

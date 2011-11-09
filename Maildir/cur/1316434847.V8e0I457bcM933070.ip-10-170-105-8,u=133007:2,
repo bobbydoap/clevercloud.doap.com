@@ -1,0 +1,249 @@
+Return-Path: <tech+bncCOKrwsOaDRCf59zzBBoEhzsasw@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-iy0-f200.google.com (mail-iy0-f200.google.com [209.85.210.200])
+	by ns1 (Postfix) with ESMTP id A217F886DD;
+	Mon, 19 Sep 2011 05:20:47 -0700 (PDT)
+Received: by iaqq3 with SMTP id q3sf11152750iaq.7
+        for <multiple recipients>; Mon, 19 Sep 2011 05:20:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=2ttbLXQUNAyiQxpvO9WaspYMjxrsEhjc5ZbjRP+5Kpw=;
+        b=Dnnd0R0TOc/OmU6H6buIbiqZEOqrZ/xm6BxEnqp6eFQsdUnfLiQastNZsVARiiYgBa
+         lPx7dphrWlrOrJSWE52Q==
+Received: by 10.42.163.197 with SMTP id d5mr1912340icy.0.1316434847117;
+        Mon, 19 Sep 2011 05:20:47 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.231.186.18 with SMTP id cq18ls349562ibb.5.gmail; Mon, 19 Sep
+ 2011 05:20:46 -0700 (PDT)
+Received: by 10.42.163.195 with SMTP id d3mr1229962icy.158.1316434846166;
+        Mon, 19 Sep 2011 05:20:46 -0700 (PDT)
+Received: by 10.42.163.195 with SMTP id d3mr1229961icy.158.1316434846146;
+        Mon, 19 Sep 2011 05:20:46 -0700 (PDT)
+Received: from mail-iy0-f199.google.com (mail-iy0-f199.google.com [209.85.210.199])
+        by mx.google.com with ESMTPS id bd3si8994775icb.96.2011.09.19.05.20.46
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 19 Sep 2011 05:20:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3lzN3ThEKBFQ9AD0B7K+100zBDAJK2AA270.yA8p0y3F303Hwy.90F@feedburner.bounces.google.com designates 209.85.210.199 as permitted sender) client-ip=209.85.210.199;
+Received: by iaen33 with SMTP id n33so11318589iae.10
+        for <Tech@thehvac.net>; Mon, 19 Sep 2011 05:20:45 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.136.7 with SMTP id r7mt4072460ict.15.1316434839905; Mon, 19
+ Sep 2011 05:20:39 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <90e6ba6e86f200b09704ad4a5f54@google.com>
+Date: Mon, 19 Sep 2011 12:20:45 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3lzN3ThEKBFQ9AD0B7K+100zBDAJK2AA270.yA8p0y3F303Hwy.90F@feedburner.bounces.google.com
+ designates 209.85.210.199 as permitted sender) smtp.mail=3lzN3ThEKBFQ9AD0B7K+100zBDAJK2AA270.yA8p0y3F303Hwy.90F@feedburner.bounces.google.com;
+ dkim=pass header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=90e6ba6e86f25d392c04ad4a5fa2
+
+--90e6ba6e86f25d392c04ad4a5fa2
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+QW1hem9uIFdlYiBTZXJ2aWNlcyBCbG9nDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8NCk5vdyBBdmFpbGFibGU6IFdpbmRvd3MgU2VydmVyIDIwMDggUjIgQ2x1
+c3RlciBDb21wdXRlIGFuZCBDbHVzdGVyIEdQVQ0KDQpQb3N0ZWQ6IDE4IFNlcCAyMDExIDEwOjU5
+IFBNIFBEVA0KaHR0cDovL2ZlZWRwcm94eS5nb29nbGUuY29tL35yL0FtYXpvbldlYlNlcnZpY2Vz
+QmxvZy9+My9FenNySW0wWTBCby9ub3ctYXZhaWxhYmxlLXdpbmRvd3Mtc2VydmVyLTIwMDgtcjIt
+b24tY2x1c3Rlci1jb21wdXRlLWFuZC1jbHVzdGVyLWdwdS5odG1sP3V0bV9zb3VyY2U9ZmVlZGJ1
+cm5lciZ1dG1fbWVkaXVtPWVtYWlsDQoNCg0KWW91IGNhbiBub3cgcnVuIE1pY3Jvc29mdCBXaW5k
+b3dzIFNlcnZlciAyMDA4IFIyIG9uIHRoZSBFQzIgQ2x1c3RlciBDb21wdXRlICANCmFuZCBDbHVz
+dGVyIEdQVSBpbnN0YW5jZXMuIEp1c3QgdG8gcmVpdGVyYXRlLCBoZXJlIGFyZSB0aGUgc3BlY3Mg
+Zm9yIHRoZXNlICANCmNvbXB1dGUtaW50ZW5zaXZlIGJlYXN0czoNCg0KQ2x1c3RlciBDb21wdXRl
+IFF1YWRydXBsZSBFeHRyYSBMYXJnZToNCg0KMjMgR0Igb2YgbWVtb3J5DQozMy41IEVDMiBDb21w
+dXRlIFVuaXRzICgyIHggSW50ZWwgWGVvbiBYNTU3MCwgcXVhZC1jb3JlIOKAnE5laGFsZW3igJ0g
+IA0KYXJjaGl0ZWN0dXJlKQ0KMTY5MCBHQiBvZiBpbnN0YW5jZSBzdG9yYWdlDQo2NC1iaXQgcGxh
+dGZvcm0NCkkvTyBQZXJmb3JtYW5jZTogVmVyeSBIaWdoICgxMCBHaWdhYml0IEV0aGVybmV0KQ0K
+DQoNCkNsdXN0ZXIgR1BVIFF1YWRydXBsZSBFeHRyYSBMYXJnZToNCg0KMjIgR0Igb2YgbWVtb3J5
+DQozMy41IEVDMiBDb21wdXRlIFVuaXRzICgyIHggSW50ZWwgWGVvbiBYNTU3MCwgcXVhZC1jb3Jl
+IOKAnE5laGFsZW3igJ0gIA0KYXJjaGl0ZWN0dXJlKQ0KMiB4IE5WSURJQSBUZXNsYSDigJxGZXJt
+aeKAnSBNMjA1MCBHUFVzDQoxNjkwIEdCIG9mIGluc3RhbmNlIHN0b3JhZ2UNCjY0LWJpdCBwbGF0
+Zm9ybQ0KSS9PIFBlcmZvcm1hbmNlOiBWZXJ5IEhpZ2ggKDEwIEdpZ2FiaXQgRXRoZXJuZXQpDQoN
+Cg0KVGhlc2UgaW5zdGFuY2VzIHByb3ZpZGUgeW91IHdpdGggcGxlbnR5IG9mIFJBTSwgY3ljbGVz
+LCBhbmQgbmV0d29yayAgDQpwZXJmb3JtYW5jZSBmb3IgaGVhdnktZHV0eSB3b3JrbG9hZHMuIFdp
+dGggdGhpcyByZWxlYXNlLCB5b3UgY2FuIG5vdyBydW4gIA0KTWljcm9zb2Z0IFdpbmRvd3Mgb24g
+ZXZlcnkgb25lIG9mIHRoZSBlbGV2ZW4gRUMyIGluc3RhbmNlIHR5cGVzLCBmcm9tIHRoZSAgDQpN
+aWNybyBvbiB1cC4NCg0KWW91IGNhbiBzZWxlY3QgdGhlIFdpbmRvd3MgU2VydmVyIDIwMDggUjIg
+QU1JIGZyb20gdGhlIEFXUyBNYW5hZ2VtZW50ICANCkNvbnNvbGU6DQoNCg0KLS0gSmVmZjsNCg0K
+DQoNCi0tDQpZb3UgYXJlIHN1YnNjcmliZWQgdG8gZW1haWwgdXBkYXRlcyBmcm9tICJBbWF6b24g
+V2ViIFNlcnZpY2VzIEJsb2cuIg0KVG8gc3RvcCByZWNlaXZpbmcgdGhlc2UgZW1haWxzLCB5b3Ug
+bWF5IHVuc3Vic2NyaWJlIG5vdzogIA0KaHR0cDovL2ZlZWRidXJuZXIuZ29vZ2xlLmNvbS9mYi9h
+L21haWx1bnN1YnNjcmliZT9rPVdZbHFzSGdGbWo0QWFNeENJbzREcHFHSmxfWQ0KDQpFbWFpbCBk
+ZWxpdmVyeSBwb3dlcmVkIGJ5IEdvb2dsZS4NCkdvb2dsZSBJbmMuLCAyMCBXZXN0IEtpbnppZSwg
+Q2hpY2FnbyBJTCBVU0EgNjA2MTANCg0K
+--90e6ba6e86f25d392c04ad4a5fa2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/EzsrI=
+m0Y0Bo/now-available-windows-server-2008-r2-on-cluster-compute-and-cluster-=
+gpu.html?utm_source=3Dfeedburner&utm_medium=3Demail">Now Available: Windows=
+ Server 2008 R2 Cluster Compute and Cluster GPU</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 18 Sep 2011 10:59 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>You can now run <a href=3D"ht=
+tp://www.microsoft.com/en-us/server-cloud/windows-server/default.aspx" targ=
+et=3D"_self">Microsoft Windows Server 2008 R2</a> on the EC2 Cluster Comput=
+e and Cluster GPU instances. Just to reiterate, here are the specs for thes=
+e compute-intensive beasts:</p>
+<p>Cluster Compute Quadruple Extra Large:</p>
+<ul>
+<li class=3D"litight">23 GB of memory</li>
+<li class=3D"litight">33.5 EC2 Compute Units (2 x Intel Xeon X5570, quad-co=
+re =E2=80=9CNehalem=E2=80=9D architecture)</li>
+<li class=3D"litight">1690 GB of instance storage</li>
+<li class=3D"litight">64-bit platform</li>
+<li class=3D"litight">I/O Performance: Very High (10 Gigabit Ethernet)</li>
+</ul>
+<p>Cluster GPU Quadruple Extra Large:</p>
+<ul>
+<li class=3D"litight">22 GB of memory</li>
+<li class=3D"litight">33.5 EC2 Compute Units (2 x Intel Xeon X5570, quad-co=
+re =E2=80=9CNehalem=E2=80=9D architecture)</li>
+<li class=3D"litight">2 x NVIDIA Tesla =E2=80=9CFermi=E2=80=9D M2050 GPUs</=
+li>
+<li class=3D"litight">1690 GB of instance storage</li>
+<li class=3D"litight">64-bit platform</li>
+<li class=3D"litight">I/O Performance: Very High (10 Gigabit Ethernet)</li>
+</ul>
+<p>These instances provide you with plenty of RAM, cycles, and network perf=
+ormance for heavy-duty workloads. With this release, you can now run Micros=
+oft Windows on every one of the eleven <a href=3D"http://aws.amazon.com/ec2=
+/instance-types/" target=3D"_self">EC2 instance types</a>, from the Micro o=
+n up.</p>
+<p>You can select the Windows Server 2008 R2 AMI from the AWS Management Co=
+nsole:</p>
+<div style=3D"text-align: center;"><img src=3D"http://media.amazonwebservic=
+es.com/blog/windows_cluster_console_2.png" alt=3D"" /></div>
+<p>-- Jeff;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DEzsrIm=
+0Y0Bo:_l7YTXr1F7M:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DEzsrIm0Y0Bo:_l7YTX=
+r1F7M:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DEzsrIm0Y0Bo:_l7YTXr1F7M:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/E=
+zsrIm0Y0Bo?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--90e6ba6e86f25d392c04ad4a5fa2--

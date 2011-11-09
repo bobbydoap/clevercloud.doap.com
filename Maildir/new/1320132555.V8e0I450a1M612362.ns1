@@ -1,0 +1,215 @@
+Return-Path: <>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix)
+	id 93239882A3; Tue,  1 Nov 2011 00:29:15 -0700 (PDT)
+Date: Tue,  1 Nov 2011 00:29:15 -0700 (PDT)
+From: MAILER-DAEMON@doap.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: bobby@doap.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="AC8EA882A1.1320132555/ns1"
+Message-Id: <20111101072915.93239882A3@ns1>
+
+This is a MIME-encapsulated message.
+
+--AC8EA882A1.1320132555/ns1
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host ns1.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<jon@doap.com> (expanded from <sales@doap.com>): mail forwarding loop for
+    jon@doap.com
+
+<jdfly19@gmail.com> (expanded from <sales@doap.com>): Command died with status
+    1: "/usr/local/bin/postman". Command output: Traceback (most recent call
+    last):   File "/usr/local/bin/postman", line 9, in <module>
+    load_entry_point('postman==0.5.2', 'console_scripts', 'postman')()   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 124, in main     }[args.command](args)   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 19, in cmd_send     r = ses.send_raw_email(msg, args.f,
+    args.destinations)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 239, in send_raw_email     return self._make_request('SendRawEmail',
+    params)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 101, in _make_request     raise self.ResponseError(response.status,
+    response.reason, body) boto.exception.BotoServerError: BotoServerError: 400
+    Bad Request <ErrorResponse
+    xmlns="http://ses.amazonaws.com/doc/2010-12-01/">   <Error>
+    <Type>Sender</Type>     <Code>InvalidParameterValue</Code>
+    <Message>Illegal header 'Delivered-To'.</Message>   </Error>
+    <RequestId>3318bdaf-045b-11e1-aed0-f3fdfd3b9387</RequestId>
+    </ErrorResponse>
+
+<jon@thehvac.net> (expanded from <sales@doap.com>): Command died with status 1:
+    "/usr/local/bin/postman". Command output: Traceback (most recent call
+    last):   File "/usr/local/bin/postman", line 9, in <module>
+    load_entry_point('postman==0.5.2', 'console_scripts', 'postman')()   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 124, in main     }[args.command](args)   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 19, in cmd_send     r = ses.send_raw_email(msg, args.f,
+    args.destinations)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 239, in send_raw_email     return self._make_request('SendRawEmail',
+    params)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 101, in _make_request     raise self.ResponseError(response.status,
+    response.reason, body) boto.exception.BotoServerError: BotoServerError: 400
+    Bad Request <ErrorResponse
+    xmlns="http://ses.amazonaws.com/doc/2010-12-01/">   <Error>
+    <Type>Sender</Type>     <Code>InvalidParameterValue</Code>
+    <Message>Illegal header 'Delivered-To'.</Message>   </Error>
+    <RequestId>3333bfb5-045b-11e1-8dc6-09195e4373da</RequestId>
+    </ErrorResponse>
+
+<jdfly19@yahoo.com> (expanded from <sales@doap.com>): Command died with status
+    1: "/usr/local/bin/postman". Command output: Traceback (most recent call
+    last):   File "/usr/local/bin/postman", line 9, in <module>
+    load_entry_point('postman==0.5.2', 'console_scripts', 'postman')()   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 124, in main     }[args.command](args)   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 19, in cmd_send     r = ses.send_raw_email(msg, args.f,
+    args.destinations)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 239, in send_raw_email     return self._make_request('SendRawEmail',
+    params)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 101, in _make_request     raise self.ResponseError(response.status,
+    response.reason, body) boto.exception.BotoServerError: BotoServerError: 400
+    Bad Request <ErrorResponse
+    xmlns="http://ses.amazonaws.com/doc/2010-12-01/">   <Error>
+    <Type>Sender</Type>     <Code>InvalidParameterValue</Code>
+    <Message>Illegal header 'Delivered-To'.</Message>   </Error>
+    <RequestId>33340df5-045b-11e1-9429-692a0709d7e3</RequestId>
+    </ErrorResponse>
+
+--AC8EA882A1.1320132555/ns1
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; ns1
+X-Postfix-Queue-ID: AC8EA882A1
+X-Postfix-Sender: rfc822; bobby@doap.com
+Arrival-Date: Tue,  1 Nov 2011 00:29:12 -0700 (PDT)
+
+Final-Recipient: rfc822; jon@doap.com
+Original-Recipient: rfc822; sales@doap.com
+Action: failed
+Status: 5.4.6
+Diagnostic-Code: X-Postfix; mail forwarding loop for jon@doap.com
+
+Final-Recipient: rfc822; jdfly19@gmail.com
+Original-Recipient: rfc822; sales@doap.com
+Action: failed
+Status: 5.3.0
+Diagnostic-Code: x-unix; Traceback (most recent call last):   File
+    "/usr/local/bin/postman", line 9, in <module>
+    load_entry_point('postman==0.5.2', 'console_scripts', 'postman')()   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 124, in main     }[args.command](args)   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 19, in cmd_send     r = ses.send_raw_email(msg, args.f,
+    args.destinations)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 239, in send_raw_email     return self._make_request('SendRawEmail',
+    params)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 101, in _make_request     raise self.ResponseError(response.status,
+    response.reason, body) boto.exception.BotoServerError: BotoServerError: 400
+    Bad Request <ErrorResponse
+    xmlns="http://ses.amazonaws.com/doc/2010-12-01/">   <Error>
+    <Type>Sender</Type>     <Code>InvalidParameterValue</Code>
+    <Message>Illegal header 'Delivered-To'.</Message>   </Error>
+    <RequestId>3318bdaf-045b-11e1-aed0-f3fdfd3b9387</RequestId>
+    </ErrorResponse>
+
+Final-Recipient: rfc822; jon@thehvac.net
+Original-Recipient: rfc822; sales@doap.com
+Action: failed
+Status: 5.3.0
+Diagnostic-Code: x-unix; Traceback (most recent call last):   File
+    "/usr/local/bin/postman", line 9, in <module>
+    load_entry_point('postman==0.5.2', 'console_scripts', 'postman')()   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 124, in main     }[args.command](args)   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 19, in cmd_send     r = ses.send_raw_email(msg, args.f,
+    args.destinations)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 239, in send_raw_email     return self._make_request('SendRawEmail',
+    params)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 101, in _make_request     raise self.ResponseError(response.status,
+    response.reason, body) boto.exception.BotoServerError: BotoServerError: 400
+    Bad Request <ErrorResponse
+    xmlns="http://ses.amazonaws.com/doc/2010-12-01/">   <Error>
+    <Type>Sender</Type>     <Code>InvalidParameterValue</Code>
+    <Message>Illegal header 'Delivered-To'.</Message>   </Error>
+    <RequestId>3333bfb5-045b-11e1-8dc6-09195e4373da</RequestId>
+    </ErrorResponse>
+
+Final-Recipient: rfc822; jdfly19@yahoo.com
+Original-Recipient: rfc822; sales@doap.com
+Action: failed
+Status: 5.3.0
+Diagnostic-Code: x-unix; Traceback (most recent call last):   File
+    "/usr/local/bin/postman", line 9, in <module>
+    load_entry_point('postman==0.5.2', 'console_scripts', 'postman')()   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 124, in main     }[args.command](args)   File
+    "/usr/local/lib/python2.7/site-packages/postman-0.5.2-py2.7.egg/postman/__main__.py",
+    line 19, in cmd_send     r = ses.send_raw_email(msg, args.f,
+    args.destinations)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 239, in send_raw_email     return self._make_request('SendRawEmail',
+    params)   File
+    "/usr/local/lib/python2.7/site-packages/boto-2.0-py2.7.egg/boto/ses/connection.py",
+    line 101, in _make_request     raise self.ResponseError(response.status,
+    response.reason, body) boto.exception.BotoServerError: BotoServerError: 400
+    Bad Request <ErrorResponse
+    xmlns="http://ses.amazonaws.com/doc/2010-12-01/">   <Error>
+    <Type>Sender</Type>     <Code>InvalidParameterValue</Code>
+    <Message>Illegal header 'Delivered-To'.</Message>   </Error>
+    <RequestId>33340df5-045b-11e1-9429-692a0709d7e3</RequestId>
+    </ErrorResponse>
+
+--AC8EA882A1.1320132555/ns1
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <bobby@doap.com>
+Received: by ns1 (Postfix)
+	id AC8EA882A1; Tue,  1 Nov 2011 00:29:12 -0700 (PDT)
+Delivered-To: jon@doap.com
+Received: by ns1 (Postfix, from userid 1019)
+	id A41B2882A3; Tue,  1 Nov 2011 00:29:12 -0700 (PDT)
+Date: Tue, 01 Nov 2011 00:29:12 -0700
+To: sales@doap.com
+Subject: fff
+User-Agent: Heirloom mailx 12.2 01/07/07
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-Id: <20111101072912.A41B2882A3@ns1>
+From: bobby@doap.com
+
+fff
+
+--AC8EA882A1.1320132555/ns1--

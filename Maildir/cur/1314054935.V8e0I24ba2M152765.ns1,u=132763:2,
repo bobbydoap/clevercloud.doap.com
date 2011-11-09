@@ -1,0 +1,31 @@
+Return-Path: <wwwrun@doap.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 30)
+	id 1BF4088C53; Mon, 22 Aug 2011 16:15:35 -0700 (PDT)
+To: bobby@doap.com
+Subject: New WordPress Site
+X-PHP-Originating-Script: 33:class-phpmailer.php
+Date: Mon, 22 Aug 2011 23:15:35 +0000
+From: WordPress <wordpress@play.doap.com>
+Message-ID: <c7c3a75ae65f68d22b435ac869c83770@play.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+Your new WordPress site has been successfully set up at:
+
+http://play.doap.com
+
+You can log in to the administrator account with the following information:
+
+Username: play
+Password: The password you chose during the install.
+
+We hope you enjoy your new site. Thanks!
+
+--The WordPress Team
+http://wordpress.org/
+

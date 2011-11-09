@@ -1,0 +1,31 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: tech@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yw0-f54.google.com (mail-yw0-f54.google.com [209.85.213.54])
+	by ns1 (Postfix) with ESMTP id 2904B88844
+	for <tech@doap.com>; Sun, 25 Sep 2011 20:37:16 -0700 (PDT)
+Received: by ywp17 with SMTP id 17so5072329ywp.13
+        for <tech@doap.com>; Sun, 25 Sep 2011 20:37:16 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.79.17 with SMTP id p17mr4994432ick.211.1317008236019; Sun,
+ 25 Sep 2011 20:37:16 -0700 (PDT)
+Received: by 10.42.229.74 with HTTP; Sun, 25 Sep 2011 20:37:16 -0700 (PDT)
+X-Originating-IP: [190.181.160.105]
+Date: Sun, 25 Sep 2011 21:37:16 -0600
+Message-ID: <CANCpuCn3LjaPebG9HR2-v2anefHf7WX5Uu+vvyEEgzxvde34ww@mail.gmail.com>
+Subject: ignore
+From: David Menache <dmenache@thehvac.net>
+To: tech@doap.com
+Content-Type: multipart/alternative; boundary=20cf3011d8a71301be04adcfe0ea
+
+--20cf3011d8a71301be04adcfe0ea
+Content-Type: text/plain; charset=ISO-8859-1
+
+test
+
+--20cf3011d8a71301be04adcfe0ea
+Content-Type: text/html; charset=ISO-8859-1
+
+test
+
+--20cf3011d8a71301be04adcfe0ea--

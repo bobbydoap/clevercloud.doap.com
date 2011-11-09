@@ -1,0 +1,412 @@
+Return-Path: <tech+bncCOKrwsOaDRC_v-PyBBoE4cGrQA@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gy0-f200.google.com (mail-gy0-f200.google.com [209.85.160.200])
+	by ns1 (Postfix) with ESMTP id 767AA88989;
+	Sat, 27 Aug 2011 05:14:55 -0700 (PDT)
+Received: by gye5 with SMTP id 5sf6414651gye.7
+        for <multiple recipients>; Sat, 27 Aug 2011 05:14:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=Zrbdh90hR6M4N0oPYj5gsr3NrO/KoVhS+s7i1SmPXcA=;
+        b=IuAXwYMPLRudaKDARjMRPScNXBrK8q23pasUwDJihFZ0WqgyhdZyJuYP9JKW4aKjab
+         cEHquZaFOS5uWAq7VyIw==
+Received: by 10.52.29.225 with SMTP id n1mr2058535vdh.27.1314447295509;
+        Sat, 27 Aug 2011 05:14:55 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.229.37.9 with SMTP id v9ls1771844qcd.2.gmail; Sat, 27 Aug 2011
+ 05:14:55 -0700 (PDT)
+Received: by 10.229.43.144 with SMTP id w16mr3049282qce.149.1314447295218;
+        Sat, 27 Aug 2011 05:14:55 -0700 (PDT)
+Received: by 10.229.43.144 with SMTP id w16mr3049281qce.149.1314447295178;
+        Sat, 27 Aug 2011 05:14:55 -0700 (PDT)
+Received: from mail-vw0-f71.google.com (mail-vw0-f71.google.com [209.85.212.71])
+        by mx.google.com with ESMTPS id fg8si3813871qab.103.2011.08.27.05.14.55
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sat, 27 Aug 2011 05:14:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3ud9YThEKBFQ9AD0B7K+100zBDAJK2AA270.yA8p0y3F303Hwy.90F@feedburner.bounces.google.com designates 209.85.212.71 as permitted sender) client-ip=209.85.212.71;
+Received: by vws8 with SMTP id 8so6573649vws.10
+        for <Tech@thehvac.net>; Sat, 27 Aug 2011 05:14:54 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.130.133 with SMTP id v5mt4525980ics.23.1314447289060; Sat,
+ 27 Aug 2011 05:14:49 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <90e6ba6136acbd932b04ab7b9b18@google.com>
+Date: Sat, 27 Aug 2011 12:14:54 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3ud9YThEKBFQ9AD0B7K+100zBDAJK2AA270.yA8p0y3F303Hwy.90F@feedburner.bounces.google.com
+ designates 209.85.212.71 as permitted sender) smtp.mail=3ud9YThEKBFQ9AD0B7K+100zBDAJK2AA270.yA8p0y3F303Hwy.90F@feedburner.bounces.google.com;
+ dkim=pass (test mode) header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=90e6ba6136ac155af304ab7b9c65
+
+--90e6ba6136ac155af304ab7b9c65
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+
+Amazon Web Services Blog
+
+///////////////////////////////////////////
+AWS Summer Startups: Appscend
+
+Posted: 26 Aug 2011 08:16 AM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/R4xvCPo3bUo/aws-summer-startups-appscend.html?utm_source=feedburner&utm_medium=email
+
+
+
+
+Over the summer months, we'd like to share a few stories from startups  
+around the world: what are they working on and how they are using the cloud  
+to get things done. Today, we're profiling Appscend, from Bucharest,  
+Romania!
+
+
+
+
+Appscend is a sign that catching the "startup bug" and being able to run a  
+high-tech company is possible waay outside Silicon Valley, in Romania,  
+where startups don't have the benefit of tapping into a support system and  
+extensive mentorship. I spoke to Gabi Dobocan, Appscend Cofounder, who was  
+quick to tell me that his small team enjoys the challenge and is eager to  
+work at least 10 times as hard as their counterparts in other countries in  
+order to compete. To date, they have received support from local angel  
+investor and mentor, Peter Barta, and from an extended entrepreneur network  
+from Western Europe. We wish Gabi and his team the best of luck :)
+
+About Appscend
+
+Appscend is "Wordpress for mobile" software. Since day one, the vision for  
+Appscend was to create a robust, highly customizable product that can  
+produce feature-rich mobile apps in record time. Today, a few months after  
+launch, Appscend has enlisted over 400 registered users working on about  
+300 mobile apps. Among these customers, Appscend works with Domo, one of  
+the largest local retailers, the Romanian National Television, and a couple  
+of important local publishers. Appscend currently supports iOS apps and  
+their development team is working on releasing an Android version in the  
+next few months.
+"100% AWSomeness"
+Appscend offers a series of products geared at enabling our customers to  
+build rich mobile apps apps using an intuitive, customizable interface. Our  
+target audience is made up of digital publishers and agencies, so our  
+products need to be easy to use and offer a wide array of functionality: we  
+offer a mobile CMS, accessible for anyone that doesn't have a way to host  
+their content elsewhere and have made it easy for users to import and  
+export content. We help customers who build their mobile apps through  
+Appscend track social activity around their content and we also offer them  
+the ability to implement in-app purchases. In addition, to help our  
+customers further monetize their mobile apps, we have enabled them to  
+display ads inside their apps through an ad management server.
+To build all these products, we use most of the cloud web services provided  
+by Amazon Web Services and are delighted to call our implementation 100%  
+AWSomeness.
+
+
+Amazon S3 buckets are used for storing all the multimedia content used in  
+the apps, optimized for mobile consumption.
+The S3 buckets are connected to a Amazon CloudFront distribution to insure  
+minimum latency wherever our clients' end-users are located.
+Our customer dashboard, as well as all background processes, are hosted on  
+Amazon EC2 instances.
+The Amazon EC2 instances are placed into Elastic Load Balancers, so that we  
+can enable auto-scaling through Amazon CloudWatch when needed.
+Our ad server is based on Google Adwhirl and is hosted on an Amazon EC2  
+instance.
+The software connects to Amazon SimpleDB domains that hold information  
+regarding to the apps and statistics.
+Everything is powered by a MySQL 5 Enterprise server hosted on an Amazon  
+RDS instance. We find it a good solution because we can scale very easily  
+and the performance provided is excellent.
+
+Finally, we keep in touch with our clients by sending email messages  
+through Amazon SES, and we've also configured email alerts for our  
+operators using the same service. In the future, we will look at  
+implementing AWS CloudFormation in order to be able to provision resources  
+as quickly as possible.
+
+
+
+On Building a Startup in Romania and the Mobile Market
+
+Right now, we're living our dream and working on our passion. It's really  
+what makes us happy, what makes us grow, and at the end of the (12 hour  
+working) day, that's all that matters. We survive, we take nothing for  
+granted, and we do good with limited resources.
+The mobile market is really still a young, fragmented market and we work  
+hard to always be alert, listen and learn as much as we can. We're probably  
+gonna change a lot of this product in the next year, and we welcome that :)  
+Challenging your own beliefs and being flexible and open-minded is the only  
+real way to evolve I think - as a company and as a person.
+
+
+------------------------------------------------------
+
+Enter the AWS Start-up Challenge!
+Join Appscend and many other AWS startups who are entering this year's  
+worldwide AWS Start-up Challenge! You can also follow @AWSStartups on  
+Twitter for updates.
+
+  -rodica
+
+
+
+--
+You are subscribed to email updates from "Amazon Web Services Blog."
+To stop receiving these emails, you may unsubscribe now:  
+http://feedburner.google.com/fb/a/mailunsubscribe?k=WYlqsHgFmj4AaMxCIo4DpqGJl_Y
+
+Email delivery powered by Google.
+Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+
+--90e6ba6136ac155af304ab7b9c65
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/R4xvC=
+Po3bUo/aws-summer-startups-appscend.html?utm_source=3Dfeedburner&utm_medium=
+=3Demail">AWS Summer Startups: Appscend</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 26 Aug 2011 08:16 AM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><div>
+<div style=3D"padding-left: 30px;"><a href=3D"http://aws.amazon.com/startup=
+challenge/?utm_source=3Dawsblog&amp;utm_medium=3Dbanner&amp;utm_campaign=3D=
+SM_awsblog_summerstartup_title&amp;trk=3DSM_awsblog_ summerstartup" target=
+=3D"_blank"><img style=3D"display: block; margin-left: auto; margin-right: =
+auto;" src=3D"http://aws.typepad.com/.a/6a00d8341c534853ef0154335da1f3970c-=
+800wi" alt=3D"" /></a></div>
+<p>Over the summer months, we'd like to share a few stories from startups a=
+round the world: what are they working on and how they are using the cloud =
+to get things done. Today, we're profiling <a href=3D"http://www.appscend.c=
+om/" target=3D"_blank">Appscend</a>, from Bucharest, Romania!</p>
+<div><img style=3D"display: block; margin-left: auto; margin-right: auto;" =
+src=3D"http://awsmedia.s3.amazonaws.com/aws-sc2011/appscend-team.jpg" alt=
+=3D"" /></div>
+<div><em><br /></em></div>
+<p><a href=3D"http://www.appscend.com/" target=3D"_blank">Appscend </a>is a=
+ sign that catching the "startup bug" and being able to run a high-tech com=
+pany is possible waay outside Silicon Valley, in Romania, where startups do=
+n't have the benefit of tapping into a support system and extensive mentors=
+hip. I spoke to Gabi Dobocan, Appscend Cofounder, who was quick to tell me =
+that his small team enjoys the challenge and is eager to work at least 10 t=
+imes as hard as their counterparts in other countries in order to compete. =
+To date, they have received support from local angel investor and mentor, <=
+a href=3D"http://www.linkedin.com/in/peterbarta">Peter Barta</a>, and from =
+an extended entrepreneur network from Western Europe. We wish Gabi and his =
+team the best of luck :)</p>
+<div><strong>
+<div style=3D"display: inline !important;">About Appscend</div>
+</strong></div>
+<div><a href=3D"http://www.appscend.com/" target=3D"_blank">Appscend </a>is=
+ "<em>Wordpress for mobile</em>" software. Since day one, the vision for Ap=
+pscend was to create a robust, highly customizable product that can produce=
+ feature-rich mobile apps in record time. Today, a few months after launch,=
+ Appscend has enlisted over 400 registered users working on about 300 mobil=
+e apps. Among these customers, Appscend works with <a href=3D"http://www.do=
+mo.ro/despre_domo_en" target=3D"_blank">Domo</a>, one of the largest local =
+retailers, <a href=3D"http://www.tvr.ro/tvr_international.php" target=3D"_b=
+lank">the Romanian National Television</a>, and a couple of important local=
+ publishers. Appscend currently supports iOS apps and their development tea=
+m is working on releasing an Android version in the next few months.</div>
+<div><strong>"100% AWSomeness" </strong></div>
+<p id=3D"internal-source-marker_0.8193495112936944" style=3D"padding-left: =
+30px;" dir=3D"ltr"><em>Appscend offers a series of products geared at enabl=
+ing our customers to build rich mobile apps apps using an intuitive, custom=
+izable interface. Our target audience is made up of digital publishers and =
+agencies, so our products need to be easy to use and offer a wide array of =
+functionality: we offer a mobile CMS, accessible for anyone that doesn't ha=
+ve a way to host their content elsewhere and have made it easy for users to=
+ import and export content. We help customers who build their mobile apps t=
+hrough Appscend track social activity around their content and we also offe=
+r them the ability to implement in-app purchases. In addition, to help our =
+customers further monetize their mobile apps, we have enabled them to displ=
+ay ads inside their apps through an ad management server.</em></p>
+<p style=3D"padding-left: 30px;" dir=3D"ltr"><em>To build all these product=
+s, we use most of the cloud web services provided by Amazon Web Services an=
+d are delighted to call our implementation 100% AWSomeness.</em></p>
+<div>
+<ul id=3D"internal-source-marker_0.8193495112936944">
+<li><em><a href=3D"http://aws.amazon.com/s3/" target=3D"_blank">Amazon S3</=
+a> buckets are used for storing all the multimedia content used in the apps=
+, optimized for mobile consumption. </em></li>
+<li><em>The S3 buckets are connected to a <a href=3D"http://aws.amazon.com/=
+cloudfront/" target=3D"_blank">Amazon CloudFront</a> distribution to insure=
+ minimum latency wherever our clients' end-users are located. </em></li>
+<li><em>Our customer dashboard, as well as all background processes, are ho=
+sted on <a href=3D"http://aws.amazon.com/ec2/" target=3D"_blank">Amazon EC2=
+</a> instances. </em></li>
+<li><em>The <a href=3D"http://aws.amazon.com/ec2/" target=3D"_blank">Amazon=
+ EC2</a> instances are placed into <a href=3D"http://aws.amazon.com/elastic=
+loadbalancing/" target=3D"_blank">Elastic Load Balancers</a>, so that we ca=
+n enable auto-scaling through <a href=3D"http://aws.amazon.com/cloudwatch/"=
+ target=3D"_blank">Amazon CloudWatch</a> when needed.</em></li>
+<li><em>Our ad server is based on Google Adwhirl and is hosted on an <a hre=
+f=3D"http://aws.amazon.com/ec2/" target=3D"_blank">Amazon EC2 </a>instance.=
+</em></li>
+<li><em>The software connects to <a href=3D"http://aws.amazon.com/simpledb/=
+" target=3D"_blank">Amazon SimpleDB</a> domains that hold information regar=
+ding to the apps and statistics. </em></li>
+<li><em>Everything is powered by a MySQL 5 Enterprise server hosted on an <=
+a href=3D"http://aws.amazon.com/rds/" target=3D"_blank">Amazon RDS</a> inst=
+ance. We find it a good solution because we can scale very easily and the p=
+erformance provided is excellent.</em></li>
+</ul>
+<p style=3D"padding-left: 30px;" dir=3D"ltr"><em>Finally, we keep in touch =
+with our clients by sending email messages through <a href=3D"http://aws.am=
+azon.com/ses/" target=3D"_blank">Amazon SES</a>, and we've also configured =
+email alerts for our operators using the same service. In the future, we wi=
+ll look at implementing <a href=3D"http://aws.amazon.com/cloudformation/" t=
+arget=3D"_blank">AWS CloudFormation</a> in order to be able to provision re=
+sources as quickly as possible.</em></p>
+</div>
+</div>
+<p><strong>On Building a Startup in Romania and the Mobile Market&nbsp;</st=
+rong></p>
+<div>
+<p id=3D"internal-source-marker_0.8193495112936944" style=3D"padding-left: =
+30px;" dir=3D"ltr"><em>Right now, we're living our dream and working on our=
+ passion. It's really what makes us happy, what makes us grow, and at the e=
+nd of the (12 hour working) day, that's all that matters. We survive, we ta=
+ke nothing for granted, and we do good with limited resources.</em></p>
+<p style=3D"padding-left: 30px;" dir=3D"ltr"><em>The mobile market is reall=
+y still a young, fragmented market and we work hard to always be alert, lis=
+ten and learn as much as we can. We're probably gonna change a lot of this =
+product in the next year, and we welcome that :) Challenging your own belie=
+fs and being flexible and open-minded is the only real way to evolve I thin=
+k - as a company and as a person.</em></p>
+</div>
+<p>------------------------------------------------------</p>
+<p><strong>Enter the AWS Start-up Challenge!</strong><br />Join <a href=3D"=
+http://www.appscend.com/" target=3D"_blank">Appscend </a>and many other AWS=
+ startups who are entering this year's worldwide <a href=3D"http://aws.amaz=
+on.com/startupchallenge/?utm_source=3Dawsblog&amp;utm_medium=3Dbanner&amp;u=
+tm_campaign=3DSM_awsblog_summerstartup_title&amp;trk=3DSM_awsblog_ summerst=
+artup" target=3D"_blank">AWS Start-up Challenge</a>! You can also follow&nb=
+sp;<a href=3D"http://twitter.com/#!/awsstartups" target=3D"_self">@AWSStart=
+ups</a>&nbsp;on Twitter for updates.</p>
+<p>&nbsp;-rodica</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DR4xvCP=
+o3bUo:lFD5DTSNRuA:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DR4xvCPo3bUo:lFD5DT=
+SNRuA:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DR4xvCPo3bUo:lFD5DTSNRuA:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/R=
+4xvCPo3bUo?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--90e6ba6136ac155af304ab7b9c65--

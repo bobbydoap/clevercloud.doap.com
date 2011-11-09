@@ -1,0 +1,21 @@
+Return-Path: <wwwrun@doap.com>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 30)
+	id A425F8879F; Thu, 18 Aug 2011 09:17:54 -0700 (PDT)
+To: sales@doap.com
+Subject: [Nicapiscina] Your username and password
+X-PHP-Originating-Script: 33:class-phpmailer.php
+Date: Thu, 18 Aug 2011 16:17:54 +0000
+From: WordPress <wordpress@nicapiscina.doap.com>
+Message-ID: <b0fa0f385b8ee60f073f968314c2a8c3@nicapiscina.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+Username: Site Owner
+Password: abc123
+http://nicapiscina.doap.com/wp-login.php
+

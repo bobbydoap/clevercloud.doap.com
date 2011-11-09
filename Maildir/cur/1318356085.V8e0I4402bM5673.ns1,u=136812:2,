@@ -1,0 +1,205 @@
+Return-Path: <dave@doap.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from outmail137145.authsmtp.co.uk (outmail137145.authsmtp.co.uk [62.13.137.145])
+	by ns1 (Postfix) with ESMTP id 0EF7A886F7
+	for <bobby@doap.com>; Tue, 11 Oct 2011 11:01:23 -0700 (PDT)
+Received: from mail-c193.authsmtp.com (mail-c193.authsmtp.com [62.13.128.118])
+	by punt9.authsmtp.com (8.14.2/8.14.2/Kp) with ESMTP id p9BI1Oml081298
+	for <bobby@doap.com>; Tue, 11 Oct 2011 19:01:24 +0100 (BST)
+Received: from mail-iy0-f182.google.com (mail-iy0-f182.google.com [209.85.210.182])
+	(authenticated bits=0)
+	by mail.authsmtp.com (8.14.2/8.14.2) with ESMTP id p9BI1I0o075773
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <bobby@doap.com>; Tue, 11 Oct 2011 19:01:19 +0100 (BST)
+Received: by iaby12 with SMTP id y12so5301899iab.13
+        for <bobby@doap.com>; Tue, 11 Oct 2011 11:01:18 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.154.7 with SMTP id o7mr27934396icw.48.1318356077661; Tue,
+ 11 Oct 2011 11:01:17 -0700 (PDT)
+Reply-To: dave@doap.com
+Received: by 10.42.220.71 with HTTP; Tue, 11 Oct 2011 11:00:59 -0700 (PDT)
+X-Originating-IP: [190.181.174.132]
+In-Reply-To: <20111011080006.6DC5888580@ns1>
+References: <20111011080006.6DC5888580@ns1>
+Date: Tue, 11 Oct 2011 12:00:59 -0600
+Message-ID: <CANCpuCm=ZdCLi0S9wHdrOyT6M6SMk3StN70JWpy4vMQdK9dwAQ@mail.gmail.com>
+Subject: Fwd: Cron <root@ns1> /home/joomla.doap.com/restore_joomla.doap.com.sh
+ #restore joomla.doap.com test drive site
+From: David Menache <dave@doap.com>
+To: Bobby Damery <bobby@doap.com>
+Content-Type: multipart/alternative; boundary=90e6ba1efd2eb24ffb04af09b192
+X-Server-Quench: 05cc36ec-f433-11e0-97bb-002264978518
+X-AuthReport-Spam: If SPAM / abuse - report it at: http://www.authsmtp.com/abuse
+X-AuthRoute: OCd2aAodClZZRRoX Ii8DBTcGQgIgMBdL CxUSBQddKUJPXgNU JB8DaX1YLBpGHQgA E2cCUVRVWlx4F2F1 YhRZaBtfY0pQXg1o T0pMXVMcVAwaeB14 BkEeVRx1cAYIen52 Z0AsXnUID0d8IBVg FEpXFnAHZDJgdWkY AhJFdwNWcgVOdxhN b1F3GgVKNW8XFTg/ GUdnJTc2IR1ZM30D CkYNKlcfBkQMGTs4 TlYOGjw3W0YCQmIp Igc6LUQRK0QWNUA2 OB0tXlsAdRQVD0tF HyMFSzVUPEUGXSdj DwRdWEoXVjFaSD8a CRotagNFGSAaVjBZ GkYNUBATBksA
+X-Authentic-SMTP: 61633538323839.1014:706
+X-AuthFastPath: 0 (Was 255)
+X-AuthVirus-Status: No virus detected - but ensure you scan with your own anti-virus system.
+
+--90e6ba1efd2eb24ffb04af09b192
+Content-Type: text/plain; charset=ISO-8859-1
+
+joomla restore failing
+
+---------- Forwarded message ----------
+From: Cron Daemon <root@doap.com>
+Date: Tue, Oct 11, 2011 at 2:00 AM
+Subject: Cron <root@ns1>
+/home/joomla.doap.com/restore_joomla.doap.com.sh#restore
+joomla.doap.com test drive site
+To: root@doap.com
+
+
+Deleting a4mck_assets table from joomla.doap.com database...
+Deleting a4mck_associations table from joomla.doap.com database...
+Deleting a4mck_banner_clients table from joomla.doap.com database...
+Deleting a4mck_banner_tracks table from joomla.doap.com database...
+Deleting a4mck_banners table from joomla.doap.com database...
+Deleting a4mck_categories table from joomla.doap.com database...
+Deleting a4mck_contact_details table from joomla.doap.com database...
+Deleting a4mck_content table from joomla.doap.com database...
+Deleting a4mck_content_frontpage table from joomla.doap.com database...
+Deleting a4mck_content_rating table from joomla.doap.com database...
+Deleting a4mck_core_log_searches table from joomla.doap.com database...
+Deleting a4mck_extensions table from joomla.doap.com database...
+Deleting a4mck_languages table from joomla.doap.com database...
+Deleting a4mck_menu table from joomla.doap.com database...
+Deleting a4mck_menu_types table from joomla.doap.com database...
+Deleting a4mck_messages table from joomla.doap.com database...
+Deleting a4mck_messages_cfg table from joomla.doap.com database...
+Deleting a4mck_modules table from joomla.doap.com database...
+Deleting a4mck_modules_menu table from joomla.doap.com database...
+Deleting a4mck_newsfeeds table from joomla.doap.com database...
+Deleting a4mck_redirect_links table from joomla.doap.com database...
+Deleting a4mck_schemas table from joomla.doap.com database...
+Deleting a4mck_session table from joomla.doap.com database...
+Deleting a4mck_template_styles table from joomla.doap.com database...
+Deleting a4mck_update_categories table from joomla.doap.com database...
+Deleting a4mck_update_sites table from joomla.doap.com database...
+Deleting a4mck_update_sites_extensions table from joomla.doap.comdatabase...
+Deleting a4mck_updates table from joomla.doap.com database...
+Deleting a4mck_user_profiles table from joomla.doap.com database...
+Deleting a4mck_user_usergroup_map table from joomla.doap.com database...
+Deleting a4mck_usergroups table from joomla.doap.com database...
+Deleting a4mck_users table from joomla.doap.com database...
+Deleting a4mck_viewlevels table from joomla.doap.com database...
+Deleting a4mck_weblinks table from joomla.doap.com database...
+ERROR 1049 (42000): Unknown database 'Joomla'
+
+
+
+-- 
+David Menache
+dave@doap.com
+<Dave@doap.com>http://doap.com
+   .-.
+   : :
+ .-' : .--.  .--.  .---.    .--.  .--. ,-.,-.,-.
+' .; :' .; :' .; ; : .; ` _'  ..'' .; :: ,. ,. :
+`.__.'`.__.'`.__,_;: ._.':_;`.__.'`.__.':_;:_;:_;
+                   : :
+                   :_;
+
+--90e6ba1efd2eb24ffb04af09b192
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+joomla restore failing<br><br><div class=3D"gmail_quote">---------- Forward=
+ed message ----------<br>From: <b class=3D"gmail_sendername">Cron Daemon</b=
+> <span dir=3D"ltr">&lt;<a href=3D"mailto:root@doap.com">root@doap.com</a>&=
+gt;</span><br>
+Date: Tue, Oct 11, 2011 at 2:00 AM<br>Subject: Cron &lt;root@ns1&gt; /home/=
+<a href=3D"http://joomla.doap.com/restore_joomla.doap.com.sh">joomla.doap.c=
+om/restore_joomla.doap.com.sh</a> #restore <a href=3D"http://joomla.doap.co=
+m">joomla.doap.com</a> test drive site<br>
+To: <a href=3D"mailto:root@doap.com">root@doap.com</a><br><br><br>Deleting =
+a4mck_assets table from <a href=3D"http://joomla.doap.com" target=3D"_blank=
+">joomla.doap.com</a> database...<br>
+Deleting a4mck_associations table from <a href=3D"http://joomla.doap.com" t=
+arget=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_banner_clients table from <a href=3D"http://joomla.doap.com"=
+ target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_banner_tracks table from <a href=3D"http://joomla.doap.com" =
+target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_banners table from <a href=3D"http://joomla.doap.com" target=
+=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_categories table from <a href=3D"http://joomla.doap.com" tar=
+get=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_contact_details table from <a href=3D"http://joomla.doap.com=
+" target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_content table from <a href=3D"http://joomla.doap.com" target=
+=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_content_frontpage table from <a href=3D"http://joomla.doap.c=
+om" target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_content_rating table from <a href=3D"http://joomla.doap.com"=
+ target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_core_log_searches table from <a href=3D"http://joomla.doap.c=
+om" target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_extensions table from <a href=3D"http://joomla.doap.com" tar=
+get=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_languages table from <a href=3D"http://joomla.doap.com" targ=
+et=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_menu table from <a href=3D"http://joomla.doap.com" target=3D=
+"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_menu_types table from <a href=3D"http://joomla.doap.com" tar=
+get=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_messages table from <a href=3D"http://joomla.doap.com" targe=
+t=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_messages_cfg table from <a href=3D"http://joomla.doap.com" t=
+arget=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_modules table from <a href=3D"http://joomla.doap.com" target=
+=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_modules_menu table from <a href=3D"http://joomla.doap.com" t=
+arget=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_newsfeeds table from <a href=3D"http://joomla.doap.com" targ=
+et=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_redirect_links table from <a href=3D"http://joomla.doap.com"=
+ target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_schemas table from <a href=3D"http://joomla.doap.com" target=
+=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_session table from <a href=3D"http://joomla.doap.com" target=
+=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_template_styles table from <a href=3D"http://joomla.doap.com=
+" target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_update_categories table from <a href=3D"http://joomla.doap.c=
+om" target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_update_sites table from <a href=3D"http://joomla.doap.com" t=
+arget=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_update_sites_extensions table from <a href=3D"http://joomla.=
+doap.com" target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_updates table from <a href=3D"http://joomla.doap.com" target=
+=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_user_profiles table from <a href=3D"http://joomla.doap.com" =
+target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_user_usergroup_map table from <a href=3D"http://joomla.doap.=
+com" target=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_usergroups table from <a href=3D"http://joomla.doap.com" tar=
+get=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_users table from <a href=3D"http://joomla.doap.com" target=
+=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_viewlevels table from <a href=3D"http://joomla.doap.com" tar=
+get=3D"_blank">joomla.doap.com</a> database...<br>
+Deleting a4mck_weblinks table from <a href=3D"http://joomla.doap.com" targe=
+t=3D"_blank">joomla.doap.com</a> database...<br>
+ERROR 1049 (42000): Unknown database &#39;Joomla&#39;<br>
+</div><br><br clear=3D"all"><div><br></div>-- <br><span style=3D"font-famil=
+y:courier new,monospace">David Menache<br><a href=3D"mailto:dave@doap.com" =
+target=3D"_blank">dave@doap.com</a><br><a href=3D"mailto:Dave@doap.com" tar=
+get=3D"_blank"><span></span></a><a href=3D"http://doap.com" target=3D"_blan=
+k">http://doap.com</a><br>
+=A0=A0 .-.</span><br style=3D"font-family:courier new,monospace"><span styl=
+e=3D"font-family:courier new,monospace">=A0=A0 : :</span><br style=3D"font-=
+family:courier new,monospace"><span style=3D"font-family:courier new,monosp=
+ace">=A0.-&#39; : .--.=A0 .--.=A0 .---.=A0=A0=A0 .--.=A0 .--. ,-.,-.,-.</sp=
+an><br style=3D"font-family:courier new,monospace">
+<span style=3D"font-family:courier new,monospace">&#39; .; :&#39; .; :&#39;=
+ .; ; : .; ` _&#39;=A0 ..&#39;&#39; .; :: ,. ,. :</span><br style=3D"font-f=
+amily:courier new,monospace"><span style=3D"font-family:courier new,monospa=
+ce">`.__.&#39;`.__.&#39;`.__,_;: ._.&#39;:_;`.__.&#39;`.__.&#39;:_;:_;:_;</=
+span><br style=3D"font-family:courier new,monospace">
+<span style=3D"font-family:courier new,monospace">=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 : :</span><br style=3D"font-family:courier n=
+ew,monospace"><span style=3D"font-family:courier new,monospace">=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 :_;</span><br><br>
+
+--90e6ba1efd2eb24ffb04af09b192--

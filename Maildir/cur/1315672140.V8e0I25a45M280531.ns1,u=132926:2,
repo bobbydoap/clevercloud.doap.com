@@ -1,0 +1,62 @@
+Return-Path: <tech+bncCAAQy6Cu8wQaBJ-dcV4@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-pz0-f70.google.com (mail-pz0-f70.google.com [209.85.210.70])
+	by ns1 (Postfix) with ESMTP id 06E22885CB;
+	Sat, 10 Sep 2011 09:28:59 -0700 (PDT)
+Received: by pzk37 with SMTP id 37sf9027592pzk.1
+        for <multiple recipients>; Sat, 10 Sep 2011 09:28:59 -0700 (PDT)
+Received: by 10.68.44.231 with SMTP id h7mr2252327pbm.21.1315672139533;
+        Sat, 10 Sep 2011 09:28:59 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.68.33.194 with SMTP id t2ls6929133pbi.0.gmail; Sat, 10 Sep
+ 2011 09:28:59 -0700 (PDT)
+Received: by 10.68.1.104 with SMTP id 8mr1614301pbl.91.1315672139145;
+        Sat, 10 Sep 2011 09:28:59 -0700 (PDT)
+Received: by 10.68.1.104 with SMTP id 8mr1614300pbl.91.1315672139126;
+        Sat, 10 Sep 2011 09:28:59 -0700 (PDT)
+Received: from ns1 (ns1.doap.com. [50.18.110.179])
+        by mx.google.com with ESMTPS id b6si10151987pbd.60.2011.09.10.09.28.58
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sat, 10 Sep 2011 09:28:58 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of wwwrun@doap.com designates 50.18.110.179 as permitted sender) client-ip=50.18.110.179;
+Received: by ns1 (Postfix, from userid 30)
+	id 8079C885D0; Sat, 10 Sep 2011 09:28:57 -0700 (PDT)
+To: tech@thehvac.net
+Subject: [http://doap.com] Comment: "Welcome Kit"
+X-PHP-Originating-Script: 0:class-phpmailer.php
+Date: Sat, 10 Sep 2011 16:28:57 +0000
+From: cuffie per dj <wordpress@doap.com>
+Message-ID: <b6edd5fcbeb3d45798911fdf814e1f22@www.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+Reply-To: "lucatech78@yahoo.com" <lucatech78@yahoo.com>
+MIME-Version: 1.0
+X-Original-Sender: wordpress@doap.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: best
+ guess record for domain of wwwrun@doap.com designates 50.18.110.179 as
+ permitted sender) smtp.mail=wwwrun@doap.com
+Precedence: list
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+New comment on your post "Welcome Kit"
+Author : cuffie per dj (IP: 108.62.209.185 , 108.62.209.185.rdns.ubiquityservers.com)
+E-mail : lucatech78@yahoo.com
+URL    : http://djstools.com/DJ-Equipment/Cuffie-DJ/C1172
+Whois  : http://whois.arin.net/rest/ip/108.62.209.185
+Comment: 
+Hi, great post! Thanks..
+
+You can see all comments on this post here: 
+http://www.doap.com/2011/06/729#comments
+
+Permalink: http://www.doap.com/2011/06/729#comment-2801
+Trash it: http://www.doap.com/wp-admin/comment.php?action=trash&c=2801
+Spam it: http://www.doap.com/wp-admin/comment.php?action=spam&c=2801
+

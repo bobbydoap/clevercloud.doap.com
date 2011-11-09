@@ -1,0 +1,417 @@
+Return-Path: <dave@doap.com>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from [192.168.137.194] (unknown [190.181.165.110])
+	(Authenticated sender: dave)
+	by ns1 (Postfix) with ESMTPA id 815FE8879A;
+	Thu, 18 Aug 2011 08:52:59 -0700 (PDT)
+References: <F10FB77B-5087-47FA-850D-F5F099ADAE0E@doap.com> <4E4D2C08.2070905@yahoo.com> <D15212D5-145F-4930-AAF7-891C5A884F2E@doap.com>
+In-Reply-To: <D15212D5-145F-4930-AAF7-891C5A884F2E@doap.com>
+Mime-Version: 1.0 (iPad Mail 8C148)
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-3-369312908
+Message-Id: <90AC6376-F3C0-463C-B791-61B74E126BBD@doap.com>
+Content-Transfer-Encoding: 7bit
+X-Mailer: iPad Mail (8C148)
+From: David Menache <dave@doap.com>
+Subject: Re: How much have your monthly fees been without the .04 per min?
+Date: Thu, 18 Aug 2011 10:12:39 -0600
+To: David Menache <dave@doap.com>
+
+
+--Apple-Mail-3-369312908
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+Is the fee in addition to normal paypal fees?  Do you know the %. Google che=
+ckout is pretty steep at something like 2.4%. Not sure about paypal even tho=
+ugh we do use it...
+
+David Menache
+dave@doap.com
+Skype:dmenache
+805-426-5216
+
+
+On Aug 18, 2011, at 10:10 AM, David Menache <dave@doap.com> wrote:
+
+> Might be a good fit for our US sales people once they are up and running. =
+  Could work here too with claro 3G and a smartphone.  With an iPad, they co=
+uld setup a site, demo it and bill the customer all in the field on the spot=
+...
+>=20
+> Cool stuff!
+>=20
+> David Menache
+> dave@doap.com
+> Skype:dmenache
+> 805-426-5216
+>=20
+>=20
+> On Aug 18, 2011, at 9:13 AM, Mike Menache <mike_menache@yahoo.com> wrote:
+>=20
+>> BTW - I use PayPal for billing and have a cool gadget for our sales team t=
+o use when they are at a trade show or on a boat in the middle of the lake a=
+nd they make a sale. It is a free Card Swipe Reader that connects directly t=
+o your iPhone/Android/Netbook etc. speaker connector! There is no monthly me=
+rchant fee either. The only thing is a small percentage of the transaction f=
+or using the service. I was approved in minutes and they mailed me the hardw=
+are free! Check it out:
+>>=20
+>> Intuit GoPayment Card Swipe Reader
+>>=20
+>> M
+>>  -=3DMike Menache
+>>=20
+>> On 8/17/2011 1:52 PM, David Menache wrote:
+>>>=20
+>>> Cool stuff Mike!  =20
+>>>=20
+>>> How are you handling billing when you sell a server?  Metered or flat ra=
+tes?  Are you indie?  Partnering with anyone...? We have a staff on a 24/7 h=
+elp desk you can bundle as a value added         service with your systems..=
+.!
+>>>=20
+>>> Also, I'm anxious to see what my data and transfer costs will be....!  S=
+hit adds up fast.  How have yours been so far?
+>>>=20
+>>> Cheers
+>>>=20
+>>> David Menache
+>>> dave@doap.com
+>>> Skype:dmenache
+>>> 805-426-5216
+>>>=20
+>>>=20
+>>> On Aug 17, 2011, at 1:45 PM, "Mike Menache" <mike_menache@yahoo.com> wro=
+te:
+>>>=20
+>>>> I ran into the same issue when I rolled our IT infrastructure for anoth=
+er startup I am doing!
+>>>> The EC2 reserved is the best long term value, and it is much faster. Ho=
+pefully, I will be selling many more of these as well going forward. The coo=
+l thing is that Amazon lowers the price and passes the savings directly to u=
+s when they figure out ways to save $$$$.
+>>>>=20
+>>>> L8,
+>>>> m
+>>>>  -=3DMike Menache
+>>>>=20
+>>>> On 8/16/2011 7:25 PM, David Menache wrote:
+>>>>>=20
+>>>>> Hi everyone,
+>>>>>=20
+>>>>> Big news for doap.com today!  We subscribed to a three year term for a=
+ bigger server today to help alleviate the slowdowns we were constantly expe=
+riencing.  So far it is working beautifully!   The chart below shows a compa=
+rison between the estimated annual costs of doing it yourself, Reserved Inst=
+ances and On-Demand Instances for a customer running 35 m1.small and 10 m1.l=
+arge Linux/UNIX instances at steady state for 1 year.
+>>>>>=20
+>>>>> Annual Cost Comparison (100% utilization)
+>>>>>  =09
+>>>>> Do-It-Yourself=09
+>>>>> EC2 On-Demand	EC2 Reserved
+>>>>> (1 Year Term)	 EC2 Reserved
+>>>>> (3 Year Term)
+>>>>> Usage Costs	-	$ 55,845	$ 36,772.50	$ 28,460
+>>>>> Server Hardware	$ 20,129	-	-	-
+>>>>> Network Hardware	$ 4,026	-	-	-
+>>>>> Hardware Maintenance	$ 9,662	-	-	-
+>>>>> Operating System	$ =E2=80=93	-	-	-
+>>>>> Facility Expense	$ 43,794	-	-	-
+>>>>> Remote Hands Support	$ 338	-	-	-
+>>>>> Data Transfer Costs	$ 3,357	$ 2,106	$ 2,106=
+	$ 2,106
+>>>>> TOTAL COST	$ 81,305	$ 57,951	$ 38,878.50	$ 3=
+0,566
+>>>>>=20
+>>>>> 	David Menache
+>>>>> dave@doap.com
+>>>>> US:805-426-5216=09
+>>>>=20
+>>>=20
+>>=20
+
+--Apple-Mail-3-369312908
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><body bgcolor=3D"#FFFFFF"><div>Is the fee in addition to normal paypal=
+ fees? &nbsp;Do you know the %. Google checkout is pretty steep at something=
+ like 2.4%. Not sure about paypal even though we do use it...<br><br><div><d=
+iv>David Menache</div><div><a href=3D"mailto:dave@doap.com">dave@doap.com</a=
+></div><div>Skype:dmenache</div><div>805-426-5216</div><div><div><br></div><=
+/div></div></div><div><br>On Aug 18, 2011, at 10:10 AM, David Menache &lt;<a=
+ href=3D"mailto:dave@doap.com">dave@doap.com</a>&gt; wrote:<br><br></div><di=
+v></div><blockquote type=3D"cite"><div><div>Might be a good fit for our US s=
+ales people once they are up and running. &nbsp; Could work here too with cl=
+aro 3G and a smartphone. &nbsp;With an iPad, they could setup a site, demo i=
+t and bill the customer all in the field on the spot...</div><div><br></div>=
+<div>Cool stuff!<br><br><div><div>David Menache</div><div><a href=3D"mailto:=
+dave@doap.com"><a href=3D"mailto:dave@doap.com">dave@doap.com</a></a></div><=
+div>Skype:dmenache</div><div>805-426-5216</div><div><div><br></div></div></d=
+iv></div><div><br>On Aug 18, 2011, at 9:13 AM, Mike Menache &lt;<a href=3D"m=
+ailto:mike_menache@yahoo.com"><a href=3D"mailto:mike_menache@yahoo.com">mike=
+_menache@yahoo.com</a></a>&gt; wrote:<br><br></div><div></div><blockquote ty=
+pe=3D"cite"><div>
+
+    <font face=3D"Courier New">BTW - I use PayPal for billing and have a
+      cool gadget for our sales team to use when they are at a trade
+      show or on a boat in the middle of the lake and they make a sale.
+      It is a free Card Swipe Reader that connects directly to your
+      iPhone/Android/Netbook etc. speaker connector! There is no monthly
+      merchant fee either. The only thing is a small percentage of the
+      transaction for using the service. I was approved in minutes and
+      they mailed me the hardware free! Check it out:<br>
+      <br>
+      <a href=3D"http://intuit-gopayment.com/gp?cid=3Dppc_google_GoPay-TopIP=
+S-NB_intuit_Broad&amp;ef_id=3DxNdOCQSzZwcAAMjC:20110818151121:s">Intuit
+        GoPayment Card Swipe Reader</a><br>
+      <br>
+      M<br>
+    </font>
+    <pre class=3D"moz-signature" cols=3D"72">-=3DMike Menache</pre>
+    <br>
+    On 8/17/2011 1:52 PM, David Menache wrote:
+    <blockquote cite=3D"mid:F10FB77B-5087-47FA-850D-F5F099ADAE0E@doap.com" t=
+ype=3D"cite">
+      <div>Cool stuff Mike! &nbsp;&nbsp;</div>
+      <div><br>
+      </div>
+      <div>How are you handling billing when you sell a server? &nbsp;Metere=
+d
+        or flat rates? &nbsp;Are you indie? &nbsp;Partnering with anyone...?=
+ We
+        have a staff on a 24/7 help desk you can bundle as a value added
+        service with your systems...!</div>
+      <div><br>
+      </div>
+      <div>Also, I'm anxious to see what my data and transfer costs will
+        be....! &nbsp;Shit adds up fast. &nbsp;How have yours been so far?</=
+div>
+      <div><br>
+      </div>
+      <div>Cheers<br>
+        <br>
+        <div>
+          <div>David Menache</div>
+          <div><a moz-do-not-send=3D"true" href=3D"mailto:dave@doap.com"></a=
+><a href=3D"mailto:dave@doap.com"><a href=3D"mailto:dave@doap.com">dave@doap=
+.com</a></a></div>
+          <div>Skype:dmenache</div>
+          <div>805-426-5216</div>
+          <div>
+            <div><br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div><br>
+        On Aug 17, 2011, at 1:45 PM, "Mike Menache" &lt;<a moz-do-not-send=3D=
+"true" href=3D"mailto:mike_menache@yahoo.com"></a><a href=3D"mailto:mike_men=
+ache@yahoo.com"><a href=3D"mailto:mike_menache@yahoo.com">mike_menache@yahoo=
+.com</a></a>&gt;
+        wrote:<br>
+        <br>
+      </div>
+      <blockquote type=3D"cite">
+        <div> <font face=3D"Courier New">I ran into the same issue when I
+            rolled our IT infrastructure for another startup I am doing!<br>=
+
+            The EC2 reserved is the best long term value, and it is much
+            faster. Hopefully, I will be selling many more of these as
+            well going forward. The cool thing is that Amazon lowers the
+            price and passes the savings directly to us when they figure
+            out ways to save $$$$.<br>
+            <br>
+            L8,<br>
+            m<br>
+          </font>
+          <pre class=3D"moz-signature" cols=3D"72">-=3DMike Menache</pre>
+          <br>
+          On 8/16/2011 7:25 PM, David Menache wrote:
+          <blockquote cite=3D"mid:SNT128-W56875BA216FF90F2D128E6C2280@phx.gb=
+l" type=3D"cite">
+            <style><!--
+.hmmessage P
+{
+margin:0px;
+padding:0px
+}
+body.hmmessage
+{
+font-size: 10pt;
+font-family:Tahoma
+}
+--></style>
+            <div dir=3D"ltr"> Hi everyone,<br>
+              <br>
+              Big news for <a moz-do-not-send=3D"true" href=3D"http://doap.c=
+om"></a><a href=3D"http://doap.com"><a href=3D"http://doap.com">doap.com</a>=
+</a> today!&nbsp; We
+              subscribed to a three year term for a bigger server today
+              to help alleviate the slowdowns we were constantly
+              experiencing.&nbsp; So far it is working beautifully!&nbsp;&nb=
+sp; The
+              chart below shows a comparison between the estimated
+              annual costs of doing it yourself, Reserved Instances and
+              On-Demand Instances for a customer running 35 m1.small and
+              10 m1.large Linux/UNIX instances at steady state for 1
+              year.<br>
+              <br>
+              <table class=3D"tan-table" width=3D"724" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+                <tbody>
+                  <tr bgcolor=3D"#f8f8e7">
+                    <td colspan=3D"5" style=3D"border-top: 1px solid
+                      rgb(204, 204, 153); border-bottom: 2px solid
+                      rgb(204, 204, 153);">
+                      <div align=3D"center"><span style=3D"font-size: 114%;"=
+><strong>Annual
+
+                            Cost Comparison</strong> (100% utilization)</spa=
+n></div>
+                    </td>
+                  </tr>
+                  <tr bgcolor=3D"#eeeecc">
+                    <td style=3D"border-right: 1px solid rgb(238, 238,
+                      204);" width=3D"147" bgcolor=3D"#eeeecc">&nbsp;</td>
+                    <td width=3D"18%" bgcolor=3D"#eeeecc"><strong><br>
+                        Do-It-Yourself </strong></td>
+                    <td width=3D"18%" bgcolor=3D"#eeeecc"><strong><br>
+                        EC2 On-Demand </strong></td>
+                    <td width=3D"18%" bgcolor=3D"#eeeecc"><strong>EC2
+                        Reserved<br>
+                        (1 Year Term)</strong></td>
+                    <td width=3D"18%"><strong> EC2 Reserved<br>
+                        (3 Year Term)</strong></td>
+                  </tr>
+                  <tr>
+                    <td valign=3D"bottom"><span align=3D"right">Usage Costs
+                      </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">$ 55,845 </span=
+></td>
+                    <td width=3D"18%"><span align=3D"center">$ 36,772.50 </s=
+pan></td>
+                    <td width=3D"18%"><span align=3D"center">$ 28,460 </span=
+></td>
+                  </tr>
+                  <tr>
+                    <td valign=3D"bottom"><span align=3D"right">Server
+                        Hardware </span></td>
+                    <td width=3D"18%"><span align=3D"center">$ 20,129 </span=
+></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                  </tr>
+                  <tr>
+                    <td valign=3D"bottom"><span align=3D"right">Network
+                        Hardware </span></td>
+                    <td width=3D"18%"><span align=3D"center">$ 4,026 </span>=
+</td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                  </tr>
+                  <tr>
+                    <td valign=3D"bottom"><span align=3D"right">Hardware
+                        Maintenance </span></td>
+                    <td width=3D"18%"><span align=3D"center">$ 9,662 </span>=
+</td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                  </tr>
+                  <tr>
+                    <td valign=3D"bottom"><span align=3D"right">Operating
+                        System </span></td>
+                    <td width=3D"18%"><span align=3D"center">$ =E2=80=93 </s=
+pan></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                  </tr>
+                  <tr>
+                    <td valign=3D"bottom"><span align=3D"right">Facility
+                        Expense </span></td>
+                    <td width=3D"18%"><span align=3D"center">$ 43,794 </span=
+></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                  </tr>
+                  <tr>
+                    <td valign=3D"bottom"><span align=3D"right">Remote Hands=
+
+                        Support </span></td>
+                    <td width=3D"18%"><span align=3D"center">$ 338 </span></=
+td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                    <td width=3D"18%"><span align=3D"center">- </span></td>
+                  </tr>
+                  <tr>
+                    <td valign=3D"bottom"><span align=3D"right">Data
+                        Transfer Costs </span></td>
+                    <td width=3D"18%"><span align=3D"center">$ 3,357 </span>=
+</td>
+                    <td width=3D"18%"><span align=3D"center">$ 2,106 </span>=
+</td>
+                    <td width=3D"18%"><span align=3D"center">$ 2,106 </span>=
+</td>
+                    <td width=3D"18%"><span align=3D"center">$ 2,106 </span>=
+</td>
+                  </tr>
+                  <tr>
+                    <td><span align=3D"right"><strong>TOTAL COST </strong></=
+span></td>
+                    <td width=3D"18%"><span align=3D"center"><strong>$
+                          81,305 </strong></span></td>
+                    <td width=3D"18%"><span align=3D"center"><strong>$
+                          57,951 </strong></span></td>
+                    <td width=3D"18%"><span align=3D"center"><strong>$
+                          38,878.50 </strong></span></td>
+                    <td width=3D"18%"><span align=3D"center"><strong>$
+                          30,566 </strong></span></td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <br>
+              <table style=3D"background-color: rgb(221, 221, 221);
+                text-shadow: 2px 2px 2px rgb(0, 0, 0);" border=3D"0" cellpad=
+ding=3D"5" cellspacing=3D"5">
+                <tbody>
+                  <tr>
+                    <td><img moz-do-not-send=3D"true" src=3D"http://doap.com=
+/images/dave.jpg" width=3D"74" height=3D"74"></td>
+                    <td><font style=3D"font-size: 20pt;" face=3D"Verdana" si=
+ze=3D"5"><strong>David Menache</strong></font><font style=3D"" face=3D"Verda=
+na"><br>
+                      </font><font style=3D"" face=3D"Verdana"><em><font sty=
+le=3D"font-size: 12pt;" size=3D"3"><a moz-do-not-send=3D"true" href=3D"mailt=
+o:dave@doap.com"></a><a href=3D"mailto:dave@doap.com"><a href=3D"mailto:dave=
+@doap.com">dave@doap.com</a></a></font></em></font><font style=3D"" face=3D"=
+Verdana"><br>
+                      </font><font style=3D"font-size: 12pt;" face=3D"Verdan=
+a" size=3D"3">US:805-426-5216</font></td>
+                    <td><strong><img moz-do-not-send=3D"true" src=3D"http://=
+doap.com/images/d5.png"></strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </blockquote>
+        </div>
+      </blockquote>
+    </blockquote>
+ =20
+
+</div></blockquote></div></blockquote></body></html>=
+
+--Apple-Mail-3-369312908--

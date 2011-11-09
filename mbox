@@ -1,0 +1,162 @@
+From dave@doap.com  Tue Nov  1 08:47:27 2011
+Return-Path: <dave@doap.com>
+X-Original-To: bobby
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 1001)
+	id 5F5798885C; Tue,  1 Nov 2011 08:47:27 -0700 (PDT)
+Date: Tue, 01 Nov 2011 08:47:27 -0700
+To: bobby@doap.com
+Subject: test
+User-Agent: Heirloom mailx 12.2 01/07/07
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <20111101154727.5F5798885C@ns1>
+From: dave@doap.com
+X-IMAPbase: 1320184634 3
+Status: RO
+X-Status: 
+X-Keywords:                      
+X-UID: 1
+
+=
+
+From dave@doap.com  Tue Nov  1 08:47:27 2011
+Return-Path: <dave@doap.com>
+X-Original-To: bobby
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 1001)
+	id 5F5798885C; Tue,  1 Nov 2011 08:47:27 -0700 (PDT)
+Date: Tue, 01 Nov 2011 08:47:27 -0700
+To: bobby@doap.com
+Subject: test
+User-Agent: Heirloom mailx 12.2 01/07/07
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <20111101154727.5F5798885C@ns1>
+From: dave@doap.com
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2
+
+=
+
+From root@doap.com  Tue Nov  1 09:16:08 2011
+Return-Path: <root@doap.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 0)
+	id CD29C88879; Tue,  1 Nov 2011 09:16:08 -0700 (PDT)
+Date: Tue, 01 Nov 2011 09:16:08 -0700
+To: support@doap.com
+Subject: test
+User-Agent: Heirloom mailx 12.2 01/07/07
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-Id: <20111101161608.CD29C88879@ns1>
+From: root@doap.com (root)
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 3
+
+asdfadsfa
+
+From root@doap.com  Thu Nov  3 10:17:47 2011
+Return-Path: <root@doap.com>
+X-Original-To: bobby
+Delivered-To: bobby@doap.com
+Received: by ns1.doap.com (Postfix, from userid 0)
+	id 7160888706; Thu,  3 Nov 2011 10:17:47 -0700 (PDT)
+Date: Thu, 03 Nov 2011 10:17:47 -0700
+To: bobby@doap.com
+Subject: test
+User-Agent: Heirloom mailx 12.2 01/07/07
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-Id: <20111103171747.7160888706@ns1.doap.com>
+From: root@doap.com (root)
+Status: RO
+
+lemmeknow
+
+From root@ns1.doap.com  Thu Nov  3 18:05:09 2011
+Return-Path: <root@ns1.doap.com>
+X-Original-To: bobby
+Delivered-To: bobby@ns1.doap.com
+Received: by ns1.doap.com (Postfix, from userid 0)
+	id 3C92C88ACC; Thu,  3 Nov 2011 18:05:09 -0700 (PDT)
+Date: Thu, 03 Nov 2011 18:05:09 -0700
+To: bobby@ns1.doap.com
+Subject: m
+User-Agent: Heirloom mailx 12.2 01/07/07
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <20111104010509.3C92C88ACC@ns1.doap.com>
+From: root@ns1.doap.com (root)
+Status: RO
+
+=
+
+From root  Thu Nov  3 18:16:46 2011
+Return-Path: <root>
+X-Original-To: bobby
+Delivered-To: bobby@ns1.doap.com
+Received: by ns1.doap.com (Postfix, from userid 0)
+	id E1D1788AD1; Thu,  3 Nov 2011 18:16:46 -0700 (PDT)
+Date: Thu, 03 Nov 2011 18:16:46 -0700
+To: bobby
+Subject: m
+User-Agent: Heirloom mailx 12.2 01/07/07
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <20111104011646.E1D1788AD1@ns1.doap.com>
+From: root (root)
+Status: RO
+
+=
+
+From root  Thu Nov  3 18:22:03 2011
+Return-Path: <root>
+X-Original-To: bobby
+Delivered-To: bobby@ns1.doap.com
+Received: by ns1.doap.com (Postfix, from userid 0)
+	id C603688AD4; Thu,  3 Nov 2011 18:22:03 -0700 (PDT)
+Date: Thu, 03 Nov 2011 18:22:03 -0700
+To: bobby
+Subject: v
+User-Agent: Heirloom mailx 12.2 01/07/07
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <20111104012203.C603688AD4@ns1.doap.com>
+From: root (root)
+Status: RO
+
+=
+
+From root  Thu Nov  3 18:22:56 2011
+Return-Path: <root>
+X-Original-To: bobby
+Delivered-To: bobby@ns1.doap.com
+Received: by ns1.doap.com (Postfix, from userid 0)
+	id D7AB688AD4; Thu,  3 Nov 2011 18:22:56 -0700 (PDT)
+Date: Thu, 03 Nov 2011 18:22:56 -0700
+To: bobby
+Subject: c
+User-Agent: Heirloom mailx 12.2 01/07/07
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <20111104012256.D7AB688AD4@ns1.doap.com>
+From: root (root)
+Status: RO
+
+=
+

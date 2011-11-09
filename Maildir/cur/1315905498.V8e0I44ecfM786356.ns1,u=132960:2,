@@ -1,0 +1,62 @@
+Return-Path: <tech+bncCAAQ2b-88wQaBLSVltY@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gx0-f200.google.com (mail-gx0-f200.google.com [209.85.161.200])
+	by ns1 (Postfix) with ESMTP id 399298887A;
+	Tue, 13 Sep 2011 02:18:18 -0700 (PDT)
+Received: by gxk22 with SMTP id 22sf462380gxk.7
+        for <multiple recipients>; Tue, 13 Sep 2011 02:18:17 -0700 (PDT)
+Received: by 10.101.73.11 with SMTP id a11mr4551155anl.37.1315905497620;
+        Tue, 13 Sep 2011 02:18:17 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.90.122.4 with SMTP id u4ls1013649agc.5.gmail; Tue, 13 Sep 2011
+ 02:18:17 -0700 (PDT)
+Received: by 10.147.135.7 with SMTP id m7mr1478334yan.30.1315905497071;
+        Tue, 13 Sep 2011 02:18:17 -0700 (PDT)
+Received: by 10.147.135.7 with SMTP id m7mr1478332yan.30.1315905497054;
+        Tue, 13 Sep 2011 02:18:17 -0700 (PDT)
+Received: from ns1 (ns1.doap.com [50.18.110.179])
+        by mx.google.com with ESMTPS id p24si481062ann.201.2011.09.13.02.18.15
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 13 Sep 2011 02:18:16 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of wwwrun@doap.com designates 50.18.110.179 as permitted sender) client-ip=50.18.110.179;
+Received: by ns1 (Postfix, from userid 30)
+	id 5AC788887B; Tue, 13 Sep 2011 02:18:14 -0700 (PDT)
+To: tech@thehvac.net
+Subject: [http://doap.com] Comment: ""
+X-PHP-Originating-Script: 0:class-phpmailer.php
+Date: Tue, 13 Sep 2011 09:18:14 +0000
+From: casse <wordpress@doap.com>
+Message-ID: <90901b43cefa81650966d29048da1b2c@www.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+Reply-To: "lucatech78@yahoo.com" <lucatech78@yahoo.com>
+MIME-Version: 1.0
+X-Original-Sender: wordpress@doap.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: best
+ guess record for domain of wwwrun@doap.com designates 50.18.110.179 as
+ permitted sender) smtp.mail=wwwrun@doap.com
+Precedence: list
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+New comment on your post ""
+Author : casse (IP: 173.234.126.20 , 173.234.126.20.rdns.ubiquityservers.com)
+E-mail : lucatech78@yahoo.com
+URL    : http://djstools.com/PA-Equipment/Casse-attive-e-passive/C1044
+Whois  : http://whois.arin.net/rest/ip/173.234.126.20
+Comment: 
+Hi, great post! Thanks..
+
+You can see all comments on this post here: 
+http://www.doap.com/2011/08/3699#comments
+
+Permalink: http://www.doap.com/2011/08/3699#comment-2809
+Trash it: http://www.doap.com/wp-admin/comment.php?action=trash&c=2809
+Spam it: http://www.doap.com/wp-admin/comment.php?action=spam&c=2809
+

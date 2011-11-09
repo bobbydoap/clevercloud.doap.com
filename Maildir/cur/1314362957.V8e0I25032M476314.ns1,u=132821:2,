@@ -1,0 +1,239 @@
+Return-Path: <tech+bncCOKrwsOaDRDMrN7yBBoEpDgHvg@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gw0-f72.google.com (mail-gw0-f72.google.com [74.125.83.72])
+	by ns1 (Postfix) with ESMTP id 0E66388763;
+	Fri, 26 Aug 2011 05:49:16 -0700 (PDT)
+Received: by gwj23 with SMTP id 23sf4843994gwj.7
+        for <multiple recipients>; Fri, 26 Aug 2011 05:49:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=4avsvOZIA/Bv/h/m8fmHx5leBa8rLvb1P+rorRsXjt8=;
+        b=cPEKOkckMXTjH09d+Po1o7AqjBOPDmBo1GvDZMvmbFPOpFiVI5Tni6+Q1duxOozTJU
+         VJmCmJ5/iJf5xupl9GCw==
+Received: by 10.52.91.134 with SMTP id ce6mr953038vdb.13.1314362956767;
+        Fri, 26 Aug 2011 05:49:16 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.52.164.3 with SMTP id ym3ls1017728vdb.2.gmail; Fri, 26 Aug
+ 2011 05:49:16 -0700 (PDT)
+Received: by 10.52.20.228 with SMTP id q4mr971543vde.498.1314362956562;
+        Fri, 26 Aug 2011 05:49:16 -0700 (PDT)
+Received: by 10.52.20.228 with SMTP id q4mr971542vde.498.1314362956545;
+        Fri, 26 Aug 2011 05:49:16 -0700 (PDT)
+Received: from mail-qw0-f71.google.com (mail-qw0-f71.google.com [209.85.216.71])
+        by mx.google.com with ESMTPS id p3si1149109vcu.170.2011.08.26.05.49.16
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 26 Aug 2011 05:49:16 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3RpZXThEKBEkyz2p0w9+qppo02z89rzzrwp.nzxepns4sps6ln.yp4@feedburner.bounces.google.com designates 209.85.216.71 as permitted sender) client-ip=209.85.216.71;
+Received: by qwg2 with SMTP id 2so5028529qwg.10
+        for <Tech@thehvac.net>; Fri, 26 Aug 2011 05:49:16 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.100.19.38 with SMTP id 38mt1285438ans.26.1314362950254; Fri,
+ 26 Aug 2011 05:49:10 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <0016e6471c80c1892604ab67f8ad@google.com>
+Date: Fri, 26 Aug 2011 12:49:16 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3RpZXThEKBEkyz2p0w9+qppo02z89rzzrwp.nzxepns4sps6ln.yp4@feedburner.bounces.google.com
+ designates 209.85.216.71 as permitted sender) smtp.mail=3RpZXThEKBEkyz2p0w9+qppo02z89rzzrwp.nzxepns4sps6ln.yp4@feedburner.bounces.google.com;
+ dkim=pass (test mode) header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=0016e6471c8019ce4004ab67f940
+
+--0016e6471c8019ce4004ab67f940
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+
+Amazon Web Services Blog
+
+///////////////////////////////////////////
+Happy 5th Birthday to Amazon EC2
+
+Posted: 25 Aug 2011 04:20 PM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/vcQGP0KKF7g/happy-5th-birthday-to-amazon-ec2.html?utm_source=feedburner&utm_medium=email
+
+
+I woke up today and realized that today is the 5th anniversary of launch of  
+Amazon EC2. I published the initial announcement in the summer of 2006  
+while on vacation with my family.
+
+We (the AWS Marketing Team) have put together an interactive infographic to  
+highlight some of the more significant changes and improvements that weve  
+made to EC2 over the past five years. You can click on the items in the  
+dark blue center column to learn more.
+
+
+Weve come a long way, but from what I can tell we are still getting warmed  
+up and the best is yet to come.
+
+-- Jeff;
+
+PS - We are hiring for a number of great positions. If you would like to  
+join the team, check out the complete list of AWS jobs.
+
+
+
+--
+You are subscribed to email updates from "Amazon Web Services Blog."
+To stop receiving these emails, you may unsubscribe now:  
+http://feedburner.google.com/fb/a/mailunsubscribe?k=WYlqsHgFmj4AaMxCIo4DpqGJl_Y
+
+Email delivery powered by Google.
+Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+
+--0016e6471c8019ce4004ab67f940
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/vcQGP=
+0KKF7g/happy-5th-birthday-to-amazon-ec2.html?utm_source=3Dfeedburner&utm_me=
+dium=3Demail">Happy 5th Birthday to Amazon EC2</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 25 Aug 2011 04:20 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>I woke up today and realized =
+that today is the 5th anniversary of launch of Amazon EC2. I published the =
+<a href=3D"http://aws.typepad.com/aws/2006/08/amazon_ec2_beta.html">initial=
+ announcement</a> in the summer of 2006 while on vacation with my family.</=
+p>
+<p>We (the AWS Marketing Team) have put together an interactive infographic=
+ to highlight some of the more significant changes and improvements that we=
+&#39;ve made to EC2 over the past five years. You can click on the items in=
+ the dark blue center column to learn more.</p>
+<p style=3D"text-align: center;"><iframe align=3D"middle" frameborder=3D"1"=
+ height=3D"405" scrolling=3D"no" src=3D"http://awsu.happybirthdayec2.s3.ama=
+zonaws.com/happy_birthday_ec2.html" style=3D"border: 1px solid #999;" width=
+=3D"715"></iframe></p>
+<p>We&#39;ve come a long way, but from what I can tell we are still getting=
+ warmed up and the best is yet to come.</p>
+<p>-- Jeff;</p>
+<p>PS - We are hiring for a number of great positions. If you would like to=
+ join the team, check out the <a href=3D"http://awsmedia.s3.amazonaws.com/j=
+obs/all_aws_jobs_list.html" target=3D"_self">complete list of AWS jobs</a>.=
+</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DvcQGP0=
+KKF7g:FUd7-49gRlg:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DvcQGP0KKF7g:FUd7-4=
+9gRlg:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DvcQGP0KKF7g:FUd7-49gRlg:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/v=
+cQGP0KKF7g?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--0016e6471c8019ce4004ab67f940--

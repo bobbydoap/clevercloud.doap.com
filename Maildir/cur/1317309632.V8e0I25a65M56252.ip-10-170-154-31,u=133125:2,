@@ -1,0 +1,33 @@
+Return-Path: <2011092915191633e078e09ac54255a943fca66ca8e2f2@bounces.amazon.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mm-notify-out-1102.amazon.com (mm-notify-out-1102.amazon.com [207.171.164.40])
+	by ns1 (Postfix) with ESMTP id CF8BF888BC
+	for <support@doap.com>; Thu, 29 Sep 2011 08:20:31 -0700 (PDT)
+Date: Thu, 29 Sep 2011 15:19:16 +0000 (UTC)
+From: AWS Notifications <no-reply@sns.amazonaws.com>
+To: "support@doap.com" <support@doap.com>
+Message-ID: <urn.correios.msg.2011092915191633e078e09ac54255a943fca66ca8e2f2@1317309556492.rte-svc-na-1012.vdc.amazon.com>
+Subject: AWS Notification - Subscription Confirmation
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_480289_29798112.1317309556491"
+Bounces-to: 2011092915191633e078e09ac54255a943fca66ca8e2f2@bounces.amazon.com
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-AMAZON-RTE-VERSION: 2.0
+
+------=_Part_480289_29798112.1317309556491
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+	<body>
+		<p>You have chosen to subscribe to the topic:
+		<br /><b>arn:aws:sns:us-east-1:700756930873:convectek-cpu-load-over-20percent-for-10-minutes</b></p>
+		<p>To confirm this subscription, click or visit the link below (If this was in error no action is necessary):
+		<br /><a href="https://sns.us-east-1.amazonaws.com/confirmation.html?TopicArn=arn:aws:sns:us-east-1:700756930873:convectek-cpu-load-over-20percent-for-10-minutes&Token=2336412f37fb687f5d51e6e241d3b4d5c8d13ecd2cc8fdacb5d62d6d44e553943cee2aae405513f6492f0ef3c058a69e4975430585a3899ceb097f4b0886688360feb65f32a1d34a91220d77ced355e71c99464261ffe15c28ae501da2c347ea0df63a92a369792d5f814048a1392336dcea6e4e6d5b89e842d963c835a453c63b1bd42f71d02479ce793b0346dc7f9241c79b53263a68ca11515ef846955c46&Endpoint=support@doap.com">Confirm subscription</a></p>
+		<p><small>Please do not reply directly to this e-mail. If you wish to remove yourself from receiving all future SNS subscription confirmation requests please send email to <a href="mailto:sns-opt-out@amazon.com">sns-opt-out</a></small></p>
+	</body>
+</html>
+------=_Part_480289_29798112.1317309556491--
+

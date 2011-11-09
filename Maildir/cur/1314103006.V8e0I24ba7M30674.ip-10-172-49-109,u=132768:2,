@@ -1,0 +1,608 @@
+Return-Path: <tech+bncCOKrwsOaDRDdvc7yBBoE10dHqQ@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gw0-f72.google.com (mail-gw0-f72.google.com [74.125.83.72])
+	by ns1 (Postfix) with ESMTP id 7A37888E0D;
+	Tue, 23 Aug 2011 05:36:45 -0700 (PDT)
+Received: by gwj23 with SMTP id 23sf59594gwj.7
+        for <multiple recipients>; Tue, 23 Aug 2011 05:36:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=9MhIalBqko8trVvZo8792AHeIplNErcyvSifbc3vL9U=;
+        b=JhWVGHYn7pKuqs/TZ3XfQPPD89ND/i89wq3hBr1vNB/5PFVs0F3DHeyEaVeyVr7lVz
+         7tbWDnilPLhkElvA4qKA==
+Received: by 10.100.144.5 with SMTP id r5mr3531308and.13.1314103005252;
+        Tue, 23 Aug 2011 05:36:45 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.101.197.39 with SMTP id z39ls8037533anp.2.gmail; Tue, 23 Aug
+ 2011 05:36:44 -0700 (PDT)
+Received: by 10.101.72.6 with SMTP id z6mr3588762ank.10.1314103004875;
+        Tue, 23 Aug 2011 05:36:44 -0700 (PDT)
+Received: by 10.101.72.6 with SMTP id z6mr3588761ank.10.1314103004834;
+        Tue, 23 Aug 2011 05:36:44 -0700 (PDT)
+Received: from mail-yw0-f71.google.com (mail-yw0-f71.google.com [209.85.213.71])
+        by mx.google.com with ESMTPS id o25si222334ann.51.2011.08.23.05.36.43
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 23 Aug 2011 05:36:43 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3055TThEKBNYFGJ6HDQ+7665HJGPQ8GG8D6.4GEv649L969N24.F6L@feedburner.bounces.google.com designates 209.85.213.71 as permitted sender) client-ip=209.85.213.71;
+Received: by ywf9 with SMTP id 9so54352ywf.10
+        for <Tech@thehvac.net>; Tue, 23 Aug 2011 05:36:40 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.236.77.131 with SMTP id d3mt24462888yhe.2.1314102995370; Tue,
+ 23 Aug 2011 05:36:35 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <20cf30050c2e3cccbc04ab2b7299@google.com>
+Date: Tue, 23 Aug 2011 12:36:40 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3055TThEKBNYFGJ6HDQ+7665HJGPQ8GG8D6.4GEv649L969N24.F6L@feedburner.bounces.google.com
+ designates 209.85.213.71 as permitted sender) smtp.mail=3055TThEKBNYFGJ6HDQ+7665HJGPQ8GG8D6.4GEv649L969N24.F6L@feedburner.bounces.google.com;
+ dkim=pass (test mode) header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=20cf30050c2e924fb004ab2b723b
+
+--20cf30050c2e924fb004ab2b723b
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+
+Amazon Web Services Blog
+
+///////////////////////////////////////////
+Amazon ElastiCache - Distributed In-Memory Caching
+
+Posted: 22 Aug 2011 09:55 PM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/KRsXBkuKf6w/amazon-elasticache-distributed-in-memory-caching.html?utm_source=feedburner&utm_medium=email
+
+
+
+
+Today we are introducing Amazon ElastiCache so that you can easily add  
+caching logic to your application. You can now create Cache Clusters, each  
+comprised of one or more Cache Nodes, in a matter of minutes. Each Cache  
+Cluster is a distributed, in-memory cache that can be accessed using the  
+popular Memcached protocol.
+
+   Whats Caching?
+  You can often make your application run faster by caching critical  pieces  
+of data in memory. Information that is often cached includes the  results  
+of time-consuming database queries or the results of complex  calculations.
+
+Suppose that your application includes a function called  Calculate, and  
+that it accepts two parameters, and that it is an actual function in the  
+mathematical sense, where theres precisely one output for each input. The  
+non-cached version of Calculate would look like this:
+  function Calculate(A, B)
+   {
+   C = [some lengthy calculation dependent on A and B];
+   return C;
+   }
+
+If numerous calls to Calculate are making your application run too slowly,  
+you can cache previous answers like this:
+  function CachedCalculate(A, B)
+   {
+   C = Cache.Get("Calculate", A, B);
+   if (C == null)
+   {
+   C = Calculate(A, B);
+   Cache.Put("Calculate", A, B, C);
+   }
+   return C;
+   }
+
+In this example, the Cache keys are the string "Calculate" and the values  
+of A and B. In practice these three values are generally combined into a  
+single string key. The Cache will store previously computed values.  
+Implicit in this example is the assumption that it takes more time to  
+perform the calculation than it does to check the cache. Also implicit is  
+the fact that the cache can expire or evict values if they become too old  
+or if the cache becomes full.
+
+You can also cache the results of database queries. The tradeoffs here can  
+be a little bit more complicated and will often involve the ratio of reads  
+to writes for a given query or for the tables referenced in the query. If  
+you are implementing your own social network, it would be worthwhile to  
+cache each users list of friends if this information is required with great  
+regularity (perhaps several times per minute) but changes infrequently  
+(hourly or daily). In this case your cache key would include the name of  
+the query and the user name; something like "getfriends_jeffbarr." In order  
+to make sure that the cache does not contain outdated information, you  
+would invalidate the data stored under this key each time you alter the  
+friend list for a particular user. I dont have room to list all of the  
+considerations; for more information check out the following articles on  
+the High Scalability blog:
+
+A Bunch of Great Strategies for Using Memcached and MySQL Better Together
+Secrets to Fotologs Scaling Success
+
+
+
+Getting Started
+  If you are already running Memcached on some Amazon EC2 instances, you can  
+simply create a new cluster and point your existing code at the nodes in  
+the cluster. If you are not using any caching, youll need to spend some  
+time examining your application architecture in order to figure out how to  
+get started.  Memcached client libraries exist for just about every popular  
+programming language.
+
+   Terminology
+  You will need to learn a few new terms in order to fully understand and  
+appreciate ElastiCache. Here is a quick reference:
+
+  A  Cache Security Group regulates access to the Cache Nodes in a Cache  
+Cluster.
+  A  Cache Cluster is a collection of Cache Nodes. Each cluster resides in a  
+particular AWS Availability Zone.
+  A  Cache Node is a processing and storage unit within a Cache Cluster. The  
+size of a cluster can be increased or decreased as needed. Each node runs a  
+particular version of a Cache Engine. Amazon ElastiCache supports nodes  
+with cache sizes ranging from 6 to 67 GB. A DNS name is assigned to each  
+Cache Node when it is created.
+  A  Cache Engine implements a caching protocol, algorithm, and strategy.  
+The initial release of Amazon ElastiCache supports version 1.4.5 of  
+Memcached.
+  A  Cache Parameter Group holds a set of configuration values that are  
+specific to a particular type and version of a Cache Engine.
+
+
+   Architecture
+  Here is how it all fits together:
+
+
+   Creating a Cluster Using the Console
+  The  AWS Management Console includes complete support for Amazon  
+ElastiCache. Lets walk through the process of creating a cluster.
+
+The first step is to create a Cache Security Group. Each such group allows  
+access to the cluster from the EC2 instances associated with one or more  
+EC2 Security Groups. The EC2 security groups are identified by name and AWS  
+Account Id:
+
+
+Next, we can create the Cache Cluster. The console makes this quick and  
+easy using a wizard. Push the button to get started:
+
+
+First, name the cluster, choose the node type, and set the number   of  
+nodes. You can also set the port and the Availability Zone, and you can  
+choose to receive notification from Amazon SNS on the   topic of your  
+choice. You can also give Amazon ElastiCache permission to automatically  
+perform upgrades to the Cache Engine when   a new minor version is  
+available:
+
+
+Next, you can select one or more Cache Security Groups, and a Cache  
+Parameter Group. You can also specify a   maintenance window during which  
+Amazon ElastiCache will install patches and perform other pending  
+modifications to the cluster.
+
+
+Finally, confirm your selections and launch the cluster:
+
+
+The cluster will be up and running within a few minutes. Once it is ready,  
+you can copy the list of endpoints and use   them to configure your  
+application (you can also retrieve this information programmatically using  
+the Amazon ElastiCache  APIs):
+
+
+You can click on any of your clusters to see a description of the cluster:
+
+
+The Nodes tab contains information about each of the Cluster Nodes in the  
+selected cluster:
+
+
+Each Cache Node reports a number of metrics to Amazon CloudWatch. You can  
+watch these metrics to   measure the efficacy of your caching strategy. The  
+metrics should also give you the information that you need to make sure  
+that you have enough   memory devoted to caching.
+
+
+You can also inspect each of your Cache Parameter Groups. The groups can be  
+modified using the Amazon ElastiCache APIs or from the command line.
+
+
+Caching in Action
+Once you have launched your cluster, you can configure the DNS names of the  
+nodes into the client library of your choice. At present this is a manual  
+copy and paste process. However, over time, I expect some of the client  
+libraries to add Amazon ElastiCache support and thereby obviate this  
+configuration step.
+
+Your application can elect to receive an Amazon SNS (Simple Notification  
+Service) notification when a cluster is created,  or when nodes are added  
+to or removed from an existing cluster.
+
+You should definitely watch the CloudWatch metrics for your Nodes, and you  
+should adjust the type and number of nodes as necessary.
+
+Client Libraries and Node Selection
+Most of the client libraries treat the cluster as a unit. In other words,  
+you direct your Put and Get requests to the cluster and the library will  
+algorithmically choose a particular node. The libraries do this using a  
+hash function to spread the data out across the nodes.
+
+If you plan to dynamically resize your cluster, you need to make sure that  
+you client library uses a consistent hash function. A function of this type  
+produces results that will remain valid even as the size of the cluster  
+changes. Ketama is a popular consistent hashing algorithm for Memcached;  
+you can read all about it here.
+
+Watch the Movie
+AWS Evangelist Simone Brunozzi has produced a completed demonstration of  
+Amazon ElastiCache in action:
+
+Video: Turbocharge your apps with Amazon ElastiCache
+View more videos from Amazon Web Services
+
+
+
+
+
+-- Jeff;
+
+
+
+--
+You are subscribed to email updates from "Amazon Web Services Blog."
+To stop receiving these emails, you may unsubscribe now:  
+http://feedburner.google.com/fb/a/mailunsubscribe?k=WYlqsHgFmj4AaMxCIo4DpqGJl_Y
+
+Email delivery powered by Google.
+Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+
+--20cf30050c2e924fb004ab2b723b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/KRsXB=
+kuKf6w/amazon-elasticache-distributed-in-memory-caching.html?utm_source=3Df=
+eedburner&utm_medium=3Demail">Amazon ElastiCache - Distributed In-Memory Ca=
+ching</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 22 Aug 2011 09:55 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p><iframe allowtransparency=3D"=
+true" frameborder=3D"0" scrolling=3D"no" src=3D"http://www.facebook.com/plu=
+gins/like.php?app_id=3D132675016822106&amp;href=3Dhttp%3A%2F%2Faws.typepad.=
+com%2Faws%2F2011%2F08%2Famazon-elasticache-distributed-in-memory-caching.ht=
+ml&amp;send=3Dfalse&amp;layout=3Dbutton_count&amp;width=3D450&amp;show_face=
+s=3Dtrue&amp;action=3Dlike&amp;colorscheme=3Dlight&amp;font=3Darial&amp;hei=
+ght=3D21" style=3D"border: none; overflow: hidden; width: 450px; height: 21=
+px;"></iframe></p>
+<p>Today we are introducing Amazon ElastiCache so that you can easily add c=
+aching logic to your application. You can now create Cache Clusters, each c=
+omprised of one or more Cache Nodes, in a matter of minutes. Each Cache Clu=
+ster is a distributed, in-memory cache that can be accessed using the popul=
+ar <a href=3D"http://www.memcached.org/" target=3D"_self">Memcached</a> pro=
+tocol.</p>
+<p><span style=3D"text-decoration: underline;"> <strong> What&#39;s Caching=
+?</strong> </span> <br /> You can often make your application run faster by=
+ caching critical  pieces of data in memory. Information that is often cach=
+ed includes the  results of time-consuming database queries or the results =
+of complex  calculations.</p>
+<p>Suppose that your application includes a function called <strong> Calcul=
+ate</strong>, and that it accepts two parameters, and that it is an actual =
+function in the mathematical sense, where there&#39;s precisely one output =
+for each input. The non-cached version of Calculate would look like this:</=
+p>
+<p style=3D"padding-left: 30px;"><span style=3D"font-family: courier new,co=
+urier;"> function Calculate(A, B)</span> <br /> <span style=3D"font-family:=
+ courier new,courier;"> {</span> <br /> <span style=3D"font-family: courier=
+ new,courier;"> &#0160;&#0160;C =3D [some lengthy calculation dependent on =
+A and B];</span> <br /> <span style=3D"font-family: courier new,courier;"> =
+&#0160;&#0160;return C;</span> <br /> <span style=3D"font-family: courier n=
+ew,courier;"> }</span></p>
+<p>If numerous calls to Calculate are making your application run too slowl=
+y, you can cache previous answers like this:</p>
+<p style=3D"padding-left: 30px;"><span style=3D"font-family: courier new,co=
+urier;"> function CachedCalculate(A, B)</span> <br /> <span style=3D"font-f=
+amily: courier new,courier;"> {</span> <br /> <span style=3D"font-family: c=
+ourier new,courier;"> &#0160;&#0160;C =3D Cache.Get(&quot;Calculate&quot;, =
+A, B);</span> <br /> <span style=3D"font-family: courier new,courier;"> &#0=
+160;&#0160;if (C =3D=3D null)</span> <br /> <span style=3D"font-family: cou=
+rier new,courier;"> &#0160;&#0160;{</span> <br /> <span style=3D"font-famil=
+y: courier new,courier;"> &#0160;&#0160;&#0160;&#0160;C =3D Calculate(A, B)=
+;</span> <br /> <span style=3D"font-family: courier new,courier;"> &#0160;&=
+#0160;&#0160;&#0160;Cache.Put(&quot;Calculate&quot;, A, B, C);</span> <br /=
+> <span style=3D"font-family: courier new,courier;"> &#0160;&#0160;}</span>=
+ <br /> <span style=3D"font-family: courier new,courier;"> &#0160;&#0160;re=
+turn C;</span> <br /> <span style=3D"font-family: courier new,courier;"> }<=
+/span></p>
+<p>In this example, the Cache keys are the string &quot;Calculate&quot; and=
+ the values of A and B. In practice these three values are generally combin=
+ed into a single string key. The Cache will store previously computed value=
+s. Implicit in this example is the assumption that it takes more time to pe=
+rform the calculation than it does to check the cache. Also implicit is the=
+ fact that the cache can expire or evict values if they become too old or i=
+f the cache becomes full.</p>
+<p>You can also cache the results of database queries. The tradeoffs here c=
+an be a little bit more complicated and will often involve the ratio of rea=
+ds to writes for a given query or for the tables referenced in the query. I=
+f you are implementing your own social network, it would be worthwhile to c=
+ache each user&#39;s list of friends if this information is required with g=
+reat regularity (perhaps several times per minute) but changes infrequently=
+ (hourly or daily). In this case your cache key would include the name of t=
+he query and the user name; something like &quot;getfriends_jeffbarr.&quot;=
+ In order to make sure that the cache does not contain outdated information=
+, you would invalidate the data stored under this key each time you alter t=
+he friend list for a particular user. I don&#39;t have room to list all of =
+the considerations; for more information check out the following articles o=
+n the High Scalability blog:</p>
+<ul>
+<li><a href=3D"http://highscalability.com/bunch-great-strategies-using-memc=
+ached-and-mysql-better-together" target=3D"_self">A Bunch of Great Strategi=
+es for Using Memcached and MySQL Better Together</a></li>
+<li><a href=3D"http://highscalability.com/secrets-fotologs-scaling-success"=
+ target=3D"_self">Secrets to Fotolog&#39;s Scaling Success<br /></a></li>
+</ul>
+<p><strong>&#0160;</strong><span style=3D"text-decoration: underline;"><str=
+ong>Getting Started</strong> </span> <br /> If you are already running Memc=
+ached on some Amazon EC2 instances, you can simply create a new cluster and=
+ point your existing code at the nodes in the cluster. If you are not using=
+ any caching, you&#39;ll need to spend some time examining your application=
+ architecture in order to figure out how to get started. <a href=3D"http://=
+code.google.com/p/memcached/wiki/Clients" target=3D"_self"> Memcached clien=
+t libraries</a> exist for just about every popular programming language.</p=
+>
+<p><span style=3D"text-decoration: underline;"> <strong> Terminology</stron=
+g> </span> <br /> You will need to learn a few new terms in order to fully =
+understand and appreciate ElastiCache. Here is a quick reference:</p>
+<ul>
+<li> A <strong> Cache Security Group</strong> regulates access to the Cache=
+ Nodes in a Cache Cluster.&#0160;</li>
+<li> A <strong> Cache Cluster</strong> is a collection of Cache Nodes. Each=
+ cluster resides in a particular AWS Availability Zone.</li>
+<li> A <strong> Cache Node</strong> is a processing and storage unit within=
+ a Cache Cluster. The size of a cluster can be increased or decreased as ne=
+eded. Each node runs a particular version of a Cache Engine. Amazon ElastiC=
+ache supports nodes with cache sizes ranging from 6 to 67 GB. A DNS name is=
+ assigned to each Cache Node when it is created. </li>
+<li> A <strong> Cache Engine</strong> implements a caching protocol, algori=
+thm, and strategy. The initial release of Amazon ElastiCache supports versi=
+on 1.4.5 of Memcached.</li>
+<li> A <strong> Cache Parameter Group</strong> holds a set of configuration=
+ values that are specific to a particular type and version of a Cache Engin=
+e.</li>
+</ul>
+<p><span style=3D"text-decoration: underline;"> <strong> Architecture</stro=
+ng> </span> <br /> Here is how it all fits together:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/elasticache_4.png" /></div>
+<p><span style=3D"text-decoration: underline;"> <strong> Creating a Cluster=
+ Using the Console</strong> </span> <br /> The <a href=3D"http://console.aw=
+s.amazon.com/" target=3D"_self"> AWS Management Console</a> includes comple=
+te support for Amazon ElastiCache. Let&#39;s walk through the process of cr=
+eating a cluster.</p>
+<p>The first step is to create a Cache Security Group. Each such group allo=
+ws access to the cluster from the EC2 instances associated with one or more=
+ EC2 Security Groups. The EC2 security groups are identified by name and AW=
+S Account Id:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/ec_console_create_sec_group_1.png" /></div>
+<p>Next, we can create the Cache Cluster. The console makes this quick and =
+easy using a wizard. Push the button to get started:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/ec_console_launch_cluster_button_1.png" style=3D"paddi=
+ng-bottom: 12px;" /></div>
+<p>First, name the cluster, choose the node type, and set the number   of n=
+odes. You can also set the port and the Availability Zone, and you can choo=
+se to receive notification from Amazon SNS on the   topic of your choice. Y=
+ou can also give Amazon ElastiCache permission to automatically perform upg=
+rades to the Cache Engine when   a new minor version is available:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/ec_console_launch_wizard_p1_1.png" style=3D"padding-bo=
+ttom: 12px;" /></div>
+<p>Next, you can select one or more Cache Security Groups, and a Cache Para=
+meter Group. You can also specify a   maintenance window during which Amazo=
+n ElastiCache will install patches and perform other pending modifications =
+to the cluster.</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/ec_console_launch_wizard_p2_1.png" style=3D"padding-bo=
+ttom: 12px;" /></div>
+<p>Finally, confirm your selections and launch the cluster:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/ec_console_launch_wizard_p3_1.png" style=3D"padding-bo=
+ttom: 12px;" /></div>
+<p>The cluster will be up and running within a few minutes. Once it is read=
+y, you can copy the list of endpoints and use   them to configure your appl=
+ication (you can also retrieve this information programmatically using the =
+Amazon ElastiCache  APIs):</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/ec_console_endpoints_1.png" style=3D"padding-bottom: 1=
+2px;" /></div>
+<p>You can click on any of your clusters to see a description of the cluste=
+r:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/ec_console_cluster_info_1.png" style=3D"padding-bottom=
+: 12px;" /></div>
+<p>The Nodes tab contains information about each of the Cluster Nodes in th=
+e selected cluster:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/ec_console_cluster_nodes_1.png" style=3D"padding-botto=
+m: 12px;" /></div>
+<p>Each Cache Node reports a number of metrics to <a href=3D"http://aws.ama=
+zon.com/cloudwatch/">Amazon CloudWatch</a>. You can watch these metrics to =
+  measure the efficacy of your caching strategy. The metrics should also gi=
+ve you the information that you need to make sure that you have enough   me=
+mory devoted to caching.</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/ec_console_cluster_cloudwatch_1.png" style=3D"padding-=
+bottom: 12px;" /></div>
+<p>You can also inspect each of your Cache Parameter Groups. The groups can=
+ be modified using the Amazon ElastiCache APIs or from the command line.</p=
+>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/ec_console_param_group_1.png" style=3D"padding-bottom:=
+ 12px;" /></div>
+<p><span style=3D"text-decoration: underline;"><strong>Caching in Action</s=
+trong></span><br />Once you have launched your cluster, you can configure t=
+he DNS names of the nodes into the client library of your choice. At presen=
+t this is a manual copy and paste process. However, over time, I expect som=
+e of the client libraries to add Amazon ElastiCache support and thereby obv=
+iate this configuration step.</p>
+<p>Your application can elect to receive an <a href=3D"http://aws.amazon.co=
+m/sns/" target=3D"_self">Amazon SNS</a> (Simple Notification Service) notif=
+ication when a cluster is created,  or when nodes are added to or removed f=
+rom an existing cluster.</p>
+<p>You should definitely watch the CloudWatch metrics for your Nodes, and y=
+ou should adjust the type and number of nodes as necessary.</p>
+<p><span style=3D"text-decoration: underline;"><strong>Client Libraries and=
+ Node Selection</strong></span><br />Most of the client libraries treat the=
+ cluster as a unit. In other words, you direct your Put and Get requests to=
+ the cluster and the library will algorithmically choose a particular node.=
+ The libraries do this using a hash function to spread the data out across =
+the nodes.</p>
+<p>If you plan to dynamically resize your cluster, you need to make sure th=
+at you client library uses a <a href=3D"http://en.wikipedia.org/wiki/Consis=
+tent_hashing" target=3D"_self">consistent hash function</a>. A function of =
+this type produces results that will remain valid even as the size of the c=
+luster changes. Ketama is a popular consistent hashing algorithm for Memcac=
+hed; you can read all about it <a href=3D"http://www.last.fm/user/RJ/journa=
+l/2007/04/10/rz_libketama_-_a_consistent_hashing_algo_for_memcache_clients"=
+ target=3D"_self">here</a>.</p>
+<p><span style=3D"text-decoration: underline;"><strong>Watch the Movie<br /=
+></strong></span>AWS Evangelist Simone Brunozzi has produced a completed de=
+monstration of Amazon ElastiCache in action:</p>
+<div style=3D"text-align: center;">
+<div id=3D"__ss_8969986" style=3D"width: 425px;"><strong style=3D"display: =
+block; margin: 12px 0 4px;"><a href=3D"http://www.slideshare.net/AmazonWebS=
+ervices/video-turbocharge-your-apps-with-amazon-elasticache" target=3D"_bla=
+nk" title=3D"Video: Turbocharge your apps with Amazon Elasticache">Video: T=
+urbocharge your apps with Amazon ElastiCache</a></strong> <iframe framebord=
+er=3D"0" height=3D"355" marginheight=3D"0" marginwidth=3D"0" scrolling=3D"n=
+o" src=3D"http://www.slideshare.net/slideshow/embed_code/8969986" width=3D"=
+425"></iframe>
+<div style=3D"padding: 5px 0 12px;">View more videos from <a href=3D"http:/=
+/www.slideshare.net/AmazonWebServices" target=3D"_blank">Amazon Web Service=
+s</a></div>
+</div>
+</div>
+<p>&#0160;</p>
+<p>-- Jeff;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DKRsXBk=
+uKf6w:2ZsjA4tyLYs:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DKRsXBkuKf6w:2ZsjA4=
+tyLYs:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DKRsXBkuKf6w:2ZsjA4tyLYs:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/K=
+RsXBkuKf6w?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--20cf30050c2e924fb004ab2b723b--

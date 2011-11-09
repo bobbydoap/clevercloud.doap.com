@@ -1,0 +1,80 @@
+Return-Path: <sylmar-ruud+caf_=sales=doap.com@thehvac.net>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gy0-f182.google.com (mail-gy0-f182.google.com [209.85.160.182])
+	by ns1 (Postfix) with ESMTP id EB9F988789
+	for <sales@doap.com>; Fri,  9 Sep 2011 16:46:10 -0700 (PDT)
+Received: by gyf2 with SMTP id 2so2453922gyf.13
+        for <sales@doap.com>; Fri, 09 Sep 2011 16:46:10 -0700 (PDT)
+Received: by 10.43.52.10 with SMTP id vk10mr1421778icb.303.1315611970592;
+        Fri, 09 Sep 2011 16:46:10 -0700 (PDT)
+X-Forwarded-To: sales@doap.com
+X-Forwarded-For: sylmar-ruud@thehvac.net sales@doap.com
+Delivered-To: sylmar-ruud@thehvac.net
+Received: by 10.231.153.212 with SMTP id l20cs127682ibw;
+        Fri, 9 Sep 2011 16:46:10 -0700 (PDT)
+Received: by 10.236.181.226 with SMTP id l62mr15862686yhm.2.1315611969827;
+        Fri, 09 Sep 2011 16:46:09 -0700 (PDT)
+Received: from mail-gw0-f70.google.com (mail-gw0-f70.google.com [74.125.83.70])
+        by mx.google.com with ESMTPS id x68si927304yhm.0.2011.09.09.16.46.09
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 09 Sep 2011 16:46:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3QaVqTg8KC64ORkcfRg-bcfSdZmUccUZS.QcagmZaOf-fiiRhVSVjOQ.bSh@usercomm.bounces.google.com designates 74.125.83.70 as permitted sender) client-ip=74.125.83.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of 3QaVqTg8KC64ORkcfRg-bcfSdZmUccUZS.QcagmZaOf-fiiRhVSVjOQ.bSh@usercomm.bounces.google.com designates 74.125.83.70 as permitted sender) smtp.mail=3QaVqTg8KC64ORkcfRg-bcfSdZmUccUZS.QcagmZaOf-fiiRhVSVjOQ.bSh@usercomm.bounces.google.com; dkim=pass (test mode) header.i=@google.com
+Received: by gwaa20 with SMTP id a20so2682277gwa.5
+        for <sylmar-ruud@thehvac.net>; Fri, 09 Sep 2011 16:46:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:message-id:date:subject:from:to:content-type;
+        bh=CIEjjlgQZGJQ366u5gXfa8B2efyV+dyvOUHGpm1cZ/M=;
+        b=FWW9N2M2XJ0YCTlxZonxkyhoCmbVbtz3pdqL5voGXNNqLNVIWlnqnHw+/v84wTzloi
+         Yu6Ayse766SfU27jDwgw==
+MIME-Version: 1.0
+Received: by 10.42.245.10 with SMTP id ls10mr1173734icb.28.1315611969329; Fri,
+ 09 Sep 2011 16:46:09 -0700 (PDT)
+Message-ID: <1315611969304.1b25d475-f411-4a02-a1cd-c0c19d2b73d5@google.com>
+Date: Fri, 09 Sep 2011 23:46:09 +0000
+Subject: AdWords Cancellation Confirmation
+From: adwords-noreply@google.com
+To: sylmar-ruud@thehvac.net
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Hello,
+
+We have cancelled your Google AdWords account at your request. Please note  
+that if your account has any balance outstanding, you will be billed by our  
+system within 60 days. Your credit card and billing information will not be  
+stored and will only be used to conclude billing for services rendered  
+through the date of cancellation.
+
+You will be able to reactivate your account easily at any time in the  
+future. To do so:
+
+1. Log into AdWords with the email address and password previously  
+associated with your account. If you cannot remember your password, click  
+the 'Forgot your password?' link beneath the login button. Follow the  
+instructions provided to access your account via a one-use URL.
+2. A message box will appear at the top of your account. This message will  
+explain your account's cancelled status.
+3. Click 'Start reactivation process' at the bottom of the message box to  
+continue.
+4. Review any instructions relevant to your account payment method. (For  
+example, if you are a credit card customer, you will be prompted to submit  
+your billing information.) Please make sure to verify that all fields are  
+correct.
+5. When you have finished with the process, submit the requested payment  
+information to reactivate your account.
+
+We hope that you consider re-joining the program at your convenience. If  
+you have any feedback or questions regarding the AdWords program, please  
+visit us at (http://adwords.google.com/support/aw/?hl=en_US), where you  
+will find a link to contact us and answers to frequently asked questions.
+
+Sincerely,
+
+The Google AdWords Team
+
+
+------------------------
+
+Your AdWords account number: 253-217-7613

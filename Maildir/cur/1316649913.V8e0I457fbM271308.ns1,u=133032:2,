@@ -1,0 +1,224 @@
+Return-Path: <dave@doap.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from [192.168.137.43] (unknown [190.181.160.105])
+	(Authenticated sender: dave)
+	by ns1 (Postfix) with ESMTPA id 17CA088729
+	for <support@doap.com>; Wed, 21 Sep 2011 17:05:12 -0700 (PDT)
+Subject: Fwd: [##520148##] Fwd: Attention required: order notification failing
+References: <1328cc87276.99869636864657228.-8945283685464039857@zohoinvoice.com>
+From: David Menache <dave@doap.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-1--958378292
+X-Mailer: iPad Mail (8C148)
+Message-Id: <3D6E0C27-FB56-4F87-BCCD-FC1957828836@doap.com>
+Date: Wed, 21 Sep 2011 18:26:13 -0600
+To: Support Staff <support@doap.com>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (iPad Mail 8C148)
+
+
+--Apple-Mail-1--958378292
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=utf-8
+
+fyi... (im working it thru...)
+
+David Menache
+dave@doap.com
+Skype:dmenache
+http://doap.com
+
+
+Begin forwarded message:
+
+> From: Zoho Invoice Support <support@zohoinvoice.com>
+> Date: September 21, 2011 10:18:59 AM CST
+> To: <dave@doap.com>
+> Cc: <support@zohoinvoice.com>
+> Subject: Re: [##520148##] Fwd: Attention required: order notification fail=
+ing
+> Reply-To: support@zohoinvoice.com
+>=20
+
+> Dear Dave
+>=20
+> We'll analyze this and get back to you soon. Sorry about the inconvenience=
+ and thanks for reporting this to us.
+>=20
+> Regards
+> Deepa
+> Zoho Invoice & Books team
+> website | help | forums | blogs | twitter
+> We are now featuring customer stories on our blogs. Get featured!
+>=20
+> ---- On Wed, 21 Sep 2011 16:06:38 -0700 dave@doap.com  wrote ----=20
+>=20
+> i have had this error for months.  cant get updates from google.  i checkd=
+ the callack url many times and its fine.  what else could be wrong?
+>=20
+> thanks,
+> dave@doap.com
+>=20
+> ---------- Forwarded message ----------
+> From: Google Checkout <noreply@checkout.google.com>
+> Date: Wed, Sep 21, 2011 at 9:03 AM
+> Subject: Attention required: order notification failing
+> To: dmenache@thehvac.net
+>=20
+>=20
+> =09
+> Hello dmenache@thehvac.net,=20
+> We've made several unsuccessful attempts to send order notifications to yo=
+ur notification callback URL, https://invoice.zoho.com/gnh.ma As a result, y=
+ou aren't receiving order status, risk, or other notifications.
+>=20
+>=20
+> To help you identify the issue with your callback URL, please review the e=
+rrors we encountered while sending notifications to you. To review this erro=
+r information:
+>=20
+> Sign in to Google Checkout.
+> Click on the Tools tab.
+> Click Integration Console.
+> Error messages will appear under 'Integration Issues.' If necessary, you c=
+an also update your callback URL in the 'API callback URL' box on the same p=
+age.
+>=20
+> For more information about receiving notifications via the notification AP=
+I, visit http://code.google.com/apis/checkout/developer/index.html#notificat=
+ion.
+>=20
+>=20
+> Need help? Visit the Google Checkout help center. Please do not reply to t=
+his message.=20
+>=20
+> =C2=A92011 Google
+>=20
+>=20
+>=20
+> --=20
+> David Menache
+> dave@doap.com
+> http://doap.com
+>    .-.
+>    : :
+>  .-' : .--.  .--.  .---.    .--.  .--. ,-.,-.,-.
+> ' .; :' .; :' .; ; : .; ` _'  ..'' .; :: ,. ,. :
+> `.__.'`.__.'`.__,_;: ._.':_;`.__.'`.__.':_;:_;:_;
+>                    : :
+>                    :_;
+>=20
+
+--Apple-Mail-1--958378292
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><body bgcolor=3D"#FFFFFF"><div>fyi... (im working it thru...)<br><br><=
+div><div>David Menache</div><div><a href=3D"mailto:dave@doap.com">dave@doap.=
+com</a></div><div>Skype:dmenache</div><div><a href=3D"http://doap.com">http:=
+//doap.com</a></div><div><div><br></div></div></div></div><div><br>Begin for=
+warded message:<br><br></div><blockquote type=3D"cite"><div><b>From:</b> Zoh=
+o Invoice Support &lt;<a href=3D"mailto:support@zohoinvoice.com">support@zoh=
+oinvoice.com</a>&gt;<br><b>Date:</b> September 21, 2011 10:18:59 AM CST<br><=
+b>To:</b> &lt;<a href=3D"mailto:dave@doap.com">dave@doap.com</a>&gt;<br><b>C=
+c:</b> &lt;<a href=3D"mailto:support@zohoinvoice.com">support@zohoinvoice.co=
+m</a>&gt;<br><b>Subject:</b> <b>Re: [##520148##] Fwd: Attention required: or=
+der notification failing</b><br><b>Reply-To:</b> <a href=3D"mailto:support@z=
+ohoinvoice.com"><a href=3D"mailto:support@zohoinvoice.com">support@zohoinvoi=
+ce.com</a></a><br><br></div></blockquote><div></div><blockquote type=3D"cite=
+"><div>Dear Dave<div><br></div><div>We'll analyze this and get back to you s=
+oon. Sorry about the inconvenience and thanks for reporting this to us.</div=
+><div><br>Regards<br>  Deepa<br>  Zoho Invoice &amp; Books team<br>  <span s=
+tyle=3D"color: rgb(105, 105, 105);"><font style=3D"font-family: arial,helvet=
+ica,sans-serif;" size=3D"2"><span><a href=3D"https://invoice.zoho.com/"><fon=
+t size=3D"1">website</font></a> | <font size=3D"1"><span><a target=3D"_blank=
+" title=3D"http://invoice.wiki.zoho.com/" href=3D"http://www.zoho.com/invoic=
+e/help/invoice-help-home.html">help</a></span></font>
+ | <font size=3D"1"><span><a target=3D"_blank" title=3D"http://forums.zoho.c=
+om/Zoho-Invoice" href=3D"http://forums.zoho.com/Zoho-Invoice">forums</a></sp=
+an></font> | <font size=3D"1"><span><a target=3D"_blank" title=3D"http://blo=
+gs.zoho.com/category/invoice/" href=3D"http://blogs.zoho.com/category/invoic=
+e/">blogs</a></span></font> |
+ <span><font size=3D"1"><a target=3D"_blank" title=3D"http://twitter.com/zoh=
+oinvoice" href=3D"http://twitter.com/zohoinvoice">twitter</a></font></span><=
+/span></font></span><br>
+<span style=3D"color: rgb(0, 102, 0); font-weight: bold;">We are now=20
+featuring customer stories on our blogs. <a href=3D"http://www.zoho.com/invo=
+ice/submit-testimonials.html">Get=20
+featured!</a></span><div><br>---- On&nbsp;Wed, 21 Sep 2011 16:06:38 -0700<b>=
+&nbsp;<a href=3D"mailto:dave@doap.com" target=3D"_blank"><a href=3D"mailto:d=
+ave@doap.com">dave@doap.com</a></a>&nbsp;</b> wrote ---- <br></div><br><bloc=
+kquote style=3D"border-left: 1px solid rgb(0, 0, 255); padding-left: 6px;"><=
+div>i have had this error for months.&nbsp; cant get updates from google.&nb=
+sp; i checkd the callack url many times and its fine.&nbsp; what else could b=
+e wrong?<br><br>thanks,<br><a href=3D"mailto:dave@doap.com" target=3D"_blank=
+"><a href=3D"mailto:dave@doap.com">dave@doap.com</a></a><br><br><div>
+---------- Forwarded message ----------<br>From: <b>Google Checkout</b> <spa=
+n dir=3D"ltr">&lt;<a href=3D"mailto:noreply@checkout.google.com" target=3D"_=
+blank"><a href=3D"mailto:noreply@checkout.google.com">noreply@checkout.googl=
+e.com</a></a>&gt;</span><br>Date: Wed, Sep 21, 2011 at 9:03 AM<br>
+Subject: Attention required: order notification failing<br>To: <a href=3D"ma=
+ilto:dmenache@thehvac.net" target=3D"_blank"><a href=3D"mailto:dmenache@theh=
+vac.net">dmenache@thehvac.net</a></a><br><br><br><table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr valign=3D"top">
+<td style=3D"border-bottom:none" align=3D"left" valign=3D"top"><img></td>
+<td style=3D"width:1%;border-bottom:none"></td></tr></tbody></table>
+Hello <a href=3D"mailto:dmenache@thehvac.net" target=3D"_blank"><a href=3D"m=
+ailto:dmenache@thehvac.net">dmenache@thehvac.net</a></a>,
+<br>
+<p>We've made several unsuccessful attempts to send order notifications to y=
+our notification callback URL,  <a href=3D"https://invoice.zoho.com/gnh.ma" t=
+arget=3D"_blank"><a href=3D"https://invoice.zoho.com/gnh.ma">https://invoice=
+.zoho.com/gnh.ma</a></a>=20
+As a result, you aren't receiving order status, risk, or other notifications=
+.</p>
+<br>
+<p>To help you identify the issue with your callback URL, please review the e=
+rrors we encountered while sending notifications to you. To review this erro=
+r information:</p>
+<ol><li>Sign in to Google Checkout.</li>
+<li>Click on the <b>Tools</b> tab.</li>
+<li>Click <b>Integration Console</b>.</li></ol>
+<p>Error messages will appear under 'Integration Issues.' If necessary, you c=
+an also update your callback URL in the 'API callback URL' box on the same p=
+age.</p>
+<p>For more information about receiving notifications via the notification A=
+PI, visit
+<a href=3D"http://code.google.com/apis/checkout/developer/index.html#notific=
+ation" target=3D"_blank"><a href=3D"http://code.google.com/apis/checkout/dev=
+eloper/index.html#notification">http://code.google.com/apis/checkout/develop=
+er/index.html#notification</a></a>.</p>
+<p></p><div style=3D"padding:2px;border-top:1px solid #3366cc"><center><font=
+ color=3D"#676767" size=3D"-2"><br>
+Need help? Visit the  <a href=3D"https://checkout.google.com/support/sell?hl=
+=3Den_US" target=3D"_blank">Google Checkout help center</a>.
+Please do not reply to this message.
+<br><br>
+=C2=A92011&nbsp;Google</font></center></div><p></p></div><br><br clear=3D"al=
+l"><br>-- <br><span style=3D"font-family:courier new,monospace">David Menach=
+e<br><a href=3D"mailto:dave@doap.com" target=3D"_blank"><a href=3D"mailto:da=
+ve@doap.com">dave@doap.com</a></a><br><a href=3D"mailto:Dave@doap.com" targe=
+t=3D"_blank"><span></span></a><a href=3D"http://doap.com" target=3D"_blank">=
+<a href=3D"http://doap.com">http://doap.com</a></a><br>
+&nbsp;&nbsp; .-.</span><br style=3D"font-family:courier new,monospace"><span=
+ style=3D"font-family:courier new,monospace">&nbsp;&nbsp; : :</span><br styl=
+e=3D"font-family:courier new,monospace"><span style=3D"font-family:courier n=
+ew,monospace">&nbsp;.-' : .--.&nbsp; .--.&nbsp; .---.&nbsp;&nbsp;&nbsp; .--.=
+&nbsp; .--. ,-.,-.,-.</span><br style=3D"font-family:courier new,monospace">=
+
+<span style=3D"font-family:courier new,monospace">' .; :' .; :' .; ; : .; ` _=
+'&nbsp; ..'' .; :: ,. ,. :</span><br style=3D"font-family:courier new,monosp=
+ace"><span style=3D"font-family:courier new,monospace">`.__.'`.__.'`.__,_;: .=
+_.':_;`.__.'`.__.':_;:_;:_;</span><br style=3D"font-family:courier new,monos=
+pace">
+<span style=3D"font-family:courier new,monospace">&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp; : :</span><br style=3D"font-family:courier new,monospace"><span style=
+=3D"font-family:courier new,monospace">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :_;<=
+/span><br><br></div></blockquote></div></div></blockquote></body></html>=
+
+--Apple-Mail-1--958378292--

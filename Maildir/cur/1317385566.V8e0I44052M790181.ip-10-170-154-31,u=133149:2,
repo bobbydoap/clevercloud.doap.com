@@ -1,0 +1,529 @@
+Return-Path: <tech+bncCOKrwsOaDRDd6pb0BBoEwYbR6A@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-vw0-f72.google.com (mail-vw0-f72.google.com [209.85.212.72])
+	by ns1 (Postfix) with ESMTP id 3512C88704;
+	Fri, 30 Sep 2011 05:26:06 -0700 (PDT)
+Received: by vws14 with SMTP id 14sf2680308vws.7
+        for <multiple recipients>; Fri, 30 Sep 2011 05:26:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=vO3s/d/MYRmt+cLf7cY58Ip3KlYYP1ted8OU98sQ1T0=;
+        b=PN69iWuTi0lg2+FfsH+HsN69Kc/HNd2XToiGbdEsOb+6Wu759Gh5Rl7vO18aCYKK3N
+         GElsYXKyHoG8F++DyEGA==
+Received: by 10.100.122.6 with SMTP id u6mr706311anc.22.1317385566002;
+        Fri, 30 Sep 2011 05:26:06 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.101.205.29 with SMTP id h29ls8066060anq.4.gmail; Fri, 30 Sep
+ 2011 05:26:05 -0700 (PDT)
+Received: by 10.101.143.32 with SMTP id v32mr2044279ann.169.1317385565516;
+        Fri, 30 Sep 2011 05:26:05 -0700 (PDT)
+Received: by 10.101.143.32 with SMTP id v32mr2044278ann.169.1317385565483;
+        Fri, 30 Sep 2011 05:26:05 -0700 (PDT)
+Received: from mail-qw0-f71.google.com (mail-qw0-f71.google.com [209.85.216.71])
+        by mx.google.com with ESMTPS id n33si2278947ani.137.2011.09.30.05.26.05
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 30 Sep 2011 05:26:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3V7WFThEKBFI78By95I+zyyx9B8HI08805y.w86nyw1D1y1Fuw.7yD@feedburner.bounces.google.com designates 209.85.216.71 as permitted sender) client-ip=209.85.216.71;
+Received: by qadc14 with SMTP id c14so845438qad.10
+        for <Tech@thehvac.net>; Fri, 30 Sep 2011 05:26:05 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.144.71 with SMTP id a7mt1589491icv.25.1317385559059; Fri,
+ 30 Sep 2011 05:25:59 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <90e6ba6e82d047b31704ae27ba07@google.com>
+Date: Fri, 30 Sep 2011 12:26:05 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3V7WFThEKBFI78By95I+zyyx9B8HI08805y.w86nyw1D1y1Fuw.7yD@feedburner.bounces.google.com
+ designates 209.85.216.71 as permitted sender) smtp.mail=3V7WFThEKBFI78By95I+zyyx9B8HI08805y.w86nyw1D1y1Fuw.7yD@feedburner.bounces.google.com;
+ dkim=pass header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=90e6ba6e82d0a2cdee04ae27ba83
+
+--90e6ba6e82d0a2cdee04ae27ba83
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+
+Amazon Web Services Blog
+
+///////////////////////////////////////////
+Powerful New Features for AWS CloudFormation
+
+Posted: 29 Sep 2011 11:49 PM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/c7dBtFuVr1o/powerful-new-features-for-aws-cloudformation.html?utm_source=feedburner&utm_medium=email
+
+
+
+
+Ive been making a point of telling my live audiences about AWS  
+CloudFormation lately. Many large-scale AWS customers are starting to  
+appreciate the fact that they can describe and instantiate entire  
+application stacks using parameterized templates (see my original  
+CloudFormation blog post for more info), allowing them to create a  
+repeatable process around it.
+
+Today we are adding some powerful new features to CloudFormation to give  
+you additional control over the resource creation process. We have also  
+added some new application bootstrapping features that will give you full  
+control of the configuration of each EC2 instance launched by a template.
+
+Heres what is new:
+
+Template Composition - Your CloudFormation templates can now reference  
+other templates by URL. This looks like a parameterized function call in a  
+procedural programming language (although CloudFormation templates are  
+declarative). You can use this feature to create a series of reusable  
+templates, each with a specific responsibility, such as installing a  
+particular package or setting up an architectural component such as a load  
+balancer or a database.
+
+IAM Integration - Your CloudFormation templates can now specify the  
+creation of IAM (Identity and Access Management) users, groups, and the  
+associated policies. Existing CloudFormation functions provide you with  
+access to attributes of the users, including access keys and secret access  
+keys. Like all other resources created by a CloudFormation template, the  
+users, groups, and policies are associated with the application stack and  
+will be deleted when the stack is deleted, unless you explicitly choose to  
+retain them.
+
+Stack Updating - You can now update a running CloudFormation stack by  
+supplying an updated template. CloudFormation will carefully update the  
+resources in the stack to match the new template. Resources that are  
+unchanged will be left as-is. Resources with changed attributes will be  
+updated "in-place" if possible, and replaced only as a last resort.  
+CloudFormation supports updating of the following resource types:  
+AutoScaling Groups and Launch Configurations, CloudWatch Alarms, EC2  
+Instances, Load Balancers, DB Instances, and Route 53 RecordSets. Read more  
+about stack updating.
+
+Application Bootstrapping - You now have a wide variety of options to  
+bootstrap (install and configure) the applications on each EC2 instance  
+that you launch. You can continue to create "golden images" -- static AMIs  
+that contain the OS and the application, all pre-configured and ready to  
+go. Or, you can choose between any of the following four new options:
+
+Running a shell script at boot time using the CloudInit package from  
+Canonical. The shell script is passed to the instance using EC2s user data  
+facility.
+Encoding configuration meta-data in the CloudFormation template and  
+accessing the metadata using a set of CloudFormation helper scripts running  
+on the instance. You can use the cfn-init script to download and unpack  
+archive fles, install packages, create and populate files, and configure  
+services.
+Configuring the instance using Chef from Opscode. Configuration data  
+(cookbooks) can be supplied locally (Chef Solo), from a Chef server, or  
+from Hosted Chef.To learn more about this option, read our new document,  
+Integrating AWS CloudFormation with Opscode Chef.
+Storing the configuration on a Puppet Master server and then configuring  
+the instance a using Puppet Client from Puppet Labs. To learn more about  
+this option, read our new document, Integrating AWS CloudFormation with  
+Puppet.
+
+
+We have put together a guide to Bootstrapping Applications via AWS  
+CloudFormation. This document outlines all four approaches to application  
+bootstrapping.
+
+You will learn about the pros and cons of each approach to bootstrapping,  
+and you will learn how to implement each one of them.
+
+We have added two new sections to the existing documentation. Check out the  
+Getting Started Walkthrough and learn about the Template Basics. We have  
+also updated the AWS CloudFormation User Guide with new sections on getting  
+started and on learning the basics of using templates.
+
+If you have been statically configuring your instances (or your physical   
+servers), the move to a more dynamic, declarative model is a pretty big   
+change. My advice: Spend your time learning to do this the right way  now,  
+and then benefit from it for years to come! Learning how to set up  servers  
+dynamically is at least as worthwhile as learning a new  programming  
+language or a new text editor!
+
+-- Jeff;
+
+
+
+///////////////////////////////////////////
+Amazon CloudFront & Route 53 - New Edge Location: Brazil
+
+Posted: 29 Sep 2011 11:34 PM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/mRAcuSE0LKs/amazon-cloudfront-new-edge-location-brazil.html?utm_source=feedburner&utm_medium=email
+
+
+
+
+We've just added an edge location in Brazil (number 20 to be precise) to  
+Amazon CloudFront and Amazon Route 53. This is our first edge location in  
+South America.
+
+The new location will speed up references to static and streamed content  
+that are made from locations in South America, and will also accelerate the  
+resolution of DNS queries that originate from within the area.
+
+The CloudFront location in Brazil supports the entire array of CloudFront  
+features including streaming media (both on demand and live), invalidation,  
+custom origins,  Identity & Access Management, request logging, and private  
+content.
+
+
+
+Our customers have put CloudFront to use in a variety of ways. Check out  
+our case studies from the likes of IMDB, PBS, Playfish, Second Life, and  
+Virgin Atlantic to learn more. It is very easy to get started with  
+CloudFront. Once you have done so, your content will be available more  
+quickly, your application will be more responsive, and your users will be  
+happier!
+
+  Now Hiring
+The CloudFront team continues to grow and we have a number of open  
+positions including Account Manager (Herndon, Virginia), Business  
+Development Manager (Luxembourg),  Enterprise Sales Representative (New  
+York), Enterprise Sales Representative (Seattle), Software Development  
+Engineer (Seattle), Senior Systems Engineer (Seattle), Senior Software  
+Development Manager (Seattle), and more.
+
+-- Jeff;
+
+
+
+
+
+--
+You are subscribed to email updates from "Amazon Web Services Blog."
+To stop receiving these emails, you may unsubscribe now:  
+http://feedburner.google.com/fb/a/mailunsubscribe?k=WYlqsHgFmj4AaMxCIo4DpqGJl_Y
+
+Email delivery powered by Google.
+Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+
+--90e6ba6e82d0a2cdee04ae27ba83
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/c7dBt=
+FuVr1o/powerful-new-features-for-aws-cloudformation.html?utm_source=3Dfeedb=
+urner&utm_medium=3Demail">Powerful New Features for AWS CloudFormation</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 29 Sep 2011 11:49 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p><iframe allowtransparency=3D"=
+true" frameborder=3D"0" scrolling=3D"no" src=3D"http://www.facebook.com/plu=
+gins/like.php?app_id=3D132675016822106&amp;href=3Dhttp%3A%2F%2Faws.typepad.=
+com%2Faws%2F2011%2F09%2Fpowerful-new-features-for-aws-cloudformation.html&a=
+mp;send=3Dfalse&amp;layout=3Dbutton_count&amp;width=3D450&amp;show_faces=3D=
+true&amp;action=3Dlike&amp;colorscheme=3Dlight&amp;font=3Darial&amp;height=
+=3D21" style=3D"border: none; overflow: hidden; width: 450px; height: 21px;=
+"></iframe></p>
+<p>I&#39;ve been making a point of telling my live audiences about <a href=
+=3D"http://aws.amazon.com/cloudformation/" target=3D"_self">AWS CloudFormat=
+ion</a> lately. Many large-scale AWS customers are starting to appreciate t=
+he fact that they can describe and instantiate entire application stacks us=
+ing parameterized templates (see my <a href=3D"http://aws.typepad.com/aws/2=
+011/02/cloudformation-create-your-aws-stack-from-a-recipe.html" target=3D"_=
+self">original CloudFormation blog post</a> for more info), allowing them t=
+o create a repeatable process around it.</p>
+<p>Today we are adding some powerful new features to CloudFormation to give=
+ you additional control over the resource creation process. We have also ad=
+ded some new application bootstrapping features that will give you full con=
+trol of the configuration of each EC2 instance launched by a template.</p>
+<p>Here&#39;s what is new:</p>
+<p><strong>Template Composition</strong> - Your CloudFormation templates ca=
+n now reference other templates by URL. This looks like a parameterized fun=
+ction call in a procedural programming language (although CloudFormation te=
+mplates are declarative). You can use this feature to create a series of re=
+usable templates, each with a specific responsibility, such as installing a=
+ particular package or setting up an architectural component such as a load=
+ balancer or a database.</p>
+<p><strong>IAM Integration </strong>- Your CloudFormation templates can now=
+ specify the creation of <a href=3D"http://aws.amazon.com/iam/" target=3D"_=
+self">IAM</a> (Identity and Access Management) users, groups, and the assoc=
+iated policies. Existing CloudFormation functions provide you with access t=
+o attributes of the users, including access keys and secret access keys. Li=
+ke all other resources created by a CloudFormation template, the users, gro=
+ups, and policies are associated with the application stack and will be del=
+eted when the stack is deleted, unless you explicitly choose to retain them=
+.</p>
+<p><strong>Stack Updating</strong> - You can now update a running CloudForm=
+ation stack by supplying an updated template. CloudFormation will carefully=
+ update the resources in the stack to match the new template. Resources tha=
+t are unchanged will be left as-is. Resources with changed attributes will =
+be updated &quot;in-place&quot; if possible, and replaced only as a last re=
+sort. CloudFormation supports updating of the following resource types: Aut=
+oScaling Groups and Launch Configurations, CloudWatch Alarms, EC2 Instances=
+, Load Balancers, DB Instances, and Route 53 RecordSets. <a href=3D"http://=
+docs.amazonwebservices.com/AWSCloudFormation/latest/UserGuide/using-cfn-upd=
+ating-stacks.html" target=3D"_self">Read more about stack updating</a>.</p>
+<p><strong>Application Bootstrapping</strong> - You now have a wide variety=
+ of options to bootstrap (install and configure) the applications on each E=
+C2 instance that you launch. You can continue to create &quot;golden images=
+&quot; -- static AMIs that contain the OS and the application, all pre-conf=
+igured and ready to go. Or, you can choose between any of the following fou=
+r new options:</p>
+<ol>
+<li><a href=3D"https://s3.amazonaws.com/cloudformation-examples/Boostrappin=
+gApplicationsWithAWSCloudFormation.pdf" target=3D"_self"><img alt=3D"" src=
+=3D"http://media.amazonwebservices.com/blog/cloudformation_bootstrapping_1.=
+png" style=3D"float: right; padding-left: 10px; padding-bottom: 10px;" /></=
+a>Running a <strong>shell script</strong> at boot time using the <a href=3D=
+"https://help.ubuntu.com/community/CloudInit" target=3D"_self">CloudInit</a=
+> package from Canonical. The shell script is passed to the instance using =
+EC2&#39;s user data facility.</li>
+<li>Encoding <strong>configuration meta-data</strong> in the CloudFormation=
+ template and accessing the metadata using a set of CloudFormation helper s=
+cripts running on the instance. You can use the <strong>cfn-init script</st=
+rong> to download and unpack archive fles, install packages, create and pop=
+ulate files, and configure services. </li>
+<li>Configuring the instance using <strong>Chef</strong> from <a href=3D"ht=
+tp://www.opscode.com/" target=3D"_self">Opscode</a>. Configuration data (co=
+okbooks) can be supplied locally (<a href=3D"http://wiki.opscode.com/displa=
+y/chef/Chef+Solo" target=3D"_self">Chef Solo</a>), from a Chef server, or f=
+rom <a href=3D"http://www.opscode.com/hosted-chef/" target=3D"_self">Hosted=
+ Chef</a>.To learn more about this option, read our new document, <a href=
+=3D"https://s3.amazonaws.com/cloudformation-examples/IntegratingAWSCloudFor=
+mationWithOpscodeChef.pdf" target=3D"_self">Integrating AWS CloudFormation =
+with Opscode Chef</a>.</li>
+<li>Storing the configuration on a <strong>Puppet Master server</strong> an=
+d then configuring the instance a using Puppet Client from <a href=3D"http:=
+//puppetlabs.com/" target=3D"_self">Puppet Labs</a>. To learn more about th=
+is option, read our new document, <a href=3D"https://s3.amazonaws.com/cloud=
+formation-examples/IntegratingAWSCloudFormationWithPuppet.pdf" target=3D"_s=
+elf">Integrating AWS CloudFormation with Puppet.</a></li>
+</ol>
+<p>We have put together a guide to <a href=3D"https://s3.amazonaws.com/clou=
+dformation-examples/BoostrappingApplicationsWithAWSCloudFormation.pdf" targ=
+et=3D"_self">Bootstrapping Applications via AWS CloudFormation</a>. This do=
+cument outlines all four approaches to application bootstrapping.</p>
+<p>You will learn about the pros and cons of each approach to bootstrapping=
+, and you will learn how to implement each one of them.</p>
+<p>We have added two new sections to the existing documentation. Check out =
+the <a href=3D"http://docs.amazonwebservices.com/AWSCloudFormation/latest/U=
+serGuide/GettingStarted.Walkthrough.html" target=3D"_self">Getting Started =
+Walkthrough</a> and learn about the <a href=3D"http://docs.amazonwebservice=
+s.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html=
+" target=3D"_self">Template Basics</a>. We have also updated the <a href=3D=
+"http://docs.amazonwebservices.com/AWSCloudFormation/latest/UserGuide/">AWS=
+ CloudFormation User Guide</a> with new sections on getting started and on =
+learning the basics of using templates.</p>
+<p>If you have been statically configuring your instances (or your physical=
+  servers), the move to a more dynamic, declarative model is a pretty big  =
+change. My advice: Spend your time learning to do this the right way  now, =
+and then benefit from it for years to come! Learning how to set up  servers=
+ dynamically is at least as worthwhile as learning a new  programming langu=
+age or a new text editor!</p>
+<p>-- Jeff;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3Dc7dBtF=
+uVr1o:66ds3bDOC1c:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3Dc7dBtFuVr1o:66ds3b=
+DOC1c:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3Dc7dBtFuVr1o:66ds3bDOC1c:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/c=
+7dBtFuVr1o?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"2" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/mRAcu=
+SE0LKs/amazon-cloudfront-new-edge-location-brazil.html?utm_source=3Dfeedbur=
+ner&utm_medium=3Demail">Amazon CloudFront &amp; Route 53 - New Edge Locatio=
+n: Brazil</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 29 Sep 2011 11:34 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p><iframe allowtransparency=3D"=
+true" src=3D"http://www.facebook.com/plugins/like.php?app_id=3D132675016822=
+106&amp;href=3Dhttp%3A%2F%2Faws.typepad.com%2Faws%2F2011%2F09%2Famazon-clou=
+dfront-new-edge-location-brazil.html&amp;send=3Dfalse&amp;layout=3Dbutton_c=
+ount&amp;width=3D450&amp;show_faces=3Dtrue&amp;action=3Dlike&amp;colorschem=
+e=3Dlight&amp;font=3Darial&amp;height=3D21" style=3D"border: none; overflow=
+: hidden; width: 450px; height: 21px;" frameborder=3D"0" scrolling=3D"no"><=
+/iframe></p>
+<p>We've just added an edge location in <strong>Brazil</strong> (number 20 =
+to be precise) to <a href=3D"http://aws.amazon.com/cloudfront/" target=3D"_=
+self">Amazon CloudFront</a> and <a href=3D"http://aws.amazon.com/route53/" =
+target=3D"_self">Amazon Route 53</a>. This is our first edge location in So=
+uth America.</p>
+<p>The new location will speed up references to static and streamed content=
+ that are made from locations in South America, and will also accelerate th=
+e resolution of DNS queries that originate from within the area.</p>
+<p>The CloudFront location in Brazil supports the entire array of CloudFron=
+t features including streaming media (both<a href=3D"http://aws.typepad.com=
+/aws/2009/12/amazon-cloudfront-now-supports-streaming-media-content.html" t=
+arget=3D"_self"> on demand</a> and <a href=3D"http://aws.typepad.com/aws/20=
+11/04/live-streaming-with-amazon-cloudfront-and-adobe-flash-media-server.ht=
+ml" target=3D"_self">live</a>), <a href=3D"http://aws.typepad.com/aws/2010/=
+08/new-cloudfront-feature-invalidation.html" target=3D"_self">invalidation<=
+/a>, <a href=3D"http://aws.typepad.com/aws/2010/11/amazon-cloudfront-suppor=
+t-for-custom-origins.html" target=3D"_self">custom origins</a>, <a href=3D"=
+http://aws.typepad.com/aws/2011/03/iam-now-available-for-amazon-cloudfront.=
+html" target=3D"_self"> Identity &amp; Access Management</a>, <a href=3D"ht=
+tp://aws.typepad.com/aws/2009/05/amazon-cloudfront-request-logging.html" ta=
+rget=3D"_self">request logging</a>, and <a href=3D"http://aws.typepad.com/a=
+ws/2009/11/new-amazon-cloudfront-feature-private-content.html" target=3D"_s=
+elf">private content</a>.</p>
+<ul>
+</ul>
+<p>Our customers have put CloudFront to use in a variety of ways. Check out=
+ our case studies from the likes of <a href=3D"http://aws.amazon.com/soluti=
+ons/case-studies/imdb/" target=3D"_self">IMDB</a>, <a href=3D"http://aws.am=
+azon.com/solutions/case-studies/pbs/" target=3D"_self">PBS</a>, <a href=3D"=
+http://aws.amazon.com/solutions/case-studies/playfish/" target=3D"_self">Pl=
+ayfish</a>, <a href=3D"http://aws.amazon.com/solutions/case-studies/linden-=
+lab/" target=3D"_self">Second Life</a>, and <a href=3D"http://aws.amazon.co=
+m/solutions/case-studies/vtravelled/" target=3D"_self">Virgin Atlantic</a> =
+to learn more. It is very easy to get started with CloudFront. Once you hav=
+e done so, your content will be available more quickly, your application wi=
+ll be more responsive, and your users will be happier!</p>
+<p><strong>&nbsp;</strong><span style=3D"text-decoration: underline;"><stro=
+ng>Now Hiring</strong></span><br />The CloudFront team continues to grow an=
+d we have a number of open positions including <a href=3D"https://us-amazon=
+.icims.com/jobs/148764/job?in_iframe=3D1" target=3D"_self">Account Manager<=
+/a> (Herndon, Virginia), <a href=3D"https://uk-amazon.icims.com/jobs/132904=
+/job?in_iframe=3D1" target=3D"_self">Business Development Manager</a> (Luxe=
+mbourg),&nbsp; <a href=3D"https://us-amazon.icims.com/jobs/149120/job?in_if=
+rame=3D1" target=3D"_self">Enterprise Sales Representative</a> (New York), =
+<a href=3D"https://us-amazon.icims.com/jobs/149486/job?in_iframe=3D1" targe=
+t=3D"_self">Enterprise Sales Representative</a> (Seattle), <a href=3D"https=
+://us-amazon.icims.com/jobs/132407/job?in_iframe=3D1" target=3D"_self">Soft=
+ware Development Engineer</a> (Seattle), <a href=3D"https://us-amazon.icims=
+.com/jobs/142396/job?in_iframe=3D1" target=3D"_self">Senior Systems Enginee=
+r</a> (Seattle), <a href=3D"https://us-amazon.icims.com/jobs/108584/job?in_=
+iframe=3D1" target=3D"_self">Senior Software Development Manager</a> (Seatt=
+le), and <a href=3D"http://awsmedia.s3.amazonaws.com/jobs/all_aws_jobs_list=
+.html" target=3D"_self">more</a>.</p>
+<p>-- Jeff;</p>
+<p>&nbsp;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DmRAcuS=
+E0LKs:Xn7uE4Siavg:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DmRAcuSE0LKs:Xn7uE4=
+Siavg:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DmRAcuSE0LKs:Xn7uE4Siavg:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/m=
+RAcuSE0LKs?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--90e6ba6e82d0a2cdee04ae27ba83--

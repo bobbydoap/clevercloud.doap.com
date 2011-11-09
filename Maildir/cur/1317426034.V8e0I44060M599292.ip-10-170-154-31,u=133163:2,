@@ -1,0 +1,30 @@
+Return-Path: <wwwrun@doap.com>
+X-Original-To: tech@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 30)
+	id 8F56A88797; Fri, 30 Sep 2011 16:40:34 -0700 (PDT)
+To: tech@doap.com
+Subject: A new user has registered on nvheathorn.doap.com!
+X-PHP-Originating-Script: 33:class-phpmailer.php
+Date: Fri, 30 Sep 2011 23:40:34 +0000
+From: nvheathorn tech team <tech@doap.com>
+Message-ID: <d05b7a7484786284f29990fdf7766244@purchasingtool.ghvac-dealers.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="UTF-8"
+
+Deploy On Any Platform (doap.com)
+<img src="http://doap.com/images/d5.png">
+<p>
+NOTICE<p>
+A new user has registered on doap.com!
+
+New user ID: dave <p>
+Email: dave@doap.com<P>
+
+Sincerely,<br>
+The Doap support team<br>
+<a href=mailto:support@doap.com>support@doap.com</a>
+

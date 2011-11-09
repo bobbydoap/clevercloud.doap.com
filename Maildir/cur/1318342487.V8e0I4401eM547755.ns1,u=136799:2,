@@ -1,0 +1,209 @@
+Return-Path: <3V0-UTggLBcAjsktginkznkn1gi.tkzhuhh4jugv.ius@calendar-server.bounces.google.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-vw0-f74.google.com (mail-vw0-f74.google.com [209.85.212.74])
+	by ns1 (Postfix) with ESMTP id 427FC88667
+	for <bobby@doap.com>; Tue, 11 Oct 2011 07:14:47 -0700 (PDT)
+Received: by vws12 with SMTP id 12so816833vws.1
+        for <bobby@doap.com>; Tue, 11 Oct 2011 07:14:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :from:to:content-type;
+        bh=9oXTH3GSLT+BDpWrKoORtj4pbWEPF5BOAKm+JyjcNWg=;
+        b=LfIc0D1EuflzJ0/ZDhD4TCJy+Aa2m1lTwPknRR0na89RH2gs5g+fMKLE+A/IaQdm26
+         3XYUkb/cR4pvkZJ5XeKw==
+MIME-Version: 1.0
+Received: by 10.236.78.41 with SMTP id f29mr31692803yhe.2.1318342487388; Tue,
+ 11 Oct 2011 07:14:47 -0700 (PDT)
+Reply-To: David Menache <dmenache@thehvac.net>
+Sender: Google Calendar <calendar-notification@google.com>
+Auto-Submitted: auto-generated
+Message-ID: <20cf300513faa7323e04af0687ec@google.com>
+Date: Tue, 11 Oct 2011 14:14:47 +0000
+Subject: Invitation: Webcast:  Fast & Frugal: Running a Lean Startup with AWS
+ @ Thu Oct 27 8am - 12pm (bobby@doap.com)
+From: David Menache <dmenache@thehvac.net>
+To: "bobby@doap.com" <bobby@doap.com>, "jon@doap.com" <jon@doap.com>, Jon Fleischer <jon@thehvac.net>, 
+	"dave@doap.com" <dave@doap.com>
+Content-Type: multipart/mixed; boundary=20cf300513faa7323404af0687eb
+
+--20cf300513faa7323404af0687eb
+Content-Type: multipart/alternative; boundary=20cf300513faa7322f04af0687e9
+
+--20cf300513faa7322f04af0687e9
+Content-Type: text/plain; charset=windows-1252; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+WW91IGhhdmUgYmVlbiBpbnZpdGVkIHRvIHRoZSBmb2xsb3dpbmcgZXZlbnQuDQoNClRpdGxlOiBX
+ZWJjYXN0OiAgRmFzdCAmIEZydWdhbDogUnVubmluZyBhIExlYW4gU3RhcnR1cCB3aXRoIEFXUw0K
+V2hlbjogVGh1IE9jdCAyNyA4YW0gliAxMnBtIFBhY2lmaWMgVGltZQ0KQ2FsZW5kYXI6IGJvYmJ5
+QGRvYXAuY29tDQpXaG86DQogICAgICogZG1lbmFjaGVAdGhlaHZhYy5uZXQgLSBvcmdhbml6ZXIN
+CiAgICAgKiBqb25AZG9hcC5jb20NCiAgICAgKiBKb24gRmxlaXNjaGVyDQogICAgICogQm9iYnkg
+RGFtZXJ5DQogICAgICogZGF2ZUBkb2FwLmNvbQ0KDQpFdmVudCBkZXRhaWxzOiAgDQpodHRwczov
+L3d3dy5nb29nbGUuY29tL2NhbGVuZGFyL2V2ZW50P2FjdGlvbj1WSUVXJmVpZD1jVzlwY1RRMVpX
+TXhiVEpyY21NNGJtSmlNV2MyZEhFNE1qZ2dZbTlpWW5sQVpHOWhjQzVqYjIwJnRvaz1NakFqWkcx
+bGJtRmphR1ZBZEdobGFIWmhZeTV1WlhReVlUa3pNRGd4TlRaaE1qRTFabU5tTVRobE5UbGxaREF3
+WXpZMk1qWXlOV1ptWWpBNU0yWTMmY3R6PUFtZXJpY2ElMkZMb3NfQW5nZWxlcyZobD1lbg0KDQpJ
+bnZpdGF0aW9uIGZyb20gR29vZ2xlIENhbGVuZGFyOiBodHRwczovL3d3dy5nb29nbGUuY29tL2Nh
+bGVuZGFyLw0KDQpZb3UgYXJlIHJlY2VpdmluZyB0aGlzIGVtYWlsIGF0IHRoZSBhY2NvdW50IGJv
+YmJ5QGRvYXAuY29tIGJlY2F1c2UgeW91IGFyZSAgDQpzdWJzY3JpYmVkIGZvciBpbnZpdGF0aW9u
+cyBvbiBjYWxlbmRhciBib2JieUBkb2FwLmNvbS4NCg0KVG8gc3RvcCByZWNlaXZpbmcgdGhlc2Ug
+bm90aWZpY2F0aW9ucywgcGxlYXNlIGxvZyBpbiB0byAgDQpodHRwczovL3d3dy5nb29nbGUuY29t
+L2NhbGVuZGFyLyBhbmQgY2hhbmdlIHlvdXIgbm90aWZpY2F0aW9uIHNldHRpbmdzIGZvciAgDQp0
+aGlzIGNhbGVuZGFyLg0K
+--20cf300513faa7322f04af0687e9
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<div style=3D""><table cellspacing=3D"0" cellpadding=3D"8" border=3D"0" sum=
+mary=3D"" style=3D"width:100%;font-family:Arial,Sans-serif;border:1px Solid=
+ #ccc;border-width:1px 2px 2px 1px;background-color:#fff;"><tr><td><div sty=
+le=3D"padding:2px"><div style=3D"float:right;font-weight:bold;font-size:13p=
+x"> <a href=3D"https://www.google.com/calendar/event?action=3DVIEW&amp;eid=
+=3DcW9pcTQ1ZWMxbTJrcmM4bmJiMWc2dHE4MjggYm9iYnlAZG9hcC5jb20&amp;tok=3DMjAjZG=
+1lbmFjaGVAdGhlaHZhYy5uZXQyYTkzMDgxNTZhMjE1ZmNmMThlNTllZDAwYzY2MjYyNWZmYjA5M=
+2Y3&amp;ctz=3DAmerica%2FLos_Angeles&amp;hl=3Den" style=3D"color:#20c;white-=
+space:nowrap">more details &raquo;</a><br></div><h3 style=3D"padding:0 0 6p=
+x 0;margin:0;font-family:Arial,Sans-serif;font-size:16px;font-weight:bold;c=
+olor:#222">Webcast:  Fast &amp; Frugal: Running a Lean Startup with AWS</h3=
+><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" summary=3D"Event d=
+etails"><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;=
+font-size:13px;color:#888;white-space:nowrap" valign=3D"top"><div><i style=
+=3D"font-style:normal">When</i></div></td><td style=3D"padding-bottom:10px;=
+font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top">Thu =
+Oct 27 8am =96 12pm <span style=3D"color:#888">Pacific Time</span></td></tr=
+><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-si=
+ze:13px;color:#888;white-space:nowrap" valign=3D"top"><div><i style=3D"font=
+-style:normal">Calendar</i></div></td><td style=3D"padding-bottom:10px;font=
+-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top">bobby@do=
+ap.com</td></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,San=
+s-serif;font-size:13px;color:#888;white-space:nowrap" valign=3D"top"><div><=
+i style=3D"font-style:normal">Who</i></div></td><td style=3D"padding-bottom=
+:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top=
+"><table cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"padding-right=
+:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span style=
+=3D"font-family:Courier New,monospace">&#x2022;</span></td><td style=3D"pad=
+ding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><di=
+v><div style=3D"margin:0 0 0.3em 0">dmenache@thehvac.net<span style=3D"font=
+-size:11px;color:#888"> - organizer</span></div></div></td></tr><tr><td sty=
+le=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:=
+#222"><span style=3D"font-family:Courier New,monospace">&#x2022;</span></td=
+><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13p=
+x;color:#222"><div><div style=3D"margin:0 0 0.3em 0">jon@doap.com</div></di=
+v></td></tr><tr><td style=3D"padding-right:10px;font-family:Arial,Sans-seri=
+f;font-size:13px;color:#222"><span style=3D"font-family:Courier New,monospa=
+ce">&#x2022;</span></td><td style=3D"padding-right:10px;font-family:Arial,S=
+ans-serif;font-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"=
+>Jon Fleischer</div></div></td></tr><tr><td style=3D"padding-right:10px;fon=
+t-family:Arial,Sans-serif;font-size:13px;color:#222"><span style=3D"font-fa=
+mily:Courier New,monospace">&#x2022;</span></td><td style=3D"padding-right:=
+10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div styl=
+e=3D"margin:0 0 0.3em 0">Bobby Damery</div></div></td></tr><tr><td style=3D=
+"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"=
+><span style=3D"font-family:Courier New,monospace">&#x2022;</span></td><td =
+style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;col=
+or:#222"><div><div style=3D"margin:0 0 0.3em 0">dave@doap.com</div></div></=
+td></tr></table></td></tr></table></div><p style=3D"color:#222;font-size:13=
+px;margin:0"><span style=3D"color:#888">Going?&nbsp;&nbsp;&nbsp;</span><wbr=
+><strong><a href=3D"https://www.google.com/calendar/event?action=3DRESPOND&=
+amp;eid=3DcW9pcTQ1ZWMxbTJrcmM4bmJiMWc2dHE4MjggYm9iYnlAZG9hcC5jb20&amp;rst=
+=3D1&amp;tok=3DMjAjZG1lbmFjaGVAdGhlaHZhYy5uZXQyYTkzMDgxNTZhMjE1ZmNmMThlNTll=
+ZDAwYzY2MjYyNWZmYjA5M2Y3&amp;ctz=3DAmerica%2FLos_Angeles&amp;hl=3Den" style=
+=3D"color:#20c;white-space:nowrap">Yes</a><span style=3D"margin:0 0.4em;fon=
+t-weight:normal"> - </span><a href=3D"https://www.google.com/calendar/event=
+?action=3DRESPOND&amp;eid=3DcW9pcTQ1ZWMxbTJrcmM4bmJiMWc2dHE4MjggYm9iYnlAZG9=
+hcC5jb20&amp;rst=3D3&amp;tok=3DMjAjZG1lbmFjaGVAdGhlaHZhYy5uZXQyYTkzMDgxNTZh=
+MjE1ZmNmMThlNTllZDAwYzY2MjYyNWZmYjA5M2Y3&amp;ctz=3DAmerica%2FLos_Angeles&am=
+p;hl=3Den" style=3D"color:#20c;white-space:nowrap">Maybe</a><span style=3D"=
+margin:0 0.4em;font-weight:normal"> - </span><a href=3D"https://www.google.=
+com/calendar/event?action=3DRESPOND&amp;eid=3DcW9pcTQ1ZWMxbTJrcmM4bmJiMWc2d=
+HE4MjggYm9iYnlAZG9hcC5jb20&amp;rst=3D2&amp;tok=3DMjAjZG1lbmFjaGVAdGhlaHZhYy=
+5uZXQyYTkzMDgxNTZhMjE1ZmNmMThlNTllZDAwYzY2MjYyNWZmYjA5M2Y3&amp;ctz=3DAmeric=
+a%2FLos_Angeles&amp;hl=3Den" style=3D"color:#20c;white-space:nowrap">No</a>=
+</strong>&nbsp;&nbsp;&nbsp;&nbsp;<wbr><a href=3D"https://www.google.com/cal=
+endar/event?action=3DVIEW&amp;eid=3DcW9pcTQ1ZWMxbTJrcmM4bmJiMWc2dHE4MjggYm9=
+iYnlAZG9hcC5jb20&amp;tok=3DMjAjZG1lbmFjaGVAdGhlaHZhYy5uZXQyYTkzMDgxNTZhMjE1=
+ZmNmMThlNTllZDAwYzY2MjYyNWZmYjA5M2Y3&amp;ctz=3DAmerica%2FLos_Angeles&amp;hl=
+=3Den" style=3D"color:#20c;white-space:nowrap">more options &raquo;</a></p>=
+</td></tr><tr><td style=3D"background-color:#f6f6f6;color:#888;border-top:1=
+px Solid #ccc;font-family:Arial,Sans-serif;font-size:11px"><p>Invitation fr=
+om <a href=3D"https://www.google.com/calendar/" target=3D"_blank" style=3D"=
+">Google Calendar</a></p><p>You are receiving this email at the account bob=
+by@doap.com because you are subscribed for invitations on calendar bobby@do=
+ap.com.</p><p>To stop receiving these notifications, please log in to https=
+://www.google.com/calendar/ and change your notification settings for this =
+calendar.</p></td></tr></table></div>
+--20cf300513faa7322f04af0687e9
+Content-Type: text/calendar; charset=UTF-8; method=REQUEST
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20111027T150000Z
+DTEND:20111027T190000Z
+DTSTAMP:20111011T141447Z
+ORGANIZER;CN=dmenache@thehvac.net:mailto:dmenache@thehvac.net
+UID:qoiq45ec1m2krc8nbb1g6tq828@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jon@doap.com;X-NUM-GUESTS=0:mailto:jon@doap.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Jon Fleischer;X-NUM-GUESTS=0:mailto:jon@thehvac.net
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Bobby Damery;X-NUM-GUESTS=0:mailto:bobby@doap.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=dmenache@thehvac.net;X-NUM-GUESTS=0:mailto:dmenache@thehvac.net
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=dave@doap.com;X-NUM-GUESTS=0:mailto:dave@doap.com
+CREATED:20111011T141446Z
+DESCRIPTION:View your event at http://www.google.com/calendar/event?action=
+ VIEW&eid=cW9pcTQ1ZWMxbTJrcmM4bmJiMWc2dHE4MjggYm9iYnlAZG9hcC5jb20&tok=MjAjZG
+ 1lbmFjaGVAdGhlaHZhYy5uZXQyYTkzMDgxNTZhMjE1ZmNmMThlNTllZDAwYzY2MjYyNWZmYjA5M
+ 2Y3&ctz=America%2FLos_Angeles&hl=en.
+LAST-MODIFIED:20111011T141447Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Webcast:  Fast & Frugal: Running a Lean Startup with AWS
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+--20cf300513faa7322f04af0687e9--
+--20cf300513faa7323404af0687eb
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VkVWRU5UDQpEVFNUQVJUOjIwMTExMDI3VDE1MDAwMFoNCkRURU5EOjIwMTExMDI3
+VDE5MDAwMFoNCkRUU1RBTVA6MjAxMTEwMTFUMTQxNDQ3Wg0KT1JHQU5JWkVSO0NOPWRtZW5hY2hl
+QHRoZWh2YWMubmV0Om1haWx0bzpkbWVuYWNoZUB0aGVodmFjLm5ldA0KVUlEOnFvaXE0NWVjMW0y
+a3JjOG5iYjFnNnRxODI4QGdvb2dsZS5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JP
+TEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049
+am9uQGRvYXAuY29tO1gtTlVNLUdVRVNUUz0wOm1haWx0bzpqb25AZG9hcC5jb20NCkFUVEVOREVF
+O0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFD
+VElPTjtSU1ZQPQ0KIFRSVUU7Q049Sm9uIEZsZWlzY2hlcjtYLU5VTS1HVUVTVFM9MDptYWlsdG86
+am9uQHRoZWh2YWMubmV0DQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJU
+SUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPUJvYmJ5IERhbWVy
+eTtYLU5VTS1HVUVTVFM9MDptYWlsdG86Ym9iYnlAZG9hcC5jb20NCkFUVEVOREVFO0NVVFlQRT1J
+TkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPUFDQ0VQVEVEO1JTVlA9VFJV
+RQ0KIDtDTj1kbWVuYWNoZUB0aGVodmFjLm5ldDtYLU5VTS1HVUVTVFM9MDptYWlsdG86ZG1lbmFj
+aGVAdGhlaHZhYy5uZXQNCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJ
+Q0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049ZGF2ZUBkb2FwLmNv
+bTtYLU5VTS1HVUVTVFM9MDptYWlsdG86ZGF2ZUBkb2FwLmNvbQ0KQ1JFQVRFRDoyMDExMTAxMVQx
+NDE0NDZaDQpERVNDUklQVElPTjpWaWV3IHlvdXIgZXZlbnQgYXQgaHR0cDovL3d3dy5nb29nbGUu
+Y29tL2NhbGVuZGFyL2V2ZW50P2FjdGlvbj0NCiBWSUVXJmVpZD1jVzlwY1RRMVpXTXhiVEpyY21N
+NGJtSmlNV2MyZEhFNE1qZ2dZbTlpWW5sQVpHOWhjQzVqYjIwJnRvaz1NakFqWkcNCiAxbGJtRmph
+R1ZBZEdobGFIWmhZeTV1WlhReVlUa3pNRGd4TlRaaE1qRTFabU5tTVRobE5UbGxaREF3WXpZMk1q
+WXlOV1ptWWpBNU0NCiAyWTMmY3R6PUFtZXJpY2ElMkZMb3NfQW5nZWxlcyZobD1lbi4NCkxBU1Qt
+TU9ESUZJRUQ6MjAxMTEwMTFUMTQxNDQ3Wg0KTE9DQVRJT046DQpTRVFVRU5DRTowDQpTVEFUVVM6
+Q09ORklSTUVEDQpTVU1NQVJZOldlYmNhc3Q6ICBGYXN0ICYgRnJ1Z2FsOiBSdW5uaW5nIGEgTGVh
+biBTdGFydHVwIHdpdGggQVdTDQpUUkFOU1A6T1BBUVVFDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVO
+REFSDQo=
+--20cf300513faa7323404af0687eb--

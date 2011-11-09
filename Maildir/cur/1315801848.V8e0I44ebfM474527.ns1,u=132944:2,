@@ -1,0 +1,77 @@
+Return-Path: <dave@doap.com>
+X-Original-To: tech@doap.com
+Delivered-To: bobby@doap.com
+Received: from [192.168.137.12] (unknown [190.181.160.105])
+	(Authenticated sender: dave)
+	by ns1 (Postfix) with ESMTPA id DA7358860D
+	for <tech@doap.com>; Sun, 11 Sep 2011 21:30:47 -0700 (PDT)
+Subject: NIC 12
+From: David Menache <dave@doap.com>
+Content-Type: multipart/alternative; boundary=Apple-Mail-3-340999121
+Message-Id: <959D7AFA-1874-490B-88E4-7F6E81C99615@doap.com>
+Date: Sun, 11 Sep 2011 22:52:11 -0600
+To: Doap Tech Team <tech@doap.com>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (iPad Mail 8C148)
+X-Mailer: iPad Mail (8C148)
+
+
+--Apple-Mail-3-340999121
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+NIC 12
+
+As determined by iPad geolookup
+
+
+
+
+David Menache
+dave@doap.com
+Skype:dmenache
+805-426-5216
+
+
+--Apple-Mail-3-340999121
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/mixed;
+	boundary=Apple-Mail-4-340999123
+
+
+--Apple-Mail-4-340999123
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html;
+	charset=utf-8
+
+<html><body bgcolor="#FFFFFF"><div><a href="http://maps.google.com/maps?f=q&amp;q=12.105402,-86.320697%20%28NIC%2012,%20Managua,%20Nicaragua%29">NIC 12</a></div><div></div><div><br></div><div>As determined by iPad geolookup<br><br></div></body></html>
+--Apple-Mail-4-340999123
+Content-Disposition: attachment;
+	filename="Current Location.vcf"
+Content-Type: text/x-vcard;
+	name="Current Location.vcf"
+Content-Transfer-Encoding: quoted-printable
+
+BEGIN:VCARD=0D
+VERSION:3.0=0D
+N:;;;;=0D
+FN:Current Location=0D
+ORG:Current Location;=0D
+item1.ADR;type=3DHOME;type=3Dpref:;;NIC 12;Managua;Managua;;Nicaragua=0D
+item1.X-ABADR:ni=0D
+item2.URL;type=3Dpref:http\://maps.google.com/maps?f=3Dq&q=3D12.105402\,-86.=
+320697%20%28NIC%2012\,%20Managua\,%20Nicaragua%29=0D
+item2.X-ABLabel:map url=0D
+X-ABShowAs:COMPANY=0D
+END:VCARD=0D
+
+--Apple-Mail-4-340999123
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html;
+	charset=utf-8
+
+<html><body bgcolor="#FFFFFF"><div></div><div><br><br><div><div>David Menache</div><div><a href="mailto:dave@doap.com">dave@doap.com</a></div><div>Skype:dmenache</div><div>805-426-5216</div><div><div><br></div></div></div></div></body></html>
+--Apple-Mail-4-340999123--
+
+--Apple-Mail-3-340999121--

@@ -1,0 +1,46 @@
+Return-Path: <dave@myworldtransfers.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-iy0-f182.google.com (mail-iy0-f182.google.com [209.85.210.182])
+	by ns1 (Postfix) with ESMTP id CCA1888692
+	for <support@doap.com>; Fri, 14 Oct 2011 04:40:03 -0700 (PDT)
+Received: by iaky10 with SMTP id y10so3286156iak.13
+        for <support@doap.com>; Fri, 14 Oct 2011 04:40:04 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.43.52.136 with SMTP id vm8mr15745795icb.26.1318592404079; Fri,
+ 14 Oct 2011 04:40:04 -0700 (PDT)
+Sender: dave@myworldtransfers.com
+Received: by 10.42.239.73 with HTTP; Fri, 14 Oct 2011 04:40:04 -0700 (PDT)
+Date: Fri, 14 Oct 2011 05:40:04 -0600
+X-Google-Sender-Auth: kQrKIYCYC3RLjO0Fk-q1k4-zbd4
+Message-ID: <CAJPeNG2Y6zhrAJf9Gg4jzBvp6+=m90d4zuT0r=mjBToKauJL3w@mail.gmail.com>
+Subject: =?ISO-8859-1?Q?dns=2Dmanager_=BB_doap=2Ecom?=
+From: David Menache <dave@doap.com>
+To: Doap Support Team <support@doap.com>
+Content-Type: multipart/alternative; boundary=bcaec529a051d944ca04af40b714
+
+--bcaec529a051d944ca04af40b714
+Content-Type: text/plain; charset=ISO-8859-1
+
+http://www.doap.com/dns-manager/
+
+I've implemented an entirely new distributed dns service for doap.com   Name
+services cost $2/mo per name.
+
+Let me know if you notice speed differeneces with stuff...
+
+thanks
+dave
+
+--bcaec529a051d944ca04af40b714
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<a href=3D"http://www.doap.com/dns-manager/">http://www.doap.com/dns-manage=
+r/</a><div><br></div><div>I&#39;ve implemented an entirely new distributed =
+dns service for <a href=3D"http://doap.com">doap.com</a> =A0 Name services =
+cost $2/mo per name. =A0</div>
+<div><br></div><div>Let me know if you notice speed differeneces with stuff=
+...</div><div><br></div><div>thanks</div><div>dave</div>
+
+--bcaec529a051d944ca04af40b714--

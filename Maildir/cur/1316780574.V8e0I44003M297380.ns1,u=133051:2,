@@ -1,0 +1,427 @@
+Return-Path: <tech+bncCOKrwsOaDRCd9PHzBBoEFhIMAg@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yi0-f72.google.com (mail-yi0-f72.google.com [209.85.218.72])
+	by ns1 (Postfix) with ESMTP id CAD5688708;
+	Fri, 23 Sep 2011 05:22:53 -0700 (PDT)
+Received: by yih13 with SMTP id 13sf5278897yih.7
+        for <multiple recipients>; Fri, 23 Sep 2011 05:22:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=Sl3UP5ffMcLR3WqlzcOqiAyNUM3iClimPp3BzTmKzQ4=;
+        b=ZPpiknu6sOj7xKIcTzY/UsusdxYmH4MqVlnIRn97941kgTn7YIuabU4xWxQxvixjge
+         oTyL6D+q8C4AOnYVrLbA==
+Received: by 10.42.134.7 with SMTP id j7mr247171ict.18.1316780573655;
+        Fri, 23 Sep 2011 05:22:53 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.231.19.197 with SMTP id c5ls916715ibb.0.gmail; Fri, 23 Sep
+ 2011 05:22:53 -0700 (PDT)
+Received: by 10.43.133.133 with SMTP id hy5mr4146403icc.82.1316780573097;
+        Fri, 23 Sep 2011 05:22:53 -0700 (PDT)
+Received: by 10.43.133.133 with SMTP id hy5mr4146401icc.82.1316780573073;
+        Fri, 23 Sep 2011 05:22:53 -0700 (PDT)
+Received: from mail-iy0-f199.google.com (mail-iy0-f199.google.com [209.85.210.199])
+        by mx.google.com with ESMTPS id ee1si5721435icb.4.2011.09.23.05.22.53
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 23 Sep 2011 05:22:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3Fnp8ThEKBHUghkXier+YXXWikhqrZhhZeX.VhfMXVamaXaoTV.gXm@feedburner.bounces.google.com designates 209.85.210.199 as permitted sender) client-ip=209.85.210.199;
+Received: by iaen33 with SMTP id n33so5372758iae.10
+        for <Tech@thehvac.net>; Fri, 23 Sep 2011 05:22:52 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.153.8 with SMTP id k8mt3267442icw.22.1316780566859; Fri, 23
+ Sep 2011 05:22:46 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <90e6ba613690ef5d9704ad9add9d@google.com>
+Date: Fri, 23 Sep 2011 12:22:52 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3Fnp8ThEKBHUghkXier+YXXWikhqrZhhZeX.VhfMXVamaXaoTV.gXm@feedburner.bounces.google.com
+ designates 209.85.210.199 as permitted sender) smtp.mail=3Fnp8ThEKBHUghkXier+YXXWikhqrZhhZeX.VhfMXVamaXaoTV.gXm@feedburner.bounces.google.com;
+ dkim=pass header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=90e6ba6136904bb75b04ad9ade4b
+
+--90e6ba6136904bb75b04ad9ade4b
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+QW1hem9uIFdlYiBTZXJ2aWNlcyBCbG9nDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8NCkZhY2Vib29rIERldmVsb3BlciBVcGRhdGU6IE1lZXQgUm9vdE11c2lj
+LCBGdW56aW8sIGFuZCA1MEN1YmVzDQoNClBvc3RlZDogMjIgU2VwIDIwMTEgMDg6MjYgQU0gUERU
+DQpodHRwOi8vZmVlZHByb3h5Lmdvb2dsZS5jb20vfnIvQW1hem9uV2ViU2VydmljZXNCbG9nL34z
+L1RGSGJQYUNuMVNvL2ZhY2Vib29rLWRldmVsb3Blci11cGRhdGUuaHRtbD91dG1fc291cmNlPWZl
+ZWRidXJuZXImdXRtX21lZGl1bT1lbWFpbA0KDQoNCg0KDQpJbiBob25vciBvZiB0b2RheXMgRmFj
+ZWJvb2sgRGV2ZWxvcGVyIENvbmZlcmVuY2UsIElkIGxpa2UgdG8gcmVjb2duaXplIHRoZSAgDQpz
+dWNjZXNzIG9mIG91ciBleGlzdGluZyBGYWNlYm9vayBhcHAgZGV2ZWxvcGVycyBhbmQgaW52aXRl
+IGV2ZW4gbW9yZSAgDQpkZXZlbG9wZXJzIHRvIGtpY2stc3RhcnQgdGhlaXIgbmV4dCBGYWNlYm9v
+ayBhcHAgcHJvamVjdCB3aXRoIEFtYXpvbiBXZWIgIA0KU2VydmljZXMuDQoNClF1aWNrIE51bWJl
+cnMNCiAgV2UgY3J1bmNoZWQgc29tZSBudW1iZXJzIGFuZCBmb3VuZCBvdXQgdGhhdCA3MCUgb2Yg
+dGhlIDUwIG1vc3QgcG9wdWxhciAgDQpGYWNlYm9vayBhcHBzIGxldmVyYWdlIG9uZSBvciBtb3Jl
+IEFXUyBzZXJ2aWNlcy4gTWFueSBvZiB0aGVpciBkZXZlbG9wZXJzICANCnJlbHkgb24gQVdTIHRv
+IHByb3ZpZGUgdGhlbSB3aXRoIGNvbXB1dGUsIG5ldHdvcmssIHN0b3JhZ2UsIGRhdGFiYXNlIGFu
+ZCAgDQptZXNzYWdpbmcgc2VydmljZXMgb24gYSBwYXktYXMteW91LWdvIGJhc2lzLiBJbiBhZGRp
+dGlvbiB0byBaeW5nYeKAmXMgcG9wdWxhciAgDQpGYXJtVmlsbGUgYW5kIENhZmVXb3JsZCwgb3Ig
+Z2FtZXMgZnJvbSBQbGF5ZmlzaCBhbmQgV29vZ2EsIG1hbnkgb2YgdGhlIG1vc3QgIA0KZXhjaXRp
+bmcgYW5kIHBvcHVsYXIgRmFjZWJvb2sgYXBwcyBhcmUgYWxzbyBydW5uaW5nIG9uIEFXUy4NCg0K
+SGVyZSBhcmUgYSBmZXcgZXhhbXBsZXM6DQoNCiAgIFJvb3RNdXNpY3MgQmFuZFBhZ2UgYXBwIChj
+dXJyZW50bHkgdGhlICMxIE11c2ljIEFwcCBvbiBGYWNlYm9vaywgYW5kICM4ICANCm92ZXJhbGwg
+YXBwIG9uIEZhY2Vib29rKSBoZWxwcyBiYW5kcyBhbmQgbXVzaWNpYW5zIGJ1aWxkIGZhbiBwYWdl
+cyB0aGF0ICANCndpbGwgYXR0cmFjdCBhbmQgaG9sZCB0aGUgaW50ZXJlc3Qgb2YgYW4gYXVkaWVu
+Y2UuIFJvb3RNdXNpYyBlbmFibGVzICANCmFydGlzdHMgdG8gdGFwIGludG8gdGhlIHBhc3Npb24g
+dGhlaXIgZmFucyBmZWVsIGZvciB0aGVpciBhcnQgYW5kIGtlZXAgdGhlbSAgDQplbmdhZ2VkIHdp
+dGggYW4gaW50ZXJhY3RpdmUgZXhwZXJpZW5jZS4gTW9yZSB0aGFuIDI1MCwwMDAgYmFuZHMgb2Yg
+YWxsICANCnNoYXBlcyBhbmQgc2l6ZXMsIGZyb20gUmloYW5uYSBhbmQgQXJjdGljIE1vbmtleXMs
+IHRvIGJhbmRzIHlvdSBoYXZlbnQgIA0KaGVhcmQgb2YgeWV0IGJ1dCBtYXkgc29vbiBkaXNjb3Zl
+ciwgaGF2ZSBhbHJlYWR5IG1hZGUgUm9vdE11c2lj4oCZcyBCYW5kUGFnZSAgDQp0aGVpciBjZW50
+cmFsIG9ubGluZSBzcGFjZSBmb3IgY29ubmVjdGluZyB3aXRoIHRoZWlyIGZhbnMuIEFydGlzdHMg
+dXNlIGl0ICANCnRvIHNoYXJlIG11c2ljLCByZWxlYXNlIHNwZWNpYWwgZWRpdGlvbiBzb25ncy9h
+bGJ1bXMgaGVyZSwgc2hhcmUgcGhvdG9zLCAgDQphbmQgbGlzdCBldmVudHMvc2hvd3MuIEJhbmRQ
+YWdlIG5vdyBzdXBwb3J0cyAzMCBtaWxsaW9uIG1vbnRobHkgYWN0aXZlICANCnVzZXJzIGZyb20g
+YWxsIG92ZXIgdGhlIHdvcmxkLiBCZWhpbmQgYWxsIHRoZSBjYXBhYmlsaXRpZXMgdGhhdCBpZ25p
+dGUgIA0KQmFuZFBhZ2XigJlzIG11c2ljIGZhbiBjb21tdW5pdGllcyBsaWVzIGEgd2VsbC10aG91
+Z2h0IG91dCwgIA0KaGlnaGx5LWRpc3RyaWJ1dGVkIGFuZCBoaWdobHktc2NhbGFibGUgYmFja2Vu
+ZCwgcG93ZXJlZCBieSBBbWF6b24gV2ViICANClNlcnZpY2VzOg0KIkluIDIwIHNlY29uZHMsIHdl
+IGNhbiBkb3VibGUgb3VyIHNlcnZlciBjYXBhY2l0eS4gSW4gYSBoaWdoLWdyb3d0aCAgDQplbnZp
+cm9ubWVudCBsaWtlIG91cnMsIGl0cyB2ZXJ5IGltcG9ydGFudCBmb3IgdXMgdG8gdHJ1c3QgdGhh
+dCB3ZSBoYXZlIHRoZSAgDQpiZXN0IHN1cHBvcnQgdG8gZ2l2ZSB0byB0aGUgbXVzaWMgY29tbXVu
+aXR5IGFyb3VuZCB0aGUgd29ybGQuIEZpdmUgeWVhcnMgIA0KYWdvLCB3ZSB3b3VsZCBoYXZlIGNy
+YXNoZWQgYW5kIGJlZW4gZG93biB3aXRob3V0IGtub3dpbmcgd2hlbiB3ZSB3b3VsZCBiZSAgDQpi
+YWNrLiBOb3csIGJlY2F1c2Ugb2YgQW1hem9u4oCZcyBjb250aW51ZWQgaW5ub3ZhdGlvbiwgd2Ug
+Y2FuIHByb3ZpZGUgdGhlICANCmJlc3QgdGVjaG5vbG9neSBhbmQgc2NhbGUgdG8gc2VydmUgbXVz
+aWMgY29tbXVuaXRpZXMgbmVlZHMgYXJvdW5kIHRoZSAgDQp3b3JsZCzigJ0gQ2hyaXN0b3BoZXIg
+VGhvbGVuLCBSb290TXVzaWMgQ1RPLg0KDQoNCg0KDQogICBGdW56aW9zIENyaW1lIENpdHkgaXMg
+IzcgaW4gdGhlIHRvcCAxMCBGYWNlYm9vayBhcHBzLCBhbmQgaXTigJlzIHRoZSAgDQpoaWdoZXN0
+IHJhdGVkIEZhY2Vib29rIGdhbWUgdG8gcmVhY2ggMSBtaWxsaW9uIGRhaWx5IHVzZXJzIHdpdGgg
+YW4gYXZlcmFnZSAgDQp1c2VyIHJhdGluZyBvZiA0Ljkgb3V0IG9mIDUuIENyaW1lIENpdHkgY3Vy
+cmVudGx5IGhhcyA1LjUgbWlsbGlvbiBtb250aGx5ICANCmFjdGl2ZSB1c2Vycywgd2l0aCAxMCBt
+aWxsaW9uIG1vbnRobHkgYWN0aXZlIHVzZXJzIGF0IGl0cyBwZWFrLiBUaGUgaVBob25lICANCnZl
+cnNpb24gd2FzIHJlY2VudGx5IGxpc3RlZCBhbW9uZyB0aGUgdG9wIDUgZ2FtZXMgaW4gdGhlIEFw
+cGxlIEFwcHN0b3JlIGFuZCAgDQojMSBmcmVlIGdhbWUgaW4gMTEgY291bnRyaWVzIGFuZCBjb3Vu
+dGluZy4gQ3JpbWUgQ2l0eSBzcG9ydHMgbW9kZXJuLCAgDQozRC1saWtlIGdyYXBoaWNzIHRoYXQg
+bG9vayBncmVhdCBvbiBib3RoIEZhY2Vib29rIGFuZCBpUGhvbmUsIGFuZCBoYXMgYSAgDQpjb2xs
+ZWN0aW9uIG9mIGh1bmRyZWRzIG9mIHZpcnR1YWwgaXRlbXMgdGhhdCBwbGF5ZXJzIGNhbiBjb2xs
+ZWN0Lg0KDQpQb3dlcmluZyB0aGlzIGluY3JlZGlibHkgcmljaCB1c2VyIGV4cGVyaWVuY2UgYWNy
+b3NzIG11bHRpcGxlIHBsYXRmb3JtcyBpcyAgDQp0aGVpciBidXNpbmVzcyBhY3VtZW4gaW4gcHJv
+bW90aW5nIHRoZSBhcHAsIGFzIHdlbGwgYXMgYSBzdHJvbmcgYmFja2VuZCAgDQp0aGF0IGxldmVy
+YWdlcyBtYW55IEFXUyBwcm9kdWN0cyB0byBzZXJ2ZSB0aGVpciB2aXJhbCBhbmQgaGlnaGx5IGFj
+dGl2ZSAgDQp1c2VyIGJhc2UuIEZ1bnppbyB1c2VzIEFtYXpvbiBFQzIgdG8gcXVpY2tseSBzY2Fs
+ZSB1cCBhbmQgZG93biBiYXNlZCBvbiAgDQpkZW1hbmQsIEFtYXpvbiBSRFMgdG8gc3RvcmUgZ2Ft
+ZSBhbmQgY3VycmVudCBzdGF0ZSBpbmZvcm1hdGlvbi4gVGhleSB1c2UgIA0KQW1hem9uIENsb3Vk
+RnJvbnQgdG8gb3B0aW1pemUgdGhlIGRlbGl2ZXJ5IHRvIGEgZ2xvYmFsLCB3aWRlbHktZGlzdHJp
+YnV0ZWQgIA0KYXVkaWVuY2UgYW5kIHRvIG1lZXQgRmFjZWJvb2tzU1NMIGNlcnRpZmljYXRlIHJl
+cXVpcmVtZW50cy4NCiJBdCBGdW56aW8sIHdlIHVzZSBBV1MgZXhjbHVzaXZlbHkgdG8gaG9zdCB0
+aGUgaW5mcmFzdHJ1Y3R1cmUgZm9yIG91ciAgDQpnYW1lcy4gIFdoZW4gZGV2ZWxvcGluZyBzb2Np
+YWwgZ2FtZXMsIHlvdSBuZWVkIHRvIGJlIHJlYWR5IGZvciB0aGF0IHRyYWZmaWMgIA0KYnVyc3Qg
+Zm9yIGEgaGl0IGdhbWUgaW4gYSBtb21lbnRzIG5vdGljZS4gIEFXUyBwcm92aWRlcyB1cyB3aXRo
+IHRoZSAgDQpmbGV4aWJpbGl0eSB0byBxdWlja2x5IGFuZCBlZmZpY2llbnRseSBzY2FsZSBvdXIg
+YXBwbGljYXRpb25zIGF0IGFsbCAgDQpsYXllcnMsIGZyb20gaW5jcmVhc2luZyBkYXRhYmFzZSBj
+YXBhY2l0eSBpbiBSRFMsIHRvIGFkZGluZyBtb3JlICANCmFwcGxpY2F0aW9uIG9yIGNhY2hpbmcg
+c2VydmVycyB3aXRoaW4gbWludXRlcyBpbiBFQzIuICBBbWF6b25zIGNsb3VkICANCnNlcnZpY2Vz
+IGFsbG93IHVzIHRvIGZvY3VzIG91ciBlZmZvcnRzIG9uIGRldmVsb3BpbmcgcXVhbGl0eSBnYW1l
+cyBhbmQgbm90ICANCm9uIHdvcnJ5aW5nIGFib3V0IG1hbmFnaW5nIG91ciB0ZWNobm9sb2d5IG9w
+ZXJhdGlvbnMu4oCdIC0gUmFtIEd1ZGF2YWxsaSwgIA0KRnVuemlvIENUTy4NCg0KDQoNCg0KICAg
+NTBDdWJlcywgdGhlIGNyZWF0b3Igb2YgTWFsbCBXb3JsZCwgaXMgYSBzdGFydHVwIHRoYXQgaGFz
+IGRldmVsb3BlZCBvbmUgIA0Kb2YgdGhlIG1vc3QgaGlnaGx5LXJlZ2FyZGVkIGFuZCBsb25nZXIt
+cnVubmluZyBzdWNjZXNzZnVsIGZlbWFsZSBmb2N1c2VkICANCnNvY2lhbCBnYW1lIG9uIEZhY2Vi
+b29rLiBXaXRoIG92ZXIgNSBtaWxsaW9uIG1vbnRobHkgYWN0aXZlIHVzZXJzLCBNYWxsICANCldv
+cmxkIGhhcyBhIHRyYWNrIHJlY29yZCBvZiBiZWluZyBub3Qgb25seSBvbmUgb2YgdGhlIGZpcnN0
+IGJ1dCBhbHNvIHRoZSAgDQp0b3AgZ2FtZSBvZiBpdHMga2luZCBmb3IgdGhlIHBhc3QgMS41IHll
+YXJzIGFuZCBjb250aW51ZXMgdG8gZW50aWNlIHVzZXJzICANCndvcmxkLXdpZGUuDQoNCjUwQ3Vi
+ZXMgcG93ZXJzIE1hbGwgV29ybGQgYW5kIG90aGVyIGdhbWVzIHRoZXkgZGV2ZWxvcGVkIHdpdGgg
+YSBzdWl0ZSBvZiAgDQpBV1MgcHJvZHVjdHMuIE91dCBvZiB0aGVzZSwgdGhleSB2YWx1ZSB0aGUg
+QW1hem9uIEF1dG8tc2NhbGluZyBhbmQgRUJTICANCmZlYXR1cmVzIHRoZSBtb3N0IOKAkyB0aGVz
+ZSBwcm9kdWN0cyBoZWxwcyB0aGVtIGVmZm9ydGxlc3NseSBzY2FsZSB1cCBhbmQgIA0KZG93biB0
+aGVpciBleGNsdXNpdmUgdXNlIG9mIEFtYXpvbiBFQzIgaW5zdGFuY2VzIHdpdGggdXNlciBkZW1h
+bmQuIFRoZWlyICANCmRhdGFiYXNlIGNsdXN0ZXJzIGFyZSBhIG1peCBvZiBNeVNRTCBhbmQgb3Ro
+ZXIga2V5IHZhbHVlIHN0b3JhZ2UgZGF0YWJhc2VzLCAgDQphbGwgaG9zdGVkIGFuZCBtYW5hZ2Vk
+IGJ5IHRoZSB0ZWFtIG9uIEFtYXpvbiBFQzIgdXNpbmcgRUJTIGZvciBDbG91ZCAgDQpTdG9yYWdl
+Lg0KIk9uZSB0aGluZyB0aGF0IGltcHJlc3NlcyBtZSB0aGUgbW9zdCBhYm91dCBBV1Mgc2Vydmlj
+ZXMgaXMgdGhhdCB0aGV5IGhhdmUgIA0KcmFwaWRseSBpdGVyYXRlZCBhbmQgaW1wcm92ZWQgdGhl
+aXIgcHJvZHVjdHMgYW5kIHNlcnZpY2VzIG92ZXIgdGhlIHBhc3QgIA0KeWVhciBhbmQgaGFsZiwg
+ZXhlY3V0aW5nIGFsbW9zdCBsaWtlIGEgc3RhcnR1cCBvZiBvdXIgc2NhbGUuIiAtIEZyZWQgSmlu
+LCAgDQo1MGN1YmVzIENUTy4NCg0KR2V0IFN0YXJ0ZWQ6IFlvdXIgRmFjZWJvb2sgQXBwLCBQb3dl
+cmVkIGJ5IEFXUw0KICBEb3VnIFB1cmR5LCBEaXJlY3RvciBvZiBEZXZlbG9wZXIgUmVsYXRpb25z
+IGF0IEZhY2Vib29rLCBzYWlkOg0K4oCcQVdTIGlzIGdyZWF0IGZvciBGYWNlYm9vayBkZXZlbG9w
+ZXJzIOKAkyB5b3UgY2FuIHN0YXJ0IHNtYWxsLCB0ZXN0IGFuZCBwcm92ZSAgDQp5b3VyIGlkZWFz
+LiBBcyB5b3VyIGFwcCBncm93cywgeW91IGNhbiBlYXNpbHkgc2NhbGUgdXAgeW91ciByZXNvdXJj
+ZXMgdG8gIA0Ka2VlcCB5b3VyIHVzZXJzIGVuZ2FnZWQgYW5kIGNvbm5lY3RlZC4gQVdTIGFsbG93
+cyBkZXZlbG9wZXJzIHRvIGJ1aWxkICANCmhpZ2hseS1hdmFpbGFibGUsIGhpZ2hseS1zY2FsYWJs
+ZSwgY29zdC1lZmZpY2llbnQgYXBwcyB0aGF0IHByb3ZpZGUgdGhlICANCnR5cGUgb2YgcmljaCBh
+bmQgcmVzcG9uc2l2ZSB1c2VyIGV4cGVyaWVuY2VzIHRoYXQgb3VyIGdsb2JhbCBhdWRpZW5jZSBo
+YXMgIA0KZ3Jvd24gdG8gZXhwZWN0LuKAnQ0KDQpUbyBtYWtlIGl0IGFzIGVhc3kgYXMgcG9zc2li
+bGUgZm9yIHlvdSB0byBnZXQgc3RhcnRlZCwgd2V2ZSB1cGRhdGVkIG91ciAgDQpCdWlsZGluZyBG
+YWNlYm9vayBBcHBzIG9uIEFXUyBwYWdlLiBXZSBoYXZlIGFsc28gaW1wcm92ZWQgYW5kIHJlZnJl
+c2hlZCBvdXIgIA0KRmFjZWJvb2sgQXBwIEFNSS4gVGhlIG5ldyBBTUkgdXNlcyBBV1MgQ2xvdWRG
+b3JtYXRpb24gdG8gaW5zdGFsbCB0aGUgbGF0ZXN0ICANCnZlcnNpb25zIG9mIHRoZSBGYWNlYm9v
+ayBQSFAgU0RLIGFuZCB0aGUgQVdTIFNESyBmb3IgUEhQIGF0IHN0YXJ0dXAgdGltZS5JZiAgDQp5
+b3Ugd2FudCB0byBsZWFybiBtb3JlIGFib3V0IGRldmVsb3BpbmcgQVdTIGFwcGxpY2F0aW9ucyBp
+biBQSFAsIGZlZWwgZnJlZSAgDQp0byBjaGVjayBvdXQgdGhlIGZyZWUgY2hhcHRlcnMgb2YgbXkg
+QVdTIHByb2dyYW1taW5nIGJvb2sgKG9yIGJ1eSBhICANCmNvbXBsZXRlIGNvcHkpLg0KDQotLSBK
+ZWZmOw0KDQoNCg0KLS0NCllvdSBhcmUgc3Vic2NyaWJlZCB0byBlbWFpbCB1cGRhdGVzIGZyb20g
+IkFtYXpvbiBXZWIgU2VydmljZXMgQmxvZy4iDQpUbyBzdG9wIHJlY2VpdmluZyB0aGVzZSBlbWFp
+bHMsIHlvdSBtYXkgdW5zdWJzY3JpYmUgbm93OiAgDQpodHRwOi8vZmVlZGJ1cm5lci5nb29nbGUu
+Y29tL2ZiL2EvbWFpbHVuc3Vic2NyaWJlP2s9V1lscXNIZ0ZtajRBYU14Q0lvNERwcUdKbF9ZDQoN
+CkVtYWlsIGRlbGl2ZXJ5IHBvd2VyZWQgYnkgR29vZ2xlLg0KR29vZ2xlIEluYy4sIDIwIFdlc3Qg
+S2luemllLCBDaGljYWdvIElMIFVTQSA2MDYxMA0KDQo=
+--90e6ba6136904bb75b04ad9ade4b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/TFHbP=
+aCn1So/facebook-developer-update.html?utm_source=3Dfeedburner&utm_medium=3D=
+email">Facebook Developer Update: Meet RootMusic, Funzio, and 50Cubes</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 22 Sep 2011 08:26 AM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p><iframe allowtransparency=3D"=
+true" frameborder=3D"0" scrolling=3D"no" src=3D"http://www.facebook.com/plu=
+gins/like.php?app_id=3D132675016822106&amp;href=3Dhttp%3A%2F%2Faws.typepad.=
+com%2Faws%2F2011%2F09%2Facebook-developer-update.html.html&amp;send=3Dfalse=
+&amp;layout=3Dbutton_count&amp;width=3D450&amp;show_faces=3Dtrue&amp;action=
+=3Dlike&amp;colorscheme=3Dlight&amp;font=3Darial&amp;height=3D21" style=3D"=
+border: none; overflow: hidden; width: 450px; height: 21px;"></iframe></p>
+<p>In honor of today&#39;s <a href=3D"http://www.facebook.com/f8">Facebook =
+Developer Conference</a>, I&#39;d like to recognize the success of our exis=
+ting Facebook app developers and invite even more developers to kick-start =
+their next Facebook app project with Amazon Web Services.</p>
+<p><strong>Quick Numbers</strong><br /> We crunched some numbers and found =
+out that 70% of the 50 most popular Facebook apps leverage one or more AWS =
+services. Many of their developers rely on AWS to provide them with compute=
+, network, storage, database and messaging services on a pay-as-you-go basi=
+s. In addition to Zynga=E2=80=99s popular FarmVille and CafeWorld, or games=
+ from Playfish and Wooga, many of the most exciting and popular Facebook ap=
+ps are also running on AWS.</p>
+<p>Here are a few examples:</p>
+<p><a href=3D"http://www.rootmusic.com/"> <img alt=3D"" src=3D"http://media=
+.amazonwebservices.com/blog/root_music_2.jpg" style=3D"float: left; padding=
+-right: 10px; padding-bottom: 10px;" /></a> <a href=3D"http://www.rootmusic=
+.com/">RootMusic</a>&#39;s <a href=3D"http://www.facebook.com/bandpage">Ban=
+dPage</a> app (currently the #1 Music App on Facebook, and <a href=3D"http:=
+//www.appdata.com/apps/facebook/178091127385-bandpage-by-rootmusic">#8 over=
+all app on Facebook</a>) helps bands and musicians build fan pages that wil=
+l attract and hold the interest of an audience. RootMusic enables artists t=
+o tap into the passion their fans feel for their art and keep them engaged =
+with an interactive experience. More than 250,000 bands of all shapes and s=
+izes, from <a href=3D"http://www.facebook.com/rihanna?v=3Dapp_178091127385"=
+ target=3D"_self">Rihanna</a> and <a href=3D"http://www.facebook.com/#!/Arc=
+ticMonkeys" target=3D"_self">Arctic Monkeys</a>, to bands you haven&#39;t h=
+eard of yet but may soon discover, have already made RootMusic=E2=80=99s Ba=
+ndPage their central online space for connecting with their fans. Artists u=
+se it to share music, release special edition songs/albums here, share phot=
+os, and list events/shows. BandPage now supports 30 million monthly active =
+users from all over the world. Behind all the capabilities that ignite Band=
+Page=E2=80=99s music fan communities lies a well-thought out, highly-distri=
+buted and highly-scalable backend, powered by Amazon Web Services:</p>
+<p style=3D"padding-left: 25px;">&quot;<em>In 20 seconds, we can double our=
+ server capacity. In a high-growth environment like ours, it&#39;s very imp=
+ortant for us to trust that we have the best support to give to the music c=
+ommunity around the world. Five years ago, we would have crashed and been d=
+own without knowing when we would be back. Now, because of Amazon=E2=80=99s=
+ continued innovation, we can provide the best technology and scale to serv=
+e music communities needs around the world,</em>=E2=80=9D Christopher Thole=
+n, RootMusic CTO.</p>
+<div style=3D"text-align: center; padding-top: 4px; padding-bottom: 4px;">
+<hr style=3D"width: 50%;" />
+</div>
+<p><a href=3D"http://www.funzio.com/"> <img alt=3D"" src=3D"http://media.am=
+azonwebservices.com/blog/funzio_logo_1.png" style=3D"float: left; padding-r=
+ight: 10px; padding-bottom: 10px;" /></a> <a href=3D"http://www.funzio.com/=
+">Funzio</a>&#39;s <a href=3D"http://www.facebook.com/crimecity">Crime City=
+</a> is #7 in the top 10 Facebook apps, and it=E2=80=99s the highest rated =
+Facebook game to reach 1 million daily users with an average user rating of=
+ 4.9 out of 5. Crime City currently has 5.5 million monthly active users, w=
+ith 10 million monthly active users at its peak. The iPhone version was rec=
+ently listed among the top 5 games in the Apple Appstore and #1 free game i=
+n 11 countries and counting. Crime City sports modern, 3D-like graphics tha=
+t look great on both Facebook and iPhone, and has a collection of hundreds =
+of virtual items that players can collect.</p>
+<p>Powering this incredibly rich user experience across multiple platforms =
+is their business acumen in promoting the app, as well as a strong backend =
+that leverages many AWS products to serve their viral and highly active use=
+r base. Funzio uses Amazon EC2 to quickly scale up and down based on demand=
+, Amazon RDS to store game and current state information. They use Amazon C=
+loudFront to optimize the delivery to a global, widely-distributed audience=
+ and to meet Facebook&#39;s&#0160;SSL certificate requirements.</p>
+<p style=3D"padding-left: 25px;">&quot;<em>At Funzio, we use AWS exclusivel=
+y to host the infrastructure for our games.  When developing social games, =
+you need to be ready for that traffic burst for a hit game in a moment&#39;=
+s notice.  AWS provides us with the flexibility to quickly and efficiently =
+scale our applications at all layers, from increasing database capacity in =
+RDS, to adding more application or caching servers within minutes in EC2.  =
+Amazon&#39;s cloud services allow us to focus our efforts on developing qua=
+lity games and not on worrying about managing our technology operations.</e=
+m>=E2=80=9D - Ram Gudavalli, Funzio CTO.</p>
+<div style=3D"text-align: center; padding-top: 4px; padding-bottom: 4px;">
+<hr style=3D"width: 50%;" />
+</div>
+<p><a href=3D"http://www.50cubes.com/"> <img alt=3D"" src=3D"http://media.a=
+mazonwebservices.com/blog/mall_world_after_all_1.png" style=3D"float: left;=
+ padding-right: 10px; padding-bottom: 10px;" /></a> <a href=3D"http://www.5=
+0cubes.com/" target=3D"_self">50Cubes</a>, the creator of <a href=3D"https:=
+//www.facebook.com/MallWorldGame" target=3D"_self">Mall World</a>, is a sta=
+rtup that has developed one of the most highly-regarded and longer-running =
+successful female focused social game on Facebook. With over 5 million mont=
+hly active users, <a href=3D"https://www.facebook.com/MallWorldGame" target=
+=3D"_self">Mall World</a> has a track record of being not only one of the f=
+irst but also the top game of its kind for the past 1.5 years and continues=
+ to entice users world-wide.</p>
+<p><a href=3D"http://www.50cubes.com/" target=3D"_self">50Cubes</a> powers =
+Mall World and other games they developed with a suite of AWS products. Out=
+ of these, they value the Amazon Auto-scaling and EBS features the most =E2=
+=80=93 these products helps them effortlessly scale up and down their exclu=
+sive use of Amazon EC2 instances with user demand. Their database clusters =
+are a mix of MySQL and other key value storage databases, all hosted and ma=
+naged by the team on Amazon EC2 using EBS for Cloud Storage.</p>
+<p style=3D"padding-left: 25px;">&quot;<em>One thing that impresses me the =
+most about AWS services is that they have rapidly iterated and improved the=
+ir products and services over the past year and half, executing almost like=
+ a startup of our scale.</em>&quot; - Fred Jin, 50cubes CTO.</p>
+<p><span style=3D"text-decoration: underline;"><strong>Get Started: Your Fa=
+cebook App, Powered by AWS</strong></span><br /> Doug Purdy, Director of De=
+veloper Relations at Facebook, said:</p>
+<p style=3D"padding-left: 30px;">=E2=80=9C<em>AWS is great for Facebook dev=
+elopers =E2=80=93 you can start small, test and prove your ideas. As your a=
+pp grows, you can easily scale up your resources to keep your users engaged=
+ and connected. AWS allows developers to build highly-available, highly-sca=
+lable, cost-efficient apps that provide the type of rich and responsive use=
+r experiences that our global audience has grown to expect.</em>=E2=80=9D</=
+p>
+<p>To make it as easy as possible for you to get started, we&#39;ve updated=
+ our <a href=3D"http://aws.amazon.com/solutions/global-solution-providers/f=
+acebook/" target=3D"_self">Building Facebook Apps on AWS</a> page. We have =
+also improved and refreshed our Facebook App AMI. The new AMI uses <a href=
+=3D"http://aws.amazon.com/cloudformation/" target=3D"_self">AWS CloudFormat=
+ion</a> to install the latest versions of the <a href=3D"https://github.com=
+/facebook/php-sdk" target=3D"_self">Facebook PHP SDK</a> and the <a href=3D=
+"http://aws.amazon.com/sdkforphp/" target=3D"_self">AWS SDK for PHP</a> at =
+startup time.&#0160;If you want to learn more about developing AWS applicat=
+ions in PHP, feel free to check out the <a href=3D"http://www.sitepoint.com=
+/books/cloud1/samplechapters.php" target=3D"_self">free chapters of my AWS =
+programming book</a> (or <a href=3D"http://www.amazon.com/Host-Your-Web-Sit=
+e-Cloud/dp/0980576830" target=3D"_self">buy a complete copy</a>).</p>
+<p>-- Jeff;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DTFHbPa=
+Cn1So:W6I_UTk_d_Y:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DTFHbPaCn1So:W6I_UT=
+k_d_Y:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DTFHbPaCn1So:W6I_UTk_d_Y:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/T=
+FHbPaCn1So?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--90e6ba6136904bb75b04ad9ade4b--

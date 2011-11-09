@@ -1,0 +1,322 @@
+Return-Path: <tech+bncCOKrwsOaDRDy1JH0BBoEjjjRGg@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-vw0-f72.google.com (mail-vw0-f72.google.com [209.85.212.72])
+	by ns1 (Postfix) with ESMTP id 1177C888A9;
+	Thu, 29 Sep 2011 05:54:10 -0700 (PDT)
+Received: by vws14 with SMTP id 14sf978548vws.7
+        for <multiple recipients>; Thu, 29 Sep 2011 05:54:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=Bat/BLXZO9PHZuJZFpR61GLGkk2NGHWJxvGop2a+ILo=;
+        b=USl3x8oJAkKHt6YbV4cARO4cw4NlYyVIApr9RTDuxmRbXHvRtN/wLPcIOpwvYr5mYS
+         5I0z+KDaxTxwfiQ7yBvA==
+Received: by 10.224.211.69 with SMTP id gn5mr8104451qab.26.1317300850784;
+        Thu, 29 Sep 2011 05:54:10 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.224.203.195 with SMTP id fj3ls2671140qab.5.gmail; Thu, 29 Sep
+ 2011 05:54:10 -0700 (PDT)
+Received: by 10.224.217.137 with SMTP id hm9mr7922137qab.124.1317300850423;
+        Thu, 29 Sep 2011 05:54:10 -0700 (PDT)
+Received: by 10.224.217.137 with SMTP id hm9mr7922136qab.124.1317300850406;
+        Thu, 29 Sep 2011 05:54:10 -0700 (PDT)
+Received: from mail-vx0-f199.google.com (mail-vx0-f199.google.com [209.85.220.199])
+        by mx.google.com with ESMTPS id fn8si1187408qab.16.2011.09.29.05.54.09
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 29 Sep 2011 05:54:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3a2qEThEKBMo347u51E+vuut574DEw44w1u.s42jusx9xuxBqs.3u9@feedburner.bounces.google.com designates 209.85.220.199 as permitted sender) client-ip=209.85.220.199;
+Received: by vcbfk1 with SMTP id fk1so946271vcb.10
+        for <Tech@thehvac.net>; Thu, 29 Sep 2011 05:54:09 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.236.35.39 with SMTP id t27mt54709576yha.5.1317300843111; Thu,
+ 29 Sep 2011 05:54:03 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <20cf3011dcc1d0eee104ae14006e@google.com>
+Date: Thu, 29 Sep 2011 12:54:09 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3a2qEThEKBMo347u51E+vuut574DEw44w1u.s42jusx9xuxBqs.3u9@feedburner.bounces.google.com
+ designates 209.85.220.199 as permitted sender) smtp.mail=3a2qEThEKBMo347u51E+vuut574DEw44w1u.s42jusx9xuxBqs.3u9@feedburner.bounces.google.com;
+ dkim=pass header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=20cf3011dcc12b120304ae1401c6
+
+--20cf3011dcc12b120304ae1401c6
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+
+Amazon Web Services Blog
+
+///////////////////////////////////////////
+Big Data Hackathon at SPLASH/OOPSLA (Portland, October 2011)
+
+Posted: 28 Sep 2011 10:43 AM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/CbG_JvICNYM/big-data-hackathon-at-splashoopsla-portland-october-2011.html?utm_source=feedburner&utm_medium=email
+
+
+Ill be running a Big Data Hackathon at the SPLASH/OOPSLA Conference in  
+Portland, Oregon next month.
+
+Hackathons are participatory event. You dont show up to watch or to hang  
+out; you show up to lead or to join a team of other developers to imagine,  
+create, and build something cool and useful in the course of a single day.  
+This may sound impossibly ambitious. It is not. You can get a lot done when  
+you can ignore your inbox and simply focus on the task at hand. The ability  
+to tap in to high-level services certainly helps, as does the fact that  
+everyone shows up expecting to work.
+
+Well hack from 8:30 AM to 5:30 PM on Sunday, October 23rd. The day will be  
+structured as follows:
+
+Introduction, welcome and agenda
+Short sponsor talks.
+Idea pitches from the audience.
+Team formation.
+Hacking.
+Team presentations.
+Judging.
+
+
+This particular hackathon will be focused on the concept of "Big Data."  
+Think about taking Columbia Universitys 500 GB Million Song Dataset  
+(conveniently available as an AWS Public Data Set) and doing something  
+interesting with it, such as finding songs that slowly build in intensity.  
+What could you do with a collection of 250,000 Material Safety Data Sheets,  
+some economics data, some gene sequences, a US census, or 80 years of daily  
+global weather measurements?
+
+Attendees are free to use the technology and data sets of their choice. I  
+will be supplying the teams with some AWS usage credits to make it easy to  
+use EC2, Elastic MapReduce, and our other services.
+
+If this sounds like a great way to spend a Sunday, then you need to do the  
+following:
+
+Sign up for the Hackathon. Space is limited, but we still have a few seats  
+left.
+Start thinking about what you would like to build and how you would like to  
+pitch it.
+Consider signing up for an AWS account.
+Show up and have a great time.
+
+
+I am also looking for an additional sponsor or two. The ideal sponsor would  
+have a product or service that would be of interest to someone who is  
+working with Big Data. Please get in touch with me (email to  
+awseditor@amazon.com) and we can discuss the details.
+
+I hope to see you in Portland next month!
+
+-- Jeff;
+
+
+
+--
+You are subscribed to email updates from "Amazon Web Services Blog."
+To stop receiving these emails, you may unsubscribe now:  
+http://feedburner.google.com/fb/a/mailunsubscribe?k=WYlqsHgFmj4AaMxCIo4DpqGJl_Y
+
+Email delivery powered by Google.
+Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+
+--20cf3011dcc12b120304ae1401c6
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/CbG_J=
+vICNYM/big-data-hackathon-at-splashoopsla-portland-october-2011.html?utm_so=
+urce=3Dfeedburner&utm_medium=3Demail">Big Data Hackathon at SPLASH/OOPSLA (=
+Portland, October 2011)</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 28 Sep 2011 10:43 AM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>I&#39;ll be running a <a href=
+=3D"http://splashcon.org/2011/program/hackathon" target=3D"_self">Big Data =
+Hackathon</a> at the <a href=3D"http://splashcon.org/2011/" target=3D"_self=
+">SPLASH/OOPSLA Conference</a> in Portland, Oregon next month.</p>
+<p>Hackathons are participatory event. You don&#39;t show up to watch or to=
+ hang out; you show up to lead or to join a team of other developers to ima=
+gine, create, and build something cool and useful in the course of a single=
+ day. This may sound impossibly ambitious. It is not. You can get a lot don=
+e when you can ignore your inbox and simply focus on the task at hand. The =
+ability to tap in to high-level services certainly helps, as does the fact =
+that everyone shows up expecting to work.</p>
+<p>We&#39;ll hack from 8:30 AM to 5:30 PM on Sunday, October 23rd. The day =
+will be structured as follows:</p>
+<ol>
+<li>Introduction, welcome and agenda</li>
+<li>Short sponsor talks.</li>
+<li>Idea pitches from the audience.</li>
+<li>Team formation.</li>
+<li>Hacking.</li>
+<li>Team presentations.</li>
+<li>Judging.</li>
+</ol>
+<p>This particular hackathon will be focused on the concept of &quot;<a hre=
+f=3D"http://en.wikipedia.org/wiki/Big_data" target=3D"_self">Big Data</a>.&=
+quot; Think about taking Columbia University&#39;s 500 GB <a href=3D"http:/=
+/labrosa.ee.columbia.edu/millionsong/" target=3D"_self">Million Song&#0160;=
+ Dataset</a> (conveniently <a href=3D"http://aws.amazon.com/datasets/646893=
+1156960467" target=3D"_self">available as an AWS Public Data Set</a>) and d=
+oing something interesting with it, such as <a href=3D"http://musicmachiner=
+y.com/2011/09/18/looking-for-the-slow-build/" target=3D"_self">finding song=
+s that slowly build in intensity</a>. What could you do with a collection o=
+f <a href=3D"http://aws.amazon.com/datasets/6247470578246837" target=3D"_se=
+lf">250,000 Material Safety Data Sheets</a>, some <a href=3D"http://aws.ama=
+zon.com/datasets/Economics?browse=3D1" target=3D"_self">economics data</a>,=
+ some <a href=3D"http://aws.amazon.com/datasets/Biology?browse=3D1" target=
+=3D"_self">gene sequences</a>, a <a href=3D"http://aws.amazon.com/datasets/=
+Economics/2290" target=3D"_self">US census</a>, or <a href=3D"http://aws.am=
+azon.com/datasets/Climate?browse=3D1" target=3D"_self">80 years of daily gl=
+obal weather measurements</a>?</p>
+<p>Attendees are free to use the technology and data sets of their choice. =
+I will be supplying the teams with some AWS usage credits to make it easy t=
+o use <a href=3D"http://aws.amazon.com/ec2" target=3D"_self">EC2</a>, <a hr=
+ef=3D"http://aws.amazon.com/elasticmapreduce/" target=3D"_self">Elastic Map=
+Reduce</a>, and <a href=3D"http://aws.amazon.com/" target=3D"_self">our oth=
+er services</a>.</p>
+<p>If this sounds like a great way to spend a Sunday, then you need to do t=
+he following:</p>
+<ol>
+<li><a href=3D"https://regmaster3.com/2011conf/SPLASH11/register.php" targe=
+t=3D"_self">Sign up for the Hackathon</a>. Space is limited, but we still h=
+ave a few seats left.</li>
+<li>Start thinking about what you would like to build and how you would lik=
+e to pitch it.</li>
+<li>Consider <a href=3D"https://aws-portal.amazon.com/gp/aws/developer/regi=
+stration/index.html" target=3D"_self">signing up for an AWS account</a>.</l=
+i>
+<li>Show up and have a great time.</li>
+</ol>
+<p>I am also looking for an additional sponsor or two. The ideal sponsor wo=
+uld have a product or service that would be of interest to someone who is w=
+orking with Big Data. Please get in touch with me (email to <a href=3D"mail=
+to:awseditor@amazon.com" target=3D"_self">awseditor@amazon.com</a>) and we =
+can discuss the details.</p>
+<p>I hope to see you in Portland next month!</p>
+<p>-- Jeff;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DCbG_Jv=
+ICNYM:COEBKe4zAjY:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DCbG_JvICNYM:COEBKe=
+4zAjY:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DCbG_JvICNYM:COEBKe4zAjY:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/C=
+bG_JvICNYM?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--20cf3011dcc12b120304ae1401c6--

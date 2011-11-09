@@ -1,0 +1,263 @@
+Return-Path: <00000132c575370d-c67bb123-b15e-433b-b440-42c5faad1660-000000@email-bounces.amazonses.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from a192-151.smtp-out.amazonses.com (a192-151.smtp-out.amazonses.com [199.255.192.151])
+	by ns1 (Postfix) with ESMTP id A2BED88851
+	for <support@doap.com>; Sun,  2 Oct 2011 09:26:27 -0700 (PDT)
+Date: Sun, 2 Oct 2011 16:26:25 +0000
+From: Janrain <noreply@janrain.com>
+To: support@doap.com
+Message-Id: <00000132c575370d-c67bb123-b15e-433b-b440-42c5faad1660-000000@email.amazonses.com>
+Subject: Janrain Engage Basic Sign-up Confirmation for doap
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4e8890b15e14a_3d947ca89a178
+X-AWS-Outgoing: 199.255.192.151
+
+
+--mimepart_4e8890b15e14a_3d947ca89a178
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+Thank you for signing up for Janrain Engage Basic to enable social
+login and social sharing.
+
+
+Your Account Details
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  Application: http://rpxnow.com/relying_parties/doap
+  Service Level: Basic
+
+
+Getting Started
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Setting up your Janrain Engage application is a quick and easy
+process.  Please visit the Janrain Engage product dashboard to
+configure your application:
+
+  http://rpxnow.com/relying_parties/doap
+
+
+Additional Resources
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  * Technical Documentation--Provides details and best practices for
+    configuring Janrain Engage:
+
+      https://rpxnow.com/docs/
+
+  * Developer Forum--Post questions about Janrain Engage and interact
+    with the developer community:
+
+      http://developers.janrain.com/home/
+
+  * Technical Support--Browse FAQs and access self-help materials:
+
+      https://support.janrain.com/
+
+  * Product Feedback--Submit feature requests for Janrain Engage:
+
+      http://feedback.janrain.com/
+
+
+Tell Me More
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+We are pleased that you signed up for Janrain Engage Basic.  We also
+want to let you know about the enhanced features available at the Plus
+level for only $10/month or $100/year:
+
+  * Extended Profile Data--Collect richer profile data, such as
+    interests, from your users for additional marketing and targeting
+    opportunities
+
+  * More sign-in providers--Enable up to 12 identity providers in your
+    Janrain Engage sign-in widget
+
+  * Access Credentials--Build on the Janrain Engage API to enable
+    additional functionality from the social networks
+
+  * Increased Usage Levels--Up to 5,000 unique registered users and
+    social sharing posts per year
+
+If you would like to upgrade to the Plus version of Janrain Engage,
+click the "upgrade" link on your product dashboard or go to:
+
+  http://rpxnow.com/relying_parties/doap/upgrade_to_plus
+
+
+Thank you,
+
+The Janrain Team
+http://www.janrain.com/?utm_source=3Dbasic-welcome-email&utm_medium=3Dema=
+il&utm_campaign=3Dbasic-welcome-email
+
+Blog            http://www.janrain.com/blogs?utm_source=3Dbasic-welcome-e=
+mail&utm_medium=3Demail&utm_campaign=3Dbasic-welcome-email
+Twitter         http://bit.ly/cHEjZS
+Facebook        http://bit.ly/d49bl8
+LinkedIn         http://linkd.in/a7WZMC
+
+--mimepart_4e8890b15e14a_3d947ca89a178
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<html>
+<head></head>
+<body style=3D"font-family: arial,helvetica,clean,sans-serif; font-size: =
+13px;">
+<div id=3D"content" style=3D"max-width: 40em;">
+
+<a href=3D"http://www.janrain.com?utm_source=3Dbasic-welcome-email&utm_me=
+dium=3Demail&utm_campaign=3Dbasic-welcome-email" style=3D"background-imag=
+e: url('https://s3.amazonaws.com/static.rpxnow.com/rel/img/d7886f5332f033=
+ab301dd9346e2682a5.png') %>'); background-position: 50% 17%; background-r=
+epeat: no-repeat; height: 60px; display: block;">
+  <img src=3D"https://s3.amazonaws.com/static.rpxnow.com/rel/img/861d564d=
+23ba416d9b480deac7c9f1f6.png" alt=3D"Janrain" class=3D"png">
+</a>
+<p style=3D"margin-top: 1em; margin-bottom: 1em;">
+  Thank you for signing up for Janrain Engage Basic to enable social logi=
+n and social sharing.
+</p>
+
+<h2>Your Account Details</h2>
+
+<table style=3D"font-size: 13px;">
+  <tbody>
+    <tr>
+      <th style=3D"text-align: right; padding-right: 0.5em;">
+        Application
+      </th>
+      <td>
+        <a href=3D"http://rpxnow.com/relying_parties/doap">doap</a>
+      </td>
+    </tr>
+    <tr>
+      <th style=3D"text-align: right; padding-right: 0.5em;">
+        Service Level
+      </th>
+      <td>
+        <img src=3D"https://docj27ko03fnu.cloudfront.net/rel/img/63d52f95=
+3ae64592d6244caeba2b0caa.png" alt=3D"Basic badge">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Getting Started</h2>
+
+<p>
+  Setting up your Janrain Engage application is a quick and easy
+  process. Please visit the
+  <a href=3D"http://rpxnow.com/relying_parties/doap">Janrain Engage produ=
+ct dashboard</a> to configure your application.
+</p>
+
+<h2>Additional Resources</h2>
+
+<ul>
+  <p>
+  <li>
+    <a href=3D"https://rpxnow.com/docs/">Technical
+    Documentation</a>&mdash;Provides details and best practices for
+    configuring Janrain Engage
+  </li>
+  </p>
+  <p>
+  <li>
+    <a href=3D"http://developers.janrain.com/home/">Developer
+    Forum</a>&mdash;Post questions about Janrain Engage and interact
+    with the developer community
+  </li>
+  </p>
+  <p>
+  <li>
+    <a href=3D"https://support.janrain.com/">Technical
+    Support</a>&mdash;Browse FAQs and access self-help materials
+  </li>
+  </p>
+  <p>
+  <li>
+    <a href=3D"http://feedback.janrain.com/">Product
+    Feedback</a>&mdash;Submit feature requests for Janrain Engage
+  </li>
+  </p>
+</ul>
+
+<h2>Tell Me More</h2>
+
+<p>
+  We are pleased that you signed up for Janrain Engage Basic. We also
+  want to let you know about the enhanced features available at the
+  Plus level for only $10/month or $100/year:
+</p>
+
+<ul>
+  <p>
+  <li>
+    <strong>Extended Profile Data</strong>&mdash;Collect richer
+    profile data, such as interests, from your users for additional
+    marketing and targeting opportunities
+  </li>
+  </p>
+  <p>
+  <li>
+    <strong>More sign-in providers</strong>&mdash;Enable up to 12
+    identity providers in your Janrain Engage sign-in widget
+  </li>
+  </p>
+  <p>
+  <li>
+    <strong>Access Credentials</strong>&mdash;Build on the Janrain
+    Engage API to enable additional functionality from the social
+    networks
+  </li>
+  </p>
+  <p>
+  <li>
+    <strong>Increased Usage Levels</strong>&mdash;Up to 5,000 unique
+    registered users and social sharing posts per year
+  </li>
+  </p>
+</ul>
+
+<p>
+  If you would like to upgrade to the Plus version of Janrain Engage,
+  click the "upgrade" link on your product dashboard or click <a href=3D"=
+http://rpxnow.com/relying_parties/doap/upgrade_to_plus">here</a>.
+</p>
+
+<p margin-top: 1em; margin-bottom: 1em;">
+  Thank you,
+</p>
+
+<address style=3D"margin-top: 1em; margin-bottom: 1em;">
+  The Janrain Team
+  <br>
+  <a href=3D"http://www.janrain.com/?utm_source=3Dbasic-welcome-email&utm=
+_medium=3Demail&utm_campaign=3Dbasic-welcome-email">www.janrain.com</a>
+  <br>
+</address>
+
+<p>
+  <a href=3D"http://www.janrain.com/blogs?utm_source=3Dbasic-welcome-emai=
+l&utm_medium=3Demail&utm_campaign=3Dbasic-welcome-email"><img src=3D"http=
+://www.janrain.com/sites/default/files/feed-16x16.png" alt=3D"Blog" /></a=
+>&nbsp;&nbsp;
+  <a href=3D"http://bit.ly/cHEjZS"><img src=3D"http://www.janrain.com/sit=
+es/default/files/twitter-16x16.png" alt=3D"Twitter"/></a>&nbsp;&nbsp;
+  <a href=3D"http://bit.ly/d49bl8"><img src=3D"http://www.janrain.com/sit=
+es/default/files/facebook-16x16.png" alt=3D"Facebook"/></a>&nbsp;&nbsp;
+  <a href=3D"http://linkd.in/a7WZMC"><img src=3D"http://www.janrain.com/s=
+ites/default/files/linkedin-16x16.png" alt=3D"LinkedIn"/></a>
+</p>
+
+</div>
+</body>
+</html>
+
+--mimepart_4e8890b15e14a_3d947ca89a178--

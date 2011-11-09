@@ -1,0 +1,411 @@
+Return-Path: <tech+bncCOKrwsOaDRCO2MfzBBoEV_FUfg@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yx0-f200.google.com (mail-yx0-f200.google.com [209.85.213.200])
+	by ns1 (Postfix) with ESMTP id B730A8874F;
+	Thu, 15 Sep 2011 05:14:06 -0700 (PDT)
+Received: by yxj17 with SMTP id 17sf3525856yxj.7
+        for <multiple recipients>; Thu, 15 Sep 2011 05:14:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=95oddJb7OpHbe0359eyjXuUmGBzpqpevbDR9cwCgjlw=;
+        b=x/bb1cMVWKp+10annuCwtym3cRdDZRZY/PGHp+AIT1VqO4rq+VHiw5FtlWSCJZpMTJ
+         AiZt/H/FD+pq0G1rbMpg==
+Received: by 10.101.181.38 with SMTP id i38mr857450anp.42.1316088846483;
+        Thu, 15 Sep 2011 05:14:06 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.101.171.12 with SMTP id y12ls6997743ano.2.gmail; Thu, 15 Sep
+ 2011 05:14:05 -0700 (PDT)
+Received: by 10.236.72.201 with SMTP id t49mr5850640yhd.114.1316088844388;
+        Thu, 15 Sep 2011 05:14:04 -0700 (PDT)
+Received: by 10.236.72.201 with SMTP id t49mr5850638yhd.114.1316088844362;
+        Thu, 15 Sep 2011 05:14:04 -0700 (PDT)
+Received: from mail-yw0-f71.google.com (mail-yw0-f71.google.com [209.85.213.71])
+        by mx.google.com with ESMTPS id j69si3683030yhe.113.2011.09.15.05.14.04
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 15 Sep 2011 05:14:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3BuxxThEKBB8IJM9KGT+A998KMJSTBJJBG9.7JHy97COC9CQ57.I9O@feedburner.bounces.google.com designates 209.85.213.71 as permitted sender) client-ip=209.85.213.71;
+Received: by ywm39 with SMTP id 39so3470112ywm.10
+        for <Tech@thehvac.net>; Thu, 15 Sep 2011 05:14:04 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.156.138 with SMTP id z10mt1987735icw.3.1316088838016; Thu,
+ 15 Sep 2011 05:13:58 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <90e6ba6e8bccaed87b04acf9cff7@google.com>
+Date: Thu, 15 Sep 2011 12:14:04 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3BuxxThEKBB8IJM9KGT+A998KMJSTBJJBG9.7JHy97COC9CQ57.I9O@feedburner.bounces.google.com
+ designates 209.85.213.71 as permitted sender) smtp.mail=3BuxxThEKBB8IJM9KGT+A998KMJSTBJJBG9.7JHy97COC9CQ57.I9O@feedburner.bounces.google.com;
+ dkim=pass header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=90e6ba6e8bcc0b7eec04acf9d00f
+
+--90e6ba6e8bcc0b7eec04acf9d00f
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+QW1hem9uIFdlYiBTZXJ2aWNlcyBCbG9nDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8NCkFXUyBTdW1tZXIgU3RhcnR1cHM6IENsYXNzbGUNCg0KUG9zdGVkOiAx
+NCBTZXAgMjAxMSAwMTowMSBQTSBQRFQNCmh0dHA6Ly9mZWVkcHJveHkuZ29vZ2xlLmNvbS9+ci9B
+bWF6b25XZWJTZXJ2aWNlc0Jsb2cvfjMvcFZYNTJvR0xISlkvYXdzLXN1bW1lci1zdGFydHVwcy1j
+bGFzc2xlLmh0bWw/dXRtX3NvdXJjZT1mZWVkYnVybmVyJnV0bV9tZWRpdW09ZW1haWwNCg0KDQoN
+Cg0KT3ZlciB0aGUgc3VtbWVyIG1vbnRocywgd2VkIGxpa2UgdG8gc2hhcmUgYSBmZXcgc3Rvcmll
+cyBmcm9tIHN0YXJ0dXBzICANCmFyb3VuZCB0aGUgd29ybGQ6IHdoYXQgYXJlIHRoZXkgd29ya2lu
+ZyBvbiBhbmQgaG93IHRoZXkgYXJlIHVzaW5nIHRoZSBjbG91ZCAgDQp0byBnZXQgdGhpbmdzIGRv
+bmUuIFRvZGF5LCB3ZXJlIHByb2ZpbGluZyBDbGFzc2xlLCBmcm9tIENoZW5uYWksIEluZGlhIQ0K
+DQoNCg0KDQpJIHJlY2VudGx5IHJlYWRNYXJrIFN1c3RlcuKAmXMgYmxvZyBvbiBBdm9pZGluZyBN
+b25vY3VsdHVyZS0gd2hpY2ggaXMgd2h5IEnigJltICANCmhhcHB5IHRvIHNoYXJlIHdpdGggeW91
+IHdoYXQgSeKAmXZlIGxlYXJuZWQgYWJvdXQgQ2xhc3NsZSwgYSBzdGFydHVwIGZyb20gIA0KSW5k
+aWEsIGZvY3VzZWQgb24gc29sdmluZyBlZHVjYXRpb24gcHJvYmxlbXMgZm9yIGFyZWFzIG9mIHRo
+ZSB3b3JsZCB0aGF0ICANCmV4cGVyaWVuY2Ugc2VyaW91cyByZXNvdXJjZSBjb25zdHJhaW50cy4g
+Q2xhc3NsZSBoYXMgdGhlIGJpZyBnb2FsIG9mICANCmNoYW5naW5nIHRoZSB3b3JsZCBhcm91bmQg
+dGhlbSBieSBlbmNvdXJhZ2luZyBzdHVkZW50cyBhbmQgZXhwZXJ0cyB0byBzaGFyZSAgDQprbm93
+bGVkZ2UgYW5kIGV4cGVydGlzZSwgYW5kIHVzaW5nIHRoZSBBV1MgY2xvdWQgdG8gZmFjaWxpdGF0
+ZSB0aGlzICANCmV4Y2hhbmdlLg0KDQpJIHJlYWNoZWQgb3V0IHRvIFZhaWR5YSBOYXRoYW4sIEZv
+dW5kZXIgYW5kIENFTyBvZiBDbGFzc2xlOg0KDQpBYm91dCBDbGFzc2xlDQoNCkNsYXNzbGUgaXMg
+YSBTb2NpYWwgTGVhcm5pbmcgaW5mcmFzdHJ1Y3R1cmUgY29tcGFueSB3aXRoIHNwZWNpZmljIGZv
+Y3VzIG9uICANCkVkdWNhdGlvbiwgTGVhcm5pbmcgYW5kIEtub3dsZWRnZSBjb21tdW5pdGllcy4g
+VXNpbmcgdGhlIG1haW4gQ2xhc3NsZSAgDQpwcm9kdWN0LCBDbG91ZCBDYW1wdXMgcGxhdGZvcm0s
+IENsYXNzbGUgY3JlYXRlcyBhbmQgbWFuYWdlcyBwcml2YXRlIGFuZCAgDQpwdWJsaWMgc29jaWFs
+IGxlYXJuaW5nIGVudmlyb25tZW50cyBhbmQgb2ZmZXJzIHNlcnZpY2VzIGJhc2VkIG9uIGl0Lg0K
+DQpDbGFzc2xlIGhlbHBzIHJ1cmFsIHN0dWRlbnRzIGFjY2VzcyBoaWdoZXIgZWR1Y2F0aW9uIGFu
+ZCByZWFjaCAgDQpvcHBvcnR1bml0aWVzIHVuYXZhaWxhYmxlIGJlZm9yZS4gT3VyIGNvbXBhbnkg
+cGFydG5lcnMgd2l0aCBhIHdpZGUgbmV0d29yayAgDQpvZiBjb2xsZWdlcyB0aHJvdWdob3V0IElu
+ZGlhLCB3aGljaCBhY3QgYXMgaW50ZXJuZXQtY29ubmVjdGVkICJsZWFybmluZyAgDQpub2RlcyIg
+dGhhdCBkaXN0cmlidXRlIGVkdWNhdGlvbmFsIG1hdGVyaWFscyB0byBzdHVkZW50cy4gV2hlbiB0
+aGUgc3R1ZGVudCAgDQpnb2VzIGhvbWUgZm9yIHRoZSBkYXkgd2l0aCB0aGVpciBkb3dubG9hZGVk
+IGxlY3R1cmVzIGFuZCBvdGhlciBtYXRlcmlhbHMgIA0KZnJvbSB0aGUgbGlicmFyeSwgQ2xhc3Ns
+ZSBtYWtlcyB1c2Ugb2YgbW9iaWxlIHRlY2hub2xvZ3kgYW5kIFNNUy1iYXNlZCAgDQpxdWl6emVz
+IHRvIGtlZXAgc3R1ZGVudHMgZW5nYWdlZCBhbmQgYWN0aXZlbHkgbGVhcm5pbmcuIFRoZSBlbnRp
+cmUgc3lzdGVtICANCndhcyBkZXNpZ25lZCB0byB3b3JrIHdpdGggc2ltcGxlLCAkMTAgcGhvbmVz
+LCBub3Qgc21hcnRwaG9uZXMsIGFuZCB0aGUgIA0Kc3R1ZGVudHMgYXJlIGVudGlyZWx5IGFkZGlj
+dGVkIHRvIHRoZXNlIHF1aXp6ZXMgLSB0aGV5IGNhbuKAmXQgZ2V0IGVub3VnaCBvZiAgDQp0aGVt
+Lg0KDQpBbGwgdGhlc2Ugc2VydmljZXMgYXJlIHByb3ZpZGVkIGZyZWUgb2YgY2hhcmdlIHRvIGJv
+dGggc3R1ZGVudHMgYW5kICANCmNvbGxlZ2VzLiBDbGFzc2xlIG1vbmV0aXplcyBieSBwYXJ0bmVy
+aW5nIHdpdGggY29tcGFuaWVzIHdobyBhcmUgbG9va2luZyB0byAgDQpoaXJlIHRvcCB0YWxlbnQg
+ZnJvbSBhbW9uZyB0aGUgc3R1ZGVudHMsIGFuZCBieSBzZWxsaW5nIHRoZWlyIGNsb3VkLWJhc2Vk
+ICANCmxlYXJuaW5nIHBsYXRmb3JtIGZvciB0cmFpbmluZyBwdXJwb3NlcyB3aXRoaW4gY29tcGFu
+aWVzLg0KDQoNClN0YXJ0aW5nIFNtYWxsIGFuZCBHcm93aW5nIHdpdGggQnVzaW5lc3MNCldlIGFy
+ZSB1c2luZyBBV1Mgc2luY2Ugb3VyIGluY2VwdGlvbiBpbiBlYXJseSAyMDA5LiBPdXIgZmlyc3Qg
+c3RlcHMgIA0KaW52b2x2ZWQgdHdvIHNtYWxsIEFtYXpvbiBFQzIgaW5zdGFuY2VzIGFuZCBBbWF6
+b24gRUJTIHRvIHN0b3JlIG91ciAgDQpkYXRhYmFzZS4gT3ZlciB0aGUgeWVhcnMsIG91ciB1c2Ug
+aGFzIGV4cGFuZGVkIHRvIG1hdGNoIG91ciBidXNpbmVzcyAgDQpncm93dGguIE91ciBzZWxlY3Rp
+b24gY3JpdGVyaWEgY292ZXJlZCB0YWN0aWNhbCBhcyB3ZWxsIGFzIHN0cmF0ZWdpYyAgDQpwb2lu
+dHMuIEZyb20gYSB0YWN0aWNhbCBwZXJzcGVjdGl2ZSwgd2Ugd2FudGVkIGEgcXVpY2tlciB0aW1l
+IGZvciAgDQpwcm92aXNpb25pbmcsIHdoaWNoIEFXUyBvbi1kZW1hbmQgaW5zdGFuY2VzIGVuYWJs
+ZWQsIGFuZCB0aGUgb3B0aW9uIHRvICANCnNlY3VyZSBvdXIgcmVzb3VyY2UgbmVlZHMgdGhyb3Vn
+aCBSZXNlcnZlZCBJbnN0YW5jZXMuDQpBdCBhIHN0cmF0ZWdpYyBsZXZlbCwgd2Ugd2FudGVkIHRv
+IHByb3ZpZGUgdGhlIGJlc3QgZXhwZXJpZW5jZSBmb3Igb3VyICANCmN1c3RvbWVycyBhbmQgaXQg
+d2FzIGtleSB0byBidWlsZCBDbGFzc2xlIG9uIHRvcCBvZiBzZXJ2aWNlcywgcHJvZHVjdHMsIGFu
+ZCAgDQppbmZyYXN0cnVjdHVyZSBkZXNpZ25lZCBmb3IgZ3Jvd3RoIGFuZCBzY2FsZS4gVG8gZGF0
+ZSwgd2UgaGF2ZSBlc3RhYmxpc2hlZCAgDQpyZWxhdGlvbnNoaXBzIHdpdGggb3ZlciAzMCBlZHVj
+YXRpb25hbCBvcmdhbml6YXRpb25zIGFuZCB0aGF0IGxpc3QgaXMgIA0KY29uc3RhbnRseSBncm93
+aW5nLiBUaGFua3MgdG8gQVdTLCB3ZSBhcmUgZWZmZWN0aXZlbHkgY29tcGV0aW5nIHdpdGggc29t
+ZSAgDQpsYXJnZSBhbmQgc3Ryb25nIHBsYXllcnMgaW4gdGhlIGUtbGVhcm5pbmcgc3BhY2UuDQoN
+ClNoYXJpbmcgdGhlIEFXUyBMZXNzb25zOg0KV2UgYXJlIGEgc21hbGwsIExBTVAgc3RhY2sgdGVh
+bSBhbmQgd2Ugc3RhcnRlZCB1c2luZyBBV1MgaW4gMjAwOS4gIA0KQ3VycmVudGx5LCB0aGUgcHJv
+ZHVjdHMgd2UgYXJlIHVzaW5nIGFyZSBiZWxvdy4gRm9yIHJlZmVyZW5jZSwgd2UgYXJlIGFsc28g
+IA0KaGFwcHkgdG8gc2hhcmUgb3VyIENsYXNzbGUgYXJjaGl0ZWN0dXJlIGRpYWdyYW0sIHdoaWNo
+IGlzIGluY2x1ZGVkIGluIG91ciAgDQpjYXNlIHN0dWR5IHdpdGggQVdTLg0KDQoNCkFtYXpvbiBF
+bGFzdGljIENvbXB1dGUgQ2xvdWQgKEVDMikNCkVsYXN0aWMgTG9hZCBCYWxhbmNpbmcgKEVMQikN
+CkF1dG9zY2FsaW5nQW1hem9uIEVsYXN0aWMgQm9jayBTdG9yYWdlIChFQlMpDQpBbWF6b24gU2lt
+cGxlIFN0b3JhZ2UgU2VydmljZSAoUzMpDQpBbWF6b24gUmVkdWNlZCBSZWR1bmRhbmN5IFN0b3Jh
+Z2UgKFJSUykNCkFtYXpvbiBDbG91ZEZyb250IHdpdGggYm90aCBzdHJlYW1pbmcgYW5kIGRvd25s
+b2FkDQpBbWF6b24gQ2xvdWQgV2F0Y2gNCkFtYXpvbiBSZWxhdGlvbmFsIERhdGFiYXNlIFNlcnZp
+Y2UgKEFtYXpvbiBSRFMpIHdpdGggTXVsdGktQVogYW5kIFJlYWQgIA0KcmVwbGljYXRpb24uDQpB
+bWF6b24gU2ltcGxlREINCkFtYXpvbiBTaW1wbGUgTm90aWZpY2F0aW9uIFNlcnZpY2UgKEFtYXpv
+biBTTlMpDQpBbWF6b24gUm91dGUgNTMNCg0KUHJldHR5IHNvb24sIHdlIHdvdWxkIGJlIHVzaW5n
+IEFtYXpvbiBFbGFzdGljIE1hcC1SZWR1Y2UgY2x1c3RlcnMgZm9yIG91ciAgDQphbmFseXRpY3Mg
+cmVxdWlyZW1lbnRzLi4NCg0KV29yZHMgb2YgV2lzZG9tIHRvIFN0YXJ0dXBzDQpTdGFydGluZyBh
+IGNvbXBhbnkgaXMgYWx3YXlzIGhhcmQsIHdoZXRoZXIgeW914oCZcmUgZnJvbSBJbmRpYSBvciBh
+bnl3aGVyZSAgDQplbHNlLiBIb3dldmVyLCBpdOKAmXMgd29ydGggdG8ga2VlcCBpbiBtaW5kIHRo
+YXQgaXTigJlzIG5ldmVyIGJlZW4gZWFzaWVyIHRvIGdvICANCm91dCB0aGVyZSBhbmQgdHJ5IHRo
+aW5ncyBvdXQgLSB3aXRoIE9wZW4gU291cmNlIGZvciByb2J1c3Qgc29mdHdhcmUgYW5kICANCmNs
+b3VkIHNlcnZpY2UgcHJvdmlkZXJzIGxpa2UgQVdTIGZvciBpbmZyYXN0cnVjdHVyZSwgeW91IGNh
+biB0ZXN0IHlvdXIgIA0KaWRlYXMgYW5kIHJ1biBhIGJ1c2luZXNzIGF0IHZlcnkgbG93IGNvc3Qu
+DQpCZWluZyBmcm9tIGluIEluZGlhLCB3aGVyZSB3ZSBkb27igJl0IGhhdmUgYSBzdHJvbmcgc3Rh
+cnQtdXAgbWVudGFsaXR5IGxpa2UgIA0KaW4gdGhlIFUuUy4sIGNlcnRhaW5seSBwb3NlcyBzb21l
+IHVuaXF1ZSBjaGFsbGVuZ2VzLiBUaGVyZSBhcmUgbWFueSBtb3JlICANCnByb2JsZW1zIHRvIHNv
+bHZlLCBhbmQgaXQgaXMgZXhjaXRpbmcgdG8gdHJ5IGFuZCB0cmFuc2xhdGUgdGhlIGV4aXN0aW5n
+ICANCmxpbWl0YXRpb25zIGludG8gaW5ub3ZhdGlvbnMsIHNvbHV0aW9ucyBhbmQgaGVuY2Ugb3Bw
+b3J0dW5pdGllcy4NCklmIEkgaGFkIHRvIGJvaWwgZG93biBteSBhZHZpY2UsIEkgd291bGQgc2F5
+IHRvIG15IGZlbGxvdyBlbnRyZXByZW5ldXJzIHRvOiAgDQp2ZW50dXJlIHdpdGggY29uZmlkZW5j
+ZSwgZGVzaWduIGZvciBzY2FsZSwgc3RhcnQgc21hbGwgJiBhcmNoaXRlY3QgZm9yICANCmdyb3d0
+aC4NCg0KDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0NCg0KRW50ZXIgWW91ciBTdGFydHVwIGluIHRoZSBBV1MgU3RhcnQtdXAgQ2hhbGxlbmdl
+IQ0KVGhpcyB5ZWFycyBBV1MgU3RhcnQtdXAgQ2hhbGxlbmdlIGlzIGEgd29ybGR3aWRlIGNvbXBl
+dGl0aW9uIHdpdGggcHJpemVzIGF0ICANCmFsbCBsZXZlbHMsIGluY2x1ZGluZyB1cCB0byAkMTAw
+LDAwMCBpbiBjYXNoLCBBV1MgY3JlZGl0cywgYW5kIG1vcmUgZm9yIHRoZSAgDQpncmFuZCBwcml6
+ZSB3aW5uZXIuICBMZWFybiBtb3JlIGFuZCBlbnRlciB0b2RheSENCg0KWW91IGNhbiBhbHNvIGZv
+bGxvd0BBV1NTdGFydHVwc29uIFR3aXR0ZXIgZm9yIHVwZGF0ZXMuDQoNCi1yb2RpY2ENCg0KDQoN
+Ci0tDQpZb3UgYXJlIHN1YnNjcmliZWQgdG8gZW1haWwgdXBkYXRlcyBmcm9tICJBbWF6b24gV2Vi
+IFNlcnZpY2VzIEJsb2cuIg0KVG8gc3RvcCByZWNlaXZpbmcgdGhlc2UgZW1haWxzLCB5b3UgbWF5
+IHVuc3Vic2NyaWJlIG5vdzogIA0KaHR0cDovL2ZlZWRidXJuZXIuZ29vZ2xlLmNvbS9mYi9hL21h
+aWx1bnN1YnNjcmliZT9rPVdZbHFzSGdGbWo0QWFNeENJbzREcHFHSmxfWQ0KDQpFbWFpbCBkZWxp
+dmVyeSBwb3dlcmVkIGJ5IEdvb2dsZS4NCkdvb2dsZSBJbmMuLCAyMCBXZXN0IEtpbnppZSwgQ2hp
+Y2FnbyBJTCBVU0EgNjA2MTANCg0K
+--90e6ba6e8bcc0b7eec04acf9d00f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/pVX52=
+oGLHJY/aws-summer-startups-classle.html?utm_source=3Dfeedburner&utm_medium=
+=3Demail">AWS Summer Startups: Classle</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 14 Sep 2011 01:01 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><div>
+<div style=3D"padding-left: 30px;"><a href=3D"http://aws.amazon.com/startup=
+challenge/?utm_source=3Dawsblog&amp;utm_medium=3Dbanner&amp;utm_campaign=3D=
+SM_awsblog_summerstartup_title&amp;trk=3DSM_awsblog_ summerstartup" target=
+=3D"_blank"><img alt=3D"" src=3D"http://aws.typepad.com/.a/6a00d8341c534853=
+ef0154335da1f3970c-800wi" style=3D"display: block; margin-left: auto; margi=
+n-right: auto;" /></a></div>
+<p>Over the summer months, we&#39;d like to share a few stories from startu=
+ps around the world: what are they working on and how they are using the cl=
+oud to get things done. Today, we&#39;re profiling <a href=3D"http://www.cl=
+assle.net/" target=3D"_blank">Classle</a>, from Chennai, India!</p>
+<a href=3D"http://www.classle.net/" target=3D"_blank"><img alt=3D"Classle t=
+eam" src=3D"http://awsmedia.s3.amazonaws.com/aws-sc2011/Classle Team-v2.jpg=
+" style=3D"display: block; margin-left: auto; margin-right: auto;" /></a></=
+div>
+<div><em><br /></em></div>
+<p>I recently read&#0160;<a href=3D"http://www.bothsidesofthetable.com/2011=
+/08/25/avoid-monoculture-travel-read-widely-let-experience-be-your-compass/=
+" target=3D"_blank">Mark Suster=E2=80=99s blog on Avoiding Monoculture</a>&=
+#0160;- which is why I=E2=80=99m happy to share with you what I=E2=80=99ve =
+learned about Classle, a &#0160;startup from India, focused on solving educ=
+ation problems for areas of the world that experience serious resource cons=
+traints. Classle has the big goal of changing the world around them by enco=
+uraging students and experts to share knowledge and expertise, and using th=
+e AWS cloud to facilitate this exchange.&#0160;</p>
+<p>I reached out to <strong>Vaidya Nathan, Founder and CEO of Classle</stro=
+ng>:</p>
+<div><strong>
+<div style=3D"display: inline !important;">About <a href=3D"http://www.clas=
+sle.net/" target=3D"_blank">Classle</a></div>
+</strong></div>
+<p dir=3D"ltr"><a href=3D"http://www.classle.net/" target=3D"_blank">Classl=
+e </a>is a Social Learning infrastructure company with specific focus on Ed=
+ucation, Learning and Knowledge communities. Using the main Classle product=
+, Cloud Campus platform, Classle creates and manages private and public soc=
+ial learning environments and offers services based on it.</p>
+<div style=3D"padding-left: 30px;"><br /><em><a href=3D"http://www.classle.=
+net/" target=3D"_blank">Classle </a>helps rural students access higher educ=
+ation and reach opportunities unavailable before. Our company partners with=
+ a wide network of colleges throughout India, which act as internet-connect=
+ed &quot;learning nodes&quot; that distribute educational materials to stud=
+ents. When the student goes home for the day with their downloaded lectures=
+ and other materials from the library, Classle makes use of mobile technolo=
+gy and SMS-based quizzes to keep students engaged and actively learning. Th=
+e entire system was designed to work with simple, $10 phones, not smartphon=
+es, and the students are entirely addicted to these quizzes - they can=E2=
+=80=99t get enough of them.</em></div>
+<div style=3D"padding-left: 30px;"><br /><em>All these services are provide=
+d free of charge to both students and colleges. <a href=3D"http://www.class=
+le.net/" target=3D"_blank">Classle </a>monetizes by partnering with compani=
+es who are looking to hire top talent from among the students, and by selli=
+ng their cloud-based learning platform for training purposes within compani=
+es.</em></div>
+<div style=3D"padding-left: 30px;"><em><br /></em></div>
+<div><strong>Starting Small and Growing with Business</strong></div>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>We are using AWS since our=
+ inception in early 2009. Our first steps involved two small <a href=3D"htt=
+p://aws.amazon.com/ec2/" target=3D"_blank">Amazon EC2</a> instances and <a =
+href=3D"http://aws.amazon.com/ebs/" target=3D"_blank">Amazon EBS</a> to sto=
+re our database. Over the years, our use has expanded to match our business=
+ growth. Our selection criteria covered tactical as well as strategic point=
+s. From a tactical perspective, we wanted a quicker time for provisioning, =
+which AWS on-demand instances enabled, and the option to secure our resourc=
+e needs through<a href=3D"http://aws.amazon.com/ec2/reserved-instances/" ta=
+rget=3D"_blank"> Reserved Instances</a>.</em></p>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>At a strategic level, we w=
+anted to provide the best experience for our customers and it was key to bu=
+ild Classle on top of services, products, and infrastructure designed for g=
+rowth and scale. To date, we have established relationships with over 30 ed=
+ucational organizations and that list is constantly growing. Thanks to AWS,=
+ we are effectively competing with some large and strong players in the e-l=
+earning space.</em></p>
+<p><strong>Sharing the AWS Lessons:</strong></p>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>We are a small, LAMP stack=
+ team and we started using AWS in 2009. Currently, the products we are usin=
+g are below. For reference, we are also happy to share <a href=3D"http://aw=
+s.amazon.com/solutions/case-studies/classle/" target=3D"_blank">our Classle=
+ architecture diagram, which is included in our case study with AWS</a>.</e=
+m></p>
+<div>
+<ul>
+<li><em>Amazon Elastic Compute Cloud (EC2)</em></li>
+<li><em>Elastic Load Balancing (ELB)</em></li>
+<li><em>AutoscalingAmazon Elastic Bock Storage (EBS)</em></li>
+<li><em>Amazon Simple Storage Service (S3)</em></li>
+<li><em>Amazon Reduced Redundancy Storage (RRS)</em></li>
+<li><em>Amazon CloudFront with both streaming and download</em></li>
+<li><em>Amazon Cloud Watch</em></li>
+<li><em>Amazon Relational Database Service (Amazon RDS) with Multi-AZ and R=
+ead replication.</em></li>
+<li><em>Amazon SimpleDB</em></li>
+<li><em>Amazon Simple Notification Service (Amazon SNS)</em></li>
+<li><em>Amazon Route 53</em></li>
+</ul>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>Pretty soon, we would be u=
+sing <a href=3D"http://aws.amazon.com/elasticmapreduce/" target=3D"_blank">=
+Amazon Elastic Map-Reduce</a> clusters for our analytics requirements..</em=
+></p>
+<p><strong>Words of Wisdom to Startups</strong></p>
+<p dir=3D"ltr" id=3D"internal-source-marker_0.8193495112936944" style=3D"pa=
+dding-left: 30px;"><em>Starting a company is always hard, whether you=E2=80=
+=99re from India or anywhere else. However, it=E2=80=99s worth to keep in m=
+ind that it=E2=80=99s never been easier to go out there and try things out =
+- &#0160;with Open Source for robust software and cloud service providers l=
+ike AWS for infrastructure, you can test your ideas and run a business at v=
+ery low cost.</em></p>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>Being from in India, where=
+ we don=E2=80=99t have a strong start-up mentality like in the U.S., certai=
+nly poses some unique challenges. There are many more problems to solve, an=
+d it is exciting to try and translate the existing limitations into innovat=
+ions, solutions and hence opportunities.</em></p>
+<p dir=3D"ltr" style=3D"padding-left: 30px;"><em>If I had to boil down my a=
+dvice, I would say to my fellow entrepreneurs to: venture with confidence, =
+design for scale, start small &amp; architect for growth.</em></p>
+</div>
+<p>------------------------------------------------------</p>
+<p><strong>Enter Your Startup in the AWS Start-up Challenge!</strong><br />=
+This year&#39;s <a href=3D"http://aws.amazon.com/startupchallenge/?utm_sour=
+ce=3Dawsblog&amp;utm_medium=3Dbanner&amp;utm_campaign=3DSM_awsblog_summerst=
+artup_title&amp;trk=3DSM_awsblog_ summerstartup" target=3D"_blank">AWS Star=
+t-up Challenge</a> is a worldwide competition with prizes at all levels, in=
+cluding up to $100,000 in cash, AWS credits, and more for the grand prize w=
+inner. <a href=3D"http://aws.amazon.com/startupchallenge/?utm_source=3Dawsb=
+log&amp;utm_medium=3Dbanner&amp;utm_campaign=3DSM_awsblog_summerstartup_tit=
+le&amp;trk=3DSM_awsblog_ summerstartup" target=3D"_blank"> Learn more and e=
+nter today!</a></p>
+<p>You can also follow&#0160;<a href=3D"http://twitter.com/#!/awsstartups" =
+target=3D"_self">@AWSStartups</a>&#0160;on Twitter for updates.</p>
+<p>&#0160;-rodica</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DpVX52o=
+GLHJY:Nj72mD8o5vA:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DpVX52oGLHJY:Nj72mD=
+8o5vA:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DpVX52oGLHJY:Nj72mD8o5vA:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/p=
+VX52oGLHJY?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--90e6ba6e8bcc0b7eec04acf9d00f--

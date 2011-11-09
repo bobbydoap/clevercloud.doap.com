@@ -1,0 +1,30 @@
+Return-Path: <wwwrun@doap.com>
+X-Original-To: tech@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 30)
+	id C72AD88608; Mon,  3 Oct 2011 09:21:35 -0700 (PDT)
+To: tech@doap.com
+Subject: A new user has registered on doap.com
+X-PHP-Originating-Script: 33:class-phpmailer.php
+Date: Mon, 3 Oct 2011 16:21:35 +0000
+From: "Doap.com Tech Team" <tech@doap.com>
+Message-ID: <4c9e5e66176c7cd9c0fca24bfe3553aa@www.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="UTF-8"
+
+Deploy On Any Platform (doap.com)
+<img src="http://doap.com/images/d5.png">
+<p>
+NOTICE<p>
+A new user has registered on doap.com!
+
+New user ID: sean <p>
+Email: sean@doap.com<P>
+
+Sincerely,<br>
+The Doap support team<br>
+<a href=mailto:support@doap.com>support@doap.com</a>
+

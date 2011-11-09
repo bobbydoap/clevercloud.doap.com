@@ -1,0 +1,33 @@
+Return-Path: <2011092914561130d5af27267b40179a6c7ac097133946@bounces.amazon.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mm-notify-out-1101.amazon.com (mm-notify-out-1101.amazon.com [207.171.164.35])
+	by ns1 (Postfix) with ESMTP id 371F7888BC
+	for <support@doap.com>; Thu, 29 Sep 2011 08:02:43 -0700 (PDT)
+Date: Thu, 29 Sep 2011 14:56:11 +0000 (UTC)
+From: AWS Notifications <no-reply@sns.amazonaws.com>
+To: "support@doap.com" <support@doap.com>
+Message-ID: <urn.correios.msg.2011092914561130d5af27267b40179a6c7ac097133946@1317308171433.rte-svc-na-1007.vdc.amazon.com>
+Subject: AWS Notification - Subscription Confirmation
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_473936_1752902390.1317308171432"
+Bounces-to: 2011092914561130d5af27267b40179a6c7ac097133946@bounces.amazon.com
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-AMAZON-RTE-VERSION: 2.0
+
+------=_Part_473936_1752902390.1317308171432
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+	<body>
+		<p>You have chosen to subscribe to the topic:
+		<br /><b>arn:aws:sns:us-west-1:700756930873:doap-db-cpu-load-over-75-percent</b></p>
+		<p>To confirm this subscription, click or visit the link below (If this was in error no action is necessary):
+		<br /><a href="https://sns.us-west-1.amazonaws.com/confirmation.html?TopicArn=arn:aws:sns:us-west-1:700756930873:doap-db-cpu-load-over-75-percent&Token=2336412f37fb687f5d51e6e241d3b4d5c8d13ecd2cc8fc5498c341ed6d45ac56f2b936d18375cf64fadfd2ce817b80d93fe0b7453bd51c8c760b18ac8340739af4285521b97c53a4ac47065dc47798c13e546dcc486b180a6b90fdb21dd5a8d78682a18742ce93ce48a443283fc96371bf4e0aaca13aa5f381cfef555781a77f930dd8ddc66b3866c6b88f7cac121c63&Endpoint=support@doap.com">Confirm subscription</a></p>
+		<p><small>Please do not reply directly to this e-mail. If you wish to remove yourself from receiving all future SNS subscription confirmation requests please send email to <a href="mailto:sns-opt-out@amazon.com">sns-opt-out</a></small></p>
+	</body>
+</html>
+------=_Part_473936_1752902390.1317308171432--
+

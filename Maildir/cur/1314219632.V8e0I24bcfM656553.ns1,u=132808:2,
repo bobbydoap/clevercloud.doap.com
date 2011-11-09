@@ -1,0 +1,237 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: tech@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gw0-f54.google.com (mail-gw0-f54.google.com [74.125.83.54])
+	by ns1 (Postfix) with ESMTP id 6C33C8902B
+	for <tech@doap.com>; Wed, 24 Aug 2011 14:00:32 -0700 (PDT)
+Received: by gwb15 with SMTP id 15so1405941gwb.13
+        for <tech@doap.com>; Wed, 24 Aug 2011 14:00:32 -0700 (PDT)
+Received: by 10.150.57.18 with SMTP id f18mr805400yba.86.1314219632381;
+        Wed, 24 Aug 2011 14:00:32 -0700 (PDT)
+Received: from [192.168.137.12] ([190.181.160.174])
+        by mx.google.com with ESMTPS id v11sm629130ybv.15.2011.08.24.14.00.30
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 24 Aug 2011 14:00:31 -0700 (PDT)
+References: <SNT128-W54F7E4D1CA813B094958A1C2110@phx.gbl> <CABAARr1FNWMhPtY0Z2_DemPYphoC49QHXyQGKortPELi_Px7Vg@mail.gmail.com> <SNT128-W496000CBCFB92A9E495327C2110@phx.gbl> <CABAARr112YCjqerUJfWWbVLbpccqQ=SgB_6q+W3HadD-wy=hvw@mail.gmail.com>
+In-Reply-To: <CABAARr112YCjqerUJfWWbVLbpccqQ=SgB_6q+W3HadD-wy=hvw@mail.gmail.com>
+Mime-Version: 1.0 (iPad Mail 8C148)
+Content-Transfer-Encoding: 7bit
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-7-906182506
+Message-Id: <3F97F7B1-2803-4F53-8E85-7168A7911B53@thehvac.net>
+Cc: Doap Tech Team <tech@doap.com>
+X-Mailer: iPad Mail (8C148)
+From: David Menache <dmenache@thehvac.net>
+Subject: Dns and mail
+Date: Wed, 24 Aug 2011 15:20:27 -0600
+To: Karl Hornung <karlhornung@gmail.com>
+
+
+--Apple-Mail-7-906182506
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+For sure, www.convectek.com and convectek.com.   it's Godaddy right... Uid? P=
+ass?  Are these e-mails all forwarding to their individual users like info@c=
+onvectek.com > Karl@Gmail.com or something like that for each?  Support@ and=
+ info@ can go to all on your team.  I'll set it all up on this end before ma=
+king the switch.
+
+David Menache
+dave@doap.com
+Skype:dmenache
+805-426-5216
+
+
+On Aug 24, 2011, at 2:49 PM, Karl Hornung <karlhornung@gmail.com> wrote:
+
+> info@convectek.com
+> karl@convectek.com
+> kyle@convectek.com
+> javier@convectek.com
+>=20
+> Sure, do what you like. Just make sure everything resolves to www.convecte=
+k.com, not www.convectek.doap.com
+>=20
+> On Wed, Aug 24, 2011 at 1:15 PM, David Menache <dave@doap.com> wrote:
+> Hey Karl,
+>=20
+> Any chance i could get ya to have your convectek.com name servers switched=
+ to ns1.doap.com and ns2.doap.com=20
+> I pre-created the dns zones so there will be no disruption for your site. =
+ i will be able to make you email addresses too once this is complete.
+>=20
+> i see you have info@convectek.com
+>=20
+> what else would you like....?  :)
+>=20
+> sales@convetek.com
+> karl@convetek.com
+> otheremployees@convetek.com
+> karlsmaillist@convetek.com
+>=20
+> etc...
+>=20
+> or if you are happy with how you are currently handling your mail i will i=
+nstead maintain your existing MX records at:
+>=20
+> convectek.com	MX	smtp.secureserver.net	IN	3600
+> convectek.com	MX	mailstore1.secureserver.net 	IN	3600
+>=20
+> and mail will stay as is while we can control the A records.
+>=20
+> hosting dns on their machines makes it a little harder to build in some ro=
+bustness and flexibility i'd like us to have.  for example automatically red=
+irecting the IP to a backup machine if the primary goes down. =20
+> Ill do it for ya if you give me the pass.
+> let me know=20
+> thanks
+> dave
+>=20
+>=20
+>=20
+>=20
+>=20
+> 	David Menache
+> dave@doap.com
+> US:805-426-5216=09
+>=20
+>=20
+> Date: Wed, 24 Aug 2011 12:52:38 -0700
+> Subject: Re: wine color menu and wine color buttons are back.
+> From: karlhornung@gmail.com
+> To: dave@doap.com
+>=20
+>=20
+> Thank you sir!
+>=20
+> On Wed, Aug 24, 2011 at 12:29 PM, David Menache <dmenache@hotmail.com> wro=
+te:
+> still workin on the drop down....
+>=20
+> 	David Menache
+> dave@doap.com
+> US:805-426-5216=09
+>=20
+>=20
+
+--Apple-Mail-7-906182506
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><body bgcolor=3D"#FFFFFF"><div>For sure, <a href=3D"http://www.convect=
+ek.com">www.convectek.com</a> and <a href=3D"http://convectek.com">convectek=
+.com</a>. &nbsp; it's Godaddy right... Uid? Pass? &nbsp;Are these e-mails al=
+l forwarding to their individual users like <a href=3D"mailto:info@convectek=
+.com">info@convectek.com</a> &gt; <a href=3D"mailto:Karl@Gmail.com">Karl@Gma=
+il.com</a> or something like that for each? &nbsp;Support@ and info@ can go t=
+o all on your team. &nbsp;I'll set it all up on this end before making the s=
+witch.</div><div><br><div><div>David Menache</div><div><a href=3D"mailto:dav=
+e@doap.com">dave@doap.com</a></div><div>Skype:dmenache</div><div>805-426-521=
+6</div><div><div><br></div></div></div></div><div><br>On Aug 24, 2011, at 2:=
+49 PM, Karl Hornung &lt;<a href=3D"mailto:karlhornung@gmail.com">karlhornung=
+@gmail.com</a>&gt; wrote:<br><br></div><div></div><blockquote type=3D"cite">=
+<div><a href=3D"mailto:info@convectek.com"><a href=3D"mailto:info@convectek.=
+com">info@convectek.com</a></a><br><a href=3D"mailto:karl@convectek.com"><a h=
+ref=3D"mailto:karl@convectek.com">karl@convectek.com</a></a><br><a href=3D"m=
+ailto:kyle@convectek.com"><a href=3D"mailto:kyle@convectek.com">kyle@convect=
+ek.com</a></a><br><a href=3D"mailto:javier@convectek.com"><a href=3D"mailto:=
+javier@convectek.com">javier@convectek.com</a></a><br>
+<br>Sure, do what you like. Just make sure everything resolves to <a href=3D=
+"http://www.convectek.com"><a href=3D"http://www.convectek.com">www.convecte=
+k.com</a></a>, not <a href=3D"http://www.convectek.doap.com"><a href=3D"http=
+://www.convectek.doap.com">www.convectek.doap.com</a></a><br><br><div class=3D=
+"gmail_quote">
+On Wed, Aug 24, 2011 at 1:15 PM, David Menache <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:dave@doap.com"><a href=3D"mailto:dave@doap.com">dave@doap.com</a>=
+</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:=
+ 0pt 0pt 0pt 0.8ex; border-left: 1px solid rgb(204, 204, 204); padding-left:=
+ 1ex;">
+
+
+
+
+<div><div dir=3D"ltr">
+Hey Karl,<br><br>Any chance i could get ya to have your <a href=3D"http://co=
+nvectek.com" target=3D"_blank"><a href=3D"http://convectek.com">convectek.co=
+m</a></a> name servers switched to <a href=3D"http://ns1.doap.com" target=3D=
+"_blank"><a href=3D"http://ns1.doap.com">ns1.doap.com</a></a> and <a href=3D=
+"http://ns2.doap.com" target=3D"_blank"><a href=3D"http://ns2.doap.com">ns2.=
+doap.com</a></a> <br>
+I pre-created the dns zones so there will be no disruption for your site.&nb=
+sp; i will be able to make you email addresses too once this is complete.<br=
+><br>i see you have <a href=3D"mailto:info@convectek.com" target=3D"_blank">=
+<a href=3D"mailto:info@convectek.com">info@convectek.com</a></a><br>
+<br>what else would you like....?&nbsp; :)<br><br><a href=3D"mailto:sales@co=
+nvetek.com" target=3D"_blank"><a href=3D"mailto:sales@convetek.com">sales@co=
+nvetek.com</a></a><br><a href=3D"mailto:karl@convetek.com" target=3D"_blank"=
+><a href=3D"mailto:karl@convetek.com">karl@convetek.com</a></a><br><a href=3D=
+"mailto:otheremployees@convetek.com" target=3D"_blank"><a href=3D"mailto:oth=
+eremployees@convetek.com">otheremployees@convetek.com</a></a><br>
+<a href=3D"mailto:karlsmaillist@convetek.com" target=3D"_blank"><a href=3D"m=
+ailto:karlsmaillist@convetek.com">karlsmaillist@convetek.com</a></a><br><br>=
+etc...<br><br>or if you are happy with how you are currently handling your m=
+ail i will instead maintain your existing MX records at:<br>
+<br><table><tbody><tr><td><a href=3D"http://convectek.com" target=3D"_blank"=
+><a href=3D"http://convectek.com">convectek.com</a></a></td><td>MX</td><td><=
+a href=3D"http://smtp.secureserver.net" target=3D"_blank"><a href=3D"http://=
+smtp.secureserver.net">smtp.secureserver.net</a></a> </td><td>IN</td><td>360=
+0</td></tr>
+<tr><td><a href=3D"http://convectek.com" target=3D"_blank"><a href=3D"http:/=
+/convectek.com">convectek.com</a></a></td><td>MX</td><td><a href=3D"http://m=
+ailstore1.secureserver.net" target=3D"_blank"><a href=3D"http://mailstore1.s=
+ecureserver.net">mailstore1.secureserver.net</a></a> </td><td>IN</td><td>360=
+0</td></tr></tbody></table>
+<br>and mail will stay as is while we can control the A records.<br><br>host=
+ing dns on their machines makes it a little harder to build in some robustne=
+ss and flexibility i'd like us to have.&nbsp; for example automatically redi=
+recting the IP to a backup machine if the primary goes down.&nbsp; <br>
+Ill do it for ya if you give me the pass.<br>let me know <br>thanks<br>dave<=
+div class=3D"im"><br><br><br><br><br><table style=3D"background-color: rgb(2=
+21, 221, 221); text-shadow: 2px 2px 2px rgb(0, 0, 0);" border=3D"0" cellpadd=
+ing=3D"5" cellspacing=3D"5">
+<tbody><tr><td><img src=3D"" width=3D"74" height=3D"74"></td><td><font style=
+=3D"font-size: 20pt;" face=3D"Verdana" size=3D"5"><b>David Menache</b></font=
+><font face=3D"Verdana"><br></font><font face=3D"Verdana"><i><font style=3D"=
+font-size: 12pt;" size=3D"3"><a><a href=3D"mailto:dave@doap.com">dave@doap.c=
+om</a></a></font></i></font><font face=3D"Verdana"><br>
+</font><font style=3D"font-size: 12pt;" face=3D"Verdana" size=3D"3">US:<a hr=
+ef=3D"tel:805-426-5216" value=3D"+18054265216" target=3D"_blank">805-426-521=
+6</a></font></td><td><b><img src=3D""></b></td></tr></tbody></table><br><br>=
+</div><div>
+<hr>Date: Wed, 24 Aug 2011 12:52:38 -0700<br>Subject: Re: wine color menu an=
+d wine color buttons are back.<br>From: <a href=3D"mailto:karlhornung@gmail.=
+com" target=3D"_blank"><a href=3D"mailto:karlhornung@gmail.com">karlhornung@=
+gmail.com</a></a><br>To: <a href=3D"mailto:dave@doap.com" target=3D"_blank">=
+<a href=3D"mailto:dave@doap.com">dave@doap.com</a></a><div>
+<div></div><div class=3D"h5"><br><br>Thank you sir!<br><br><div>On Wed, Aug 2=
+4, 2011 at 12:29 PM, David Menache <span dir=3D"ltr">&lt;<a href=3D"mailto:d=
+menache@hotmail.com" target=3D"_blank"><a href=3D"mailto:dmenache@hotmail.co=
+m">dmenache@hotmail.com</a></a>&gt;</span> wrote:<br>
+<blockquote style=3D"padding-left: 1ex;">
+
+
+
+
+<div><div dir=3D"ltr">
+still workin on the drop down....<br><font color=3D"#888888"><br><table styl=
+e=3D"background-color: rgb(221, 221, 221);" border=3D"0" cellpadding=3D"5" c=
+ellspacing=3D"5"><tbody><tr><td><img src=3D"" width=3D"74" height=3D"74"></t=
+d>
+<td><font style=3D"font-size: 20pt;" face=3D"Verdana" size=3D"5"><b>David Me=
+nache</b></font><font face=3D"Verdana"><br></font><font face=3D"Verdana"><i>=
+<font style=3D"font-size: 12pt;" size=3D"3"><a><a href=3D"mailto:dave@doap.c=
+om">dave@doap.com</a></a></font></i></font><font face=3D"Verdana"><br>
+
+</font><font style=3D"font-size: 12pt;" face=3D"Verdana" size=3D"3">US:<a>80=
+5-426-5216</a></font></td><td><b><img src=3D""></b></td></tr></tbody></table=
+>
+ 		 	   		  </font></div></div>
+</blockquote></div><br></div></div></div> 		 	   	=
+	  </div></div>
+</blockquote></div><br>
+</div></blockquote></body></html>=
+
+--Apple-Mail-7-906182506--

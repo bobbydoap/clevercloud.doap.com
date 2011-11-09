@@ -1,0 +1,33 @@
+Return-Path: <wwwrun@doap.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 30)
+	id 3156D88E46; Tue, 23 Aug 2011 07:37:30 -0700 (PDT)
+To: bobby@doap.com
+Subject: [Play] Please moderate: "Hello world!"
+X-PHP-Originating-Script: 33:class-phpmailer.php
+Date: Tue, 23 Aug 2011 14:37:30 +0000
+From: WordPress <wordpress@play.doap.com>
+Message-ID: <335d49689bc904046ac05e3ba886a18a@play.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+A new comment on the post "Hello world!" is waiting for your approval
+http://play.doap.com/?p=1
+
+Author : Jon (IP: 190.181.160.174 , WiMax160-174.yota.com.ni)
+E-mail : jon@thehvac.net
+URL    : http://www.thehvac.net
+Whois  : http://whois.arin.net/rest/ip/190.181.160.174
+Comment: 
+Another rockin website by the pro developers at doap.com.
+
+Approve it: http://play.doap.com/wp-admin/comment.php?action=approve&c=2
+Trash it: http://play.doap.com/wp-admin/comment.php?action=trash&c=2
+Spam it: http://play.doap.com/wp-admin/comment.php?action=spam&c=2
+Currently 1 comment is waiting for approval. Please visit the moderation panel:
+http://play.doap.com/wp-admin/edit-comments.php?comment_status=moderated
+

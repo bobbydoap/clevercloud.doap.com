@@ -1,0 +1,33 @@
+Return-Path: <20110929154608b03d1af97ed64ac280f79ba42e8cbd1a@bounces.amazon.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from smtp-out-212-36.amazon.com (smtp-out-212-36.amazon.com [72.21.212.36])
+	by ns1 (Postfix) with ESMTP id B81ED888C4
+	for <support@doap.com>; Thu, 29 Sep 2011 08:46:08 -0700 (PDT)
+Date: Thu, 29 Sep 2011 15:46:08 +0000 (UTC)
+From: AWS Notifications <no-reply@sns.amazonaws.com>
+To: "support@doap.com" <support@doap.com>
+Message-ID: <urn.correios.msg.20110929154608b03d1af97ed64ac280f79ba42e8cbd1a@1317311168632.rte-svc-na-6008.iad6.amazon.com>
+Subject: AWS Notification - Subscription Confirmation
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_479450_21675910.1317311168630"
+Bounces-to: 20110929154608b03d1af97ed64ac280f79ba42e8cbd1a@bounces.amazon.com
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-AMAZON-RTE-VERSION: 2.0
+
+------=_Part_479450_21675910.1317311168630
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+	<body>
+		<p>You have chosen to subscribe to the topic:
+		<br /><b>arn:aws:sns:us-west-1:700756930873:db-connections-over-10-per5min</b></p>
+		<p>To confirm this subscription, click or visit the link below (If this was in error no action is necessary):
+		<br /><a href="https://sns.us-west-1.amazonaws.com/confirmation.html?TopicArn=arn:aws:sns:us-west-1:700756930873:db-connections-over-10-per5min&Token=2336412f37fb687f5d51e6e241d3b4d5c8d13ecd2cc8fdacb08f6446651587d5f535c079e0df60ed8f2bc566cd7d14c67aa55d04f9d683b82dcbef21b8340cf021bb7cceab1132e461741a0961c08fd0b69de677f5a4afae3841feaa26fd5dec1897d4521541c4ba735613bc37d727a892cc3c1282b95538fd983f045307480269acfb29940533c6e3fe1a446a8900eb&Endpoint=support@doap.com">Confirm subscription</a></p>
+		<p><small>Please do not reply directly to this e-mail. If you wish to remove yourself from receiving all future SNS subscription confirmation requests please send email to <a href="mailto:sns-opt-out@amazon.com">sns-opt-out</a></small></p>
+	</body>
+</html>
+------=_Part_479450_21675910.1317311168630--
+

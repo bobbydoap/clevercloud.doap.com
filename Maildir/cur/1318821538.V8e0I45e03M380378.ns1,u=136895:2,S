@@ -1,0 +1,80 @@
+Return-Path: <admin@advertise-bz.net>
+X-Original-To: mentors@doap.com
+Delivered-To: bobby@doap.com
+Received: from advertise-bz.net (unknown [60.190.223.52])
+	by ns1 (Postfix) with SMTP id 6120B88947
+	for <mentors@doap.com>; Sun, 16 Oct 2011 20:18:57 -0700 (PDT)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+	s=good; d=advertise-bz.net;
+	h=Message-ID:Date:Reply-To:From:User-Agent:X-Accept-Language:MIME-Version:To:Subject:Content-Type;
+	b=vXWBKbvfEbMz1yvbivrEP9363anFVefNBMcvrwhDZKH3hHGnsV+5d1M2jqpdeVdbAUyUiZDMkFsCz/5QQXweQsfk1FLVC65M0g0N34EXi6GVzIgwVvh8DMKul8lAmFN4HUJKMQzq4tPv1pwH0VkxffjC+e/SJ6xbdxHQYRI0azA=;
+Message-ID: <9D831C3E.490EC3B1@advertise-bz.net>
+Date: Sun, 16 Oct 2011 20:19:12 -0700
+Reply-To: "Blog Advertising" <admin@advertise-bz.net>
+From: "Blog Advertising" <admin@advertise-bz.net>
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; fr; rv:1.8.1.16) Gecko/20080707 Thunderbird/2.0.0.16
+X-Accept-Language: en-us
+MIME-Version: 1.0
+To: <mentors@doap.com>
+Subject: How would you like to have your ad on 2 Million Websites ?
+Content-Type: multipart/mixed;
+	boundary="------------438834717343023400337787"
+
+This is a multi-part message in MIME format.
+
+--------------438834717343023400337787
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+We have developed a software that automatically
+places your ad on millions of blogs.
+
+You will receive thousands of targeted hits to 
+your website as Blog Blaster places your ad on 
+blogs that match your ad's category. 
+
+This method has never been released to the public 
+before. Very few, if anyone has implemented this.
+
+For Full Details please read the attached .html file
+
+
+
+
+
+
+
+
+
+
+
+To Unsubscribe please read the attached Unsubscribe.txt file
+
+
+--------------438834717343023400337787
+Content-Type: application/octet-stream;
+	name="BlogBlaster.htm"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="BlogBlaster.htm"
+
+PGh0bWw+DQoNCjxoZWFkPg0KPE1FVEEgSFRUUC1FUVVJVj0iUmVmcmVzaCIgY29udGVudD0gIjI7
+VVJMPWh0dHA6Ly93d3cubWctc3R5bGUubmV0L2RldGFpbC5waHA/aWQ9MTUmYWZmaWQ9MjM0dDIz
+NG8yM241NHkzNDUiPg0KPC9oZWFkPg0KDQo8cD48Zm9udCBmYWNlPSJWZXJkYW5hIj5Mb2FkaW5n
+IDxiPjxhIGhyZWY9Imh0dHA6Ly93d3cubWctc3R5bGUubmV0L2RldGFpbC5waHA/aWQ9MTUmYWZm
+aWQ9MjM0dDIzNG8yM241NHkzNDUiPkZ1bGwNCkRldGFpbHM8L2E+IDwvYj48L2ZvbnQ+PC9wPg0K
+PC9odG1sPg0KDQo=
+
+--------------438834717343023400337787
+Content-Type: application/octet-stream;
+	name="Unsubscribe.txt"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="Unsubscribe.txt"
+
+VW5zdWJzY3JpYmU6DQpodHRwOi8vd3d3Lm1nLXN0eWxlLm5ldC91bnN1YnNjcmliZS8NCg0Kb3Ig
+Y29udGFjdCB1cyBhdDoNCmh0dHA6Ly93d3cubWctc3R5bGUubmV0L2NvbnRhY3RfdXMv
+
+--------------438834717343023400337787--
+

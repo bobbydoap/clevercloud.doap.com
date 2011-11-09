@@ -1,0 +1,19 @@
+Return-Path: <dave@doap.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 1001)
+	id C68FE88836; Tue,  1 Nov 2011 08:18:54 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1])
+	by ns1 (Postfix) with ESMTP id C4E9788835;
+	Tue,  1 Nov 2011 08:18:54 -0700 (PDT)
+Date: Tue, 1 Nov 2011 08:18:54 -0700 (PDT)
+From: dave@doap.com
+To: dave@doap.com
+cc: support@doap.com
+Subject: test
+Message-ID: <alpine.LNX.2.00.1111010818320.19114@doap.com>
+User-Agent: Alpine 2.00 (LNX 1167 2008-08-23)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; format=flowed; charset=US-ASCII
+
+motest

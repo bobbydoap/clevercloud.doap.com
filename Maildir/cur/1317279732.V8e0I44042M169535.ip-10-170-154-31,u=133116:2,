@@ -1,0 +1,74 @@
+Return-Path: <glendoraaircon+caf_=sales=doap.com@thehvac.net>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yw0-f54.google.com (mail-yw0-f54.google.com [209.85.213.54])
+	by ns1 (Postfix) with ESMTP id D4D0D888A9
+	for <sales@doap.com>; Thu, 29 Sep 2011 00:02:11 -0700 (PDT)
+Received: by ywp17 with SMTP id 17so324462ywp.13
+        for <sales@doap.com>; Thu, 29 Sep 2011 00:02:11 -0700 (PDT)
+Received: by 10.236.176.39 with SMTP id a27mr32134193yhm.25.1317279730969;
+        Thu, 29 Sep 2011 00:02:10 -0700 (PDT)
+X-Forwarded-To: sales@doap.com
+X-Forwarded-For: glendoraaircon@thehvac.net sales@doap.com
+Delivered-To: glendoraaircon@thehvac.net
+Received: by 10.147.168.20 with SMTP id v20cs116813yao;
+        Thu, 29 Sep 2011 00:02:09 -0700 (PDT)
+Received: by 10.42.158.197 with SMTP id i5mr268569icx.156.1317279727463;
+        Thu, 29 Sep 2011 00:02:07 -0700 (PDT)
+Received: from mail-iy0-f199.google.com (mail-iy0-f199.google.com [209.85.210.199])
+        by mx.google.com with ESMTPS id u3si240089icz.136.2011.09.29.00.02.06
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 29 Sep 2011 00:02:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 37heETg8KDqcHKdVYKZ-UVYLWSfNVVNSL.JVTNSLUKVYHHPYJVUaOLOcHJ.ULa@usercomm.bounces.google.com designates 209.85.210.199 as permitted sender) client-ip=209.85.210.199;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of 37heETg8KDqcHKdVYKZ-UVYLWSfNVVNSL.JVTNSLUKVYHHPYJVUaOLOcHJ.ULa@usercomm.bounces.google.com designates 209.85.210.199 as permitted sender) smtp.mail=37heETg8KDqcHKdVYKZ-UVYLWSfNVVNSL.JVTNSLUKVYHHPYJVUaOLOcHJ.ULa@usercomm.bounces.google.com; dkim=pass header.i=@google.com
+Received: by iaen33 with SMTP id n33so145154iae.10
+        for <glendoraaircon@thehvac.net>; Thu, 29 Sep 2011 00:02:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:message-id:date:subject:from:to:content-type;
+        bh=FnbRsIb612mA1JNKT5VbKZs9gYqZ3+N80IRYgaBpqaU=;
+        b=mHIaLzQ7FD2AMj5JCi9/sAhbNrnw8yHO57xOrnKt1EWYyVnlq4yW2StpqMm+yK+ZB0
+         jQru8PPHxW071Krnk4Kg==
+MIME-Version: 1.0
+Received: by 10.43.44.198 with SMTP id uh6mr95778icb.4.1317279726474; Thu, 29
+ Sep 2011 00:02:06 -0700 (PDT)
+Message-ID: <1317279726448.dcaa0d53-cf1b-4fa3-b5ff-4a465fc2d30f@google.com>
+Date: Thu, 29 Sep 2011 07:02:06 +0000
+Subject: AdWords rule "Raise bids to first page CPC" execution details
+From: adwords-noreply@google.com
+To: glendoraaircon@thehvac.net
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Hello,
+
+The rule "Raise bids to first page CPC" you scheduled has completed but has  
+not changed anything in your account. Click the link below to get more  
+details.
+https://adwords.google.com/cm/CampaignMgmt?__u=6763718275&__c=3094442875#rba.rba_r
+
+Please note that you'll need to sign in to your account before you can  
+access this page.
+
+If you have any comments or suggestions about this feature, please let us  
+know at: https://www.google.com/appserve/fb/forms/awfeaturesurvey
+
+Learn more about how to automate your actions in AdWords by visiting the  
+Help Center:
+https://adwords.google.com/support/aw/bin/answer.py?answer=1062065&amp;hl=en
+
+Sincerely,
+
+The Google AdWords Team
+
+------------------------------------------------------------
+Your AdWords account number: 7218784655
+
+This message was sent from a notification-only email address that does not  
+accept incoming email. Please do not reply to this message. If you have any  
+questions, please visit the Google AdWords Help Center at  
+https://adwords.google.com/support/?hl=en to find answers to frequently  
+asked questions and a 'contact us' link near the bottom of the page.
+
+If you wish to stop receiving these emails, please see  
+https://adwords.google.com/support/aw/bin/answer.py?answer=1388117&amp;hl=en.
+------------------------------------------------------------

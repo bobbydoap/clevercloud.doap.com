@@ -1,0 +1,80 @@
+Return-Path: <dave@doap.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from outmail137171.authsmtp.net (outmail137171.authsmtp.net [62.13.137.171])
+	by ns1 (Postfix) with ESMTP id 2F5A98866F
+	for <support@doap.com>; Mon, 26 Sep 2011 08:23:34 -0700 (PDT)
+Received: from mail-c194.authsmtp.com (mail-c194.authsmtp.com [62.13.128.121])
+	by punt7.authsmtp.com (8.14.2/8.14.2/Kp) with ESMTP id p8QFNW7d021085
+	for <support@doap.com>; Mon, 26 Sep 2011 16:23:32 +0100 (BST)
+Received: from mail-qy0-f182.google.com (mail-qy0-f182.google.com [209.85.216.182])
+	(authenticated bits=0)
+	by mail.authsmtp.com (8.14.2/8.14.2) with ESMTP id p8QFNSx4091691
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <support@doap.com>; Mon, 26 Sep 2011 16:23:29 +0100 (BST)
+Received: by qyk4 with SMTP id 4so6880549qyk.13
+        for <support@doap.com>; Mon, 26 Sep 2011 08:23:28 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.224.216.138 with SMTP id hi10mr5078075qab.118.1317050608064;
+ Mon, 26 Sep 2011 08:23:28 -0700 (PDT)
+Reply-To: dave@doap.com
+Received: by 10.229.89.71 with HTTP; Mon, 26 Sep 2011 08:23:27 -0700 (PDT)
+X-Originating-IP: [190.181.160.105]
+Date: Mon, 26 Sep 2011 09:23:27 -0600
+Message-ID: <CANCpuC=1nK9vpuv0kV=Pq06r0nfX2UMQzg=UxUbicOrJTL6j+w@mail.gmail.com>
+Subject: i think things are ok now
+From: David Menache <dave@doap.com>
+To: support@doap.com
+Content-Type: multipart/alternative; boundary=20cf3005dd14a51a6d04add9bde0
+X-Server-Quench: 7cb9703d-e853-11e0-80b9-0022640b883e
+X-AuthReport-Spam: If SPAM / abuse - report it at: http://www.authsmtp.com/abuse
+X-AuthRoute: OCd2aAodClZZRRoX Ii8DBTcGQgIgMAZR GQcENxdyLF0ATUJa NUNMdAQUC1AEAgsB AmcbWlJeUl57W2o7 aQpYcw1YfEhPWRtr WEpWQFdNFUsoCX13 eH1WVhl7dgNPeTB1 YUBmEHcIDk19dUUp XxtcEG4bZGY1aH0X UBJRagNUcgFMeh8X Ylh8AT1UcSFfPyQ7 VxMzPjY+Jn1WMikd RQJFK1UNKQD/
+X-Authentic-SMTP: 61633538323839.1015:706
+X-AuthFastPath: 0 (Was 255)
+X-AuthVirus-Status: No virus detected - but ensure you scan with your own anti-virus system.
+
+--20cf3005dd14a51a6d04add9bde0
+Content-Type: text/plain; charset=ISO-8859-1
+
+with mail, i added a new smtp gateway to try to combat the amazon blacklist
+error thats been plaguing us.
+
+-- 
+David Menache
+dave@doap.com
+<Dave@doap.com>http://doap.com
+   .-.
+   : :
+ .-' : .--.  .--.  .---.    .--.  .--. ,-.,-.,-.
+' .; :' .; :' .; ; : .; ` _'  ..'' .; :: ,. ,. :
+`.__.'`.__.'`.__,_;: ._.':_;`.__.'`.__.':_;:_;:_;
+                   : :
+                   :_;
+
+--20cf3005dd14a51a6d04add9bde0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+with mail, i added a new smtp gateway to try to combat the amazon blacklist=
+ error thats been plaguing us.<br clear=3D"all"><div><br></div>-- <br><span=
+ style=3D"font-family:courier new,monospace">David Menache<br><a href=3D"ma=
+ilto:dave@doap.com" target=3D"_blank">dave@doap.com</a><br>
+<a href=3D"mailto:Dave@doap.com" target=3D"_blank"><span></span></a><a href=
+=3D"http://doap.com" target=3D"_blank">http://doap.com</a><br>=A0=A0 .-.</s=
+pan><br style=3D"font-family:courier new,monospace"><span style=3D"font-fam=
+ily:courier new,monospace">=A0=A0 : :</span><br style=3D"font-family:courie=
+r new,monospace">
+<span style=3D"font-family:courier new,monospace">=A0.-&#39; : .--.=A0 .--.=
+=A0 .---.=A0=A0=A0 .--.=A0 .--. ,-.,-.,-.</span><br style=3D"font-family:co=
+urier new,monospace"><span style=3D"font-family:courier new,monospace">&#39=
+; .; :&#39; .; :&#39; .; ; : .; ` _&#39;=A0 ..&#39;&#39; .; :: ,. ,. :</spa=
+n><br style=3D"font-family:courier new,monospace">
+<span style=3D"font-family:courier new,monospace">`.__.&#39;`.__.&#39;`.__,=
+_;: ._.&#39;:_;`.__.&#39;`.__.&#39;:_;:_;:_;</span><br style=3D"font-family=
+:courier new,monospace"><span style=3D"font-family:courier new,monospace">=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 : :</span><br style=
+=3D"font-family:courier new,monospace">
+<span style=3D"font-family:courier new,monospace">=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 :_;</span><br><br>
+
+--20cf3005dd14a51a6d04add9bde0--

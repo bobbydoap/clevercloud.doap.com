@@ -1,0 +1,82 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-vw0-f54.google.com (mail-vw0-f54.google.com [209.85.212.54])
+	by ns1 (Postfix) with ESMTP id C4C4B8884A
+	for <sales@doap.com>; Wed, 28 Sep 2011 11:04:35 -0700 (PDT)
+Received: by vws11 with SMTP id 11so10161603vws.13
+        for <sales@doap.com>; Wed, 28 Sep 2011 11:04:35 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.229.197.233 with SMTP id el41mr6873768qcb.6.1317233075564;
+ Wed, 28 Sep 2011 11:04:35 -0700 (PDT)
+Received: by 10.229.89.71 with HTTP; Wed, 28 Sep 2011 11:04:35 -0700 (PDT)
+X-Originating-IP: [190.181.160.105]
+Reply-To: dave@doap.com
+In-Reply-To: <CANCpuCm8QABHPm4NVMaZs8+1AGRBf=aUa_R2QenQXQhOmbr6DA@mail.gmail.com>
+References: <CANCpuCm8QABHPm4NVMaZs8+1AGRBf=aUa_R2QenQXQhOmbr6DA@mail.gmail.com>
+Date: Wed, 28 Sep 2011 12:04:35 -0600
+Message-ID: <CANCpuCkORbsRLke-4wt9wkZAcDwn5ko8UiTbVQG-wfjxbMGM5Q@mail.gmail.com>
+Subject: Fwd: progress report, products table
+From: David Menache <dmenache@thehvac.net>
+To: sales@doap.com
+Content-Type: multipart/alternative; boundary=001636d342e68e311904ae0439f8
+
+--001636d342e68e311904ae0439f8
+Content-Type: text/plain; charset=ISO-8859-1
+
+---------- Forwarded message ----------
+From: David Menache <dmenache@thehvac.net>
+Date: Wed, Sep 28, 2011 at 12:03 PM
+Subject: progress report, products table
+To: Pat Santana <psantana@thehvac.net>
+Cc: Laura Birch <Lbirch@hvac-marketing.com>
+
+
+Hi Pat,
+
+It's coming right along.  I think you'll be really happy.  You are right, it
+is a big job with lots of moving pieces.  We have a new globalhvac.net user
+list built with default passwords for all 2500 customers and a framework for
+them to log in with price levels.  I'm ready for product lists beyond the
+test list ya gave me.  The limited lists arent sufficient to get the front
+end paging properly.  Also, I noticed there are no prices.  I'm suspecting
+there is a table with columns similar to (SKU, PRICE, STORE_ID)  ...I just
+made these up as an example.  The previous exports you sent me were great
+and you really seem to know whats going on with this stuff so I have
+complete confidence.   Oh, if the files are too big to mail, i have an
+amazon globalhvac.net bucket that can handle up to 4TB files!  Ok cheers,
+thanks for the help.
+
+Dave
+
+--001636d342e68e311904ae0439f8
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">---------- Forwarded message ----------<=
+br>From: <b class=3D"gmail_sendername">David Menache</b> <span dir=3D"ltr">=
+&lt;<a href=3D"mailto:dmenache@thehvac.net">dmenache@thehvac.net</a>&gt;</s=
+pan><br>
+Date: Wed, Sep 28, 2011 at 12:03 PM<br>Subject: progress report, products t=
+able<br>To: Pat Santana &lt;<a href=3D"mailto:psantana@thehvac.net">psantan=
+a@thehvac.net</a>&gt;<br>Cc: Laura Birch &lt;<a href=3D"mailto:Lbirch@hvac-=
+marketing.com">Lbirch@hvac-marketing.com</a>&gt;<br>
+<br><br>Hi Pat,<div><br></div><div>It&#39;s coming right along. =A0I think =
+you&#39;ll be really happy. =A0You are right, it is a big job with lots of =
+moving pieces. =A0We have a new <a href=3D"http://globalhvac.net" target=3D=
+"_blank">globalhvac.net</a> user list built with default passwords for all =
+2500 customers and a framework for them to log in with price levels. =A0I&#=
+39;m ready for product lists beyond the test list ya gave me. =A0The limite=
+d lists arent sufficient to get the front end paging properly. =A0Also, I n=
+oticed there are no prices. =A0I&#39;m suspecting there is a table with col=
+umns similar to (SKU, PRICE, STORE_ID) =A0...I just made these up as an exa=
+mple. =A0The previous exports you sent me were great and you really seem to=
+ know whats going on with this stuff so I have complete confidence. =A0 Oh,=
+ if the files are too big to mail, i have an amazon <a href=3D"http://globa=
+lhvac.net" target=3D"_blank">globalhvac.net</a> bucket that can handle up t=
+o 4TB files! =A0Ok cheers, thanks for the help.</div>
+
+<div><br></div><div>Dave =A0 =A0=A0</div>
+</div><br>
+
+--001636d342e68e311904ae0439f8--

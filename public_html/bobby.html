@@ -1,0 +1,33 @@
+<html>                                                                  
+ <head>
+ <script type="text/javascript" src="http://doap.com/jquery-1.6.4.js"></script>          
+<style>
+ .red { background-color: red; }
+ .blue { background-color: blue; }
+</style> 
+ <script type="text/javascript">                                         
+   // we will add our javascript code here                                     
+  $(document).ready(function() {
+   // do stuff when DOM is ready
+      $("#orderedlist li:even").hover(function() {
+     $(this).addClass("blue");
+   },function(){
+     $(this).removeClass("blue");
+   });
+       });
+ </script>   
+                                                           
+ </head>                                                                 
+ <body>                                                                  
+ <p>
+     <!-- we will add our HTML content here -->  
+      <a href="">Link</a>                                      
+</p>
+ <ol id="orderedlist">
+  <li>First element</li>
+  <li id=listitem2>Second element </li>
+  <li>Third elementul </li>
+ </ol>  
+ </body>                                                                 
+ </html>
+Dmenache

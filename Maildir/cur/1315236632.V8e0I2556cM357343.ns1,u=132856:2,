@@ -1,0 +1,202 @@
+Return-Path: <mike_menache@yahoo.com>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from nm16.bullet.mail.bf1.yahoo.com (nm16.bullet.mail.bf1.yahoo.com [98.139.212.175])
+	by ns1 (Postfix) with SMTP id D0DD98868F
+	for <sales@doap.com>; Mon,  5 Sep 2011 08:30:31 -0700 (PDT)
+Received: from [98.139.212.147] by nm16.bullet.mail.bf1.yahoo.com with NNFMP; 05 Sep 2011 15:30:31 -0000
+Received: from [98.139.212.228] by tm4.bullet.mail.bf1.yahoo.com with NNFMP; 05 Sep 2011 15:30:31 -0000
+Received: from [127.0.0.1] by omp1037.mail.bf1.yahoo.com with NNFMP; 05 Sep 2011 15:30:31 -0000
+X-Yahoo-Newman-Id: 620457.790.bm@omp1037.mail.bf1.yahoo.com
+Received: (qmail 28296 invoked from network); 5 Sep 2011 15:30:31 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com;
+  h=DKIM-Signature:X-Yahoo-Newman-Property:X-YMail-OSG:X-Yahoo-SMTP:Received:References:Mime-Version:In-Reply-To:X-Apple-Yahoo-Original-Message-Folder:Content-Type:Content-Transfer-Encoding:Message-Id:Cc:X-Mailer:From:X-Apple-Yahoo-Replied-Msgid:Subject:Date:To;
+  b=bXVmReNCzSkBC/8nXXxlbGnnRb6WzgkquVRtGiojOrvkkdM3O/UBzcD5W+gCZZyYkVTDRBzjXDUcEwOPgxLJcKxeXsK7FvoeW04mgtkEEmMg2Y/knpyQOPwjHWNqr0FzsWrai7iFwmALMVi6RiLOSswhOpptqTXALugtvYQwMn8=  ;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1315236631; bh=l0/k4s1WEA+bbR2ItAZC8i7ENLvpFtdegJW60xjqK6M=; h=X-Yahoo-Newman-Property:X-YMail-OSG:X-Yahoo-SMTP:Received:References:Mime-Version:In-Reply-To:X-Apple-Yahoo-Original-Message-Folder:Content-Type:Content-Transfer-Encoding:Message-Id:Cc:X-Mailer:From:X-Apple-Yahoo-Replied-Msgid:Subject:Date:To; b=IpCHWWrnwxqyYIikIh+MPouS4iRk+wC7VUR3by1h/hqWVv9QhU32Cpbw3d15WME8uA2opnKtNisc4FyZEzzEsng4Sn2Ww3bm/o5jCKR5HEP5ekU0gSwBeGrQJcbJY6Ztq8VRQhM+4mTC4+dtpAmYjP5BWP4xFdaPf9U6jxPoQyg=
+X-Yahoo-Newman-Property: ymail-3
+X-YMail-OSG: anEA5lIVM1kqOYYNdenb6waOC765byTxiVdmi8nA0lz76C_
+ ICPS4oZ_h5YE1I_c7dERz8j657BQ9LjYnW.Q6bDYZZH5OM.CzZznJfsMzQNe
+ n79EQzw1ntTMEVtKwnW8JsKYBuBpeX0u_Q8sPnLJ2CuZFU3xDXgYDAflXLZO
+ chxk6IS5IjFzV6C9zS2zK4ONhrypVKeu8yw75puBw5lLx2XpLR9hS1lcDzIj
+ QbLDI0AlZaAv37qDzZ1gZiVljQkO5GFvgB1TnV.GxQRrQkjt4sapOIb46mBI
+ 5mZByjmNaglOb9Pfd6v32.WUMaw21U6WH6E2aeTKpDj4QsjUKmffDtGdFG_J
+ pFeZJSwxjBvh6dyPyrYFvLOu_wXn6Rf_Nz9jgDGhjg1L0sPI1DrVETdJvN70
+ VkHvLjJV5N_uim8DlnaD8zDRkO_Z8G4fAmdxrZyNVOienm_R_oEY.r3sT8_s
+ NiY.GH31U4VTl5hgFYDWPfMKTEtqTrMNoI55aXN2EMSb7.ik7
+X-Yahoo-SMTP: fFDe3UaswBBSXfcqFitaOK.q37ar9DUvCQ--
+Received: from [192.168.1.83] (mike_menache@99.151.2.218 with xymcookie)
+        by smtp115-mob.biz.mail.bf1.yahoo.com with SMTP; 05 Sep 2011 08:30:30 -0700 PDT
+References: <BANLkTi=G67Mr9xKR8gvoDpRt06eDhvMWFg@mail.gmail.com> <SNT128-W6207E5A39AEF343EBDDA9C2180@phx.gbl> <CABAARr3e-OiMEcLnP7YKYWN1kiNUzidf6hrUsL8Zjv2oayD36g@mail.gmail.com> <CABAARr15G2EybVWLPcPyrT--0theW-djh9i_RX+=ayKQPX6zmw@mail.gmail.com> <snt0-eas180A3E3F130110938FA38AFC21D0@phx.gbl>
+Mime-Version: 1.0 (iPhone Mail 8L1)
+In-Reply-To: <snt0-eas180A3E3F130110938FA38AFC21D0@phx.gbl>
+X-Apple-Yahoo-Original-Message-Folder: Inbox
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-1--225504443
+Content-Transfer-Encoding: 7bit
+Message-Id: <C7C42388-21D1-4135-8620-3C3FF19D96D3@yahoo.com>
+Cc: Karl Hornung <karlhornung@gmail.com>, Doap Sales <sales@doap.com>
+X-Mailer: iPhone Mail (8L1)
+From: Mike Menache <mike_menache@yahoo.com>
+X-Apple-Yahoo-Replied-Msgid: 1_3041164_APjTi2IAAGQSTmRKmA4RLjLZ6zU
+Subject: Re: Doap.com Embroidered Shirts 1st order?
+Date: Mon, 5 Sep 2011 08:30:24 -0700
+To: David Menache <dmenache@hotmail.com>
+
+
+--Apple-Mail-1--225504443
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+We also offer embroidered Nike custom branded clothing that can be drop ship=
+ped anywhere in the world direct from Nike at a fraction of the cost!
+See http://gogolfinc.com=20
+
+M
+
+--
+Mike Menache's iPhone
+
+On Sep 4, 2011, at 9:24 PM, David Menache <dmenache@hotmail.com> wrote:
+
+> Karl, we do embroidery! =20
+>=20
+> A bitmap is fine but you will probably need a higher res image than what w=
+e have from your website.   I have a state of the art embroidery machine and=
+ the best software for making the stitch files.  I don't know why I haven't b=
+een offering this to the hvac crowd sooner!=20
+>=20
+>  I can pay one of my brothers or sister in law to run them up there.   The=
+y are all awesome techies and can create a perfect stitch file that you can u=
+se anywhere from the logo we have.
+>=20
+> I'm not sure what price to offer the service for since you are the first o=
+ne but whether you want the whole deal, hats, shirts, etc, or just the stitc=
+h file, we can get it all done for you right up there in Danville!
+>=20
+> Re the video editing job, I know a great guy down here for that one.  Send=
+ me more details about the video formats.
+>=20
+> Cheers!
+>=20
+> David Menache
+> dave@doap.com
+> Skype:dmenache
+> 805-426-5216
+>=20
+>=20
+> On Sep 4, 2011, at 9:18 PM, "Karl Hornung" <karlhornung@gmail.com> wrote:
+>=20
+>> Hi Dave,
+>> any luck finding the convectek vector file?
+>>=20
+>> Also, do you know anybody who can inexpensively edit video?
+>>=20
+>> Cheers
+>>=20
+>> On Fri, Sep 2, 2011 at 11:30 AM, Karl Hornung <karlhornung@gmail.com> wro=
+te:
+>> Hi David,
+>> do you have the ConvecTek logo in vector format without the Heat & Coolin=
+g + tagline? I recall this is what you had your friend the artist re-generat=
+e. I have the original I supplied to you, but not the new one you commission=
+ed at higher res for the website. A friend of mine is making some embroidere=
+d shirts, and he needs the original. I gave him the fonts for Heating & Cool=
+ing; just need the ConvecTek vector.
+>>=20
+>> Cheers
+>>=20
+>>=20
+>> On Fri, Sep 2, 2011 at 11:17 AM, David Menache <dmenache@hotmail.com> wro=
+te:
+>> graphics guys orig logo file
+>> From: david@cadimo.com
+>> Date: Thu, 7 Apr 2011 17:04:15 -0600
+>> Subject: logo Convectek
+>> To: dmenache@hotmail.com
+>>=20
+>> here a perfect snowflake.=20
+>>=20
+>> -D
+>>=20
+>>=20
+
+--Apple-Mail-1--225504443
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=utf-8
+
+<html><body bgcolor=3D"#FFFFFF"><div>We also offer embroidered Nike custom b=
+randed clothing that can be drop shipped anywhere in the world direct from N=
+ike at a fraction of the cost!</div><div>See <a href=3D"http://gogolfinc.com=
+">http://gogolfinc.com</a>&nbsp;</div><div><br></div><div>M<br><br>--<div>Mi=
+ke Menache's iPhone</div></div><div><br>On Sep 4, 2011, at 9:24 PM, David Me=
+nache &lt;<a href=3D"mailto:dmenache@hotmail.com">dmenache@hotmail.com</a>&g=
+t; wrote:<br><br></div><div></div><blockquote type=3D"cite"><div><div>Karl, w=
+e do embroidery! &nbsp;</div><div><br></div><div>A bitmap is fine but you wi=
+ll probably need a higher res image than what we have from your website. &nb=
+sp; I have a state of the art embroidery machine and the best software for m=
+aking the stitch files. &nbsp;I don't know why I haven't been offering this t=
+o the hvac crowd sooner!&nbsp;</div><div><br></div><div>&nbsp;I can pay one o=
+f my brothers or sister in law to run them up there. &nbsp; They are all awe=
+some techies and can create a perfect stitch file that you can use anywhere f=
+rom the logo we have.</div><div><br></div><div>I'm not sure what price to of=
+fer the service for since you are the first one but whether you want the who=
+le deal, hats, shirts, etc, or just the stitch file, we can get it all done f=
+or you right up there in Danville!</div><div><br></div><div>Re the video edi=
+ting job, I know a great guy down here for that one. &nbsp;Send me more deta=
+ils about the video formats.</div><div><br></div><div>Cheers!<br><br><div><d=
+iv>David Menache</div><div><a href=3D"mailto:dave@doap.com"><a href=3D"mailt=
+o:dave@doap.com">dave@doap.com</a></a></div><div>Skype:dmenache</div><div>80=
+5-426-5216</div><div><div><br></div></div></div></div><div><br>On Sep 4, 201=
+1, at 9:18 PM, "Karl Hornung" &lt;<a href=3D"mailto:karlhornung@gmail.com"><=
+a href=3D"mailto:karlhornung@gmail.com">karlhornung@gmail.com</a></a>&gt; wr=
+ote:<br><br></div><div></div><blockquote type=3D"cite"><div>Hi Dave,<br>any l=
+uck finding the convectek vector file?<br><br>Also, do you know anybody who c=
+an inexpensively edit video?<br><br>Cheers<br><br><div class=3D"gmail_quote"=
+>On Fri, Sep 2, 2011 at 11:30 AM, Karl Hornung <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:karlhornung@gmail.com"></a><a href=3D"mailto:karlhornung@gmail.co=
+m"><a href=3D"mailto:karlhornung@gmail.com">karlhornung@gmail.com</a></a>&gt=
+;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border=
+-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">Hi David,<br>do you=
+ have the ConvecTek logo in vector format without the Heat &amp; Cooling + t=
+agline? I recall this is what you had your friend the artist re-generate. I h=
+ave the original I supplied to you, but not the new one you commissioned at h=
+igher res for the website. A friend of mine is making some embroidered shirt=
+s, and he needs the original. I gave him the fonts for Heating &amp; Cooling=
+; just need the ConvecTek vector.<br>
+
+<br>Cheers<div><div></div><div class=3D"h5"><br><br><div class=3D"gmail_quot=
+e">On Fri, Sep 2, 2011 at 11:17 AM, David Menache <span dir=3D"ltr">&lt;<a h=
+ref=3D"mailto:dmenache@hotmail.com" target=3D"_blank"></a><a href=3D"mailto:=
+dmenache@hotmail.com"><a href=3D"mailto:dmenache@hotmail.com">dmenache@hotma=
+il.com</a></a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border=
+-left: 1px solid rgb(204, 204, 204); padding-left: 1ex;">
+
+
+
+
+<div><div dir=3D"ltr">
+
+
+
+
+<div dir=3D"ltr"><b>graphics guys orig logo file</b><br><div><hr>From: <a hr=
+ef=3D"mailto:david@cadimo.com" target=3D"_blank"></a><a href=3D"mailto:david=
+@cadimo.com"><a href=3D"mailto:david@cadimo.com">david@cadimo.com</a></a><br=
+>Date: Thu, 7 Apr 2011 17:04:15 -0600<br>Subject: logo Convectek<br>To: <a h=
+ref=3D"mailto:dmenache@hotmail.com" target=3D"_blank"></a><a href=3D"mailto:=
+dmenache@hotmail.com"><a href=3D"mailto:dmenache@hotmail.com">dmenache@hotma=
+il.com</a></a><br>
+
+<br>here a perfect snowflake.&nbsp;
+<div><br></div><font color=3D"#888888"><div>-D</div></font></div></div>
+ 		 	   		  </div></div>
+</blockquote></div><br>
+</div></div></blockquote></div><br>
+</div></blockquote></div></blockquote></body></html>=
+
+--Apple-Mail-1--225504443--

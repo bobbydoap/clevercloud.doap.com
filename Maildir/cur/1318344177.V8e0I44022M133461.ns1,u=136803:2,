@@ -1,0 +1,72 @@
+Return-Path: <glendoraaircon+caf_=sales=doap.com@thehvac.net>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gx0-f182.google.com (mail-gx0-f182.google.com [209.85.161.182])
+	by ns1 (Postfix) with ESMTP id F08FF88677
+	for <sales@doap.com>; Tue, 11 Oct 2011 07:42:56 -0700 (PDT)
+Received: by ggeq3 with SMTP id q3so7208640gge.13
+        for <sales@doap.com>; Tue, 11 Oct 2011 07:42:57 -0700 (PDT)
+Received: by 10.147.154.21 with SMTP id g21mr4620938yao.35.1318344177090;
+        Tue, 11 Oct 2011 07:42:57 -0700 (PDT)
+X-Forwarded-To: sales@doap.com
+X-Forwarded-For: glendoraaircon@thehvac.net sales@doap.com
+Delivered-To: glendoraaircon@thehvac.net
+Received: by 10.147.168.20 with SMTP id v20cs112948yao;
+        Tue, 11 Oct 2011 07:42:55 -0700 (PDT)
+Received: by 10.236.184.168 with SMTP id s28mr22120928yhm.31.1318344174502;
+        Tue, 11 Oct 2011 07:42:54 -0700 (PDT)
+Received: from mail-vx0-f199.google.com (mail-vx0-f199.google.com [209.85.220.199])
+        by mx.google.com with ESMTPS id c43si19480510yhe.85.2011.10.11.07.42.53
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 11 Oct 2011 07:42:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 37FWUTg8KDmMBEXPSET-OPSFQMZHPPHMF.DPNHMFOEPSBBJSDPOUIFIWBD.OFU@usercomm.bounces.google.com designates 209.85.220.199 as permitted sender) client-ip=209.85.220.199;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of 37FWUTg8KDmMBEXPSET-OPSFQMZHPPHMF.DPNHMFOEPSBBJSDPOUIFIWBD.OFU@usercomm.bounces.google.com designates 209.85.220.199 as permitted sender) smtp.mail=37FWUTg8KDmMBEXPSET-OPSFQMZHPPHMF.DPNHMFOEPSBBJSDPOUIFIWBD.OFU@usercomm.bounces.google.com; dkim=pass header.i=@google.com
+Received: by vcbfk1 with SMTP id fk1so10291897vcb.10
+        for <glendoraaircon@thehvac.net>; Tue, 11 Oct 2011 07:42:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:message-id:date:subject:from:to:content-type;
+        bh=tx30+yQcBPIHmhue5reII1smCO0RDI171lUyPLqrA+Y=;
+        b=i5r6nH/lewdINTzdIPX4yhglLZ8/ZqmQv71sMt1qvYt7seTFy9vgfQM7xz9lrjNHW8
+         SfA6QPoi78AsNJjAtD7A==
+MIME-Version: 1.0
+Received: by 10.101.169.1 with SMTP id w1mt8571933ano.49.1318344172931; Tue,
+ 11 Oct 2011 07:42:52 -0700 (PDT)
+Message-ID: <1318344172924.6e801bc7-5e17-4d49-b98c-d85005df07b6@google.com>
+Date: Tue, 11 Oct 2011 14:42:52 +0000
+Subject: Optimize your daily budget to get more clicks
+From: adwords-noreply@google.com
+To: glendoraaircon@thehvac.net
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+Regarding AdWords Account ID: 721-878-4655
+
+Hello,
+
+We've noticed that at least one of your campaigns frequently reaches its
+daily budget. As a result, your ads are not receiving 54% of their eligible
+impressions. To see a complete analysis or to change your daily budget,
+visit
+https://adwords.google.com/o/Opportunities/Explorer?opportunityType=BUDGET&campaignId=70026675.
+
+
+Increasing your budget could allow your ads to show more often and get more
+clicks. For example, in Glendora Cypress, you met your daily budget of
+$100.00 on 1 of the last 15 days. Increasing your budget to the recommended
+amount of $235.00 would allow your ads to show more often and get
+significantly more clicks per month.
+
+If you have any questions, contact us at
+https://adwords.google.com/support/bin/request.py?hl=en. We look forward to
+providing you with the most effective advertising available.
+
+Sincerely,
+
+The Google AdWords team
+
+
+-----------------------------------------
+You may opt out of Customized help and performance suggestions emails  
+associated with glendoraaircon@thehvac.net by visiting  
+http://adwords.google.com/um/EmailOptOutLink?token=AOGacIpqE_nUki_cGfE0GyvT3PyW7fGd1rKLZoxtEzijZYLuykHPGab0O55mp-NQzE1HrUSuzdsOzQLVlJSDlhdE6EprnS8Mp8PjMF05G2R_AyDayWWY8-F3jczoyV3ZXGdgTtyVXwr7hoBsdq7kWECSvTZVWTHAAA.  
+This link expires 30 days after we send this email to you.

@@ -1,0 +1,81 @@
+Return-Path: <bounce-20-885067267@trakken.google.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from smtp-out.google.com (smtp-out.google.com [216.239.44.51])
+	by ns1 (Postfix) with ESMTP id 4DF8288A8A
+	for <bobby@doap.com>; Thu,  6 Oct 2011 15:50:27 -0700 (PDT)
+Received: from wpaz1.hot.corp.google.com (wpaz1.hot.corp.google.com [172.24.198.65])
+	by smtp-out.google.com with ESMTP id p96MoQsj028402
+	for <bobby@doap.com>; Thu, 6 Oct 2011 15:50:26 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=google.com; s=beta;
+	t=1317941426; bh=UvdvuqScCyrOI6VMyAMgp0dZhCo=;
+	h=Date:From:To:Subject:Message-ID:MIME-Version:Content-Type:
+	 Content-Transfer-Encoding;
+	b=qA067HN9z8e/uXxt1uDgDdm9EsVzcUJyizJ9LRJDIDLFmZg19j8iTuC0uJhJ/rNZ1
+	 PMAuAjDgmHHFpNTWqtSNw==
+DomainKey-Signature: a=rsa-sha1; s=beta; d=google.com; c=nofws; q=dns;
+	h=dkim-signature:date:from:to:subject:message-id:
+	mime-version:content-type:content-transfer-encoding:user-agent;
+	b=h4aoxub0PPTcQhd1HTnwwzo/ih04sYeMQ9HrwEmTMiAugLBRGk3Ou/6biHmcTDyXy
+	m4spj6PwVr1D+f2mysdzw==
+Received: from pzd13 (pzd13.prod.google.com [10.243.17.205])
+	by wpaz1.hot.corp.google.com with ESMTP id p96MoOpf014322
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=NOT)
+	for <bobby@doap.com>; Thu, 6 Oct 2011 15:50:25 -0700
+Received: by pzd13 with SMTP id 13so305041pzd.1
+        for <bobby@doap.com>; Thu, 06 Oct 2011 15:50:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=date:from:to:subject:message-id:mime-version:content-type
+         :content-transfer-encoding:user-agent;
+        bh=60kQpUfLaq0V31ZfBWc5CrjTHz0UwikmeyBs1mmPirY=;
+        b=cAn9Qumy2FLSeVFX3WJBDjkVR/iSdsSmjRAf0vWuTnqiBJLHfFYE0sQ1YP+iP2Sxlt
+         cPJd6IDkx7KAwpLzP5tQ==
+Received: by 10.68.38.38 with SMTP id d6mr6771964pbk.4.1317941424786;
+        Thu, 06 Oct 2011 15:50:24 -0700 (PDT)
+Date: Thu, 06 Oct 2011 22:50:22 -0000
+From: "Jasen T." <Jasen.ti@google.com>
+To: bobby@doap.com
+Subject: $100 in free Google AdWords advertising and free set-up service!
+Message-ID: <#14.34c10e03.ccceafcd.4e8e30ae.34a@google.trakken.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Neotonic Trakken/combo_frontend-trakken/3.5.5-RC7
+
+Hello David,
+
+
+I=E2=80=99m an online advertising specialist with Google AdWords. I was hop=
+ing to schedule time to tell you more about AdWords and our free support of=
+fer for high-potential clients like you.
+
+By working together, we'll do our best to ensure that your first online adv=
+ertising campaign is effective. We can also teach you the best techniques t=
+o help you run a successful AdWords account on your own.=20
+
+I=E2=80=99d like to set up a time to talk about your marketing goals and ad=
+vertising plans. Please give me a call or reply to this email.=20
+
+I look forward to working with you.
+
+Do you have questions about Quality Score? Check out our easy new guide to =
+Quality Score for ads showing on search: http://adwords.google.com/support/=
+aw/bin/static.py?hl=3Den&page=3Dguide.cs&guide=3D23572&ctx=3Dfoot.
+
+Sincerely,
+
+Jasen Tittes
+Google Adwords Marketing Specialist
+1-800-826-9988 ext 23695
+jasen.ti@google.com
+
+This email and the information it contains are confidential and may be priv=
+ileged. If you have received this email in error please notify me immediate=
+ly. You should not copy it for any purpose, or disclose its contents to any=
+ other person. Internet communications are not secure and, therefore, Googl=
+e does not accept legal responsibility for the contents of this message as =
+it has been transmitted over a public network. If you suspect the message m=
+ay have been intercepted or amended, please call me.
+
+

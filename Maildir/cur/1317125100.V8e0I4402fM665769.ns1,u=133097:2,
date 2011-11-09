@@ -1,0 +1,413 @@
+Return-Path: <tech+bncCOKrwsOaDRDr94b0BBoEGdplOw@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-qy0-f200.google.com (mail-qy0-f200.google.com [209.85.216.200])
+	by ns1 (Postfix) with ESMTP id 260EB8866F;
+	Tue, 27 Sep 2011 05:05:00 -0700 (PDT)
+Received: by qyk31 with SMTP id 31sf10636627qyk.7
+        for <multiple recipients>; Tue, 27 Sep 2011 05:05:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=eGwmEhQ7Z8RH7STSWB+BjSKsJ8gL5lm504ONG+mblFM=;
+        b=mGnDoglkapNo/sk93cCpZ8oWyTw6Xh+mSNf6853hOf5CsYxv19m3f2MIcqQlBrT4Vw
+         j32849r1WQw2t/ul5G6Q==
+Received: by 10.52.21.103 with SMTP id u7mr5258110vde.12.1317125099964;
+        Tue, 27 Sep 2011 05:04:59 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.220.24.1 with SMTP id t1ls5017910vcb.4.canary; Tue, 27 Sep
+ 2011 05:04:59 -0700 (PDT)
+Received: by 10.220.6.14 with SMTP id 14mr1181467vcx.197.1317125099675;
+        Tue, 27 Sep 2011 05:04:59 -0700 (PDT)
+Received: by 10.220.6.14 with SMTP id 14mr1181466vcx.197.1317125099641;
+        Tue, 27 Sep 2011 05:04:59 -0700 (PDT)
+Received: from mail-vx0-f199.google.com (mail-vx0-f199.google.com [209.85.220.199])
+        by mx.google.com with ESMTPS id m5si4863621vcv.15.2011.09.27.05.04.59
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 27 Sep 2011 05:04:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 35buBThEKBNwLMPCNJW+DCCBNPMVWEMMEJC.AMK1CAFRFCFT8A.LCR@feedburner.bounces.google.com designates 209.85.220.199 as permitted sender) client-ip=209.85.220.199;
+Received: by vcbfk1 with SMTP id fk1so7392557vcb.10
+        for <Tech@thehvac.net>; Tue, 27 Sep 2011 05:04:59 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.100.171.2 with SMTP id t2mt10856013ane.23.1317125093120; Tue,
+ 27 Sep 2011 05:04:53 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <0016368e1fec4ce83804adeb15d2@google.com>
+Date: Tue, 27 Sep 2011 12:04:59 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 35buBThEKBNwLMPCNJW+DCCBNPMVWEMMEJC.AMK1CAFRFCFT8A.LCR@feedburner.bounces.google.com
+ designates 209.85.220.199 as permitted sender) smtp.mail=35buBThEKBNwLMPCNJW+DCCBNPMVWEMMEJC.AMK1CAFRFCFT8A.LCR@feedburner.bounces.google.com;
+ dkim=pass header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=0016368e1feca7761e04adeb1586
+
+--0016368e1feca7761e04adeb1586
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+QW1hem9uIFdlYiBTZXJ2aWNlcyBCbG9nDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8NCkFtYXpvbiBSb3V0ZSA1MyAtIE5vdyBhbiBFdmVuIEJldHRlciBWYWx1
+ZQ0KDQpQb3N0ZWQ6IDI2IFNlcCAyMDExIDA4OjA2IFBNIFBEVA0KaHR0cDovL2ZlZWRwcm94eS5n
+b29nbGUuY29tL35yL0FtYXpvbldlYlNlcnZpY2VzQmxvZy9+My9UQ2FRQmk0YXpnNC9hbWF6b24t
+cm91dGUtNTMtbm93LWFuLWV2ZW4tYmV0dGVyLXZhbHVlLmh0bWw/dXRtX3NvdXJjZT1mZWVkYnVy
+bmVyJnV0bV9tZWRpdW09ZW1haWwNCg0KDQoNCg0KSSBuZXZlciBnZXQgdGlyZWQgb2Ygd3JpdGlu
+ZyBwb3N0cyB0aGF0IGFubm91bmNlIHByaWNlIGRlY3JlYXNlcyBvbiB0aGUgIA0KdmFyaW91cyBB
+V1Mgc2VydmljZXMhDQoNClRvZGF5LCB3ZSBhcmUgcmVkdWNpbmcgdGhlIHByaWNlIHRvIGhvc3Qg
+YSBzZXQgb2YgRE5TIHJlY29yZHMgZm9yIGEgZG9tYWluICANCih3aGljaCB3ZSBjYWxsIGEgaG9z
+dGVkIHpvbmUpIHVzaW5nIEFtYXpvbiBSb3V0ZSA1My4gSGVyZXMgdGhlIG5ldyBwcmljaW5nICAN
+CnN0cnVjdHVyZToNCg0KJDAuNTAgcGVyIGhvc3RlZCB6b25lIHBlciBtb250aCBmb3IgdGhlIGZp
+cnN0IDI1IHpvbmVzIHBlciBtb250aC4NCiQwLjEwIHBlciBob3N0ZWQgem9uZSBwZXIgbW9udGgg
+Zm9yIGFsbCBhZGRpdGlvbmFsIHpvbmVzLg0KDQoNClRoZSBvcmlnaW5hbCBwcmljaW5nIHdhcyAk
+MS4wMCBwZXIgaG9zdGVkIHpvbmUgcGVyIG1vbnRoLCB3aXRoIG5vIHZvbHVtZSAgDQpkaXNjb3Vu
+dHMuDQoNCg0KDQpUaGUgcGVyLXF1ZXJ5IHByaWNpbmcgKCQwLjUwIHBlciBtaWxsaW9uIGZvciB0
+aGUgZmlyc3QgYmlsbGlvbiBxdWVyaWVzIHBlciAgDQptb250aCwgYW5kICQwLjI1IHBlciBtaWxs
+aW9uIGFmdGVyd2FyZCkgaGFzIG5vdCBjaGFuZ2VkLg0KDQpBZGQgaXQgYWxsIHVwLCBtdWx0aXBs
+eSBpdCBhbGwgb3V0LCBhbmQgeW91IHdpbGwgc2VlIHNhdmluZ3Mgb2YgYmV0d2VlbiA1MCUgIA0K
+YW5kIDkwJSB3aGVuIGNvbXBhcmVkIHdpdGggdGhlIG9yaWdpbmFsIHByaWNlcy4gVGhlIEFXUyBT
+aW1wbGUgTW9udGhseSAgDQpDYWxjdWxhdG9ycyBleGFtcGxlIHNob3dzIHRoYXQgaWYgeW91IG1h
+bmFnZWQgMTAwIGhvc3RlZCB6b25lcywgeW91ciBiaWxsICANCndpbGwgZHJvcCBmcm9tICQxMDAg
+dG8gJDIwLiBXZSBlbmpveSBtYWtpbmcgaXQgZWFzaWVyIGFuZCBtb3JlICANCmNvc3QtZWZmZWN0
+aXZlIGZvciBvdXIgY3VzdG9tZXJzIHRvIHVzZSBBV1MgYW5kIHRoaXMgaXMgb25lIG1vcmUgc3Rl
+cCBpbiAgDQp0aGF0IGRpcmVjdGlvbi4NCg0KSW4gY2FzZSB5b3UgZm9yZ290LCB0aGUgQW1hem9u
+IFJvdXRlIDUzIFNlcnZpY2UgTGV2ZWwgQWdyZWVtZW50IHNwZWNpZmllcyAgDQoxMDAlIGF2YWls
+YWJpbGl0eSBvdmVyIHRoZSBjb3Vyc2Ugb2YgYSBtb250aC4gT3ZlciB0aGUgbGFzdCBjb3VwbGUg
+b2YgIA0KbW9udGhzIHdldmUgc2VlbiBhIG51bWJlciBvZiBsYXJnZS1zY2FsZSBjdXN0b21lcnMg
+Y29tZSBvbiBib2FyZC4NCg0KV2l0aCAxOSBsb2NhdGlvbnMgd29ybGQtd2lkZSwgUm91dGUgNTMg
+aXMgYWJsZSB0byBwcm92aWRlIGxvdy1sYXRlbmN5LCAgDQpoaWdoLXF1YWxpdHkgdG8gYWxsIG9m
+IHlvdXIgY3VzdG9tZXJzLCByZWdhcmRsZXNzIG9mIHRoZWlyIGxvY2F0aW9uLg0KDQpBcyBJIGRl
+c2NyaWJlZCBpbiBhIHByZXZpb3VzIHBvc3QsIFJvdXRlIDUzIGFsc28gaW50ZWdyYXRlcyB3aXRo
+IHRoZSAgDQpFbGFzdGljIExvYWQgQmFsYW5jZXIgdG8gYWxsb3cgeW91IHRvIG1hcCB0aGUgYXBl
+eCBvZiBhbnkgb2YgeW91ciBob3N0ZWQgIA0Kem9uZXMgZGlyZWN0bHkgdG8gYW4gRWxhc3RpYyBM
+b2FkIEJhbGFuY2VyLg0KDQpXZSBoYXZlIGFkZGl0aW9uYWwgZW5oYW5jZW1lbnRzIHRvIFJvdXRl
+IDUzIG9uIHRoZSBkcmF3aW5nIGJvYXJkLCBzbyBzdGF5ICANCnR1bmVkIHRvIHRoaXMgYmxvZy4N
+Cg0KLS0gSmVmZjsNCg0KDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8NCkFtYXpvbiBMaW51eCBBTUkgLSBHZW5lcmFsIEF2YWlsYWJpbGl0eSBhbmQgTmV3IEZl
+YXR1cmVzDQoNClBvc3RlZDogMjYgU2VwIDIwMTEgMDM6MzEgUE0gUERUDQpodHRwOi8vZmVlZHBy
+b3h5Lmdvb2dsZS5jb20vfnIvQW1hem9uV2ViU2VydmljZXNCbG9nL34zL0htaWRvbndxSW1VL2Ft
+YXpvbi1saW51eC1hbWktcHJvZHVjdGlvbi1zdGF0dXMtbmV3LWZlYXR1cmVzLmh0bWw/dXRtX3Nv
+dXJjZT1mZWVkYnVybmVyJnV0bV9tZWRpdW09ZW1haWwNCg0KDQoNCg0KV2UgaW50cm9kdWNlZCB0
+aGUgQW1hem9uIExpbnV4IEFNSSBpbiBiZXRhIGZvcm0gYWJvdXQgYSB5ZWFyIGFnbyB3aXRoIHRo
+ZSAgDQpnb2FsIG9mIHByb3ZpZGluZyBhIHNpbXBsZSwgc3RhYmxlLCBhbmQgc2VjdXJlIExpbnV4
+IGVudmlyb25tZW50IGZvciAgDQpzZXJ2ZXItZm9jdXNlZCB3b3JrbG9hZHMuIFdldmUgYmVlbiBy
+ZWFsbHkgaGFwcHkgd2l0aCB0aGUgYWRvcHRpb24gd2V2ZSAgDQpzZWVuIHNvIGZhciwgYW5kIHdl
+IGNvbnRpbnVlIHRvIGltcHJvdmUgdGhlIHByb2R1Y3QgYW5kIGZ1cnRoZXIgaW50ZWdyYXRlICAN
+Cml0IHdpdGggb3RoZXIgQW1hem9uIFdlYiBTZXJ2aWNlcyB0b29scy4NCg0KVG9kYXkgd2UgYXJl
+IHphcHBpbmcgdGhlICJiZXRhIiB0YWcgZnJvbSB0aGUgQW1hem9uIExpbnV4IEFNSSwgYW5kIG1v
+dmluZyAgDQppdCB0byBmdWxsIHByb2R1Y3Rpb24gc3RhdHVzLiBXZSBhcmUgYWxzbyByZWxlYXNp
+bmcgYSBuZXcgdmVyc2lvbiAoMjAxMS4wOSkgIA0Kb2YgdGhlIEFNSSB3aXRoIHNvbWUgaW1wb3J0
+YW50IG5ldyBmZWF0dXJlcy4gSGVyZXMgYSBzdW1tYXJ5Og0KDQpUaGUgTWVzc2FnZSBvZiB0aGUg
+RGF5IG5vdyB0ZWxscyB5b3Ugd2hlbiB1cGRhdGVzIHRvIGluc3RhbGxlZCBwYWNrYWdlcyBhcmUg
+IA0KYXZhaWxhYmxlLg0KV2hpbGUgdGhlIEFNSeKAmXMgZGVmYXVsdCBjb25maWd1cmF0aW9uIGlz
+IHNldCB0byBwcm92aWRlIGEgc21vb3RoIHVwZ3JhZGUgIA0KcGF0aCBmcm9tIHJlbGVhc2UtdG8t
+cmVsZWFzZSwgeW91IGNhbiBub3cgbG9jayB0aGUgdXBkYXRlIHJlcG9zaXRvcmllcyB0byBhICAN
+CnNwZWNpZmljIHZlcnNpb24gdG8gaW5oaWJpdCBhdXRvbWF0aWMgdXBkYXRlcyB0byBuZXdlciBy
+ZWxlYXNlcy4NClNlY3VyaXR5IHVwZGF0ZXMgYXJlIGF1dG9tYXRpY2FsbHkgYXBwbGllZCBvbiB0
+aGUgaW5pdGlhbCBib290IG9mIHRoZSBBTUkuICANClRoaXMgYmVoYXZpb3IgY2FuIGJlIG1vZGlm
+aWVkIGJ5IHBhc3NpbmcgdXNlciBkYXRhIGludG8gdGhlIEFNSSB3aXRoICANCmNsb3VkLWluaXQu
+DQpUaGVyZXMgYSBuZXcgQW1hem9uIExpbnV4IEFNSSBTZWN1cml0eSBDZW50ZXIuDQpQdXBwZXQg
+aGFzIGJlZW4gYWRkZWQgdG8gdGhlIHJlcG9zaXRvcmllcyBhbmQgaXMgYXZhaWxhYmxlIGZvciBz
+eXN0ZW0gIA0KY29uZmlndXJhdGlvbiBtYW5hZ2VtZW50Lg0KQWNjZXNzIHRvIHRoZSBFeHRyYSBQ
+YWNrYWdlcyBmb3IgRW50ZXJwcmlzZSBMaW51eCAoRVBFTCkgcmVwb3NpdG9yeSBpcyAgDQpjb25m
+aWd1cmVkLCB0aG91Z2ggbm90IGVuYWJsZWQgYnkgZGVmYXVsdC4gRVBFTCBwcm92aWRlcyBhZGRp
+dGlvbmFsICANCnBhY2thZ2VzIGJleW9uZCB0aG9zZSBzaGlwcGVkIGluIHRoZSBBbWF6b24gTGlu
+dXggQU1JIHJlcG9zaXRvcmllcywgYnV0ICANCnRoZXNlIHRoaXJkIHBhcnR5IHBhY2thZ2VzIGFy
+ZSBub3Qgc3VwcG9ydGVkLg0KVGhlIGNmbi1pbml0IGRhZW1vbiBpcyBpbnN0YWxsZWQgYnkgZGVm
+YXVsdCB0byBzaW1wbGlmeSBDbG91ZEZvcm1hdGlvbiAgDQpjb25maWd1cmF0aW9uLg0KQSB0b3Rh
+bCBvZiA1MCBuZXcgcGFja2FnZXMgYXJlIGF2YWlsYWJsZSBpbmNsdWRpbmcgdGhlIGNvbW1hbmQg
+bGluZSB0b29scyAgDQpmb3IgQVdTLCBEYXNoLCBEcmFjdXQsIEZhY3RlciwgUHNzaCwgYW5kIFZh
+cm5pc2guIDIyNyBvdGhlciBwYWNrYWdlcyBoYXZlICANCmJlZW4gdXBkYXRlZCBhbmQgOSBoYXZl
+IGJlZW4gcmVtb3ZlZC4gRm9yIGEgZnVsbCBsaXN0IG9mIGNoYW5nZXMsIHJlZmVyIHRvICANCnRo
+ZSBBbWF6b24gTGludXggQU1JIFJlbGVhc2UgTm90ZXMuDQoNCg0KVXNlcnMgb2YgZXhpc3Rpbmcg
+QW1hem9uIExpbnV4IEFNSXMgY2FuIGVpdGhlciB1cGdyYWRlIHRvIHRoZSBsYXRlc3QgIA0KcmVs
+ZWFzZSB3aXRoIHl1bSBvciBsYXVuY2ggbmV3IDIwMTEuMDkgQU1Jcy4gVGhlIG5ldyBBTUlzIGFy
+ZSBhdmFpbGFibGUgaW4gIA0KYWxsIEFXUyByZWdpb25zLg0KDQotLSBKZWZmOw0KDQoNCg0KUFMg
+LSBXZSBoYXZlIHNvbWUgb3BlbiBwb3NpdGlvbnMgZm9yIHRob3NlIHdpdGggZGVlcCBMaW51eCBz
+eXN0ZW1zICANCmV4cGVyaWVuY2U6DQoNCkxpbnV4IFN5c3RlbXMgRW5naW5lZXINCkxpbnV4IFF1
+YWxpdHkgQXNzdXJhbmNlIEVuZ2luZWVyDQpTZW5pb3IgTGludXggS2VybmVsIEVuZ2luZWVyDQpM
+aW51eCBTb2Z0d2FyZSBEZXZlbG9wZXINCkxpbnV4IFN5c3RlbXMgRW5naW5lZXINCg0KDQoNCg0K
+LS0NCllvdSBhcmUgc3Vic2NyaWJlZCB0byBlbWFpbCB1cGRhdGVzIGZyb20gIkFtYXpvbiBXZWIg
+U2VydmljZXMgQmxvZy4iDQpUbyBzdG9wIHJlY2VpdmluZyB0aGVzZSBlbWFpbHMsIHlvdSBtYXkg
+dW5zdWJzY3JpYmUgbm93OiAgDQpodHRwOi8vZmVlZGJ1cm5lci5nb29nbGUuY29tL2ZiL2EvbWFp
+bHVuc3Vic2NyaWJlP2s9V1lscXNIZ0ZtajRBYU14Q0lvNERwcUdKbF9ZDQoNCkVtYWlsIGRlbGl2
+ZXJ5IHBvd2VyZWQgYnkgR29vZ2xlLg0KR29vZ2xlIEluYy4sIDIwIFdlc3QgS2luemllLCBDaGlj
+YWdvIElMIFVTQSA2MDYxMA0KDQo=
+--0016368e1feca7761e04adeb1586
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/TCaQB=
+i4azg4/amazon-route-53-now-an-even-better-value.html?utm_source=3Dfeedburne=
+r&utm_medium=3Demail">Amazon Route 53 - Now an Even Better Value</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 26 Sep 2011 08:06 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p><iframe allowtransparency=3D"=
+true" frameborder=3D"0" scrolling=3D"no" src=3D"http://www.facebook.com/plu=
+gins/like.php?app_id=3D132675016822106&amp;href=3Dhttp%3A%2F%2Faws.typepad.=
+com%2Faws%2F2011%2F09%2Famazon-route-53-now-an-even-better-value.html&amp;s=
+end=3Dfalse&amp;layout=3Dbutton_count&amp;width=3D450&amp;show_faces=3Dtrue=
+&amp;action=3Dlike&amp;colorscheme=3Dlight&amp;font=3Darial&amp;height=3D21=
+" style=3D"border: none; overflow: hidden; width: 450px; height: 21px;"></i=
+frame></p>
+<p>I never get tired of writing posts that announce price decreases on the =
+various <a href=3D"http://aws.amazon.com/" target=3D"_self">AWS</a> service=
+s!</p>
+<p>Today, we are reducing the price to host a set of DNS records for a doma=
+in (which we call a hosted zone) using <a href=3D"http://aws.amazon.com/rou=
+te53/" target=3D"_self">Amazon Route 53</a>. Here&#39;s the new pricing str=
+ucture:</p>
+<ul>
+<li>$0.50 per hosted zone per month for the first 25 zones per month.</li>
+<li>$0.10 per hosted zone per month for all additional zones.</li>
+</ul>
+<p>The original pricing was $1.00 per hosted zone per month, with no volume=
+ discounts.</p>
+<ul>
+</ul>
+<p>The per-query pricing ($0.50 per million for the first billion queries p=
+er month, and $0.25 per million afterward) has not changed.</p>
+<p>Add it all up, multiply it all out, and you will see savings of between =
+50% and 90% when compared with the original prices. The <a href=3D"http://c=
+alculator.s3.amazonaws.com/calc5.html?s=3Droute_53&amp;key=3Dcalc-1B990F21-=
+112D-4AB3-BF5A-D135F08464C7" target=3D"_self">AWS Simple Monthly Calculator=
+&#39;s example</a> shows that if you managed 100 hosted zones, your bill wi=
+ll drop from $100 to $20. We enjoy making it easier and more cost-effective=
+ for our customers to use AWS and this is one more step in that direction.<=
+/p>
+<p>In case you forgot, the <a href=3D"http://aws.amazon.com/route53/sla/" t=
+arget=3D"_self">Amazon Route 53 Service Level Agreement</a> specifies 100% =
+availability over the course of a month. Over the last couple of months we&=
+#39;ve seen a number of large-scale customers come on board.</p>
+<p>With 19 locations world-wide, Route 53 is able to provide low-latency, h=
+igh-quality to all of your customers, regardless of their location.</p>
+<p>As I described in a previous post, <a href=3D"http://aws.typepad.com/aws=
+/2011/05/moving-ahead-with-amazon-route-53.html" target=3D"_self">Route 53 =
+also integrates with the Elastic Load Balancer</a> to allow you to map the =
+apex of any of your hosted zones directly to an Elastic Load Balancer.</p>
+<p>We have additional enhancements to Route 53 on the drawing board, so sta=
+y tuned to this blog.</p>
+<p>-- Jeff;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DTCaQBi=
+4azg4:x06x_ljlGnA:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DTCaQBi4azg4:x06x_l=
+jlGnA:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DTCaQBi4azg4:x06x_ljlGnA:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/T=
+CaQBi4azg4?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"2" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/Hmido=
+nwqImU/amazon-linux-ami-production-status-new-features.html?utm_source=3Dfe=
+edburner&utm_medium=3Demail">Amazon Linux AMI - General Availability and Ne=
+w Features</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 26 Sep 2011 03:31 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p><iframe allowtransparency=3D"=
+true" frameborder=3D"0" scrolling=3D"no" src=3D"http://www.facebook.com/plu=
+gins/like.php?app_id=3D132675016822106&amp;href=3Dhttp%3A%2F%2Faws.typepad.=
+com%2Faws%2F2011%2F09%2Famazon-linux-ami-production-status-new-features.htm=
+l&amp;send=3Dfalse&amp;layout=3Dbutton_count&amp;width=3D450&amp;show_faces=
+=3Dtrue&amp;action=3Dlike&amp;colorscheme=3Dlight&amp;font=3Darial&amp;heig=
+ht=3D21" style=3D"border: none; overflow: hidden; width: 450px; height: 21p=
+x;"></iframe></p>
+<p>We introduced the <a href=3D"http://aws.amazon.com/amazon-linux-ami/" ta=
+rget=3D"_self">Amazon Linux AMI</a> in beta form about a year ago with the =
+goal of providing a simple, stable, and secure Linux environment for server=
+-focused workloads. We&#39;ve been really happy with the adoption we&#39;ve=
+ seen so far, and we continue to improve the product and further integrate =
+it with other Amazon Web Services tools.</p>
+<p>Today we are zapping the &quot;beta&quot; tag from the Amazon Linux AMI,=
+ and moving it to full production status. We are also releasing a new versi=
+on (2011.09) of the AMI with some important new features. Here&#39;s a summ=
+ary:</p>
+<ul>
+<li>The Message of the Day now tells you when updates to installed packages=
+ are available.</li>
+<li>While the AMI=E2=80=99s default configuration is set to provide a smoot=
+h upgrade path from release-to-release, you can now lock the update reposit=
+ories to a specific version to inhibit automatic updates to newer releases.=
+</li>
+<li>Security updates are automatically applied on the initial boot of the A=
+MI.&#0160; This behavior can be modified by passing user data into the AMI =
+with cloud-init.</li>
+<li>There&#39;s a new <a href=3D"https://aws.amazon.com/amazon-linux-ami/se=
+curity-bulletins/" target=3D"_self">Amazon Linux AMI Security Center</a>.</=
+li>
+<li><a href=3D"http://projects.puppetlabs.com/projects/puppet" target=3D"_s=
+elf">Puppet</a> has been added to the repositories and is available for sys=
+tem configuration management.</li>
+<li>Access to the <a href=3D"http://fedoraproject.org/wiki/EPEL" target=3D"=
+_self">Extra Packages for Enterprise Linux</a> (EPEL) repository is configu=
+red, though not enabled by default. EPEL provides additional packages beyon=
+d those shipped in the Amazon Linux AMI repositories, but these third party=
+ packages are not supported.</li>
+<li>The cfn-init daemon is installed by default to simplify CloudFormation =
+configuration.</li>
+<li>A total of 50 new packages are available including the command line too=
+ls for AWS, <a href=3D"http://en.wikipedia.org/wiki/Debian_Almquist_shell" =
+target=3D"_self">Dash</a>, <a href=3D"http://fedoraproject.org/wiki/Dracut"=
+ target=3D"_self">Dracut</a>, <a href=3D"http://puppetlabs.com/puppet/relat=
+ed-projects/facter/" target=3D"_self">Facter</a>, <a href=3D"http://code.go=
+ogle.com/p/parallel-ssh/" target=3D"_self">Pssh</a>, and <a href=3D"https:/=
+/www.varnish-cache.org/" target=3D"_self">Varnish</a>. 227 other packages h=
+ave been updated and 9 have been removed. For a full list of changes, refer=
+ to the <a href=3D"http://aws.amazon.com/amazon-linux-ami/latest-release-no=
+tes/" target=3D"_self">Amazon Linux AMI Release Notes</a>.</li>
+</ul>
+<p>Users of existing Amazon Linux AMIs can either upgrade to the latest rel=
+ease with yum or launch new 2011.09 AMIs. The new AMIs are available in all=
+ AWS regions.</p>
+<p>-- Jeff;</p>
+<ul>
+</ul>
+<p>PS - We have some open positions for those with deep Linux systems exper=
+ience:</p>
+<ul>
+<li class=3D"litight"><a href=3D"https://us-amazon.icims.com/jobs/147986/jo=
+b?in_iframe=3D1" target=3D"_self">Linux Systems Engineer</a></li>
+<li class=3D"litight"><a href=3D"https://us-amazon.icims.com/jobs/135762/jo=
+b?in_iframe=3D1" target=3D"_self">Linux Quality Assurance Engineer</a></li>
+<li class=3D"litight"><a href=3D"https://us-amazon.icims.com/jobs/130161/jo=
+b?in_iframe=3D1" target=3D"_self">Senior Linux Kernel Engineer</a></li>
+<li class=3D"litight"><a href=3D"https://us-amazon.icims.com/jobs/121866/jo=
+b?in_iframe=3D1" target=3D"_self">Linux Software Developer</a></li>
+<li class=3D"litight"><a href=3D"https://us-amazon.icims.com/jobs/114043/jo=
+b?in_iframe=3D1" target=3D"_self">Linux Systems Engineer</a></li>
+</ul><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DHmidon=
+wqImU:jcNL7ixJTwQ:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DHmidonwqImU:jcNL7i=
+xJTwQ:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DHmidonwqImU:jcNL7ixJTwQ:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/H=
+midonwqImU?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--0016368e1feca7761e04adeb1586--

@@ -1,0 +1,440 @@
+Return-Path: <tech+bncCOKrwsOaDRDQsfzzBBoEHhu8gA@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yx0-f200.google.com (mail-yx0-f200.google.com [209.85.213.200])
+	by ns1 (Postfix) with ESMTP id F32DA88692;
+	Sun, 25 Sep 2011 05:04:32 -0700 (PDT)
+Received: by yxj17 with SMTP id 17sf7779536yxj.7
+        for <multiple recipients>; Sun, 25 Sep 2011 05:04:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=Vwc2xszCnTD3B7lG+VHcFkKTUjpt08jQZjAFW/b02rw=;
+        b=Rj7gOoENTYHwRUF/QTa0xPufloiy3qOCiTGCA/tuUwhJepHmqEo35rogOdh9zL5g0A
+         Gs7dPD8S8quuqO6sYmbg==
+Received: by 10.236.123.83 with SMTP id u59mr27840202yhh.4.1316952272820;
+        Sun, 25 Sep 2011 05:04:32 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.101.195.12 with SMTP id x12ls14078211anp.0.gmail; Sun, 25 Sep
+ 2011 05:04:32 -0700 (PDT)
+Received: by 10.151.78.3 with SMTP id f3mr4915156ybl.432.1316952272568;
+        Sun, 25 Sep 2011 05:04:32 -0700 (PDT)
+Received: by 10.151.78.3 with SMTP id f3mr4915155ybl.432.1316952272525;
+        Sun, 25 Sep 2011 05:04:32 -0700 (PDT)
+Received: from mail-qy0-f199.google.com (mail-qy0-f199.google.com [209.85.216.199])
+        by mx.google.com with ESMTPS id m11si8544001ybc.44.2011.09.25.05.04.31
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sun, 25 Sep 2011 05:04:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3yRh_ThEKBHAbcfSdZm+TSSRdfclmUccUZS.QcaHSQVhVSVjOQ.bSh@feedburner.bounces.google.com designates 209.85.216.199 as permitted sender) client-ip=209.85.216.199;
+Received: by qyk34 with SMTP id 34so7608437qyk.10
+        for <Tech@thehvac.net>; Sun, 25 Sep 2011 05:04:31 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.236.119.201 with SMTP id n49mt42584069yhh.0.1316952265240;
+ Sun, 25 Sep 2011 05:04:25 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <20cf3010e453f4b94704adc2d7bc@google.com>
+Date: Sun, 25 Sep 2011 12:04:31 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3yRh_ThEKBHAbcfSdZm+TSSRdfclmUccUZS.QcaHSQVhVSVjOQ.bSh@feedburner.bounces.google.com
+ designates 209.85.216.199 as permitted sender) smtp.mail=3yRh_ThEKBHAbcfSdZm+TSSRdfclmUccUZS.QcaHSQVhVSVjOQ.bSh@feedburner.bounces.google.com;
+ dkim=pass header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=20cf3010e4534ed55c04adc2d898
+
+--20cf3010e4534ed55c04adc2d898
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+QW1hem9uIFdlYiBTZXJ2aWNlcyBCbG9nDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8NCkFXUyBTdW1tZXIgU3RhcnR1cHM6IERpc2NvdnINCg0KUG9zdGVkOiAy
+NCBTZXAgMjAxMSAwODozNSBQTSBQRFQNCmh0dHA6Ly9mZWVkcHJveHkuZ29vZ2xlLmNvbS9+ci9B
+bWF6b25XZWJTZXJ2aWNlc0Jsb2cvfjMvWk1uZ2Q1djdlS0EvYXdzLXN1bW1lci1zdGFydHVwcy1k
+aXNjb3ZyLmh0bWw/dXRtX3NvdXJjZT1mZWVkYnVybmVyJnV0bV9tZWRpdW09ZW1haWwNCg0KDQoN
+Cg0KT3ZlciB0aGUgc3VtbWVyIG1vbnRocywgd2VkIGxpa2UgdG8gc2hhcmUgYSBmZXcgc3Rvcmll
+cyBmcm9tIHN0YXJ0dXBzICANCmFyb3VuZCB0aGUgd29ybGQ6IHdoYXQgYXJlIHRoZXkgd29ya2lu
+ZyBvbiBhbmQgaG93IHRoZXkgYXJlIHVzaW5nIHRoZSBjbG91ZCAgDQp0byBnZXQgdGhpbmdzIGRv
+bmUuIFRvZGF5LCB3ZXJlIHByb2ZpbGluZyBGaWx0ZXIgU3F1YWQgZnJvbSBQZXJ0aCwgIA0KQXVz
+dHJhbGlhIQ0KDQoNCg0KDQpJbiBvbmUgb2YgV2VybmVyIFZvZ2VscyBtYW55IHRyYXZlbHMgdGhy
+b3VnaCBBdXN0cmFsaWEgdGhpcyBzdW1tZXIsIGhlICANCnR3ZWV0ZWQgYWJvdXQgYSBsZWFuIHN0
+YXJ0dXAgaGUgaGFkIG1ldCwgRmlsdGVyIFNxdWFkLkxlYW4gc3RhcnR1cHMsIG5vdCB0byAgDQpi
+ZSBjb25mdXNlZCB3aXRoIGJvb3RzdHJhcHBlZCBzdGFydHVwcywgYXJlIGJ1aWx0IGJ5IGFkYXB0
+aW5nIGFnaWxlICANCnNvZnR3YXJlIGRldmVsb3BtZW50IG1ldGhvZG9sb2dpZXMgdG8gYnVzaW5l
+c3MuIFNvbWUgb2YgdGhlIGNvbmNlcHRzICANCmluY2x1ZGUgYnVpbGRpbmcgYSBtaW5pbXVtIHZp
+YWJsZSBwcm9kdWN0LCB0ZXN0aW5nIGJ1c2luZXNzIGFzc3VtcHRpb25zICANCndpdGggcmVhbCBt
+YXJrZXQgZGF0YSwgbWVhc3VyaW5nIHJlc3VsdHMsIGFuZCB0aGVuIHF1aWNrbHkgaXRlcmF0aW5n
+IG9yICANCnBpdm90aW5nIGRlcGVuZGluZyBvbiB3aGF0IHRoYXQgZGF0YSBzaG93cyB5b3UuIFRo
+ZSBjb25jZXB0IG9mIGEgImxlYW4gIA0Kc3RhcnR1cCIgd2FzIGNvaW5lZCBieSBlbnRyZXByZW5l
+dXIgJiBhdXRob3IgRXJpYyBSaWVzLg0KDQpJIHJlYWNoZWQgb3V0IGFuZCBzcG9rZSB0byBTdHVh
+cnQgSGFsbCwgQ1RPIG9mIEZpbHRlciBTcXVhZCwgYW5kIGNyZWF0b3IgIA0Kb2YsIGFtb25nIG90
+aGVycywgdGhlIERpc2NvdnIgQXBwcyBhbmQgRGlzY292ciBNdXNpYyBmb3IgdGhlIGlQaG9uZSAm
+IGlQYWQuDQpNZWV0IEZpbHRlciBTcXVhZA0KRmlsdGVyIFNxdWFkIGlzIGEgc3RhcnR1cCBmb2N1
+c2VkIG9uIGJ1aWxkaW5nIOKAnGFwcHMgdGhhdCBmaW5kIHdoYXQgeW91ICANCmxpa2XigJ0sIGFj
+Y29yZGluZyB0byBDVE8gU3R1YXJ0IEhhbGwuIFRoZXkgYmVnYW4gd2l0aCBhICMxIHNlbGxpbmcg
+IA0KaVBhZC9pUGhvbmUgYXBwIGNhbGxlZCBEaXNjb3ZyIE11c2ljIGluIEphbnVhcnkgMjAxMSBh
+bmQgZXhwYW5kZWQgdGhlICANCmRpc2NvdmVyeSBwcm9kdWN0IHN1aXRlIHRvIGluY2x1ZGUgRGlz
+Y292ciBBcHAgaW4gSnVuZSAyMDExLCB3aGljaCBoYXMgYmVlbiAgDQphICMxIGNhdGVnb3J5IGFw
+cGxpY2F0aW9uIGluIDE3IGNvdW50cmllcy4gQXMgdGhlIG5hbWUgaW1wbGllcywgRGlzY292ciAg
+DQpNdXNpYyBtYWtlcyBpdCBlYXN5IGZvciB1c2VycyB0byBmaW5kIG11c2ljIHRoZXkgbGlrZSBi
+YXNlZCBvbiB0aGVpciAgDQpwcmVmZXJlbmNlcywgd2hpbGUgRGlzY292ciBBcHAgcmVjb21tZW5k
+cyBhcHBzIHRoZSB1c2VyIG1pZ2h0IGxpa2UgYmFzZWQgb24gIA0KdGhlIG9uZXMgeW91cmUgYWxy
+ZWFkeSB1c2luZy4g4oCcV2UgaGF2ZSBiZWVuIGV4dHJlbWVseSBoYXBweSB3aXRoIEFXUyBhbmQg
+d2UgIA0KYWxzbyBwbGFuIHRvIHVzZSBpdCBmb3Igb3VyIGZ1dHVyZSBwcm9kdWN0cy4gV2UgYXJl
+IGJpZyBmYW5zIG9mIHByb2R1Y3RzICANCnN1Y2ggYXMgQW1hem9uIFJEUyBhbmQgdGhlIEVsYXN0
+aWMgTG9hZCBCYWxhbmNlciB0byBnaXZlIGEgY29tcGxldGUgYXBwICANCnNjYWxpbmcgc29sdXRp
+b24gd2l0aCBBbWF6b24gRUMy4oCdLCBzYXlzIFN0dWFydC4NClRha2UgYSBsb29rIGF0IHRoZSBE
+aXNjb3ZyIE11c2ljIGFwcCByZXZpZXcgZnJvbSBGb3ggTmV3czoNCg0KDQoNCkFXUyAmIExlYW4g
+U3RhcnR1cHMNCkJlY2F1c2Ugd2UgYXJlIGEgc21hbGwsIGxlYW4gdGVhbSwgd2Ugd2VyZSBsb29r
+aW5nIGZvciBhIGhvc3Rpbmcgc29sdXRpb24gIA0KdGhhdCB3YXMgZ29pbmcgdG8gYmUgZWFzeSBm
+b3IgdXMgdG8gc2V0dXAsIGJlIHJlbGlhYmxlLCBhbmQgYmUgZWFzeSB0byAgDQpzY2FsZSB1cCBh
+bmQgZG93biB0aHJvdWdob3V0IG91ciBwcm9kdWN0IGl0ZXJhdGlvbnMuIFdlIGxvb2tlZCBhdCBh
+IGxhcmdlICANCm51bWJlciBvZiBwcm92aWRlcnMsIGJ1dCBBV1Mgc3Rvb2Qgb3V0IGltbWVkaWF0
+ZWx5IGZvciBhIG51bWJlciBvZiByZWFzb25zOg0KDQoNCkxvdyBtYWludGVuYW5jZQ0KRWFzeSB0
+byBzY2FsZQ0KU2ltcGxlIHRvIHNldHVwDQpQcm92aWRlZCBnb29kIHJlZHVuZGFuY3kNCg0KDQpX
+ZSBjb3VsZG50IGZpbmQgYW55b25lIGVsc2Ugd2hvIGNvdWxkIG1hdGNoIHRoZSBBV1MgcHJvZHVj
+dHMgYW5kIHByaWNlLiBUaGUgIA0KbnVtYmVyIG9mIG90aGVyIGxhcmdlLCBzdWNjZXNzZnVsIGNv
+bXBhbmllcyBhbHNvIHVzaW5nIHRoZSBzZXJ2aWNlIHdhcyB2ZXJ5ICANCnJlYXNzdXJpbmcuDQoN
+CkJ1aWxkaW5nIGEgTmF0aXZlIGlQaG9uZS9pUGFkIEFwcCBvbiBBV1MNCk5hdGl2ZSBtb2JpbGUg
+YXBwcyBvZnRlbiBuZWVkIHNlcnZlci1zaWRlIGNvbXBvbmVudHMgdG8gY3JlYXRlIGEgcmljaCB1
+c2VyICANCmV4cGVyaWVuY2UuIEZvciBvdXIgRGlzY292ciBBcHBzIGFuZCBEaXNjb3ZlciBNdXNp
+YyBhcHBzLCB3ZSBoYXZlIHVzZWQgdGhlICANCmZvbGxvd2luZyBBV1MgcHJvZHVjdHM6DQoNCg0K
+QW1hem9uIEVDMiAtIGJlY2F1c2Ugd2UgaGFkIG5vIGlkZWEgb2YgdGhlIG1hcmtldCByZWFjdGlv
+biB0byB0aGUgIA0KYXBwbGljYXRpb24gd2hlbiB3ZSBsYXVuY2hlZCwgZmxleGliaWxpdHkgaW4g
+YWRkaW5nIGFuZCByZW1vdmluZyB2aXJ0dWFsICANCnNlcnZlcnMgYmFzZWQgb24gZGVtYW5kIHdh
+cyBrZXkuDQpBbWF6b24gUkRTIC0gd2UgbmVlZGVkIGEgZGF0YWJhc2UgdGhhdCB3b3VsZCBhbHNv
+IGJlIGVhc3kgdG8gc2NhbGUgYW5kIGJlICANCmVhc3kgdG8gbWFpbnRhaW4uIEFtYXpvbiBSRFMg
+cHJvdmlkZWQgZWFzeSBzY2FsaW5nLCBlYXN5IHJlcGxpY2F0aW9uIGZvciAgDQpzbGF2ZSBpbnN0
+YW5jZXMsIGFuZCBhIHN5c3RlbSB3aGVyZSBtaW5vciBzb2Z0d2FyZSB1cGRhdGVzIGFyZSBoYW5k
+bGVkICANCmVudGlyZWx5IGJ5IEFXUy4NCkFtYXpvbiBTMyAtIFMzIHByb3ZpZGVzIGEgZ3JlYXQg
+YW5kIGNoZWFwIHdheSB0byBob3N0IHN0YXRpYyByZXNvdXJjZXMsIG9uZSAgDQp3aXRoIHdoaWNo
+IHdlIGhhZCB3b3JrZWQgYmVmb3JlIGFuZCBmb3VuZCBpZGVhbCBmb3Igb3VyIHVzZSBjYXNlLg0K
+QW1hem9uIEVsYXN0aWMgTG9hZCBCYWxhbmNlciAtIHRoZSBsb2FkIGJhbGFuY2VyIGlzIHByb3Zp
+ZGVkIHN0cmFpZ2h0IG91dCAgDQpvZiB0aGUgYm94OiBpdCBkb2VzbnQgcmVxdWlyZSBhbnkgaW5z
+dGFsbGluZyBhbmQgaXQgbmVlZHMgdmVyeSBsaXR0bGUgIA0KY29uZmlndXJhdGlvbi4gVGhlIGxv
+YWQgYmFsYW5jZXIgcHJvdmlkZXMgYnVpbHQgaW4gaGVhbHRoIGNoZWNrcyBhbmQgdGFrZXMgIA0K
+b3V0IGluc3RhbmNlcyB0aGF0IGFyZSBub3QgYmVoYXZpbmcuIEVsYXN0aWMgbG9hZCBiYWxhbmNp
+bmcgaGFzIGJlZW4gIA0KZmF1bHRsZXNzIHNpbmNlIHdlIGxhdW5jaGVkLg0KQ2FjaGluZzogdGhl
+IG9ubHkgdGhpbmcgbWlzc2luZyB3YXMgYSBjYWNoaW5nIHNvbHV0aW9uLCB3aGljaCBBV1MgaGFz
+IHNpbmNlICANCmxhdW5jaGVkIGFuZCB3ZSB3aWxsIGJlIHNvb24gbW92aW5nIHRvLiBUaGlzIHdh
+cyBhbHNvIGEgYmlnIGNvbnNpZGVyYXRpb24sICANCnRoZSBwYWNlIGF0IHdoaWNoIEFXUyBhcmUg
+aXRlcmF0aW5nIGFuZCBpbXByb3ZpbmcgdGhlaXIgc2VydmljZSBtYXRjaGVzIG91ciAgDQpwaGls
+b3NvcGh5IHRvIGFwcGxpY2F0aW9uIGRldmVsb3BtZW50Lg0KDQoNCldlIGFyZSBhbHNvIGJpZyBm
+YW5zIG9mIE5ldyBSZWxpYyBmb3IgbW9uaXRvcmluZyBvdXIgQVdTIGluc3RhbmNlICANCnBlcmZv
+cm1hbmNlLg0KDQoNClNjYWxpbmcgdXAgUnVieSBvbiBSYWlscyB3aXRoIEFXUw0KV2UgdXNlIFJ1
+Ynkgb24gUmFpbHMgc2VydmVyIHNpZGUsIE9iamVjdGl2ZSBDLCBhbmQgSmF2YSBmb3IgY2xpZW50
+IHNpZGUuICANCk1vcmUgZGV0YWlscyBvZiBvdXIgc3RhY2ssIGluY2x1ZGluZyBvdXIgYXJjaGl0
+ZWN0dXJlIGFuZCB0ZXN0IGRhdGEsIGNhbiBiZSAgDQpzZWVuIGRldGFpbGVkIG9uIG91ciBibG9n
+Lg0KDQoNCldvcmRzIG9mIFdpc2RvbSBmb3IgT3RoZXIgU3RhcnR1cHM6DQoNClVuZGVyc3RhbmQg
+dGhhdCB5b3UgY2FuIGRvIGl0IGZyb20gYW55d2hlcmUsIHlvdSBkb27igJl0IGhhdmUgdG8gYmUg
+YmFzZWQgaW4gIA0KU2lsaWNvbiBWYWxsZXksIG9yIGV2ZW4gYSBiaWcgY2l0eS4gV2l0aCB0aGUg
+aGVscCBvZiB0aGUgaW50ZXJuZXQgYW5kIHdlYiAgDQpzZXJ2aWNlcyBzdWNoIGFzIHRoZSBBV1Mg
+Y2xvdWQsIGFueW9uZSBjYW4gZGVsaXZlciBncmVhdCBwcm9kdWN0cyBmcm9tICANCmFueXdoZXJl
+IGluIHRoZSB3b3JsZC4NCg0KRm9yIGV4YW1wbGUgd2XigJlyZSBiYXNlZCBpbiBQZXJ0aCwgQXVz
+dHJhbGlhLiBJdOKAmXMgYSBmaXZlIGhvdXIgZmxpZ2h0IHRvICANClN5ZG5leSBhbmQgb3VyIGhv
+bWV0b3duIGlzIG1vc3QgZGVmaW5pdGVseSBub3QgdGhlIHRlY2ggY2FwaXRhbCBvZiB0aGUgIA0K
+d29ybGQhIFRvIHN1bSB1cDoNCg0KDQpCdWlsZCBhIGdyZWF0IHByb2R1Y3QsIHRoZW4gZG9udCBm
+b3JnZXQgdG8gbWFya2V0IGl0IQ0KVHJlYXQgeW91ciBjdXN0b21lcnMgbGlrZSBwcmVjaW91cyBn
+b2xkLg0KTWFrZSBpdCBlYXN5IGZvciB5b3VyIGN1c3RvbWVycyB0byB0YWxrIHRvIHlvdSBhbmQg
+bGlzdGVuIHRvIHdoYXQgdGhleSBzYXkuDQpDcm9zcy1wcm9tb3RlIHlvdXIgYXBwIHdpdGggb3Ro
+ZXIgYXBwcyB0aGF0IHlvdeKAmXZlIGFsc28gYnVpbHQuDQoNCldldmUgY29sbGVjdGVkIHNvbWUg
+bGVzc29ucyBsZWFybmVkIG9uIG91ciBibG9nOmhvdyB3ZSBnb3QgMjUwayBkb3dubG9hZHMgIA0K
+aW4gNCBkYXlzLg0KDQoNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLQ0KDQo4IERheXMgTGVmdCB0byBFbnRlciBZb3VyIFN0YXJ0dXAgaW4gdGhl
+IEFXUyBTdGFydC11cCBDaGFsbGVuZ2UhDQpUaGlzIHllYXJzIEFXUyBTdGFydC11cCBDaGFsbGVu
+Z2UgaXMgYSB3b3JsZHdpZGUgY29tcGV0aXRpb24gd2l0aCBwcml6ZXMgYXQgIA0KYWxsIGxldmVs
+cywgaW5jbHVkaW5nIHVwIHRvICQxMDAsMDAwIGluIGNhc2gsIEFXUyBjcmVkaXRzLCBhbmQgbW9y
+ZSBmb3IgdGhlICANCmdyYW5kIHByaXplIHdpbm5lci4gIExlYXJuIG1vcmUgYW5kIGVudGVyIHRv
+ZGF5IQ0KDQpZb3UgY2FuIGFsc28gZm9sbG93QEFXU1N0YXJ0dXBzb24gVHdpdHRlciBmb3Igc3Rh
+cnR1cC1yZWxhdGVkIHVwZGF0ZXMuDQoNCi1yb2RpY2ENCg0KDQoNCi0tDQpZb3UgYXJlIHN1YnNj
+cmliZWQgdG8gZW1haWwgdXBkYXRlcyBmcm9tICJBbWF6b24gV2ViIFNlcnZpY2VzIEJsb2cuIg0K
+VG8gc3RvcCByZWNlaXZpbmcgdGhlc2UgZW1haWxzLCB5b3UgbWF5IHVuc3Vic2NyaWJlIG5vdzog
+IA0KaHR0cDovL2ZlZWRidXJuZXIuZ29vZ2xlLmNvbS9mYi9hL21haWx1bnN1YnNjcmliZT9rPVdZ
+bHFzSGdGbWo0QWFNeENJbzREcHFHSmxfWQ0KDQpFbWFpbCBkZWxpdmVyeSBwb3dlcmVkIGJ5IEdv
+b2dsZS4NCkdvb2dsZSBJbmMuLCAyMCBXZXN0IEtpbnppZSwgQ2hpY2FnbyBJTCBVU0EgNjA2MTAN
+Cg0K
+--20cf3010e4534ed55c04adc2d898
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/ZMngd=
+5v7eKA/aws-summer-startups-discovr.html?utm_source=3Dfeedburner&utm_medium=
+=3Demail">AWS Summer Startups: Discovr</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 24 Sep 2011 08:35 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><div>
+<div style=3D"padding-left: 30px;"><a href=3D"http://aws.amazon.com/startup=
+challenge/?utm_source=3Dawsblog&amp;utm_medium=3Dbanner&amp;utm_campaign=3D=
+SM_awsblog_summerstartup_title&amp;trk=3DSM_awsblog_ summerstartup" target=
+=3D"_blank"><img alt=3D"" src=3D"http://aws.typepad.com/.a/6a00d8341c534853=
+ef0154335da1f3970c-800wi" style=3D"display: block; margin-left: auto; margi=
+n-right: auto;" /></a></div>
+<p>Over the summer months, we&#39;d like to share a few stories from startu=
+ps around the world: what are they working on and how they are using the cl=
+oud to get things done. Today, we&#39;re profiling <strong>Filter Squad</st=
+rong> from Perth, <strong>Australia</strong>!</p>
+<a href=3D"http://www.classle.net/" target=3D"_blank"><img alt=3D"Discovr t=
+eam" src=3D"http://awsmedia.s3.amazonaws.com/aws-sc2011/discovr-team.JPG" s=
+tyle=3D"display: block; margin-left: auto; margin-right: auto;" /></a></div=
+>
+<div><em><br /></em></div>
+<p>In one of <a href=3D"http://www.allthingsdistributed.com/" target=3D"_bl=
+ank">Werner Vogels</a>&#39; many travels through Australia this summer, he =
+tweeted about a lean startup he had met, Filter Squad.&#0160;Lean startups,=
+ not to be confused with <a href=3D"http://en.wikipedia.org/wiki/Bootstrapp=
+ing_(business)" target=3D"_blank">bootstrapped startups</a>, are built by a=
+dapting agile software development methodologies to business. Some of the c=
+oncepts include building a <a href=3D"http://en.wikipedia.org/wiki/Minimum_=
+viable_product" target=3D"_blank">minimum viable product</a>, testing busin=
+ess assumptions with real market data, measuring results, and then quickly =
+iterating or pivoting depending on what that data shows you. The concept of=
+ a <a href=3D"http://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-I=
+nnovation/dp/0307887898" target=3D"_blank">&quot;lean startup&quot; was coi=
+ned by entrepreneur &amp; author Eric Ries</a>.&#0160;</p>
+<p>I reached out and spoke to <strong>Stuart Hall, CTO of Filter Squad,</st=
+rong> and creator of, among others, the <a href=3D"http://discovr.info/" ta=
+rget=3D"_blank">Discovr Apps</a> and <a href=3D"http://itunes.apple.com/us/=
+app/discovr-music-discover-new/id412768094?mt=3D8" target=3D"_blank">Discov=
+r Music for the iPhone &amp; iPad</a>.</p>
+<div><strong>Meet Filter Squad</strong></div>
+<div>Filter Squad is a startup focused on building =E2=80=9C<em>apps that f=
+ind what you like</em>=E2=80=9D, according to CTO Stuart Hall. They began w=
+ith a #1 selling iPad/iPhone app called<a href=3D"http://itunes.apple.com/u=
+s/app/discovr-music-discover-new/id412768094?mt=3D8" target=3D"_blank"> Dis=
+covr Music</a> in January 2011 and expanded the discovery product suite to =
+include <a href=3D"http://discovr.info/" target=3D"_blank">Discovr App</a> =
+in June 2011, which has been a #1 category application in 17 countries. As =
+the name implies, Discovr Music makes it easy for users to find music they =
+like based on their preferences, while Discovr App recommends apps the user=
+ might like based on the ones you&#39;re already using. =E2=80=9C<em>We hav=
+e been extremely happy with AWS and we also plan to use it for our future p=
+roducts. We are big fans of products such as Amazon RDS and the Elastic Loa=
+d Balancer to give a complete app scaling solution with Amazon EC2</em>=E2=
+=80=9D, says Stuart. &#0160;</div>
+<div>Take a look at the Discovr Music app review from Fox News:</div>
+<p><iframe frameborder=3D"0" height=3D"360" src=3D"http://www.youtube.com/e=
+mbed/ve8XH9EOMMY" width=3D"480"></iframe></p>
+<div><br /><strong>AWS &amp; Lean Startups</strong></div>
+<div style=3D"padding-left: 30px;"><em>Because we are a small, lean team, w=
+e were looking for a hosting solution that was going to be easy for us to s=
+etup, be reliable, and be easy to scale up and down throughout our product =
+iterations. We looked at a large number of providers, but AWS stood out imm=
+ediately for a number of reasons:</em></div>
+<div style=3D"padding-left: 30px;">
+<ul>
+<li><em>Low maintenance</em></li>
+<li><em>Easy to scale</em></li>
+<li><em>Simple to setup</em></li>
+<li><em>Provided good redundancy</em></li>
+</ul>
+</div>
+<div style=3D"padding-left: 30px;"><em>We couldn&#39;t find anyone else who=
+ could match the AWS products and price. The number of other large, success=
+ful companies also using the service was very reassuring.</em></div>
+<div><br /><strong>Building a Native iPhone/iPad App on AWS</strong></div>
+<div style=3D"padding-left: 30px;"><em>Native mobile apps often need server=
+-side components to create a rich user experience. For our Discovr Apps and=
+ Discover Music apps, we have used the following AWS products:&#0160;</em><=
+/div>
+<div style=3D"padding-left: 30px;">
+<ul>
+<li><em><a href=3D"http://aws.amazon.com/ec2/" target=3D"_blank">Amazon EC2=
+</a> - because we had no idea of the market reaction to the application whe=
+n we launched, flexibility in adding and removing virtual servers based on =
+demand was key.&#0160;</em></li>
+<li><em><a href=3D"http://aws.amazon.com/rds/" target=3D"_blank">Amazon RDS=
+</a> - we needed a database that would also be easy to scale and be easy to=
+ maintain. Amazon RDS provided easy scaling, easy replication for slave ins=
+tances, and a system where minor software updates are handled entirely by A=
+WS.</em></li>
+<li><em><a href=3D"http://aws.amazon.com/s3/" target=3D"_blank">Amazon S3</=
+a> - S3 provides a great and cheap way to host static resources, one with w=
+hich we had worked before and found ideal for our use case.</em></li>
+<li><em><a href=3D"http://aws.amazon.com/elasticloadbalancing/" target=3D"_=
+blank">Amazon Elastic Load Balancer</a> - &#0160;the load balancer is provi=
+ded straight out of the box: it doesn&#39;t require any installing and it n=
+eeds very little configuration. The load balancer provides built in health =
+checks and takes out instances that are not behaving. Elastic load balancin=
+g has been faultless since we launched.</em></li>
+<li><em><span style=3D"text-decoration: underline;">Caching</span>: the onl=
+y thing missing was a caching solution, which <a href=3D"http://aws.amazon.=
+com/elasticache/" target=3D"_blank">AWS has since launched</a> and we will =
+be soon moving to. This was also a big consideration, the <strong>pace at w=
+hich AWS are iterating and improving their service matches our philosophy t=
+o application development</strong>.</em></li>
+</ul>
+</div>
+<div style=3D"padding-left: 30px;"><em>We are also big fans of <a href=3D"h=
+ttp://newrelic.com/" target=3D"_blank">New Relic</a> for monitoring our AWS=
+ instance performance.&#0160;</em><br /><br /><strong>&#0160;</strong></div=
+>
+<div><strong>Scaling up Ruby on Rails with AWS</strong></div>
+<div style=3D"padding-left: 30px;"><em>We use Ruby on Rails server side, Ob=
+jective C, and Java for client side. More details of our stack, including o=
+ur architecture and test data, can be seen <a href=3D"http://discovr.info/2=
+011/08/launching-your-iphone-ipad-app-with-amazon-web-services/" target=3D"=
+_blank">detailed on our blog</a>.&#0160;</em></div>
+<div style=3D"padding-left: 30px;"><em><br /></em></div>
+<div><strong>Words of Wisdom for Other Startups:</strong><em><br /></em></d=
+iv>
+<div style=3D"padding-left: 30px;"><em>Understand that you can do it from a=
+nywhere, you don=E2=80=99t have to be based in Silicon Valley, or even a bi=
+g city. With the help of the internet and web services such as the AWS clou=
+d, anyone can deliver great products from anywhere in the world.</em></div>
+<div style=3D"padding-left: 30px;"><br /><em>For example we=E2=80=99re base=
+d in Perth, Australia. It=E2=80=99s a five hour flight to Sydney and our ho=
+metown is most definitely not the tech capital of the world! To sum up:</em=
+></div>
+<div style=3D"padding-left: 30px;">
+<ul>
+<li><em>Build a great product, then don&#39;t forget to market it!</em></li=
+>
+<li><em>Treat your customers like precious gold.</em></li>
+<li><em>Make it easy for your customers to talk to you and listen to what t=
+hey say.</em></li>
+<li><em>Cross-promote your app with other apps that you=E2=80=99ve also bui=
+lt.</em></li>
+</ul>
+<em>We&#39;ve collected some lessons learned on our blog:</em>&#0160;<a hre=
+f=3D"http://discovr.info/2011/07/marketing-hacks-for-ios-how-we-got-250k-do=
+wnloads-in-4-days/" target=3D"_blank">how we got 250k downloads in 4 days</=
+a>.<strong><br /></strong></div>
+<p>------------------------------------------------------</p>
+<p><strong>8 Days Left to Enter Your Startup in the AWS Start-up Challenge!=
+</strong><br />This year&#39;s <a href=3D"http://aws.amazon.com/startupchal=
+lenge/?utm_source=3Dawsblog&amp;utm_medium=3Dbanner&amp;utm_campaign=3DSM_a=
+wsblog_summerstartup_title&amp;trk=3DSM_awsblog_ summerstartup" target=3D"_=
+blank">AWS Start-up Challenge</a> is a worldwide competition with prizes at=
+ all levels, including up to $100,000 in cash, AWS credits, and more for th=
+e grand prize winner. <a href=3D"http://aws.amazon.com/startupchallenge/?ut=
+m_source=3Dawsblog&amp;utm_medium=3Dbanner&amp;utm_campaign=3DSM_awsblog_su=
+mmerstartup_title&amp;trk=3DSM_awsblog_ summerstartup" target=3D"_blank"> L=
+earn more and enter today!</a></p>
+<p>You can also follow&#0160;<a href=3D"http://twitter.com/#!/awsstartups" =
+target=3D"_self">@AWSStartups</a>&#0160;on Twitter for startup-related upda=
+tes.</p>
+<p>&#0160;-rodica</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DZMngd5=
+v7eKA:Sk738lz3S8s:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DZMngd5v7eKA:Sk738l=
+z3S8s:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DZMngd5v7eKA:Sk738lz3S8s:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/Z=
+Mngd5v7eKA?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--20cf3010e4534ed55c04adc2d898--

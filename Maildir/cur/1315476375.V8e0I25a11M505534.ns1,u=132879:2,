@@ -1,0 +1,31 @@
+Return-Path: <wwwrun@doap.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 30)
+	id 5FF9D886A8; Thu,  8 Sep 2011 03:06:15 -0700 (PDT)
+To: support@doap.com
+Subject: New WordPress Site
+X-PHP-Originating-Script: 33:class-phpmailer.php
+Date: Thu, 8 Sep 2011 10:06:15 +0000
+From: WordPress <wordpress@stevepatrick.doap.com>
+Message-ID: <986199036fa12a3f124c3a9dfe59e15c@stevepatrick.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+Your new WordPress site has been successfully set up at:
+
+http://stevepatrick.doap.com
+
+You can log in to the administrator account with the following information:
+
+Username: admin
+Password: The password you chose during the install.
+
+We hope you enjoy your new site. Thanks!
+
+--The WordPress Team
+http://wordpress.org/
+

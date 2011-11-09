@@ -1,0 +1,21 @@
+Return-Path: <wwwrun@doap.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 30)
+	id 81C17888A2; Thu, 25 Aug 2011 17:40:24 -0700 (PDT)
+To: bobby@doap.com
+Subject: [Oscars Website] Your username and password
+X-PHP-Originating-Script: 33:class-phpmailer.php
+Date: Fri, 26 Aug 2011 00:40:24 +0000
+From: WordPress <wordpress@oscar.doap.com>
+Message-ID: <9e9c7d7ebd0d3867bb1fea6c54dd874c@oscar.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+Username: oscar
+Password: oscar12345
+http://oscar.doap.com/wp-login.php
+

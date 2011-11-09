@@ -1,0 +1,159 @@
+Return-Path: <bounce-20-868352212@trakken.google.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from smtp-out.google.com (smtp-out.google.com [216.239.44.51])
+	by ns1 (Postfix) with ESMTP id 2A2588867A;
+	Mon, 12 Sep 2011 07:06:33 -0700 (PDT)
+Received: from hpaq1.eem.corp.google.com (hpaq1.eem.corp.google.com [172.25.149.1])
+	by smtp-out.google.com with ESMTP id p8CE6VU5018879;
+	Mon, 12 Sep 2011 07:06:32 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=google.com; s=beta;
+	t=1315836392; bh=hTVdfnf8M2NHh7s42FuLEw9/UM8=;
+	h=Date:From:To:Cc:Subject:Message-ID:MIME-Version:Content-Type:
+	 In-Reply-To;
+	b=nmNZYrif8Xea3idvBYgkHIGaOKQyp+Eb2Wz0LQ72US4aynjtaG4uMDsW3FRv6vf+L
+	 QUHlrT31hvuyEqOlMrkQg==
+DomainKey-Signature: a=rsa-sha1; s=beta; d=google.com; c=nofws; q=dns;
+	h=dkim-signature:date:from:to:cc:subject:message-id:
+	mime-version:content-type:in-reply-to:user-agent;
+	b=dD/+A9JhVjtmLbvv/+lLB/1YqzzN4L2ZAkG+d3l9Ttira+heG8PLxvhl6SihkVHt+
+	nSjqpl7zy4zlT4CuOHZpg==
+Received: from pzk37 (pzk37.prod.google.com [10.243.19.165])
+	by hpaq1.eem.corp.google.com with ESMTP id p8CE6OQ7023400
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=NOT);
+	Mon, 12 Sep 2011 07:06:30 -0700
+Received: by pzk37 with SMTP id 37so1250572pzk.2
+        for <multiple recipients>; Mon, 12 Sep 2011 07:06:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=date:from:to:cc:subject:message-id:mime-version:content-type
+         :in-reply-to:user-agent;
+        bh=OEUp005Pk0CfbgBv7GmBnlNXD9jQimJ/vlfBVvrtMKc=;
+        b=WQX7+spmdJa51NthUVYB/QqJ0OUNR0+CY9ywdME0tWHn6/5BgtamntmLaQj/0BARov
+         88QhoFLyV7v/sbZVeYUg==
+Received: by 10.68.66.3 with SMTP id b3mr293930pbt.3.1315836389737;
+        Mon, 12 Sep 2011 07:06:29 -0700 (PDT)
+Date: Mon, 12 Sep 2011 14:01:24 -0000
+From: "AdWords Support" <adwords-support@google.com>
+To: "David Menache" <dave@doap.com>
+Cc: support@doap.com
+Subject: Re: [#868352212] Follow-up to 866-2-GOOGLE - screenshot included
+Message-ID: <#14.33c200d4.a2ca71b.4e6e10b4.360@google.trakken.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+In-Reply-To: <SNT128-W387B082622AA724EB785BCC2010@phx.gbl>
+User-Agent: Neotonic Trakken/combo_frontend-trakken/3.5.4-RC13
+
+Hi Dave,
+
+It's best to make sure your geographic areas don't overlap so that your
+ads don't compete against each other. However, your overlapping area
+shouldn't impact the explanation I gave last week about the Ad Preview
+tool and the competitive nature of the keyword 'airconditioning services
+costa mesa.'
+
+I hope that helps, and good luck to you!
+
+
+Sincerely,
+
+Vicki C.
+The Google AdWords Team
+
+Original Message Follows:
+------------------------
+From: David Menache <dave@doap.com>
+Subject: RE: [#868352212] Follow-up to 866-2-GOOGLE - screenshot included
+Date: Fri, 9 Sep 2011 13:53:59 -0700
+
+> 
+> hey there!  
+> 
+> i'll try it out now.  also, i noticed that several of our areas are
+overlapping geographically so we are adjusting that.  do you think that
+will also help?
+> 
+> thanks
+> dave
+> 
+> David Menache
+> dave@doap.com
+> US:805-426-5216
+> 
+> > Date: Fri, 9 Sep 2011 20:41:55 +0000
+> > From: adwords-support@google.com
+> > To: dave@doap.com
+> > Subject: Re: [#868352212] Follow-up to 866-2-GOOGLE - screenshot
+included
+> > 
+> > Hi Dave,
+> > 
+> > I spoke with our technical team and have the puzzle figured out!
+> > 
+> > It turns out that the keyword 'airconditioning services costa mesa' is
+> > actually more competitive than the keyword 'airconditioning services.'
+If
+> > you try just searching for 'airconditioning services' in the
+> > google.com/adpreview tool (and choosing the costa mesa location),
+you'll
+> > be more likely to see your client's ad show up.
+> > 
+> > The reason our Ad Diagnosis tool referred to the Tarzana campaign is
+> > because the actual search query 'airconditioning services costa mesa'
+was
+> > being broad matched from an airconditioning related keyword in your
+> > Tarzana campaign (even though it wasn't in the right target region).
+It
+> > didn't choose a keyword in your 'Costa Mesa' campaign because the
+actual
+> > keyword 'airconditioning services costa mesa' needed a higher ad rank
+than
+> > your campaign could reach.
+> > 
+> > I hope that makes sense!
+> > 
+> > Bottom line: Search for your ads on google.com/adpreview using the
+EXACT
+> > keyword you have in that particular campaign (and choose the
+appropriate
+> > targeting settings within the dropdown).
+> > 
+> > Hope that helped, and have a great weekend!
+> > 
+> > Sincerely,
+> > 
+> > Vicki C.
+> > The Google AdWords Team
+> > 
+> > Original Message Follows:
+> > ------------------------
+> > From: "AdWords Support" <adwords-support@google.com>
+> > Subject: Re: [#868352212] Follow-up to 866-2-GOOGLE - screenshot
+included
+> > Date: Fri, 09 Sep 2011 16:11:42 -0000
+> > 
+> > > Hi Dave,
+> > > 
+> > > Pleasure talking to you today. Per our discussion, I've attached a
+> > > screenshot of the 'airconditioning services costa mesa' Ad Preview
+> > search
+> > > I conducted earlier today. You can see your client's ad on the
+bottom
+> > > right.
+> > > 
+> > > I'll check in with our technical team about why the signed-in Ad
+Preview
+> > > tool is detecting another campaign to pull ads from and let you know
+if
+> > > they have more insight.
+> > > 
+> > > Thanks!
+> > > 
+> > > Sincerely,
+> > > 
+> > > Vicki C.
+> > > The Google AdWords Team
+> > >
+> > 
+>
+

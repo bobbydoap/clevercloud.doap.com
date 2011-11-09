@@ -1,0 +1,138 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gw0-f49.google.com (mail-gw0-f49.google.com [74.125.83.49])
+	by ns1 (Postfix) with ESMTP id A753D88662
+	for <support@doap.com>; Thu,  8 Sep 2011 15:22:45 -0700 (PDT)
+Received: by gwb1 with SMTP id 1so493460gwb.22
+        for <support@doap.com>; Thu, 08 Sep 2011 15:22:45 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.197.132 with SMTP id ek4mr498989icb.480.1315520564833; Thu,
+ 08 Sep 2011 15:22:44 -0700 (PDT)
+Received: by 10.42.229.74 with HTTP; Thu, 8 Sep 2011 15:22:44 -0700 (PDT)
+X-Originating-IP: [190.181.160.105]
+Date: Thu, 8 Sep 2011 16:22:44 -0600
+Message-ID: <CANCpuCnoUSkD3Py2-ZyVVuCt1qmUA8L1ShT6GycrnzUOv-k1qg@mail.gmail.com>
+Subject: Some housekeeping
+From: David Menache <dmenache@thehvac.net>
+To: larry@globalhvac.net
+Content-Type: multipart/alternative; boundary=20cf303ea67cf62e5604ac757fba
+
+--20cf303ea67cf62e5604ac757fba
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hey Larry,
+
+Good to talk to ya... :)   I forgot to ask you about your GHVAC parts list.
+I have a trane parts catalog all done that i got from the trane site way
+back when, but not one from GHVAC.  I still need the data for that project.
+
+Also...
+
+Here is a prototype of the weather lookup table.  Sometimes it shows errors
+on some of the weather look ups because all the weather lookups overload
+it.  i will put a timer in it so it loads over a minute or so and then no
+data will be missing.  its a prototype after all.  You will get the idea
+immediately.  We just decide on parameters to start and stop ad campaigns
+based on weather temp thresholds per area... Check it out.
+
+https://docs.google.com/a/thehvac.net/spreadsheet/ccc?key=0AjFG-o3c6-KTdHh5V19NSkdqNnVnRV82aHVYQmV4V2c&hl=en_US#gid=0
+
+2 more things...
+
+1. your current email globlhvac.com ... how is it being handled? managed?
+we need to be careful not to disrupt it when we move globalhvac.com to
+globalhvac.net
+
+and
+
+2. a way to approve IT jobs more efficiently....  Laura is concerned it is
+getting to be too many tasks and we dont want a jumble or sour grapes :)
+
+so to head it off at the pass, i thought a IT request form was in order.
+
+https://sites.google.com/a/thehvac.net/global-hvac-distriubtors-employee-site/it-help-desk
+
+The form is available on ghvac-employees.com under IT Help Desk and can be
+filled out by any GHVAC employee.  The request goes straight to you via an
+email to larry@globalhvac.net which forwards to your sbcglobal account.  You
+need to forward those requests to us here at tech@doap.com so my guys can
+get the work done and billed properly. Each email request you receive will
+include details of the job and the price for the work.  If you want to do
+some kind of straight $50/hr thing thats fine but laura said you prefer per
+job method.  (i'd also be open to a salary... hint hint.)
+
+So i'm getting that all setup now.  Watch for teset emails in your inbox.
+We just billed 7 new ruud campaign city setups at 100 each yesterday  I'm
+going to fill out the IT request notification and hopefully you can verify
+receipt and approval by forwarding it off to us here at tech@doap.com .
+
+I've been pretty thorough with permissions and setup for you but there will
+no doubt be some permissions that need adusting as you, the pioneers onboard
+so bear with me.
+
+Thoughts?
+
+Thanks
+Dave M
+dave@doap.com
+
+--20cf303ea67cf62e5604ac757fba
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hey Larry, <br><br>Good to talk to ya... :)=A0=A0 I forgot to ask you about=
+ your GHVAC parts list.=A0 I have a trane parts catalog all done that i got=
+ from the trane site way back when, but not one from GHVAC.=A0 I still need=
+ the data for that project.<br>
+<br>Also...<br><br>Here is a prototype of the weather lookup table.=A0 Some=
+times it shows errors on some of the weather look ups because all the weath=
+er lookups overload it.=A0 i will put a timer in it so it loads over a minu=
+te or so and then no data will be missing.=A0 its a prototype after all.=A0=
+ You will get the idea immediately.=A0 We just decide on parameters to star=
+t and stop ad campaigns based on weather temp thresholds per area... Check =
+it out.<br>
+
+<br><a href=3D"https://docs.google.com/a/thehvac.net/spreadsheet/ccc?key=3D=
+0AjFG-o3c6-KTdHh5V19NSkdqNnVnRV82aHVYQmV4V2c&amp;hl=3Den_US#gid=3D0" target=
+=3D"_blank">https://docs.google.com/a/thehvac.net/spreadsheet/ccc?key=3D0Aj=
+FG-o3c6-KTdHh5V19NSkdqNnVnRV82aHVYQmV4V2c&amp;hl=3Den_US#gid=3D0</a><br>
+
+<br>2 more things...<br><br>1. your current email <a href=3D"http://globlhv=
+ac.com">globlhvac.com</a> ... how is it being handled? managed?=A0 we need =
+to be careful not to disrupt it when we move <a href=3D"http://globalhvac.c=
+om">globalhvac.com</a> to <a href=3D"http://globalhvac.net">globalhvac.net<=
+/a><br>
+<br>and<br><br>2. a way to approve IT jobs more efficiently....=A0 Laura is=
+ concerned it is getting to be too many tasks and we dont want a jumble or =
+sour grapes :)<br><br>so to head it off at the pass, i thought a IT request=
+ form was in order.=A0 <br>
+
+<br><a href=3D"https://sites.google.com/a/thehvac.net/global-hvac-distriubt=
+ors-employee-site/it-help-desk" target=3D"_blank">https://sites.google.com/=
+a/thehvac.net/global-hvac-distriubtors-employee-site/it-help-desk</a><br><b=
+r>
+The form is available on <a href=3D"http://ghvac-employees.com" target=3D"_=
+blank">ghvac-employees.com</a> under IT Help Desk and can be filled out by =
+any GHVAC employee.=A0 The request goes straight to you via an email to <a =
+href=3D"mailto:larry@globalhvac.net" target=3D"_blank">larry@globalhvac.net=
+</a> which forwards to your sbcglobal account.=A0 You need to forward those=
+ requests to us here at <a href=3D"mailto:tech@doap.com" target=3D"_blank">=
+tech@doap.com</a> so my guys can get the work done and billed properly. Eac=
+h email request you receive will include details of the job and the price f=
+or the work.=A0 If you want to do some kind of straight $50/hr thing thats =
+fine but laura said you prefer per job method.=A0 (i&#39;d also be open to =
+a salary... hint hint.)<br>
+
+<br>So i&#39;m getting that all setup now.=A0 Watch for teset emails in you=
+r inbox.=A0=A0 We just billed 7 new ruud campaign city setups at 100 each y=
+esterday=A0 I&#39;m going to fill out the IT request notification and hopef=
+ully you can verify receipt and approval by forwarding it off to us here at=
+ <a href=3D"mailto:tech@doap.com" target=3D"_blank">tech@doap.com</a> .<br>
+<br>I&#39;ve been pretty thorough with permissions and setup for you but th=
+ere will no doubt be some permissions that need adusting as you, the pionee=
+rs onboard so bear with me.<br><br>Thoughts?<br><br>Thanks<br>Dave M<br>
+<a href=3D"mailto:dave@doap.com">dave@doap.com</a><br>
+<br><br><br>
+
+--20cf303ea67cf62e5604ac757fba--

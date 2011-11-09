@@ -1,0 +1,118 @@
+Return-Path: <glendoraaircon+caf_=sales=doap.com@thehvac.net>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-yx0-f182.google.com (mail-yx0-f182.google.com [209.85.213.182])
+	by ns1 (Postfix) with ESMTP id 0E196887E9
+	for <sales@doap.com>; Sat, 10 Sep 2011 00:20:53 -0700 (PDT)
+Received: by yxk36 with SMTP id 36so2611824yxk.13
+        for <sales@doap.com>; Sat, 10 Sep 2011 00:20:53 -0700 (PDT)
+Received: by 10.147.55.30 with SMTP id h30mr652291yak.22.1315639252147;
+        Sat, 10 Sep 2011 00:20:52 -0700 (PDT)
+X-Forwarded-To: sales@doap.com
+X-Forwarded-For: glendoraaircon@thehvac.net sales@doap.com
+Delivered-To: glendoraaircon@thehvac.net
+Received: by 10.146.254.14 with SMTP id b14cs12785yai;
+        Sat, 10 Sep 2011 00:20:51 -0700 (PDT)
+Received: by 10.68.60.34 with SMTP id e2mr1669869pbr.510.1315639249783;
+        Sat, 10 Sep 2011 00:20:49 -0700 (PDT)
+Received: from mail-pz0-f70.google.com (mail-pz0-f70.google.com [209.85.210.70])
+        by mx.google.com with ESMTPS id k10si9763955pbj.51.2011.09.10.00.20.48
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sat, 10 Sep 2011 00:20:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 30A9rTg8KDhUvyH9CyD-89CzA6J19916z.x9716z8y9Cvv3Cx98E2z2Gvx.8zE@usercomm.bounces.google.com designates 209.85.210.70 as permitted sender) client-ip=209.85.210.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of 30A9rTg8KDhUvyH9CyD-89CzA6J19916z.x9716z8y9Cvv3Cx98E2z2Gvx.8zE@usercomm.bounces.google.com designates 209.85.210.70 as permitted sender) smtp.mail=30A9rTg8KDhUvyH9CyD-89CzA6J19916z.x9716z8y9Cvv3Cx98E2z2Gvx.8zE@usercomm.bounces.google.com; dkim=pass (test mode) header.i=@google.com
+Received: by pzk37 with SMTP id 37so8251576pzk.5
+        for <glendoraaircon@thehvac.net>; Sat, 10 Sep 2011 00:20:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:x-google-ads-sender:x-google-ads-sender-version
+         :message-id:date:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=ifTXJAdVASD1XgI13RTldpuCTIzE9qddbE7V+5F8E/Y=;
+        b=BNSdC07D8gDvL59xntgIPGClHEyN/9Jni/pqE1+FSr0cKIGoj+p8OvDbKCBMr8zOIS
+         hJuBu/XfjOXVeAEaL/9g==
+MIME-Version: 1.0
+Received: by 10.68.28.231 with SMTP id e7mt2462135pbh.5.1315639248379; Sat, 10
+ Sep 2011 00:20:48 -0700 (PDT)
+X-Google-Ads-Sender: ReviewMailer
+X-Google-Ads-Sender-Version: 0.1
+Message-ID: <1315639248375.7bef3489-4ecb-485f-9714-c3b970571978@google.com>
+Date: Sat, 10 Sep 2011 07:20:48 +0000
+Subject: Your AdWords Account: Ad Disapproved
+From: adwords-noreply@google.com
+To: glendoraaircon@thehvac.net
+Content-Type: text/plain; charset=windows-1252; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+QWRXb3JkcyBhY2NvdW50IG51bWJlcjogNzIxLTg3OC00NjU1DQoNCkRlYXIgQWRXb3JkcyBBZHZl
+cnRpc2VyLA0KDQpBZnRlciByZXZpZXdpbmcgeW91ciBhY2NvdW50LCB3ZSBmb3VuZCB0aGF0IG9u
+ZSBvciBtb3JlIG9mIHlvdXIgYWRzIG9yDQprZXl3b3JkcyBoYXZlIGJlZW4gZGlzYXBwcm92ZWQu
+IFVudGlsIHlvdSBlZGl0IHlvdXIgYWRzIG9yIGtleXdvcmRzIHRvDQptYWtlIHRoZW0gY29tcGxp
+YW50LCB5b3VyIGFkcyB1bmZvcnR1bmF0ZWx5IHdvbid0IGJlIGFibGUgdG8gc2hvdyB1cCBvbg0K
+R29vZ2xlLCBvdXIgc2VhcmNoIHBhcnRuZXJzLCBvciBvbiBEaXNwbGF5IE5ldHdvcmsgcGxhY2Vt
+ZW50cy4NCg0KQmVsb3cgeW91J2xsIGZpbmQgdGhlIHJlYXNvbiB3aHkgeW91ciBhZHMgb3Iga2V5
+d29yZHMgaGF2ZSBiZWVuDQpkaXNhcHByb3ZlZCwgYW5kIGF0IHRoZSBlbmQgb2YgdGhpcyBlbWFp
+bCwgeW91J2xsIGZpbmQgYSBQcm9ibGVtIFJlcG9ydA0KdGhhdCBpbmNsdWRlcyBkZXRhaWxzIGFi
+b3V0IHdoaWNoIGFkcyBvciBrZXl3b3JkcyBoYXZlIGJlZW4gZGlzYXBwcm92ZWQNCmFuZCB3aGF0
+IHlvdSBjYW4gZG8gdG8gZml4IHRoZW0uDQoNCj09PT09PT09PT09PT09PT09PT09DQpEaXNhcHBy
+b3ZhbCBSZWFzb24NCj09PT09PT09PT09PT09PT09PT09DQpbRGlzcGxheSBVUkxdIE9uZSBkaXNw
+bGF5IFVSTCBkb21haW4gcGVyIGFkIGdyb3VwOiBBbGwgZGlzcGxheSBVUkxzDQp3aXRoaW4gYSBz
+aW5nbGUgYWQgZ3JvdXAgbXVzdCBoYXZlIHRoZSBzYW1lIGRvbWFpbi4NCg0KVGhpcyBwb2xpY3kg
+YXBwbGllcyB0byBib3RoIGFjdGl2ZSBhbmQgcGF1c2VkIGFkcy4NCg0KRm9yIG1vcmUgaW5mb3Jt
+YXRpb24gYWJvdXQgdGhpcyBwb2xpY3kgYW5kIGluc3RydWN0aW9ucyB0byBmaXggdGhpcw0KcHJv
+YmxlbSwgcGxlYXNlIHNlZToNCmh0dHA6Ly9hZHdvcmRzLmdvb2dsZS5jb20vc3VwcG9ydC9hdy9i
+aW4vc3RhdGljLnB5P2hsPWVuJnBhZ2U9Z3VpZGUuY3MmZ3VpZGU9MTMwODIzMSZ0b3BpYz0xMzEw
+ODY4JmFuc3dlcj0xNzU5MDYmdXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1jbSZ1dG1fY2Ft
+cGFpZ249ZGlzcGxheXVybA0KLS0tLS0tLS0tLS0tLS0tLS0tLS0NCg0KUmVwZWF0ZWQgdmlvbGF0
+aW9ucyBvZiBvdXIgcG9saWNpZXMgbWlnaHQgcmVzdWx0IGluIHlvdXIgQWRXb3Jkcw0KYWNjb3Vu
+dCBnZXR0aW5nIHBlcm1hbmVudGx5IHN1c3BlbmRlZC4gVG8ga2VlcCB5b3VyIGFjY291bnQgYWN0
+aXZlLA0KcGxlYXNlIG1ha2Ugc3VyZSB5b3UgZm9sbG93IG91ciBhZHZlcnRpc2luZyBwb2xpY2ll
+cy4gWW91IGNhbiByZXZpZXcNCm91ciBhZHZlcnRpc2luZyBwb2xpY2llcyBhdDoNCmh0dHA6Ly9h
+ZHdvcmRzLmdvb2dsZS5jb20vc3VwcG9ydC9hdy9iaW4vc3RhdGljLnB5P2hsPWVuJnBhZ2U9Z3Vp
+ZGVfdG9jLmNzJnBhdGg9cG9saWN5Lg0KDQpTaW5jZXJlbHksDQpUaGUgR29vZ2xlIEFkV29yZHMg
+VGVhbQ0KDQpUaGlzIG1lc3NhZ2Ugd2FzIHNlbnQgZnJvbSBhIG5vdGlmaWNhdGlvbi1vbmx5IGVt
+YWlsIGFkZHJlc3MgdGhhdA0KZG9lc24ndCBhY2NlcHQgaW5jb21pbmcgZW1haWwuIElmIHlvdSBo
+YXZlIHF1ZXN0aW9ucyBhYm91dCBvdXINCnBvbGljaWVzLCBwbGVhc2UgY29udGFjdCB1cyB0aHJv
+dWdoIHRoZSBBZFdvcmRzIEhlbHAgQ2VudGVyIGF0DQpodHRwOi8vYWR3b3Jkcy5nb29nbGUuY29t
+L3N1cHBvcnQvYXcvYmluL3JlcXVlc3QucHk/aGw9ZW4gYW5kIGNob29zZQ0Kk0FkIFZpc2liaWxp
+dHksIEFwcHJvdmFscywgYW5kIFBlcmZvcm1hbmNlLpQgUGxlYXNlIG5vdGUgdGhhdCB5b3UgbWln
+aHQNCm5lZWQgdG8gbG9nIGluIGJlZm9yZSB5b3UgY2FuIGFjY2VzcyB0aGlzIHBhZ2UuDQoNCg0K
+PT09PT09PT09PT09PT09PT09PT0NClByb2JsZW0gUmVwb3J0DQo9PT09PT09PT09PT09PT09PT09
+PQ0KQWRXb3JkcyBhY2NvdW50IG51bWJlcjogNzIxLTg3OC00NjU1DQoNCi0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCkNhbXBhaWduOiAnR2xlbmRvcmEgQ3lw
+cmVzcywnIEFkIEdyb3VwOiAnQWlyIENvbmRpdGlvbmVyIFVuaXRzJw0KLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KDQpBZCBUZXh0Og0KDQpBaXIgQ29uZGl0
+aW9uZXIgVW5pdHMNCkxpY2Vuc2VkIEZhbWlseSBPd25lZCBCdXNpbmVzcy4gQUMNClVuaXRzIEFz
+IExvdyBBcyAkNDUvTW9udGguIENhbGwgTm93DQpnbGVuZG9yYWFpcmNvbi5jb20NCg0KQWQgU3Rh
+dHVzOiBEaXNhcHByb3ZlZA0KQWQgSXNzdWUocyk6IFtEaXNwbGF5IFVSTF0gT25lIGRpc3BsYXkg
+VVJMIGRvbWFpbiBwZXIgYWQgZ3JvdXANCn5+fn5+fn5+fg0KDQpTVUdHRVNUSU9OUzoNCklmIHlv
+dXIgYWQgZ3JvdXAgY29udGFpbnMgcGF1c2VkIGFkcyB3aXRoIGRpZmZlcmVudCBkaXNwbGF5IFVS
+TA0KZG9tYWlucywgcGxlYXNlIGVkaXQgeW91ciBkaXNwbGF5IFVSTHMgb3IgZGVsZXRlIHRoZSBh
+ZHMuIFlvdSBtYXkgYWxzbw0KaGF2ZSB0byBkZWxldGUgYWRzIG9yIGtleXdvcmRzIHRoYXQgaGF2
+ZSBhIGRpZmZlcmVudCBVUkwuIElmIHlvdSB3YW50DQp0byBhZHZlcnRpc2UgYSBkaWZmZXJlbnQg
+c2l0ZSwgd2Ugc3VnZ2VzdCB0aGF0IHlvdSBjcmVhdGUgYSBuZXcNCmNhbXBhaWduIG9yIGEgbmV3
+IGFkIGdyb3VwLg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LQ0KQ2FtcGFpZ246ICdHbGVuZG9yYSBDeXByZXNzLCcgQWQgR3JvdXA6ICdBaXIgQ29uZGl0aW9u
+ZXIgU2FsZScNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0N
+Cg0KQWQgVGV4dDoNCg0KQWlyIENvbmRpdGlvbmVyIFNhbGUNCjI0LzcgU2VydmljZS4gJDE1MDAg
+UmViYXRlIEZvcg0KUXVhbGlmaWVzIFN5c3RlbXMuIENvbnRhY3QgVXMgVG9kYXkNCmdsZW5kb3Jh
+YWlyY29uLmNvbS8NCg0KQWQgU3RhdHVzOiBEaXNhcHByb3ZlZA0KQWQgSXNzdWUocyk6IFtEaXNw
+bGF5IFVSTF0gT25lIGRpc3BsYXkgVVJMIGRvbWFpbiBwZXIgYWQgZ3JvdXANCn5+fn5+fn5+fg0K
+DQpTVUdHRVNUSU9OUzoNCklmIHlvdXIgYWQgZ3JvdXAgY29udGFpbnMgcGF1c2VkIGFkcyB3aXRo
+IGRpZmZlcmVudCBkaXNwbGF5IFVSTA0KZG9tYWlucywgcGxlYXNlIGVkaXQgeW91ciBkaXNwbGF5
+IFVSTHMgb3IgZGVsZXRlIHRoZSBhZHMuIFlvdSBtYXkgYWxzbw0KaGF2ZSB0byBkZWxldGUgYWRz
+IG9yIGtleXdvcmRzIHRoYXQgaGF2ZSBhIGRpZmZlcmVudCBVUkwuIElmIHlvdSB3YW50DQp0byBh
+ZHZlcnRpc2UgYSBkaWZmZXJlbnQgc2l0ZSwgd2Ugc3VnZ2VzdCB0aGF0IHlvdSBjcmVhdGUgYSBu
+ZXcNCmNhbXBhaWduIG9yIGEgbmV3IGFkIGdyb3VwLg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KQ2FtcGFpZ246ICdHbGVuZG9yYSBDeXByZXNzLCcgQWQg
+R3JvdXA6ICdCdXkgQWlyIENvbmRpdGlvbmVyJw0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLQ0KDQpBZCBUZXh0Og0KDQpCdXkgQWlyIENvbmRpdGlvbmVyDQpM
+aWNlbnNlZCBGYW1pbHkgT3duZWQgQnVzaW5lc3MuIEFDDQpVbml0cyBBcyBMb3cgQXMgJDQ1L01v
+bnRoLiBDYWxsIE5vdw0KZ2xlbmRvcmFhaXJjb24uY29tLw0KDQpBZCBTdGF0dXM6IERpc2FwcHJv
+dmVkDQpBZCBJc3N1ZShzKTogW0Rpc3BsYXkgVVJMXSBPbmUgZGlzcGxheSBVUkwgZG9tYWluIHBl
+ciBhZCBncm91cA0Kfn5+fn5+fn5+DQoNClNVR0dFU1RJT05TOg0KSWYgeW91ciBhZCBncm91cCBj
+b250YWlucyBwYXVzZWQgYWRzIHdpdGggZGlmZmVyZW50IGRpc3BsYXkgVVJMDQpkb21haW5zLCBw
+bGVhc2UgZWRpdCB5b3VyIGRpc3BsYXkgVVJMcyBvciBkZWxldGUgdGhlIGFkcy4gWW91IG1heSBh
+bHNvDQpoYXZlIHRvIGRlbGV0ZSBhZHMgb3Iga2V5d29yZHMgdGhhdCBoYXZlIGEgZGlmZmVyZW50
+IFVSTC4gSWYgeW91IHdhbnQNCnRvIGFkdmVydGlzZSBhIGRpZmZlcmVudCBzaXRlLCB3ZSBzdWdn
+ZXN0IHRoYXQgeW91IGNyZWF0ZSBhIG5ldw0KY2FtcGFpZ24gb3IgYSBuZXcgYWQgZ3JvdXAuDQo=

@@ -1,0 +1,490 @@
+Return-Path: <tech+bncCOKrwsOaDRDbjKjzBBoES8FpCw@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gw0-f70.google.com (mail-gw0-f70.google.com [74.125.83.70])
+	by ns1 (Postfix) with ESMTP id 5BDDA88710;
+	Fri,  9 Sep 2011 05:28:12 -0700 (PDT)
+Received: by gwaa20 with SMTP id a20sf1606202gwa.1
+        for <multiple recipients>; Fri, 09 Sep 2011 05:28:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=MT2xJ5FlmPBgIUDQbxejBL1+8k8e7m2Kfb9N1VUbqyY=;
+        b=TEqQer1TQwlYpl+AoZvzfV2bOLOK8fTKkkpEfPLPhSrHJqFlT1Qcwom8e28iD8EZJu
+         MaqCLiJFKKfB9jg3bQMg==
+Received: by 10.101.168.11 with SMTP id v11mr1625968ano.9.1315571291744;
+        Fri, 09 Sep 2011 05:28:11 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.101.204.19 with SMTP id g19ls10146798anq.5.gmail; Fri, 09 Sep
+ 2011 05:28:11 -0700 (PDT)
+Received: by 10.236.76.38 with SMTP id a26mr11546972yhe.53.1315571291367;
+        Fri, 09 Sep 2011 05:28:11 -0700 (PDT)
+Received: by 10.236.76.38 with SMTP id a26mr11546968yhe.53.1315571291345;
+        Fri, 09 Sep 2011 05:28:11 -0700 (PDT)
+Received: from mail-gy0-f199.google.com (mail-gy0-f199.google.com [209.85.160.199])
+        by mx.google.com with ESMTPS id b41si7493084yhn.124.2011.09.09.05.28.10
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 09 Sep 2011 05:28:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3VAZqThEKBIEstwjuq3+kjjiuwt23lttlqj.htrYjhmymjm0fh.sjy@feedburner.bounces.google.com designates 209.85.160.199 as permitted sender) client-ip=209.85.160.199;
+Received: by gye5 with SMTP id 5so2319222gye.10
+        for <Tech@thehvac.net>; Fri, 09 Sep 2011 05:28:10 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.18.71 with SMTP id w7mt448251ica.31.1315571284035; Fri, 09
+ Sep 2011 05:28:04 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <20cf303f6a540fd08204ac814fd2@google.com>
+Date: Fri, 09 Sep 2011 12:28:10 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3VAZqThEKBIEstwjuq3+kjjiuwt23lttlqj.htrYjhmymjm0fh.sjy@feedburner.bounces.google.com
+ designates 209.85.160.199 as permitted sender) smtp.mail=3VAZqThEKBIEstwjuq3+kjjiuwt23lttlqj.htrYjhmymjm0fh.sjy@feedburner.bounces.google.com;
+ dkim=pass (test mode) header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=20cf303f6a546c781304ac814f8a
+
+--20cf303f6a546c781304ac814f8a
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+
+Amazon Web Services Blog
+
+///////////////////////////////////////////
+New - AWS Toolkit for Visual Studio
+
+Posted: 08 Sep 2011 05:24 PM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/9LIvFKarwXs/new-aws-toolkit-for-visual-studio.html?utm_source=feedburner&utm_medium=email
+
+
+
+
+If you are the kind of developer who likes to live in your IDE, youll  
+really appreciate the new AWS Toolkit for Visual Studio. Weve provided you  
+with enough power and control to allow you to develop, test, deploy, and  
+maintain your applications without leaving Visual Studio.
+
+The toolkit is a small (3.5 MB) download for Visual Studio 2008 and 2010.  
+The AWS SDK for .NET is also installed by default:
+
+
+After installation you can activate the AWS Toolkit for Visual Studio by  
+selecting AWS Explorer from Visual Studios View menu:
+
+
+The AWS Explorer looks like this:
+
+
+You can add one or more AWS accounts to the AWS Toolkit, and you can switch  
+between them with ease:
+
+
+Once you have added an account or two, you can use the tree view of the AWS  
+Explorer to see the AWS resources associated with the account, arranged by  
+type. You can right-click on the service name to create new resources, and  
+you can double-click on a node to open a tab that contains more detailed  
+information:
+
+
+
+You can see and edit your CloudFront distributions, your S3 buckets, your  
+SimpleDB domains, your SNS topics, and your SQS queues. There are context  
+(right-click) menus for many common operations:
+
+
+You can even run SimpleDB queries:
+
+
+You can also launch and manage CloudFormation stacks:
+
+
+And IAM users:
+
+
+You can, of course, use the AWS SDK for .NET to create AWS applications  
+from within Visual Studio. You start by creating an AWS project:
+
+
+If you base your project on the AWS Web Project template, you can simply  
+right-click on it in the Solution Explorer and then deploy it to AWS using  
+a CloudFormation template:
+
+
+You can choose between a number of templates, select an AWS account, and  
+even a Region:
+
+
+And there you have it! What do you think?
+
+-- Jeff;
+
+
+
+///////////////////////////////////////////
+AWS Direct Connect Heads West
+
+Posted: 08 Sep 2011 04:53 PM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/KSETOhIve7w/aws-direct-connect-heads-west.html?utm_source=feedburner&utm_medium=email
+
+
+
+
+    We introduced AWS Direct Connect last month and invited AWS users with a  
+need for a dedicated network connection to the US East (Northern Virginia)  
+Region to give it a try.
+
+The service is geared for those who have big data transfer requirements or  
+are looking for more consistent network performance when accessing the  
+cloud.
+
+Today we are ready to create connections to our US West Region through the  
+AWS Direct Connect location in the Equinix San Jose facility (SV1 and SV5).  
+To get started, visit the Direct Connect Contact page and well get back to  
+you ASAP.
+
+Additional AWS Direct Connect locations are planned for Los Angeles,  
+London, Tokyo and Singapore in the next several months. Please feel free to  
+use the contact page to express your interest in connections to these  
+locations.
+
+-- Jeff;
+
+
+
+///////////////////////////////////////////
+Amazon Technology Open House - October 4, 2011
+
+Posted: 08 Sep 2011 11:23 AM PDT
+http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/LVlK3l7nA_I/amazon-technology-open-house-october-4-2011.html?utm_source=feedburner&utm_medium=email
+
+
+I will be keynoting an Amazon Technology Open House at our South Lake Union  
+offices on October 4, 2011.
+
+Youll have the opportunity to meet and to hang out with the leaders of the  
+various AWS services, learn about recent engineering innovations at Amazon,  
+and to win one of two Kindles that well be giving away during the evening.
+
+Well also have some local beer and pretzels.
+
+The event is free but space is limited and you need to preregister if you  
+would like to attend. See you there!
+
+-- Jeff;
+
+
+
+--
+You are subscribed to email updates from "Amazon Web Services Blog."
+To stop receiving these emails, you may unsubscribe now:  
+http://feedburner.google.com/fb/a/mailunsubscribe?k=WYlqsHgFmj4AaMxCIo4DpqGJl_Y
+
+Email delivery powered by Google.
+Google Inc., 20 West Kinzie, Chicago IL USA 60610
+
+
+--20cf303f6a546c781304ac814f8a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<ul style=3D"clear:both;padding:0 0 0 1.2em;width:100%" id=3D"summarylist">
+<li>
+<a href=3D"#1">New - AWS Toolkit for Visual Studio</a>
+</li>
+<li>
+<a href=3D"#2">AWS Direct Connect Heads West</a>
+</li>
+<li>
+<a href=3D"#3">Amazon Technology Open House - October 4, 2011</a>
+</li>
+</ul>
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/9LIvF=
+KarwXs/new-aws-toolkit-for-visual-studio.html?utm_source=3Dfeedburner&utm_m=
+edium=3Demail">New - AWS Toolkit for Visual Studio</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 08 Sep 2011 05:24 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p><iframe allowtransparency=3D"=
+true" frameborder=3D"0" scrolling=3D"no" src=3D"http://www.facebook.com/plu=
+gins/like.php?app_id=3D132675016822106&amp;href=3Dhttp%3A%2F%2Faws.typepad.=
+com%2Faws%2F2011%2F09%2Fnew-aws-toolkit-for-visual-studio.html&amp;send=3Df=
+alse&amp;layout=3Dbutton_count&amp;width=3D450&amp;show_faces=3Dtrue&amp;ac=
+tion=3Dlike&amp;colorscheme=3Dlight&amp;font=3Darial&amp;height=3D21" style=
+=3D"border: none; overflow: hidden; width: 450px; height: 21px;"></iframe><=
+/p>
+<p>If you are the kind of developer who likes to live in your IDE, you&#39;=
+ll really appreciate the new <a href=3D"http://aws.amazon.com/visualstudio"=
+ target=3D"_self">AWS Toolkit for Visual Studio</a>. We&#39;ve provided you=
+ with enough power and control to allow you to develop, test, deploy, and m=
+aintain your applications without leaving Visual Studio.</p>
+<p>The toolkit is a small (3.5 MB) download for Visual Studio 2008 and 2010=
+. The <a href=3D"http://aws.amazon.com/sdkfornet/" target=3D"_self">AWS SDK=
+ for .NET</a> is also installed by default:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_sdk_setup_custom_1.png" /></div>
+<p>After installation you can activate the AWS Toolkit for Visual Studio by=
+ selecting <strong>AWS Explorer</strong> from Visual Studio&#39;s <strong>V=
+iew </strong>menu:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_sdk_view_menu_1.png" /></div>
+<p>The AWS Explorer looks like this:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_sdk_aws_explorer_3.png" /></div>
+<p>You can add one or more AWS accounts to the AWS Toolkit, and you can swi=
+tch between them with ease:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_sdk_add_account_1.png" /></div>
+<p>Once you have added an account or two, you can use the tree view of the =
+AWS Explorer to see the AWS resources associated with the account, arranged=
+ by type. You can right-click on the service name to create new resources, =
+and you can double-click on a node to open a tab that contains more detaile=
+d information:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_sdk_aws_explorer_ec2_1.png" style=3D"padding-bottom=
+: 10px;" /> <br /> <img alt=3D"" src=3D"http://media.amazonwebservices.com/=
+blog/vs_sdk_ec2_instances_tab_1.png" /></div>
+<p>You can see and edit your CloudFront distributions, your S3 buckets, you=
+r SimpleDB domains, your SNS topics, and your SQS queues. There are context=
+ (right-click) menus for many common operations:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_sdk_context_menu_1.png" /></div>
+<p>You can even run SimpleDB queries:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_sdk_simpledb_query_1.png" /></div>
+<p>You can also launch and manage CloudFormation stacks:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_sdk_cloudformation_wp_stack_1.png" /></div>
+<p>And IAM users:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_sdk_iam_1.png" /></div>
+<p>You can, of course, use the <a href=3D"http://aws.amazon.com/sdkfornet/"=
+ target=3D"_self">AWS SDK for .NET</a> to create AWS applications from with=
+in Visual Studio. You start by creating an AWS project:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_toolkit_projects_1.png" /></div>
+<p>If you base your project on the AWS Web Project template, you can simply=
+ right-click on it in the Solution Explorer and then deploy it to AWS using=
+ a CloudFormation template:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_sdk_deploy_cf_menu_1.png" /></div>
+<p>You can choose between a number of templates, select an AWS account, and=
+ even a Region:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vs_sdk_deploy_cf_dlg_1.png" /></div>
+<p>And there you have it! What do you think?</p>
+<p>-- Jeff;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3D9LIvFK=
+arwXs:ufWARYfXQNY:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3D9LIvFKarwXs:ufWARY=
+fXQNY:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3D9LIvFKarwXs:ufWARYfXQNY:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/9=
+LIvFKarwXs?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"2" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/KSETO=
+hIve7w/aws-direct-connect-heads-west.html?utm_source=3Dfeedburner&utm_mediu=
+m=3Demail">AWS Direct Connect Heads West</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 08 Sep 2011 04:53 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p><iframe allowtransparency=3D"=
+true" frameborder=3D"0" scrolling=3D"no" src=3D"http://www.facebook.com/plu=
+gins/like.php?app_id=3D132675016822106&amp;href=3Dhttp%3A%2F%2Faws.typepad.=
+com%2Faws%2F2011%2F09%2Faws-direct-connect-heads-west.html&amp;send=3Dfalse=
+&amp;layout=3Dbutton_count&amp;width=3D450&amp;show_faces=3Dtrue&amp;action=
+=3Dlike&amp;colorscheme=3Dlight&amp;font=3Darial&amp;height=3D21" style=3D"=
+border: none; overflow: hidden; width: 450px; height: 21px;"></iframe></p>
+<p><a href=3D"http://aws.amazon.com/directconnect/"> <img alt=3D"" src=3D"h=
+ttp://media.amazonwebservices.com/blog/direct_connect_world_1.jpg" style=3D=
+"float: right; margin-left: 10px; margin-bottom: 10px;" /> </a> We introduc=
+ed <a href=3D"http://aws.amazon.com/directconnect/" target=3D"_self">AWS Di=
+rect Connect</a> last month and invited AWS users with a need for a dedicat=
+ed network connection to the US East (Northern Virginia) Region to give it =
+a try.</p>
+<p>The service is geared for those who have big data transfer requirements =
+or are looking for more consistent network performance when accessing the c=
+loud.</p>
+<p>Today we are ready to create connections to our US West Region through t=
+he AWS Direct Connect location in the <a href=3D"http://www.equinix.com/loc=
+ations/americas/us/silicon-valley-data-centers/" target=3D"_self">Equinix S=
+an Jose facility</a> (SV1 and SV5). To get started, visit the <a href=3D"ht=
+tps://aws-portal.amazon.com/gp/aws/html-forms-controller/contactus/Direct_C=
+onnect_Service_Request" target=3D"_self">Direct Connect Contact page</a> an=
+d we&#39;ll get back to you ASAP.</p>
+<p>Additional AWS Direct Connect locations are planned for Los Angeles, Lon=
+don, Tokyo and Singapore in the next several months. Please feel free to us=
+e the contact page to express your interest in connections to these locatio=
+ns.</p>
+<p>-- Jeff;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DKSETOh=
+Ive7w:heeavgS0Eq4:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DKSETOhIve7w:heeavg=
+S0Eq4:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DKSETOhIve7w:heeavgS0Eq4:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/K=
+SETOhIve7w?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"3" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/LVlK3=
+l7nA_I/amazon-technology-open-house-october-4-2011.html?utm_source=3Dfeedbu=
+rner&utm_medium=3Demail">Amazon Technology Open House - October 4, 2011</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 08 Sep 2011 11:23 AM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>I will be keynoting an <a hre=
+f=3D"http://aws.amazon.com/amazon-open-house-october-2011/" target=3D"_self=
+">Amazon Technology Open House</a> at our South Lake Union offices on Octob=
+er 4, 2011.</p>
+<p>You&#39;ll have the opportunity to meet and to hang out with the leaders=
+ of the various AWS services, learn about recent engineering innovations at=
+ Amazon, and to win one of two Kindles that we&#39;ll be giving away during=
+ the evening.</p>
+<p>We&#39;ll also have some local beer and pretzels.</p>
+<p>The event is free but space is limited and you need to <a href=3D"http:/=
+/aws.amazon.com/amazon-open-house-october-2011/register/" target=3D"_self">=
+preregister</a> if you would like to attend. See you there!</p>
+<p>-- Jeff;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DLVlK3l=
+7nA_I:m6qZ8eQ-nNU:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DLVlK3l7nA_I:m6qZ8e=
+Q-nNU:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DLVlK3l7nA_I:m6qZ8eQ-nNU:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/L=
+VlK3l7nA_I?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--20cf303f6a546c781304ac814f8a--

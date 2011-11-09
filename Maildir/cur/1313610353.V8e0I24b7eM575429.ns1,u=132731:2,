@@ -1,0 +1,258 @@
+Return-Path: <mike_menache@yahoo.com>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: from nm18-vm0.bullet.mail.bf1.yahoo.com (nm18-vm0.bullet.mail.bf1.yahoo.com [98.139.213.138])
+	by ns1 (Postfix) with SMTP id 468A48865B
+	for <sales@doap.com>; Wed, 17 Aug 2011 12:45:53 -0700 (PDT)
+Received: from [98.139.212.149] by nm18.bullet.mail.bf1.yahoo.com with NNFMP; 17 Aug 2011 19:45:52 -0000
+Received: from [98.139.211.163] by tm6.bullet.mail.bf1.yahoo.com with NNFMP; 17 Aug 2011 19:45:52 -0000
+Received: from [127.0.0.1] by smtp220.mail.bf1.yahoo.com with NNFMP; 17 Aug 2011 19:45:52 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1313610352; bh=QkTDC9kf+HnFHaF+EVWiI2G9ShuEBZX0DrGxKRBYsR8=; h=X-Yahoo-Newman-Id:X-Yahoo-Newman-Property:X-YMail-OSG:X-Yahoo-SMTP:Received:Message-ID:Date:From:User-Agent:MIME-Version:To:CC:Subject:References:In-Reply-To:Content-Type; b=aDVsrceupEBTNk9BQJNMWkPHlKILoPkjkff/EtdsZSEEJEyV2eWDHvWLXgcDNGfan6dTKVnhcvh1TZVCKd/7ftH4x1+Jo1bXMc28nEBdpXkiWFE72r/34JqUh8wWpaFN8U7GeByZPaaqzJUMtSq4Ut9mKRi0hOhqbQS6bQDx3y8=
+X-Yahoo-Newman-Id: 680903.31139.bm@smtp220.mail.bf1.yahoo.com
+X-Yahoo-Newman-Property: ymail-3
+X-YMail-OSG: pZeYFoQVM1kQu5bimRUp.vC1j6.FY3gzsRZYzdBxa_W9dNu
+ XriK.w5tquCTpaQxnkUhppLDsQyx1kTxTPNCxK6uTxFGoGbc4eaRnfvVsQwi
+ .dkxQElqYs2WI8PRF7YUifMYCLm2UUMa.zBP55pzw1i3wnsMLHu2SsObJ7v.
+ Bjrn.KdhxtLGYLrYR.g6GWEMEIrZYbN7IJ9o2fWfKLHYR.bo3B_3_WtlyXKF
+ e_UBnDMscYexPGl2oz8IMoM9LGrKX3j6lNIy0RfHmuXYQJDUIFDXmwlNS3v0
+ Sn3QcvcVkfwXMIXKSkzs1bubjbfA6glpvivagzfrDgm04rGvpNhILk0J_aV_
+ unoIW3v_qn.rabNN48bOe3fAJvmfJADtSLh76Gf9_AhY8M2eNAKRyAdNwYXi
+ TnnLr5.G0lb0__c_iVw4wXm89dwUUhgZ_inq4swl1nokIK1nBguNF0PL_0F8
+ _cc4-
+X-Yahoo-SMTP: fFDe3UaswBBSXfcqFitaOK.q37ar9DUvCQ--
+Received: from [127.0.0.1] (mike_menache@69.199.228.76 with plain)
+        by smtp220.mail.bf1.yahoo.com with SMTP; 17 Aug 2011 12:45:52 -0700 PDT
+Message-ID: <4E4C1A77.6020203@yahoo.com>
+Date: Wed, 17 Aug 2011 12:45:59 -0700
+From: Mike Menache <mike_menache@yahoo.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.18) Gecko/20110616 Thunderbird/3.1.11
+MIME-Version: 1.0
+To: dave@doap.com
+CC: David Menache <dmenache@hotmail.com>, Doap Sales <sales@doap.com>
+Subject: Re: i think we need a news maillist with a majordomo....
+References: <SNT128-W56875BA216FF90F2D128E6C2280@phx.gbl>
+In-Reply-To: <SNT128-W56875BA216FF90F2D128E6C2280@phx.gbl>
+Content-Type: multipart/alternative;
+ boundary="------------010507000001010504030206"
+
+This is a multi-part message in MIME format.
+--------------010507000001010504030206
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 8bit
+
+I ran into the same issue when I rolled our IT infrastructure for 
+another startup I am doing!
+The EC2 reserved is the best long term value, and it is much faster. 
+Hopefully, I will be selling many more of these as well going forward. 
+The cool thing is that Amazon lowers the price and passes the savings 
+directly to us when they figure out ways to save $$$$.
+
+L8,
+m
+
+-=Mike Menache
+
+
+On 8/16/2011 7:25 PM, David Menache wrote:
+> Hi everyone,
+>
+> Big news for doap.com today!  We subscribed to a three year term for a 
+> bigger server today to help alleviate the slowdowns we were constantly 
+> experiencing.  So far it is working beautifully!   The chart below 
+> shows a comparison between the estimated annual costs of doing it 
+> yourself, Reserved Instances and On-Demand Instances for a customer 
+> running 35 m1.small and 10 m1.large Linux/UNIX instances at steady 
+> state for 1 year.
+>
+> *Annual Cost Comparison* (100% utilization)
+> 	*
+> Do-It-Yourself * 	*
+> EC2 On-Demand * 	*EC2 Reserved
+> (1 Year Term)* 	*EC2 Reserved
+> (3 Year Term)*
+> Usage Costs 	- 	$ 55,845 	$ 36,772.50 	$ 28,460
+> Server Hardware 	$ 20,129 	- 	- 	-
+> Network Hardware 	$ 4,026 	- 	- 	-
+> Hardware Maintenance 	$ 9,662 	- 	- 	-
+> Operating System 	$ – 	- 	- 	-
+> Facility Expense 	$ 43,794 	- 	- 	-
+> Remote Hands Support 	$ 338 	- 	- 	-
+> Data Transfer Costs 	$ 3,357 	$ 2,106 	$ 2,106 	$ 2,106
+> *TOTAL COST * 	*$ 81,305 * 	*$ 57,951 * 	*$ 38,878.50 * 	*$ 30,566 *
+>
+>
+>
+> 	*David Menache*
+> /dave@doap.com/
+> US:805-426-5216 	**
+>
+
+--------------010507000001010504030206
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#ffffff" text="#000000">
+    <font face="Courier New">I ran into the same issue when I rolled our
+      IT infrastructure for another startup I am doing!<br>
+      The EC2 reserved is the best long term value, and it is much
+      faster. Hopefully, I will be selling many more of these as well
+      going forward. The cool thing is that Amazon lowers the price and
+      passes the savings directly to us when they figure out ways to
+      save $$$$.<br>
+      <br>
+      L8,<br>
+      m<br>
+    </font>
+    <pre class="moz-signature" cols="72">-=Mike Menache</pre>
+    <br>
+    On 8/16/2011 7:25 PM, David Menache wrote:
+    <blockquote cite="mid:SNT128-W56875BA216FF90F2D128E6C2280@phx.gbl"
+      type="cite">
+      <style><!--
+.hmmessage P
+{
+margin:0px;
+padding:0px
+}
+body.hmmessage
+{
+font-size: 10pt;
+font-family:Tahoma
+}
+--></style>
+      <div dir="ltr">
+        Hi everyone,<br>
+        <br>
+        Big news for doap.com today!  We subscribed to a three year term
+        for a bigger server today to help alleviate the slowdowns we
+        were constantly experiencing.  So far it is working
+        beautifully!   The chart below shows a comparison between the
+        estimated annual costs of doing it yourself, Reserved Instances
+        and On-Demand Instances for a customer running 35 m1.small and
+        10 m1.large Linux/UNIX instances at steady state for 1 year.<br>
+        <br>
+        <table class="tan-table" border="0" cellpadding="0"
+          cellspacing="0" width="724">
+          <tbody>
+            <tr bgcolor="#f8f8e7">
+              <td colspan="5" style="border-top: 1px solid rgb(204, 204,
+                153); border-bottom: 2px solid rgb(204, 204, 153);">
+                <div align="center"><span style="font-size: 114%;"><strong>Annual
+                      Cost Comparison</strong> (100% utilization)</span></div>
+              </td>
+            </tr>
+            <tr bgcolor="#eeeecc">
+              <td style="border-right: 1px solid rgb(238, 238, 204);"
+                bgcolor="#eeeecc" width="147"> </td>
+              <td bgcolor="#eeeecc" width="18%"><strong><br>
+                  Do-It-Yourself </strong></td>
+              <td bgcolor="#eeeecc" width="18%"><strong><br>
+                  EC2 On-Demand </strong></td>
+              <td bgcolor="#eeeecc" width="18%"><strong>EC2 Reserved<br>
+                  (1 Year Term)</strong></td>
+              <td width="18%"><strong> EC2 Reserved<br>
+                  (3 Year Term)</strong></td>
+            </tr>
+            <tr>
+              <td valign="bottom"><span align="right">Usage Costs </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">$ 55,845 </span></td>
+              <td width="18%"><span align="center">$ 36,772.50 </span></td>
+              <td width="18%"><span align="center">$ 28,460 </span></td>
+            </tr>
+            <tr>
+              <td valign="bottom"><span align="right">Server Hardware </span></td>
+              <td width="18%"><span align="center">$ 20,129 </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+            </tr>
+            <tr>
+              <td valign="bottom"><span align="right">Network Hardware </span></td>
+              <td width="18%"><span align="center">$ 4,026 </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+            </tr>
+            <tr>
+              <td valign="bottom"><span align="right">Hardware
+                  Maintenance </span></td>
+              <td width="18%"><span align="center">$ 9,662 </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+            </tr>
+            <tr>
+              <td valign="bottom"><span align="right">Operating System </span></td>
+              <td width="18%"><span align="center">$ – </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+            </tr>
+            <tr>
+              <td valign="bottom"><span align="right">Facility Expense </span></td>
+              <td width="18%"><span align="center">$ 43,794 </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+            </tr>
+            <tr>
+              <td valign="bottom"><span align="right">Remote Hands
+                  Support </span></td>
+              <td width="18%"><span align="center">$ 338 </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+              <td width="18%"><span align="center">- </span></td>
+            </tr>
+            <tr>
+              <td valign="bottom"><span align="right">Data Transfer
+                  Costs </span></td>
+              <td width="18%"><span align="center">$ 3,357 </span></td>
+              <td width="18%"><span align="center">$ 2,106 </span></td>
+              <td width="18%"><span align="center">$ 2,106 </span></td>
+              <td width="18%"><span align="center">$ 2,106 </span></td>
+            </tr>
+            <tr>
+              <td><span align="right"><strong>TOTAL COST </strong></span></td>
+              <td width="18%"><span align="center"><strong>$ 81,305 </strong></span></td>
+              <td width="18%"><span align="center"><strong>$ 57,951 </strong></span></td>
+              <td width="18%"><span align="center"><strong>$ 38,878.50 </strong></span></td>
+              <td width="18%"><span align="center"><strong>$ 30,566 </strong></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <br>
+        <table style="background-color: rgb(221, 221, 221); text-shadow:
+          2px 2px 2px rgb(0, 0, 0);" border="0" cellpadding="5"
+          cellspacing="5">
+          <tbody>
+            <tr>
+              <td><img moz-do-not-send="true"
+                  src="http://doap.com/images/dave.jpg" width="74"
+                  height="74"></td>
+              <td><font style="font-size: 20pt;" face="Verdana" size="5"><strong>David
+                    Menache</strong></font><font style="" face="Verdana"><br>
+                </font><font style="" face="Verdana"><em><font
+                      style="font-size: 12pt;" size="3"><a
+                        moz-do-not-send="true" target="_blank">dave@doap.com</a></font></em></font><font
+                  style="" face="Verdana"><br>
+                </font><font style="font-size: 12pt;" face="Verdana"
+                  size="3">US:805-426-5216</font></td>
+              <td><strong><img moz-do-not-send="true"
+                    src="http://doap.com/images/d5.png"></strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </blockquote>
+  </body>
+</html>
+
+--------------010507000001010504030206--

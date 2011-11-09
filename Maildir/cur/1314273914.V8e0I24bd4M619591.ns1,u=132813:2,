@@ -1,0 +1,261 @@
+Return-Path: <tech+bncCOKrwsOaDRD69NjyBBoEqmvYGw@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-qy0-f200.google.com (mail-qy0-f200.google.com [209.85.216.200])
+	by ns1 (Postfix) with ESMTP id 1C7E188750;
+	Thu, 25 Aug 2011 05:05:14 -0700 (PDT)
+Received: by qyc1 with SMTP id 1sf2925145qyc.7
+        for <multiple recipients>; Thu, 25 Aug 2011 05:05:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=ebphjK1vVStkx8ES1I6gJpr2rkfwo7vIsjWYTA94K2A=;
+        b=fZSkzdj8SSxBohx70sbkZZSTfVeuwfM7AWSRbtqDFcYadYWVpKG7MKbwfazZw4g3E2
+         Ra3mtvd/5tERRrIQX2tg==
+Received: by 10.101.116.10 with SMTP id t10mr6254117anm.33.1314273914447;
+        Thu, 25 Aug 2011 05:05:14 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.101.27.38 with SMTP id e38ls1019254anj.1.gmail; Thu, 25 Aug
+ 2011 05:05:12 -0700 (PDT)
+Received: by 10.236.72.197 with SMTP id t45mr39377789yhd.34.1314273911949;
+        Thu, 25 Aug 2011 05:05:11 -0700 (PDT)
+Received: by 10.236.72.197 with SMTP id t45mr39377784yhd.34.1314273911931;
+        Thu, 25 Aug 2011 05:05:11 -0700 (PDT)
+Received: from mail-yw0-f71.google.com (mail-yw0-f71.google.com [209.85.213.71])
+        by mx.google.com with ESMTPS id a2si2725097ybc.102.2011.08.25.05.05.11
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 25 Aug 2011 05:05:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3cTpWThEKBLYjknalhu+baaZlnktuckkcha.YkiPaYdpdadrWY.jap@feedburner.bounces.google.com designates 209.85.213.71 as permitted sender) client-ip=209.85.213.71;
+Received: by ywf9 with SMTP id 9so3017128ywf.10
+        for <Tech@thehvac.net>; Thu, 25 Aug 2011 05:05:11 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.163.194 with SMTP id d2mt295713icy.10.1314273905687; Thu,
+ 25 Aug 2011 05:05:05 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <90e6ba6e838649427604ab533d17@google.com>
+Date: Thu, 25 Aug 2011 12:05:11 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3cTpWThEKBLYjknalhu+baaZlnktuckkcha.YkiPaYdpdadrWY.jap@feedburner.bounces.google.com
+ designates 209.85.213.71 as permitted sender) smtp.mail=3cTpWThEKBLYjknalhu+baaZlnktuckkcha.YkiPaYdpdadrWY.jap@feedburner.bounces.google.com;
+ dkim=pass (test mode) header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=90e6ba6e8386a10cf104ab533d2a
+
+--90e6ba6e8386a10cf104ab533d2a
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+QW1hem9uIFdlYiBTZXJ2aWNlcyBCbG9nDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8NCkFkZGl0aW9uYWwgVk0gSW1wb3J0IEZ1bmN0aW9uYWxpdHkgLSBXaW5k
+b3dzIDIwMDMsIFhlblNlcnZlciwgSHlwZXItVg0KDQpQb3N0ZWQ6IDI0IEF1ZyAyMDExIDA5OjU4
+IFBNIFBEVA0KaHR0cDovL2ZlZWRwcm94eS5nb29nbGUuY29tL35yL0FtYXpvbldlYlNlcnZpY2Vz
+QmxvZy9+My9TZEpBeXBsUEV5TS9hZGRpdGlvbmFsLXZtLWltcG9ydC1mdW5jdGlvbmFsaXR5LXdp
+bmRvd3MtMjAwMy14ZW5zZXJ2ZXItaHlwZXItdi5odG1sP3V0bV9zb3VyY2U9ZmVlZGJ1cm5lciZ1
+dG1fbWVkaXVtPWVtYWlsDQoNCg0KV2V2ZSBleHRlbmRlZCBFQzJzIFZNIEltcG9ydCBmZWF0dXJl
+IHRvIGhhbmRsZSBhZGRpdGlvbmFsIGltYWdlIGZvcm1hdHMgYW5kICANCm9wZXJhdGluZyBzeXN0
+ZW1zLg0KDQpUaGUgZmlyc3QgcmVsZWFzZSBvZiBWTSBJbXBvcnQgaGFuZGxlZCBXaW5kb3dzIDIw
+MDggaW1hZ2VzIGluIHRoZSBWTXdhcmUgIA0KRVNYIFZNREsgZm9ybWF0LiBZb3UgY2FuIG5vdyBp
+bXBvcnQgV2luZG93cyAyMDAzIGFuZCBXaW5kb3dzIDIwMDggaW1hZ2VzIGluICANCmFueSBvZiB0
+aGUgZm9sbG93aW5nIGZvcm1hdHM6DQoNClZNd2FyZSBFU1ggVk1ESw0KQ2l0cml4IFhlblNlcnZl
+ciBWSEQNCk1pY3Jvc29mdCBIeXBlci1WIFZIRA0KDQoNCkkgc2VlIFZNIEltcG9ydCBhcyBhIGtl
+eSB0b29sIHRoYXQgd2lsbCBoZWxwIG91ciBlbnRlcnByaXNlIGN1c3RvbWVycyB0byAgDQptb3Zl
+IGludG8gdGhlIGNsb3VkLiBUaGVyZSBhcmUgbWFueSB3YXlzIHRvIHVzZSB0aGlzIHNlcnZpY2Ug
+4oCTIHR3byBwb3B1bGFyICANCndheXMgYXJlIHRvIGV4dGVuZCBkYXRhIGNlbnRlcnMgaW50byB0
+aGUgY2xvdWQgYW5kIHRvIGJlIGEgZGlzYXN0ZXIgIA0KcmVjb3ZlcnkgcmVwb3NpdG9yeSBmb3Ig
+ZW50ZXJwcmlzZXMuDQoNCllvdSBjYW4gdXNlIHRoZSBFQzIgQVBJIHRvb2xzLCBvciBpZiB5b3Ug
+dXNlIFZNd2FyZSB2U3BoZXJlLCB0aGUgRUMyIFZNICANCkltcG9ydCBDb25uZWN0b3IgdG8gaW1w
+b3J0IHlvdXIgVk0gaW50byBFQzIuIE9uY2UgdGhlIGltcG9ydCBwcm9jZXNzIGlzICANCmRvbmUs
+IHlvdSB3aWxsIGJlIGdpdmVuIGFuIGluc3RhbmNlIElEIHRoYXQgeW91IGNhbiB1c2UgdG8gYm9v
+dCB5b3VyIG5ldyAgDQpFQzIgaW5zdGFuY2UgWW91IGhhdmUgY29tcGxldGUgY29udHJvbCBvZiB0
+aGUgaW5zdGFuY2Ugc2l6ZSwgc2VjdXJpdHkgIA0KZ3JvdXAsIGFuZCAob3B0aW9uYWxseSkgdGhl
+IFZQQyBkZXN0aW5hdGlvbi4gSGVyZXMgYSBmbG93Y2hhcnQgb2YgdGhlICANCmltcG9ydCBwcm9j
+ZXNzOg0KDQoNCllvdSBjYW4gYWxzbyBpbXBvcnQgZGF0YSB2b2x1bWVzLCB0dXJuaW5nIHRoZW0g
+aW4gdG8gRWxhc3RpYyBCbG9jayBTdG9yYWdlICANCihFQlMpIHZvbHVtZXMgdGhhdCBjYW4gYmUg
+YXR0YWNoZWQgdG8gYW55IGluc3RhbmNlIGluIHRoZSB0YXJnZXQgIA0KQXZhaWxhYmlsaXR5IFpv
+bmUuDQoNCkFzIEl2ZSBzYWlkIGluIHRoZSBwYXN0LCB3ZSBwbGFuIHRvIHN1cHBvcnQgYWRkaXRp
+b25hbCBvcGVyYXRpbmcgc3lzdGVtcywgIA0KdmVyc2lvbnMsIGFuZCB2aXJ0dWFsaXphdGlvbiBw
+bGF0Zm9ybXMgaW4gdGhlIGZ1dHVyZS4gV2UgYXJlIGFsc28gcGxhbm5pbmcgIA0KdG8gZW5hYmxl
+IHRoZSBleHBvcnQgb2YgRUMyIGluc3RhbmNlcyB0byBjb21tb24gaW1hZ2UgZm9ybWF0cy4NCg0K
+UmVhZCBtb3JlOg0KDQpWTSBJbXBvcnQNCkFtYXpvbiBFQzIgVk0gSW1wb3J0IENvbm5lY3RvciBm
+b3IgVk13YXJlIHZDZW50ZXINCkFtYXpvbiBFQzIgVXNlciBHdWlkZQ0KDQoNCi0tIEplZmY7DQoN
+Cg0KDQotLQ0KWW91IGFyZSBzdWJzY3JpYmVkIHRvIGVtYWlsIHVwZGF0ZXMgZnJvbSAiQW1hem9u
+IFdlYiBTZXJ2aWNlcyBCbG9nLiINClRvIHN0b3AgcmVjZWl2aW5nIHRoZXNlIGVtYWlscywgeW91
+IG1heSB1bnN1YnNjcmliZSBub3c6ICANCmh0dHA6Ly9mZWVkYnVybmVyLmdvb2dsZS5jb20vZmIv
+YS9tYWlsdW5zdWJzY3JpYmU/az1XWWxxc0hnRm1qNEFhTXhDSW80RHBxR0psX1kNCg0KRW1haWwg
+ZGVsaXZlcnkgcG93ZXJlZCBieSBHb29nbGUuDQpHb29nbGUgSW5jLiwgMjAgV2VzdCBLaW56aWUs
+IENoaWNhZ28gSUwgVVNBIDYwNjEwDQoNCg==
+--90e6ba6e8386a10cf104ab533d2a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/SdJAy=
+plPEyM/additional-vm-import-functionality-windows-2003-xenserver-hyper-v.ht=
+ml?utm_source=3Dfeedburner&utm_medium=3Demail">Additional VM Import Functio=
+nality - Windows 2003, XenServer, Hyper-V</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 24 Aug 2011 09:58 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p>We&#39;ve extended EC2&#39;s =
+<a href=3D"http://aws.amazon.com/ec2/vmimport/" target=3D"_self">VM Import<=
+/a> feature to handle additional image formats and operating systems.</p>
+<p>The first release of VM Import handled Windows 2008 images in the VMware=
+ ESX VMDK format. You can now import Windows 2003 and Windows 2008 images i=
+n any of the following formats:</p>
+<ul>
+<li>VMware ESX VMDK</li>
+<li>Citrix XenServer VHD</li>
+<li>Microsoft Hyper-V VHD</li>
+</ul>
+<p>I see VM Import as a key tool that will help our enterprise customers to=
+ move into the cloud. There are many ways to use this service =E2=80=93 two=
+ popular ways are to extend data centers into the cloud and to be a disaste=
+r recovery repository for enterprises.</p>
+<p>You can use the EC2 API tools, or if you use VMware vSphere, the EC2 VM =
+Import Connector to import your VM into EC2. Once the import process is don=
+e, you will be given an instance ID that you can use to boot your new EC2 i=
+nstance You have complete control of the instance size, security group, and=
+ (optionally) the VPC destination. Here&#39;s a flowchart of the import pro=
+cess:</p>
+<div style=3D"text-align: center;"><img alt=3D"" src=3D"http://media.amazon=
+webservices.com/blog/vm_import_flow_3.png" /></div>
+<p>You can also import data volumes, turning them in to Elastic Block Stora=
+ge (EBS) volumes that can be attached to any instance in the target Availab=
+ility Zone.</p>
+<p>As I&#39;ve said in the past, we plan to support additional operating sy=
+stems, versions, and virtualization platforms in the future. We are also pl=
+anning to enable the export of EC2 instances to common image formats.</p>
+<p>Read more:</p>
+<ul>
+<li><a href=3D"http://aws.amazon.com/ec2/vmimport/" target=3D"_self">VM Imp=
+ort</a></li>
+<li><a href=3D"http://aws.amazon.com/developertools/2759763385083070" targe=
+t=3D"_self">Amazon EC2 VM Import Connector for VMware vCenter</a></li>
+<li><a href=3D"http://docs.amazonwebservices.com/AWSEC2/latest/UserGuide/" =
+target=3D"_self">Amazon EC2 User Guide</a></li>
+</ul>
+<p>-- Jeff;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DSdJAyp=
+lPEyM:tcCZq3YIRBM:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DSdJAyplPEyM:tcCZq3=
+YIRBM:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DSdJAyplPEyM:tcCZq3YIRBM:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/S=
+dJAyplPEyM?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--90e6ba6e8386a10cf104ab533d2a--

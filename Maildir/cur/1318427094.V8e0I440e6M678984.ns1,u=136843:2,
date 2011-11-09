@@ -1,0 +1,94 @@
+Return-Path: <dmenache@thehvac.net>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-gy0-f182.google.com (mail-gy0-f182.google.com [209.85.160.182])
+	by ns1 (Postfix) with ESMTP id 80C16886A8
+	for <support@doap.com>; Wed, 12 Oct 2011 06:44:54 -0700 (PDT)
+Received: by gyf2 with SMTP id 2so905231gyf.13
+        for <support@doap.com>; Wed, 12 Oct 2011 06:44:54 -0700 (PDT)
+Received: by 10.100.237.17 with SMTP id k17mr248256anh.52.1318427094815;
+        Wed, 12 Oct 2011 06:44:54 -0700 (PDT)
+Received: from [192.168.137.145] ([190.181.174.132])
+        by mx.google.com with ESMTPS id z6sm6365155anf.22.2011.10.12.06.44.50
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 12 Oct 2011 06:44:51 -0700 (PDT)
+Subject: Re: [#01649427] Added an email addresses and now cant access superuser panel    [ ref:00D0VNwG.5006FIO0G:ref ]
+Mime-Version: 1.0 (Apple Message framework v1244.3)
+Content-Type: text/plain; charset=us-ascii
+From: David Menache <dmenache@thehvac.net>
+In-Reply-To: <1793425814.34971.1318425744751.JavaMail.sfdc@na4-app2-18-asg.ops.sfdc.net>
+Date: Wed, 12 Oct 2011 07:44:49 -0600
+Cc: "Doap.com Support Team" <support@doap.com>
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <2BB05932-A2E9-4991-B2EA-BEE487A2A6EC@thehvac.net>
+References: <1793425814.34971.1318425744751.JavaMail.sfdc@na4-app2-18-asg.ops.sfdc.net>
+To: CianM <esupport@google.com>
+X-Mailer: Apple Mail (2.1244.3)
+
+yes it helps but i have no users with myworldtransferes email AND admin =
+access to dashboard leaving me unable to manage my myworldtranfers.com =
+domain.  is there any way to please get me access via one of my old =
+myworldtransfers.com addresses such as dmenache@doap.com?=20
+
+thank you very very much for your help in this urgent matter!
+dmenache@myworldtransfers.com (i hope can be readied)
+
+On Oct 12, 2011, at 7:22 AM, CianM wrote:
+
+> Hello David ,
+>=20
+> Thank you for your message. My name is Cian and I will be assisting =
+you with your issue today. It is my understanding that you are trying to =
+access the Control Panel for the domain doap.com. Unfortunately because =
+this domain is set up as a secondary domain it is expected behaviour =
+that you would not be able to access the Control Panel for this, as =
+secondary domains are controlled by the primary.
+>=20
+> To confirm David, myworldtransfers.com is set-up as your primary =
+domain and doap.com  is set-up as your secondary domain. This means that =
+doap.com inherits the settings from that are configured for your primary =
+domain. I hope the information that I have provided helps you with your =
+issue. If you have any other queries regarding this case please do not =
+hesitate to contact me again.
+>=20
+>=20
+> Sincerely,
+>=20
+> CianM
+> Enterprise Support
+>=20
+> ------
+> Check out 'whatsnew.googleapps.com' for up-to-date launches and =
+product improvements.
+>=20
+> Learn more about the life of a support case at http://goo.gl/xbJq
+>=20
+> Get timely updates on new features in Google Apps by subscribing to =
+our feed at=20
+> http://feeds.feedburner.com/GoogleAppsUpdates or email alerts at
+> http://www.google.com/apps/admin-updates
+> ------=20
+>=20
+>=20
+> ____________________________________________________=20
+> Case:  #01649427=20
+> Subject:  Added an email addresses and now cant access superuser panel=20=
+
+> ref:00D0VNwG.5006FIO0G:ref
+> I had dmenache@myworldtransfers.com and added  dave@doap.com while =
+adding the doap.com domain name as well and switching mx records for =
+doap.com and gettting all setup.   i even made dave@doap.com a =
+superadmin but cant seem to get at the admin panels to adminster the =
+domains and users and groups and add apps  to my org and of course my =
+websites!  Anyhow, the best case would be dave@doap.com was my primary =
+email for administering doap.com and myworldtransfers.com and was =
+somehow re-associated with my currently inaccessible =
+dmenache@myworldtransfers.com admin account and to have superadmin =
+priveledges once again.  this is scary!  i've had that account forever!
+> Thank you in advance!
+>=20
+> dave@doap.com and backup dmenache@hotmail.com
+> thanks
+>=20
+>=20
+

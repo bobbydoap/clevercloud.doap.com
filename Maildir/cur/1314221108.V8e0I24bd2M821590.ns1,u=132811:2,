@@ -1,0 +1,15 @@
+Return-Path: <dmenache@deployonanyplatform.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 0)
+	id C1B968902F; Wed, 24 Aug 2011 14:25:08 -0700 (PDT)
+From: dmenache@deployonanyplatform.com
+To: support@doap.com
+Cc: 
+Subject: Service monitor : Convectek.com Website Monitor back up on ns1.doap.com
+Date: Wed, 24 Aug 2011 14:25:08 -0700 (PDT)
+Message-Id: <1314221108.2320.1@ns1.doap.com>
+
+Monitor on ns1.doap.com for 'Convectek.com Website Monitor' has detected that the service has gone back up at 24/Aug/2011 14:25
+Running echo "Convectek.com has recovered" | /bin/mail -s .$SUBJECT. .support@doap.com. ..
+

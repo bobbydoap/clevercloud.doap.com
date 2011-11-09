@@ -1,0 +1,33 @@
+Return-Path: <20110929145121aa936e4e0cb14448b17691afcc0f4fcb@bounces.amazon.com>
+X-Original-To: support@doap.com
+Delivered-To: bobby@doap.com
+Received: from smtp-out-212-38.amazon.com (smtp-out-212-38.amazon.com [72.21.212.38])
+	by ns1 (Postfix) with ESMTP id 3B97E888B5
+	for <support@doap.com>; Thu, 29 Sep 2011 07:51:22 -0700 (PDT)
+Date: Thu, 29 Sep 2011 14:51:21 +0000 (UTC)
+From: AWS Notifications <no-reply@sns.amazonaws.com>
+To: "support@doap.com" <support@doap.com>
+Message-ID: <urn.correios.msg.20110929145121aa936e4e0cb14448b17691afcc0f4fcb@1317307881644.rte-svc-na-1008.vdc.amazon.com>
+Subject: AWS Notification - Subscription Confirmation
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_473199_24958742.1317307881643"
+Bounces-to: 20110929145121aa936e4e0cb14448b17691afcc0f4fcb@bounces.amazon.com
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-AMAZON-RTE-VERSION: 2.0
+
+------=_Part_473199_24958742.1317307881643
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+	<body>
+		<p>You have chosen to subscribe to the topic:
+		<br /><b>arn:aws:sns:us-west-1:700756930873:doap-cpu-load-over-50-percent</b></p>
+		<p>To confirm this subscription, click or visit the link below (If this was in error no action is necessary):
+		<br /><a href="https://sns.us-west-1.amazonaws.com/confirmation.html?TopicArn=arn:aws:sns:us-west-1:700756930873:doap-cpu-load-over-50-percent&Token=2336412f37fb687f5d51e6e241d3b4d5c8d13ecd2cc8fc5498c456ee6cea13e43965275d8df630c6ebe0674b63df18f7f35ee666d0266ed8ccd01b40422a2eb0b4c3720c4b75c7410df99818336fa9440f6e1387c14c9a105066da83b12bae4c9edb4b682fff05257e8f124e339269861de2235bfefb2508ecf53098cf2c0387&Endpoint=support@doap.com">Confirm subscription</a></p>
+		<p><small>Please do not reply directly to this e-mail. If you wish to remove yourself from receiving all future SNS subscription confirmation requests please send email to <a href="mailto:sns-opt-out@amazon.com">sns-opt-out</a></small></p>
+	</body>
+</html>
+------=_Part_473199_24958742.1317307881643--
+

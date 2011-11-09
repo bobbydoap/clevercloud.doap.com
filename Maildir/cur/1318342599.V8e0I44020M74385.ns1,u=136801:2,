@@ -1,0 +1,129 @@
+Return-Path: <3x0-UTggLBTIRaSbOQVShVSVjOQ.bShPcPPmRcOd.Qca@calendar-server.bounces.google.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-vx0-f202.google.com (mail-vx0-f202.google.com [209.85.220.202])
+	by ns1 (Postfix) with ESMTP id CC4D988666
+	for <bobby@doap.com>; Tue, 11 Oct 2011 07:16:38 -0700 (PDT)
+Received: by vcbfl15 with SMTP id fl15so813482vcb.1
+        for <bobby@doap.com>; Tue, 11 Oct 2011 07:16:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=mime-version:reply-to:sender:cc:auto-submitted:message-id:date
+         :subject:from:to:content-type;
+        bh=WmqI7QSIXpKogIWC32LzQG+s3g7mEZ3NDRZ3MfmBzxM=;
+        b=Ntt8YGqK2YB3v1a37Dew35n2BLFI/Nl+wb7vV+CiENUszE8JUKklTyQjJdmBaxkseY
+         BsaUnlqA+ypQdHA3e9/w==
+MIME-Version: 1.0
+Received: by 10.236.9.8 with SMTP id 8mr6067839yhs.3.1318342599035; Tue, 11
+ Oct 2011 07:16:39 -0700 (PDT)
+Reply-To: "dmenache@thehvac.net" <dmenache@thehvac.net>
+Sender: Google Calendar <calendar-notification@google.com>
+CC: markus@duffin.com, jon@doap.com, jon@thehvac.net, bobby@doap.com, 
+	dave@doap.com
+Auto-Submitted: auto-generated
+Message-ID: <20cf303a2db54ecb8a04af068e3a@google.com>
+Date: Tue, 11 Oct 2011 14:16:39 +0000
+Subject: [Update] Webcast:  Fast & Frugal: Running a Lean Startup with AWS
+From: "dmenache@thehvac.net" <dmenache@thehvac.net>
+To: "jon@thehvac.net" <jon@thehvac.net>, "dave@doap.com" <dave@doap.com>, "bobby@doap.com" <bobby@doap.com>, 
+	"markus@duffin.com" <markus@duffin.com>, "jon@doap.com" <jon@doap.com>, 
+	"dmenache@thehvac.net" <dmenache@thehvac.net>
+Content-Type: multipart/mixed; boundary=20cf303a2db54ecb8004af068e39
+
+--20cf303a2db54ecb8004af068e39
+Content-Type: multipart/alternative; boundary=20cf303a2db54ecb7c04af068e37
+
+--20cf303a2db54ecb7c04af068e37
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+this will be worthwhile
+
+--20cf303a2db54ecb7c04af068e37
+Content-Type: text/html; charset=ISO-8859-1
+
+this will be worthwhile
+--20cf303a2db54ecb7c04af068e37
+Content-Type: text/calendar; charset=UTF-8; method=REQUEST
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20111027T150000Z
+DTEND:20111027T190000Z
+DTSTAMP:20111011T141639Z
+ORGANIZER;CN=dmenache@thehvac.net:mailto:dmenache@thehvac.net
+UID:qoiq45ec1m2krc8nbb1g6tq828@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=David Menache;X-NUM-GUESTS=0:mailto:dmenache@thehvac.net
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Jon Fleischer;X-NUM-GUESTS=0:mailto:jon@thehvac.net
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=bobby@doap.com;X-NUM-GUESTS=0:mailto:bobby@doap.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=dave@doap.com;X-NUM-GUESTS=0:mailto:dave@doap.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jon@doap.com;X-NUM-GUESTS=0:mailto:jon@doap.com
+CREATED:20111011T141446Z
+DESCRIPTION:Date: October 27\, 2011\nTime: 10:00 AM PDT\nDuration: 4.5 Hour
+ s\n\nYou are welcome to attend only one presentation or the entire event. R
+ ecordings and slides will be provided to all registrants after the event.\n
+ \nhttp://event.on24.com/r.htm?e=363030&s=1&k=16A3FED4C5E36646CB58D869C8C599
+ A8\n\nYou can view the webcast at the link provided above.\n\n*************
+ *******\nImportant: System Setup & Compatibility Check \n\nTest the compute
+ r that you will be using and make sure you have the minimum technical requi
+ rements to attend this webcast. Allow sufficient time prior to the webcast 
+ for this test. Test at http://webcast.on24.com/view/help/ehelp.html.
+LAST-MODIFIED:20111011T141557Z
+LOCATION:online
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Webcast:  Fast & Frugal: Running a Lean Startup with AWS
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+--20cf303a2db54ecb7c04af068e37--
+--20cf303a2db54ecb8004af068e39
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VkVWRU5UDQpEVFNUQVJUOjIwMTExMDI3VDE1MDAwMFoNCkRURU5EOjIwMTExMDI3
+VDE5MDAwMFoNCkRUU1RBTVA6MjAxMTEwMTFUMTQxNjM5Wg0KT1JHQU5JWkVSO0NOPWRtZW5hY2hl
+QHRoZWh2YWMubmV0Om1haWx0bzpkbWVuYWNoZUB0aGVodmFjLm5ldA0KVUlEOnFvaXE0NWVjMW0y
+a3JjOG5iYjFnNnRxODI4QGdvb2dsZS5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JP
+TEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPUFDQ0VQVEVEO1JTVlA9VFJVRQ0KIDtDTj1EYXZp
+ZCBNZW5hY2hlO1gtTlVNLUdVRVNUUz0wOm1haWx0bzpkbWVuYWNoZUB0aGVodmFjLm5ldA0KQVRU
+RU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkVF
+RFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1Kb24gRmxlaXNjaGVyO1gtTlVNLUdVRVNUUz0wOm1h
+aWx0bzpqb25AdGhlaHZhYy5uZXQNCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVR
+LVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049Ym9iYnlA
+ZG9hcC5jb207WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmJvYmJ5QGRvYXAuY29tDQpBVFRFTkRFRTtD
+VVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJ
+T047UlNWUD0NCiBUUlVFO0NOPWRhdmVAZG9hcC5jb207WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmRh
+dmVAZG9hcC5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQ
+QU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049am9uQGRvYXAuY29tO1gt
+TlVNLUdVRVNUUz0wOm1haWx0bzpqb25AZG9hcC5jb20NCkNSRUFURUQ6MjAxMTEwMTFUMTQxNDQ2
+Wg0KREVTQ1JJUFRJT046RGF0ZTogT2N0b2JlciAyN1wsIDIwMTFcblRpbWU6IDEwOjAwIEFNIFBE
+VFxuRHVyYXRpb246IDQuNSBIb3VyDQogc1xuXG5Zb3UgYXJlIHdlbGNvbWUgdG8gYXR0ZW5kIG9u
+bHkgb25lIHByZXNlbnRhdGlvbiBvciB0aGUgZW50aXJlIGV2ZW50LiBSDQogZWNvcmRpbmdzIGFu
+ZCBzbGlkZXMgd2lsbCBiZSBwcm92aWRlZCB0byBhbGwgcmVnaXN0cmFudHMgYWZ0ZXIgdGhlIGV2
+ZW50LlxuDQogXG5odHRwOi8vZXZlbnQub24yNC5jb20vci5odG0/ZT0zNjMwMzAmcz0xJms9MTZB
+M0ZFRDRDNUUzNjY0NkNCNThEODY5QzhDNTk5DQogQThcblxuWW91IGNhbiB2aWV3IHRoZSB3ZWJj
+YXN0IGF0IHRoZSBsaW5rIHByb3ZpZGVkIGFib3ZlLlxuXG4qKioqKioqKioqKioqDQogKioqKioq
+KlxuSW1wb3J0YW50OiBTeXN0ZW0gU2V0dXAgJiBDb21wYXRpYmlsaXR5IENoZWNrIFxuXG5UZXN0
+IHRoZSBjb21wdXRlDQogciB0aGF0IHlvdSB3aWxsIGJlIHVzaW5nIGFuZCBtYWtlIHN1cmUgeW91
+IGhhdmUgdGhlIG1pbmltdW0gdGVjaG5pY2FsIHJlcXVpDQogcmVtZW50cyB0byBhdHRlbmQgdGhp
+cyB3ZWJjYXN0LiBBbGxvdyBzdWZmaWNpZW50IHRpbWUgcHJpb3IgdG8gdGhlIHdlYmNhc3QgDQog
+Zm9yIHRoaXMgdGVzdC4gVGVzdCBhdCBodHRwOi8vd2ViY2FzdC5vbjI0LmNvbS92aWV3L2hlbHAv
+ZWhlbHAuaHRtbC4NCkxBU1QtTU9ESUZJRUQ6MjAxMTEwMTFUMTQxNTU3Wg0KTE9DQVRJT046b25s
+aW5lDQpTRVFVRU5DRTowDQpTVEFUVVM6Q09ORklSTUVEDQpTVU1NQVJZOldlYmNhc3Q6ICBGYXN0
+ICYgRnJ1Z2FsOiBSdW5uaW5nIGEgTGVhbiBTdGFydHVwIHdpdGggQVdTDQpUUkFOU1A6T1BBUVVF
+DQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=
+--20cf303a2db54ecb8004af068e39--

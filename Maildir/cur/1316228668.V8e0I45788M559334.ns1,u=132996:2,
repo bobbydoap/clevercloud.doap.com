@@ -1,0 +1,75 @@
+Return-Path: <cotizarmro@gmail.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-iy0-f182.google.com (mail-iy0-f182.google.com [209.85.210.182])
+	by ns1 (Postfix) with ESMTP id 704AC8863A
+	for <bobby@doap.com>; Fri, 16 Sep 2011 20:04:28 -0700 (PDT)
+Received: by iadk27 with SMTP id k27so4765077iad.13
+        for <bobby@doap.com>; Fri, 16 Sep 2011 20:04:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=x-rim-org-msg-ref-id:message-id:reply-to:x-priority:references
+         :in-reply-to:sensitivity:importance:subject:to:from:date
+         :content-type:mime-version;
+        bh=xoZykHi14mxOsqMNXIuV5sY4ntwOIJ3wzrv0UwEvwIw=;
+        b=DAq/LvuIT1XgcNRCE9DrvPCoKNX4ItQZ7E01no6QmOHtouxaaNKVmCnZcHq9o4tiJ7
+         Ir3HpSD/qrBP6j9FAUWl//kG7L286FuacSUWoKCWkIpya7cZ09CtnJMiOKYRQScxI5RT
+         LKSzaEIky+gGI2SiSCqJzInRCYE8u30dee26s=
+Received: by 10.42.168.129 with SMTP id w1mr200233icy.146.1316228668748;
+        Fri, 16 Sep 2011 20:04:28 -0700 (PDT)
+Received: from 172.29.218.210 (bda-74-82-86-168.bis6.us.blackberry.com. [74.82.86.168])
+        by mx.google.com with ESMTPS id n14sm12209872ibi.4.2011.09.16.20.04.27
+        (version=SSLv3 cipher=OTHER);
+        Fri, 16 Sep 2011 20:04:27 -0700 (PDT)
+X-rim-org-msg-ref-id:1413180027
+Message-ID:<1413180027-1316228665-cardhu_decombobulator_blackberry.rim.net-1116007844-@b26.c25.bise6.blackberry>
+Reply-To: cotizarmro@gmail.com
+X-Priority: Normal
+References: <BLU167-W460E003CFF271738A4072D8090@phx.gbl>
+In-Reply-To: <BLU167-W460E003CFF271738A4072D8090@phx.gbl>
+Sensitivity: Normal
+Importance: Normal
+Subject: Re: Repuesto Volkswagen
+To: "Roberto Patricio Mendez" <bobby@doap.com>
+From: "Jerry" <cotizarmro@gmail.com>
+Date: Sat, 17 Sep 2011 03:04:21 +0000
+Content-Type: multipart/alternative; boundary="part17750-boundary-1963424642-626785661"
+MIME-Version: 1.0
+
+
+--part17750-boundary-1963424642-626785661
+Content-Transfer-Encoding: base64
+Content-Type: text/plain; charset="Windows-1252"
+
+Q29ycmVjdGFtZW50ZSwgZXMgbGEgcHVudGEgZGUgZmxlY2hhLiBWb3kgYSBvcmRlbmFyIGN1YW50
+byBhbnRlcyBlc3RhIHBpZXphLiBNYfFhbmEgaGFibGFtb3MuIFNhbHVkb3MNCg0KR2VyYXJkbyBW
+YWRvDQp3d3cubWlzcmVwdWVzdG9zb25saW5lLmNvbQ0KDQotLS0tLU9yaWdpbmFsIE1lc3NhZ2Ut
+LS0tLQ0KRnJvbTogUm9iZXJ0byBQYXRyaWNpbyBNZW5kZXogPGJvYmJ5QGRvYXAuY29tPg0KU2Vu
+ZGVyOiA8YW50YXJ0aWNhcG9sYXJAaG90bWFpbC5jb20+DQpEYXRlOiBGcmksIDE2IFNlcCAyMDEx
+IDIwOjMwOjAwIA0KVG86IDxjb3RpemFybXJvQGdtYWlsLmNvbT4NClN1YmplY3Q6IFJlcHVlc3Rv
+IFZvbGtzd2FnZW4NCg0KDQpTaSBlc3RlIGVzIGxhIHB1bnRhIGRlIGZsZWNoYSBkZSBsYSBxdWUg
+aGFibGFtb3MgZmF2b3Igb3JkZW5hcmxhLCBjdWFscXVpZXIgY29uc3VsdGEgbGxhbWFyIGFsIDg0
+NjAwNzAwIGNvbiBSb2JlcnRvLiAJCSAJICAgCQkgIA0K
+
+--part17750-boundary-1963424642-626785661
+Content-Transfer-Encoding: base64
+Content-Type: text/html; charset="Windows-1252"
+
+PGh0bWw+DQo8aGVhZD4NCjxzdHlsZT48IS0tDQouaG1tZXNzYWdlIFANCnsNCm1hcmdpbjowcHg7
+DQpwYWRkaW5nOjBweA0KfQ0KYm9keS5obW1lc3NhZ2UNCnsNCmZvbnQtc2l6ZTogMTBwdDsNCmZv
+bnQtZmFtaWx5OlRhaG9tYQ0KfQ0KLS0+PC9zdHlsZT4NCjwvaGVhZD4NCjxib2R5IGNsYXNzPSdo
+bW1lc3NhZ2UnPkNvcnJlY3RhbWVudGUsIGVzIGxhIHB1bnRhIGRlIGZsZWNoYS4gVm95IGEgb3Jk
+ZW5hciBjdWFudG8gYW50ZXMgZXN0YSBwaWV6YS4gTWHxYW5hIGhhYmxhbW9zLiBTYWx1ZG9zPGJy
+Lz48YnIvPkdlcmFyZG8gVmFkbzxwPnd3dy5taXNyZXB1ZXN0b3NvbmxpbmUuY29tPC9wPjxoci8+
+PGRpdj48Yj5Gcm9tOiA8L2I+IFJvYmVydG8gUGF0cmljaW8gTWVuZGV6ICZsdDtib2JieUBkb2Fw
+LmNvbSZndDsNCjwvZGl2PjxkaXY+PGI+U2VuZGVyOiA8L2I+ICZsdDthbnRhcnRpY2Fwb2xhckBo
+b3RtYWlsLmNvbSZndDsNCjwvZGl2PjxkaXY+PGI+RGF0ZTogPC9iPkZyaSwgMTYgU2VwIDIwMTEg
+MjA6MzA6MDAgLTA2MDA8L2Rpdj48ZGl2PjxiPlRvOiA8L2I+Jmx0O2NvdGl6YXJtcm9AZ21haWwu
+Y29tJmd0OzwvZGl2PjxkaXY+PGI+U3ViamVjdDogPC9iPlJlcHVlc3RvIFZvbGtzd2FnZW48L2Rp
+dj48ZGl2Pjxici8+PC9kaXY+PGRpdiBkaXI9J2x0cic+DQpTaSBlc3RlIGVzIGxhIHB1bnRhIGRl
+IGZsZWNoYSBkZSBsYSBxdWUgaGFibGFtb3MgZmF2b3Igb3JkZW5hcmxhLCBjdWFscXVpZXIgY29u
+c3VsdGEgbGxhbWFyIGFsIDg0NjAwNzAwIGNvbiBSb2JlcnRvLiAJCSAJICAgCQkgIDwvZGl2Pjwv
+Ym9keT4NCjwvaHRtbD4NCg==
+
+--part17750-boundary-1963424642-626785661--
+

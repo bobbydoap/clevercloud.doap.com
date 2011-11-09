@@ -1,0 +1,62 @@
+Return-Path: <tech+bncCAAQ85TH8wQaBAgkZDk@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-iy0-f200.google.com (mail-iy0-f200.google.com [209.85.210.200])
+	by ns1 (Postfix) with ESMTP id 2ACDA8873B;
+	Thu, 15 Sep 2011 02:50:44 -0700 (PDT)
+Received: by iaqq3 with SMTP id q3sf2070244iaq.7
+        for <multiple recipients>; Thu, 15 Sep 2011 02:50:44 -0700 (PDT)
+Received: by 10.43.47.198 with SMTP id ut6mr881326icb.14.1316080243955;
+        Thu, 15 Sep 2011 02:50:43 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.231.102.70 with SMTP id f6ls770281ibo.4.gmail; Thu, 15 Sep
+ 2011 02:50:43 -0700 (PDT)
+Received: by 10.42.150.196 with SMTP id b4mr185863icw.153.1316080243702;
+        Thu, 15 Sep 2011 02:50:43 -0700 (PDT)
+Received: by 10.42.150.196 with SMTP id b4mr185862icw.153.1316080243692;
+        Thu, 15 Sep 2011 02:50:43 -0700 (PDT)
+Received: from ns1 (ns1.doap.com. [50.18.110.179])
+        by mx.google.com with ESMTPS id ve2si2965979icb.7.2011.09.15.02.50.43
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 15 Sep 2011 02:50:43 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of wwwrun@doap.com designates 50.18.110.179 as permitted sender) client-ip=50.18.110.179;
+Received: by ns1 (Postfix, from userid 30)
+	id 99F3A8873C; Thu, 15 Sep 2011 02:50:41 -0700 (PDT)
+To: tech@thehvac.net
+Subject: [http://doap.com] Comment: ""
+X-PHP-Originating-Script: 0:class-phpmailer.php
+Date: Thu, 15 Sep 2011 09:50:41 +0000
+From: sassofono <wordpress@doap.com>
+Message-ID: <b262e12df7a2ea029e00f56522212d91@www.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+Reply-To: "lucatech78@yahoo.com" <lucatech78@yahoo.com>
+MIME-Version: 1.0
+X-Original-Sender: wordpress@doap.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: best
+ guess record for domain of wwwrun@doap.com designates 50.18.110.179 as
+ permitted sender) smtp.mail=wwwrun@doap.com
+Precedence: list
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+New comment on your post ""
+Author : sassofono (IP: 173.234.126.20 , 173.234.126.20.rdns.ubiquityservers.com)
+E-mail : lucatech78@yahoo.com
+URL    : http://djstools.com/Strumento-a-Fiato/Sassofoni/C1147
+Whois  : http://whois.arin.net/rest/ip/173.234.126.20
+Comment: 
+Hi, this is a great post! Thanks..
+
+You can see all comments on this post here: 
+http://www.doap.com/2011/08/3699#comments
+
+Permalink: http://www.doap.com/2011/08/3699#comment-2818
+Trash it: http://www.doap.com/wp-admin/comment.php?action=trash&c=2818
+Spam it: http://www.doap.com/wp-admin/comment.php?action=spam&c=2818
+

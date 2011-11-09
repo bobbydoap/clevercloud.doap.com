@@ -1,0 +1,16 @@
+Return-Path: <bobby@doap.com>
+X-Original-To: bobby
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 1019)
+	id 4004688902; Wed,  3 Aug 2011 19:26:50 -0700 (PDT)
+Date: Wed, 03 Aug 2011 19:26:50 -0700
+To: bobby@doap.com
+Subject: test
+User-Agent: Heirloom mailx 12.2 01/07/07
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-Id: <20110804022650.4004688902@ns1>
+From: bobby@doap.com
+
+asdf.

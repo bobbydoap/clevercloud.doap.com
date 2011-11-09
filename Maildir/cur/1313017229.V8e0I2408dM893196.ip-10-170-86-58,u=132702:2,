@@ -1,0 +1,369 @@
+Return-Path: <jdfly19@gmail.com>
+X-Original-To: sales@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix)
+	id D39B488B5D; Wed, 10 Aug 2011 16:00:29 -0700 (PDT)
+Delivered-To: sales@doap.com
+Received: from mail-yw0-f54.google.com (mail-yw0-f54.google.com [209.85.213.54])
+	by ns1 (Postfix) with ESMTP id 6D5FA88B5C;
+	Wed, 10 Aug 2011 16:00:29 -0700 (PDT)
+Received: by ywo32 with SMTP id 32so45350ywo.13
+        for <multiple recipients>; Wed, 10 Aug 2011 16:00:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        bh=BJJ4V+5NNS/6xu9UPsXYM+do/zqJShWfyGas84eDldo=;
+        b=UXLN/2uvIe0Ib4frCP3Ac2nPNPSafZLJluhPxokC5SImyUxQFBuHg8CFl9VqcJBsQt
+         CBRTMYWAPMQRXyLtQdjCCZctnxvmpy9ZOmr/xetUfyrlzlpa2lbhVpqv4bOlYr/MmpiZ
+         7KNLp3pz/UAYs+7ujmJ3O3cArOAPlDvSDQCxw=
+MIME-Version: 1.0
+Received: by 10.42.147.66 with SMTP id m2mr7295482icv.321.1312916911525; Tue,
+ 09 Aug 2011 12:08:31 -0700 (PDT)
+Received: by 10.43.133.6 with HTTP; Tue, 9 Aug 2011 12:08:31 -0700 (PDT)
+In-Reply-To: <SNT128-W639956A1A1E2AE37496D3FC2210@phx.gbl>
+References: <SNT128-W639956A1A1E2AE37496D3FC2210@phx.gbl>
+Date: Tue, 9 Aug 2011 13:08:31 -0600
+Message-ID: <CAJGqkG7Cez9Ng=vZ+GabfmE8D7p-uhjsJjD6G8yWD9TsndVueA@mail.gmail.com>
+Subject: Re: News & Announcements
+From: jon fleischer <jdfly19@gmail.com>
+To: David Menache <dave@doap.com>
+Cc: Doap Sales <sales@doap.com>, Michael Menache Menache <mike_menache@yahoo.com>, 
+	varie menache <variem@comcast.net>
+Content-Type: multipart/alternative; boundary=90e6ba1efd32218ffc04aa174a45
+
+--90e6ba1efd32218ffc04aa174a45
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi Everyone,
+
+Here are the stats on the Google Ads campaign for Laura's Ruud project in So
+Cal. so far:
+
+*July 19- August 8*
+
+   - 148,000 Impressions or ad views
+
+
+   - 440 Clicks on our ads
+
+
+   - 62 sales calls to one of our dealers - 57 of them unique callers.
+
+Here's the list of hot prospects Dave was referrng to:
+
+GP Plumbing and Air  Yorba Linda
+Moreflow A/C   Sylmar,
+Landeen HVAC Simi Valley
+MBA Mechanical Simi Valley
+Indoor Comfort Control Simi Valley
+Pinnacle Aire  Oxnard
+Alliance Air Northridge
+ABC Air Conditioning Sun Valley
+
+
+The two things each one has in common is that they are part of the Ruud
+campaign AND none of them have a website.
+I thought everyone had a website. I'm quickly learning that there's a lot
+more opportunity out there than I realized.
+So far GP Plumbing and Air  has expressed interest and I'm in the process of
+calling on the rest.
+
+Its a lot of  fun to see doap.com beginning to develop.   Talk to you all
+tonight!
+
+Jon
+Jon@doap.com
+925 478 7250
+
+
+
+
+
+
+
+On Mon, Aug 8, 2011 at 4:27 PM, David Menache <dave@doap.com> wrote:
+
+>  ***
+> News & Announcements
+> *
+>
+>    - Congratz jon on selling  http://airandplumbing.gets-it.net/ !
+>    - Congratz bobby for developing your first real customer website
+>    http://re-leaseit.com
+>    - Doap.com DBA paperwork has been filed!
+>    - We received our first $3900 payment for the Los Angeles Ruud Dealer
+>    Air Conditioning Campaign
+>    - Laura reports initial happiness with the Ruud campaign although we
+>    need to do a lot more optimizing of both technical and marketing
+>    collateral.  Jon is hot on the case...   Aoso, we have stats to publish on
+>    how many impressions, clicks and calls have been made to date.  (jon can you
+>    send it along behind this email to the group please...)
+>
+> *Technical Milestone*
+>
+>    - doap.com email working properly!
+>
+>
+>    1. sales@doap.com
+>       - dave@doap.com
+>       - jon@doap.com
+>       - jim@doap.com
+>       - bobby@doap.com
+>       - jamie@doap.com
+>    2. support@doap.com
+>       - dave@doap.com
+>       - jon@doap.com
+>       - jim@doap.com
+>       - bobby@doap.com
+>       - jamie@doap.com
+>
+>
+>
+>    - We are going to enter the AWS Amazon startup competition!  CHeck it
+>    out! <http://doap.com/amazon-com-startup-contest>
+>       - We will be submitting a web hosting business model which is based
+>       on educating and employing up and coming web developers like bobby in places
+>       like nicaragua as we sell websites, servers, and online advertising to
+>       anyone who needs them!
+>
+>
+> *Hot Leads*
+>
+>    - Jon has identified 5 companies to sell existing sites and campaigns
+>    to.  Announce them here Jon (till we have a CRM working)
+>    - Michelle has two people who want simple personal web sites like Bobby
+>    built for re-leaseit.com.  Someone should follow up!  A guy named Jamie
+>    is one of em and he's a cool cat who wants a website for his handyman biz.
+>    Super easy and probalby worth a couple of hund...
+>
+>
+> *In Play*
+>
+>    - Bay Area Plumbing & Heating is a hot lead from Laura who is anxious
+>    to talk to us.  I'll call him...
+>    - Colegio Centroamerica <http://colegiocentroamerica.doap.com/> - Bobby
+>    is just getting started with this one.
+>    - A big announcement!  Larry Andreson from Global HVAC Products whats
+>    to use the full suite GHVAC sites we created last year.
+>
+>
+>
+>
+>    *This project is mostly built!  All we are missing is a few banners on
+>    the home pages...*
+>
+>    The Top level Global HVAC website: http://globalhvac.thehvac.net/
+>    Global HVAC Manteca public website http://ghvac-manteca.thehvac.net/
+>    Global HVAC Sylmar public website http://ghvac-sylmar.thehvac.net/
+>    Global HVAC San Jose...http://ghvac-sanjose.thehvac.net/
+>    Global HVAC Orange Co. http://ghvac-orange.thehvac.net/
+>
+>    Global HVAC Intranet Website
+>
+>
+>    http://i.globalhvac.thehvac.net/
+>
+>    Global HVAC Contractor Public Site
+>    http://contractors.globalhvac.thehvac.net/
+>
+>    Global HVAC Registered Contractor Portal
+>    http://i.contractors.globalhvac.thehvac.net/
+>
+>    They will also be using TheHVAC.Net email and document services.  We
+>    will be managing the entire account and all the content for these websites
+>    for a fixed monthly fee.  (We're asking for $500/mo for the websites and
+>    hope to sign the contract tomorrow!)  Want to provide more phone support too
+>    if we can by contract.
+>
+>
+> *Business Development*
+> Bobby and Jon have both expressed serious interest in working with Jamie to
+> get into the potclub market in California and I want to do what i can to
+> help make it happen!   Bobby and I are ready to start cranking out out.
+> Just give us a name Jamie! :)
+>
+>
+>
+> *Meetup Tomorrow Night!*
+> I'm scheduling an online skype confrerence for Tues Aug 9 8pm California
+> time, for team to give updates on respective projects. LogMeIn meeting
+> invites will be mailed shortly.  Hopefully ya can all make it and we can
+> just shoot the shit and talk about going forward!
+>
+>
+> ____________________________________________________
+>
+> So who likes the idea of a newsletter....
+>
+> -d
+>
+>
+>
+> *David Menache*
+> *dave@doap.com*
+> US:805-426-5216**
+>
+
+--90e6ba1efd32218ffc04aa174a45
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi Everyone,<br><br>Here are the stats on the Google Ads campaign for Laura=
+&#39;s Ruud project in So Cal. so far:<br><br><b>July 19- August 8</b><br><=
+ul><li>148,000 Impressions or ad views </li></ul><ul><li> 440 Clicks on our=
+ ads</li>
+</ul><ul><li>62 sales calls to one of our dealers - 57 of them unique calle=
+rs.</li></ul>
+Here&#39;s the list of hot prospects Dave was referrng to:<br><br>GP Plumbi=
+ng and Air=A0 Yorba Linda<br>Moreflow A/C =A0 Sylmar, <br>Landeen HVAC Simi=
+ Valley<br>MBA Mechanical Simi Valley<br>Indoor Comfort Control Simi Valley=
+<br>
+Pinnacle Aire=A0 Oxnard<br>Alliance Air Northridge<br>ABC Air Conditioning =
+Sun Valley<br><br><br>The two things each one has in common is that they ar=
+e part of the Ruud campaign AND none of them have a website.<br>I thought e=
+veryone had a website. I&#39;m quickly learning that there&#39;s a lot more=
+ opportunity out there than I realized.<br>
+So far GP Plumbing and Air=A0 has expressed interest and I&#39;m in the pro=
+cess of calling on the rest.<br><br>Its a lot of=A0 fun to see <a href=3D"h=
+ttp://doap.com">doap.com</a> beginning to develop. =A0 Talk to you all toni=
+ght! <br>
+<br>Jon <br><a href=3D"mailto:Jon@doap.com">Jon@doap.com</a><br>925 478 725=
+0<br><br><br><br><br><br><br><br><div class=3D"gmail_quote">On Mon, Aug 8, =
+2011 at 4:27 PM, David Menache <span dir=3D"ltr">&lt;<a href=3D"mailto:dave=
+@doap.com" target=3D"_blank">dave@doap.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+
+
+
+
+<div><div dir=3D"ltr">
+<b><img src=3D""></b><font style=3D"font-size:20pt" size=3D"5"><b><br>News =
+&amp; Announcements<br></b></font><br><ul><li>Congratz jon on selling=A0<a =
+href=3D"http://airandplumbing.gets-it.net/" target=3D"_blank"> http://airan=
+dplumbing.gets-it.net/</a> !</li>
+
+<li>Congratz bobby for developing your first real customer website <a href=
+=3D"http://re-leaseit.com" target=3D"_blank">http://re-leaseit.com</a></li>=
+<li>Doap.com DBA paperwork has been filed!</li><li>We received our first $3=
+900 payment for the Los Angeles Ruud Dealer Air Conditioning Campaign</li>
+
+<li>Laura reports initial happiness with the Ruud campaign although we need=
+ to do a lot more optimizing of both technical and marketing collateral.=A0=
+ Jon is hot on the case...=A0=A0 Aoso, we have stats to publish on how many=
+ impressions, clicks and calls have been made to date.=A0 (jon can you send=
+ it along behind this email to the group please...)<br>
+
+</li></ul><b><font style=3D"font-size:20pt" size=3D"5">Technical Milestone<=
+/font></b><br><ul><li><a href=3D"http://doap.com" target=3D"_blank">doap.co=
+m</a> email working properly!=A0 </li></ul><blockquote><ol><li><a href=3D"h=
+ttp://sales@doap.com" target=3D"_blank">sales@doap.com</a></li>
+
+<ul><li><a href=3D"mailto:dave@doap.com" target=3D"_blank">dave@doap.com</a=
+></li><li><a href=3D"mailto:jon@doap.com" target=3D"_blank">jon@doap.com</a=
+></li><li><a href=3D"mailto:jim@doap.com" target=3D"_blank">jim@doap.com</a=
+></li><li>
+
+<a href=3D"mailto:bobby@doap.com" target=3D"_blank">bobby@doap.com</a></li>=
+<li><a href=3D"mailto:jamie@doap.com" target=3D"_blank">jamie@doap.com</a><=
+/li></ul><li><a href=3D"http://support@doap.com" target=3D"_blank">support@=
+doap.com</a></li>
+
+<ul><li><a href=3D"mailto:dave@doap.com" target=3D"_blank">dave@doap.com</a=
+></li><li><a href=3D"mailto:jon@doap.com" target=3D"_blank">jon@doap.com</a=
+></li><li><a href=3D"mailto:jim@doap.com" target=3D"_blank">jim@doap.com</a=
+></li><li>
+
+<a href=3D"mailto:bobby@doap.com" target=3D"_blank">bobby@doap.com</a></li>=
+<li><a href=3D"mailto:jamie@doap.com" target=3D"_blank">jamie@doap.com</a><=
+/li></ul></ol><br></blockquote><ul><li>We are going to enter the AWS Amazon=
+ startup competition!=A0 <a href=3D"http://doap.com/amazon-com-startup-cont=
+est" target=3D"_blank">CHeck it out!</a></li>
+
+<ul><li>We will be submitting a web hosting business model which is based o=
+n educating and employing up and coming web developers like bobby in places=
+ like nicaragua as we sell websites, servers, and online advertising to any=
+one who needs them!</li>
+
+</ul></ul><br><b><font style=3D"font-size:20pt" size=3D"5">Hot Leads</font>=
+</b><br><ul><li>Jon has identified 5 companies to sell existing sites and c=
+ampaigns to.=A0 Announce them here Jon (till we have a CRM working)</li><li=
+>
+Michelle has two people who want simple personal web sites like Bobby built=
+ for <a href=3D"http://re-leaseit.com" target=3D"_blank">re-leaseit.com</a>=
+.=A0 Someone should follow up!=A0 A guy named Jamie is one of em and he&#39=
+;s a cool cat who wants a website for his handyman biz.=A0 Super easy and p=
+robalby worth a couple of hund...<br>
+
+</li></ul><br><b><font style=3D"font-size:20pt" size=3D"5">In Play</font></=
+b><br><ul><li>Bay Area Plumbing &amp; Heating is a hot lead from Laura who =
+is anxious to talk to us.=A0 I&#39;ll call him...</li><li><a href=3D"http:/=
+/colegiocentroamerica.doap.com/" target=3D"_blank">Colegio Centroamerica</a=
+> - Bobby is just getting started with this one.</li>
+
+<li>A big announcement!=A0 Larry Andreson from Global HVAC Products whats t=
+o use the full suite GHVAC sites we created last year.=A0<br><br><br><br><b=
+r><b>This project is mostly built!=A0 All we are missing is a few banners o=
+n the home pages...</b><br>
+
+=A0<br>The Top level Global HVAC website: <a href=3D"http://globalhvac.theh=
+vac.net/" target=3D"_blank">http://globalhvac.thehvac.net/ </a><br>Global H=
+VAC Manteca public website<a href=3D"http://ghvac-manteca.thehvac.net/" tar=
+get=3D"_blank"> http://ghvac-manteca.thehvac.net/</a><br>
+
+Global HVAC Sylmar public website<a href=3D"http://ghvac-sylmar.thehvac.net=
+/" target=3D"_blank"> http://ghvac-sylmar.thehvac.net/</a><br>Global HVAC S=
+an Jose...<a href=3D"http://ghvac-sanjose.thehvac.net/" target=3D"_blank">h=
+ttp://ghvac-sanjose.thehvac.net/</a><br>
+
+Global HVAC Orange Co. <a href=3D"http://ghvac-orange.thehvac.net/" target=
+=3D"_blank">http://ghvac-orange.thehvac.net/</a><br><br>Global HVAC Intrane=
+t Website<br><br><br><a href=3D"http://i.globalhvac.thehvac.net/" target=3D=
+"_blank">
+http://i.globalhvac.thehvac.net/</a><br><br>Global HVAC Contractor Public S=
+ite<br><a href=3D"http://contractors.globalhvac.thehvac.net/" target=3D"_bl=
+ank">
+http://contractors.globalhvac.thehvac.net/</a><br><br>Global HVAC Registere=
+d Contractor Portal<br><a href=3D"http://i.contractors.globalhvac.thehvac.n=
+et/" target=3D"_blank">
+http://i.contractors.globalhvac.thehvac.net/</a><br>
+<br>
+They will also be using TheHVAC.Net email and document services.=A0 We=20
+will be managing the entire account and all the content for these=20
+websites for a fixed monthly fee.=A0 (We&#39;re asking for $500/mo for the =
+websites and hope to sign the contract tomorrow!)=A0 Want to provide more p=
+hone support too if we can by contract.<br></li></ul><br><b><font style=3D"=
+font-size:20pt" size=3D"5">Business Development</font></b><br>
+
+Bobby and Jon have both expressed serious interest in working with Jamie to=
+ get into the potclub market in California and I want to do what i can to h=
+elp make it happen!=A0=A0 Bobby and I are ready to start cranking out out.=
+=A0 Just give us a name Jamie! :)<br>
+
+<br><br><br><b><font style=3D"font-size:20pt" size=3D"5">Meetup Tomorrow Ni=
+ght!</font></b><br>I&#39;m scheduling an online skype confrerence for Tues =
+Aug 9 8pm California time, for team to give updates on respective projects.=
+ LogMeIn meeting invites will be mailed shortly.=A0 Hopefully ya can all ma=
+ke it and we can just shoot the shit and talk about going forward!<br>
+
+<br><br>____________________________________________________<br><br>So who =
+likes the idea of a newsletter....<br><br>-d<br><font color=3D"#888888"><br=
+><br><br><table style=3D"background-color:#ddd;text-shadow:2px 2px 2px #000=
+" border=3D"0" cellpadding=3D"5" cellspacing=3D"5">
+
+<tbody><tr><td><img src=3D"" height=3D"74" width=3D"74"></td><td><font styl=
+e=3D"font-size:20pt" face=3D"Verdana" size=3D"5"><b>David Menache</b></font=
+><font face=3D"Verdana"><br></font><font face=3D"Verdana"><i><font style=3D=
+"font-size:12pt" size=3D"3"><a>dave@doap.com</a></font></i></font><font fac=
+e=3D"Verdana"><br>
+
+</font><font style=3D"font-size:12pt" face=3D"Verdana" size=3D"3">US:<a hre=
+f=3D"tel:805-426-5216" value=3D"+18054265216" target=3D"_blank">805-426-521=
+6</a></font></td><td><b><img src=3D""></b></td></tr></tbody></table> 		 	  =
+ 		  </font></div>
+
+</div>
+</blockquote></div><br>
+
+--90e6ba1efd32218ffc04aa174a45--

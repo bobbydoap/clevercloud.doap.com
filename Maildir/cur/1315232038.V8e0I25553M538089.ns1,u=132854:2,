@@ -1,0 +1,38 @@
+Return-Path: <wwwrun@doap.com>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: by ns1 (Postfix, from userid 30)
+	id 6D7088883F; Mon,  5 Sep 2011 07:13:58 -0700 (PDT)
+To: bobby@doap.com
+Subject: [doap.com] Comment: "Fix the menu! "
+X-PHP-Originating-Script: 33:class-phpmailer.php
+Date: Mon, 5 Sep 2011 14:13:58 +0000
+From: dmenache <wordpress@i.doap.com>
+Message-ID: <2f086ad8b23fc49e59b092e8c5c0b69e@i.doap.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+Reply-To: "dave@doap.com" <dave@doap.com>
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+
+New comment on your post "Fix the menu! "
+Author : dmenache (IP: 190.181.160.174 , WiMax160-174.yota.com.ni)
+E-mail : dave@doap.com
+URL    : http://doap.com
+Whois  : http://whois.arin.net/rest/ip/190.181.160.174
+Comment: 
+We know z-index range is -100 through 100
+
+We set the canvas z-index to 10 and it shows up underneath the menu and above the container page and other elements.  Our job is to find the CSS id's for the elements currently hidden and set their z-index to something higher than 10.
+
+When you find the page id's, let me know here!
+Suerte!
+
+You can see all comments on this post here: 
+http://i.doap.com/2011/09/fix-the-menu/#comments
+
+Permalink: http://i.doap.com/2011/09/fix-the-menu/#comment-12
+Trash it: http://i.doap.com/wp-admin/comment.php?action=trash&c=12
+Spam it: http://i.doap.com/wp-admin/comment.php?action=spam&c=12
+

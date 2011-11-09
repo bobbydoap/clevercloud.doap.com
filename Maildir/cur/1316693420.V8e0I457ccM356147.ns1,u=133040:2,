@@ -1,0 +1,545 @@
+Return-Path: <tech+bncCOKrwsOaDRCry-zzBBoEvtm4NA@thehvac.net>
+X-Original-To: bobby@doap.com
+Delivered-To: bobby@doap.com
+Received: from mail-qy0-f200.google.com (mail-qy0-f200.google.com [209.85.216.200])
+	by ns1 (Postfix) with ESMTP id B17B088864;
+	Thu, 22 Sep 2011 05:10:19 -0700 (PDT)
+Received: by qyk31 with SMTP id 31sf3853381qyk.7
+        for <multiple recipients>; Thu, 22 Sep 2011 05:10:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:precedence:message-id
+         :date:subject:from:to:x-original-sender
+         :x-original-authentication-results:mailing-list:list-id
+         :x-google-group-id:list-help:content-type;
+        bh=MrOlYMjVyt2SwYiLO1cfUGB72aGwmAfnT24jdIVacf0=;
+        b=NjoOAg6EPaLgln78hNOqBpAGeWlOhG99FVIbZW/cJOXrSGnyTce9vEC7cKPOkJZ/U6
+         7vrhFk197TzpQZfMf2AQ==
+Received: by 10.101.51.14 with SMTP id d14mr1709280ank.29.1316693419363;
+        Thu, 22 Sep 2011 05:10:19 -0700 (PDT)
+X-BeenThere: tech@thehvac.net
+Received: by 10.91.212.19 with SMTP id o19ls6086885agq.6.gmail; Thu, 22 Sep
+ 2011 05:10:18 -0700 (PDT)
+Received: by 10.236.181.137 with SMTP id l9mr12767321yhm.56.1316693418868;
+        Thu, 22 Sep 2011 05:10:18 -0700 (PDT)
+Received: by 10.236.181.137 with SMTP id l9mr12767311yhm.56.1316693418824;
+        Thu, 22 Sep 2011 05:10:18 -0700 (PDT)
+Received: from mail-qy0-f199.google.com (mail-qy0-f199.google.com [209.85.216.199])
+        by mx.google.com with ESMTPS id o25si2815476yhk.35.2011.09.22.05.10.18
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 22 Sep 2011 05:10:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3pCV7ThEKBFUABE1C8L+2110CEBKL3BB381.zB9q1z4G414Ixz.A1G@feedburner.bounces.google.com designates 209.85.216.199 as permitted sender) client-ip=209.85.216.199;
+Received: by qyk34 with SMTP id 34so3785574qyk.10
+        for <Tech@thehvac.net>; Thu, 22 Sep 2011 05:10:18 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.196.65 with SMTP id ef1mt1503133icb.32.1316693412291; Thu,
+ 22 Sep 2011 05:10:12 -0700 (PDT)
+Sender: noreply+feedproxy@google.com
+Precedence: list
+Message-ID: <20cf303bffac1e297b04ad8693e2@google.com>
+Date: Thu, 22 Sep 2011 12:10:18 +0000
+Subject: The Latest from Amazon Web Services Blog
+From: Amazon Web Services Blog <awseditor@amazon.com>
+To: Tech@thehvac.net
+X-Original-Sender: noreply@google.com
+X-Original-Authentication-Results: mx.google.com; spf=pass (google.com: domain
+ of 3pCV7ThEKBFUABE1C8L+2110CEBKL3BB381.zB9q1z4G414Ixz.A1G@feedburner.bounces.google.com
+ designates 209.85.216.199 as permitted sender) smtp.mail=3pCV7ThEKBFUABE1C8L+2110CEBKL3BB381.zB9q1z4G414Ixz.A1G@feedburner.bounces.google.com;
+ dkim=pass header.i=@google.com
+Mailing-list: list tech@thehvac.net; contact tech+owners@thehvac.net
+List-ID: <tech.thehvac.net>
+X-Google-Group-Id: 815980460487
+List-Help: <http://www.google.com/support/a/thehvac.net/bin/static.py?hl=en_US&page=groups.cs>,
+ <mailto:tech+help@thehvac.net>
+Content-Type: multipart/alternative; boundary=20cf303bffac7ac01904ad8693ca
+
+--20cf303bffac7ac01904ad8693ca
+Content-Type: text/plain; charset=UTF-8; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+QW1hem9uIFdlYiBTZXJ2aWNlcyBCbG9nDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8NCk5ldyBXaGl0ZXBhcGVyOiBBbWF6b24ncyBDb3Jwb3JhdGUgSVQgRGVw
+bG95cyBDb3Jwb3JhdGUgSW50cmFuZXQgUnVubmluZyAgDQpTaGFyZVBvaW50IDIwMTAgb24gQVdT
+DQoNClBvc3RlZDogMjEgU2VwIDIwMTEgMDg6MDcgUE0gUERUDQpodHRwOi8vZmVlZHByb3h5Lmdv
+b2dsZS5jb20vfnIvQW1hem9uV2ViU2VydmljZXNCbG9nL34zL2VKMGVVRHFuVnZRL2FtYXpvbi1j
+b3Jwb3JhdGUtaXQtbWlncmF0aW9uLXRvLWF3cy1uZXctd2hpdGUtcGFwZXIuaHRtbD91dG1fc291
+cmNlPWZlZWRidXJuZXImdXRtX21lZGl1bT1lbWFpbA0KDQoNCldpdGhpbiBBbWF6b24sIHdlIG9m
+dGVuIHVzZSB0aGUgcGhyYXNlICJkcmlua2luZyBvdXIgb3duIGNoYW1wYWduZSIgdG8gIA0KZGVz
+Y3JpYmUgb3VyIHByYWN0aWNlIG9mIHVzaW5nIG91ciBvd24gcHJvZHVjdHMgYW5kIHNlcnZpY2Vz
+IHRvIHByb3ZlIHRoZW0gIA0Kb3V0IHVuZGVyIGFjdHVhbCB3b3JraW5nIGNvbmRpdGlvbnMuIFdl
+IGJ1aWxkIHByb2R1Y3RzIHRoYXQgd2UgY2FuIHVzZSAgDQpvdXJzZWx2ZXMuIFdlIGJlbGlldmUg
+aW4gdGhlbS4NCg0KQW1hem9ucyBDb3Jwb3JhdGUgSVQgcmVjZW50bHkgd3JhcHBlZCB1cCBhbiBp
+bXBvcnRhbnQgcHJvamVjdCBhbmQgdGhleSBoYXZlICANCmp1c3QgZG9jdW1lbnRlZCB0aGUgZW50
+aXJlIHByb2plY3QgaW4gYSBuZXcgdGVjaG5pY2FsIHdoaXRlcGFwZXIuDQoNCkRvd25sb2FkIHdo
+aXRlcGFwZXIgKFBERikNCg0KQW1hem9ucyBDb3Jwb3JhdGUgSVQgdGVhbSBkZXBsb3llZCBpdHMg
+Y29ycG9yYXRlIGludHJhbmV0IHRvIEFtYXpvbiBFQzIgIA0KaW5zdGFuY2VzIHJ1bm5pbmcgTWlj
+cm9zb2Z0IFNoYXJlUG9pbnQgMjAxMCBhbmQgU1FMIFNlcnZlciAyMDA4LCBhbGwgd2l0aGluICAN
+CmEgVmlydHVhbCBQcml2YXRlIENsb3VkIChBbWF6b24gVlBDKS4gVGhpcyBpcyBhIG1pc3Npb24t
+Y3JpdGljYWwgaW50ZXJuYWwgIA0KY29ycG9yYXRlIGFwcGxpY2F0aW9uIHRoYXQgbXVzdCBkZWFs
+IHdpdGggYSBsYXJnZSBhbW91bnQgb2YgdmVyeSBzZW5zaXRpdmUgIA0KZGF0YS4NCg0KVGhlIHdo
+aXRlcGFwZXIgZGVzY3JpYmVzIHRoZSBlbnRpcmUgZGVwbG95bWVudCBwcm9jZXNzIGluIHN0ZXAg
+Ynkgc3RlcCAgDQpmYXNoaW9uOiBpbml0aWFsIHJlcXVpcmVtZW50cyBhbmFseXNpcywgc2VjdXJp
+dHkgcmV2aWV3LCBkZXBsb3ltZW50IHN1Y2Nlc3MgIA0KY3JpdGVyaWEsIHByb29mIG9mIGNvbmNl
+cHQsIGFwcGxpY2F0aW9uIGFyY2hpdGVjdHVyZSwgY29uZmlndXJhdGlvbiBvZiAgDQpTaGFyZVBv
+aW50IDIwMTAgYW5kIFNRTCBTZXJ2ZXIsIGFuZCBmaW5hbCBwcm9kdWN0aW9uIGRlcGxveW1lbnQu
+DQoNClRoZXJlIGFyZSBhIG51bWJlciBvZiByZWFzb25zIHdoeSBJIGFtIHNvIGV4Y2l0ZWQgYWJv
+dXQgdGhpcyBwcm9qZWN0Og0KDQpEdXJpbmcgdGhlIGRlcGxveW1lbnQgcHJvY2VzcyBvdXIgQ29y
+cG9yYXRlIElUIHRlYW0gdHJlYXRlZCBBV1MgYXMgdGhleSAgDQp3b3VsZCB0cmVhdCBhbnkgb3Ro
+ZXIgdmVuZG9yLiBUaGV5IGxldmVyYWdlZCB0aGUgc2FtZSBwcm9kdWN0cyB0aGF0IG91ciAgDQpv
+dGhlciBjdXN0b21lcnMgdXNlLiBUaGV5IHBhaWQgZm9yIHRoZSBBV1MgUHJlbWl1bSBTdXBwb3J0
+IHNlcnZpY2UgYW5kICANCnJlY2VpdmVkIHByZS1pbXBsZW1lbnRhdGlvbiBhZHZpY2UgZnJvbSBv
+dXIgQVdTIFNvbHV0aW9uIEFyY2hpdGVjdHMgdGhlICANCnNhbWUgd2F5IHdlIGdpdmUgdG8gb3Ro
+ZXIgZW50ZXJwcmlzZSBjdXN0b21lcnMuIFRoZXkgY29uZHVjdGVkIGEgdGhvcm91Z2ggIA0Kc2Vj
+dXJpdHkgcmV2aWV3IGFuZCBkZWNpZGVkIHRvIGVuY3J5cHQgYWxsIGRhdGEgYXQgcmVzdCBhbmQg
+aW4gZmxpZ2h0LlRoZXkgIA0KdXNlZCBFQlMgc25hcHNob3RzIHRvIHJlZHVjZSB0aGUgcmlzayBv
+ZiBsb3NpbmcgZGF0YSwgYW5kIGFsc28gaW1wbGVtZW50ZWQgIA0KYSBmYWlsb3ZlciBtZWNoYW5p
+c20gdGhhdCBjYW4gYXR0YWNoIGFuIGV4aXN0aW5nIEVCUyB2b2x1bWUgdG8gYSBmcmVzaCBFQzIg
+IA0KaW5zdGFuY2Ugd2hlbiBuZWNlc3NhcnkuDQpUaGlzIHByb2plY3QgaW52b2x2ZWQgY29tbWVy
+Y2lhbCBzb2Z0d2FyZSBsaWNlbnNlcyBhbmQgZGVtb25zdHJhdGVzIHRoYXQgIA0KdGhlIGZsZXhp
+YmlsaXR5IG9mIEFXUyBhbGxvd3Mgb3VyIGN1c3RvbWVycyB0byBydW4gY29tbWVyY2lhbCAgDQpl
+bnRlcnByaXNlLWdyYWRlIHNvZnR3YXJlIChsaWtlIE1pY3Jvc29mdCBTaGFyZVBvaW50IGFuZCBT
+UUwgU2VydmVyICANCkVudGVycHJpc2UpIGluIHRoZSBjbG91ZC4gVGhlIHdoaXRlcGFwZXIgbm90
+IG9ubHkgZGlzY3Vzc2VzIHRoZSB0ZWNobmljYWwgIA0KYXJjaGl0ZWN0dXJlIGFuZCBpbXBsZW1l
+bnRhdGlvbiBkZXRhaWxzIGJ1dCBhbHNvIGhvdyB5b3UgY2FuIGxldmVyYWdlIGtleSAgDQpzZWN1
+cml0eSBmZWF0dXJlcyAobGlrZSBXaW5kb3dzIERQQVBJIGZvciBLZXkgbWFuYWdlbWVudCkgdG8g
+ZnVydGhlciAgDQplbmhhbmNlIHRoZSBzZWN1cml0eSBhbmQgcmVsaWFiaWxpdHkgb2YgeW91ciBh
+cHBsaWNhdGlvbnMuIFRvZGF5LCB3aXRoICANCk1pY3Jvc29mdCBMaWNlbnNlIE1vYmlsaXR5IHdp
+dGggU29mdHdhcmUgQXNzdXJhbmNlLCB5b3UgY2FuIGJyaW5nIHlvdXIgIA0KZXhpc3RpbmcgbGlj
+ZW5zZXMgb2Ygc2V2ZXJhbCBNaWNyb3NvZnQgV2luZG93cyBzZXJ2ZXIgYXBwbGljYXRpb25zIHRv
+IHRoZSAgDQpjbG91ZC4NClJlYWwgYmVuZWZpdHMgZW1lcmdlZDoNCg0KDQpJbmZyYXN0cnVjdHVy
+ZSBwcm9jdXJlbWVudCB0aW1lIHdhcyByZWR1Y2VkIGZyb20gb3ZlciBmb3VyIHRvIHNpeCB3ZWVr
+cyB0byAgDQptaW51dGVzLg0KU2VydmVyIGltYWdlIGJ1aWxkIHByb2Nlc3MgdGhhdCBoYWQgcHJl
+dmlvdXNseSB0YWtlbiBhIGhhbGYgZGF5IGlzIG5vdyAgDQphdXRvbWF0ZWQuDQpBbm51YWwgaW5m
+cmFzdHJ1Y3R1cmUgY29zdHMgd2VyZSBjdXQgYnkgMjIgcGVyY2VudCB3aGVuIG9uLXByZW1pc2Ug
+aGFyZHdhcmUgIA0Kd2FzIHJlcGxhY2VkIHdpdGggZXF1aXZhbGVudCBjbG91ZCByZXNvdXJjZXMu
+DQpPcGVyYXRpb25hbCBvdmVyaGVhZCBvZiBzZXJ2ZXIgbGVhc2UgcmV0dXJucyB3ZXJlIGVsaW1p
+bmF0ZWQsIGZyZWVpbmcgdXAgIA0KYXBwcm94aW1hdGVseSAyIHdlZWtzIG9mIGVuZ2luZWVyaW5n
+IG92ZXJoZWFkIHBlciB5ZWFyIGJ5IHJlcGxhY2luZyBzZXJ2ZXJzICANCndpdGggZXF1aXZhbGVu
+dCBjbG91ZCByZXNvdXJjZXMuDQoNCg0KDQoNClRvZGF5LCB5b3UgY2FuIHJ1biBlbnRlcnByaXNl
+IHNvZnR3YXJlIGZyb21NaWNyb3NvZnQsIE9yYWNsZSwgU0FQLCBJQk0gYW5kICANCnNldmVyYWwg
+b3RoZXIgdmVuZG9ycyBpbiB0aGUgQVdTIENsb3VkLiBJZiB5b3UgYXJlIGFuIElTViBhbmQgeW91
+ZCBsaWtlIHRvICANCm1vdmUgeW91ciBwcm9kdWN0cyB0byB0aGUgY2xvdWQsIHdlcmUgcmVhZHkg
+dG8gaGVscC4gVGhlIEFXUyBJU1YgcHJvZ3JhbSAgDQpvZmZlcnMgYSB3aWRlIHZhcmlldHkgb2Yg
+c2FsZXMsIHRlY2huaWNhbCwgbWFya2V0aW5nLCBQUiwgYW5kIGFsbGlhbmNlICANCmJlbmVmaXRz
+IHRvIHF1YWxpZmllZCBJU1ZzIGFuZCBzb2x1dGlvbiBwcm92aWRlcnMuDQoNClRoZSBwYXBlciBp
+cyBhIGdyZWF0IGV4YW1wbGUgb2YgaG93IGEgY29tcGxleCBtaXNzaW9uLWNyaXRpY2FsIGFwcGxp
+Y2F0aW9uICANCmNhbiBiZSBkZXBsb3llZCB0byB0aGUgY2xvdWQgaW4gYSB3YXkgdGhhdCBtYWtl
+cyBpdCBtb3JlIHJlbGlhYmxlLCBtb3JlICANCmZsZXhpYmxlLCBhbmQgbGVzcyBleHBlbnNpdmUg
+dG8gb3BlcmF0ZS4gUmVhZCBpdCBub3cgYW5kIGxldCBtZSBrbm93IHdoYXQgIA0KeW91IHRoaW5r
+Lg0KDQotLSBKaW5lc2gNCg0KDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8NClNjaWVudGlmaWMgQ29tcHV0aW5nIHdpdGggRUMyIFNwb3QgSW5zdGFuY2VzDQoN
+ClBvc3RlZDogMjEgU2VwIDIwMTEgMDM6MzMgUE0gUERUDQpodHRwOi8vZmVlZHByb3h5Lmdvb2ds
+ZS5jb20vfnIvQW1hem9uV2ViU2VydmljZXNCbG9nL34zL0NSQkRhdWt1RlM0L3NjaWVudGlmaWMt
+Y29tcHV0aW5nLXdpdGgtZWMyLXNwb3QtaW5zdGFuY2VzLmh0bWw/dXRtX3NvdXJjZT1mZWVkYnVy
+bmVyJnV0bV9tZWRpdW09ZW1haWwNCg0KDQoNCg0KDQpEbyB5b3UgdXNlIEVDMiBTcG90IEluc3Rh
+bmNlcyBpbiB5b3VyIGFwcGxpY2F0aW9uPyBEbyB5b3UgdW5kZXJzdGFuZCBob3cgIA0KdGhleSB3
+b3JrIGFuZCBob3cgdGhleSBjYW4gc2F2ZSB5b3UgYSBsb3Qgb2YgbW9uZXk/IElmIHlvdSBhbnN3
+ZXJlZCBubyB0byAgDQphbnkgb2YgdGhlc2UgcXVlc3Rpb25zLCB0aGVuIHlvdSBhcmUgYmVoaW5k
+IHRoZSB0aW1lcyBhbmQgeW91IG5lZWQgdG8gY2F0Y2ggIA0KdXAuDQoNCkknbSBkZWFkLXNlcmlv
+dXMuDQoNClRoZSBzY2llbnRpZmljIGNvbW11bml0eSB3YXMgcXVpY2sgdG8gcmVjb2duaXplIHRo
+YXQgdGhlaXIgIA0KY29tcHV0ZS1pbnRlbnNpdmUsIGJhdGNoIHdvcmtsb2FkcyAob2Z0ZW4ga25v
+d24gYXMgSFBDIG9yIEJpZyBEYXRhKSB3ZXJlIGEgIA0KcGVyZmVjdCBmaXQgZm9yIEVDMiBTcG90
+IEluc3RhbmNlcy4gVGhlc2UgQVdTIGN1c3RvbWVycyBoYXZlIHNlZW4gY29zdCAgDQpzYXZpbmdz
+IG9mIDUwJSB0byA2NiUgd2hlbiBjb21wYXJlZCB0byBydW5uaW5nIHRoZSBzYW1lIGpvYiB1c2lu
+ZyBPbi1EZW1hbmQgIA0KaW5zdGFuY2VzLiBUaGV5IGFyZSBhYmxlIHRvIG1ha2UgdGhlIGJlc3Qg
+cG9zc2libGUgdXNlIG9mIHRoZWlyIHJlc2VhcmNoICANCmZ1bmRzLiBNb3Jlb3ZlciwgdGhleSBj
+YW4gc2V0IHRoZSBTcG90IHByaWNlIHRvIHJlZmxlY3QgdGhlIHByaW9yaXR5IG9mIHRoZSAgDQp3
+b3JrLCBiaWRkaW5nIGhpZ2hlciBpbiBvcmRlciB0byBpbmNyZWFzZSB0aGVpciBhY2Nlc3MgdG8g
+Y3ljbGVzLg0KDQpPdXIgZnJpZW5kcyBvdmVyIGF0IEN5Y2xlIENvbXB1dGluZyBoYXZlIHVzZWQg
+U3BvdCBJbnN0YW5jZXMgdG8gY3JlYXRlIGEgIA0KMzAsMDAwIGNvcmUgY2x1c3RlciB0aGF0IHNw
+YW5zIDMgQVdTIFJlZ2lvbnMuIFRoZXkgd2VyZSBhYmxlIHRvIHJ1biB0aGlzICANCmNsdXN0ZXIg
+Zm9yIG5pbmUgaG91cnMgYXQgYSBjb3N0IG9mICQxMjc5IHBlciBob3VyIChhIDU3JSBzYXZpbmdz
+IHZzLiAgDQpPbi1EZW1hbmQpLiBUaGUgbW9sZWN1bGFyIG1vZGVsaW5nIGpvYiBydW5uaW5nIG9u
+IHRoZSBjbHVzdGVyIGNvbnN1bWVkIDEwLjkgIA0KY29tcHV0ZSB5ZWFycyBhbmQgaGFkIGFjY2Vz
+cyB0byBvdmVyIDMwIFRCIG9mIFJBTS4NCg0KSGFydmFyZOKAmXMgTGFib3JhdG9yeSBmb3IgUGVy
+c29uYWxpemVkIE1lZGljaW5lIChMUE0pIHVzZXMgQW1hem9uIEVDMiBTcG90ICANCkluc3RhbmNl
+cyB0byBydW4gZ2VuZXRpYyB0ZXN0aW5nIG1vZGVscyBhbmQgc2ltdWxhdGlvbnMsIGFuZCBzdHJl
+dGNoIHRoZWlyICANCmdyYW50IG1vbmV5IGV2ZW4gZnVydGhlci4gT25lIGRheSBvZiBlbmdpbmVl
+cmluZyBhbGxvd2VkIHRoZW0gdG8gc2F2ZSAgDQpyb3VnaGx5IDUwJSBvbiB0aGVpciBpbnN0YW5j
+ZSBjb3N0cyBtb3ZpbmcgZm9yd2FyZC4NCg0KQmFzZWQgb24gdGhlIG51bWJlciBvZiBzdWNjZXNz
+IHN0b3JpZXMgdGhhdCB3ZSBoYXZlIHNlZW4gaW4gdGhlIHNjaWVudGlmaWMgIA0KYXJlbmEsIHdl
+IGhhdmUgY3JlYXRlZCBhIGJyYW5kIG5ldyAoYW5kIHZlcnkgY29tcHJlaGVuc2l2ZSkgcmVzb3Vy
+Y2UgcGFnZSAgDQpkZWRpY2F0ZWQgZm9yIHNjaWVudGlmaWMgcmVzZWFyY2hlcnMgdXNpbmcgU3Bv
+dCBJbnN0YW5jZXMuIFdlJ3ZlIGNvbGxlY3RlZCAgDQphIG51bWJlciBvZiBzY2llbnRpZmljIHN1
+Y2Nlc3Mgc3RvcmllcywgdmlkZW9zLCBhbmQgb3RoZXIgcmVzb3VyY2VzLiBPdXIgIA0KbmV3IFNj
+aWVudGlmaWMgQ29tcHV0aW5nIFVzaW5nIFNwb3QgSW5zdGFuY2VzIHBhZ2UgaGFzIGFsbCBzb3J0
+cyBvZiBnb29kaWVzICANCmZvciB5b3UuDQoNCkFtb25nIG1hbnkgbmV3IGFuZCB1bmlxdWUgdGhp
+bmdzIHlvdSB3aWxsIGZpbmQ6DQoNCkEgY2FzZSBzdHVkeSBmcm9tIEhhcnZhcmQgTWVkaWNhbCBT
+Y2hvb2wuIFRoZXkgcnVuIHBhdGllbnQgKHZpcnR1YWwgYXZhdGFyKSAgDQpzaW11bGF0aW9ucyBv
+biBFQzIuIEFmdGVyIG9uZSBkYXkncyB3b3J0aCBvZiBlbmdpbmVlcmluZyBlZmZvcnQsIHRoZXkg
+bm93ICANCnJ1biB0aGVpciBzaW11bGF0aW9ucyBvbiBTcG90IEluc3RhbmNlcyBhbmQgaGF2ZSBy
+ZWFsaXplZCBhIGNvc3Qgc2F2aW5ncyBvZiAgDQpvdmVyIDUwJS4gU29tZSBvZiB0aGUgd29yayBk
+ZXNjcmliZWQgaW4gdGhpcyBjYXNlIHN0dWR5IGlzIGRldGFpbGVkIGluIGEgIA0KbmV3IHBhcGVy
+LCBCaW9tZWRpY2FsIENsb3VkIENvbXB1dGluZyBXaXRoIEFtYXpvbiBXZWIgU2VydmljZXMuDQpB
+IHZpZGVvIHR1dG9yaWFsIHRoYXQgd2lsbCBzaG93IHlvdSBob3cgdG8gdXNlIHRoZSBuZXdlc3Qg
+dmVyc2lvbiBvZiBNSVQncyAgDQpTdGFyQ2x1c3RlciB0byBsYXVuY2ggYW4gZW50aXJlIGNsdXN0
+ZXIgb2YgU3BvdCBJbnN0YW5jZXMgaW4gbWludXRlcy4gVGhpcyAgDQp2aWRlbyB3YXMgcHJvZHVj
+ZWQgYnkgb3VyIGZyaWVuZHMgYXQgQmlvVGVhbS4NCkEgdmlkZW8gdHV0b3JpYWwgdGhhdCB3aWxs
+IHNob3cgeW91IGhvdyB0byBsYXVuY2ggeW91ciBFbGFzdGljIE1hcFJlZHVjZSAgDQpqb2JzIGZs
+b3dzIG9uIFNwb3QgSW5zdGFuY2VzLg0KRGV0YWlsZWQgdGVjaG5pY2FsIGFuZCBidXNpbmVzcyBp
+bmZvcm1hdGlvbiBhYm91dCB0aGUgdXNlIG9mIFNwb3QgSW5zdGFuY2VzICANCmZvciBzY2llbnRp
+ZmljIGFwcGxpY2F0aW9ucyBpbmNsdWRpbmcgYSBndWlkZSB0byBnZXR0aW5nIHN0YXJ0ZWQgYW5k
+ICANCmluZm9ybWF0aW9uIG9uIG1pZ3JhdGluZyB5b3VyIGFwcGxpY2F0aW9ucy4NCkNvbW1vbiBh
+cmNoaXRlY3R1cmVzIChNYXBSZWR1Y2UsIEdyaWQsIFF1ZXVlLCBhbmQgQ2hlY2twb2ludCkgYW5k
+IGJlc3QgIA0KcHJhY3RpY2VzLg0KQWRkaXRpb25hbCBjYXNlIHN0dWRpZXMgZnJvbSBETkFuZXh1
+cywgTnVtZXJhdGUsIFVuaXZlcnNpdHkgb2YgIA0KTWVsYm91cm5lL1VuaXZlcnNpdHkgb2YgQmFy
+Y2Vsb25hLCBCaW9UZWFtLCBDeWNsZUNvbXB1dGluZywgYW5kICANCkVhZ2xlR2Vub21pY3MuDQpB
+IGxpc3Qgb2YgZ3JlYXQgU29sdXRpb24gUHJvdmlkZXJzIHdobyBjYW4gaGVscCB5b3UgZ2V0IHN0
+YXJ0ZWQgaWYgeW91IG5lZWQgIA0KYSBsaXR0bGUgZXh0cmEgYXNzaXN0YW5jZSBtaWdyYXRpbmcg
+dG8gU3BvdCBJbnN0YW5jZXMuDQpEb2N1bWVudGF0aW9uIGFuZCB0dXRvcmlhbHMuDQpMaW5rcyB0
+byBhIG51bWJlciBvZiByZXNlYXJjaCBwYXBlcnMgb24gdGhlIHVzZSBvZiBTcG90IEluc3RhbmNl
+cy4NCk90aGVyIHJlc291cmNlcyBsaWtlIG91ciBQdWJsaWMgRGF0YSBTZXRzIG9uIEFXUyBhbmQg
+QVdTIEFjYWRlbWljIHByb2dyYW1zLg0KDQoNClNwb3QgSW5zdGFuY2VzIHdvcmsgZ3JlYXQgZm9y
+IHNjaWVudGlmaWMgUmVzZWFyY2gsIGJ1dCB0aGVyZSBhcmUgYSBodWdlICANCm51bWJlciBvZiBv
+dGhlciBjdXN0b21lcnMgb3V0IHRoZXJlIHRoYXQgYWxzbyBsb3ZlIFNwb3QuIEFzIGFuIGV4YW1w
+bGUgU3BvdCAgDQp3b3JrcyByZWFsbHkgd2VsbCBmb3IgbG9hZHMgb2Ygb3RoZXIgdXNlIGNhc2Vz
+IGxpa2UgYW5hbHl0aWNzLCBiaWcgZGF0YSwgIA0KZmluYW5jaWFsIG1vZGVsaW5nLCBnZW9zcGF0
+aWFsIGFuYWx5c2lzLCBpbWFnZSBhbmQgbWVkaWEgZW5jb2RpbmcsIHRlc3RpbmcsICANCmFuZCB3
+ZWIgY3Jhd2xpbmcuIENoZWNrIG91dCB0aGlzIGJyYW5kIG5ldyB2aWRlbyBmb3IgbW9yZSBpbmZv
+cm1hdGlvbiBvbiAgDQpjb21tb24gdXNlIGNhc2VzIGFuZCBleGFtcGxlIGN1c3RvbWVycyB3aG8g
+bGV2ZXJhZ2UgdGhlbS4NCg0KQWdhaW4sIGlmIHlvdSBkb24ndCBncmFzcCB0aGUgdmFsdWUgb2Yg
+U3BvdCBJbnN0YW5jZXMsIHlvdSBhcmUgYmVoaW5kIHRoZSAgDQp0aW1lcy4gQ2hlY2sgb3V0IG91
+ciBuZXcgcGFnZSBhbmQgYnJpbmcgeW91cnNlbGYgdXAgdG8gZGF0ZSB0b2RheS4NCg0KSWYgeW91
+IGhhdmUgYSBzY2llbnRpZmljIGNvbXB1dGluZyBzdWNjZXNzIHN0b3J5IG9mIHlvdXIgb3duICh3
+aXRoIG9yICANCndpdGhvdXQgU3BvdCkgb3IgaGF2ZSBmZWVkYmFjayBvbiBob3cgdG8gbWFrZSBT
+cG90IGV2ZW4gYmV0dGVyLCB3ZSdkIGxvdmUgIA0KdG8gaGVhciBtb3JlIGFib3V0IGl0LiBQbGVh
+c2UgZmVlbCBmcmVlIHRvIHBvc3QgYSBjb21tZW50IHRvIHRoZSBibG9nIG9yIHRvICANCmVtYWls
+IGl0IHRvIHVzIGF0IHNwb3QtaW5zdGFuY2UtZmVlZGJhY2tAYW1hem9uLmNvbS4NCg0KRmluYWxs
+eSwgaWYgeW91IGFyZSBleGNpdGVkIGFib3V0IFNwb3QgYW5kIHdhbnQgdG8gam9pbiBvdXIgdGVh
+bSwgcGxlYXNlICANCmNvbnRhY3QgS2VsbHkgT+KAmU1hcmEgYXQga29tYXJhQGFtYXpvbi5jb20g
+dG8gbGVhcm4gbW9yZSBhYm91dCB0aGUgdGVhbSBhbmQgIA0Kb3VyIG9wZW4gcG9zaXRpb25zLg0K
+DQotLSBKZWZmOw0KDQoNCg0KDQoNCi0tDQpZb3UgYXJlIHN1YnNjcmliZWQgdG8gZW1haWwgdXBk
+YXRlcyBmcm9tICJBbWF6b24gV2ViIFNlcnZpY2VzIEJsb2cuIg0KVG8gc3RvcCByZWNlaXZpbmcg
+dGhlc2UgZW1haWxzLCB5b3UgbWF5IHVuc3Vic2NyaWJlIG5vdzogIA0KaHR0cDovL2ZlZWRidXJu
+ZXIuZ29vZ2xlLmNvbS9mYi9hL21haWx1bnN1YnNjcmliZT9rPVdZbHFzSGdGbWo0QWFNeENJbzRE
+cHFHSmxfWQ0KDQpFbWFpbCBkZWxpdmVyeSBwb3dlcmVkIGJ5IEdvb2dsZS4NCkdvb2dsZSBJbmMu
+LCAyMCBXZXN0IEtpbnppZSwgQ2hpY2FnbyBJTCBVU0EgNjA2MTANCg0K
+--20cf303bffac7ac01904ad8693ca
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<title>Amazon Web Services Blog</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#000099;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-height:140%;fon=
+t-size:13px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://aws.typepad.co=
+m/aws/" title=3D"(http://aws.typepad.com/aws/)">The Latest from Amazon Web =
+Services Blog</a>
+<br />
+<a href=3D"http://fusion.google.com/add?source=3Datgs&amp;feedurl=3Dhttp://=
+feeds.feedburner.com/AmazonWebServicesBlog">
+<img style=3D"padding-top:6px" alt=3D"" border=3D"0" src=3D"http://gmodules=
+.com/ig/images/plus_google.gif" />
+</a>
+</h1>
+</td>
+<td width=3D"1%" />
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0" />
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/eJ0eU=
+DqnVvQ/amazon-corporate-it-migration-to-aws-new-white-paper.html?utm_source=
+=3Dfeedburner&utm_medium=3Demail">New Whitepaper: Amazon's Corporate IT Dep=
+loys Corporate Intranet Running SharePoint 2010 on AWS</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 21 Sep 2011 08:07 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p><a href=3D"https://bit.ly/aws=
+-sharepoint" style=3D"float: right;" target=3D"_self"><img alt=3D"Amazonsha=
+repoint" class=3D"asset  asset-image at-xid-6a00d8341c534853ef01543593d2a49=
+70c" src=3D"http://aws.typepad.com/.a/6a00d8341c534853ef01543593d2a4970c-40=
+0wi" style=3D"width: 400px; margin: 0px 0px 5px 5px; border: 1px solid #000=
+000;" title=3D"Amazonsharepoint" /></a>Within Amazon, we often use the phra=
+se <em>&quot;drinking our own champagne</em>&quot; to describe our practice=
+ of using our own products and services to prove them out under actual work=
+ing conditions. We build products that we can use ourselves. We believe in =
+them.</p>
+<p>Amazon&#39;s Corporate IT recently wrapped up an important project and t=
+hey have just documented the entire project in <a href=3D"http://bit.ly/aws=
+-sharepoint" target=3D"_self">a new technical whitepaper.</a></p>
+<p><a href=3D"https://bit.ly/aws-sharepoint" target=3D"_self"><strong>Downl=
+oad whitepaper (PDF)</strong></a></p>
+<p>Amazon&#39;s Corporate IT team deployed its corporate intranet to Amazon=
+ EC2 instances running Microsoft SharePoint 2010 and SQL Server 2008, all w=
+ithin a <a href=3D"http://aws.amazon.com/vpc/" target=3D"_self">Virtual Pri=
+vate Cloud</a> (Amazon VPC). This is a mission-critical internal corporate =
+application that must deal with a large amount of very sensitive data.</p>
+<p>The whitepaper describes the entire deployment process in step by step f=
+ashion: initial requirements analysis, security review, deployment success =
+criteria, proof of concept, application architecture, configuration of Shar=
+ePoint 2010 and SQL Server, and final production deployment.</p>
+<p>There are a number of reasons why I am so excited about this project:</p=
+>
+<ol>
+<li>During the deployment process our Corporate IT team treated AWS as they=
+ would treat any other vendor. They leveraged the same products that our ot=
+her customers use. They paid for the <a href=3D"http://aws.amazon.com/premi=
+umsupport/" target=3D"_self">AWS Premium Support</a> service and received p=
+re-implementation advice from our AWS Solution Architects the same way we g=
+ive to other enterprise customers. They conducted a thorough security revie=
+w and decided to encrypt all data at rest and in flight.They used EBS snaps=
+hots to reduce the risk of losing data, and also implemented a failover mec=
+hanism that can attach an existing EBS volume to a fresh EC2 instance when =
+necessary.</li>
+<li>This project involved commercial software licenses and demonstrates tha=
+t the flexibility of AWS allows our customers to run commercial enterprise-=
+grade software (like Microsoft SharePoint and SQL Server Enterprise) in the=
+ cloud. The whitepaper not only discusses the technical architecture and im=
+plementation details but also how you can leverage key security features (l=
+ike Windows DPAPI for Key management) to further enhance the security and r=
+eliability of your applications. Today, with <a href=3D"http://aws.amazon.c=
+om/windows/mslicensemobility/" target=3D"_self">Microsoft License Mobility =
+with Software Assurance</a>, you can bring your existing licenses of severa=
+l Microsoft Windows server applications to the cloud.&#0160;</li>
+<li>Real benefits emerged:&#0160;<br />=20
+<ul>
+<li>Infrastructure procurement time was reduced from <strong>over four to s=
+ix weeks to minutes</strong>.</li>
+<li>Server image build process that had previously taken a half day is now =
+<strong>automated</strong>.</li>
+<li>Annual infrastructure <strong>costs were cut by 22 percent</strong> whe=
+n on-premise hardware was replaced with equivalent cloud resources.</li>
+<li><strong>Operational overhead</strong> of server lease returns were elim=
+inated, freeing up approximately 2 weeks of engineering overhead per year b=
+y replacing servers with equivalent cloud resources.</li>
+</ul>
+</li>
+</ol>
+<p>Today, you can run enterprise software from&#0160;<a href=3D"http://aws.=
+amazon.com/windows/mslicensemobility/" target=3D"_self">Microsoft</a>, <a h=
+ref=3D"http://aws.amazon.com/solutions/global-solution-providers/oracle/" t=
+arget=3D"_self">Oracle</a>, <a href=3D"http://aws.amazon.com/solutions/glob=
+al-solution-providers/sap/" target=3D"_self">SAP</a>, <a href=3D"http://aws=
+.amazon.com/solutions/global-solution-providers/ibm/" target=3D"_self">IBM =
+</a>and several other vendors in the AWS Cloud. If you are an ISV and you&#=
+39;d like to move your products to the cloud, we&#39;re ready to help. The =
+<a href=3D"http://aws.amazon.com/solutions/solution-providers/program/isv/"=
+ target=3D"_self">AWS ISV program</a> offers a wide variety of sales, techn=
+ical, marketing, PR, and alliance benefits to qualified ISVs and solution p=
+roviders.&#0160;</p>
+<p><a href=3D"http://bit.ly/aws-sharepoint" target=3D"_self">The paper </a>=
+is a great example of how a complex mission-critical application can be dep=
+loyed to the cloud in a way that makes it more reliable, more flexible, and=
+ less expensive to operate. <a href=3D"http://media.amazonwebservices.com/A=
+WS_Amazon_BPM_Migration.pdf" target=3D"_self">Read it now</a> and let me kn=
+ow what you think.</p>
+<p>-- Jinesh</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DeJ0eUD=
+qnVvQ:zt1nhT8qh8E:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DeJ0eUDqnVvQ:zt1nhT=
+8qh8E:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DeJ0eUDqnVvQ:zt1nhT8qh8E:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/e=
+J0eUDqnVvQ?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"2" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:1=
+8px;" href=3D"http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/CRBDa=
+ukuFS4/scientific-computing-with-ec2-spot-instances.html?utm_source=3Dfeedb=
+urner&utm_medium=3Demail">Scientific Computing with EC2 Spot Instances</a>
+</p>
+<p style=3D"font-size:13px;color:#555;margin:9px 0 3px 0;font-family:Georgi=
+a,Helvetica,Arial,Sans-Serif;line-height:140%;font-size:13px;">
+<span>Posted:</span> 21 Sep 2011 03:33 PM PDT</p>
+<div style=3D"margin:0;font-family:Georgia,Helvetica,Arial,Sans-Serif;line-=
+height:140%;font-size:13px;color:#000000;"><p><iframe allowtransparency=3D"=
+true" src=3D"http://www.facebook.com/plugins/like.php?app_id=3D132675016822=
+106&amp;href=3Dhttp%3A%2F%2Faws.typepad.com%2Faws%2F2011%2F09%2Fscientific-=
+computing-with-ec2-spot-instances.html&amp;send=3Dfalse&amp;layout=3Dbutton=
+_count&amp;width=3D450&amp;show_faces=3Dtrue&amp;action=3Dlike&amp;colorsch=
+eme=3Dlight&amp;font=3Darial&amp;height=3D21" style=3D"border: none; overfl=
+ow: hidden; width: 450px; height: 21px;" frameborder=3D"0" scrolling=3D"no"=
+></iframe></p>
+
+<p>Do you use <a href=3D"http://aws.amazon.com/ec2/spot-instances/" target=
+=3D"_self">EC2 Spot Instances</a> in your application? Do you understand ho=
+w they work and how they can save you a lot of money? If you answered no to=
+ any of these questions, then you are behind the times and you need to catc=
+h up.</p>
+<p>I'm dead-serious.</p>
+<p>The scientific community was quick to recognize that their compute-inten=
+sive, batch workloads (often known as HPC or Big Data) were a perfect fit f=
+or EC2 Spot Instances. These AWS customers have seen cost savings of 50% to=
+ 66% when compared to running the same job using On-Demand instances. They =
+are able to make the best possible use of their research funds. Moreover, t=
+hey can set the Spot price to reflect the priority of the work, bidding hig=
+her in order to increase their access to cycles.</p>
+<p>Our friends over at <strong><a href=3D"http://www.cyclecomputing.com/" t=
+arget=3D"_self">Cycle Computing</a></strong> have used Spot Instances to cr=
+eate a <a href=3D"http://blog.cyclecomputing.com/2011/09/new-cyclecloud-clu=
+ster-is-a-triple-threat-30000-cores-massive-spot-instances-grill-chef-monit=
+oring-g.html" target=3D"_self">30,000 core cluster</a> that spans 3 AWS Reg=
+ions. They were able to run this cluster for nine hours at a cost of $1279 =
+per hour (a 57% savings vs. On-Demand). The molecular modeling job running =
+on the cluster consumed 10.9 compute years and had access to over 30 TB of =
+RAM.</p>
+<p><a href=3D"https://aws.amazon.com/solutions/case-studies/harvard/" targe=
+t=3D"_self"><strong>Harvard=E2=80=99s Laboratory for Personalized Medicine<=
+/strong></a> (LPM) uses Amazon EC2 Spot Instances to run genetic testing mo=
+dels and simulations, and stretch their grant money even further. One day o=
+f engineering allowed them to save roughly 50% on their instance costs movi=
+ng forward.</p>
+<p>Based on the number of success stories that we have seen in the scientif=
+ic arena, we have created a brand new (and very comprehensive) resource pag=
+e dedicated for scientific researchers using Spot Instances. We've collecte=
+d a number of scientific success stories, videos, and other resources. Our =
+new <a href=3D"http://aws.amazon.com/ec2/spot-and-science/" target=3D"_self=
+">Scientific Computing Using Spot Instances</a> page has all sorts of goodi=
+es for you.</p>
+<p>Among many new and unique things you will find:</p>
+<ul>
+<li>A <strong><a href=3D"http://aws.amazon.com/solutions/case-studies/harva=
+rd/" target=3D"_self">case study</a></strong> from <a href=3D"http://hms.ha=
+rvard.edu/hms/home.asp" target=3D"_self">Harvard Medical School</a>. They r=
+un patient (virtual avatar) simulations on EC2. After one day's worth of en=
+gineering effort, they now run their simulations on Spot Instances and have=
+ realized a cost savings of over 50%. Some of the work described in this ca=
+se study is detailed in a new paper, <a href=3D"http://www.ploscompbiol.org=
+/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002147" target=3D"_self">Biom=
+edical Cloud Computing With Amazon Web Services</a>.</li>
+<li>A <strong><a href=3D"http://youtu.be/2Ym7epCYnSk" target=3D"_self">vide=
+o tutorial</a></strong> that will show you how to use the newest version of=
+ MIT's StarCluster to launch an entire cluster of Spot Instances in minutes=
+. This video was produced by our friends at BioTeam.</li>
+<li>A <strong><a href=3D"http://www.youtube.com/watch?v=3D66rfnFA0jpM" targ=
+et=3D"_self">video tutorial</a></strong> that will show you how to <a href=
+=3D"http://www.youtube.com/watch?v=3D66rfnFA0jpM" target=3D"_self">launch y=
+our Elastic MapReduce jobs flows on Spot Instances</a>. </li>
+<li>Detailed technical and business information about the use of Spot Insta=
+nces for scientific applications including a guide to getting started and i=
+nformation on migrating your applications.</li>
+<li>Common architectures (MapReduce, Grid, Queue, and Checkpoint) and best =
+practices.</li>
+<li>Additional case studies from DNAnexus, Numerate, University of Melbourn=
+e/University of Barcelona, BioTeam, CycleComputing, and EagleGenomics.</li>
+<li>A list of great Solution Providers who can help you get started if you =
+need a little extra assistance migrating to Spot Instances.</li>
+<li>Documentation and tutorials.</li>
+<li>Links to a number of research papers on the use of Spot Instances. </li=
+>
+<li>Other resources like our Public Data Sets on AWS and AWS Academic progr=
+ams.</li>
+</ul>
+<p>Spot Instances work great for scientific Research, but there are a huge =
+number of other customers out there that also love Spot. As an example Spot=
+ works really well for loads of other use cases like analytics, big data, f=
+inancial modeling, geospatial analysis, image and media encoding, testing, =
+and web crawling. Check out this <a href=3D"http://youtu.be/BD1X5ItelOk" ta=
+rget=3D"_self">brand new video</a> for more information on common use cases=
+ and example customers who leverage them.</p>
+<p>Again, if you don't grasp the value of Spot Instances, you are behind th=
+e times. Check out <a href=3D"http://aws.amazon.com/ec2/spot-and-science/" =
+target=3D"_self">our new page</a> and bring yourself up to date today.</p>
+<p>If you have a scientific computing success story of your own (with or wi=
+thout Spot) or have feedback on how to make Spot even better, we'd love to =
+hear more about it. Please feel free to post a comment to the blog or to em=
+ail it to us at <a href=3D"mailto:spot-instance-feedback@amazon.com" target=
+=3D"_self">spot-instance-feedback@amazon.com</a>.</p>
+<p>Finally, if you are excited about Spot and want to join our team, please=
+ contact Kelly O=E2=80=99Mara at <a href=3D"mailto:komara@amazon.com" targe=
+t=3D"_self">komara@amazon.com</a> to learn more about the team and our open=
+ positions.</p>
+<p>-- Jeff;</p>
+<p>&nbsp;</p><div class=3D"feedflare">
+<a href=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DCRBDau=
+kuFS4:eT3mznN-G0I:yIl2AUoC8zA"><img src=3D"http://feeds.feedburner.com/~ff/=
+AmazonWebServicesBlog?d=3DyIl2AUoC8zA" border=3D"0"></img></a> <a href=3D"h=
+ttp://feeds.feedburner.com/~ff/AmazonWebServicesBlog?a=3DCRBDaukuFS4:eT3mzn=
+N-G0I:dnMXMwOfBR0"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebSer=
+vicesBlog?d=3DdnMXMwOfBR0" border=3D"0"></img></a> <a href=3D"http://feeds.=
+feedburner.com/~ff/AmazonWebServicesBlog?a=3DCRBDaukuFS4:eT3mznN-G0I:7Q72WN=
+TAKBA"><img src=3D"http://feeds.feedburner.com/~ff/AmazonWebServicesBlog?d=
+=3D7Q72WNTAKBA" border=3D"0"></img></a>
+</div><img src=3D"http://feeds.feedburner.com/~r/AmazonWebServicesBlog/~4/C=
+RBDaukuFS4?utm_source=3Dfeedburner&utm_medium=3Demail" height=3D"1" width=
+=3D"1"/></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://aws.typepad.com/aws/">Amazon Web Services Blog</a=
+>
+<br />To stop receiving these emails, you may <a href=3D"http://feedburner.=
+google.com/fb/a/mailunsubscribe?k=3DWYlqsHgFmj4AaMxCIo4DpqGJl_Y">unsubscrib=
+e now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 20 Wes=
+t Kinzie, Chicago IL USA 60610</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--20cf303bffac7ac01904ad8693ca--
